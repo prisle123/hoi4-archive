@@ -1062,6 +1062,8 @@
  SEA_china_democratic.20.desc: "[FROM.GetLeader], der [FROM.GetAdjective]e Präsident, forderte uns formell dazu auf, das Mínquán-Prinzip in unserem Verwaltungsgebiet durchzusetzen. Dies wird uns näher an die Republik heranführen und unserer Entwicklung zugutekommen."
  SEA_china_democratic.20.a: "Wir werden dem nachkommen."
  SEA_china_democratic.20.b: "An der Sache ist doch irgendetwas faul!"
+ SEA_china_misc.1.t: "$CHI_retreat_to_taiwan$"
+ SEA_china_misc.1.desc: "$CHI_retreat_to_taiwan_desc$"
  #######################
  ### COMMUNIST CHINA ###
  #######################

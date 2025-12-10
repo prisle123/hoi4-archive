@@ -2054,6 +2054,12 @@ on_actions = {
 					if = {
 						limit = {
 							has_character = USA_douglas_macarthur
+							NOT = {		#for leadership he can be recalled automatically, but don't lose him as leader for military command
+								has_country_leader = {
+									character = USA_douglas_macarthur
+									ruling_only = yes
+								}
+							}
 						}
 						set_nationality = {
 							target_country = USA

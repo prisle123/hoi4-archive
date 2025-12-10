@@ -3931,7 +3931,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_ENG_arthur_percival
-		texturefile = "gfx/leaders/ENG/portrait_Britain_arthur_percival.dds"
+		texturefile = "gfx/leaders/ENG/Portrait_Britain_Arthur_Percival.dds"
 	}
 
 	spriteType = {

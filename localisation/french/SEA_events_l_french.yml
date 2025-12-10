@@ -1062,6 +1062,8 @@
  SEA_china_democratic.20.desc: "\n[FROM.GetLeader], à la présidence [FROM.GetDuDelaDelNP] [FROM.GetName], nous a formellement sommés d'instaurer le principe du Mínquán sur nos territoires. C'est le meilleur moyen de nous rapprocher de la république et de dynamiser notre développement."
  SEA_china_democratic.20.a: "Nous acceptons"
  SEA_china_democratic.20.b: "Ça sent l'entourloupe..."
+ SEA_china_misc.1.t: "$CHI_retreat_to_taiwan$"
+ SEA_china_misc.1.desc: "$CHI_retreat_to_taiwan_desc$"
  #######################
  ### COMMUNIST CHINA ###
  #######################

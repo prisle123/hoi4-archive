@@ -2414,6 +2414,9 @@ country_event = {
 			category = armor
 			bonus = 1.0
 		}
+		hidden_effect = {
+			set_country_flag = JAP_did_the_border_war_flag
+		}
 	}
 	option = {
 		name = japan_border_conflict.2.b
@@ -2438,6 +2441,9 @@ country_event = {
 			original_tag = JAP
 		}
 		army_experience = 25
+		hidden_effect = {
+			set_country_flag = JAP_did_the_border_war_flag
+		}
 	}
 	option = {
 		name = japan_border_conflict.3.b

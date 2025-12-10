@@ -804,6 +804,7 @@
  marxist_academic: "Marxistischer Akademiker"
  marxist_priest: "Marxistischer Priester"
  guerilla_warfare_expert: "Experte für Guerilla-Kriegsführung"
+ guerilla_expert: "$guerilla_warfare_expert$"
  army_chief_entrenchment_expert: "Verschanzungsexperte"
  british_industrial_benefactor: "Britischer Industrieförderer"
  german_technological_patron: "Deutscher Technologiemäzen"

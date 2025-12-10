@@ -1303,7 +1303,10 @@ PRC_guerilla_cells_active_1 = {
 	remove_trigger = {
 		OR = {
 			controller = {
-				NOT = { has_war_with = PRC }
+				NOT = { 
+					has_war_with = PRC 
+					has_war_with = CHI 
+				}
 			}
 			AND = {
 				NOT = {
@@ -1312,9 +1315,6 @@ PRC_guerilla_cells_active_1 = {
 				compliance > 60
 			}
 			is_core_of = controller
-			PRC = {
-				exists = no
-			}
 		}
 	}
 	custom_modifier_tooltip = PRC_guerilla_cells_active_1_tt
@@ -1331,7 +1331,10 @@ PRC_guerilla_cells_active_2 = {
 	remove_trigger = {
 		OR = {
 			controller = {
-				NOT = { has_war_with = PRC }
+				NOT = { 
+					has_war_with = PRC 
+					has_war_with = CHI 
+				}
 			}
 			AND = {
 				NOT = {
@@ -1340,9 +1343,6 @@ PRC_guerilla_cells_active_2 = {
 				compliance > 60
 			}
 			is_core_of = controller
-			PRC = {
-				exists = no
-			}
 		}
 	}
 	custom_modifier_tooltip = PRC_guerilla_cells_active_2_tt
@@ -1887,6 +1887,7 @@ PHI_philippine_resistance_movement_dynamic_modifier = {
 	cas_damage_reduction = PHI_resistance_cas_damage_reduction
 	conscription = PHI_resistance_conscription
 	army_org_factor = PHI_resistance_army_org_factor
+	resistance_damage_to_garrison_on_our_occupied_states = PHI_resistance_resistance_damage_to_garrison_on_our_occupied_states
 }
 
 PHI_strong_guerrilla_presence = { #STATE MODIFIER

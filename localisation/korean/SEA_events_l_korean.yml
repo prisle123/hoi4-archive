@@ -1062,6 +1062,8 @@
  SEA_china_democratic.20.desc: "[FROM.GetNameDef]의 대통령 [FROM.GetLeader](이)가 우리 통치 영토 내에 민권주의 원칙을 시행하라는 공식 요구서를 보냈습니다. 이는 우리를 공화국에 더욱 가까이 다가가게 하고 우리의 발전에 도움이 될 것입니다."
  SEA_china_democratic.20.a: "따르겠다."
  SEA_china_democratic.20.b: "이건 무언가 수상하다!"
+ SEA_china_misc.1.t: "$CHI_retreat_to_taiwan$"
+ SEA_china_misc.1.desc: "$CHI_retreat_to_taiwan_desc$"
  #######################
  ### COMMUNIST CHINA ###
  #######################

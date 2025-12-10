@@ -2113,3 +2113,7 @@
  NOT_PARADROP_PREPARED: "공수 작전 준비 완료까지 앞으로 $CURRENT|R0$/$REQUIRED|Y0$일."
  JAP_emperor_hirohito_override_instant: "§H$JAP_hirohito$§!\n§H$JAP_keisuke_okada$§!가 일본의 민간정부를 이끌고 있지만, 히로히토는 존경받는 수장이며, 국가 내 권력의 상징으로 자리하고 있습니다.\n\n이 제국이 온전하게 존속하는 한, 여러 파벌이 §H제국의 영향력§!을 두고 경쟁할 것입니다."
  JAP_emperor_hirohito_override_delayed: ""
+ PLAN_COHESION_IMMOBILE_TITLE: "§H불동§!"
+ PLAN_COHESION_IMMOBILE_DESC: "사단은 §R절대로§! 이동하지 않는다!"
+ PLANNING_SPEED_COHESION_IMMOBILE_FACTOR: "$PLAN_COHESION_IMMOBILE_TITLE$ 결속: x$FACTOR|R$"
+

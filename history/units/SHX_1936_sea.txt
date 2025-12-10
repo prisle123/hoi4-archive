@@ -48,14 +48,14 @@ units = {
 	### Provincial Forces - Brigades ###
 	division = {
 		name = "70th Division" 
-		location = 1519 
+		location = 4174 
 		division_template = "Sanjiao Jun"		
 		start_equipment_factor = 0.2
 
 	}
 	division = {
 		name = "72nd Division" 
-		location = 1519 
+		location = 4174 
 		division_template = "Sanjiao Jun"		
 		start_equipment_factor = 0.2
 		officer = {
@@ -65,7 +65,7 @@ units = {
 	}
 	division = {
 		name = "68th Division" 
-		location = 1519 
+		location = 4174 
 		division_template = "Sanjiao Jun"		
 		start_equipment_factor = 0.2
 		officer = {
@@ -75,7 +75,7 @@ units = {
 	}
 	division = {
 		name = "69th Division" 
-		location = 1519 
+		location = 4174 
 		division_template = "Sanjiao Jun"		
 		start_equipment_factor = 0.2
 		officer = {

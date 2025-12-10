@@ -58,6 +58,23 @@ country_groups = {
 		KUM
 		RNG
     }
+    
+    chinese_warlords = {
+        GXC
+        YUN
+        SHX
+        XSM
+        SIK
+        GDC
+        SND
+        SIC
+        NXM
+        GSM
+        XIC
+        KHM
+        KUM
+        HBC
+    }
 
     islamic_world = {
         SAU

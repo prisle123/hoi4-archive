@@ -1062,6 +1062,8 @@
  SEA_china_democratic.20.desc: "[FROM.GetLeader]，作为[FROM.GetNameDef]的总统，向我们发来正式要求，要求在我们统治的领土内开始落实“民权”原则。这将把我们带得更接近共和国，也有助于我们的发展。"
  SEA_china_democratic.20.a: "我们会服从"
  SEA_china_democratic.20.b: "这其中必有猫腻！"
+ SEA_china_misc.1.t: "$CHI_retreat_to_taiwan$"
+ SEA_china_misc.1.desc: "$CHI_retreat_to_taiwan_desc$"
  #######################
  ### COMMUNIST CHINA ###
  #######################

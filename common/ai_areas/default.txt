@@ -315,17 +315,74 @@ areas = {
 
 	japan = {
 		strategic_regions = {
-			528 
-			530
-			529
-			531
-			532
-			535
-			534
-			282
-			533
-			536
-			555
+			154 # Home islands
+		}
+	}
+	
+	us_west_coast = {
+		strategic_regions = {
+			78
+			80
+			75
+		}
+	}
+	
+	pearl_harbor_pacific_control_zone = {
+		strategic_regions = {
+			105
+			180
+			95
+		}
+	}
+	
+	micronesia_pacific_control_zone = {
+		strategic_regions = {
+			97
+			84
+			83
+		}
+	}
+	
+	mariana_pacific_control_zone = {
+		strategic_regions = {
+			78
+			94
+		}
+	}
+	
+	north_pacific_control_zone = {
+		strategic_regions = {
+			96
+			177
+		}
+	}
+	
+	home_islands_control_zone = {
+		strategic_regions = {
+			76
+			90
+		}
+	}
+	
+	western_med_control_zone = {
+		strategic_regions = {
+			68
+			169
+		}
+	}
+	
+	eastern_med_control_zone = {
+		strategic_regions = {
+			29
+			69
+		}
+	}
+	
+	italy_med_control_zone = {
+		strategic_regions = {
+			169
+			29
+			168
 		}
 	}
 }

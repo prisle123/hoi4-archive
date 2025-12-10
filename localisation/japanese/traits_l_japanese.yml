@@ -804,6 +804,7 @@
  marxist_academic: "マルクス主義の研究者"
  marxist_priest: "マルクス主義の司祭"
  guerilla_warfare_expert: "ゲリラ戦の達人"
+ guerilla_expert: "$guerilla_warfare_expert$"
  army_chief_entrenchment_expert: "塹壕の達人"
  british_industrial_benefactor: "イギリスの産業後援者"
  german_technological_patron: "ドイツの技術後援者"

@@ -804,6 +804,7 @@
  marxist_academic: "马克思主义学者"
  marxist_priest: "马克思主义神甫"
  guerilla_warfare_expert: "游击战专家"
+ guerilla_expert: "$guerilla_warfare_expert$"
  army_chief_entrenchment_expert: "堑壕战专家"
  british_industrial_benefactor: "英国工业投资商"
  german_technological_patron: "德国科技赞助商"

@@ -2113,3 +2113,7 @@
  NOT_PARADROP_PREPARED: "Le parachutage est en préparation ($CURRENT|R0$ jours sur $REQUIRED|Y0$)."
  JAP_emperor_hirohito_override_instant: "§H$JAP_hirohito$§!\n§H$JAP_keisuke_okada$§! dirige peut-être le gouvernement civil japonais, mais c'est Hirohito qui incarne bel et bien l'autorité de la nation.\n\nDe nombreuses factions se disputent l'§Hinfluence impériale§!, tant que l'Empire tient encore debout."
  JAP_emperor_hirohito_override_delayed: ""
+ PLAN_COHESION_IMMOBILE_TITLE: "§HImmobile§!"
+ PLAN_COHESION_IMMOBILE_DESC: "Les divisions resteront §Rimmobiles§!"
+ PLANNING_SPEED_COHESION_IMMOBILE_FACTOR: "$PLAN_COHESION_IMMOBILE_TITLE$ Cohésion : x$FACTOR|R$"
+

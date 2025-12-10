@@ -23,7 +23,6 @@ guiTypes = {
 			background = {
 				name = "Background"
 				spriteType = "GFX_tiled_window_1b_border"
-				alwaystransparent = yes
 			}
 
 			iconType = {

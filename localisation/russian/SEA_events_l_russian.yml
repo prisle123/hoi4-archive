@@ -1062,6 +1062,8 @@
  SEA_china_democratic.20.desc: "Президент [FROM.GetNameRuGen] [FROM.GetLeader] прислал нам формальное требование соблюдать принцип миньцюань на подконтрольных нам территориях. Это сблизит нас с республикой и ускорит наше развитие."
  SEA_china_democratic.20.a: "Мы подчинимся"
  SEA_china_democratic.20.b: "В этом есть какой-то подвох!"
+ SEA_china_misc.1.t: "$CHI_retreat_to_taiwan$"
+ SEA_china_misc.1.desc: "$CHI_retreat_to_taiwan_desc$"
  #######################
  ### COMMUNIST CHINA ###
  #######################

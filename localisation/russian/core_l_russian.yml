@@ -2113,3 +2113,7 @@
  NOT_PARADROP_PREPARED: "Подготовка воздушного десанта еще продолжается: $CURRENT|R0$/$REQUIRED|Y0$ дн."
  JAP_emperor_hirohito_override_instant: "§H$JAP_hirohito$§!\nХотя гражданское правительство возглавляет§H$JAP_keisuke_okada$§!, воплощением власти в стране считается высокочтимый глава государства Хирохито.\n\nПока империя остается единой, за §Hвлияние§! внутри нее продолжают бороться многочисленные фракции."
  JAP_emperor_hirohito_override_delayed: ""
+ PLAN_COHESION_IMMOBILE_TITLE: "§HНеподвижный§!"
+ PLAN_COHESION_IMMOBILE_DESC: "Дивизии §Rникогда§! не будут передислоцированы!"
+ PLANNING_SPEED_COHESION_IMMOBILE_FACTOR: "Сплочённость $PLAN_COHESION_IMMOBILE_TITLE$: x$FACTOR|R$"
+

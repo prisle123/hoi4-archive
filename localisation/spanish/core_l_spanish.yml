@@ -2113,3 +2113,7 @@
  NOT_PARADROP_PREPARED: "Despliegue de paracaidistas aún en preparación: $CURRENT|R0$/$REQUIRED|Y0$ días."
  JAP_emperor_hirohito_override_instant: "§H$JAP_hirohito$§!\nAunque §H$JAP_keisuke_okada$§! esté a la cabeza del gobierno civil de Japón, el venerado líder del estado, Hirohito, representa la personificación del poder en la nación.\n\nVarias facciones compiten por la §Hinfluencia imperial§! siempre que el Imperio permanezca intacto."
  JAP_emperor_hirohito_override_delayed: ""
+ PLAN_COHESION_IMMOBILE_TITLE: "§HInmóvil§!"
+ PLAN_COHESION_IMMOBILE_DESC: "¡Las divisiones §Rnunca§! se reubicarán!"
+ PLANNING_SPEED_COHESION_IMMOBILE_FACTOR: "Cohesión $PLAN_COHESION_IMMOBILE_TITLE$: x$FACTOR|R$"
+

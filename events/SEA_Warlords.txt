@@ -1586,6 +1586,7 @@ country_event = {
 						has_war_with = PREV
 					}
 					has_idea = SIK_battle_for_sinkiang
+					original_tag = HBC 
 				}
 			}
 
@@ -1660,6 +1661,7 @@ country_event = {
 					freedom_level = 0.5
 				}
 			}
+			add_to_array = { warlord_subjects = ROOT } 
 			country_event = {
 				id = SEA_warlords.39
 				hours = 6

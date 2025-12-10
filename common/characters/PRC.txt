@@ -2536,7 +2536,7 @@ PRC_zhang_wentian = {
 					original_tag = PRC
 				}
 				traits = {
-					guerilla_warfare_expert
+					guerilla_expert
 				}
 				cost = 100
 				ai_will_do = {
@@ -3256,7 +3256,7 @@ PRC_zhang_wentian = {
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist guerilla_fighter }
+			traits={ guerilla_fighter }
 			skill=2
 			attack_skill=1
 			defense_skill=1

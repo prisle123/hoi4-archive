@@ -1062,6 +1062,8 @@
  SEA_china_democratic.20.desc: "[FROM.GetNameDef]大統領の[FROM.GetLeader]は、我々の統治領で民権主義の導入を始めるよう正式に要請してきた。このことは我々を共和国に近づけ、我々の発展を助けるだろう。"
  SEA_china_democratic.20.a: "これに従おう"
  SEA_china_democratic.20.b: "これは怪しいぞ！"
+ SEA_china_misc.1.t: "$CHI_retreat_to_taiwan$"
+ SEA_china_misc.1.desc: "$CHI_retreat_to_taiwan_desc$"
  #######################
  ### COMMUNIST CHINA ###
  #######################

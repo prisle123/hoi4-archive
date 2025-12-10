@@ -2113,3 +2113,7 @@
  NOT_PARADROP_PREPARED: "伞降还需要准备$CURRENT|R0$/$REQUIRED|Y0$日。"
  JAP_emperor_hirohito_override_instant: "§H$JAP_hirohito$§!\n虽然日本民选政府已经由§H$JAP_keisuke_okada$§!领导，但备受尊崇的国家元首裕仁天皇仍然是国家权力的象征。\n\n只要帝国体系延续，众多派系就会持续争夺皇室影响力。"
  JAP_emperor_hirohito_override_delayed: ""
+ PLAN_COHESION_IMMOBILE_TITLE: "§H不动§!"
+ PLAN_COHESION_IMMOBILE_DESC: "师团§R绝不会§!调动！"
+ PLANNING_SPEED_COHESION_IMMOBILE_FACTOR: "$PLAN_COHESION_IMMOBILE_TITLE$ 团结: x$FACTOR|R$"
+

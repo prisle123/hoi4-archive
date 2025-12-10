@@ -805,6 +805,7 @@
  marxist_academic:0 "Marxist Academic"
  marxist_priest:0 "Marxist Priest"
  guerilla_warfare_expert:0 "Guerilla Warfare Expert"
+ guerilla_expert: "$guerilla_warfare_expert$"
  army_chief_entrenchment_expert:0 "Entrenchment Expert"
  british_industrial_benefactor:0 "British Industrial Benefactor"
  german_technological_patron:0 "German Technological Patron"
