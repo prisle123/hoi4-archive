@@ -62,6 +62,7 @@
  CHI_personal_leadership: "直接指揮"
  CHI_personal_leadership_desc: "軍の指揮系統を分けることは、士官が地位を高める為に権力を奪おうと考えるリスクを負うことでもある。政府に対する兵士の忠誠心を確実なものにしなければならない。"
  CHI_personal_leadership_tt: "§Y陳済棠§!がレベル§Y3§!の陸軍元帥として利用可能になった"
+ CHI_personal_leadership_custom_tt: "[ROOT.GetLeader]は次の特性のうち1つをランダムで獲得する: §Y$brilliant_strategist$§!、§Y$career_officer$§!、§Y$cavalry_officer$§!、§Y$infantry_officer$§!、§Y$old_guard$§!、§Y$politically_connected$§!、§Y$war_hero$§!"
  CHI_cult_of_personality: "個人崇拝"
  CHI_cult_of_personality_desc: "民衆は暗い日々を明るい未来に導く人物を知るだけでなく、その人物が持つ優れた資質を知る必要がある。"
  CHI_provoke_border_clashes: "国民党との国境衝突"

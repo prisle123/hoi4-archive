@@ -62,6 +62,7 @@
  CHI_personal_leadership: "개인의 지도력"
  CHI_personal_leadership_desc: "군 지휘부를 분산시키면 분수를 넘는 생각을 품은 장교가 권력을 찬탈하려 들 수 있습니다. 우리는 군인들이 언제나 항상 정부에 충성하도록 하여야 합니다."
  CHI_personal_leadership_tt: "§Y천지탕§!을 §Y3§!레벨 원수로 사용할 수 있게 됩니다."
+ CHI_personal_leadership_custom_tt: "[ROOT.GetLeader](이)가 다음 특성 중 하나를 무작위로 얻습니다: §Y$brilliant_strategist$§!, §Y$career_officer$§!, §Y$cavalry_officer$§!, §Y$infantry_officer$§!, §Y$old_guard$§!, §Y$politically_connected$§!, §Y$war_hero$§!."
  CHI_cult_of_personality: "개인숭배"
  CHI_cult_of_personality_desc: "이 암울한 시기를 뚫고 밝은 미래로 인도하는 자가 누구인지, 그리고 그 사람이 얼마나 다양하고 뛰어난 자질을 가졌는지 국민이 알아야 합니다."
  CHI_provoke_border_clashes: "국민당과의 국경 분쟁"

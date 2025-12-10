@@ -315,7 +315,7 @@
  USA_monroe_abandoned_us: "Америка бросила нас несмотря на доктрину Монро"
  BRA_america_do_sul_cat: "$BRA_unify_south_america$"
  BRA_america_do_sul_cat_desc: "$BRA_unify_south_america_desc$"
- BRA_integrate_state: "Интегрировать государство §Y[FROM.GetName]§!"
+ BRA_integrate_state: "Интегрировать регион §Y[FROM.GetName]§!"
  BRA_core_decision_active: "Идет интеграция региона"
  BRA_us_of_south_america_cat: "$BRA_united_states_of_south_america$"
  BRA_us_of_south_america_cat_desc: "$BRA_united_states_of_south_america_desc$"

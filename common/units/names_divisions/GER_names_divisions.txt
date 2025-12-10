@@ -468,13 +468,13 @@ GER_ALTINF_01 = {
 
 
 GER_LTINF_01 = {
-	name = "Light Infantry Divisions"
+	name = "Ranger Divisions"
 
 	for_countries = { GER }
 
 	can_use = { always = yes }
 
-	division_types = { "infantry"  }
+	division_types = { "ranger_battalion"  }
 
 	fallback_name = "%d. Jäger-Division"
 
@@ -509,6 +509,7 @@ GER_MOT_01 = {
 		OR = {
 			has_government = neutrality 
 			has_government = democratic 
+			has_government = communism
 		}
 		OR = {
 			has_completed_focus = GER_oppose_hitler
@@ -695,9 +696,6 @@ GER_MEC_01_COMMUNIST = {
 		20 = { "%d. Panzer-Grenadier-Division" }
 		931 = { "Panzer-Grenadier-Division Walter Ulbricht" }
 		933 = { "Fallschirm-Panzergrenadier-Division 2 Ernst Thälmann" }
-		936 = { "Volks-Begleit-Division" }
-		935 = { "Volks-Grenadier-Division" }
-		934 = { "Panzer-Grenadier-Division Kurmark" }
 		
 	}
 }

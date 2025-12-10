@@ -62,6 +62,7 @@
  CHI_personal_leadership: "绝对领导"
  CHI_personal_leadership_desc: "军队指挥权分散便会滋生暗藏贰心的军官阴谋夺权的风险，必须确保我军将士时刻保持对政府的忠诚。"
  CHI_personal_leadership_tt: "§Y陈济棠§!将成为可用的3级§Y陆军元帅§!"
+ CHI_personal_leadership_custom_tt: "[ROOT.GetLeader]随机获得以下特征之一：§Y$brilliant_strategist$§!、§Y$career_officer$§!、§Y$cavalry_officer$§!、§Y$infantry_officer$§!、§Y$old_guard$§!、§Y$politically_connected$§!、§Y$war_hero$§!。"
  CHI_cult_of_personality: "个人崇拜"
  CHI_cult_of_personality_desc: "人民需要知道是谁带领他们熬过黑暗岁月，走向光明未来。同时也要知道集这位领袖于一身的杰出品质和优点。"
  CHI_provoke_border_clashes: "向国民党挑起边境冲突"

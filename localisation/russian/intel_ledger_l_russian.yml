@@ -41,6 +41,8 @@
  NAVAL_MISSION_INTEL: "На задание «$MISSION|H$» в этом регионе назначены оперативные соединения ($COUNT|H$). Активно выполняют задание в регионе: $ACTIVE|H$."
  NAVAL_MISSION_INTEL_ALL_ASSIGNED: "Задание «$MISSION|H$» в этом регионе активно выполняют оперативные соединения ($COUNT|H$)."
  AIR_MISSION_INTEL_RANGE: "На задание «$MISSION|H$» в этом регионе назначены самолёты ($RANGE|H$)."
+ AIR_MISSION_INTEL_RANGE_MISSILES: "На задание «$MISSION|H$» в этом регионе назначены ракеты ($RANGE|H$)."
+ AIR_MISSION_INTEL_RANGE_GUNS: "На задание «$MISSION|H$» в этом регионе назначены оружия ($RANGE|H$)."
  NAVAL_BASE_TASKFORCE_COUNT: "Оперативные соединения, пришвартованные к этой морской базе: $COUNT|H$."
  ARMY_LEDGER_ARMIES: "Дивизии"
  ARMY_LEDGER_EQUIPMENT: "Запасы"

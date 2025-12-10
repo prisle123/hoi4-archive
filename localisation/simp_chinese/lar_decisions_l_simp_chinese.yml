@@ -229,7 +229,7 @@
  SPR_the_seeds_of_revolution: "革命种子"
  SPR_concessions_to_the_anarchists: "对安那其主义者让步"
  SPR_ignite_uprising: "发动安那其暴动"
- SPR_ignite_uprising_timer_mission: "即将到来的无政府主义者起义"
+ SPR_ignite_uprising_timer_mission: "安那其暴动临近"
  SPR_ignite_uprising_timer_mission_tt: "§R安那其部队将在多个已控制的地区起义。§!\n"
  SPR_integrate_commune: "整合[From.GetName]公社"
  SPR_recovering_from_civil_war: "从内战中恢复"

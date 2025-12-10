@@ -62,6 +62,7 @@
  CHI_personal_leadership: "Liderança pessoal"
  CHI_personal_leadership_desc: "Dividir o comando dos riscos militares cria chance para oficiais com ideias além de seu cargo tentarem usurpar de seu poder. Precisamos garantir que nossos soldados sejam sempre leais ao governo."
  CHI_personal_leadership_tt: "§YChen Jitang§! fica disponível como marechal de campo de nível §Y3§!"
+ CHI_personal_leadership_custom_tt: "[ROOT.GetLeader] ganha aleatoriamente uma das seguintes características: §Y$brilliant_strategist$§!, §Y$career_officer$§!, §Y$cavalry_officer$§!, §Y$infantry_officer$§!, §Y$old_guard$§!, §Y$politically_connected$§!, §Y$war_hero$§!."
  CHI_cult_of_personality: "Culto da Personalidade"
  CHI_cult_of_personality_desc: "O povo precisa saber quem os lidera nos dias sombrios, os levando para um futuro melhor, e saber também das qualidades do homem."
  CHI_provoke_border_clashes: "Provocar confrontos na fronteira com nacionalistas"

@@ -38,6 +38,7 @@ CHI_sea_warlord_alternate_plan_nationalist = {
 		SIC_develop_chongqing
 		SIC_the_domain_of_liu_wenhui
 		SIC_develop_xikang
+		SIC_push_back_the_tibetans
 		SIC_the_armies_of_yang_sen
 		SIC_anti_communism
 		SIC_drive_out_the_japanese

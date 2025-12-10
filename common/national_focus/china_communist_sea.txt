@@ -4386,6 +4386,7 @@ focus_tree = {
 				}
 				has_government = communism
 			}
+			is_subject = no
 		}
 		
 		bypass = {
@@ -7571,6 +7572,7 @@ focus = {
 		}
 
 		available = {
+			is_subject = no 
 			is_faction_leader = yes
 			faction_influence_ratio > 0.5
 			any_allied_country = {
@@ -7581,6 +7583,7 @@ focus = {
 			}
 			event_target:WTT_current_china_leader = {
 				exists = yes
+				is_in_faction_with = ROOT
 			}
 		}
 		
@@ -7773,14 +7776,6 @@ focus = {
 		available = {
 			is_subject = no
 			NOT = {
-				any_other_country = {
-					is_literally_china_tooltip = yes
-					NOT = {
-						is_subject_of = ROOT
-					}
-				}
-			}
-			NOT = {
 				has_war_with = TIB
 			}
 		}
@@ -7857,6 +7852,11 @@ focus = {
 					NOT = {
 						is_subject_of = ROOT
 					}
+				}
+			}
+			NOT = {
+				any_enemy_country = {
+					original_tag = KOR
 				}
 			}
 		}
@@ -8001,11 +8001,13 @@ focus = {
 
 		available = {
 			is_subject = no
-			any_enemy_country = {
-				NOT = {
-					original_tag = MON
-					original_tag = TAN
-					original_tag = SOV
+			NOT = {
+				any_enemy_country = {
+					OR = {
+						original_tag = MON
+						original_tag = TAN
+						original_tag = SOV
+					}
 				}
 			}
 		}
@@ -8077,6 +8079,28 @@ focus = {
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 			custom_effect_tooltip = PRC_unlock_integration_decisions_tt
+
+			every_controlled_state = {
+				limit = {
+					NOT = {
+						is_core_of = ROOT
+					}
+					OR = {
+						is_core_of = TAN
+						is_core_of = MON
+						state = 732
+						state = 586
+						state = 589
+						state = 588
+						state = 408
+						state = 409
+						state = 560
+						state = 657
+						state = 561
+					}
+				}
+				add_core_of = ROOT
+			}
 
 		}
 	}
@@ -8455,7 +8479,7 @@ focus = {
 				effect_tooltip = {
 					CHI = {
 						add_country_leader_role = {
-							character = CHI_zhang_lan
+							character = CHI_chen_mingshu
 							promote_leader = yes
 							country_leader = {
 								ideology = socialism

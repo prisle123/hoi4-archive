@@ -622,6 +622,8 @@
  BEL_king_law_freedom_ns_desc: "ベルギーのモットーは、ベルギー人の精神をよく表している。「国王、それは我らを勝利へと導く者。法、それは戦争の混乱を切り裂く剣。自由、それはベルギーとベルギー国民のもの」"
  BEL_chasseurs_ardennais_ns: "シャスール・アルデンネ"
  BEL_chasseurs_ardennais_ns_desc: "シャスール・アルデンネはベルギーのアルデンヌ地方を守る熟練兵で、森林戦の経験と訓練を十分に積んでいる。"
+ BEL_chasseurs_ardennais_ns_ncns: "$BEL_chasseurs_ardennais_ns$"
+ BEL_chasseurs_ardennais_ns_ncns_desc: "$BEL_chasseurs_ardennais_ns_desc$"
  BEL_dissolve_political_parties_ns: "政党の解散"
  BEL_dissolve_political_parties_ns_desc: "我が国の首相は、各政党こそが現在の堕落した政治の原因であるとして、堕落から回復するにはこれらの政党を解散させるしかないと宣言した。"
  BEL_the_walloon_legion_ns: "ワロン軍団"

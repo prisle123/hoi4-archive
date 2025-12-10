@@ -2,7 +2,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "tutorial_screen_1"
-		size = { width = 607 height = 580 }
+		size = { width = 607 height = 750 }
 		position = { x = -303 y = -310 }
 		orientation = CENTER
 		moveable = yes
@@ -31,7 +31,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "objectives"
-			position = { x = -75 y = 113 }
+			position = { x = -75 y = 27 }
 			font = "hoi_18mbs"
 			text = "TUT_OBJECTIVES"
 			orientation = "CENTER"
@@ -148,7 +148,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "wiki_link_1"
-			position = {x=-192 y=77}
+			position = {x=-192 y=0}
 			orientation = "CENTER"
 			quadTextureSprite ="GFX_wiki_button"
 			font = "hoi_18mbs"
@@ -156,6 +156,18 @@ guiTypes = {
 			clicksound = click_checkbox
 			oversound = ui_menu_over
 			web_link = "Beginner%27s_guide"
+		}
+
+		buttonType = {
+			name = "youtube_tutorial_link"
+			position = {x=-192 y=-25}
+			orientation = "CENTER"
+			quadTextureSprite ="GFX_youtube_button"
+			font = "hoi_18mbs"
+			text = "BUTTON_TUTORIAL_VIDEO"
+			clicksound = click_checkbox
+			oversound = ui_menu_over
+			web_link = "https://pdxint.at/hoibeginnersguide202526t"
 		}
 
 		instantTextboxType = {
@@ -226,7 +238,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "minimize"
-			position = {x=-411 y=-60}
+			position = {x=-411 y=-230}
 			orientation = "LOWER_RIGHT"
 			quadTextureSprite ="GFX_button_221x34"
 			font = "hoi_18mbs"

@@ -1572,13 +1572,13 @@
 		completion_reward = {
 			add_command_power = 30
 			custom_effect_tooltip = generic_skip_one_line_tt
+
 			IF = {
 				limit = {
 					any_character = {
 						is_country_leader = yes
 						is_field_marshal = yes 
 					}
-	
 				}
 				random_character = {
 					limit = {
@@ -1587,7 +1587,11 @@
 					}
 					add_attack = 1
 					add_defense = 1
-					add_random_trait = { old_guard brilliant_strategist cavalry_officer politically_connected career_officer infantry_officer war_hero }	
+					custom_effect_tooltip = generic_skip_one_line_tt
+					custom_effect_tooltip = CHI_personal_leadership_custom_tt
+					hidden_effect = {
+						add_random_trait = { old_guard brilliant_strategist cavalry_officer politically_connected career_officer infantry_officer war_hero }
+					}	
 				}
 			}
 			ELSE = {
@@ -1603,7 +1607,10 @@
 						planning_skill = 2
 						logistics_skill = 1
 					}
-					add_random_trait = { old_guard brilliant_strategist cavalry_officer politically_connected 	career_officer infantry_officer war_hero }
+					custom_effect_tooltip = CHI_personal_leadership_custom_tt
+					hidden_effect = {
+						add_random_trait = { old_guard brilliant_strategist cavalry_officer politically_connected career_officer infantry_officer war_hero }
+					}	
 				}
 			}
 		}
@@ -2651,6 +2658,8 @@
 		icon = GFX_focus_CHI_military_affairs_commission
 		x = 0
 		y = 1
+
+		dynamic = yes 
 
 		cost = 10
 
@@ -4051,7 +4060,7 @@
 
 	focus = {
 		id = SIK_reestablish_the_guominjun
-		icon = GFX_focus_JAP_strenghten_manchukuo_imperial_army
+		icon = GFX_focus_MAN_restore_the_beiyang_army
 		x = 0
 		y = 1
 
@@ -4891,7 +4900,68 @@
 						character = QHM_ma_lin
 					}
 				}
+				# As to current ruling ideology, visible 
 				add_country_leader_trait = XSM_popular_governor
+				IF = {
+					limit = {
+						has_completed_focus = CHI_sea_secure_internal_politics
+					}
+					# As to all other ideology versions, not visible 
+					hidden_effect = {
+						IF = {
+							limit = {
+								NOT = {
+									has_government = communism
+								}
+							}
+							QHM_ma_lin = {
+								add_trait = {
+								    ideology = anti_revisionism
+								    trait = XSM_popular_governor
+								}
+							}
+						}
+						IF = {
+							limit = {
+								NOT = {
+									has_government = fascism
+								}
+							}
+							QHM_ma_lin = {
+								add_trait = {
+								    ideology = rexism
+								    trait = XSM_popular_governor
+								}
+							}
+						}
+						IF = {
+							limit = {
+								NOT = {
+									has_government = democratic
+								}
+							}
+							QHM_ma_lin = {
+								add_trait = {
+								    ideology = socialism
+								    trait = XSM_popular_governor
+								}
+							}
+						}
+						IF = {
+							limit = {
+								NOT = {
+									has_government = neutrality
+								}
+							}
+							QHM_ma_lin = {
+								add_trait = {
+								    ideology = despotism
+								    trait = XSM_popular_governor
+								}
+							}
+						}
+					}
+				}
 			}
 			ELSE_IF = {
 				limit = {
@@ -4899,7 +4969,63 @@
 						character = XSM_ma_bufang
 					}
 				}
+				# As to current ruling ideology, visible 
 				add_country_leader_trait = XSM_loyal_warlord
+				# As to all other ideology versions, not visible 
+				hidden_effect = {
+					IF = {
+						limit = {
+							NOT = {
+								has_government = communism
+							}
+						}
+						XSM_ma_bufang = {
+							add_trait = {
+							    ideology = anti_revisionism
+							    trait = XSM_loyal_warlord
+							}
+						}
+					}
+					IF = {
+						limit = {
+							NOT = {
+								has_government = fascism
+							}
+						}
+						XSM_ma_bufang = {
+							add_trait = {
+							    ideology = rexism
+							    trait = XSM_loyal_warlord
+							}
+						}
+					}
+					IF = {
+						limit = {
+							NOT = {
+								has_government = democratic
+							}
+						}
+						XSM_ma_bufang = {
+							add_trait = {
+							    ideology = socialism
+							    trait = XSM_loyal_warlord
+							}
+						}
+					}
+					IF = {
+						limit = {
+							NOT = {
+								has_government = neutrality
+							}
+						}
+						XSM_ma_bufang = {
+							add_trait = {
+							    ideology = despotism
+							    trait = XSM_loyal_warlord
+							}
+						}
+					}
+				}
 			}	
 		}
 	}
@@ -5629,6 +5755,7 @@
 		available = {
 			is_subject = no
 		}
+		will_lead_to_war_with = TIB
 
 		bypass = {
 			
@@ -6952,7 +7079,7 @@
 
 	focus = {
 		id = XIC_restore_the_glory_of_the_fengtian_army 
-		icon = GFX_focus_JAP_strenghten_manchukuo_imperial_army
+		icon = GFX_focus_MAN_restore_the_beiyang_army
 		x = -1
 		y = 1
 

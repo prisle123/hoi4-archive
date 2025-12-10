@@ -313,7 +313,7 @@
  VIC_recall_guest_workers: "Отозвать иностранных рабочих"
  GER_begin_heavy_water_production: "Начать производство тяжелой воды"
  FRA_prepare_coup_tt: "Открывает доступ к §Yразведывательной операции§!, которая позволит осуществить местный переворот, в результате которого эти территории отойдут вам."
- instantiate_collaboration: "Создать коллаборационистское правительство на территории: [From.GetNameDef]"
+ instantiate_collaboration: "Создать коллаборационистское правительство в [From.GetNameRuPrep]"
  compliance_80_effect_tooltip: "Создать коллаборационистское правительство на территории: [?country_to_initiate.GetName]"
  recruit_in_europe: "Создать европейское отделение"
  recruit_in_europe_state: "Завербовать в государство [From.Owner.GetNameDef]"

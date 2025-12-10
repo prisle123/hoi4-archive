@@ -9,7 +9,7 @@
  anschluss_short_desc: "§L通过隐秘手段在奥地利推动对法西斯的支持。§!"
  anschluss_1: "政治影响"
  take_state: "征服"
- take_state_desc: "从$TARGET|Y$手里夺取$STATE|Y$。"
+ take_state_desc: "从$TARGET|Y$夺取$STATE|Y$。"
  take_state_short_desc: "设定此战争目标可以在和谈中用更小的代价获得已选择的地区。"
  take_state_focus: "征服（国策）"
  take_state_focus_desc: "从$TARGET|Y$夺取$STATE|Y$。"

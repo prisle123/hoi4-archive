@@ -4284,7 +4284,6 @@ focus_tree = {
 				bonus = 0.1
 				days = 240
 				track = armor
-				grand_doctrine = new_mobile_warfare
 			}
 			add_mastery_bonus = {
 				name = GER_adopt_new_panzer_doctrine
@@ -4928,10 +4927,15 @@ focus_tree = {
 
 			add_mastery_bonus = {
 				name = GER_dive_bombers
-				bonus = 0.2
+				bonus = 0.05
+				days = 180
+				grand_doctrine = new_battlefield_support
+			}
+			add_mastery_bonus = {
+				name = GER_dive_bombers
+				bonus = 0.15
 				days = 180
 				track = strike_aircraft
-				grand_doctrine = new_battlefield_support
 			}
 			add_doctrine_cost_reduction = {
 				name = GER_dive_bombers
@@ -5068,9 +5072,14 @@ focus_tree = {
 
 			add_mastery_bonus = {
 				name = GER_tactical_bombers
-				bonus = 0.2
+				bonus = 0.15
 				days = 180
 				grand_doctrine = new_operational_integrity
+			}
+			add_mastery_bonus = {
+				name = GER_tactical_bombers
+				bonus = 0.05
+				days = 180
 				track = medium_aircraft
 			}
 
@@ -5208,9 +5217,14 @@ focus_tree = {
 
 			add_mastery_bonus = {
 				name = GER_uralbomber_program
-				bonus = 0.2
+				bonus = 0.05
 				days = 180
 				grand_doctrine = new_strategic_destruction
+			}
+			add_mastery_bonus = {
+				name = GER_uralbomber_program
+				bonus = 0.15
+				days = 180
 				track = heavy_aircraft
 			}
 			add_doctrine_cost_reduction = {
@@ -6767,7 +6781,7 @@ focus_tree = {
 						}
 					}
 					create_equipment_variant = {
-						name = "Graf Zeppelin Class"				
+						name = "Graf Zeppelin"				
 						name_group = GER_CV_HISTORICAL
 						type = ship_hull_carrier_conversion_ca
 						modules = {
@@ -6783,7 +6797,7 @@ focus_tree = {
 						equipment = {
 							type = ship_hull_carrier_conversion_ca
 							creator = "GER"
-							version_name = "Graf Zeppelin Class"
+							version_name = "Graf Zeppelin"
 						}
 						name = "Graf Zeppelin"
 						requested_factories = 1
@@ -6800,7 +6814,7 @@ focus_tree = {
 						}
 					}
 					create_equipment_variant = {
-						name = "Graf Zeppelin Class"				
+						name = "Graf Zeppelin"				
 						name_group = GER_CV_HISTORICAL
 						type = ship_hull_carrier_1
 						modules = {
@@ -6817,7 +6831,7 @@ focus_tree = {
 						equipment = {
 							type = ship_hull_carrier_1
 							creator = "GER"
-							version_name = "Graf Zeppelin Class"
+							version_name = "Graf Zeppelin"
 						}
 						name = "Graf Zeppelin"
 						requested_factories = 1
@@ -6831,7 +6845,7 @@ focus_tree = {
 						has_tech = improved_ship_hull_carrier
 					}
 					create_equipment_variant = {
-						name = "Graf Zeppelin Class"				
+						name = "Graf Zeppelin"				
 						name_group = GER_CV_HISTORICAL
 						type = ship_hull_carrier_2
 						modules = {
@@ -6849,7 +6863,7 @@ focus_tree = {
 						equipment = {
 							type = ship_hull_carrier_2
 							creator = "GER"
-							version_name = "Graf Zeppelin Class"
+							version_name = "Graf Zeppelin"
 						}
 						name = "Graf Zeppelin"
 						requested_factories = 1
@@ -7676,7 +7690,7 @@ focus_tree = {
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
 				create_equipment_variant = {
-					name = "Panzer Class"
+					name = "Panzerschiff"
 					type = ship_hull_cruiser_3
 					name_group = GER_CA_HISTORICAL
 					modules = {
@@ -7742,12 +7756,25 @@ focus_tree = {
 
 		completion_reward = {
 			
-			add_mastery_bonus = {
-				name = GER_wolfpack_tactics
-				bonus = 0.1
-				days = 240
-				grand_doctrine = new_convoy_raiding
-				track = submarines
+			if = {
+				limit = {
+					has_doctrine = wolfpacks
+				}
+
+				add_mastery_bonus = {
+					name = GER_wolfpack_tactics
+					bonus = 0.20
+					days = 240
+					sub_doctrine = wolfpacks
+				}
+				else = {
+					add_mastery_bonus = {
+						name = GER_wolfpack_tactics
+						bonus = 0.1
+						days = 240
+						track = submarines
+					}
+				}
 			}
 			
 

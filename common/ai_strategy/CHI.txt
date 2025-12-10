@@ -1119,7 +1119,7 @@ warlords_help_pls  = {
 	}
 }
 
-CHI_stop_disbanding_your_army = {
+CHI_stop_disbanding_your_army_pre_war = {
 	allowed = { 
 		original_tag = CHI
 		has_dlc = "No Compromise, No Surrender"
@@ -1135,7 +1135,7 @@ CHI_stop_disbanding_your_army = {
 		value = 1000
 	}
 } 
-CHI_stop_disbanding_your_army = {
+CHI_stop_disbanding_your_army_during_war = {
 	allowed = { 
 		original_tag = CHI
 		has_dlc = "No Compromise, No Surrender"
@@ -1148,5 +1148,25 @@ CHI_stop_disbanding_your_army = {
 	ai_strategy = {
 		type = ai_wanted_divisions_factor
 		value = 100
+	}
+}
+CHI_stop_helping_HBC = {
+	allowed = { 
+		has_dlc = "No Compromise, No Surrender"
+		original_tag = CHI
+	}
+	enable = {
+		NOT = {
+			HBC = {
+				is_subject_of = CHI
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = support
+		id = HBC
+		value = -100
 	}
 } 

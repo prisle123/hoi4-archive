@@ -101,7 +101,7 @@ generic_naval_blockade = {
     objective_type = naval_blockade
 
      blocked_for = {
-        ENG FRA GER ITA JAP SOV USA
+        JAP
     }
 
     min_priority = 10

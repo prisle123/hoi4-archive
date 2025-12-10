@@ -62,6 +62,7 @@
  CHI_personal_leadership:0 "Personal Leadership"
  CHI_personal_leadership_desc:1 "Splitting command of the military risks an officer with ideas above his station trying to usurp power. We must ensure that our soldiers are always loyal to the government."
  CHI_personal_leadership_tt: "§YChen Jitang§! becomes available as a level §Y3§! Field Marshal"
+ CHI_personal_leadership_custom_tt: "[ROOT.GetLeader] gains one of the following traits at random: §Y$brilliant_strategist$§!, §Y$career_officer$§!, §Y$cavalry_officer$§!, §Y$infantry_officer$§!, §Y$old_guard$§!, §Y$politically_connected$§!, §Y$war_hero$§!."
  CHI_cult_of_personality:0 "Cult of Personality"
  CHI_cult_of_personality_desc:1 "The people need to know who leads them through these dark days into the bright future beyond, as well as the many outstanding qualities that man has."
  CHI_provoke_border_clashes:1 "Border Clashes with the Nationalists"

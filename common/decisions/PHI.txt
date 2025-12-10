@@ -1954,7 +1954,7 @@ political_actions = {
 		ai_will_do = {
 			base = 0
 			modifier = {
-				add = 100
+				add = 5
 				has_war = yes
 			}
 			modifier = {
@@ -1962,7 +1962,7 @@ political_actions = {
 				has_war_with_major = yes
 			}
 			modifier = {
-				add = -90
+				add = -95
 				PHI = {
 					has_country_flag = PHI_request_macarthur_stay
 				}
@@ -2413,7 +2413,7 @@ economy_decisions = {
 
 PHI_relations_with_spanish_america = {
 	PHI_propose_treaty_of_mutual_assistance = {
-		targets = { ARG URG PAR BOL PRU ECU COL VEN PAN DOM HAI JAM CUB NIC HON ELS GUA BLZ MEX RAP YUC RIG SPR }	#Spanish America + Spain
+		targets = { ARG URG PAR BOL PRU ECU COL CHL VEN PAN COS DOM CUB NIC HON ELS GUA BLZ MEX YUC RIG SPR PUE EGQ SPA SPD SPB SPC }	#Spanish America + Spain
 		target_trigger = {
 			FROM = {
 				NOT = {
@@ -2489,7 +2489,7 @@ PHI_relations_with_spanish_america = {
 		}
 	}
 	PHI_propose_unification = {
-		targets = { ARG URG PAR BOL PRU ECU COL VEN PAN DOM HAI JAM CUB NIC HON ELS GUA BLZ MEX RAP YUC RIG SPR }	#Spanish America + Spain
+		targets = { ARG URG PAR BOL PRU ECU COL CHL VEN PAN COS DOM CUB NIC HON ELS GUA BLZ MEX YUC RIG SPR PUE EGQ SPA SPD SPB SPC  }	#Spanish America + Spain
 		target_trigger = {
 			FROM = {
 				is_in_faction_with = ROOT
@@ -2564,7 +2564,7 @@ PHI_relations_with_spanish_america = {
 		}
 	}
 	PHI_force_unification = {
-		targets = { ARG URG PAR BOL PRU ECU COL VEN PAN DOM HAI JAM CUB NIC HON ELS GUA BLZ MEX RAP YUC RIG SPR }	#Spanish America + Spain
+		targets = { ARG URG PAR BOL PRU ECU COL CHL VEN PAN DOM HAI JAM CUB NIC HON ELS GUA BLZ MEX RAP YUC RIG SPR PUE SPA SPD SPB SPC }	#Spanish America + Spain
 		target_root_trigger = {
 			has_completed_focus = PHI_reino_de_filipinas
 		}

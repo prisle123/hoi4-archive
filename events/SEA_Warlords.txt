@@ -104,6 +104,42 @@ country_event = {
 			}
 		}
 
+		hidden_effect = {
+			add_country_leader_role = {
+				character = SIC_yang_sen
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = anti_revisionism
+					traits = {
+						CHI_taoist_devotee_trait 
+					}
+				}
+				promote_leader = yes				
+			}
+			add_country_leader_role = {
+				character = SIC_yang_sen
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = socialism
+					traits = {
+						CHI_taoist_devotee_trait
+					}
+				}
+				promote_leader = yes	
+			}
+			add_country_leader_role = {
+				character = SIC_yang_sen
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = rexism
+					traits = {
+						CHI_taoist_devotee_trait
+					}
+				}
+				promote_leader = yes				
+			}
+		}
+
 	}
 
 }

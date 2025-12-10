@@ -353,7 +353,22 @@
  JAP_organize_the_fifth_column_decision_tt: "§YEnemy units§! suffer damage to §Yorganization§!"
  JAP_organize_the_fifth_column_flag: "Preparing a sabotage action"
 
-
+ JAP_assault_tauran_decision: "Prepare to Assault [MON.GetAdjective] Positions"
+ JAP_assault_tauran_decision_desc: "Due to the recent provocation by the [MON.GetAdjective]s and their occupation of the village of Tauran by lake Buir, we must prepare our troops to push them out before their claim to our rightful territory can be legitimized.."
+ JAP_tauran_border_incident_forgotten_1: "Troops Losing Morale"
+ JAP_tauran_border_incident_forgotten_1_desc: "If we want to ever reclaim the village from our enemies, we must strike quickly."
+ JAP_tauran_border_conflict_warning_MON: "Border Provocation at the [MAN.GetAdjective] Border"
+ JAP_tauran_border_conflict_warning_MON_desc: "There has been a clash between our army contingent that entered Tauran recently and the [MAN.GetAdjective] soldiers at our shared border in [761.GetName]. Intelligence sources in [MAN.GetNameDef] report that this may just be the first step in a larger confrontation. We should reinforce the border with [MAN.GetNameDef] immediately."
+ JAP_border_conflict_escalation_warning_MON: "[JAP.GetAdjective] preparations"
+ JAP_border_conflict_escalation_warning_MON_desc: "Aerial recon has confirmed major troop movements at the [JAP.GetAdjective] side of the border. We don't know if or when the [JAP.GetAdjective] have decided to strike, but we must be ready."
+ JAP_tauran_border_incident_forgotten: "Window of Opportunity"
+ JAP_tauran_border_incident_forgotten_desc: "If we want to push the [MON.GetAdjective] troops out of our territory and away from their border to [761.GetName], we must strike quickly."
+ JAP_escalate_incident_to_border_conflict_MON: "Escalate the Incident"
+ JAP_escalate_incident_to_border_conflict_MON_desc: "It appears that the [MON.GetAdjective]s are not backing down from the conflict. At this point, we must either escalate to an armed confrontation or back down ourselves."
+ JAP_tauran_border_conflict_time_until_cancelled: "End the conflict"
+ JAP_tauran_border_conflict_time_until_cancelled_desc: "At the current rate, we can only sustain combat operations for so long before we need to break off combat."
+ initial_tauran_decision_taken_flag: "Has Begun Preparing to Assault Tauran"
+ MAN_we_must_assault_to_not_have_negatives_tt: "We must assault §Y[MON.GetAdjective]§! forces around §Y[761.GetName]§! to avoid losing our grip over the region"
 
 
  #### IMPERIAL INFLUENCE MISSIONS AND DECISIONS ####
@@ -406,6 +421,11 @@
 
  CHI_core_asian_state: "Integrate §Y[FROM.GetName]§!"
  CHI_coring_this_asian_state_in_progress_flag: " Is currently integrating this state"
+ CHI_core_asian_state_cat_name: "States Possible to Integrate"
+
+ CHI_invest_in_officer_training: "Invest in Officer Training"
+ CHI_invest_in_officer_training_tt: "Increase the amount of §Y$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$§! that increases through new officers by: $RIGHT|+=%1$"
+ CHI_corruption_in_the_armed_forces_conscription_factor_improvement_tt: "(Current decrease: §G[?CHI_corruption_in_the_armed_forces_conscription_factor_improvement]%§! §Y$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$§!)"
 
  CHI_accelerate_urban_tutelage_decision: "Expedite Political Tutelage in §Y[FROM.GetName]§!"
  CHI_accelerate_rural_tutelage_decision: "Expedite Political Tutelage in §Y[FROM.GetName]§!"
@@ -460,6 +480,7 @@
  CHI_warlord_autonomy_drift_decision: "§Y[FROM.GetName]§! Integration Efforts"
  CHI_warlord_autonomy_drift_decision_upgrade: "$CHI_warlord_autonomy_drift_decision$"
  CHI_warlord_autonomy_allocate_lend_lease_decision: "Allocate Lend-Lease to §Y[FROM.GetName]§!"
+ CHI_warlord_autonomy_allocate_lend_lease_decision_tt: "Allocating lend-lease through decisions"
  CHI_warlord_autonomy_offer_economic_support_decision: "Offer §YEconomic Support§! to §Y[FROM.GetName]§!"
  CHI_warlord_economic_support_reset_tt: " Offered §YEconomic Support§! the past [?CHI_warlord_economic_support_flag:days_left|0] days"
  CHI_warlord_economic_support_flag: " Offered §YEconomic Support§! Recently"
@@ -967,3 +988,8 @@ PHI_sugar_excise_divisions: "Fund Training Exercise with Sugar Fund"
  expand_german_coal_mines_tt: "Unlocks Decision: §YExpand Coal Mines§!"
  expand_transvaal_coal_mines: "Expand [275.GetName] Coal Mines"
  expand_bihar_coal_mines: "Expand [435.GetName] Coal Mines"
+
+ BRM_burmah_oils_oil_fields: "The Burmah Oil Company's Oil Fields"
+ BRM_blow_up_the_oil_fields: "Blow up the Burmese Oil Fields"
+ BRM_blown_up_oil_fields: "Destroyed Oil Fields and Mines"
+ BRM_repair_the_oil_fields: "Repair the Oil Fields"

@@ -171,3 +171,19 @@ defined_text = {
 		localization_key = PHI_modify_the_great_depression_dynamic_modifier_tt
 	}
 }
+
+defined_text = {
+	name = IndependentOrNot
+	text = {
+		trigger = {	#Is Subject
+			is_subject = yes
+		}
+		localization_key = PHI_treaty_of_manila_subject_desc
+	}
+	text = {
+		trigger = {	#Is Not Subject
+			is_subject = no
+		}
+		localization_key = PHI_treaty_of_manila_independent_desc
+	}
+}

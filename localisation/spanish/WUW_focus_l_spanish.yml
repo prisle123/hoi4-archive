@@ -1574,6 +1574,7 @@
  BEL_legacy_of_the_soldier_king_tt: "El §Yrey Leopoldo§! ya no se doblegará ante la presión militar y entregará el país en caso de invasión."
  BEL_anti_tank_guns_tt: "Permite §Harmas antitanque excelentes§!\nAtaque duro de antitanque de apoyo: §G+10%§!\nPerforación de antitanque de apoyo: §G+10%§!\nAtaque duro de antitanque en línea: §G+10%§!\nPerforación de antitanque en línea: §G+10%§!\nAtaque duro de antitanque motorizado: §G+10%§!\nPerforación de antitanque motorizado: §G+10%§!\nAtaque duro de cazacarros: §G+10%§!\nPerforación de cazacarros: §G+10%§!\n"
  BEL_chasseurs_ardennais_tt: "§Y$mountaineers$§!:\n§YBosque§!:\n Cambio efectivo de movimiento: §G+10%§!\n Cambio efectivo de ataque: §G+20%§!\n Cambio efectivo de defensa: §G+20%§!\n§YMontaña§!:\n Cambio efectivo de movimiento: §R-10%§!\n Cambio efectivo de ataque: §R-20%§!"
+ BEL_chasseurs_ardennais_ncns_tt: "§Y$ranger_battalion$§!:\n§YColinas§!:\n Cambio efectivo de movimiento: §G+10%§!\n Cambio efectivo de ataque: §G+15%§!\n Cambio efectivo de defensa: §G+15%§!\n§YMontaña§!:\n Cambio efectivo de movimiento: §G+5%§!\n Cambio efectivo de ataque: §G+5%§!"
  BEL_the_european_crusade_tt: "Los efectos de la §Ycruzada europea§! variarán según si llegan al poder los §Yrexistas§! o la §YVNV§!."
  BEL_european_crusade_no_focus_tt: "Los §Yrexistas§! se beneficiarán del factor de población reclutable\nSi la §YVNV§!"
  BEL_the_king_surrenders_tt: "§RCapitular con el rey aún en el poder completará este enfoque.§!"

@@ -62,6 +62,7 @@
  CHI_personal_leadership: "Persönliche Führung"
  CHI_personal_leadership_desc: "Wenn man das Kommando über das Militär aufteilt, riskiert man, dass ein größenwahnsinniger Offizier mit falschen ideologischen Theorien versucht, die Macht an sich zu reißen. Wir müssen sicherstellen, dass unsere Soldaten immer der Regierung treu ergeben sind."
  CHI_personal_leadership_tt: "§YChen Jitang§! wird als §YFeldmarschall der Stufe 3§! verfügbar"
+ CHI_personal_leadership_custom_tt: "[ROOT.GetLeader] erhält zufällig eine der folgenden Eigenschaften: §Y$brilliant_strategist$§!, §Y$career_officer$§!, §Y$cavalry_officer$§!, §Y$infantry_officer$§!, §Y$old_guard$§!, §Y$politically_connected$§!, §Y$war_hero$§!."
  CHI_cult_of_personality: "Personenkult"
  CHI_cult_of_personality_desc: "Das Volk muss wissen, wer sie durch diese dunklen Zeiten in die goldene Zukunft führt – und wie viele herausragende Qualitäten dieser Mann besitzt."
  CHI_provoke_border_clashes: "Grenzzwischenfälle mit den Nationalisten provozieren"

@@ -2277,6 +2277,7 @@ BEL_unlock_gold_reserve_decisions_tt: "Unlocks decisions to §Y$BEL_gold_reserve
 BEL_legacy_of_the_soldier_king_tt: "§YKing Leopold§! will no-longer buckle to military pressure and surrender the country if invaded."
 BEL_anti_tank_guns_tt: "Enables §HExcellent Anti-Tank Guns§!\nSupport Anti-Tank Hard attack: §G+10%§!\nSupport Anti-Tank Piercing: §G+10%§!\nLine Anti-Tank Hard attack: §G+10%§!\nLine Anti-Tank Piercing: §G+10%§!\nMotorized Anti-Tank Hard attack: §G+10%§!\nMotorized Anti-Tank Piercing: §G+10%§!\nTank Destroyer Hard attack: §G+10%§!\nTank Destroyer Piercing: §G+10%§!\n"
 BEL_chasseurs_ardennais_tt: "§Y$mountaineers$§!:\n§YForest§!:\n Movement Effective Change: §G+10%§!\n Attack Effective Change: §G+20%§!\n Defense Effective Change: §G+20%§!\n§YMountain§!:\n Movement Effective Change: §R-10%§!\n Attack Effective Change: §R-20%§!"
+BEL_chasseurs_ardennais_ncns_tt: "§Y$ranger_battalion$§!:\n§YHills§!:\n Movement Effective Change: §G+10%§!\n Attack Effective Change: §G+15%§!\n Defense Effective Change: §G+15%§!\n§YMountain§!:\n Movement Effective Change: §G+5%§!\n Attack Effective Change: §G+5%§!"
 BEL_the_european_crusade_tt: "§YThe European Crusade§! effects will depend on whether the §YRexists§! or §YVNV§! came to power."
 BEL_european_crusade_no_focus_tt: "§YRexists§! will benefit from Recruitable Population Factor \nIf the §YVNV§!"
 BEL_the_king_surrenders_tt: "§RCapitulating with the King still in power will complete this focus.§!"

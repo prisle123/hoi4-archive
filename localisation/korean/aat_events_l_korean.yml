@@ -730,7 +730,7 @@
  AAT_Sweden_flashpoints.79.desc: "[FIN.GetName] 측이 우리에게 올란드 제도에 대한 지배권 이양 문제에 대해 직설적으로 '거부'한다고 대답했습니다."
  AAT_Sweden_flashpoints.79.a: "유감이군."
  AAT_Sweden_flashpoints.80.t: "[FIN.GetName]의 수락"
- AAT_Sweden_flashpoints.80.desc: "[FIN.GetName] 측은 자기가 처한 불안정한 상황을 언급하며 다른 나라보다는 우리가 섬을 통치하는 게 차라리 낫다고 했습니다. 이미 대다수가 [SWE.GetAdjective]어 화자인 주민들은 이에 만족하고 있으며, 일상적인 생활을 이어 가고 있습니다."
+ AAT_Sweden_flashpoints.80.desc: "그들은 자기가 처한 불안정한 상황을 언급하며 다른 나라보다는 우리가 섬을 통치하는 게 차라리 낫다고 했습니다. 이미 대다수가 [SWE.GetAdjective]어 화자인 주민들은 이에 만족하고 있으며, 일상적인 생활을 이어 가고 있습니다."
  AAT_Sweden_flashpoints.80.a: "좋다."
  AAT_Sweden_flashpoints.81.t: "대가를 요구하며 수락한 [FIN.GetName]"
  AAT_Sweden_flashpoints.81.desc: "[FIN.GetName] 측은 올란드 제도를 포기할 의향이 있지만, 현재 재정적으로 어려움을 겪고 있다고 강조했습니다.\n그들은 잃은 수익을 보상하기 위해 우리 국가의 예비금 일부를 대가로 섬의 통제권을 우리에게 넘길 의향이 있습니다."

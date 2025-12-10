@@ -729,18 +729,39 @@ bookmarks = {
 		}
 		BEL = {
 			minor = yes
-			history = BEL_BLITZKRIEG_DESC
+			history = BEL_GATHERING_STORM_DESC
 			ideology = democratic
-			available = { has_dlc = "Gotterdammerung" } 
+			available = { 
+				has_dlc = "Gotterdammerung" 
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+			} 
 			ideas = {
 				BEL_chasseurs_ardennais_ns
 				BEL_scars_of_ww1_ns_fake
 				BEL_corruption_ns_fake
 			}
 			focuses = {
-				BEL_free_belgian_forces
-				BEL_early_helicopters
-				BEL_belgian_miracle
+				BEL_v_for_victory
+				BEL_belgica
+				BEL_legacy_of_the_great_war
+			}
+		}
+		BEL = {
+			minor = yes
+			history = BEL_GATHERING_STORM_DESC
+			ideology = democratic
+			available = { has_dlc = "Gotterdammerung" has_dlc = "No Compromise, No Surrender" } 
+			ideas = {
+				BEL_chasseurs_ardennais_ns_ncns
+				BEL_scars_of_ww1_ns_fake
+				BEL_corruption_ns_fake
+			}
+			focuses = {
+				BEL_v_for_victory
+				BEL_belgica
+				BEL_legacy_of_the_great_war
 			}
 		}
 		COG = {
@@ -793,7 +814,7 @@ bookmarks = {
 		}
 		PHI = {
 			minor = yes
-			history = "PHI_BLITZKRIEG_DESC" #might need an edit because it is not very good at the moment.
+			history = "PHI_BLITZKRIEG_DESC" 
 			ideology = neutrality
 			available = { has_dlc = "No Compromise, No Surrender" }
 			new_content = yes

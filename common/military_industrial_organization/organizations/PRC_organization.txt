@@ -52,7 +52,7 @@
  			generic_mio_trait_sloped_side_armor
  		}
 
- 		limit_to_equipment_type = { modern_armor }
+ 		limit_to_equipment_type = { modern_tank_chassis }
 
  		equipment_bonus = {
  			breakthrough = 0.2	
@@ -276,8 +276,8 @@ PRC_dalian_shipbuilding_company_organization = {
  			}
  		}
 
- 		production_bonus = {
- 			production_conversion_speed_factor = 0.4
+ 		on_complete = {
+ 			FROM = { add_ideas = PRC_refitting_bonus }
  		}
 
  		organization_modifier = {

@@ -208,7 +208,7 @@
  OFFICER_REPLACE_NAME_DESC: "Вы уверены? §H$OLD_NAME$§! оставит должность, и её займет §H$NEW_NAME$§!. Стоимость: $COST$."
  OFFICERS: "Офицеры"
  OFFICERS_SELECT: "Выбрать §Hофицеров§!"
- OFFICERS_SELECT_CUSTOM: "Выбрать офицера по имени §H$NAME$§!"
+ OFFICERS_SELECT_CUSTOM: "Назначить офицера на должность §H$NAME$§!"
  OFFICERS_FIRE_CUSTOM: "Выберите, чтобы §Rуволить§!"
  OFFICERS_DISMISS_CUSTOM: "Выберите, чтобы §Rсместить§!"
  OFFICERS_APPOINT_ADVISOR: "§H$NAME$§!: назначить советников"

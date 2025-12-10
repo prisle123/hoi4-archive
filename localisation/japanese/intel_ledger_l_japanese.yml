@@ -41,6 +41,8 @@
  NAVAL_MISSION_INTEL: "この地域には$MISSION|H$任務に割り当てられた任務部隊が$COUNT|H$個あり、内$ACTIVE|H$個が現在活動中である。"
  NAVAL_MISSION_INTEL_ALL_ASSIGNED: "$MISSION|H$任務に割り当てられた任部部隊$COUNT|H$個が、活動中である。"
  AIR_MISSION_INTEL_RANGE: "この地域には$MISSION|H$任務に割り当てられた航空機が$RANGE|H$機いる。"
+ AIR_MISSION_INTEL_RANGE_MISSILES: "この地域には$MISSION|H$任務に割り当てられたミサイルが$RANGE|H$発ある。"
+ AIR_MISSION_INTEL_RANGE_GUNS: "この地域には$MISSION|H$任務に割り当てられた銃が$RANGE|H$丁ある。"
  NAVAL_BASE_TASKFORCE_COUNT: "$COUNT|H$個の任務部隊が海軍基地で待機中である。"
  ARMY_LEDGER_ARMIES: "師団"
  ARMY_LEDGER_EQUIPMENT: "備蓄"

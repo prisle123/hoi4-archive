@@ -4,7 +4,7 @@
  SHOW_OWN_EXILE_STATUS: "Показывать статус нашего правительства в изгнании"
  SHOW_COLLABORATIONS_DESC: "Показывать страны, которые сотрудничают с нами"
  SHOW_COLLABORATIONS_AND_EXILE_DESC: "Показывать наше сотрудничество и статус изгнания"
- SHOW_COLLABORATIONS_DISABLED_DESC: "§RНет сотрудничающих с нами правительств§!"
+ SHOW_COLLABORATIONS_DISABLED_DESC: "§RСейчас с нами не сотрудничает ни одно правительство§!"
  SHOW_EXILES_DISABLED_DESC: "§RУ нас нет правительств в изгнании§!"
  MANAGE_EXILES_HEADER: "Правительства в изгнании"
  SHOW_COLLABORATIONS_TITLE: "Сотрудничество"

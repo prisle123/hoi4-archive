@@ -247,7 +247,7 @@
  form_north_sea_empire_english_required_states_tt: "控制所有§Y英格兰§!地区。"
  form_north_sea_empire_swedish_coring_states_tt: "获得§Y$STATE_138$§!和§Y$STATE_915$§!的核心。"
  form_north_sea_empire_english_coring_states_tt: "获得所有§Y英格兰§!地区的核心。"
- form_nordic_nation_flag: "尚未执行决议成立§Y北欧海洋帝国§!、§Y北欧联邦§!或§Y波罗的海自治领§!"
+ form_nordic_nation_flag: "尚未执行成立§Y北海帝国§!、§Y北欧联邦§!或§Y波罗的海自治领§!的决议"
  #SUBSIDIES
  subsidy_allied_nation_tt: "同盟国"
  subsidy_faction_leader_tt: "阵营领导者"

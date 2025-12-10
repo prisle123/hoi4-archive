@@ -41,6 +41,8 @@
  NAVAL_MISSION_INTEL: "Hay $COUNT|H$ fuerzas especiales asignadas a la misión $MISSION|H$ en la región y, actualmente, $ACTIVE|H$ de ellas están en la región ocupándose de la misión de forma activa."
  NAVAL_MISSION_INTEL_ALL_ASSIGNED: "Hay $COUNT|H$ fuerzas especiales asignadas a la misión $MISSION|H$ en la región y ocupándose de la misión de forma activa."
  AIR_MISSION_INTEL_RANGE: "Hay $RANGE|H$ aviones asignados a la misión $MISSION|H$ en la región."
+ AIR_MISSION_INTEL_RANGE_MISSILES: "Hay $RANGE|H$ misiles asignados a la misión $MISSION|H$ en esta región."
+ AIR_MISSION_INTEL_RANGE_GUNS: "Hay $RANGE|H$ cañones asignados a la misión $MISSION|H$ en esta región."
  NAVAL_BASE_TASKFORCE_COUNT: "Hay $COUNT|H$ fuerzas especiales atracadas en esta base naval."
  ARMY_LEDGER_ARMIES: "Divisiones"
  ARMY_LEDGER_EQUIPMENT: "Reservas"

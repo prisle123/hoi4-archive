@@ -234,3 +234,4 @@
  alert_lack_of_power_delayed_mil: "各 £mil_factory 軍需工場の£production_cost が$VALUE|H$減少し、工場出力補正が$PERCENTAGE|.0R%$減少する"
  alert_lack_of_power_delayed_nav: "各£nav_dockyard_texticon 海軍造船所の£navprod_cost が$VALUE|H$減少し、造船所出力補正が$PERCENTAGE|.0R%$減少する"
  alert_faction_can_select_goal_instant: "§H新たな陣営目標を選択可能§!"
+ alert_faction_can_select_goal_delayed_header: "我々が行動しなければ、他の陣営メンバーが陣営目標を選択する可能性がある"

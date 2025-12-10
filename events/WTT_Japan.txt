@@ -1714,7 +1714,7 @@ country_event = {
 		set_country_flag = achievement_JAP_sue_for_peace_CHI_completed
 		
 		ai_chance = {
-			factor = 90
+			base = 100
 		}
 	}
 
@@ -1725,71 +1725,8 @@ country_event = {
 			country_event = { id = wtt_japan.128 }
 		}
 		
-		ai_chance = { # If Japan has lots of major enemies, the AI will not make a separate peace
-			factor = 10
-			modifier = {
-				add = 50
-				USA = {
-					has_war_with = JAP
-					NOT = {
-						has_war_with = ROOT
-					}
-				}
-			}
-			modifier = {
-				add = 40
-				ENG = {
-					has_war_with = JAP
-					NOT = {
-						has_war_with = ROOT
-					}
-				}
-			}
-			modifier = {
-				add = 30
-				SOV = {
-					has_war_with = JAP
-					NOT = {
-						has_war_with = ROOT
-					}
-				}
-			}
-			modifier = {
-				add = 20
-				FRA = {
-					has_war_with = JAP
-					NOT = {
-						has_war_with = ROOT
-					}
-				}
-			}
-			modifier = {
-				add = 10
-				GER = {
-					has_war_with = JAP
-					NOT = {
-						has_war_with = ROOT
-					}
-				}
-			}
-			modifier = {
-				add = 10
-				HOL = {
-					has_war_with = JAP
-					NOT = {
-						has_war_with = ROOT
-					}
-				}
-			}
-			modifier = {
-				add = 10
-				ITA = {
-					has_war_with = JAP
-					NOT = {
-						has_war_with = ROOT
-					}
-				}
-			}
+		ai_chance = { # AI never says no
+			base = 0
 		}
 	}
 }

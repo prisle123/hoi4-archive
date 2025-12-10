@@ -1574,6 +1574,7 @@
  BEL_legacy_of_the_soldier_king_tt: "§Y레오폴드 3세§!는 더 이상 군사적 압력에 굴복하여 나라를 넘기지 않을 것입니다."
  BEL_anti_tank_guns_tt: "§H훌륭한 대전차포§!\n대전차포 지원 대물 공격: §G+10%§!\n대전차포 지원 관통: §G+10%§!\n전선 대전차포 대물 공격: §G+10%§!\n전선 대전차포 관통: §G+10%§!\n차량화 대전차포 대물 공격: §G+10%§!\n차량화 대전차포 관통: §G+10%§!\n구축전차 대물 공격: §G+10%§!\n구축전차 관통: §G+10%§!\n"
  BEL_chasseurs_ardennais_tt: "§Y$mountaineers$§!:\n§Y숲§!:\n 이동 효과 변화: §G+10%§!\n 공격 효과 변화: §G+20%§!\n 방어 효과 변화: §G+20%§!\n§Y산악§!:\n 이동 효과 변화: §R-10%§!\n 공격 효과 변화: §R-20%§!"
+ BEL_chasseurs_ardennais_ncns_tt: "§Y$ranger_battalion$§!:\n§Y언덕§!:\n 이동 효과 변화: §G+10%§!\n 공격 효과 변화: §G+15%§!\n 방어 효과 변화: §G+15%§!\n§Y산악§!:\n 이동 효과 변화: §G+5%§!\n 공격 효과 변화: §G+5%§!"
  BEL_the_european_crusade_tt: "§Y유럽의 성전§!의 효과는 §Y렉스당§!과 §Y플란데런 국민연합§! 중 어느 쪽이 집권했는지에 따라 달라질 것입니다."
  BEL_european_crusade_no_focus_tt: "§Y렉시스트§!는 모병 가능 인구 변동치로부터 혜택을 얻습니다.\n만약 §Y플란데런 국민연합§!이"
  BEL_the_king_surrenders_tt: "§R국왕이 권력을 잡고 있는 상태에서 항복할 경우 이 중점이 완료됩니다.§!"

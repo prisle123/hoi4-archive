@@ -62,6 +62,7 @@
  CHI_personal_leadership: "Osobiste przywództwo"
  CHI_personal_leadership_desc: "Podzielenie dowództwa wojskowego rodzi ryzyko, że jakiś oficer kierujący się wzniosłymi ideałami może spróbować przejęcia władzy. Musimy dopilnować, by nasi żołnierze byli zawsze wierni wobec rządu."
  CHI_personal_leadership_tt: "§YChen Jitang§! stanie się dostępny jako marszałek polny §Y3. poziomu§!"
+ CHI_personal_leadership_custom_tt: "[ROOT.GetLeader] zyskuje losowo wybraną jedną z poniższych cech: §Y$brilliant_strategist$§!, §Y$career_officer$§!, §Y$cavalry_officer$§!, §Y$infantry_officer$§!, §Y$old_guard$§!, §Y$politically_connected$§!, §Y$war_hero$§!."
  CHI_cult_of_personality: "Kult jednostki"
  CHI_cult_of_personality_desc: "Obywatele muszą wiedzieć, kto poprowadzi ich przez te mroczne dni ku świetlanej przyszłości. Powinni też poznać liczne zalety tego człowieka."
  CHI_provoke_border_clashes: "Prowokowanie starć granicznych z nacjonalistami"

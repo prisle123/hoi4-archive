@@ -604,6 +604,30 @@ ideas = {
 			}
 		}
 
+		CHI_soviet_military_cooperation_idea = {
+
+			name = SIK_soviet_military_cooperation
+
+			allowed = {
+				always = no
+			}
+
+			picture = generic_communist_army
+
+			removal_cost = -1
+
+			cancel = {
+				has_war_with = SOV
+			}
+
+			modifier = {
+				experience_gain_army = 0.05
+				army_org_factor = 0.05
+				custom_modifier_tooltip = SIK_if_war_with_sov_this_disappears_tt
+			}
+
+		}
+
 
 
  ##  ##  #   # ### ### ###     ### ###  ### ###  #  # ### ### 

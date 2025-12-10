@@ -234,3 +234,4 @@
  alert_lack_of_power_delayed_mil: "각 £mil_factory 군수공장의 생산량이 $VALUE|H$ £production_cost 감소, 공장 생산량 변동치가 $PERCENTAGE|.0R%$ 감소"
  alert_lack_of_power_delayed_nav: "각 £nav_dockyard_texticon 해군 조선소의 생산량이 $VALUE|H$ £navprod_cost 감소, 조선소 생산량 변동치가 $PERCENTAGE|.0R%$ 감소"
  alert_faction_can_select_goal_instant: "§H세력 목표를 선택할 수 있습니다.§!"
+ alert_faction_can_select_goal_delayed_header: "우리가 선택하지 않으면 다른 세력 회원국이 목표를 선택할 수도 있습니다."

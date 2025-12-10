@@ -2114,6 +2114,5 @@
  JAP_emperor_hirohito_override_instant: "§H$JAP_hirohito$§!\nAuch wenn §H$JAP_keisuke_okada$§! als Premierminister der Zivilregierung von Japan dient, liegt die eigentliche Macht in den Händen unsers verehrtes Staatsoberhaupts Hirohito.\n\nSolange das Kaiserreich Bestand hat, werden zahlreiche Fraktionen um §HEinfluss beim Kaiser§! buhlen."
  JAP_emperor_hirohito_override_delayed: ""
  PLAN_COHESION_IMMOBILE_TITLE: "§HUnbeweglich§!"
- PLAN_COHESION_IMMOBILE_DESC: "Divisionen werden sich §Rniemals§! verlegen!"
- PLANNING_SPEED_COHESION_IMMOBILE_FACTOR: "$PLAN_COHESION_IMMOBILE_TITLE$ Zusammenhalt: x$FACTOR|R$"
-
+ PLAN_COHESION_IMMOBILE_DESC: "Divisionen werden §Rniemals§! an andere Orte verlegt!"
+ PLANNING_SPEED_COHESION_IMMOBILE_FACTOR: "Zusammenhalt ($PLAN_COHESION_IMMOBILE_TITLE$): x$FACTOR|R$"

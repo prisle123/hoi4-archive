@@ -294,8 +294,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/military_raids/map_icons/raid_type_icon_nuclear_missile_strike.dds"
 	}
 	spriteType = {
+		name = "GFX_raid_type_icon_nuclear_missile_strike_submarine"
+		texturefile = "gfx/interface/military_raids/map_icons/raid_type_icon_nuclear_missile_strike_submarine.dds"
+	}
+	spriteType = {
 		name = "GFX_raid_type_icon_thermonuclear_missile_strike"
 		texturefile = "gfx/interface/military_raids/map_icons/raid_type_icon_nuclear_missile_strike.dds"
+	}
+	spriteType = {
+		name = "GFX_raid_type_icon_thermonuclear_missile_strike_submarine"
+		texturefile = "gfx/interface/military_raids/map_icons/raid_type_icon_nuclear_missile_strike_submarine.dds"
 	}
 	spriteType = {
 		name = "GFX_raid_type_icon_nuclear_strike"

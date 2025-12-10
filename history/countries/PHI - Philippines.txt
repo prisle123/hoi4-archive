@@ -289,6 +289,7 @@ IF = {
 	recruit_character = PHI_back_soon
 	recruit_character = PHI_infante_juan_iii
 	recruit_character = PHI_emma_rotor
+	recruit_character = PHI_basilio_j_valdez
 	
 	ELSE = {
 		## Vanilla characters

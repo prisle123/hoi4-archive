@@ -62,9 +62,9 @@ AFG_historical_plan = {
 		SSB_coordinate_military_production
 		
 		#1940
-		AFG_adopt_nufus
+		AFG_maintain_quami
 		AFG_introduce_national_service
-		AFG_new_army
+		AFG_asymmetric_warfare
 		AFG_expand_border_guards
 		AFG_expel_axis_nationals
 

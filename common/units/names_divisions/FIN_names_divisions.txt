@@ -126,9 +126,11 @@ FIN_INF_03 = {
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" } 
+	division_types = { "infantry" "ranger_battalion" } 
 
 	fallback_name = "%d. Sissidivisioona"
+
+	link_numbering_with = { FIN_MTN_01 }
 }
 
 FIN_INF_04 = { 

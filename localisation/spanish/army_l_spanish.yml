@@ -129,7 +129,7 @@
  FORCES_COMPARISON_DESC: "La comparación de nuestras unidades contra las unidades enemigas a lo largo de la frontera, y adelante en la dirección del avance, si hay."
  VOLUNTEER_THEATER_GROUP_NAME_PATTERN: "$NUMBER$ voluntarios $VOLADJECTIVE$ "
  THEATER_GROUP_NAME_PATTERN: "Escenario de guerra $ADJECTIVE$ $NUMBER$"
- NEW_THEATER_GROUP: "Nuevo grupo de escenario"
+ NEW_THEATER_GROUP: "Nuevo escenario"
  RESERVE_NAVY_THEATER_GROUP_NAME: "Flotas de reserva"
  UNASSIGNED_AIR_WINGS: "Alas no agrupadas"
  AIR_GROUP_NAME_PATTERN: "Grupo aéreo $ADJECTIVE$ $NUMBER$"

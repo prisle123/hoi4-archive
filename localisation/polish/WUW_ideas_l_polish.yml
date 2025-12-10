@@ -622,6 +622,8 @@
  BEL_king_law_freedom_ns_desc: "Motto Belgii dobrze opisuje belgijskie nastawienie. Król - ten, który poprowadzi nas do zwycięstwa. Prawo - miecz uderzający w chaos wojny. Wolność - dla Belgii i Belgów."
  BEL_chasseurs_ardennais_ns: "Chasseurs Ardennais"
  BEL_chasseurs_ardennais_ns_desc: "Chasseurs Ardennais to doświadczeni obrońcy belgijskiego regionu Ardenów, bardzo doświadczeni i wyszkoleni do walki w lesie."
+ BEL_chasseurs_ardennais_ns_ncns: "$BEL_chasseurs_ardennais_ns$"
+ BEL_chasseurs_ardennais_ns_ncns_desc: "$BEL_chasseurs_ardennais_ns_desc$"
  BEL_dissolve_political_parties_ns: "Rozwiązanie partii politycznych"
  BEL_dissolve_political_parties_ns_desc: "Nasz premier ogłosił, że partie polityczne są zgniłym rdzeniem naszego skorumpowanego systemu politycznego i aby wyleczyć tę chorobę, trzeba je rozwiązać."
  BEL_the_walloon_legion_ns: "Legion Waloński"

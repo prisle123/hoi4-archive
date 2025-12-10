@@ -11375,7 +11375,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_CHI_a_new_middle_kingdom.dds"
 	}
 
-
+		## Advisors ##
+	spriteType = {
+		name = "GFX_portrait_MAN_kawashima_naniwa_small"
+		texturefile = "gfx/interface/ideas/portrait_MAN_kawashima_naniwa_small.dds"
+	}
 
 
 		#### PRC ####

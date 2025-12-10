@@ -4,7 +4,7 @@
  SHOW_OWN_EXILE_STATUS: "망명정부 상태 표시"
  SHOW_COLLABORATIONS_DESC: "우리와 협력하는 국가 표시"
  SHOW_COLLABORATIONS_AND_EXILE_DESC: "우리의 협력과 망명 상태 표시"
- SHOW_COLLABORATIONS_DISABLED_DESC: "§R우리는 우리와 협력하고 있는 어떤 협력정부도 없습니다.§!"
+ SHOW_COLLABORATIONS_DISABLED_DESC: "§R현재 우리와 협력 중인 정부가 없음§!"
  SHOW_EXILES_DISABLED_DESC: "§R시찰할 망명정부가 없습니다§!"
  MANAGE_EXILES_HEADER: "망명정부"
  SHOW_COLLABORATIONS_TITLE: "협력"

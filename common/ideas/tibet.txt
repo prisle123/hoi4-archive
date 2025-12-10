@@ -18,7 +18,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.15
-				war_support_factor = -0.05
+				war_support_factor = -0.1
 			}
 
 		}
@@ -39,6 +39,11 @@ ideas = {
 			
 			modifier = {
 				acclimatization_cold_climate_gain_factor = 0.1
+			}
+
+			research_bonus = {
+				armor = -0.05
+				air_equipment = -0.05
 			}
 
 		}

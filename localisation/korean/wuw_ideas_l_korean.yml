@@ -622,6 +622,8 @@
  BEL_king_law_freedom_ns_desc: "벨기에의 모토는 벨기에의 정신을 잘 보여줍니다. 국왕은 우리를 승리로 이끌 것입니다. 법률은 전쟁의 혼란을 가르는 칼날이 될 것입니다. 자유는 벨기에와 벨기에인들을 위한 것입니다."
  BEL_chasseurs_ardennais_ns: "아르덴 엽병대"
  BEL_chasseurs_ardennais_ns_desc: "벨기에 아르덴 지역의 숙련된 방어군, 아르덴 엽병대는 숲속 전투에 있어 뛰어난 경험과 훈련을 갖춘 정예 부대입니다."
+ BEL_chasseurs_ardennais_ns_ncns: "$BEL_chasseurs_ardennais_ns$"
+ BEL_chasseurs_ardennais_ns_ncns_desc: "$BEL_chasseurs_ardennais_ns_desc$"
  BEL_dissolve_political_parties_ns: "정당 해산"
  BEL_dissolve_political_parties_ns_desc: "우리 총리는 정치 정당들이 부패한 정치 체제의 중심이라고 선언했으며, 이 병을 치유하려면 정당들이 해산되어야 한다고 말했습니다."
  BEL_the_walloon_legion_ns: "왈롱 군단"

@@ -41,6 +41,8 @@
  NAVAL_MISSION_INTEL: "$COUNT|H$개의 태스크 포스가 $MISSION|H$ 임무를 위해 지역에 배치되어 있으며 현재 그 중 $ACTIVE|H$개의 태스크 포스가 지역에서 활발히 임무를 수행하고 있습니다."
  NAVAL_MISSION_INTEL_ALL_ASSIGNED: "$COUNT|H$개의 태스크 포스가 $MISSION|H$ 임무를 위해 지역에 배치되어 있으며 활발히 임무를 수행하고 있습니다."
  AIR_MISSION_INTEL_RANGE: "$RANGE|H$의 비행단이 $MISSION|H$ 임무를 위해 공역에 배치되어 있습니다."
+ AIR_MISSION_INTEL_RANGE_MISSILES: "$RANGE|H$의 미사일이 $MISSION|H$ 임무를 위해 공역에 배치되어 있습니다."
+ AIR_MISSION_INTEL_RANGE_GUNS: "$RANGE|H$의 포가 $MISSION|H$ 임무를 위해 공역에 배치되어 있습니다."
  NAVAL_BASE_TASKFORCE_COUNT: "$COUNT|H$ 태스크 포스가 해군기지에 정박 중입니다."
  ARMY_LEDGER_ARMIES: "사단"
  ARMY_LEDGER_EQUIPMENT: "비축량"

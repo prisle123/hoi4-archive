@@ -2846,7 +2846,7 @@ PRC_the_communist_power_struggle_balance_of_power_category = {
 		days_remove = 90
 
 		modifier = {
-			stability_weekly_factor = 0.0025
+			stability_weekly = 0.0025
 		}
 
 		cost = 50
@@ -2915,7 +2915,7 @@ PRC_the_communist_power_struggle_balance_of_power_category = {
 		}
 
 		modifier = {
-			stability_weekly_factor = -0.0015
+			stability_weekly = -0.0015
 		}
 
 		days_remove = 180
@@ -3858,7 +3858,7 @@ PRC_the_communist_power_struggle_balance_of_power_category = {
 		days_remove = 180
 
 		modifier = {
-			stability_weekly_factor = -0.005
+			stability_weekly = -0.005
 			political_power_factor = -0.15
 		}
 
@@ -5206,6 +5206,9 @@ PRC_guerilla_suppression_sea_cat = {
 		}
 
 		visible = {
+			FROM = {
+				state_is_fully_controlled_by_ROOT_or_subject = yes
+			}
 			IF = {
 				limit = {
 					original_tag = JAP
@@ -5287,9 +5290,7 @@ PRC_guerilla_suppression_sea_cat = {
 
 		cancel_trigger = {
 			FROM = {
-				NOT = {
-					is_fully_controlled_by = ROOT
-				}
+				state_is_fully_controlled_by_ROOT_or_subject = no
 			}
 		}
 
@@ -5358,6 +5359,12 @@ PRC_guerilla_suppression_sea_cat = {
 	PRC_root_out_guerilla_fighters_upgraded = {
 		priority = 90
 		icon = GFX_decision_oppression
+
+		visible = {
+			FROM = {
+				state_is_fully_controlled_by_ROOT_or_subject = yes
+			}
+		}
 
 		available = {
 			NOT = { 
@@ -5465,9 +5472,7 @@ PRC_guerilla_suppression_sea_cat = {
 
 		cancel_trigger = {
 			FROM = {
-				NOT = {
-					is_fully_controlled_by = ROOT
-				}
+				state_is_fully_controlled_by_ROOT_or_subject = no 
 			}
 		}
 
@@ -7602,7 +7607,17 @@ political_actions = {
 		days_remove = 90
 		fire_only_once = yes
 
+		allowed = {
+			original_tag = PRC
+		}
 
+		visible = {
+			1046 = {
+				has_dynamic_modifier = {
+					modifier = PRC_the_yulin_garrison
+				}
+			}
+		}
 
 		available = {
 			controls_state = 1046
@@ -7613,18 +7628,11 @@ political_actions = {
 			}
 		}
 
-		allowed = {
-			original_tag = PRC
-		}
-
-
 		cancel_trigger = {
 			NOT = {
 				controls_state = 1046
 			}
 		}
-
-
 		
 		ai_hint_pp_cost = 50
 
@@ -7633,7 +7641,6 @@ political_actions = {
 			has_political_power > 49
 		}
 		custom_cost_text = decision_cost_CP_50_pp_50
-
 		
 		complete_effect = {
 			hidden_effect = {
@@ -7656,11 +7663,9 @@ political_actions = {
 			}
 		}
 
-
 		cancel_effect = {
 
 		}
-
 
 	}
 

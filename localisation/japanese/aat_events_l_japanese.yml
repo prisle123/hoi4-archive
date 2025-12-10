@@ -730,7 +730,7 @@
  AAT_Sweden_flashpoints.79.desc: "オーランド諸島の支配権を譲り渡す件について、[FIN.GetName]からは極めて率直な「ノー」が突きつけられる結果となった。"
  AAT_Sweden_flashpoints.79.a: "残念だ"
  AAT_Sweden_flashpoints.80.t: "[FIN.GetName]が受諾"
- AAT_Sweden_flashpoints.80.desc: "現在自分たちが置かれている危機的状況に言及しつつ、彼らは外国に島を占領されるくらいならば、我々の支配下に置かれているほうがマシであるとした。大半が[SWE.GetAdjective]語話者からなる地元民たちの反応も上々で、彼らについてはこれからも今まで通りの生活をしてもらえればと思う。"
+ AAT_Sweden_flashpoints.80.desc: "自分たちが置かれている不安定な状況を理由に、彼らは外国に島々を占領されるよりも、我々の支配下に置かれることを望んでいる。[SWE.GetAdjective]語の話者がすでに多数派を占める地元民もこれを好意的に受け止めており、いつもと変わらぬ生活を送っている。"
  AAT_Sweden_flashpoints.80.a: "すばらしい"
  AAT_Sweden_flashpoints.81.t: "[FIN.GetName] が見返りを条件に受諾"
  AAT_Sweden_flashpoints.81.desc: "[FIN.GetName]はオーランド諸島を放棄する意思があることを認めたものの、その一方で現在金に困っていることを強調した。\n我が国の国家準備金を丸ごと、減少した彼らの歳入の補填に充てるつもりがあるなら、島の支配権を譲り渡す用意があるとしている。"

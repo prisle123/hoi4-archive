@@ -1073,7 +1073,7 @@
  BUL_cooperation_with_italy: "与意大利合作"
  BUL_cooperation_with_italy_desc: "意大利人此前已多次在经济领域对我国表现出了兴趣，同样我们也不能忘记两国在鲍里斯沙皇和约安娜公主的皇室联姻中所产生的联系。鉴于在不久的将来，意大利或许可以证明自己将成为我国在巴尔干地区的强大盟友，我们将强化与他们在双边交往以及经济层面的联系。"
  BUL_join_the_tripartite_pact: "加入[GetGermanFactionName]"
- BUL_join_the_tripartite_pact_axis: "三国同盟条约"
+ BUL_join_the_tripartite_pact_axis: "《三国同盟条约》"
  BUL_join_the_tripartite_pact_central_powers: "再续旧同盟国"
  BUL_join_the_tripartite_pact_desc: "[GetJoinTripartitePactFocusDesc]"
  BUL_join_the_tripartite_pact_desc_axis: "我们将通知德国人已做好准备签署协议，并且作为同盟的一员正式加入[GetGermanFactionName]。"

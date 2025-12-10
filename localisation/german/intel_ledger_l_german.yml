@@ -41,6 +41,8 @@
  NAVAL_MISSION_INTEL: "$COUNT|H$ Einsatzgruppen sind in dieser Region der Mission $MISSION|H$ zugewiesen. Momentan sind $ACTIVE|H$ von ihnen in der Region und aktiv mit der Durchführung der Mission beschäftigt."
  NAVAL_MISSION_INTEL_ALL_ASSIGNED: "$COUNT|H$ Einsatzgruppen sind in dieser Region der Mission  $MISSION|H$ zugewiesen und aktiv mit der Durchführung der Mission beschäftigt."
  AIR_MISSION_INTEL_RANGE: "$RANGE|H$ Flugzeuge sind in dieser Region der Mission  $MISSION|H$ zugewiesen."
+ AIR_MISSION_INTEL_RANGE_MISSILES: "Dieser Region sind $RANGE|H$ Raketen für die Mission $MISSION|H$ zugewiesen."
+ AIR_MISSION_INTEL_RANGE_GUNS: "Dieser Region sind $RANGE|H$ Geschütze für die Mission $MISSION|H$ zugewiesen."
  NAVAL_BASE_TASKFORCE_COUNT: "$COUNT|H$ Einsatzgruppen liegen auf diesem Marinestützpunkt vor Anker."
  ARMY_LEDGER_ARMIES: "Divisionen"
  ARMY_LEDGER_EQUIPMENT: "Lager"

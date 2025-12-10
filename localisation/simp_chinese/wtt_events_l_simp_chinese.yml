@@ -525,7 +525,7 @@
  wtt_xian_incident.7.a: "请示苏联同志是否批准。"
  wtt_xian_incident.7.b: "直接将其枭首示众！"
  wtt_xian_incident.7.c: "我们还是应该团结此君共同抗日。"
- wtt_xian_incident.7.d: "拒绝第二次统一战线的说法"
+ wtt_xian_incident.7.d: "拒绝第二次统一战线的提议"
  wtt_xian_incident.7.e: "$PRC_mao_zedong$和$PRC_zhang_guotao$都认为[CHI.GetLeader]不可信任。"
  wtt_xian_incident.8.t: "[CHI.GetLeader]被[From.GetLeader]控制！"
  wtt_xian_incident.8.desc: "我们日前截获了[From.GetLeader]发出的讯息，称他现已将[CHI.GetLeader]软禁，并打算将其移交给共产党人处置。而鉴于共产党人与委座的血海深仇，他可能在共产党手中活不了多久。\n\n如果我们不想看到[CHI.GetLeader]被[PRC.GetLeader]公审后处决的话，就必须立刻展开行动！"

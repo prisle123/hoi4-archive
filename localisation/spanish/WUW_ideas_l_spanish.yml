@@ -622,6 +622,8 @@
  BEL_king_law_freedom_ns_desc: "El lema de Bélgica resume a la perfección la mentalidad de los belgas: \"El rey es quien nos conducirá a la victoria; la ley, la espada que golpea en el caos de la guerra, y la libertad es para Bélgica y los belgas\"."
  BEL_chasseurs_ardennais_ns: "Chasseurs Ardennais"
  BEL_chasseurs_ardennais_ns_desc: "Los Chasseurs Ardennais son defensores experimentados de las Ardenas belgas, con gran experiencia y formación en guerra forestal."
+ BEL_chasseurs_ardennais_ns_ncns: "$BEL_chasseurs_ardennais_ns$"
+ BEL_chasseurs_ardennais_ns_ncns_desc: "$BEL_chasseurs_ardennais_ns_desc$"
  BEL_dissolve_political_parties_ns: "Disolver los partidos políticos"
  BEL_dissolve_political_parties_ns_desc: "Nuestro primer ministro ha declarado que los partidos políticos son el núcleo de la podredumbre de nuestro corrupto sistema político y que, para curar esta enfermedad, hay que disolver los partidos."
  BEL_the_walloon_legion_ns: "La Legión Valonia"

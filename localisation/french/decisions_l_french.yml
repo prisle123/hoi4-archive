@@ -148,7 +148,7 @@
  decision_cost_faction_influence_5_PP_25_blocked: "§R5%§!£faction_initiative_texticon §R25§!£pol_power"
  decision_cost_faction_influence_5_PP_25_tooltip: "Prendre cette décision coûterait §Y5%§!£faction_initiative_texticon et §Y25§!£pol_power"
  RAJ_population_decisions: "Industrialisation des campagnes"
- RAJ_industrialize_state: "Industrialiser l'État de [From.GetName]"
+ RAJ_industrialize_state: "Industrialiser [FROM.GetName]"
  RAJ_industrialize_state_desc: "[Root.GetLeLaLNPCap] [Root.GetName] [Root.GetAOntNP] retrouvé [Root.GetSonLeurNP] dynamisme. Si la tâche s'annonce évidemment compliquée, faire entrer les campagnes dans la modernité paiera assurément à l'avenir."
  RAJ_industrialized_this_state: "§HCampagnes déjà industrialisées§!"
  RAJ_reduce_agrarian_society_value_tooltip: "\n§H$RAJ_agrarian_society$§!\n$MODIFIER_CONSCRIPTION_TOTAL_FACTOR$: [?RAJ_agrarian_society_increment|+=%]\n"
@@ -227,6 +227,11 @@
  condottieri: "Condottieri"
  scipio_africano: "Scipion l'Africain"
  the_man_with_the_cross: "L'Homme à la croix"
+ ##China
+ mulan: "Mulan rejoint l'armée"
+ defend_our_land: "Défendre notre patrie"
+ storm_on_the_border: "Prendre d'assaut la frontière"
+ children_of_china: "Héritiers de la Chine"
  ##Generic
  our_war: "Notre guerre"
  the_war_for_our_existence: "La Guerre pour survivre"

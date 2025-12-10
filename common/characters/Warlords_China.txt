@@ -530,6 +530,35 @@ characters={
 		}
 	}
 
+	SIK_garegin_apresov = {
+		name = SIK_garegin_apresov
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_SIK_garegin_apresov_small
+			}
+		}	
+
+		advisor = {
+			slot = political_advisor
+			idea_token = SIK_garegin_apresov
+			allowed = {
+				original_tag = SIK
+			}
+			available = {
+				NOT = {
+					has_war_with = SOV
+				}
+			}
+			cost = 150
+			traits = { SIK_soviet_consul_general_trait }
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
 #  __ __                          
 # |  |  | _ _  ___  ___  ___  ___ 
 # |_   _|| | ||   ||   || .'||   |
@@ -2751,6 +2780,7 @@ characters={
 
 		country_leader={
 			ideology=despotism
+			traits = { CHI_taoist_devotee_trait }
 			expire="1965.1.1.1"
 			id=-1
 		}

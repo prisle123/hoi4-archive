@@ -17,7 +17,11 @@ CHI_seek_japanese_support = {
 		}
 
 		visible = {
-			has_completed_focus = CHI_seek_japanese_support
+			OR = {
+				has_completed_focus = CHI_seek_japanese_support
+				has_completed_focus = CHI_sea_seek_japanese_support
+			}
+			
 			JAP = { has_government = fascism }
 		}
 
@@ -48,7 +52,11 @@ CHI_seek_japanese_support = {
 		}
 
 		visible = {
-			has_completed_focus = CHI_seek_japanese_support
+			OR = {
+				has_completed_focus = CHI_seek_japanese_support
+				has_completed_focus = CHI_sea_seek_japanese_support
+			}
+
 			JAP = { has_government = fascism }
 		}
 
@@ -84,7 +92,11 @@ CHI_seek_japanese_support = {
 		}
 
 		visible = {
-			has_completed_focus = CHI_seek_japanese_support
+			OR = {
+				has_completed_focus = CHI_seek_japanese_support
+				has_completed_focus = CHI_sea_seek_japanese_support
+			}
+
 			JAP = { has_government = communism }
 		}
 
@@ -115,7 +127,11 @@ CHI_seek_japanese_support = {
 		}
 
 		visible = {
-			has_completed_focus = CHI_seek_japanese_support
+			OR = {
+				has_completed_focus = CHI_seek_japanese_support
+				has_completed_focus = CHI_sea_seek_japanese_support
+			}
+
 			JAP = { has_government = communism }
 		}
 
@@ -151,7 +167,11 @@ CHI_seek_japanese_support = {
 		}
 
 		visible = {
-			has_completed_focus = CHI_seek_japanese_support
+			OR = {
+				has_completed_focus = CHI_seek_japanese_support
+				has_completed_focus = CHI_sea_seek_japanese_support
+			}
+
 			JAP = { has_government = neutrality }
 		}
 
@@ -182,7 +202,11 @@ CHI_seek_japanese_support = {
 		}
 
 		visible = {
-			has_completed_focus = CHI_seek_japanese_support
+			OR = {
+				has_completed_focus = CHI_seek_japanese_support
+				has_completed_focus = CHI_sea_seek_japanese_support
+			}
+
 			JAP = { has_government = neutrality }
 		}
 
@@ -218,7 +242,11 @@ CHI_seek_japanese_support = {
 		}
 
 		visible = {
-			has_completed_focus = CHI_seek_japanese_support
+			OR = {
+				has_completed_focus = CHI_seek_japanese_support
+				has_completed_focus = CHI_sea_seek_japanese_support
+			}
+
 			JAP = { has_government = democratic }
 		}
 
@@ -264,13 +292,27 @@ CHI_seek_japanese_support = {
 		}
 
 		visible = {
-			has_completed_focus = CHI_seek_japanese_support
+			OR = {
+				has_completed_focus = CHI_seek_japanese_support
+				has_completed_focus = CHI_sea_seek_japanese_support
+			}
 		}
 
 		fire_only_once = yes
 
 		complete_effect = {
-			JAP = { country_event = wtt_warlord.1 }
+			JAP = { 
+				country_event = {
+					id = wtt_warlord.1 
+					hours = 1
+					random_hours = 2
+				}	
+			}
+			effect_tooltip = {
+				JAP = {
+					puppet = ROOT 
+				}
+			}
 			add_stability = 0.2
 			add_political_power = 100
 		}
@@ -394,6 +436,14 @@ SIC_xikang_offensive = {
 		fire_only_once = yes
 
 		cost = 25
+
+		ai_will_do = {
+			base = 1
+			modifier = {
+				factor = 5
+				has_idea = SIC_push_into_xikang_idea
+			}
+		}
 
 		complete_effect = {
 
@@ -725,6 +775,10 @@ CHI_tsr_power_struggle_cat = {
 
 		icon = GFX_decision_hol_exchange_intelligence_data
 
+		visible = {
+			NOT = { original_tag = event_target:WTT_current_china_leader }
+		}
+
 		available = {
 			is_subject = no
 			is_in_faction_with = event_target:WTT_current_china_leader
@@ -759,15 +813,16 @@ CHI_tsr_power_struggle_cat = {
 		priority = 50
 	
 		icon = generic_civil_support
+
+		visible = {
+			has_country_flag = tsr_warlord_support
+			NOT = { original_tag = event_target:WTT_current_china_leader }
+		}	
 	
 		available = {
 			is_subject = no
 			is_in_faction_with = event_target:WTT_current_china_leader
 		}
-
-		visible = {
-			has_country_flag = tsr_warlord_support
-		}	
 	
 		target_root_trigger = {
 			has_country_flag = tsr_political_struggle
@@ -969,6 +1024,7 @@ CHI_tsr_power_struggle_cat = {
 
 		visible = {
 			has_country_flag = tsr_warlord_propaganda
+			NOT = { original_tag = event_target:WTT_current_china_leader }
 		}	
 
 		available = {
@@ -1002,6 +1058,7 @@ CHI_tsr_power_struggle_cat = {
 
 		visible = {
 			has_country_flag = tsr_warlord_propaganda
+			NOT = { original_tag = event_target:WTT_current_china_leader }
 		}	
 
 		available = {
@@ -1035,6 +1092,7 @@ CHI_tsr_power_struggle_cat = {
 
 		visible = {
 			has_country_flag = tsr_warlord_propaganda
+			NOT = { original_tag = event_target:WTT_current_china_leader }
 		}	
 
 		available = {
@@ -1068,6 +1126,7 @@ CHI_tsr_power_struggle_cat = {
 
 		visible = {
 			has_country_flag = tsr_warlord_propaganda
+			NOT = { original_tag = event_target:WTT_current_china_leader }
 		}	
 
 		available = {
@@ -1104,6 +1163,7 @@ CHI_tsr_power_struggle_cat = {
 				is_subject = no
 			}
 			is_in_faction_with = event_target:WTT_current_china_leader
+			NOT = { original_tag = event_target:WTT_current_china_leader }
 			faction_influence_ratio > 0.35
 			event_target:WTT_current_china_leader = {
 				faction_influence_ratio < 0.35

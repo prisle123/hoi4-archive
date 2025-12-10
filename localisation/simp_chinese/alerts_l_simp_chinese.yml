@@ -185,7 +185,7 @@
  ALERT_LEFTCLICK_TOGGLE_SPOTTER: "§G左键点击在诸侦测间切换§!"
  ALERT_SPOTTER_INFO: "诸舰队在此区域新侦测到$NUM|H$起被标记为重要的报告。"
  ALERT_SPOTTER_INFO_REGION: "此区域有$NUM|H$起新的侦测报告。"
- ALERT_NO_CRYPTO_IS_BEING_DECRYPTED_TOOLTIP: "§R未进行敌特破译项目。§!"
+ ALERT_NO_CRYPTO_IS_BEING_DECRYPTED_TOOLTIP: "§R未进行敌方密码破译项目。§!"
  ALERT_NO_CRYPTO_IS_BEING_DECRYPTED_TOOLTIP_DELAYED: "§G左键点击§!打开密码学窗口。"
  ALERT_ENEMY_CRYPTO_IS_BROKEN_TOOLTIP: "你已成功破译下列国家的密码："
  ALERT_ENEMY_CRYPTO_IS_BROKEN_TOOLTIP_DELAYED: "§G左键点击§!打开密码学窗口。"
@@ -234,3 +234,4 @@
  alert_lack_of_power_delayed_mil: "所有£mil_factory 军用工厂£production_cost 减少$VALUE|H$，工厂产出修正降低$PERCENTAGE|.0R%$"
  alert_lack_of_power_delayed_nav: "所有£nav_dockyard_texticon 海军船坞£navprod_cost 减少$VALUE|H$，船坞产出修正降低$PERCENTAGE|.0R%$"
  alert_faction_can_select_goal_instant: "§H你可以选择新阵营目标§!"
+ alert_faction_can_select_goal_delayed_header: "如果我们不作选择，其他阵营成员可能会自行添加一个目标"

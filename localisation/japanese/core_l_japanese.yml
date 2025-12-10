@@ -2114,6 +2114,5 @@
  JAP_emperor_hirohito_override_instant: "§H$JAP_hirohito$§!天皇\n日本の内閣を率いるのは§H$JAP_keisuke_okada$§!だが、日本国民の崇敬を集める天皇陛下こそが、国家権力の象徴である。\n\n大日本帝国が存続するかぎり、数々の派閥が§H帝国の影響§!力をめぐり鎬を削る。"
  JAP_emperor_hirohito_override_delayed: ""
  PLAN_COHESION_IMMOBILE_TITLE: "§H不動§!"
- PLAN_COHESION_IMMOBILE_DESC: "師団は§R決して§!移動しない！"
- PLANNING_SPEED_COHESION_IMMOBILE_FACTOR: "$PLAN_COHESION_IMMOBILE_TITLE$ 結束: x$FACTOR|R$"
-
+ PLAN_COHESION_IMMOBILE_DESC: "師団が移動§Rしない§!！"
+ PLANNING_SPEED_COHESION_IMMOBILE_FACTOR: "$PLAN_COHESION_IMMOBILE_TITLE$結束: x$FACTOR|R$"

@@ -459,13 +459,12 @@ characters = {
 			}
 			corps_commander={
 				traits={ brilliant_strategist }
-				skill=4
-				attack_skill=5
-				defense_skill=4
-				planning_skill=2
-				logistics_skill=2
+				skill=3
+				attack_skill=4
+				defense_skill=3
+				planning_skill=3
+				logistics_skill=3
 				legacy_id=-1
-				visible = { has_completed_focus = CHI_draw_support_from_the_big_families }
 			}
 
 			advisor={
@@ -481,10 +480,6 @@ characters = {
 				cost = 100
 				ai_will_do = {
 					factor = 1.000
-				}
-
-				available = {
-					has_completed_focus = CHI_draw_support_from_the_big_families
 				}
 			}
 		}
@@ -2436,6 +2431,30 @@ characters = {
 		}
 	}
 
+	CHI_zhu_jiahua = {
+		name = CHI_zhu_jiahua
+		portraits = {
+			civilian = {
+				small = GFX_portrait_CHI_zhu_jihua_small
+			}
+		}
+		gender = male
+		advisor = {
+			slot = political_advisor
+			idea_token = CHI_zhu_jiahua
+			allowed  = {
+				original_tag  = CHI
+				has_dlc = "No Compromise, No Surrender"
+			}
+			available  = {
+				
+			}
+			traits  = {
+				CHI_minister_of_transport_trait 
+			}
+		}
+	}
+
 	CHI_zou_taofen={
 		name=CHI_zou_taofen
 		portraits={
@@ -2942,7 +2961,7 @@ characters = {
 					NOT = { has_war_with = USA }
 				}
 				idea_token = CHI_claire_lee_chennault_ground_support
-				traits = { air_chief_ground_support_2 }
+				traits = { air_chief_reform_2 }
 				ai_will_do = {
 					factor = 0.5
 				}
@@ -3167,7 +3186,7 @@ characters = {
 		}
 	}
 
-	CHI_zhang_guotao={ # Exist for pre-sea TODO_JNS
+	CHI_zhang_guotao={ 
 		name=CHI_zhang_guotao
 		portraits={
 			civilian={
@@ -3182,17 +3201,60 @@ characters = {
 		}
 	}
 
-	CHI_weng_wenhao={ # Exist for pre-sea TODO_JNS
-		name=CHI_weng_wenhao
-		portraits={
-			civilian={
-				large="GFX_portrait_chi_weng_wenhao"
+	CHI_weng_wenhao = { 
+		
+		instance = {
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+
+			name = CHI_weng_wenhao
+			portraits = {
+				civilian = {
+					large = GFX_portrait_chi_weng_wenhao
+					small = GFX_idea_CHI_weng_wenhao 
+				}
+			}
+
+			advisor = {
+				slot = political_advisor
+				allowed = {
+					original_tag = CHI 
+				}
+				visible = {
+					
+				}
+				available  = {
+					
+				}
+				idea_token = CHI_weng_wenhao
+				traits  = {
+					CHI_geologist_trait 
+				}
 			}
 		}
-		country_leader={
-			ideology=socialism
-			expire="1965.1.1.1"
-			id=-1
+
+		instance = {
+			allowed = {
+				NOT = { 
+					has_dlc = "No Compromise, No Surrender" 
+				}
+			}
+
+			name = CHI_weng_wenhao
+			portraits = {
+				civilian = {
+					large = GFX_portrait_chi_weng_wenhao
+					small = GFX_idea_CHI_weng_wenhao 
+				}
+			}
+			
+			country_leader = {
+				ideology = socialism
+				expire = "1965.1.1.1"
+				id = -1
+			}
+			
 		}
 	}
 

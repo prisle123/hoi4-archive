@@ -121,8 +121,8 @@
 
 
  battle_royale_tt: "As [PRC.GetName], fight both [CHI.GetNonIdeologyName] and [JAP.GetNonIdeologyName] before 1940 within 90 days of being at war with the other, and capitulate them both"
- the_winner_takes_it_all_tt: "As [PRC.GetNonIdeologyName], own and control all of [PRC.GetNonIdeologyName]'s starting core states"
- master_infiltrator_tt: "As [PRC.GetNonIdeologyName], don't expand beyond Yan'an, and infiltrate at least 5 Chinese states and flip them to your control when attacking the rest of China"
+ the_winner_takes_it_all_tt: "As [PRC.GetName], own and control all of [PRC.GetNonIdeologyName]'s starting core states"
+ master_infiltrator_tt: "As [PRC.GetName], don't expand beyond Yan'an, and infiltrate at least 5 Chinese states and flip them to your control when attacking the rest of China"
  its_all_coming_together_tt: "As [CHI.GetNonIdeologyName], fully control all core states alone or with subjects"
  the_coast_is_clear_tt: "As [CHI.GetNonIdeologyName], never lose a starting coastal state before September 2nd, 1945"
  paradisus_paradoxum_tt: "As [JAP.GetNonIdeologyName], proclaim the creation of a Pure Buddhist Land"

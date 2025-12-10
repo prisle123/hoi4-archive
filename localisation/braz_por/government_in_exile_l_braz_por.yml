@@ -4,7 +4,7 @@
  SHOW_OWN_EXILE_STATUS: "Mostrar nosso status de Governo em Exílio"
  SHOW_COLLABORATIONS_DESC: "Exibir países que estão colaborando conosco"
  SHOW_COLLABORATIONS_AND_EXILE_DESC: "Exibir status de colaboração e exílio"
- SHOW_COLLABORATIONS_DISABLED_DESC: "§RNão há nenhum governo colaborando conosco§!"
+ SHOW_COLLABORATIONS_DISABLED_DESC: "§RNenhum governo está colaborando conosco no momento§!"
  SHOW_EXILES_DISABLED_DESC: "§RNão há governos em exílio para serem exibidos§!"
  MANAGE_EXILES_HEADER: "Governos em Exílio"
  SHOW_COLLABORATIONS_TITLE: "Colaborações"

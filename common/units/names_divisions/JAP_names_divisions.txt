@@ -1064,5 +1064,40 @@ JAP_MIL_02 = {
 	}
 }
 
+JAP_RGR_01 = {
+	name = "Ranger Units"
 
+	for_countries = { JAP }
+
+	can_use = { always = yes }
+
+	division_types = { "ranger_battalion"  }
+
+	fallback_name = "%d Betsudotai"
+
+	# Names with numbers (only one number per entry)
+	ordered = {
+	1 = { "%d Betsudotai" }
+	2 = { "%d Betsudotai" }
+	3 = { "%d Betsudotai" }
+	4 = { "%d Betsudotai" }
+	5 = { "%d Betsudotai" }
+	6 = { "%d Betsudotai" }
+	7 = { "%d Betsudotai" }
+	8 = { "%d Betsudotai" }
+	9 = { "%d Betsudotai" }
+	10 = { "%d Betsudotai" }
+	11 = { "%d Betsudotai" }
+	12 = { "%d Betsudotai" }
+	13 = { "%d Betsudotai" }
+	14 = { "%d Betsudotai" }
+	15 = { "%d Betsudotai" }
+	16 = { "%d Betsudotai" }
+	17 = { "%d Betsudotai" }
+	18 = { "%d Betsudotai" }
+	19 = { "%d Betsudotai" }
+	20 = { "%d Betsudotai" }
+		
+	}
+}
 

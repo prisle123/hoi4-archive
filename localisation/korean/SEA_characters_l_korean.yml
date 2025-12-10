@@ -14,7 +14,7 @@
  JAP_hitoshi_yamakawa: "야마카와 히토시"
  JAP_kanson_arahata: "아라하타 간손"
  JAP_yamakawa_kikue: "야마카와 기쿠에"
- JAP_empress_nagako: "나가코 황후"
+ JAP_empress_nagako: "나가코"
  JAP_fumimaro_konoe: "고노에 후미마로"
  JAP_senjuro_hayashi: "하야시 센주로"
  JAP_jinzaburo_masaki: "마사키 진자부로"
@@ -334,6 +334,7 @@
  GDC_chen_zhang: "천장"
  GDC_yan_yingyu: "옌잉위"
  GDC_li_jiezhi: "리제즈"
+ SIK_garegin_apresov: "가레긴 아브라모비치 아프레소프"
  ####################################
  #### PEOPLE'S REPUBLIC OF CHINA ####
  ####################################
@@ -454,6 +455,7 @@
  CHI_sun_fo: "쑨커"
  CHI_zhang_lan: "장란"
  CHI_symeon_du: "시메온 두"
+ CHI_zhu_jiahua: "주자화"
  ###################
  ###### PINOY ######
  ###################

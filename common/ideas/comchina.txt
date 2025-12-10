@@ -700,33 +700,6 @@ ideas = {
 			}
 		}
 
-		PRC_a_new_central_committe_hidden_idea = { ## Hidden idea
-			picture = MEX_revolutionary_army
-
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			removal_cost = -1
-
-			modifier = {
-
-			}
-
-			on_remove = {
-				add_to_variable = {
-					PRC_central_committee_political_power_factor = 0.25 ## The - 10% to +15%
-				}
-			}
-
-
-
-		}
-
 		PRC_SOV_lend_lease_idea_1 = {
 			picture = generic_supply_line 
 
@@ -1399,6 +1372,24 @@ ideas = {
 				land_reinforce_rate = 0.01
 			}
 		}
+
+		PRC_refitting_bonus = {
+
+			name = PRC_dalian_shipbuilding_company_carrier_learners
+
+			picture = generic_the_london_naval_treaty
+
+			allowed = {
+				has_dlc = "No Compromise, No Surrender"
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				refit_speed = 0.15 
+			}
+		}
+
 	}
 
 	hidden_ideas = {
@@ -1819,6 +1810,36 @@ ideas = {
 				breakthrough_bonus_against = 0.1
 			}
 		}
+
+		
+		PRC_a_new_central_committe_hidden_idea = { ## Hidden idea
+			name = PRC_central_committee
+			picture = MEX_revolutionary_army
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+
+			}
+
+			on_remove = {
+				add_to_variable = {
+					PRC_central_committee_political_power_factor = 0.25 ## The - 10% to +15%
+				}
+			}
+
+
+
+		}
+
 	}
 
 	####################

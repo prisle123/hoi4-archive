@@ -7081,9 +7081,14 @@ focus_tree = {
 		available = {
 			is_subject = no
 		}
-		
 		bypass = {
-			is_subject = yes
+			OR = {
+				is_subject = yes
+				any_country_with_original_tag = {
+					original_tag_to_check = SOU
+					exists = no 
+				}
+			}
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION } 
 		completion_reward = {
@@ -7199,6 +7204,16 @@ focus_tree = {
 			is_subject = no
 			RAJ = {
 				exists = yes
+			}
+		}
+
+		bypass = {
+			OR = {
+				is_subject = yes
+				any_country_with_original_tag = {
+					original_tag_to_check = RAJ
+					exists = no 
+				}
 			}
 		}
 		

@@ -331,9 +331,9 @@ IF = {
 		complete_national_focus = AFG_maintain_neutrality
 		#1939
 		complete_national_focus = AFG_qargha_dam
-		complete_national_focus = AFG_adopt_nufus
+		complete_national_focus = AFG_maintain_quami
 		complete_national_focus = AFG_introduce_national_service
-		complete_national_focus = AFG_new_army
+		complete_national_focus = AFG_asymmetric_warfare
 
 		diplomatic_relation = {
 			country = TUR

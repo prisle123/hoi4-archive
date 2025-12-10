@@ -1581,6 +1581,7 @@ focus_tree = {
 					is_faction_leader = yes
 				}
 			}
+			is_subject = no
 		}
 
 		bypass = {
@@ -1714,6 +1715,27 @@ focus_tree = {
 					tooltip = production_factory_efficiency_gain_factor_tt
 				}
 			}
+
+			IF = {
+				limit = {
+					CHI_zhu_jiahua = {
+						has_trait = CHI_minister_of_transport_trait
+					}
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				remove_trait = {
+				    character = CHI_zhu_jiahua
+				    slot = political_advisor
+				    trait = CHI_minister_of_transport_trait
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				add_trait = {
+				    character = CHI_zhu_jiahua
+				    slot = political_advisor
+				    trait = CHI_minister_of_transport_trait_2
+				}
+			}
+
 		}
 	}
 
@@ -2358,7 +2380,7 @@ focus_tree = {
 			IF = {
 				limit = {
 					is_in_faction = no
-
+					is_subject = no
 				}
 				create_faction_from_template = faction_template_wang_front 
 				every_other_country = {
@@ -2379,9 +2401,21 @@ focus_tree = {
 				}
 			}
 			ELSE = {
-				add_timed_idea = {
-					idea = idea_CHI_our_place
-					days = 365
+				IF = {
+					limit = {
+						is_in_faction = yes	
+						is_subject = no
+					}
+					add_timed_idea = {
+						idea = idea_CHI_our_place
+						days = 365
+					}
+				}
+				ELSE = {
+					add_autonomy_ratio = {
+						value = 0.2
+						localization = CHI_lay_the_foundation_for_a_united_china
+					}
 				}
 			}
 		}
@@ -2494,6 +2528,27 @@ focus_tree = {
 				}
 				CHI_concessions_add_medium_amount_of_days = yes
 			}
+
+			IF = {
+				limit = {
+					CHI_zhu_jiahua = {
+						has_trait = CHI_minister_of_transport_trait
+					}
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				remove_trait = {
+				    character = CHI_zhu_jiahua
+				    slot = political_advisor
+				    trait = CHI_minister_of_transport_trait
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				add_trait = {
+				    character = CHI_zhu_jiahua
+				    slot = political_advisor
+				    trait = CHI_minister_of_transport_trait_2
+				}
+			}
+
 		}
 	}
 
@@ -4877,7 +4932,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = CHI_arrest_the_seven_gentlemen
-		cost = 10
+		cost = 5
 		available = {
 		}
 	
@@ -4895,11 +4950,6 @@ focus_tree = {
 				tooltip = political_power_gain_tt
 			}
 
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			custom_effect_tooltip = available_military_high_command
-			show_ideas_tooltip = CHI_sun_li_jen
-			CHI_sun_li_jen = { custom_effect_tooltip = unlock_general_tt }
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			custom_effect_tooltip = available_political_advisor
@@ -6698,7 +6748,7 @@ focus_tree = {
 			NOT = {
 				has_faction_template = faction_template_chinese_united_front
 			}
-
+			is_subject = no
 		}
 		bypass = {
 			has_faction_template = faction_template_allies
@@ -7951,6 +8001,27 @@ focus_tree = {
 					name = CHI_seek_out_western_fascist_cooperation
 				}
 			}
+
+			IF = {
+				limit = {
+					CHI_zhu_jiahua = {
+						has_trait = CHI_minister_of_transport_trait
+					}
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				remove_trait = {
+				    character = CHI_zhu_jiahua
+				    slot = political_advisor
+				    trait = CHI_minister_of_transport_trait
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+				add_trait = {
+				    character = CHI_zhu_jiahua
+				    slot = political_advisor
+				    trait = CHI_minister_of_transport_trait_2
+				}
+			}
+			
 		}
 	}
 
@@ -9230,6 +9301,7 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = { has_rule = can_create_factions }
+					is_subject = no
 				}
 				set_rule = { 
 					can_create_factions = yes 
@@ -10150,6 +10222,9 @@ focus_tree = {
 				CHI_corruption_in_the_armed_forces_max_planning_factor = 0.02
 				tooltip = max_planning_factor_tt
 			}
+			
+			custom_effect_tooltip = generic_skip_one_line_tt
+			unlock_decision_tooltip = CHI_invest_in_officer_training 
 
 			IF = {
 				limit = {
@@ -10494,13 +10569,13 @@ focus_tree = {
 		completion_reward = {
 			every_core_state = {
 				limit = {
-					is_fully_controlled_by = ROOT 
+					state_is_fully_controlled_by_ROOT_subject_or_faction_member = yes
 					is_coastal = yes
 				}
 				add_dynamic_modifier = {
 					modifier = CHI_bog_defensive_modifier
 					scope = CHI
-					days = 120
+					days = 210
 				}
 			}
 		}
@@ -10639,6 +10714,32 @@ focus_tree = {
 		}
 
 		completion_reward = { 
+			hidden_effect = {
+				IF = {
+					limit = {
+						has_dlc = "No Step Back"
+					}
+					create_equipment_variant = {
+						name = "T-26TU mod. 1933"
+						allow_without_tech = yes
+						type = light_tank_chassis_1
+						parent_version = 0
+						modules = {
+							main_armament_slot = tank_small_cannon_2
+							turret_type_slot = tank_light_two_man_tank_turret
+							suspension_type_slot = tank_bogie_suspension
+							armor_type_slot = tank_riveted_armor
+							engine_type_slot = tank_gasoline_engine
+							special_type_slot_1 = tank_radio_1
+						}
+						upgrades = {
+							tank_nsb_engine_upgrade = 2
+							tank_nsb_armor_upgrade = 2
+						}
+						icon = "GFX_SOV_basic_light_tank_medium"
+					}
+				}
+			}
 			custom_effect_tooltip = CHI_organise_the_200th_division_tt
 			division_template = { 
 				name = "200th Division"
@@ -10859,12 +10960,12 @@ focus_tree = {
 		cost = 10
 		available = {
 			OR = {
-				has_full_control_of_state = 608 # Beijing
-				has_full_control_of_state = 613 #  Shanghai
-				has_full_control_of_state = 1035 #  Nanjing
-				has_full_control_of_state = 1036 #  Wuhan
-				has_full_control_of_state = 620 #  Chongqing
-				has_full_control_of_state = 592 #  Guanzhou
+				608 = { state_is_fully_controlled_by_ROOT_or_subject  = yes } # Beijing
+				613 = { state_is_fully_controlled_by_ROOT_or_subject  = yes } #  Shanghai
+				1035 = { state_is_fully_controlled_by_ROOT_or_subject  = yes } #  Nanjing
+				1036 = { state_is_fully_controlled_by_ROOT_or_subject  = yes } #  Wuhan
+				620 = { state_is_fully_controlled_by_ROOT_or_subject  = yes } #  Chongqing
+				592 = { state_is_fully_controlled_by_ROOT_or_subject  = yes } #  Guanzhou
 			}
 		}
 			   	 
@@ -10874,9 +10975,17 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_state_aa
+				bonus = 0.5
+				uses = 2
+				category = cat_anti_air
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+
 			IF = {
 				limit = { 
-					608 = { is_owned_and_controlled_by = ROOT } # Beijing
+					608 = { state_is_fully_controlled_by_ROOT_or_subject = yes } # Beijing
 					anti_air_building < 5
 				}
 				608 = {
@@ -10889,7 +10998,7 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					613 = { is_owned_and_controlled_by = ROOT } #  Shanghai
+					613 = { state_is_fully_controlled_by_ROOT_or_subject = yes } #  Shanghai
 					anti_air_building < 5
 				}
 				613 = {
@@ -10902,7 +11011,7 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					1035 = { is_owned_and_controlled_by = ROOT } #  Nanjing
+					1035 = { state_is_fully_controlled_by_ROOT_or_subject = yes } #  Nanjing
 					anti_air_building < 5
 				}
 				1035 = {
@@ -10915,7 +11024,7 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					1036 = { is_owned_and_controlled_by = ROOT } #  Wuhan
+					1036 = { state_is_fully_controlled_by_ROOT_or_subject = yes } #  Wuhan
 					anti_air_building < 5
 				}
 				1036 = {
@@ -10928,7 +11037,7 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					1037 = { is_owned_and_controlled_by = ROOT } #  Chongqing
+					1037 = { state_is_fully_controlled_by_ROOT_or_subject = yes } #  Chongqing
 					anti_air_building < 5
 				}
 				1037 = {
@@ -10941,7 +11050,7 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					592 = { is_owned_and_controlled_by = ROOT } #  Guanzhou
+					592 = { state_is_fully_controlled_by_ROOT_or_subject = yes } #  Guanzhou
 					anti_air_building < 5
 				}
 				592 = {
@@ -10962,26 +11071,29 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = CHI_the_4_defence_areas
-		cost = 10
+		cost = 5
 		available = {
 			OR = {
-				608 = {
-					is_fully_controlled_by = ROOT
+				608 = { # Beijing
+					state_is_fully_controlled_by_ROOT_or_subject = yes
 				}
-				743 = {
-					is_fully_controlled_by = ROOT
+				743 = { # Qingdao
+					state_is_fully_controlled_by_ROOT_or_subject = yes
 				}
-				613 = {
-					is_fully_controlled_by = ROOT
+				613 = { # Shanghai
+					state_is_fully_controlled_by_ROOT_or_subject = yes
 				}
-				596 = {
-					is_fully_controlled_by = ROOT
+				596 = { # Zhejian
+					state_is_fully_controlled_by_ROOT_or_subject = yes
 				}
-				595 = {
-					is_fully_controlled_by = ROOT
+				595 = { # Fujian
+					state_is_fully_controlled_by_ROOT_or_subject = yes
 				}
-				592 = {
-					is_fully_controlled_by = ROOT
+				592 = { # Guanzhou
+					state_is_fully_controlled_by_ROOT_or_subject = yes
+				}
+				598 = { # Jiangsu
+					state_is_fully_controlled_by_ROOT_or_subject = yes
 				}
 			}
 		}
@@ -10993,9 +11105,17 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = CHI_coastal_forts
+				bonus = 0.75
+				uses = 1
+				category = cat_fortification
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+
 			IF = {
 				limit = {
-					608 = { is_fully_controlled_by = ROOT }
+					608 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
 				}
 				608 = { # Beijing
 					add_building_construction = {
@@ -11012,7 +11132,7 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					743 = { is_fully_controlled_by = ROOT }
+					743 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
 				}
 				743 = { # Qingdao
 					add_building_construction = {
@@ -11027,9 +11147,9 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					613 = { is_fully_controlled_by = ROOT }
+					613 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
 				}
-				613 = { # Shanghai TODO_JNS Change if needed
+				613 = { # Shanghai
 					add_building_construction = {
 						type = coastal_bunker
 						level = 1
@@ -11044,7 +11164,7 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					596 = { is_fully_controlled_by = ROOT }
+					596 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
 				}
 				596 = { # Zhejiang
 					add_building_construction = {
@@ -11060,7 +11180,7 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					595 = { is_fully_controlled_by = ROOT }
+					595 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
 				}
 				595 = { # Fujian
 					add_building_construction = {
@@ -11075,7 +11195,7 @@ focus_tree = {
 			}
 			IF = {
 				limit = {
-					592 = { is_fully_controlled_by = ROOT }
+					592 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
 				}
 				592 = { # Guanzhou
 					add_building_construction = {
@@ -11083,6 +11203,21 @@ focus_tree = {
 						level = 2
 						province = {
 							id = 1047
+						}
+						instant_build = yes
+					}
+				}
+			}
+			IF = {
+				limit = {
+					598 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+				}
+				598 = { # Jiangsu
+					add_building_construction = {
+						type = coastal_bunker
+						level = 1
+						province = {
+							id = 1029
 						}
 						instant_build = yes
 					}

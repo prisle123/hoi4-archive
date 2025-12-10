@@ -234,3 +234,4 @@
  alert_lack_of_power_delayed_mil: "Die Produktion jeder £mil_factory Militärfabrik ist um $VALUE|H$ £production_cost verringert und die Fabrikleistung ist um $PERCENTAGE|.0R%$ verringert"
  alert_lack_of_power_delayed_nav: "Die Produktion jeder £nav_dockyard_texticon Schiffswerft ist um $VALUE|H$ £navprod_cost verringert und die Schiffswerft-Produktionsleistung ist um $PERCENTAGE|.0R%$ verringert"
  alert_faction_can_select_goal_instant: "§HWir können ein neues Bündnisziel wählen§!"
+ alert_faction_can_select_goal_delayed_header: "Andere Bündnismitglieder könnten ein Ziel wählen, wenn wir nicht schnell handeln"

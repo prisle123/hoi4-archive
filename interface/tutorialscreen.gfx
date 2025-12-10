@@ -114,6 +114,12 @@ spriteTypes = {
 		name = "GFX_wiki_button"
 		texturefile = "gfx/interface/tutorial/wiki_button.dds"
 	}
+
+	spriteType = {
+		name = "GFX_youtube_button"
+		texturefile = "gfx/interface/tutorial/youtube_button.dds"
+	}
+	
 	
 	spriteType = {
 		name = "GFX_hint_button"

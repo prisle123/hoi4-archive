@@ -2025,6 +2025,8 @@ on_actions = {
 					delete_unit = { state = 422 }
 					delete_unit = { state = 326 }
 					delete_unit = { state = 336 }
+					delete_unit = { state = 1021 }
+					release = SNG 
 					release = MLD
 					release = MAL
 					release = SRL
@@ -2033,6 +2035,9 @@ on_actions = {
 					release = FSA
 					release = BHR
 					release = CYP
+				}
+				POR = {
+					release = TML
 				}
 				RAJ = {
 					release = KAS
@@ -2083,7 +2088,6 @@ on_actions = {
 				INS = {
 					abandon_colony_tag = yes
 					retire_country_leader = yes
-					transfer_state = 721
 				}
 				USA = {
 					delete_unit = { state = 327 }
@@ -2117,7 +2121,7 @@ on_actions = {
 					transfer_state = 712
 					transfer_state = 711
 				}
-				if = {
+				IF = {
 					limit = {
 						NOT = {
 							has_dlc = "No Compromise, No Surrender"
@@ -2132,7 +2136,7 @@ on_actions = {
 						transfer_state = 326
 					}
 				}
-				else = {
+				ELSE = {
 					728 = { add_core_of = GDC }
 					729 = { add_core_of = GDC }
 					326 = { add_core_of = GDC }
@@ -2154,10 +2158,24 @@ on_actions = {
 				MAN = {
 					transfer_state = 745
 				}
-				CHI = {
-					transfer_state = 609
-					transfer_state = 524
+				IF = {
+					limit = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+					CHI = {
+						transfer_state = 524
+					}
+					HBC = {
+						transfer_state = 609
+					}
 				}
+				ELSE = {
+					CHI = {
+						transfer_state = 609
+						transfer_state = 524
+					}
+				}
+				
 				KOR = {
 					transfer_units_fraction = {
 						target = JAP

@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  treaty_org.1.t: "布鲁塞尔条约"
  treaty_org.1.desc: "随着迫在眉睫的全球威胁得到解决，[SOV.GetNameDef]与其西方盟国之间的松散盟约开始瓦解。\n\n[FROM.GetNameDef]惧怕双方沟通联络彻底中断与美苏在欧洲的大国博弈——而最近在东德发生的事情证明了这点，于是在布鲁塞尔举办的紧急会议上提出了一项互助条约。"
- treaty_org.1.a: "必须遏制来自东方的威胁。"
+ treaty_org.1.a: "必须遏制来自东方的威胁"
  treaty_org.1.b: "我们不需要另一场战争……"
  join_brussels_treaty_tt: "我们会签署布鲁塞尔条约。"
  SOV_chose_NATO_neutrality: "选择中立"
@@ -25,7 +25,7 @@
  treaty_org.3.t: "北大西洋公约组织"
  treaty_org.3.desc: "[USA.GetNameDef]与[FROM.GetNameDef]政府在经过期待已久的外交斡旋后，于昨晚宣布了北大西洋联合公约的成立。他们许诺将通过民生、军事和情报合作维持一个充满希望的时代，而[SOV.GetNameDef]的高层并不欢迎这样的想法。\n\n和平，看来是转瞬即逝。"
  treaty_org.3.a: "有意思"
- treaty_org.3.b: "真卑劣。"
+ treaty_org.3.b: "真卑劣"
  treaty_org.4.desc: "[FROM.GetNameDef]政府在经过期待已久却稍显无力的外交斡旋后，于昨晚宣布了北大西洋联合公约的成立。他们许诺将通过民生、军事和情报合作维持一个充满希望的时代，而[SOV.GetNameDef]的高层并不欢迎这样的想法。\n\n和平，看来是转瞬即逝。"
  treaty_org.4.a: "有意思"
  treaty_org.4.b: "看上去和北大西洋没什么关系啊"

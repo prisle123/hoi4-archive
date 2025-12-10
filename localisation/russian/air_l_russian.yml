@@ -36,7 +36,7 @@
  AIRWING_MISSION_TYPE_TRAINING_DESC_SHIFT_CLICK: "Щёлкните, удерживая §HShift§!, чтобы проводить §Hвоздушные учения§! до тех пор, пока §Hавиакрыло§! не будет полностью обучено."
  AIRWING_MISSION_TYPE_NAVAL_MINE_PLANTING: "Выброска морских мин с воздуха"
  AIRWING_MISSION_TYPE_NAVAL_MINE_PLANTING_DESC: "Выброска морских мин в регионах. Наибольший потенциальный штраф для ваших врагов: \n"
- AIRWING_MISSION_TYPE_NAVAL_MINE_SWEEPING: "Траление мин с воздуха"
+ AIRWING_MISSION_TYPE_NAVAL_MINE_SWEEPING: "Морское траление мин"
  AIRWING_MISSION_TYPE_NAVAL_MINE_SWEEPING_DESC: "Поиск и обезвреживание морских мин противника. Наибольший потенциальный штраф, который вы можете получить от вражеских мин: \n"
  AIRWING_MISSION_TYPE_DROP_NUKE: "Атомный удар"
  AIRWING_MISSION_TYPE_DROP_NUKE_DESC: "Атомный удар"

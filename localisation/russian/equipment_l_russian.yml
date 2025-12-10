@@ -74,7 +74,7 @@
  EQUIPMENT_ANTI_TANK: "ПТО"
  EQUIPMENT_ROCKET: "Ракета"
  EQUIPMENT_FLAME: "Пламя"
- EQUIPMENT_MISSILE: "Ракета"
+ EQUIPMENT_MISSILE: "Снаряд/Ракета"
  EQUIPMENT_LAND: "Оснащение армии"
  EQUIPMENT_NAVAL: "Оснащение флота"
  EQUIPMENT_AIR: "Оснащение ВВС"

@@ -49,6 +49,8 @@
  NAVAL_MISSION_INTEL:0 "There are $COUNT|H$ taskforces assigned to $MISSION|H$ mission in this region and currently $ACTIVE|H$ of them are in the region and actively doing the mission."
  NAVAL_MISSION_INTEL_ALL_ASSIGNED:0 "There are $COUNT|H$ taskforces assigned to $MISSION|H$ mission in this region and actively doing the mission."
  AIR_MISSION_INTEL_RANGE:0 "There are $RANGE|H$ airplanes assigned to $MISSION|H$ mission in this region."
+ AIR_MISSION_INTEL_RANGE_MISSILES:0 "There are $RANGE|H$ missiles assigned to $MISSION|H$ mission in this region."
+ AIR_MISSION_INTEL_RANGE_GUNS:0 "There are $RANGE|H$ guns assigned to $MISSION|H$ mission in this region."
  NAVAL_BASE_TASKFORCE_COUNT:0 "There are $COUNT|H$ taskforces docked in this naval base."
  
  ARMY_LEDGER_ARMIES:1 "Divisions"

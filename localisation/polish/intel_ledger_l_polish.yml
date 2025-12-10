@@ -41,6 +41,8 @@
  NAVAL_MISSION_INTEL: "W tym rejonie misja $MISSION|H$ jest wykonywana przez następującą liczbę grup operacyjnych: $COUNT|H$. Obecnie $ACTIVE|H$ z nich znajduje się w regionie i aktywnie uczestniczy w misji."
  NAVAL_MISSION_INTEL_ALL_ASSIGNED: "W tym rejonie misja $MISSION|H$ jest wykonywana przez następującą liczbę grup operacyjnych: $COUNT|H$, wszystkie aktywnie uczestniczą w misji."
  AIR_MISSION_INTEL_RANGE: "W tym rejonie misja $MISSION|H$ jest wykonywana przez następującą liczbę samolotów: $RANGE|H$."
+ AIR_MISSION_INTEL_RANGE_MISSILES: "Liczba rakiet przypisanych do misji $MISSION|H$ w tym regionie to $RANGE|H$."
+ AIR_MISSION_INTEL_RANGE_GUNS: "Liczba dział przypisanych do misji $MISSION|H$ w tym regionie to $RANGE|H$."
  NAVAL_BASE_TASKFORCE_COUNT: "W bazie morskiej znajduje się następująca liczba grup operacyjnych: $COUNT|H$."
  ARMY_LEDGER_ARMIES: "Dywizje"
  ARMY_LEDGER_EQUIPMENT: "Zapasy"

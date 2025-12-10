@@ -1574,6 +1574,7 @@
  BEL_legacy_of_the_soldier_king_tt: "Le §Yroi Léopold§! ne cédera plus à la pression militaire et ne fera pas capituler le pays en cas d'invasion."
  BEL_anti_tank_guns_tt: "Donne accès aux §Hcanons antichars supérieurs§!\n§YArtillerie AC d'appui§!, §Ycanons antichars de ligne§!, §Yantichars motorisés§!, §Ychasseurs de chars légers§! :\n  Attaque lourde : §G+10%§!\n  Perforation : §G+10%§!\n"
  BEL_chasseurs_ardennais_tt: "§YInfanterie de montagne§! :\n§YForêt§! :\n Mouvement : §G+10%§!\n Attaque : §G+20%§!\nDéfense : §G+20%§!\n§YMontagne§! :\n Mouvement : §R-10%§!\n Attaque : §R-20%§!"
+ BEL_chasseurs_ardennais_ncns_tt: "§Y$ranger_battalion$§! :\n§YCollines§! :\n Mouvement : §G+10%§!\n Attaque : §G+15%§!\nDéfense : §G+15%§!\n§YMontagne§! :\n Mouvement : §G+5%§!\n Attaque : §G+5%§!"
  BEL_the_european_crusade_tt: "Les effets de §Yla Croisade européenne§! dépendent de l'ascension au pouvoir des §YRexistes§! ou de la §YVNV§!."
  BEL_european_crusade_no_focus_tt: "Les §Yrexistes§! bénéficieront d'un facteur de population recrutable \nSi la §YVNV§!"
  BEL_the_king_surrenders_tt: "§RUne capitulation avec le roi au pouvoir accomplira cette priorité.§!"

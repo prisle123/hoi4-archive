@@ -50,7 +50,7 @@
  operation_infiltrate_armed_forces_navy: "Внедрение во флот"
  operation_infiltrate_armed_forces_navy_desc: "§LВнедриться в спаянные коллективы моряков на [From.GetAdjective]их кораблях будет трудно, а вот береговые службы — другое дело. Устроив туда своего человека, мы сможем выведать ценную информацию, а также получим возможность поддерживать потом более сложные операции.§!"
  operation_infiltrate_civilian: "Внедрение в правительство"
- operation_infiltrate_civilian_desc: "§LУ [From.GetAdjective]ого правительства множество уязвимых мест, через которые мы можем внедрить своего агента. В таком случае мы будем получать ценные сведения о внутренних процессах [From.GetNameDef] государства, а также сможем в будущем использовать этого агента в операциях против [From.GetNameRuGen].§!"
+ operation_infiltrate_civilian_desc: "§LУ [From.GetAdjRuLower]ого правительства множество уязвимых мест, через которые мы можем внедрить своего агента. В таком случае мы будем получать ценные сведения о внутренних процессах [From.GetNameDef] государства, а также сможем в будущем использовать этого агента в операциях против [From.GetNameRuGen].§!"
  operation_infiltrate_armed_forces_airforce: "Внедрение в ВВС"
  operation_infiltrate_armed_forces_airforce_desc: "§L[From.GetAdjective]ие ВВС — новейший род [From.GetAdjective]их войск, и потому в них служит много людей необычной биографии. Можно воспользоваться этим фактом, чтобы внедрить туда своего человека.§!"
  operation_infiltrate_armed_forces_army: "Внедрение в армию"

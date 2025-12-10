@@ -62,6 +62,7 @@
  CHI_personal_leadership: "Единоличное руководство"
  CHI_personal_leadership_desc: "Разобщенное командование войсками грозит тем, что какой-нибудь самоуверенный офицер в любой момент может попытаться прийти к власти. Нужно приложить все усилия, чтобы наши солдаты всегда были верны своему правительству."
  CHI_personal_leadership_tt: "§YЧэнь Цзитан§! станет доступен в роли фельдмаршала §Y3§! уровня"
+ CHI_personal_leadership_custom_tt: "[ROOT.GetLeader] случайным образом получает одну из следующих черт: §Y«$brilliant_strategist$»§!, §Y«$career_officer$»§!, §Y«$cavalry_officer$»§!, §Y«$infantry_officer$»§!, §Y«$old_guard$»§!, §Y«$politically_connected$»§!, §Y«$war_hero$»§!."
  CHI_cult_of_personality: "Культ личности"
  CHI_cult_of_personality_desc: "Народ должен знать, кто ведет его через это смутное время к светлому будущему, и сколько достойных качеств у этого человека."
  CHI_provoke_border_clashes: "Пограничные конфликты"

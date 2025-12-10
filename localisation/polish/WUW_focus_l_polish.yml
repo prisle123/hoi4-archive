@@ -1574,6 +1574,7 @@
  BEL_legacy_of_the_soldier_king_tt: "§YKról Leopold§! nie ugnie się już pod presją militarną i nie podda kraju w przypadku inwazji."
  BEL_anti_tank_guns_tt: "Umożliwia wykorzystanie §Hdoskonałego działa przeciwpancernego§!\nWsparcie ataku ppanc.: §G+10%§!\nWsparcie przebicia ppanc.: §G+10%§!\nLinia ataku ppanc.: §G+10%§!\nLinia przebicia ppanc.: §G+10%§!\nZmotoryzowany atak ppanc.: §G+10%§!\nZmotoryzowane przebicie ppanc.: §G+10%§!\nAtak ppanc. niszczyciela czołgów: §G+10%§!\nPrzebicie niszczyciela czołgów: §G+10%§!\n"
  BEL_chasseurs_ardennais_tt: "§Y$mountaineers$§!:\n§YLas§!:\n Zmiana skuteczności ruchu: §G+10%§!\n Zmiana skuteczności ataku: §G+20%§!\n Zmiana skuteczności obrony: §G+20%§!\n§YGóry§!:\n Zmiana skuteczności ruchu: §R-10%§!\n Zmiana skuteczności ataku: §R-20%§!"
+ BEL_chasseurs_ardennais_ncns_tt: "§Y$ranger_battalion$§!:\n§YWzgórza§!:\n Zmiana skuteczności ruchu: §G+10%§!\n Zmiana skuteczności ataku: §G+15%§!\n Zmiana skuteczności obrony: §G+15%§!\n§YGóry§!:\n Zmiana skuteczności ruchu: §G+5%§!\n Zmiana skuteczności ataku: §G+5%§!"
  BEL_the_european_crusade_tt: "Efekty §Yeuropejskiej krucjaty§! będą zależeć od tego, czy do władzy dojdą §Yreksiści§! czy §YVNV§!."
  BEL_european_crusade_no_focus_tt: "§YReksiści§! skorzystają na współczynniku ludności w wieku poborowym \nJeżeli §YVNV§!"
  BEL_the_king_surrenders_tt: "§RKapitulacja, gdy król nadal będzie u władzy, zakończy realizację tego celu.§!"

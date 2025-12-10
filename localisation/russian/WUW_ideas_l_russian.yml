@@ -622,6 +622,8 @@
  BEL_king_law_freedom_ns_desc: "Государственный девиз Бельгии — отражение души ее народа. Король — полководец, что поведет нас к победе. Закон — меч, что усмиряет войну. Свобода — главное стремление Бельгии и бельгийцев."
  BEL_chasseurs_ardennais_ns: "Арденнские егеря"
  BEL_chasseurs_ardennais_ns_desc: "Арденнские егеря — опытные защитники из бельгийского региона Люксембург, обученные ведению боевых действий в лесу."
+ BEL_chasseurs_ardennais_ns_ncns: "$BEL_chasseurs_ardennais_ns$"
+ BEL_chasseurs_ardennais_ns_ncns_desc: "$BEL_chasseurs_ardennais_ns_desc$"
  BEL_dissolve_political_parties_ns: "Распустить политические партии"
  BEL_dissolve_political_parties_ns_desc: "Премьер-министр страны заявил, что политические партии — фундамент, на котором держится прогнившее нутро нашей политической системы. Выход только один: распустить их."
  BEL_the_walloon_legion_ns: "Валлонский легион"

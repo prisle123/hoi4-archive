@@ -712,7 +712,15 @@ our_words_are_backed = {
 	}
 	
 	happened = {
-		has_country_flag = RAJ_quit_india_movement
+		if = {
+			limit = {
+				has_dlc = "Graveyard of Empires"
+			}
+			has_completed_focus = RAJ_purna_swaraj
+		}
+		else = {
+			has_completed_focus = RAJ_quit_india_movement
+		}
 		has_country_flag = achievement_has_dropped_nuke
 	}
 }
@@ -1467,7 +1475,15 @@ hail_to_the_qing = {
 	}
 	
 	happened = {
-		has_completed_focus = MAN_claim_the_mandate_of_heaven
+	
+		custom_trigger_tooltip = {
+			tooltip = MAN_has_completed_claim_the_mandate_of_heaven_focus
+			OR = {
+				has_completed_focus = MAN_claim_the_mandate_of_heaven
+				has_completed_focus = MAN_tsr_claim_the_mandate_of_heaven
+			}
+		}
+		
 	}
 }
 
@@ -1544,12 +1560,21 @@ panda_monium = {
 	id = 66
 	
 	possible = {
-		OR = {
+		OR = {		
 			tag = GXC
 			tag = YUN
 			tag = SHX
 			tag = XSM
 			tag = SIK
+			tag = GDC
+			tag = SND
+			tag = SIC
+			tag = NXM
+			tag = GSM
+			tag = XIC
+			tag = KHM
+			tag = KUM
+			tag = HBC
 		}
 		is_ironman = yes
 		difficulty > 1
@@ -1603,12 +1628,21 @@ make_a_man_out_of_you = {
 	id = 67
 	
 	possible = {
-		OR = {
+		OR = {		
 			tag = GXC
 			tag = YUN
 			tag = SHX
 			tag = XSM
 			tag = SIK
+			tag = GDC
+			tag = SND
+			tag = SIC
+			tag = NXM
+			tag = GSM
+			tag = XIC
+			tag = KHM
+			tag = KUM
+			tag = HBC
 		}
 		is_ironman = yes
 		difficulty > 1

@@ -4,7 +4,7 @@
  SHOW_OWN_EXILE_STATUS: "Unseren Exilregierungsstatus zeigen"
  SHOW_COLLABORATIONS_DESC: "Länder zeigen, die uns mit Kollaborieren"
  SHOW_COLLABORATIONS_AND_EXILE_DESC: "Unseren Kollaborations- und Exilstatus zeigen"
- SHOW_COLLABORATIONS_DISABLED_DESC: "§RWir haben keine Regierungen, die mit uns kollaborieren§!"
+ SHOW_COLLABORATIONS_DISABLED_DESC: "§REs gibt keine Regierungen, die derzeit mit uns zusammenarbeiten§!"
  SHOW_EXILES_DISABLED_DESC: "§REs gibt keine Exilregierungen zum Anzeigen§!"
  MANAGE_EXILES_HEADER: "Exilregierungen"
  SHOW_COLLABORATIONS_TITLE: "Kollaborationen"

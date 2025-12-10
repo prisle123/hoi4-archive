@@ -580,7 +580,7 @@ country_event = { ## Send event to US about communists in Philippines have ignor
 			base = 50
 			modifier = {
 				check_variable = { PHI_american_intervention_icon_value < 50 }
-				factor = 0.5
+				add = -35
 			}
 			modifier = {
 				has_war_with_major = yes
@@ -618,6 +618,23 @@ country_event = { ## Send event to US about communists in Philippines have ignor
 			}
 		}
 
+		custom_effect_tooltip = generic_skip_one_line_tt
+		effect_tooltip = {
+			if = {
+				limit = {
+					has_subject = FROM
+				}
+				end_puppet = FROM
+			}
+			if = {
+				limit = {
+					is_in_faction_with = PHI
+					is_faction_leader = yes
+				}
+				remove_from_faction = FROM
+			}
+		}
+
 		name = SEA_PHI_political_events.13.b
 		
 	}
@@ -630,6 +647,23 @@ country_event = { ## Send event to US about communists in Philippines have ignor
 		FROM = {
 			country_event = {
 				id = SEA_PHI_political_events.16
+			}
+		}
+
+		custom_effect_tooltip = generic_skip_one_line_tt
+		effect_tooltip = {
+			if = {
+				limit = {
+					has_subject = FROM
+				}
+				end_puppet = FROM
+			}
+			if = {
+				limit = {
+					is_in_faction_with = PHI
+					is_faction_leader = yes
+				}
+				remove_from_faction = FROM
 			}
 		}
 
@@ -693,12 +727,24 @@ country_event = { ## Event to PHI - US embargoes
 	option = {  ## US embargoes
 		
 		FROM = {
+			if = {
+				limit = {
+					has_subject = ROOT
+				}
+				end_puppet = ROOT
+			}
+			if = {
+				limit = {
+					is_in_faction_with = PHI
+					is_faction_leader = yes
+				}
+				remove_from_faction = ROOT
+			}
 			send_embargo = ROOT
 			add_ai_strategy = { ## To prevent them from deciding to lift embargo immediately
 			    type = antagonize
 			    id = ROOT
-			    value = 100
-			    
+			    value = 100			    
 			}
 		}
 		name = SEA_PHI_political_events.15.a
@@ -716,7 +762,21 @@ country_event = { ## Event to PHI - US sends strongly worded letter
 	is_triggered_only = yes
 
 	option = {  
-
+		FROM = {
+			if = {
+				limit = {
+					has_subject = ROOT
+				}
+				end_puppet = ROOT
+			}
+			if = {
+				limit = {
+					is_in_faction_with = PHI
+					is_faction_leader = yes
+				}
+				remove_from_faction = ROOT
+			}
+		}
 		add_political_power = -25
 		name = SEA_PHI_political_events.16.a
 		
@@ -1175,6 +1235,9 @@ country_event = { #Fascist Choose New Leader
 			days = 180
 		}
 
+				custom_effect_tooltip = generic_skip_one_line_tt
+				custom_effect_tooltip = PHI_laurel_help
+
 		hidden_effect = {
 			add_country_leader_role = { #Default
 			    character = PHI_manuel_roxas
@@ -1236,10 +1299,6 @@ country_event = { #MacArthur announces military emergency
 		ai_chance = {
 			base = 1
 		}
-		set_politics = {
-			ruling_party = neutrality
-			elections_allowed = no
-		}
 		IF = {
 			limit = { 
 				PHI = {
@@ -1250,7 +1309,7 @@ country_event = { #MacArthur announces military emergency
 				add_country_leader_role = {
 				    promote_leader = yes
 				    country_leader = {
-				        ideology = despotism
+				        ideology = conservatism
 				        expire = "1965.1.1.1"
 				        traits = { PHI_supreme_marshal } 
 				    }
@@ -1262,12 +1321,19 @@ country_event = { #MacArthur announces military emergency
 				add_country_leader_role = {
 				    promote_leader = yes
 				    country_leader = {
-				        ideology = despotism
+				        ideology = conservatism
 				        expire = "1965.1.1.1"
 				        traits = { PHI_supreme_commissioner } 
 				    }
 				}
 			}
+		}
+
+		set_politics = { 
+			ruling_party = democratic 
+			elections_allowed = no 
+			long_name = PHI_military_administration_party_long
+			name = PHI_military_administration_party
 		}
 
 		custom_effect_tooltip = generic_skip_one_line_tt
@@ -1940,6 +2006,8 @@ country_event = {
 		set_politics = {
 			ruling_party = neutrality
 			elections_allowed = no		#flipping to an unexpected ideology would probably cause some focus tree issues
+			long_name = PHI_pambansang_sosyalista_party_long
+			name = PHI_pambansang_sosyalista_party
 		}
 	}
 }
@@ -2015,7 +2083,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			country_event = {	#Fired earlier when liberated from exile
-				id = SEA_PHI_political_events.63
+				id = SEA_PHI_political_events.64 
 				days = 2190
 			}
 		}

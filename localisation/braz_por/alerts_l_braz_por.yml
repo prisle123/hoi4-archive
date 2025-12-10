@@ -234,3 +234,4 @@
  alert_lack_of_power_delayed_mil: "Cada £mil_factory fábrica militar fornece $VALUE|H$ £production_cost de produção a menos e o modificador de produção da fábrica é reduzido em $PERCENTAGE|.0R%$"
  alert_lack_of_power_delayed_nav: "Cada £nav_dockyard_texticon estaleiro naval fornece $VALUE|H$ £navprod_cost de produção a menos e o modificador de produção de estaleiros é reduzido em $PERCENTAGE|.0R%$"
  alert_faction_can_select_goal_instant: "§HVocê pode selecionar um novo objetivo da facção§!"
+ alert_faction_can_select_goal_delayed_header: "Outros membros da facção podem escolher um objetivo se não agirmos"

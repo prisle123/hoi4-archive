@@ -148,7 +148,7 @@
  decision_cost_faction_influence_5_PP_25_blocked: "£faction_initiative_texticon  §R5%§! £pol_power  §R25§!"
  decision_cost_faction_influence_5_PP_25_tooltip: "Стоимость принятия решения: £faction_initiative_texticon  §Y5%§! £pol_power  §Y25§!"
  RAJ_population_decisions: "Сельская индустриализация"
- RAJ_industrialize_state: "Индустриализация [FROM.GetNameRuGen]"
+ RAJ_industrialize_state: "Индустриализация региона [FROM.GetName]"
  RAJ_industrialize_state_desc: "Наша нация снова на подъеме. Хоть задача и непроста, но, развив сельские области до современного уровня, мы обязательно получим от этого выгоду в будущем."
  RAJ_industrialized_this_state: "§HСельская область уже индустриализирована§!"
  RAJ_reduce_agrarian_society_value_tooltip: "\n§H$RAJ_agrarian_society$§!\nФактор военнообязанного населения: [?RAJ_agrarian_society_increment|+=%]\n"
@@ -227,6 +227,11 @@
  condottieri: "Condottieri"
  scipio_africano: "Scipio Africano"
  the_man_with_the_cross: "Человек с крестом"
+ ##China
+ mulan: "Мулань вступает в армию"
+ defend_our_land: "Защита родной земли"
+ storm_on_the_border: "Буря на границе"
+ children_of_china: "Дети Китая"
  ##Generic
  our_war: "Наша война"
  the_war_for_our_existence: "Война за наше существование"

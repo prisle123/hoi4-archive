@@ -264,11 +264,11 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_country_selection_entry_shine"
-		texturefile = "gfx/interface/country_selection_entry.tga"
+		texturefile = "gfx/interface/country_selection_entry.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 		noOfFrames = 2
 		animation = {
-			animationmaskfile = "gfx/interface/country_selection_entry.tga"
+			animationmaskfile = "gfx/interface/country_selection_entry.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = yes			# yes or no ;)
@@ -10481,6 +10481,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_JAP_strenghten_manchukuo_imperial_army"
 		texturefile = "gfx/interface/goals/focus_JAP_strenghten_manchukuo_imperial_army.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_MAN_restore_the_beiyang_army"
+		texturefile = "gfx/interface/goals/focus_MAN_restore_the_beiyang_army.dds"
 	}
 	SpriteType = {
 		name = "GFX_focus_JAP_danganressha"

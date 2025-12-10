@@ -1262,6 +1262,7 @@ PRC_zhang_wentian = {
 					OR =  {
 						has_completed_focus = PRC_form_central_social_affairs_department
 						has_completed_focus = PRC_with_inspiration_from_nkvd
+						has_completed_focus = PRC_lessons_of_the_west
 					}
 				}
 				idea_token = PRC_kang_sheng

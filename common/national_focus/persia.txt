@@ -3105,7 +3105,14 @@ focus_tree = {
 				name = PER_sea_specialization
 				bonus = 0.2
 				days = 180
-				grand_doctrine = new_convoy_raiding
+				track = capital_ships
+				
+			}
+			add_mastery_bonus = {
+				name = PER_sea_specialization
+				bonus = 0.2
+				days = 180
+				track = screens
 				
 			}
 			add_doctrine_cost_reduction = {
@@ -3225,7 +3232,13 @@ focus_tree = {
 				name = PER_sea_specialization
 				bonus = 0.2
 				days = 180
-				grand_doctrine = new_base_strike
+				track = screens
+			}
+			add_mastery_bonus = {
+				name = PER_sea_specialization
+				bonus = 0.2
+				days = 180
+				track = submarines
 			}
 			add_doctrine_cost_reduction = {
 				name = PER_sea_specialization
@@ -3412,8 +3425,7 @@ focus_tree = {
 				name = PER_expert_raiders
 				bonus = 0.2
 				days = 180
-				grand_doctrine = new_convoy_raiding
-				track = submarines
+				grand_doctrine = new_convoy_raiding 
 			}
 		}
 	}

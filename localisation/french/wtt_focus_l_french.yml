@@ -62,6 +62,7 @@
  CHI_personal_leadership: "Commander l'armée en personne"
  CHI_personal_leadership_desc: "Confier à d'autres le commandement de l'armée risque d'offrir l'opportunité à un officier doué d'imagination de s'élever au-dessus de son rang pour tenter d'usurper le pouvoir. Nous devons tout faire pour que les soldats restent loyaux au gouvernement."
  CHI_personal_leadership_tt: "§YChen Jitang§! va pouvoir être recruté comme maréchal de niveau §Y3§!"
+ CHI_personal_leadership_custom_tt: "[ROOT.GetLeader] obtient aléatoirement l'un des traits suivants : §Y$brilliant_strategist$§!, §Y$career_officer$§!, §Y$cavalry_officer$§!, §Y$infantry_officer$§!, §Y$old_guard$§!, §Y$politically_connected$§!, §Y$war_hero$§!."
  CHI_cult_of_personality: "Culte de la personnalité"
  CHI_cult_of_personality_desc: "Le peuple doit savoir qui le dirige en ces temps troublés pour l'emmener jusqu'à cet avenir brillant qui nous attend, tout comme il doit savoir à quel point sont nombreuses les qualités de [Root.GetLeader]."
  CHI_provoke_border_clashes: "Accrochages avec les nationalistes"

@@ -5762,10 +5762,15 @@ country_event = {
 	}
 	option = {
 		name = SEA_PRC_misc_events.19.d
+		trigger = {
+			has_country_flag = PRC_hand_over_territory_flag
+		}
 		#NO NEED FOR AI CHANCE SINCE PRC WILL ONLY HAVE ACCESS TO ONE OF THESE OPTIONS AT A TIME
-		every_core_state = {
+		# Scoping to own cores won't work if sent from Manchuria etc 
+		every_state = {
 			limit = {
 				is_fully_controlled_by = FROM
+				is_core_of = PRC 
 				NOT = {
 					is_core_of = FROM
 				}
@@ -5774,6 +5779,27 @@ country_event = {
 				transfer_state = PREV
 			}
 		}
+		add_opinion_modifier = {
+			target = FROM
+			modifier = ENG_returned_our_territory
+		}
+	}
+	option = {
+		name = SEA_PRC_misc_events.19.e
+		#NO NEED FOR AI CHANCE SINCE PRC WILL ONLY HAVE ACCESS TO ONE OF THESE OPTIONS AT A TIME
+		trigger = {
+			FROM = {
+				original_tag = GER
+			}
+			controls_state = 743
+			NOT = {
+				has_country_flag = PRC_hand_over_territory_flag
+			}
+		}
+		effect_tooltip = {
+			transfer_state = 743
+		}
+
 		add_opinion_modifier = {
 			target = FROM
 			modifier = ENG_returned_our_territory
@@ -5809,12 +5835,12 @@ country_event = {
 		}
 		else = {
 			add_country_leader_role = {
-				character = CHI_zhang_lan
+				character = CHI_chen_mingshu
 				promote_leader = yes
 				country_leader = {
 					ideology = socialism
 					expire = "1965.1.1.1"
-					traits = { GER_pragmatic_socialist } 
+					traits = { anti_soviet_socialist } 
 				}
 			}
 		}

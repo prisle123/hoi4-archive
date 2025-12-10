@@ -103,7 +103,7 @@
  CAREER_PROFILE_TURNING_THE_TIDE_MEDAL: "Inclinar la balanza"
  CAREER_PROFILE_TURNING_THE_TIDE_MEDAL_DESCRIPTION: "Estando en guerra, despliega un determinado número de divisiones militares en un lapso de 48 horas. Tamaño mínimo de cada división: 5 batallones."
  CAREER_PROFILE_LORD_OF_THE_SEAS_MEDAL: "Predominio marítimo"
- CAREER_PROFILE_LORD_OF_THE_SEAS_MEDAL_DESCRIPTION: "Obtén al menos un 75 % de dominio naval en un determinado número de regiones marítimas en disputa."
+ CAREER_PROFILE_LORD_OF_THE_SEAS_MEDAL_DESCRIPTION: "Obtén al menos un 75% de dominio naval en un determinado número de regiones marítimas en disputa."
  CAREER_PROFILE_VETERANCY_MEDAL: "Veteranía"
  CAREER_PROFILE_VETERANCY_MEDAL_DESCRIPTION: "Haz que un ejército conste de cierto número de divisiones veteranas."
  CAREER_PROFILE_SKY_SUPPLIES_MEDAL: "Suministro aéreo"
@@ -203,7 +203,7 @@
  CAREER_PROFILE_COUNTRY_ENG: "Reino Unido" #ENG_democratic
  CAREER_PROFILE_COUNTRY_EST: "República de Estonia" #EST_democratic
  CAREER_PROFILE_COUNTRY_FRA: "Francia" #FRA_democratic
- CAREER_PROFILE_COUNTRY_GER: "Reich alemán" #GER_fascism
+ CAREER_PROFILE_COUNTRY_GER: "Reich Alemán" #GER_fascism
  CAREER_PROFILE_COUNTRY_GRE: "Reino de Grecia" #GRE_neutrality
  CAREER_PROFILE_COUNTRY_HOL: "Países Bajos" #HOL_democratic
  CAREER_PROFILE_COUNTRY_JAP: "Japón" #JAP_fascism

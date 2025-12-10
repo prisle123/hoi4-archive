@@ -260,6 +260,12 @@
  condottieri:0 "Condottieri"
  scipio_africano:0 "Scipio Africano"
  the_man_with_the_cross:0 "The Man With the Cross"
+ ##China
+ mulan: "Mulan Joins the Army"
+ defend_our_land: "Defend Our Land"
+ storm_on_the_border: "Storm on the Border"
+ children_of_china: "Children of China"
+
  ##Generic
  our_war:0 "Our War"
  the_war_for_our_existence:0 "The War for our Existence"

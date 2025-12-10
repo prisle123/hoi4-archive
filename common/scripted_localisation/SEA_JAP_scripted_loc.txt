@@ -92,6 +92,15 @@ defined_text = { #Correct title (male/female/communist)
 		localization_key = JAP_empress_title_text
 	}
 	text = {
+		trigger = {
+			has_country_flag = JAP_yasuhito_is_a_sessho_flag
+			NOT = {
+				has_government = communism
+			}
+		}
+		localization_key = JAP_sessho_title_text
+	}
+	text = {
 		localization_key = JAP_emperor_title_text
 	}
 }

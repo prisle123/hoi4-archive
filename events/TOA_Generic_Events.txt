@@ -1987,7 +1987,7 @@ country_event = { #Peru offers peace for the state they claim
 	option = { #Let them have their claim
 		name = south_american_events.17.a
 		ai_chance = {
-			base = 2
+			base = 8
 			modifier = {
 				surrender_progress < 0.12 #looks like not a lot but if your capital is like 60% of your VPs it kinda is, only pastaza seems to be 14%
 				factor = 10
@@ -2061,7 +2061,7 @@ country_event = { #Peru offers peace for the state they claim
 	option = { #We fight on!
 		name = south_american_events.17.b
 		ai_chance = {
-			base = 1
+			base = 2
 		}
 
 		add_war_support = 0.1

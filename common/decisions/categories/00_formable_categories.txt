@@ -634,6 +634,7 @@ greater_mongolia_category = {
 			original_tag = BYA # Buryatia
 			original_tag = MEN # Mengkukuo
 			original_tag = KUM # Kumul Khanate
+			original_tag = KAL # Kalmykia 
 		}
 	}
 }

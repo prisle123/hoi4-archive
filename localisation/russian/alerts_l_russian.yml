@@ -234,3 +234,4 @@
  alert_lack_of_power_delayed_mil: "Каждый £mil_factory военный завод производит на $VALUE|H$ £production_cost меньше продукции, а модификатор заводского производства уменьшается на $PERCENTAGE|.0R%$"
  alert_lack_of_power_delayed_nav: "Каждая £nav_dockyard_texticon верфь производит на $VALUE|H$ £navprod_cost меньше продукции, а модификатор производительности верфи уменьшается на $PERCENTAGE|.0R%$"
  alert_faction_can_select_goal_instant: "§HВы можете выбрать новую цель альянса§!"
+ alert_faction_can_select_goal_delayed_header: "Если мы будем бездействовать, выбрать цель смогут другие члены альянса"

@@ -4,7 +4,7 @@
  SHOW_OWN_EXILE_STATUS: "Pokaż, czy jesteśmy rządem na uchodźstwie"
  SHOW_COLLABORATIONS_DESC: "Pokaż państwa, które z nami współpracują"
  SHOW_COLLABORATIONS_AND_EXILE_DESC: "Pokaż nasz status współpracy i uchodźstwa"
- SHOW_COLLABORATIONS_DISABLED_DESC: "§RNie współpracują z nami żadne rządy§!"
+ SHOW_COLLABORATIONS_DISABLED_DESC: "§RW tej chwili nie współpracuje z nami żaden rząd§!"
  SHOW_EXILES_DISABLED_DESC: "§RBrak rządów na uchodźstwie do wyświetlenia§!"
  MANAGE_EXILES_HEADER: "Rząd na uchodźstwie"
  SHOW_COLLABORATIONS_TITLE: "Współprace"

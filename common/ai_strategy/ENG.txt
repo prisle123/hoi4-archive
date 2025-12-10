@@ -2005,7 +2005,7 @@ ENG_unit_buffer_for_african_defense = {
 		type = put_unit_buffers
 
 		# ratio of total armies in country to be buffered
-		ratio = 0.12
+		ratio = 0.20
 
 		# states to put garrison orders (if no state is friendly, strat is invalid)
 		states = {

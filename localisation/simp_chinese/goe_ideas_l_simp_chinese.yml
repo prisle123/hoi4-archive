@@ -537,10 +537,10 @@
  RAJ_south_east_asia_command_dm: "$RAJ_south_east_asia_command$"
  RAJ_south_east_asia_command_dm_desc: "通过建立东南亚战区司令部，我们得以将军事影响力扩展至整个地区。这无疑将协助我们在亚洲土地上规划军事行动。"
  RAJ_fortified_position: "巩固阵地"
- RAJ_congress_productivity_effort_ns: "国会——重视生产"
- RAJ_congress_shipbuilding_effort_ns: "国会——重视造船"
- RAJ_congress_construction_effort_ns: "国会——重视建设"
- RAJ_congress_war_propaganda_ns: "国会——战争宣传"
+ RAJ_congress_productivity_effort_ns: "国会‑重视生产"
+ RAJ_congress_shipbuilding_effort_ns: "国会‑重视造船"
+ RAJ_congress_construction_effort_ns: "国会‑重视建设"
+ RAJ_congress_war_propaganda_ns: "国会‑战争宣传"
  RAJ_construction_safety_regulation_ns: "工程建设安全标准"
  ###########################
  ##### SHARED SAADABAD #####

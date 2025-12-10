@@ -41,6 +41,8 @@
  NAVAL_MISSION_INTEL: "Dans cette région, $COUNT|H$ escadres ont pour mission $MISSION|H$. Actuellement, $ACTIVE|H$ d'entre elles la mènent effectivement."
  NAVAL_MISSION_INTEL_ALL_ASSIGNED: "Dans cette région, $COUNT|H$ escadres mènent effectivement la mission $MISSION|H$."
  AIR_MISSION_INTEL_RANGE: "Dans cette région, $RANGE|H$ avions ont pour mission $MISSION|H$."
+ AIR_MISSION_INTEL_RANGE_MISSILES: "Dans cette région, $RANGE|H$ missiles ont pour mission $MISSION|H$."
+ AIR_MISSION_INTEL_RANGE_GUNS: "Dans cette région, $RANGE|H$ canons ont pour mission $MISSION|H$."
  NAVAL_BASE_TASKFORCE_COUNT: "$COUNT|H$ escadres à quai dans cette base."
  ARMY_LEDGER_ARMIES: "Divisions"
  ARMY_LEDGER_EQUIPMENT: "Réserves"
