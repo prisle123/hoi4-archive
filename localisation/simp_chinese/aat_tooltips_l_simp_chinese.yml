@@ -139,6 +139,7 @@
  NORDIC_is_democratic_tt: "符合建立民主制联盟的条件"
  NORDIC_is_monarchist_tt: "符合建立君主制联盟的条件"
  NORDIC_alliance_created_already_TT: "已经组建了任意联盟。"
+ NORDIC_alliance_created_already_TT_NOT: "未组建任何联盟。"
  NORDIC_airforce_capstone_unlock_TT: "这将为§Y$NORDIC_nordic_airforce$§!分支解锁额外国策。"
  NORDIC_navy_capstone_unlock_TT: "这将为§Y$NORDIC_nordic_navy$§!分支解锁额外国策。"
  NORDIC_army_capstone_unlock_TT: "这将为§Y$NORDIC_nordic_army$§!分支解锁额外国策。"

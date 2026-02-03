@@ -572,6 +572,7 @@
  DR_GUARANTEE: "$US|UY$ a reçu une garantie de $THEM|Y$ : "
  DR_GUARANTEEING: "$US|UY$ garantit $THEM|Y$ : "
  DR_SAME_IDEOLOGY: "§Y$THEM|U$§! a la même idéologie : "
+ DR_DIFFERENT_IDEOLOGY: "Idéologie différente de §Y$THEM|U$§! : "
  DR_FACTION_LOW_TENSION: "La tension mondiale est trop basse de §R$TENSION_DIFF$§! pour que §Y$THEM$§! puisse rejoindre la faction dont §Y$US$§! est membre"
  DR_FACTION_TENSION: "Tension mondiale : §G$TENSION_DIFF$§!"
  DR_FACTION_SURRENDER: "$THEM|UY$ perd une guerre : "

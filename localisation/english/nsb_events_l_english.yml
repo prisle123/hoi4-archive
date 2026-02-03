@@ -651,7 +651,7 @@
  pavel_events.3.desc:0 "An alarming telegram has arrived from [From.GetNameDef] demanding the immediate secession of “former Polish territories”. The areas they refer to include Pomerania, Prussia, and Silesia.\n\nThe Polish state has been a little unpredictable since the throne was taken by [From.GetLeader], but few could have predicted that [From.GetLeader.GetSheHe] would be so bold as to demand territory from [Root.GetNameDef]."
  pavel_events.3.t:0 "[From.GetNameDefCap] Demands East Germany!"
  pavel_events.301.a:0 "Wait, really?"
- pavel_events.301.desc:0 "In a turn of events none could have predicted, [From.GetNameDef] has caved to [Root.GetLeader]’s demands and ceded the regions of Silesia, Pomerania, and Prussia to to [Root.GetNameDef]."
+ pavel_events.301.desc:0 "In a turn of events none could have predicted, [From.GetNameDef] has caved to [Root.GetLeader]’s demands and ceded the regions of Silesia, Pomerania, and Prussia to [Root.GetNameDef]."
  pavel_events.301.t:0 "[From.GetNameDefCap] Folds"
  pavel_events.302.a:0 "Our demands will be met on the battlefield."
  pavel_events.302.desc:0 "As predicted, the Germans have rejected [Root.GetLeader]’s demands, believing them to be some kind of elaborate practical joke. With diplomacy failing to sway [From.GetNameDef], [Root.GetLeader] has mounted his horse and rode for the border, personally taking this matter into the hands of the military."
@@ -822,7 +822,7 @@
  NSB_soviet_foreign_politics_events.31.desc:0 "In a formal ceremony at Fort Sitka, [FROM.GetNameDef] transferred sovereignity over Alaska back to us. While most of the Alaskan inhabitants seem to have mixed feelings about this transfer, the population at home is celebrating."
  NSB_soviet_foreign_politics_events.31.a:0 "Another mistake of the Czars erradicated."
  NSB_soviet_foreign_politics_events.32.t:0 "[FROM.GetNameDefCap] refuses"
- NSB_soviet_foreign_politics_events.32.desc:0 "The [FROM.GetAdjective] Secretary of State has not bothered to respond to our demands in person. Instead, a letter has been delivered to our embassy, signed by the Undersecretary for Cultural Development, stating that while the they respect our ambition when it comes to writing complete historical fiction, they would appreciate it if we didn't use official channels to do so."
+ NSB_soviet_foreign_politics_events.32.desc:0 "The [FROM.GetAdjective] Secretary of State has not bothered to respond to our demands in person. Instead, a letter has been delivered to our embassy, signed by the Undersecretary for Cultural Development, stating that while they respect our ambition when it comes to writing complete historical fiction, they would appreciate it if we didn't use official channels to do so."
  NSB_soviet_foreign_politics_events.32.a:0 "Oh, they thought we were bluffing?"
  NSB_soviet_foreign_politics_events.32.b:0 "The last thing we need is more frozen dirt."
 

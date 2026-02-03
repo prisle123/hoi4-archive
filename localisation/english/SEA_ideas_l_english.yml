@@ -1126,12 +1126,17 @@
  CHI_tsr_low_legitimacy: "Low Legitimacy"
  CHI_tsr_low_legitimacy_4: "A Legitimate Dynasty"
  CHI_tsr_a_new_empire_idea: "A New Empire"
+ idea_MAN_central_government_integration_pressure: "Imperial Government Integration Pressure"
 
  ### National Spirits ###
  
  SIK_soviet_military_cooperation: "Soviet Military Cooperation"
  SIK_battle_for_sinkiang: "Battle for Sinkiang"
- SIK_battle_for_sinkiang_desc: "With the the Military Governor in the north and the New 36th Division in the south, the Sinkiang province has been facing further and further escalation. If the states currently in this fight are to turn their gaze towards another conflict, they must first finish their own."
+ SIK_battle_for_sinkiang_desc: "With the Military Governor in the north and the New 36th Division in the south, the Sinkiang province has been facing further and further escalation. If the states currently in this fight are to turn their gaze towards another conflict, they must first finish their own."
+ KHM_unrest: "Widespread Unrest"
+ KHM_unrest_desc: "The population in the province is actively up in arms against our rule, and are resisting heavily. This may prove detrimental to us if we do not deal with it in rapid order."
+ KHM_influx_of_funds_idea: "Collecting Additional Funds"
+ KHM_promoting_jadidist_movements_idea: "Promoting Jadidist Movements"
  KHM_pushing_them_back_idea: "Turning the Tide"
  tsr_the_true_china: "The True China"
  prc_tsr_warlord_army: "Rural Army"
@@ -1175,6 +1180,11 @@
  SIC_a_loose_unity: "A Loose Unity"
  SIC_a_loose_unity_desc: "While nominally being united under the banner of the "Sichuan Clique", there are several different rulers in our province that have their own goals and ambitions. Some, like Liu Wenhui have even created their own little realm that's functionally separate from the rest of the province, while others have their own ideas about how the army should be handled."
  GXC_scorched_earth_policy: "Scorched Earth"
+ XSM_wool_and_hide_bureau: "The Wool and Hide Bureau"
+ XSM_salar_officers_idea: "Salar Officers"
+ XSM_new_ninghai_army_idea: "New Ninghai Army"
+ GXC_uneasy_minds_idea: "Local Unease"
+ GXC_uneasy_minds_idea_desc: "Both the local population and the leadership of this province are uneasy about the Low-Key approach towards the Japanese showcased by the Central Government. If nothing is done soon to press the issue and ease the minds of the people, more problems are sure to arise."
 
  SIK_the_nkvd_no_lar: "The NKVD"
 
@@ -1189,12 +1199,22 @@
  SIK_detracting_from_party_line: "Detracting from Party-line"
 
  SIK_if_war_with_sov_this_disappears_tt: "§RWill be removed if we end up at war with [SOV.GetNameDef]§!"
+ YUN_will_be_removed_if_no_long_yun_tt: "§RWill be removed if we no longer have $YUN_long_yun$ as our country leader§!"
 
  SIK_a_modern_province: "A Modern Province"
 
  SIK_the_six_policies: "The Six Great Policies"
 
  SIC_the_new_guominjun_idea: "The New Guominjun"
+
+ CHI_warlord_looting_idea: "Commonplace Looting"
+ CHI_warlord_looting_idea_desc: "Due to a lack of morale and overarching control over all of our military forces, looting of local produce is commonplace. We must put an end to this if we wish to create a stable province."
+
+ CHI_ma_clique_collective: "Ma Clique Collective"
+ CHI_ma_clique_collective_desc: "Being a part of a larger whole, the warlord in this region shares a close bond and cooperates with their fellow kinsmen of the northwest."
+ CHI_modify_ma_clique_collective_modifier_tt: "Modify §Y$CHI_ma_clique_collective$§! by:"
+ MA_family_ties_opm: "Strong Ma Family Ties"
+ MA_family_ties_2_opm: "Formalized the Ma Clique Collective"
 
  ### state ###
 

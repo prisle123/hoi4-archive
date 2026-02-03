@@ -324,6 +324,11 @@
  AFG_political_events.172.desc: "\n今週、[FROM.GetNameDef]が軍隊を進め、我々の領土であるワズィーリスターンを占領した。彼らは、敵国による占領から地域を守るためだと主張しているが、これは明らかに戦争行為である。しかし、彼らに害意はなく、おそらくバラバラになったパシュトゥン民族の再統一を目指しているのだろう。これらの一連の出来事を無視することもできる。"
  AFG_political_events.172.a: "争う必要はない"
  AFG_political_events.172.b: "奴らめ、一体何様のつもりだ？"
+ AFG_royal_succession_events.01.t: "新たな王室首相"
+ AFG_royal_succession_events.01.desc: "$AFG_mohammad_hashim_khan$の下した決定に対して疑問の声が相次いだため、王権を安定させるべく、彼の兄弟姉妹のひとりを新たな指導者として任命し、$AFG_mohammed_zahir_shah$に従属させる方針が決定された。彼の後任には、誰を据えるべきだろうか？"
+ AFG_royal_succession_events.01.a: "終始一貫した$AFG_shah_mahmud_khan$"
+ AFG_royal_succession_events.01.b: "軍事的才覚に優れた$AFG_sardar_shah_wali_khan$"
+ AFG_royal_succession_events.01.c: "より進歩的な$AFG_mohammed_daoud_khan$"
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetName]が[BHU.GetName]への侵攻許可を要請"
@@ -1315,6 +1320,14 @@
  IRQ_political_events.76.t: "代表団の拒否"
  IRQ_political_events.76.desc: "残念ながら、[FROM.GetAdjective]政府が貴重な石油と武器を交換するという我々の要求を却下した。そんな相手との取引はこちらから願い下げだ。"
  IRQ_political_events.76.a: "残念だ"
+ IRQ_political_events.77.t: "[IRQ.GetNameDefCap]が[680.GetName]を征服"
+ IRQ_political_events.77.desc: "[IRQ.GetAdjective]軍は[680.GetName]における迅速な軍事作戦の末にすべての主要都市を掌握し、支配下に置いたことを宣言した。"
+ IRQ_political_events.77.a: "我々は強くなってやる！"
+ IRQ_political_events.77.b: "仕方がない。"
+ IRQ_political_events.78.t: "[IRQ.GetNameDefCap]が[680.GetName]から撤退"
+ IRQ_political_events.78.desc: "[IRQ.GetAdjective]軍は極めて困難な状況に直面したため、デリゾール市から撤退した。これで戦闘が終結するわけではないが、この地域は当面[SYR.GetAdjective]領のままとなる。"
+ IRQ_political_events.78.a: "一時的な後退だ……"
+ IRQ_political_events.78.b: "デリゾールは持ちこたえた！"
  #Kurdistan
  IRQ_kurdistan_events.1.t: "クルド人民族主義者が援助を要請"
  IRQ_kurdistan_events.1.desc: "[IRQ.GetNameDefCap]のクルド人民族主義者から、彼らの革命への援助を求める書簡を受け取った。"

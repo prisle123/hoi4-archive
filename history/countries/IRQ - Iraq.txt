@@ -97,6 +97,12 @@ IF = {
 	recruit_character = IRQ_mustafa_barzani
 	recruit_character = IRQ_muhammad_ali_jawad
 	recruit_character = IRQ_maruf_al_rusafi
+	recruit_character = IRQ_ahmed_rushdi_muhammad
+	recruit_character = IRQ_jamil_ahmad_abullah_al_rawi
+	recruit_character = IRQ_kamil_al_jaderji
+	recruit_character = IRQ_mohamed_hadid
+	recruit_character = IRQ_jafar_al_timman
+	recruit_character = IRQ_mohamed_mahdi_kubba
 
 	IRQ_salah_al_din_al_sabbagh = {
 		set_character_flag = IRQ_golden_square_char
@@ -205,8 +211,17 @@ IF = {
 		modifier = IRQ_anglo_iraqi_treaty_in_place_opm
 	}
 
+	# Kurdish Resistance
 	676 = {
 		add_dynamic_modifier = { modifier = KUR_resistance_modifier }
+	}
+
+	# Unhappy and Autonomous Shia Tribes 
+	1010 = {
+		add_dynamic_modifier = { modifier = IRQ_shia_resistance_modifier }
+	}
+	675 = {
+		add_dynamic_modifier = { modifier = IRQ_shia_resistance_modifier }
 	}
 
 }

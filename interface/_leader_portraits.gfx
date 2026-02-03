@@ -1173,6 +1173,12 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/portrait_prc_mao_zedong.dds"
 	}
 
+	# Old Mao 
+	spriteType = {
+		name = "GFX_Portrait_China_Mao_Zedong"
+		texturefile = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+	}
+
 	spriteType = {
 		name = "GFX_idea_CHI_mao_zedong"
 		texturefile = "gfx/interface/ideas/idea_CHI_mao_zedong.dds"
@@ -6430,6 +6436,26 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_portrait_SIK_chiang_yufen_small
 		texturefile = "gfx/interface/ideas/idea_asia_generic_land_3.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_XSM_han_youwen
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_XSM_han_youwen_small
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_2.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_XSM_han_yimu
+		texturefile = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+	}
+
+	spriteType = {
+		name = GFX_portrait_XSM_han_yimu_small
+		texturefile = "gfx/interface/ideas/idea_asia_generic_land_1.dds"
 	}
 
 	spriteType = {

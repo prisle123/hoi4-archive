@@ -1295,7 +1295,7 @@
  HUN_cisleithania_tt: "§YAustria§! will be known as §Ythe Kingdoms and Lands Represented in the Imperial Council§!.\n"
 
  WW_hungary.124.t: "A Man Return to his Home"
- WW_hungary.124.desc: "Early this morning, authorities in Gori reported a man demanding the return of a farm estate he claims was once his, saying he just recently managed to return to his homeland and escape the clutches of the Russian menace. He also promised that if he was to be allowed into politics, he could lead our nation to glory, apparently stemming from a line of successful politicians. Is the the man we need to restore our dreams of a greater Georgia?"
+ WW_hungary.124.desc: "Early this morning, authorities in Gori reported a man demanding the return of a farm estate he claims was once his, saying he just recently managed to return to his homeland and escape the clutches of the Russian menace. He also promised that if he was to be allowed into politics, he could lead our nation to glory, apparently stemming from a line of successful politicians. Is he the man we need to restore our dreams of a greater Georgia?"
  WW_hungary.124.a: "Give this man an office, now!"
  WW_hungary.124.b: "Whatever he says, we cannot trust him"
 
@@ -1492,7 +1492,7 @@
 
  #To Belgium: Gets guarantee from ENG/FRA/SOV
  ww_BEL_event_diplomatic.13.t: "[FROM.GetNameDefCap] Guarantees our Independence"
- ww_BEL_event_diplomatic.13.desc: "We have recieved the most wonderous news from the [FROM.GetAdjective] diplomats. They agree that our safety might be threatened and that our army might not be enough to safeguard our independence. With regards to this they have offered us the guarantee that we have requested."
+ ww_BEL_event_diplomatic.13.desc: "We have received the most wondrous news from the [FROM.GetAdjective] diplomats. They agree that our safety might be threatened and that our army might not be enough to safeguard our independence. With regards to this they have offered us the guarantee that we have requested."
  ww_BEL_event_diplomatic.13.a: "This will keep us safe"
 
  #To Belgium: Does not get guarantee from ENG/FRA/SOV
@@ -1720,7 +1720,7 @@
  ww_BEL_event_spanish_interaction.7.a: "Onward!"
 
  ww_BEL_event_spanish_interaction.8.t: "[FROM.GetNameDefCap] Rejects our Alliance Proposal"
- ww_BEL_event_spanish_interaction.8.desc: "Considering the support that we have continuously offered the [FROM.GetAdjective] we had hoped that our proposal would be met with a positive response. It appears that this was not the the case as they have rejected our suggestion, stating that our help is welcome, but that they do not wish for an alliance."
+ ww_BEL_event_spanish_interaction.8.desc: "Considering the support that we have continuously offered the [FROM.GetAdjective] we had hoped that our proposal would be met with a positive response. It appears that this was not the case as they have rejected our suggestion, stating that our help is welcome, but that they do not wish for an alliance."
  ww_BEL_event_spanish_interaction.8.a: "How rude!"
 
  ww_BEL_event_spanish_interaction.9.t: "[FROM.GetNameDefCap] Dismantles $BEL_SPR_alliance$"
@@ -1730,10 +1730,6 @@
  ww_BEL_event_misc.1.t: "The Boss is Dead"
  ww_BEL_event_misc.1.desc: "Émile Vandervelde, nicknamed 'le patron' (the boss), the long standing Socialist politician and Prime Minister of [BEL.GetName] has died. He was well known as a member of the Belgian delegation at the Paris Peace Conference which concluded the Great War, and whom had become a staunch opponent of Fascism, even advocating for direct intervention in the Spanish Civil War on the Republican side. \n\nHenri de Man has taken over has the new Prime Minister, and will be sworn in by the King later today."
  ww_BEL_event_misc.1.a: "His successor is the man to get the job done!"
-
- ww_BEL_event_misc.2.t: "The Black Island"
- ww_BEL_event_misc.2.desc: "Hergé's most recent serial comic has just released to great commercial success, seeing the enigmatic adventurer, Tintin, hunted to Scotland for a crime he didn't commit. The Belgian author is said to already be hard at work on the next in the Adventures of Tintin series."
- ww_BEL_event_misc.2.a: "Where will Tintin's adventures take him next?"
 
  ww_BEL_event_misc.3.t: "Cockerill: The Heart of Belgian Manufacturing"
  ww_BEL_event_misc.3.desc: "Cockerill is the company which sits squarely at the heart of Belgian manufacturing. Throughout its existence it has turned its hand to not only the manufacture of iron and steel, but also to finely engineered machines including steam engines, trains and even battleships. It developed a stellar reputation and rose to become a major force in the steel industry of Western Europe. \n\nAdolphe Greiner the director-general, among other members of the management, remained at their posts throughout the siege of Liege in the Great War, ensuring that employment remained open to its workforce as long as it could. Once occupied, the company refused to manufacture for the occupying forces, and was therefore gutted for the majority of its heavy steel working equipment. \n\nIt has since recovered during the interwar period and remains a foremost industrial concern."
@@ -1921,7 +1917,7 @@
  ww_congo.39.a: "Kasa-Vubu is a good statesman, we need him"
 
  ww_congo.40.t: "Kasa-Vubu's First Cabinet"
- ww_congo.40.desc: "Our president [ROOT.GetLeader] is in the process of assembling our first official cabinet, after having secured a victory in the recent elections. Being vastly popular throughout the nation, he is sure to become known as the founding father our our modern state for generations to come!"
+ ww_congo.40.desc: "Our president [ROOT.GetLeader] is in the process of assembling our first official cabinet, after having secured a victory in the recent elections. Being vastly popular throughout the nation, he is sure to become known as the founding father of our modern state for generations to come!"
  ww_congo.40.a: "Kasa-Vubu truly is the man for the job"
 
  ww_congo.41.t: "[FROM.GetLeader] Demands Reunification of the Bakongo People"
@@ -2259,7 +2255,7 @@
  wuw_GER_civil_war.7.desc: "It has come to our attention that the Kriegsmarine may opt to side with [ROOT.GetLeader] when we execute our coup. The reason seems to be that their leader Erich Raeder has been promised by [ROOT.GetLeader] that his branch of the military will gain heavy investments and freedoms under his regime, something the old government failed to achieve. Perhaps we should make similar promises, in an effort to sway him to our side?"
  wuw_GER_civil_war.7.a: "We must secure their loyalty at any cost"
  wuw_GER_civil_war.7.b: "We mustn't placate Erich Raeder"
- GER_promised_erich_raeder_a_great_navy_tt: "Erich Raeder and a large portion of the Kriegsmarine will join our side when the coup d'etat takes place. Would we however fail to to complete either §Y$GER_rebuild_the_high_seas_fleet_ww$§!, or §Y$GER_high_seas_fleet$§! and §Y$GER_re_establish_the_seekriegsleitung$§! within two years, he may §RRevolt Against our Regime§!"
+ GER_promised_erich_raeder_a_great_navy_tt: "Erich Raeder and a large portion of the Kriegsmarine will join our side when the coup d'etat takes place. Would we however fail to complete either §Y$GER_rebuild_the_high_seas_fleet_ww$§!, or §Y$GER_high_seas_fleet$§! and §Y$GER_re_establish_the_seekriegsleitung$§! within two years, he may §RRevolt Against our Regime§!"
  GER_chose_to_not_placate_erich_raeder_tt: "Only a smaller portion of the Kriegsmarine will join our side when the coup d'etat takes place, but we will not be shackled by any promises to Erich Raeder"
 
  wuw_GER_civil_war.8.t: "The Kriegsmarine's Coup d'etat"
@@ -2870,7 +2866,7 @@
  wuw_GER_weltpolitik.5.b: "We can not accept this"
 
  wuw_GER_weltpolitik.6.t: "[FROM.GetLeader] Rejects the Deal"
- wuw_GER_weltpolitik.6.desc: "[FROM.GetLeader] has stated that [FROM.GetLeader.GetSheHe] stands for all of the brave citizens of [FROM.GetNameDef] when [FROM.GetLeader.GetSheHe] says that they will not support our outlandish ideas of carving up the Congo, a state not connected to any our ours, together. It seems that the decision is final."
+ wuw_GER_weltpolitik.6.desc: "[FROM.GetLeader] has stated that [FROM.GetLeader.GetSheHe] stands for all of the brave citizens of [FROM.GetNameDef] when [FROM.GetLeader.GetSheHe] says that they will not support our outlandish ideas of carving up the Congo, a state not connected to any of ours, together. It seems that the decision is final."
  wuw_GER_weltpolitik.6.a: "In that case it will all be ours!"
  wuw_GER_weltpolitik.6.b: "We should not push further"
 

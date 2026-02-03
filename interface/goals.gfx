@@ -11223,7 +11223,14 @@ spriteTypes = {
 
 		#### CHI ####
 
-		
+	SpriteType = {
+		name = "GFX_focus_CHI_a_second_yuan_empire"
+		texturefile = "gfx/interface/goals/focus_CHI_a_second_yuan_empire.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_CHI_a_second_panthay_empire"
+		texturefile = "gfx/interface/goals/focus_CHI_a_second_panthay_empire.dds"
+	}
 	SpriteType = {
 		name = "GFX_focus_CHI_initiate_gung_ho_movement"
 		texturefile = "gfx/interface/goals/focus_CHI_initiate_gung_ho_movement.dds"

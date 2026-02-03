@@ -139,3 +139,12 @@ style = {
 	available = GFX_focus_can_start_joint_GDC_GXC
 	current = GFX_focus_current_joint_GDC_GXC
 }
+
+style = {
+	name = MA_focus_style
+
+	unavailable = GFX_focus_unavailable_joint_MA
+	completed = GFX_focus_completed_joint_MA
+	available = GFX_focus_can_start_joint_MA
+	current = GFX_focus_current_joint_MA
+}

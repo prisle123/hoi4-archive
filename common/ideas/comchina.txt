@@ -1284,7 +1284,7 @@ ideas = {
 
 		PRC_government_corruption = { 
 
-			picture = anti_soviet_pact
+			picture = ARG_political_corruption_modifier
 
 			allowed = { original_tag = PRC }
 

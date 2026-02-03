@@ -1337,6 +1337,7 @@
  state_resource_tungsten: "Wolfram"
  state_resource_steel: "Stahl"
  state_resource_chromium: "Chrom"
+ state_resource_coal: "Kohle"
  temporary_state_resource_oil: "Öl"
  temporary_state_resource_aluminium: "Aluminium"
  temporary_state_resource_rubber: "Gummi"

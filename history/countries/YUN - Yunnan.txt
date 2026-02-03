@@ -30,6 +30,9 @@ IF = {
 	}
 }
 
+set_stability = 0.5
+set_war_support = 0.35 
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -74,6 +77,9 @@ if = {
 		set_character_flag = can_flip_to_prc
 	}	
 	recruit_character = YUN_hu_ruoyu
+	add_ideas = {
+		CHI_warlord_looting_idea
+	}
 }
 
 1939.1.1 = {

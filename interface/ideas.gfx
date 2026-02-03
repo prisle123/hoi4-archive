@@ -7023,6 +7023,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/portrait_ITA_prince_umberto_small.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_umberto_idea"
+		texturefile = "gfx/interface/ideas/portrait_ITA_prince_umberto_small.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_ITA_vittorio_emanuele_III_small"
 		texturefile = "gfx/interface/ideas/portrait_ITA_vittorio_emanuele_III_small.dds"
 	}

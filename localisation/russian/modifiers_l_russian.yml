@@ -1337,6 +1337,7 @@
  state_resource_tungsten: "Вольфрам"
  state_resource_steel: "Сталь"
  state_resource_chromium: "Хром"
+ state_resource_coal: "Уголь"
  temporary_state_resource_oil: "Нефть"
  temporary_state_resource_aluminium: "Алюминий"
  temporary_state_resource_rubber: "Каучук"

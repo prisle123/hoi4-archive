@@ -22,8 +22,9 @@ set_variable = { RNG_state_shintoism_political_power_gain = 0 }
 
 oob = "XIC_1936_sea" 
 
-set_stability = 0.7
-set_war_support = 0.4
+set_stability = 0.5
+set_war_support = 0.45 
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -34,6 +35,9 @@ IF = {
 		has_dlc = "No Compromise, No Surrender"
 	}
 	recruit_character = CHI_zhang_xueliang
+	add_ideas = {
+		CHI_warlord_looting_idea
+	}
 }
 
 PRC = {

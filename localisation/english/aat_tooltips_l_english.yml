@@ -154,6 +154,7 @@
  NORDIC_is_democratic_tt: "Is eligible to create Democratic Joint Alliance"
  NORDIC_is_monarchist_tt: "Is eligible to create Monarchist Joint Alliance"
  NORDIC_alliance_created_already_TT: "Any Joint Alliance has been formed."
+ NORDIC_alliance_created_already_TT_NOT: "No Joint Alliance has been formed."
  NORDIC_airforce_capstone_unlock_TT: "This will unlock additional focuses for the §Y$NORDIC_nordic_airforce$§! Branch."
  NORDIC_navy_capstone_unlock_TT: "This will unlock additional focuses for the §Y$NORDIC_nordic_navy$§! Branch."
  NORDIC_army_capstone_unlock_TT: "This will unlock additional focuses for the §Y$NORDIC_nordic_army$§! Branch."

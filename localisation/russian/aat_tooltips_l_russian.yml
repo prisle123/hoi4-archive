@@ -139,6 +139,7 @@
  NORDIC_is_democratic_tt: "Может создать Единый демократический союз"
  NORDIC_is_monarchist_tt: "Может создать Единый монархический союз"
  NORDIC_alliance_created_already_TT: "Образован любой совместный альянс."
+ NORDIC_alliance_created_already_TT_NOT: "Не образован совместный альянс."
  NORDIC_airforce_capstone_unlock_TT: "Будут открыты дополнительные фокусы: §Y$NORDIC_nordic_airforce$§!."
  NORDIC_navy_capstone_unlock_TT: "Будут открыты дополнительные фокусы: §Y$NORDIC_nordic_navy$§!."
  NORDIC_army_capstone_unlock_TT: "Будут открыты дополнительные фокусы: §Y$NORDIC_nordic_army$§!."

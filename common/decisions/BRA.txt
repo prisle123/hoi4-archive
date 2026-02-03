@@ -1302,3 +1302,83 @@ BRA_foreign_legion_cat = {
 		}
 	}
 }
+
+political_actions = { 
+
+
+	# Establish the Federal Territory of Rondônia
+	rename_guapore_to_rondonia_decision  = {
+
+		priority = 15
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		on_map_mode = decision_view_only
+
+		ai_will_do = {
+			base = 50
+		}
+	
+		allowed = {  
+		}
+
+		visible = { 
+			942 = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+	
+		available = {
+			has_completed_focus = BRA_federal_development
+			BRA_candido_mariano = {
+				skill > 4
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 942
+			}
+		}
+
+		#days_remove = 70
+
+		#days_re_enable = 180
+
+		cost = 50
+
+		cancel_trigger = {
+		}
+
+        cancel_effect = {
+        }
+
+		modifier = {
+		}
+
+		complete_effect = { 
+
+			add_war_support = 0.1
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			942 = {
+				set_state_name = 942_rondonia_name
+				add_extra_state_shared_building_slots = 3
+			}
+
+		}
+
+		fire_only_once = yes
+
+		remove_effect = {
+
+		}
+
+	}
+
+
+
+}
+
+

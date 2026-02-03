@@ -9,6 +9,7 @@
  unite_hui_states: "후이족 통일"
  rename_ulanbaatar_monarchist_decision: "우르가 회복"
  rename_ulanbaatar_non_monarchist_decision: "이흐후레 회복"
+ reorganize_manchuria_decision: "만주 재편"
  RNG_core_state: "새로운 중국 행정부에 §Y[FROM.GetName]§! 통합"
  RNG_coring_state_in_progress: " 주 통합 진행 중."
  KOR_regain_core_on_state_decision: "§Y[FROM.GetName]§! 내 질서 회복"
@@ -31,6 +32,7 @@
  PSR_core_state: "제2공화국에 §Y[FROM.GetName]§! 통합"
  PSR_coring_state_in_progress: " 주 통합 진행 중."
  SOV_cancel_the_japanese_resource_rights_to_sakhalin_decision: "[JAP.GetAdjective]의 §Y[655.GetName]§!에 대한 자원 채굴권 취소"
+ MEN_request_initiation_of_the_suiyuan_campaign_decision: "수원사변 개시 요청"
  ###################
  ###### JAPAN ######
  ###################
@@ -742,6 +744,8 @@
  CHI_warlord_core_manchuria: "[FROM.GetName] 통합"
  MAN_china_matters: "중국 문제"
  MAN_request_full_control_over_china: "중국에 대한 완전한 통제권 요청"
+ MAN_unify_with_specific_japanese_puppet_decision: "[FROM.GetName]의 완전한 통합 요청"
+ MAN_is_currently_seeking_to_merge_a_puppet_government_into_them_flag: " [MAN.GetNameDefCap](이)가 현재 다른 [JAP.GetAdjective] 괴뢰 정부 합병을 모색 중임"
  MAN_yong_ying_category: "용영"
  MAN_yong_ying_category_desc: "용영이라는 의용병대는 청나라 시대에 사용되었던 민병대 소집의 한 형태였으며, 지역 주민들을 대상으로 모병되었습니다. 이들은 상비군에 속하지 않고 공적 자금으로 운영되었으며, 대개는 자기방어를 위해 독립적으로 복무했습니다. 우리는 이 체계를 완성하여 다가올 전쟁에서 효율적으로 활용해야 합니다."
  MAN_expand_yong_ying_recruitment: "용영 모병 확대"
@@ -778,6 +782,8 @@
  CHI_stalemate_tt: "전쟁은 교착 상태가 되고 군대는 원래 위치로 돌아갑니다."
  GDC_holding_out: "굳건한 저항"
  GDC_survival_tt: "우리가 일 년 동안 버티면 전쟁은 교착 상태가 되고 양광에서의 우리의 입지는 지켜질 것입니다. 우리의 통제하에 들어온 모든 인근 공화주의 주들은 교착 상태가 되었을 때 우리 군벌 소속으로 남습니다."
+ MAN_warlord_autonomy_drift_decision: "§Y[FROM.GetName]§! 통합 활동"
+ YUN_core_state: "우리 지역에 §Y[FROM.GetName]§! 통합"
  XIC_war_in_yanan: "제6차 초공작전"
  XIC_war_in_yanan_desc: "산시 지역에서 전쟁이 지속됨에 따라, 비적 토벌군의 병사들이 포기하고 탈영하는 것은 시간문제일 뿐입니다. 승리하려면 신속하고 단호하게 공격해야 합니다."
  XIC_war_halting: "힘이 빠지는 공세"
@@ -815,3 +821,5 @@
  BRM_blow_up_the_oil_fields: "버마 유전 폭파"
  BRM_blown_up_oil_fields: "유전 및 광산 파괴됨"
  BRM_repair_the_oil_fields: "유전 수리"
+ develop_guapore_casserite_deposits: "[942.GetName] 주석 광석 매장지 개발"
+ rename_guapore_to_rondonia_decision: "혼도니아 연방 지역 수립"

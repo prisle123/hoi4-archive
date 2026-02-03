@@ -9,6 +9,7 @@
  unite_hui_states: "Объединить хуэйцев"
  rename_ulanbaatar_monarchist_decision: "Восстановить Ургу"
  rename_ulanbaatar_non_monarchist_decision: "Восстановить Их Хурээ"
+ reorganize_manchuria_decision: "Реорганизовать Маньчжурию"
  RNG_core_state: "Интегрировать регион §Y[FROM.GetName]§! в новую китайскую администрацию"
  RNG_coring_state_in_progress: "Идет интеграция региона."
  KOR_regain_core_on_state_decision: "Восстановить порядок в регионе §Y[FROM.GetName]§!"
@@ -31,6 +32,7 @@
  PSR_core_state: "Интегрировать регион §Y[FROM.GetName]§! в состав Второй республики"
  PSR_coring_state_in_progress: "Идет интеграция региона."
  SOV_cancel_the_japanese_resource_rights_to_sakhalin_decision: "Отменить [JAP.GetAdjRuLower]ие права на ресурсы в регионе §Y[655.GetName]§!"
+ MEN_request_initiation_of_the_suiyuan_campaign_decision: "Попросить начать Суйюаньскую кампанию"
  ###################
  ###### JAPAN ######
  ###################
@@ -742,6 +744,8 @@
  CHI_warlord_core_manchuria: "[FROM.GetName] проходит процесс интеграции"
  MAN_china_matters: "Китайские дела"
  MAN_request_full_control_over_china: "Потребовать полного контроля над Китаем"
+ MAN_unify_with_specific_japanese_puppet_decision: "Попросить полностью интегрировать [FROM.GetNameRuAcc]"
+ MAN_is_currently_seeking_to_merge_a_puppet_government_into_them_flag: "Власти [MAN.GetNameRuGen] стремятся аннексировать очередную [JAP.GetAdjRuLower]ую марионеточную администрацию"
  MAN_yong_ying_category: "Юн-ин"
  MAN_yong_ying_category_desc: "Юн-ин, или «лагеря храбрых», — форма ополчения, существовавшая в эпоху Цин. «Храбрые» были ополченцами, набранными из местного населения. Они финансировались государством, но не входили в состав регулярной армии, а служили самостоятельно, часто в силах местной самообороны. Нам следует стремиться к совершенствованию этой системы, чтобы эффективно использовать ее в будущих войнах."
  MAN_expand_yong_ying_recruitment: "Расширить набор в юн-ин"
@@ -778,6 +782,8 @@
  CHI_stalemate_tt: "Эта война окончится ничьей. Войска вернутся на исходные позиции"
  GDC_holding_out: "Удержание"
  GDC_survival_tt: "Если мы сможем продержаться год, война остановится, а мы сохраним свои позиции в Лянгуане. Все соседние республиканские регионы, оказавшиеся под нашим контролем, останутся в составе нашей клики к наступлению застоя."
+ MAN_warlord_autonomy_drift_decision: "Стремление к интеграции региона §Y[FROM.GetName]§!"
+ YUN_core_state: "Интегрировать регион §Y[FROM.GetName]§! в состав нашей провинции"
  XIC_war_in_yanan: "Шестая кампания по окружению"
  XIC_war_in_yanan_desc: "С повторным приходом в провинцию Шэньси войны теперь очевидно, что со временем армия для борьбы с бандитами сдастся и дезертирует. Вопрос лишь в том, когда это произойдет. Чтобы победить, нужно нанести быстрый и решительный удар."
  XIC_war_halting: "Наступление выдыхается"
@@ -815,3 +821,5 @@
  BRM_blow_up_the_oil_fields: "Взорвать нефтяные месторождения в Бирме"
  BRM_blown_up_oil_fields: "Уничтожены нефтяные месторождения и шахты"
  BRM_repair_the_oil_fields: "Восстановить нефтяные месторождения"
+ develop_guapore_casserite_deposits: "Разработать месторождения касситерита в регионе [942.GetName]"
+ rename_guapore_to_rondonia_decision: "Учредить федеральную территорию Рондония"

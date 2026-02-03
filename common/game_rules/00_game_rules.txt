@@ -2021,7 +2021,7 @@ LIT_ai_behavior = {
 	option = {
 		name = DEMOCRATIC
 		text = "RULE_OPTION_DEMOCRATIC"
-		desc = "RULE_ENTENTE_LAT_AI_DESC"
+		desc = "RULE_ENTENTE_LIT_AI_DESC"
 		allow_achievements = no
 	}
 	option = {

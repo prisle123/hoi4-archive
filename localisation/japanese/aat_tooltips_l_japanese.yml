@@ -139,6 +139,7 @@
  NORDIC_is_democratic_tt: "民主共同同盟を結成する資格があるか"
  NORDIC_is_monarchist_tt: "君主共同同盟を結成する資格があるか"
  NORDIC_alliance_created_already_TT: "共同連盟が結成されている。"
+ NORDIC_alliance_created_already_TT_NOT: "共同連盟が結成されていない。"
  NORDIC_airforce_capstone_unlock_TT: "これにより§Y$NORDIC_nordic_airforce$§!部の国家方針がさらにアンロックされる。"
  NORDIC_navy_capstone_unlock_TT: "これにより§Y$NORDIC_nordic_navy$§!部の国家方針がさらにアンロックされる。"
  NORDIC_army_capstone_unlock_TT: "これにより§Y$NORDIC_nordic_army$§!部の国家方針がさらにアンロックされる。"

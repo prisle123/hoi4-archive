@@ -964,6 +964,8 @@
  BRA_national_petroleum_council_desc: "从田地里的拖拉机到保卫我们海岸的战舰，石油已经成为现代机器的命脉。依赖如此重要的资源是对我们国家安全的威胁。为了减轻这种风险，我们将建立一个国家石油委员会来监督国内石油的发现和开采。"
  BRA_batalha_do_borracha: "橡胶战争"
  BRA_batalha_do_borracha_desc: "[BRA.GetNameDefCap]曾经主宰着全球的橡胶供应，直到[ENG.GetAdjective]人在他们的帝国建立了自己的大片种植园。由于后者的补给线受到威胁，世界再次指望我们来提供这种宝贵的资源。"
+ BRA_establish_companhia_vale_do_rio_doce: "淡水河谷公司"
+ BRA_establish_companhia_vale_do_rio_doce_desc: "在米纳斯吉拉斯州，尤其是伊塔比拉地区发现了大型铁矿脉及其他多种丰富的矿藏。我们必须确保该州能够开采这些资源并开发这些矿床，为此应成立一家以此为宗旨的新公司。"
  BRA_invest_in_road_infrastructure: "投资道路基础设施"
  BRA_invest_in_road_infrastructure_desc: "汽车和卡车对经济发展越来越重要。然而，我们的道路网络还不够发达，无法支持在全国范围内大规模使用汽车。因此，在我们的经济陷入停滞之前，我们需要投资大规模的高速公路建设项目。"
  BRA_invest_in_railways: "投资铁路"

@@ -1315,6 +1315,40 @@ country_event = { # China tries to stall war with Japan, HBC and SND get the cha
 	}
 }
 
+country_event = { # Event for imprisoning Xuang Xueliang
+	id = SEA_china.29
+	title = SEA_china.29.t
+	desc = SEA_china.29.desc
+	picture = GFX_report_event_generic_sign_treaty1
+	is_triggered_only = yes
+
+	option = { # Imprison him!
+		name = SEA_china.29.a
+		ai_chance = {
+			base = 10
+		}
+
+		retire_character = CHI_zhang_xueliang
+	}
+
+	option = { # We can't afford to lose him
+		name = SEA_china.29.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+			modifier = {
+				has_country_leader = { character = CHI_chiang_kaishek }
+				factor = 0.1
+			}
+		}
+
+		add_political_power = -75
+	}
+}
+
 
 country_event = { # Event for increasing conscription factor
 	id = SEA_china_improvement.1
@@ -1705,7 +1739,9 @@ country_event = { # Warlord accepts event
 				has_completed_focus = CHI_appoint_sympathetic_judges
 				FROM = { NOT = { has_idea = idea_CHI_sympathetic_judges } }
 			}
-			add_ideas = idea_CHI_sympathetic_judges
+			FROM = {
+				add_ideas = idea_CHI_sympathetic_judges
+			}
 		}
 
 		if = {
@@ -2102,7 +2138,25 @@ country_event = {
 	option = {
 		name = SEA_china_democratic.3.a
 
-		add_to_faction = FROM
+		IF = {
+			limit = {
+				is_faction_leader = yes 
+			}
+			add_to_faction = FROM
+		}
+		ELSE_IF = {
+			limit = {
+				is_in_faction = yes
+				is_faction_leader = no
+			}
+			random_country = {
+				limit = {
+					is_in_faction_with = ROOT
+					is_faction_leader = yes 
+				}
+				add_to_faction = FROM
+			}
+		}
 
 	}
 

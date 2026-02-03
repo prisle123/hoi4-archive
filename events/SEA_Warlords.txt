@@ -3294,6 +3294,9 @@ country_event = {
 			CHI_wan_fulin = {
 				set_nationality = ROOT
 			}
+			HBC_wu_peifu = {
+				set_nationality = ROOT
+			}
 		}
 
 		custom_effect_tooltip = generic_skip_one_line_tt
@@ -3405,7 +3408,11 @@ country_event = {
 			target = FROM
 			transfer_troops = yes
 		}	
-			
+		country_event = { # Zhang Xueliang getting thrown in jail
+			id = SEA_china.29
+			days = 3
+		}
+
 		hidden_effect = {
 			XIC = {
 				CHI_zhang_xueliang = {
@@ -3710,6 +3717,374 @@ country_event = {
 
 	}
 }
+
+# The Legacy of the Pingnan Guo - event for hui warlord that proclaims and empire  
+country_event = {
+	id = SEA_warlords.70
+	title = SEA_warlords.70.t
+	desc = SEA_warlords.70.desc
+	picture = GFX_report_event_manchukuo_army_2
+
+	fire_only_once = no # Technically multiple warlords could proclaim an empire in a game, though highly unlikely 
+
+	is_triggered_only = yes
+	
+	# The time has come at long last for a new type of government!
+	option = {
+		ai_chance = { 
+			base = 50
+		}
+		name = SEA_warlords.70.a
+
+		add_political_power = 100
+		set_cosmetic_tag = CHI_panthay_empire  
+		
+	}
+
+	# We will be an empire once more!
+	option = {
+		ai_chance = { 
+			base = 0
+		}
+		name = SEA_warlords.70.b
+		
+		set_cosmetic_tag = TSR_empire_of_china
+		add_stability = 0.05
+
+	}
+
+	# Long Live the Great Ma Dynasty!
+	option = {
+		trigger = {
+			OR = {
+				has_country_leader = {
+					ruling_only = yes
+					character = XSM_ma_buqing
+				}
+				has_country_leader = {
+					ruling_only = yes
+					character = XSM_ma_hongkui
+				}	
+				has_country_leader = {
+					ruling_only = yes
+					character = KHM_ma_hushan
+				}	
+				has_country_leader = {
+					ruling_only = yes
+					character = QHM_ma_lin
+				}	
+				has_country_leader = {
+					ruling_only = yes
+					character = XSM_ma_bufang	
+				}	
+				has_country_leader = {
+					ruling_only = yes
+					character = XSM_ma_hongbin
+				}	
+			}
+		}
+		ai_chance = { 
+			base = 50
+		}
+		name = SEA_warlords.70.c
+		
+		set_cosmetic_tag = CHI_great_ma
+		add_war_support = 0.1
+
+	}
+}
+
+# Ma Hushan requests aid - event for XSM, GSM and NXM 
+country_event = {
+	id = SEA_warlords.71
+	title = SEA_warlords.71.t
+	desc = SEA_warlords.71.desc
+	picture = GFX_report_event_tur_machine_gunners
+
+	
+	is_triggered_only = yes
+
+	fire_only_once = no
+
+	# yes 
+	option = { 
+		name = SEA_warlords.71.a
+		ai_chance = {
+			base = 25 
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+				KHM = {
+					is_ai = yes
+				}
+			}
+		}
+		
+		add_relation_rule_override = {
+			target = KHM 
+			can_send_volunteers = yes
+		}
+		hidden_effect = {
+			add_ai_strategy = {
+				type = send_volunteers_desire
+				id = KHM
+				value = 100
+			}
+			add_ai_strategy = {
+				type = protect
+				id = KHM
+				value = 25 
+			}
+			add_timed_idea = {
+				idea = CHI_intervention_for_khm_idea
+				days = 364 
+			}	
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
+		effect_tooltip = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = -500
+				producer = ROOT
+			}
+			add_manpower = -1000 
+			custom_effect_tooltip = generic_skip_one_line_tt
+			KHM = {
+				add_equipment_to_stockpile = { 
+					type = infantry_equipment
+					amount = 500
+					producer = ROOT
+				}
+				add_manpower = 1000 	
+			}
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
+		FROM = {
+			country_event = {
+				id = SEA_warlords.72
+				hours = 6
+			}
+		}
+
+	}
+
+	# nope
+	option = { 
+		name = SEA_warlords.71.b
+		ai_chance = {
+			base = 0
+		}
+		FROM = {
+			country_event = {
+				id = SEA_warlords.73
+				hours = 6
+			}
+		}
+		
+	}
+}
+
+# Aid Arrives from [FROM.GetNameDef] - event for KHM 
+country_event = {
+	id = SEA_warlords.72
+	title = SEA_warlords.72.t
+	desc = SEA_warlords.72.desc
+	picture = GFX_report_event_china_chiang_kai_shek
+
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# yay
+	option = { 
+		name = SEA_warlords.72.a
+		FROM = {
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment
+				amount = -500
+				producer = FROM
+			}
+			add_manpower = -1000
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
+		add_equipment_to_stockpile = { 
+			type = infantry_equipment
+			amount = 500
+			producer = FROM
+		}
+		add_manpower = 1000 
+
+	}
+}
+
+# No Aid Arrives from [FROM.GetNameDef] - event for KHM 
+country_event = {
+	id = SEA_warlords.73
+	title = SEA_warlords.73.t
+	desc = SEA_warlords.73.desc
+	picture = GFX_report_event_chinese_soldiers_running
+
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# :(
+	option = { 
+		name = SEA_warlords.73.a
+		
+
+
+	}
+}
+
+# The Fall of the Khotan Ma Clique - event for KHM 
+country_event = {
+	id = SEA_warlords.74
+	title = SEA_warlords.74.t
+	desc = SEA_warlords.74.desc
+	picture = GFX_report_event_chinese_soldiers_running
+
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# We welcome you brothers
+	option = { 
+		name = SEA_warlords.74.a
+
+		add_war_support = 0.05
+
+		IF = {
+			limit = {
+				FROM = {
+					has_character = KHM_ma_hushan
+				}
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			FROM = {
+				KHM_ma_hushan = {
+					set_nationality = ROOT
+				}
+			}
+		}
+
+		IF = {
+			limit = {
+				FROM = {
+					has_character = XSM_ma_hongbin
+				}
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			FROM = {
+				XSM_ma_hongbin = {
+					set_nationality = ROOT
+				}
+			}
+		}
+
+		IF = {
+			limit = {
+				FROM = {
+					has_character = KHM_ma_zhancang
+				}
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			FROM = {
+				KHM_ma_zhancang = {
+					set_nationality = ROOT
+				}
+			}
+		}
+
+		IF = {
+			limit = {
+				FROM = {
+					has_character = KHM_ma_shaowu
+				}
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+			FROM = {
+				KHM_ma_shaowu = {
+					set_nationality = ROOT
+				}
+			}
+		}
+
+		custom_effect_tooltip = generic_skip_one_line_tt
+		
+		KHM = {
+			every_core_state = {
+				add_claim_by = ROOT
+			}
+		}
+
+	}
+}
+
+# [FROM.GetLeader] Wishes to Begin the Suiyuan Campaign - event for JAP from MEN  
+country_event = {
+	id = SEA_warlords.75
+	title = SEA_warlords.75.t
+	desc = SEA_warlords.75.desc
+	picture = GFX_report_event_manchukuo_army_2
+
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	# We welcome you brothers
+	option = { 
+		name = SEA_warlords.75.a
+		ai_chance = {
+			base = 100 # Ai should always accept 
+		}
+
+		custom_effect_tooltip = JAP_launch_the_suiyuan_campaign_tt
+		declare_war_on = {
+			target = SHX
+			type = take_state_focus
+		}	
+		MEN = {
+			add_to_war = {
+			    targeted_alliance = ROOT
+			    enemy = SHX
+			    hostility_reason = asked_to_join
+			}
+		}
+		add_named_threat = { threat = 1 name = JAP_began_the_suiyuan_campaign }
+
+		custom_effect_tooltip = generic_skip_one_line_tt
+
+		SHX = {
+			country_event = {
+				id = SEA_japan_foreign_policy.31
+				hours = 1
+			}	
+		}
+
+		hidden_effect = {
+			activate_mission = JAP_the_suiyuan_offensive_mission
+			set_country_flag = JAP_suiyuan_campaign_has_started_flag
+		}
+
+	}
+
+	# We welcome you brothers
+	option = { 
+		name = SEA_warlords.75.b
+		ai_chance = {
+			base = 0
+		}
+
+		add_political_power = -25
+
+	}
+}
+
 
 #China gets informed that Northeastern Army has given up Yan'an to PRC
 country_event = {

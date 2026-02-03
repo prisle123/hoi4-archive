@@ -572,6 +572,7 @@
  DR_GUARANTEE: "§Y$US|U$§!が§Y$THEM$§!に独立保障されている: "
  DR_GUARANTEEING: "§Y$US|U$§!が§Y$THEM$§!に独立保障している: "
  DR_SAME_IDEOLOGY: "§Y$THEM|U$§!が同一イデオロギーを持っている: "
+ DR_DIFFERENT_IDEOLOGY: "§Y$THEM|U$§!は異なるイデオロギーを持っている: "
  DR_FACTION_LOW_TENSION: "§Y$THEM$§!が§Y$US$§!の陣営に加盟するには国際緊張度が§R$TENSION_DIFF$§!低過ぎる"
  DR_FACTION_TENSION: "国際緊張度: §G$TENSION_DIFF$§!"
  DR_FACTION_SURRENDER: "§Y$THEM|U$§!が戦争に敗北しつつある: "

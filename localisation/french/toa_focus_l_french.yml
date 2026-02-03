@@ -964,6 +964,8 @@
  BRA_national_petroleum_council_desc: "Du petit tracteur parcourant les champs au cuirassé défendant nos côtes, le pétrole est devenu l'élément vital des véhicules modernes. Dépendre d'une ressource aussi cruciale menace notre sécurité nationale. Pour atténuer les risques, nous allons créer un conseil national du pétrole chargé de superviser la prospection et l'extraction du pétrole."
  BRA_batalha_do_borracha: "Batalha da Borracha"
  BRA_batalha_do_borracha_desc: "Autrefois, les [BRA.GetHabitants] avaient la mainmise sur l'approvisionnement mondial en caoutchouc, jusqu'à ce que les [ENG.GetHabitants] aient l'idée de créer de vastes plantations à travers leur empire. Mais aujourd'hui, leurs lignes d'acheminement sont menacées, alors le monde se tourne à nouveau vers nous pour obtenir cette précieuse ressource."
+ BRA_establish_companhia_vale_do_rio_doce: "Companhia Vale do Rio Doce"
+ BRA_establish_companhia_vale_do_rio_doce_desc: "Nous avons découvert d'importantes veines de fer et de minerais précieux en tout genre à Minas Gerais, notamment dans la région d'Itabira. Assurons-nous que l'État exploite ces ressources et développe les gisements efficacement en établissant une toute nouvelle société entièrement dédiée à cet effort."
  BRA_invest_in_road_infrastructure: "Investir dans les infrastructures routières"
  BRA_invest_in_road_infrastructure_desc: "Les voitures et les camions contribuent de plus en plus au développement économique. Toutefois, nos réseaux routiers ne sont pas à la hauteur d'un trafic massif de ces véhicules à l'échelle nationale. Nous devons donc investir dans un programme massif de construction d'autoroutes avant que notre économie ne soit étranglée."
  BRA_invest_in_railways: "Investir dans les voies ferrées"

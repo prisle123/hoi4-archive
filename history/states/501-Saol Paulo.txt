@@ -5,6 +5,10 @@ state={
 	manpower = 6199200
 	state_category = city
 
+	resources = {
+		aluminium = 6 
+	}
+
 	history={
 		owner = BRA
 		add_core_of = BRA

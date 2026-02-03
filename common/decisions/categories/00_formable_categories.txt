@@ -672,22 +672,24 @@ raj_formable_cat = {
 	#picture = GFX_decision_cat_picture_neo_assyrian_empire
 	
 	allowed = {
-		original_tag = RAJ 
+		original_tag = RAJ # India 
 	}
 }
 
 neo_mesopotamia_category = {
 	icon = generic_formable_nations
 
+	picture = GFX_decision_cat_picture_neo_assyrian_empire
+
 	allowed = {
 		OR = {
 			original_tag = KUR #Kurdistan
-			original_tag = IRQ 
-			original_tag = SYR
-			original_tag = PAL
-			original_tag = EGY
-			original_tag = KUW
-			original_tag = LEB
+			original_tag = IRQ # Iraq 
+			original_tag = SYR # Syria 
+			original_tag = PAL # Palestine 
+			original_tag = EGY # Egypt 
+			original_tag = KUW # Kuwait 
+			original_tag = LEB # Lebanon 
 		}
 		
 	}
@@ -699,7 +701,7 @@ form_maphilindo_category = {
 	picture = GFX_decision_cat_picture_form_maphilindo
 
 	allowed = {
-		original_tag = PHI
+		original_tag = PHI # Philippines 
 		has_dlc = "No Compromise, No Surrender"
 	}
 }

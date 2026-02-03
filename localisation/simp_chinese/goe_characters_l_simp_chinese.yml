@@ -26,6 +26,9 @@
  IRQ_ahmed_barzani: "谢赫艾哈迈德·巴尔扎尼"
  IRQ_mustafa_barzani: "穆斯塔法·巴尔扎尼"
  GER_oskar_von_nidermayer: "奥斯卡·冯·尼德迈尔"
+ YEM_imam_yahya: "伊玛目叶海亚·穆罕默德·哈米德丁"
+ OMA_said_bin_taimur: "赛义德·本·泰穆尔"
+ SAU_abdulaziz_ibn_saud: "阿卜杜勒阿齐兹·伊本·沙特"
  #RAJ#
  RAJ_GOE_j_r_d_tata: "J. R. D.塔塔"
  RAJ_GOE_jawaharlal_nehru: "贾瓦哈拉尔·尼赫鲁"
@@ -167,6 +170,7 @@
  AFG_nur_muhammad_taraki: "努尔·穆罕默德·塔拉基"
  AFG_sheikh_omar_mojadidi: "努尔·马沙伊赫·谢赫·法兹勒·奥马尔·穆贾迪迪"
  AFG_sher_khan_nashir: "谢尔汗·纳希尔"
+ AFG_abdul_hadi_dawi: "阿卜杜勒·哈迪·达维"
  BUK_mohammed_alim_khan: "赛义德·米尔·穆罕默德·阿利姆汗"
  BUK_polat_usmon: "波拉特·乌斯蒙·霍扎耶夫"
  ##################
@@ -201,3 +205,9 @@
  IRQ_akram_mushtak: "阿克拉姆·穆什塔克"
  IRQ_muhammad_ali_jawad: "穆罕默德·阿里·贾瓦德"
  IRQ_maruf_al_rusafi: "马鲁夫·拉萨菲"
+ IRQ_ahmed_rushdi_muhammad: "艾哈迈德·拉什迪·本·哈吉·穆罕默德"
+ IRQ_jamil_ahmad_abullah_al_rawi: "贾米尔·艾哈迈德·阿卜杜拉·拉维"
+ IRQ_kamil_al_jaderji: "卡米尔·查迪杰"
+ IRQ_mohamed_hadid: "穆罕默德·哈迪德"
+ IRQ_jafar_al_timman: "贾法尔·阿布·提曼"
+ IRQ_mohamed_mahdi_kubba: "穆罕默德·马赫迪·库巴"

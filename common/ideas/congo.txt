@@ -1630,6 +1630,23 @@ ideas = {
 			}
 		}
 
+		COG_brown_water_navy_idea = {
+			picture = eng_preparing_the_second_front
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				custom_modifier_tooltip = BRA_brown_water_navy_idea_bonus_tt
+			}
+		}
+
 
 
 	}

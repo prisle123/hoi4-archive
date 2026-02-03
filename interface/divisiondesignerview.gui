@@ -555,7 +555,7 @@ guiTypes = {
 		ButtonType = {
 			name ="div_templ_symbol_button"
 			spriteType = "GFX_unit_super_heavy_armor_icon_medium"	
-			position = { x=41 y=57 }
+			position = { x=39 y=57 }
 			clicksound = click_default
 		}	
 

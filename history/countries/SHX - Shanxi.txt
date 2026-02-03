@@ -30,8 +30,9 @@ IF = {
 	}
 }
 
-set_stability = 0.7
+set_stability = 0.65
 set_war_support = 0.4
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -44,6 +45,9 @@ IF = {
 	recruit_character = CHI_fu_zuoyi
 	set_technology = {
 		gw_artillery = 1
+	}
+	add_ideas = {
+		CHI_warlord_looting_idea
 	}
 }
 recruit_character = SHX_yan_xishan

@@ -109,7 +109,7 @@ division_template = {
 }
 division_template = {
 	name = "Ginrinbutai"		#This template covers the Bicycle Detachments nicknamed the Silver Wheel Units 
-	division_names_group = JAP_INF_01
+	division_names_group = JAP_BIC_01
 	regiments = {
 		bicycle_battalion = { x = 0 y = 0 }
 		bicycle_battalion = { x = 0 y = 1 }

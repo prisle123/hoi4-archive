@@ -139,6 +139,7 @@
  NORDIC_is_democratic_tt: "É elegível para criar a Aliança Democrática Conjunta"
  NORDIC_is_monarchist_tt: "É elegível para criar a Aliança Monarquista Conjunta"
  NORDIC_alliance_created_already_TT: "Uma aliança conjunta foi formada."
+ NORDIC_alliance_created_already_TT_NOT: "Nenhuma aliança conjunta foi formada."
  NORDIC_airforce_capstone_unlock_TT: "Isso desbloqueará focos adicionais para o ramo §Y$NORDIC_nordic_airforce$§!."
  NORDIC_navy_capstone_unlock_TT: "Isso desbloqueará focos adicionais para o ramo §Y$NORDIC_nordic_navy$§!."
  NORDIC_army_capstone_unlock_TT: "Isso desbloqueará focos adicionais para o ramo §Y$NORDIC_nordic_army$§!."

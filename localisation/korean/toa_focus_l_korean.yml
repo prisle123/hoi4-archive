@@ -964,6 +964,8 @@
  BRA_national_petroleum_council_desc: "들판의 트랙터부터 해안을 방어하는 전함에 이르기까지, 석유는 현대 기계의 생명선이 되었습니다. 이렇게 중요한 자원에 의존하는 것은 우리 국가 안보에 위협이 됩니다. 이러한 위험을 완화하기 위해 우리는 국내 석유의 탐사와 추출을 감독하는 국립석유위원회를 설립할 것입니다."
  BRA_batalha_do_borracha: "고무 전쟁"
  BRA_batalha_do_borracha_desc: "[BRA.GetNameDefCap]은 [ENG.GetAdjective]이 제국 전역에 광대한 플랜테이션을 만들기 전까지 한때 전 세계 고무 공급을 지배했습니다. 이제 보급선이 위협받게 되자, 세계는 다시 한번 우리가 이 귀중한 자원을 공급해 주길 기대하고 있습니다."
+ BRA_establish_companhia_vale_do_rio_doce: "발리 두 히우 도시 회사"
+ BRA_establish_companhia_vale_do_rio_doce_desc: "미나스 제라이스, 특히 이타비라 지역에서 대형 철광 광맥과 각종 풍부한 광물 매장지가 다양하게 발견되었습니다. 국가는 이러한 자원을 활용하고 매장지를 개발할 수 있도록, 이를 주된 목표로 하는 새로운 회사를 설립해야 합니다."
  BRA_invest_in_road_infrastructure: "도로 기반시설에 투자"
  BRA_invest_in_road_infrastructure_desc: "자동차와 트럭은 경제 발전에 점점 더 중요해지고 있습니다. 그러나 우리의 도로망은 전국적으로 대량의 차량 보급을 감당할 만큼 충분히 발달되지 않았습니다. 따라서 우리는 경기가 침체되기 전에 대규모 고속도로 건설 계획에 투자해야 합니다."
  BRA_invest_in_railways: "철도에 투자"

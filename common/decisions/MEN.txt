@@ -456,7 +456,123 @@ political_actions = {
 	}
 
 
+	# Request Initiation of the Suiyuan Campaign  
+	MEN_request_initiation_of_the_suiyuan_campaign_decision  = {
 
+		priority = 5
+
+		icon = GFX_decision_border_war
+
+		on_map_mode = decision_view_only 	
+
+		ai_will_do = {
+			base = 0 # Ai prob shouldn't take this, meant for a player 
+		}
+	
+		allowed = {
+			original_tag = MEN  
+		}
+
+		visible = { 
+			owns_state = 1043 # Pailingmiao 
+			OR = {
+				is_subject_of = JAP
+				is_in_faction_with = JAP
+			}
+			JAP = {
+				NOT = {
+					has_country_flag = JAP_suiyuan_campaign_has_started_flag
+					has_country_flag = JAP_suiyuan_campaign_has_ended_flag
+				}
+			}
+		}
+	
+		available = {
+			owns_state = 1043 # Pailingmiao 
+			SHX = {
+				exists = yes
+				is_in_faction = no
+				is_subject = no
+				has_war = no
+				AND = {
+					owns_state = 621
+					owns_state = 746
+				}
+			}
+		}
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 621
+				state = 746 
+			}
+		}
+
+		#days_remove = 70
+
+		#days_re_enable = 180
+
+		cost = 50 
+
+		cancel_trigger = {
+		}
+
+        cancel_effect = {
+        }
+
+		modifier = {
+		}
+
+		complete_effect = { 
+
+			add_war_support = 0.05
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			JAP = {
+				country_event = {
+					id = SEA_warlords.75
+					hours = 2
+				}	
+			}
+			custom_effect_tooltip = if_they_accept_tt
+			effect_tooltip = {
+				JAP = {
+					custom_effect_tooltip = JAP_launch_the_suiyuan_campaign_tt
+					declare_war_on = {
+						target = SHX
+						type = take_state_focus
+					}
+					add_named_threat = { threat = 1 name = JAP_began_the_suiyuan_campaign }
+				}
+					
+				ROOT = {
+					add_to_war = {
+					    targeted_alliance = JAP
+					    enemy = SHX
+					    hostility_reason = asked_to_join
+					}
+				}
+
+				custom_effect_tooltip = generic_skip_one_line_tt
+
+				SHX = {
+					country_event = {
+						id = SEA_japan_foreign_policy.31
+						hours = 1
+					}	
+				}
+			}
+
+		}
+
+		fire_only_once = yes
+
+		remove_effect = {
+
+		}
+
+	}
 
 
 }

@@ -147,7 +147,7 @@
  STATE_84:0 "Transylvania"
  STATE_85:0 "Danzig"
  KSH_STATE_85: "Gduńsk"
- STATE_86:0 "Poznan"
+ STATE_86:0 "Poznań"
  GER_STATE_86: "Posen"
  86_german_name: "Posen"
  ISR_STATE_86: "Poyzn"
@@ -756,6 +756,7 @@
  JAP_STATE_608: "Peking" 
  STATE_609:0 "East Hebei"
  STATE_610:0 "Jehol"
+ state_610_modern_name: "Rehe"
  STATE_611: "Chahar" # was South Chahar
  STATE_612: "Xilingol" # was Chahar
  STATE_613:2 "Shanghai"
@@ -967,6 +968,8 @@
  STATE_797:0 "Istanbul"
  STATE_798:0 "Amasya"
  STATE_799:0 "Hatay"
+ FRA_STATE_799: "Sandjak d'Alexandrette"
+ SYR_STATE_799: "Alexandretta"
  STATE_800:0 "Van"
  STATE_801:0 "Moesia"
  STATE_802:0 "Kosovo"
@@ -1131,6 +1134,7 @@
  STATE_940: "Acre"
  STATE_941: "Tocantins"
  STATE_942: "Guaporé" # can be renamed to Rondônia later
+ 942_rondonia_name: "Rondônia"
  STATE_943: "Espírito Santo"
  STATE_944: "Paraná"
  STATE_945: "Cerro Largo"

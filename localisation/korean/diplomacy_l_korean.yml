@@ -572,6 +572,7 @@
  DR_GUARANTEE: "§Y$US|U$§! 측은 §Y$THEM$§! 측에 독립을 보장받았습니다:"
  DR_GUARANTEEING: "§Y$US|U$§! 측은 §Y$THEM$§! 측의 독립을 보장하는 중입니다:"
  DR_SAME_IDEOLOGY: "§Y$THEM|U$§! 측은 같은 이념을 가졌습니다:"
+ DR_DIFFERENT_IDEOLOGY: "§Y$THEM|U$§! 측은 다른 이념을 가지고 있습니다:"
  DR_FACTION_LOW_TENSION: "§Y$THEM$§! 측이 §Y$US$§! 세력에 가입하려면 세계 긴장도가 §R$TENSION_DIFF$§! 더 높아야 합니다."
  DR_FACTION_TENSION: "세계 긴장도: §G$TENSION_DIFF$§!"
  DR_FACTION_SURRENDER: "§Y$THEM|U$§! 측은 전쟁에서 지고 있습니다:"

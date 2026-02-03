@@ -1017,6 +1017,8 @@
  TRIGGER_MORE_THAN_IDEOLOGY_SUPPORT: "Support for factions leaders' ideology ($IDEOLOGY|H$) is more than $REQUIRED|H%0$ (Current $CURRENT|H%0$)"
  TRIGGER_LESS_THAN_IDEOLOGY_SUPPORT: "Support for factions leaders' ideology ($IDEOLOGY|H$) is less than $REQUIRED|H%0$ (Current $CURRENT|H%0$)"
  TRIGGER_HAS_EQ_IDEOLOGY_SUPPORT: "Support for factions leaders' ideology ($IDEOLOGY|H$) is equal to $REQUIRED|H%0$ (Current $CURRENT|H%0$)"
- GOAL_T_TRIGGER_A: "Known Techs in faction ($LEFT|0H$) is greater than $RIGHT|0H$"
+ GOAL_T_TRIGGER_A: "Average Known Techs in Faction ($LEFT|0H$) is equal to or greater than $RIGHT|0H$"
  GOAL_T_TRIGGER_B: "Divisions in faction ($LEFT|0H$) greater than $RIGHT|0H$"
  TRIGGER_EQUIPMENT_CURRENT_VALUE: " (current stockpile: $CURRENT|H$)"
+ TRIGGER_ENERGY_RATIO: "Energy Ratio"
+ 

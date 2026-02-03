@@ -94,6 +94,7 @@
  resource_development_company_2: "Resource Development Company"
  transport_company: "Transport Investment Company"
  civilian_airway_company: "Civilian Airway Company"
+ desert_motor_transport_company: "Desert Transport Company"
  industrial_conglomerate: "Industrial Zaibatsu"
  armament_zaibatsu: "Armament Zaibatsu"
  zaibatsu_bank: "Zaibatsu Bank"
@@ -883,6 +884,7 @@
 
  trait_TUR_kemalist_champion:0 "Kemalist Champion"
  trait_TUR_kemalist_champion_desc:0 "This leader is a staunch adherent to the tenets of Kemalism and will fight to defend those principles."
+ grey_wolf_trait: "Grey Wolf"
  
  underage_monarch:0 "Underage Monarch"
  legitimate_heir:0 "Legitimate Heir"
@@ -2014,7 +2016,7 @@
  AFG_lord_of_baghdad: "Re-builder of Baghdad"
  AFG_savior_of_the_holy_lands_trait: "Savior of the Holy Lands"
  AFG_ascendancy_sovreign: "Sovereign of the Ascendancy"
- AFG_faith_in_god: "He who puts his faith in God"
+ AFG_faith_in_god: "He Who Puts His Faith in God"
  AFG_follower_of_islam_trait: "Follower of Islam"
  AFG_continuity_pm: "Continuity Prime Minister"
  AFG_reactionary_pm: "Reactionary Prime Minister"
@@ -2055,7 +2057,7 @@
  IRQ_german_ambassador: "German Ambassador"
  IRQ_fliegerfuhrer: "Fliegerführer Irak\n(Expert)"
  IRQ_air_vice_marshal: "Air Vice Marshal\n(Expert)"
- IRQ_arab_fascist_politician: "Arab Fascist Politician"
+ IRQ_arab_fascist_politician: "Arab-Fascist Adherent"
  IRQ_great_iraqi_statesman: "Great Iraqi Statesman"
  IRQ_pro_western_iraqi_nationalist: "Pro-Western Iraqi Nationalist"
  IRQ_hashemite_caliph: "The Caliph"
@@ -2065,11 +2067,20 @@
  IRQ_british_lackey: "British Lackey"
  IRQ_hashemite_regent: "Hashemite Regent"
  IRQ_poet_of_freedom: "Poet of Freedom"
+ IRQ_guardian_of_independence: "The Guardian of Independence"
+ IRQ_shiite_representative: "Shiite Representative"
  
  anti_colonialist: "Anti-Colonialist"
  mon_dynasty_descendant: "Mon Dynasty Descendant"
  konbuang_dynasty_descendant: "Konbuang Dynasty Descendant"
  burmese_way_to_socialism_trait: "Founder of the Burmese Way to Socialism"
+ KUW_the_military_sheikh: "The Military Sheikh"
+ JOR_emir_of_transjordan: "Emir of Transjordan"
+ PAL_experienced_high_commissioner: "Experienced High Commissioner"
+ IRQ_hashemite_supporter: "Pro-Hashemite Politician"
+ YEM_supreme_imam_trait: "Prince of the Believers"
+ OMA_unifier_of_muscat_and_oman: "Unifier of Muscat and Oman"
+ SAU_unifier_of_central_arabia: "Unifier of Central Arabia"
 
  #PER Traits
  PER_diminished_authority: "Diminished Authority"
@@ -2224,6 +2235,15 @@
  KUM_champion_father_of_the_faithful: "Champion Father of the Faithful"
  TIB_tulku_trait: "Tulku"
  CHI_taoist_devotee_trait: "Taoist Devotee"
+ KHM_emir_of_khotan: "Emir of Khotan"
+ CHI_jade_marshal: "The Jade Marshal"
+ CHI_border_garrison_commander: "Border Garrison Commander"
+ KHM_british_connection: "The British Connection"
+ KHM_daoyin_of_kashgar: "Daoyin of Kashgar"
+ KHM_civil_governor_for_life: "Civil Governor for Life"
+ KHM_jadidist_emir: "The Jadidist Emir"
+ KHM_ghazi_trait: "Ghazi"
+ CHI_bandit_warlord: "The Bandit Warlord"
 
  # JAP traits
  JAP_pacifist_baron: "Influential Pacifist Baron"
@@ -2320,7 +2340,7 @@
  JAP_nichiren_marxist_trait: "Nichiren Marxist"
  JAP_modernist_architect: "Modernist Architect"
  JAP_tohokai_leader: "Tōhōkai Leader"
-
+ SIK_socialist_revolutionary_in_name: "Social Reformer"
 
  # MEN traits
  MEN_educated_ulanqb_nobleman: "Noble Ulanqab Intellectual"

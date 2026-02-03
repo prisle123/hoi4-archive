@@ -324,6 +324,11 @@
  AFG_political_events.172.desc: "\nEn début de semaine, des forces [FROM.GetAdjFP] ont occupé le Waziristan, déclarant qu'elles avaient pour mission de protéger la région d'une potentielle occupation ennemie. Il s'agit clairement d'un acte de guerre, mais nous pourrions choisir de l'ignorer : ils ne cherchent pas à se battre contre nous, mais plutôt à réunifier les peuples pachtounes."
  AFG_political_events.172.a: "Inutile de se disputer"
  AFG_political_events.172.b: "Pour qui se prennent-ils ?"
+ AFG_royal_succession_events.01.t: "La royauté au ministère"
+ AFG_royal_succession_events.01.desc: "Toutes les décisions prises par $AFG_mohammad_hashim_khan$ sont contestées. C'est pourquoi nous allons nommer un nouveau dirigeant capable de se plier à l'autorité de $AFG_mohammed_zahir_shah$. Qui le remplacera ?"
+ AFG_royal_succession_events.01.a: "$AFG_shah_mahmud_khan$, la constance incarnée"
+ AFG_royal_succession_events.01.b: "$AFG_sardar_shah_wali_khan$, le génie militaire"
+ AFG_royal_succession_events.01.c: "$AFG_mohammed_daoud_khan$, le progressiste"
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] demand[FROM.GetEEntNP]\nla permission d'envahir [BHU.GetLeLaLNP] [BHU.GetName]"
@@ -1315,6 +1320,14 @@
  IRQ_political_events.76.t: "Délégation refusée"
  IRQ_political_events.76.desc: "Malheureusement, le gouvernement [FROM.GetAdjMS] a rejeté notre demande d'échange de pétrole contre des armes. Tant pis pour eux."
  IRQ_political_events.76.a: "Quel dommage !"
+ IRQ_political_events.77.t: "[IRQ.GetLeLaLNPCap] [IRQ.GetName] captur[IRQ.GetEEntNP] [680.GetName]"
+ IRQ_political_events.77.desc: "À l'issue d'une campagne éclair à [680.GetName], l'armée [IRQ.GetAdjFS] s'est emparée de toutes les localités principales et a déclaré le territoire sous son contrôle."
+ IRQ_political_events.77.a: "Notre pouvoir est sans limites !"
+ IRQ_political_events.77.b: "Ah..."
+ IRQ_political_events.78.t: "[IRQ.GetLeLaLNPCap] [IRQ.GetName] abandonn[IRQ.GetEEntNP] [680.GetName]"
+ IRQ_political_events.78.desc: "Mise en échec face à une série de difficultés, l'armée [IRQ.GetAdjFS] s'est retirée de [680.GetName]. Le conflit est loin d'être terminé, mais pour l'heure, la ville demeure sous contrôle [SYR.GetAdjMS]."
+ IRQ_political_events.78.a: "Ce n'est qu'un léger contretemps..."
+ IRQ_political_events.78.b: "Deir ez-Zôr tient bon !"
  #Kurdistan
  IRQ_kurdistan_events.1.t: "Les nationalistes kurdes nous demandent de l'aide"
  IRQ_kurdistan_events.1.desc: "Nous avons reçu une demande particulière des nationalistes kurdes [IRQ.GetAuEnANP] [IRQ.GetName] : ils cherchent des soutiens pour les aider dans leur révolution."

@@ -1337,6 +1337,7 @@
  state_resource_tungsten: "钨"
  state_resource_steel: "钢"
  state_resource_chromium: "铬"
+ state_resource_coal: "煤"
  temporary_state_resource_oil: "石油"
  temporary_state_resource_aluminium: "铝"
  temporary_state_resource_rubber: "橡胶"

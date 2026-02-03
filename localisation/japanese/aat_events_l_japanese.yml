@@ -596,7 +596,7 @@
  AAT_Sweden_flashpoints.32.desc: "[SWE.GetName]は自国の中立性を守る義務を盾に、我々にインフラを利用する許可を与えることを頑なに拒んでいる。ここは一つ、我々もより毅然とした態度で臨み、今も続く彼らの独立性が、どのような性質のものかを思い出させてやる必要がありそうだ。あの国の独立性など、我が国によるヨーロッパの再編成に従うことで約束される、一種の褒美にすぎないのだ。"
  AAT_Sweden_flashpoints.32.a: "[GER.GetLeader]が、彼らの中立性に疑いを抱き始めたことを通達せよ。"
  AAT_Sweden_flashpoints.32.b: "この件は捨て置け。敵と手を組まれるようなことになったら厄介だ。"
- AAT_Sweden_flashpoints.33.t: "[SWE.GetAdjective]の中立性を疑問視するアドルフ・ヒトラー"
+ AAT_Sweden_flashpoints.33.t: "[GER.GetLeader]が[SWE.GetAdjective]の中立性を疑問視"
  AAT_Sweden_flashpoints.33.desc: "[GER.Capital.GetCapitalVictoryPointName]から強い表現を用いた電報が届き、最近あった要請を断った我々に対し、[GER.GetLeader]が遺憾に思っている旨を告げられた。どうやら[GER.GetAdjective]の指導者は、我々の中立性に疑問を抱き始めているようで、先日の我々の行動は[GER.GetName]の敵勢力側へと傾いていることの示唆と受け取られたようだ。\n\nまた電報からは必要とあらば、争いへの発展も辞さない様子が読み取れる。こうなると我々も、現在の方針を見直すべき時に来ているのかもしれない。"
  AAT_Sweden_flashpoints.33.a: "中立性よりも、生き残ることのほうが重要だ。"
  AAT_Sweden_flashpoints.33.b: "[GER.GetLeader]の圧力に屈してなるものか。部隊を結集させよ。"

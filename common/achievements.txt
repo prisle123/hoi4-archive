@@ -7468,6 +7468,14 @@ the_juannines = {
 		PHI = {
 			SPR = {
 				all_core_state = {
+					hidden_trigger = {
+						if = {
+							limit = {
+								has_dlc = "La Resistance"
+							}
+							has_state_flag = SPR_original_core
+						}
+					}
 					is_fully_controlled_by = PHI
 					is_core_of = PHI
 				}

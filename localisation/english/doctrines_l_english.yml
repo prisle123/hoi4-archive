@@ -771,3 +771,4 @@
   ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "Confirm Grand Doctrine selection before assigning a §HSubdoctrine§!."
   TRACK_INACTIVE_EXPLANATION: "§gWhile a track is inactive, no new §!§HSubdoctrine§!§g can be assigned and no £doctrine_mastery §!§HMastery§!§g can be gained.§!"
   SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§HThis Subdoctrine gains £doctrine_mastery Mastery from a specific set of units:§!"
+  land_mastery_gain_factor_tt: " Land Mastery Gain Factor: $RIGHT|+=%1$"

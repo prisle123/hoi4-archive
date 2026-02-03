@@ -1004,6 +1004,7 @@
  TRIGGER_MORE_THAN_IDEOLOGY_SUPPORT: "Поддержка идеологии ($IDEOLOGY|H$) лидера альянса больше $REQUIRED|H%0$ (сейчас: $CURRENT|H%0$)"
  TRIGGER_LESS_THAN_IDEOLOGY_SUPPORT: "Поддержка идеологии ($IDEOLOGY|H$) лидера альянса меньше $REQUIRED|H%0$ (сейчас: $CURRENT|H%0$)"
  TRIGGER_HAS_EQ_IDEOLOGY_SUPPORT: "Поддержка идеологии ($IDEOLOGY|H$) лидера альянса равна $REQUIRED|H%0$ (сейчас: $CURRENT|H%0$)"
- GOAL_T_TRIGGER_A: "Известных технологий в альянсе ($LEFT|0H$) больше, чем $RIGHT|0H$"
+ GOAL_T_TRIGGER_A: "Средний показатель известных технологий в альянсе $LEFT|0H$ больше или равен $RIGHT|0H$"
  GOAL_T_TRIGGER_B: "Дивизий в альянсе ($LEFT|0H$) больше, чем $RIGHT|0H$"
  TRIGGER_EQUIPMENT_CURRENT_VALUE: "(текущие запасы: $CURRENT|H$)"
+ TRIGGER_ENERGY_RATIO: "Соотношение энергий"

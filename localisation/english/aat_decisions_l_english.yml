@@ -160,7 +160,7 @@
 
   #SWEDEN
  SWE_hygenic_housing_mission: "Hygienic housing policy spreading"
- SWE_hygenic_housing_mission_tt: "A random state adjacent to a state with an existing §YHygenic Housing§! modifier will get a §YHygenic Housing§! modifier.\nThis mission repeats until every core state has a §YHygenic modifier§!"
+ SWE_hygenic_housing_mission_tt: "A random state adjacent to a state with an existing §YHygienic Housing§! modifier will get a §YHygienic Housing§! modifier.\nThis mission repeats until every core state has a §YHygienic modifier§!"
  SWE_work_projects_for_the_unemployed_decision: "Work projects for the unemployed"
  SWE_work_projects_for_the_unemployed_rapid_implementation: "Rapid implementation of work projects for the unemployed"
 #SWEDEN

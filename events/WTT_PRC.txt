@@ -588,7 +588,7 @@ country_event = {
 	}
 }
 
-# Hidden event to 'age' Franco after 1950
+# Hidden event to 'age' Mao after 1950
 country_event = {
 	id = wtt_prc.33
 
@@ -611,15 +611,11 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			retire_country_leader = yes
-			create_country_leader = {
-				name = "Mao Zedong"
-				desc = "POLITICS_MAO_ZEDONG_DESC"
-				picture = GFX_portrait_prc_mao_zedong
-				expire = "1965.1.1"
-				ideology = marxism
-				traits = {
-					
+			PRC_mao_zedong = {
+				set_portraits = {
+					civilian = {
+						large = GFX_Portrait_China_Mao_Zedong
+					}
 				}
 			}
 		}

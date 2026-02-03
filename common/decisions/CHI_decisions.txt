@@ -10385,6 +10385,9 @@ CHI_the_political_tutelage_cat = {
 	        		has_state_category = metropolis
 	        		has_state_category = large_city
 	        	}
+	        	NOT = {
+	        		has_state_flag = CHI_urban_political_tutelage_has_been_epedited_here_state_flag 
+	        	}
 	        }
 	    }
 	    on_map_mode = map_and_decisions_view 
@@ -10492,6 +10495,9 @@ CHI_the_political_tutelage_cat = {
 	        		has_state_category = rural
 	        		has_state_category = town
 	        		has_state_category = enclave
+	        	}
+	        	NOT = {
+	        		has_state_flag = CHI_rural_political_tutelage_has_been_epedited_here_state_flag 
 	        	}
 	        }
 	    }
@@ -10654,10 +10660,9 @@ CHI_republican_interests_cat = {
 	        FROM = {
 	        	NOT = {
 	        		has_war_with = ROOT
+	        		has_government = democratic
 	        	}
-	        	NOT = {
-	        		has_government = communism
-	        	}
+	        	is_literally_china = no # They are targets of a different democratization decision
 	        }
 	    }
 
@@ -10704,6 +10709,18 @@ CHI_republican_interests_cat = {
 	CHI_oust_the_empires_decision = {
 		icon = GFX_decision_generic_political_rally
 		target_array = CHI.asian_democracies_countries_to_liberate
+		target_trigger = {
+			FROM = {
+				capital_scope = {
+					controller = {
+						NOT = {
+							original_tag = ROOT
+							is_ally_with = ROOT
+						}
+					}
+				}
+			}
+		}
 		target_root_trigger = { original_tag = CHI }
 		fire_only_once = no
 		target_non_existing = yes

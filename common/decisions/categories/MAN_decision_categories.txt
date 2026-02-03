@@ -39,7 +39,10 @@ MAN_china_matters = {
 	}
 
 	visible = {
-		has_completed_focus = MAN_tsr_chinese_leadership
+		OR = {
+			has_completed_focus = MAN_tsr_chinese_leadership
+			has_completed_focus = MAN_tsr_reclaim_the_empire
+		}
 	}
 
 }

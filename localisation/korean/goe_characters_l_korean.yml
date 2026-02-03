@@ -26,6 +26,9 @@
  IRQ_ahmed_barzani: "셰흐 에흐메데 바르자니"
  IRQ_mustafa_barzani: "무스타파 바르자니"
  GER_oskar_von_nidermayer: "오스카 폰 니더마이어"
+ YEM_imam_yahya: "이맘 야히야 무함마드 하미드 앗딘"
+ OMA_said_bin_taimur: "사이드 빈 타이무르"
+ SAU_abdulaziz_ibn_saud: "압둘아지즈 이븐 사우드"
  #RAJ#
  RAJ_GOE_j_r_d_tata: "J. R. D. 타타"
  RAJ_GOE_jawaharlal_nehru: "자와할랄 네루"
@@ -167,6 +170,7 @@
  AFG_nur_muhammad_taraki: "누르 무함마드 타라키"
  AFG_sheikh_omar_mojadidi: "누룰 마쇼이크 샤이크 파즐 오마르 모자디디"
  AFG_sher_khan_nashir: "셰르 칸 나시르"
+ AFG_abdul_hadi_dawi: "압둘 하디 다위"
  BUK_mohammed_alim_khan: "사이드 미르 무함마드 알림 칸"
  BUK_polat_usmon: "폴랏 우스몬 호자예프"
  ##################
@@ -201,3 +205,9 @@
  IRQ_akram_mushtak: "아크람 무슈타크"
  IRQ_muhammad_ali_jawad: "무함마드 알리 자와드"
  IRQ_maruf_al_rusafi: "마루프 알루사피"
+ IRQ_ahmed_rushdi_muhammad: "아흐메드 루쉬디 빈 알하즈 무함마드"
+ IRQ_jamil_ahmad_abullah_al_rawi: "자밀 아흐마드 압둘라 알라위"
+ IRQ_kamil_al_jaderji: "카밀 자디르지"
+ IRQ_mohamed_hadid: "무함마드 하디드"
+ IRQ_jafar_al_timman: "자파르 아부 알팀만"
+ IRQ_mohamed_mahdi_kubba: "무함마드 마흐디 쿱바"

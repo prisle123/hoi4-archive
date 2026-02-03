@@ -769,3 +769,4 @@
  ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "Zatwierdź wybraną wielką doktrynę, zanim przydzielisz §Hdoktrynę dodatkową§!."
  TRACK_INACTIVE_EXPLANATION: "§gKiedy ścieżka jest nieaktywna, żadna nowa §!§Hdoktryna dodatkowa§!§g nie może zostać przydzielona, nie można też pozyskać żadnej £doctrine_mastery §!§Hbiegłości§!§g.§!"
  SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§HTa doktryna dodatkowa zyskuje biegłość £doctrine_mastery dzięki określonemu zestawowi jednostek:§!"
+ land_mastery_gain_factor_tt: " Przyrost opanowania terenu: $RIGHT|+=%1$"

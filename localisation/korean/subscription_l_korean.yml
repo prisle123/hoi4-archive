@@ -10,6 +10,7 @@
  SUB_MESSAGE_new_sub_DESC: ""
  SUB_MESSAGE_POPUP_DLC: "모든 DLC 포함!\n모든 확장팩, 국가 팩, 유닛 모델을 즉시 이용해 보십시오. 또한 신규 DLC가 출시되는 당일부터 바로 이용하실 수 있습니다."
  SUBSCRIPTION_WIDGET: "구독으로 모든 DLC를 이용해 보십시오!"
+ SUBSCRIPTION_WIDGET_SIMP_CHINESE: "Buy NCNS here"
  SUBSCRIPTION_WIDGET_SUBSCRIBED: "구독이 활성화되었습니다!"
  SUBSCRIPTION_RESTART_TITLE: "신규 콘텐츠 다운로드"
  SUBSCRIPTION_RESTART_DESCRIPTION: "Steam에서 모든 DLC를 설치하고 다운로드할 수 있습니다. 새로운 DLC를 적용하려면 게임을 다시 시작해야 합니다."

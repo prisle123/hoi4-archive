@@ -9,6 +9,7 @@
  unite_hui_states: "Zjednoczenie Hui"
  rename_ulanbaatar_monarchist_decision: "Odnowienie Urga"
  rename_ulanbaatar_non_monarchist_decision: "Odnowienie Ikh Khüree"
+ reorganize_manchuria_decision: "Reorganizacja Mandżurii"
  RNG_core_state: "Integracja państwa §Y[FROM.GetAdjective]§! z chińską administracją"
  RNG_coring_state_in_progress: "Trwa integracja regionu."
  KOR_regain_core_on_state_decision: "Przywróć porządek w: §Y[FROM.GetName]§!"
@@ -31,6 +32,7 @@
  PSR_core_state: "Integracja państwa §Y[FROM.GetAdjective]§! z Drugą Republiką"
  PSR_coring_state_in_progress: "Trwa integracja regionu."
  SOV_cancel_the_japanese_resource_rights_to_sakhalin_decision: "Unieważnienie [JAP.GetAdjective] praw do zasobów, których źródłem jest §Y[655.GetName]§!"
+ MEN_request_initiation_of_the_suiyuan_campaign_decision: "Wniosek o rozpoczęcie kampanii w Suiyuan"
  ###################
  ###### JAPAN ######
  ###################
@@ -742,6 +744,8 @@
  CHI_warlord_core_manchuria: "[FROM.GetName]: integracja"
  MAN_china_matters: "Sprawy Chin"
  MAN_request_full_control_over_china: "Zażądaj pełnej kontroli nad Chinami"
+ MAN_unify_with_specific_japanese_puppet_decision: "Wniosek o całkowitą integrację państwa [FROM.GetName]"
+ MAN_is_currently_seeking_to_merge_a_puppet_government_into_them_flag: "[MAN.GetNameDefCap] dąży do zaanektowania kolejnej [JAP.GetAdjective] marionetkowej administracji"
  MAN_yong_ying_category: "Yong ying"
  MAN_yong_ying_category_desc: "Yong ying, obozy odwagi, to rodzaj bojówek wykorzystywanych w epoce Qing, których członkowie byli rekrutowani spośród miejscowej ludności. Nie były częścią stałej armii, lecz finansowano je ze środków publicznych i służyły niezależnie, często w celach samoobrony. Powinniśmy postarać się udoskonalić ten system tak, aby wydajnie wykorzystywać go w nadciągających wojnach."
  MAN_expand_yong_ying_recruitment: "Rozwiń werbunek do yong ying"
@@ -778,6 +782,8 @@
  CHI_stalemate_tt: "Wojna zakończy się patem, a wojska powrócą na swoje pierwotne pozycje."
  GDC_holding_out: "Przetrzymanie"
  GDC_survival_tt: "Jeśli wytrzymamy rok, dojdzie do stagnacji działań wojennych i nasza pozycja w Liangguang pozostanie niezmieniona. Gdy dojdzie do impasu, wszystkie sąsiednie republiki, które znalazły się pod naszą kontrolą, pozostaną częścią naszej kliki."
+ MAN_warlord_autonomy_drift_decision: "§Y[FROM.GetName]§!: wysiłki na rzecz integracji"
+ YUN_core_state: "Integracja państwa §Y[FROM.GetAdjective]§! z naszą prowincją"
  XIC_war_in_yanan: "Kampania szóstego osaczenia"
  XIC_war_in_yanan_desc: "Wraz z wybuchem wojny w prowincji Shaanxi jest tylko kwestią czasu, zanim oddziały armii zwalczającej bandytów poddadzą się i zdezerterują. Jeśli chcemy zwyciężyć, musimy uderzyć szybko i zdecydowanie."
  XIC_war_halting: "Ofensywa traci impet"
@@ -815,3 +821,5 @@
  BRM_blow_up_the_oil_fields: "Wysadź birmańskie pola naftowe"
  BRM_blown_up_oil_fields: "Zniszczone pola naftowe i kopalnie"
  BRM_repair_the_oil_fields: "Napraw pola naftowe"
+ develop_guapore_casserite_deposits: "[942.GetName]: Eksploatacja złóż kasyterytu"
+ rename_guapore_to_rondonia_decision: "Ustanowienie Federalnego Terytorium Rondônii"

@@ -769,3 +769,4 @@
  ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "Die Hauptdoktrin muss zuerst bestätigt werden, bevor eine §HUnterdoktrin§! zugewiesen werden kann."
  TRACK_INACTIVE_EXPLANATION: "§gSolange ein Doktrinpfad inaktiv ist, kann keine §HUnterdoktrin§! hinzugefügt und keine £doctrine_mastery §HMeisterschaft§! erhalten werden.§!"
  SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§HDiese Unterdoktrin erhält £doctrine_mastery Meisterschaft durch eine bestimmte Einheitengruppe:§!"
+ land_mastery_gain_factor_tt: " Landmeisterschaftszugewinn: $RIGHT|+=%1$"

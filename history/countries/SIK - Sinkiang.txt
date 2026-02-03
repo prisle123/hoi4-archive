@@ -48,6 +48,7 @@ if = {
 	recruit_character = SIK_garegin_apresov
 	add_ideas = {
 		SIK_battle_for_sinkiang
+		CHI_warlord_looting_idea
 	}
 	set_rule = { can_join_factions = no }
 }

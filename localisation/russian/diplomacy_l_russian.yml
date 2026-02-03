@@ -572,6 +572,7 @@
  DR_GUARANTEE: "§Y$US|U$§!: гарантии государства §Y$THEM$§! "
  DR_GUARANTEEING: "Государство §Y$US|U$§! дает гарантии государству §Y$THEM$§!: "
  DR_SAME_IDEOLOGY: "Государство §Y$THEM|U$§! придерживается этой же идеологии: "
+ DR_DIFFERENT_IDEOLOGY: "§Y$THEM|U$§! исповедует другую идеологию:"
  DR_FACTION_LOW_TENSION: "Уровень мировой напряженности §R$TENSION_DIFF$§! слишком незначителен, чтобы государство §Y$THEM$§! вступило в альянс с государством §Y$US$§!"
  DR_FACTION_TENSION: "Мировая напряженность: §G$TENSION_DIFF$§!"
  DR_FACTION_SURRENDER: "Государство §Y$THEM|U$§! проигрывает войну: "

@@ -17,14 +17,14 @@ characters = {
 
 		country_leader = {
 			ideology = despotism
-			traits = {  }
+			traits = { CHI_bandit_warlord }
 			expire = "1950.1.1.1"
 			id = -1
 		}
 
 		country_leader = {
 			ideology = fascism_ideology
-			traits = {  }
+			traits = { CHI_bandit_warlord }
 			expire = "1950.1.1.1"
 			id = -1
 		}

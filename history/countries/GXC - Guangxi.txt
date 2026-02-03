@@ -30,8 +30,8 @@ IF = {
 	}
 } 
 
-set_stability = 0.6
-set_war_support = 0.4
+set_stability = 0.5
+set_war_support = 0.55
 
 # Starting tech
 set_technology = {
@@ -43,6 +43,10 @@ set_grand_doctrine = mass_assault
 IF = { 
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
+	}
+	add_ideas = {
+		GXC_uneasy_minds_idea
+		CHI_warlord_looting_idea
 	}
 	ELSE = {
 		recruit_character = GXC_wang_shuming

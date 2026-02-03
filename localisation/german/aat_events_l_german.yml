@@ -596,7 +596,7 @@
  AAT_Sweden_flashpoints.32.desc: "[SWE.GetNameDefCap] hat sich geweigert, uns Zugang zur eigenen Infrastruktur zu gewähren und sich dabei auf die geltende Verpflichtung zur Neutralität berufen. Vielleicht müssen wir etwas energischer daran erinnern, dass ihre fortgesetzte Unabhängigkeit lediglich eine Belohnung von uns für ihren Gehorsam bei der Neuordnung Europas ist."
  AAT_Sweden_flashpoints.32.a: "Informieren wir sie darüber, dass [GER.GetLeader] an ihrer Neutralität zu zweifeln beginnt."
  AAT_Sweden_flashpoints.32.b: "Verfolgen wir das nicht weiter. Wir können nicht riskieren, dass sie sich unseren Feinden anschließen."
- AAT_Sweden_flashpoints.33.t: "Adolf Hitler hinterfragt die [SWE.GetAdjective]e Neutralität"
+ AAT_Sweden_flashpoints.33.t: "[GER.GetLeader] hinterfragt die [SWE.GetAdjective]e Neutralität"
  AAT_Sweden_flashpoints.33.desc: "Wir haben ein bedrohlich formuliertes Telegramm aus [GER.Capital.GetCapitalVictoryPointName] erhalten, in dem uns mitgeteilt wird, dass [GER.GetLeader] über unsere Ablehnung der jüngsten Anfrage bestürzt ist. Offenbar beginnt der [GER.GetAdjective]e Führer, unsere Neutralität infrage zu stellen, und ist der Meinung, unsere jüngsten Aktionen deuteten darauf hin, dass wir uns auf die Seite ihrer Feinde schlagen.\n\nScheinbar ist man gewillt, den Konflikt zu eskalieren, wenn nötig. Es könnte an der Zeit sein, dass wir unsere derzeitige Haltung neu überdenken ..."
  AAT_Sweden_flashpoints.33.a: "Das Überleben ist wichtiger als die Neutralität."
  AAT_Sweden_flashpoints.33.b: "Wir lassen uns nicht von [GER.GetLeader] einschüchtern. Mobilisiert die Truppen!"

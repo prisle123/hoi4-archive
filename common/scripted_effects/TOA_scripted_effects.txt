@@ -786,6 +786,7 @@ CHL_mapuche_conflict_level_up = {
 		limit = { 
 			NOT = { 
 				has_idea = CHL_the_mapuche_conflict_near_gone 
+				has_idea = CHL_the_mapuche_conflict_rebellion 
 			} 
 			NOT = {
 				has_country_flag = CHL_no_more_mapuche_conflict

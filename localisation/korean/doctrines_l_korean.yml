@@ -769,3 +769,4 @@
  ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "§H하위 교리§!를 지정하기 전에 대교리 선택을 확인하십시오."
  TRACK_INACTIVE_EXPLANATION: "§g트랙이 활성화되지 않으면 §!§H하위 교리§!§g를 지정할 수 없으며 £doctrine_mastery §!§H통달치§!§g를 획득할 수 없습니다.§!"
  SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§H이 하위 교리는 특정 부대들로부터 £doctrine_mastery 통달치를 획득합니다:§!"
+ land_mastery_gain_factor_tt: " 육군 통달치 획득: $RIGHT|+=%1$"

@@ -419,7 +419,11 @@
  AFG_political_events.172.a: "It is not worth fighting over"
  AFG_political_events.172.b: "Who do they think they are?"
 
-
+ AFG_royal_succession_events.01.t: "A New Royal Prime Minister"
+ AFG_royal_succession_events.01.desc: "Due to many questioning the decisions taken by $AFG_mohammad_hashim_khan$, the decision has been taken to secure the royal rule by appointing one of his siblings as the new leader, subservient to $AFG_mohammed_zahir_shah$. Who will be made to replace him?"
+ AFG_royal_succession_events.01.a: "The ever consistent $AFG_shah_mahmud_khan$"
+ AFG_royal_succession_events.01.b: "The militarily brilliant $AFG_sardar_shah_wali_khan$"
+ AFG_royal_succession_events.01.c: "The more progressive $AFG_mohammed_daoud_khan$"
 
  #RAJ
  #India wants to invade Bhutan
@@ -1345,11 +1349,11 @@
  PER_imperial_events.231.desc: "After careful deliberation, the Pahlavi Dynasty were forced down from the throne of [PER.GetNameDef]. Despite their decades of service to the country, it is crucial that we work in favor of the [ENG.GetAdjective] government. Whilst they no longer have their place in the [PER.GetAdjective] monarchy, they still aim to be present in political circles within the country."
  PER_imperial_events.231.a: "Excellent. We must now crown the new Qajar Shah."
 
- PER_imperial_events.232.t: "Pahlavi Family Exiled to [SAF.GetNameDef]."
+ PER_imperial_events.232.t: "Pahlavi Family Exiled to [SAF.GetNameDef]"
  PER_imperial_events.232.desc: "Following the plan to reinstate the Qajar Dynasty onto the throne of [PER.GetNameDef], it was decided that the best outcome for the future of our country, was to exile the Pahlavi family to [SAF.GetNameDef]. Doing so will garner favor with [ENG.GetNameDef], who we may be able to convince to allow us more autonomy in the future."
  PER_imperial_events.232.a: "A shame, but we must now crown the new Qajar Shah."
 
- PER_imperial_events.233.t: "The Coronation of Mohammad Hassan Mirza."
+ PER_imperial_events.233.t: "The Coronation of Mohammad Hassan Mirza"
  PER_imperial_events.233.desc: "This morning, in a lavish coronation ceremony held in [FROM.Capital.GetCapitalVictoryPointName], Mohammad Hassan Mirza was crowned as the new Shah of [PER.GetNameDef]. After many decades of Pahlavi rule, a Qajar is once again the ruling monarch of this great nation. Our efforts to reinstate the Qajar dynasty have pleased the [ENG.GetAdjective] government, who hope that this will allow them to have a greater hold on their interests in [PER.GetNameDef]."
  PER_imperial_events.233.a: "To our new Shah!"
 
@@ -1369,7 +1373,7 @@
  PER_foreign_policy_events.1.b: "Let them come!"
 
  PER_foreign_policy_events.2.t: "[FROM.GetNameDefCap] Refuses"
- PER_foreign_policy_events.2.desc: "Our attempts to solve our outstanding issues with [FROM.GetNameDef] diplomatically seem to have failed. When our ambassador called on [FROM.GetLeader] for another round of negotiations, he was bruskly told that the [FROM.GetAdjective] had made their position clear, and that there were no further things to discuss."
+ PER_foreign_policy_events.2.desc: "Our attempts to solve our outstanding issues with [FROM.GetNameDef] diplomatically seem to have failed. When our ambassador called on [FROM.GetLeader] for another round of negotiations, he was briskly told that the [FROM.GetAdjective] had made their position clear, and that there were no further things to discuss."
  PER_foreign_policy_events.2.a: "We will not push them further... for now."
  PER_foreign_policy_events.2.b: "Prepare the invasion of [FROM.GetNameDef]!"
  PER_foreign_policy_events.2.c: "We must prepare a joint invasion with the [SOU.GetAdjective]"
@@ -1641,7 +1645,7 @@ PER_fascist_events.1.b: "A new dynasty for a new Iran."
  IRQ_political_events.62.a: "Then we shall fight to the bitter end."
 
  IRQ_political_events.70.t: "$IRQ_bakr_sidqi$ Survives Assassination Attempt"
- IRQ_political_events.70.desc: "In Mosul earlier today, $IRQ_bakr_sidqi$ was a target in an assassination attempt carried out by corporal Abdullah Al-Talafari, when the young man pulled a gun on Sidqi and his right hand man Muhmmad Ali Jawad. In the attempt, Jawad was heavily injusred, but Sidqi got out without a scratch."
+ IRQ_political_events.70.desc: "In Mosul earlier today, $IRQ_bakr_sidqi$ was a target in an assassination attempt carried out by corporal Abdullah Al-Talafari, when the young man pulled a gun on Sidqi and his right hand man Muhmmad Ali Jawad. In the attempt, Jawad was heavily injured, but Sidqi got out without a scratch."
  IRQ_political_events.70.a: "How lucky can one man get?"
 
  IRQ_political_events.71.t: "Legitimizing Our Rule"
@@ -1670,6 +1674,16 @@ PER_fascist_events.1.b: "A new dynasty for a new Iran."
  IRQ_political_events.76.t: "Delegation Declined"
  IRQ_political_events.76.desc: "Unfortunately, the [FROM.GetAdjective] government has declined our request to trade precious oil for weapons. Their loss is our gain."
  IRQ_political_events.76.a: "Unfortunate"
+
+ IRQ_political_events.77.t: "[IRQ.GetNameDefCap] Conquers [680.GetName]"
+ IRQ_political_events.77.desc: "Following a swift campaign in [680.GetName], the [IRQ.GetAdjective] army has seized all major settlements and declared the area under their control."
+ IRQ_political_events.77.a: "Our Strength Grows!"
+ IRQ_political_events.77.b: "Oh well"
+
+ IRQ_political_events.78.t: "[IRQ.GetNameDefCap] withdraws from [680.GetName]"
+ IRQ_political_events.78.desc: "Facing severe difficulties the [IRQ.GetAdjective] army has retreated from the city of Deir az-Zur, this may not be the end of the conflict but for now the area will remain [SYR.GetAdjective]."
+ IRQ_political_events.78.a: "A Temporary Setback..."
+ IRQ_political_events.78.b: "Deir az-Zur stands!"
 
 
 

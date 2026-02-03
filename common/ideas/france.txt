@@ -1254,6 +1254,7 @@ ideas = {
 				conscription = -0.003
 				war_support_factor = -0.05
 				land_doctrine_cost_factor = 0.5
+				land_mastery_gain_factor = -0.5
 			}
 		}
 

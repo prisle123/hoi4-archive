@@ -901,6 +901,9 @@ BEL_academies_of_belgium_dynamic_modifier_desc: "The Academies of Belgium are a 
  COG_in_the_sterling_area: "Part of the Sterling Area"
  COG_ready_for_action: "Prepared and Ready for Action"
 
+ COG_brown_water_navy_idea: "Expanded Brown Water Navy"
+ COG_brown_water_navy_idea_desc: "The rivers that weave through the jungles of Central Africa are not being adequately utilized by our military. We shall expand our brown water fleet with a number of small river attack boats to aid in the support of our soldiers when they are far from reinforcements or supply."
+
  COG_parti_solidaire_africain: "Parti Solidaire Africain"
  COG_alliance_de_bakongo_idea: "Alliance de Bakongo"
 

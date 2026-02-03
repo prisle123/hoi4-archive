@@ -560,10 +560,10 @@ guiTypes = {
 
 				iconType = {
 					name = "queue_number_frame"
-					spriteType = "GFX_topbar_alert_bg"
+					spriteType = "GFX_generic_circle_background"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
-					frame = 4
+					frame = 5
 					scale = 1.3
 				}
 

@@ -57,7 +57,7 @@ peace_action_modifiers = {
                 }
             }
         }
-        cost_multiplier = 0.3
+        cost_multiplier = 0.25 
     }
 	
 	USA_the_baddies_take_japanese_islands = {

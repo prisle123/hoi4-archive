@@ -1337,6 +1337,7 @@
  state_resource_tungsten: "タングステン"
  state_resource_steel: "鋼鉄"
  state_resource_chromium: "クロム"
+ state_resource_coal: "石炭"
  temporary_state_resource_oil: "石油"
  temporary_state_resource_aluminium: "アルミニウム"
  temporary_state_resource_rubber: "ゴム"

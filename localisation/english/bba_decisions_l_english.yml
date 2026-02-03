@@ -220,7 +220,7 @@
  ETH_japanese_dockyard_investments_decision:0 "Japanese Shipbuilding Investments"
  ETH_japanese_dockyard_investments_decision_desc:0 "Japanese investors are looking for new investment opportunities in Africa. [FROM.GetName] could be the perfect spot for some Japanese financed shipbuilding facilities."
  ETH_local_development_industry_grows_mission:0 "Industrial expansion in [?ETH.ETH_local_state.GetName]"
- ETH_local_development_industry_grows_mission_desc:0 "Small scale manufacturing in [?ETH.ETH_local_state.GetName] is booming. IF we continue to to encouraging this, the whole of [ROOT.GetName] will benefit."
+ ETH_local_development_industry_grows_mission_desc:0 "Small scale manufacturing in [?ETH.ETH_local_state.GetName] is booming. IF we continue to encourage this, the whole of [ROOT.GetName] will benefit."
  ETH_local_development_arms_industry_grows_mission:0 "Local weapons production in [?ETH.ETH_local_state.GetName]"
  ETH_local_development_arms_industry_grows_mission_desc:0 "Local armorers in  [?ETH.ETH_local_state.GetName] have increased output significantly. This is reaching a level where the whole country can benefit."
  ETH_local_development_improved_production_mission:0 "Local construction committees forming in [?ETH.ETH_local_state.GetName]"

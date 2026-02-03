@@ -964,6 +964,8 @@
  BRA_national_petroleum_council_desc: "O petróleo se tornou a força vital das máquinas modernas, desde os tratores que aram os campos até os encouraçados que defendem nossos litorais. A dependência de um recurso tão crucial é uma ameaça à segurança nacional. Para reduzir esse risco, vamos estabelecer o Conselho Nacional do Petróleo para supervisionar a descoberta e a extração do petróleo doméstico."
  BRA_batalha_do_borracha: "Batalha da Borracha"
  BRA_batalha_do_borracha_desc: "[BRA.GetNameDefCap] uma vez dominou o fornecimento global de borracha, até que [ENG.GetNameDef] criou vastas plantações de seringueiras em seu império. Com suas linhas de abastecimento ameaçadas, o mundo novamente nos procura para fornecer esse precioso recurso."
+ BRA_establish_companhia_vale_do_rio_doce: "Companhia Vale do Rio Doce"
+ BRA_establish_companhia_vale_do_rio_doce_desc: "Grandes veios de minério de ferro e outros depósitos ricos em minerais foram descobertos em Minas Gerais, especialmente na região de Itabira. Devemos garantir ao Estado a exploração desses recursos e o desenvolvimento dessas jazidas por meio da criação de uma nova empresa dedicada a essa missão."
  BRA_invest_in_road_infrastructure: "Investir na infraestrutura rodoviária"
  BRA_invest_in_road_infrastructure_desc: "Carros e caminhões estão se tornando cada vez mais importantes para o desenvolvimento econômico. No entanto, nossas redes rodoviárias não são desenvolvidas o suficiente para suportar a adoção em massa de veículos em território nacional. Portanto, precisamos investir em um grande programa de construção de rodovias antes que a nossa economia seja prejudicada."
  BRA_invest_in_railways: "Investir em ferrovias"

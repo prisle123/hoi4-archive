@@ -769,3 +769,4 @@
  ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "Перед назначением §Hвторостепенной доктрины§! подтвердите выбор главной доктрины."
  TRACK_INACTIVE_EXPLANATION: "§gПри неактивном направлении нельзя назначать новые §!§Hвторостепенные доктрины§!§g и получать £doctrine_mastery §!§Hочки освоения§!§g.§!"
  SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§H£doctrine_mastery Освоение этой второстепенной доктрины происходит за счет конкретных групп отрядов:§!"
+ land_mastery_gain_factor_tt: "Прирост очков освоения (суша): $RIGHT|+=%1$"

@@ -2212,6 +2212,7 @@
  GER_all_terrain_military_motorcycle_desc: "Важность быстрой разведки невозможно переоценить. Вложения в мотоциклетные отряды позволят нам быстро получать важные разведданные, принимать на их основе стратегические решения и в целом действовать эффективнее."
  GER_salvage_captured_equipment: "Разобрать и использовать трофейное снаряжение"
  GER_salvage_captured_equipment_desc: "Основав центры разборки и переработки захваченного вражеского снаряжения для нашей армии, мы сможем использовать трофейное оружие, технику и машины."
+ GER_salvage_captured_equipment_custom_tt: "Два случайных [ROOT.GetAdjRuLower]их генерала получат черту §Y«Сборщик»§!."
  GER_unlock_operational_planning_blitzkrieg_tt: "Открывает решение: §Y$GER_operational_planning_category$§!. При принятии оно даст на §Y45 дней§!:"
  GER_unlock_operational_planning_bewegungskrieg_tt: "Открывает решение: §Y$GER_operational_planning_category$§!. При принятии оно даст §Yна 90 дней§!:"
  GER_the_prussian_legacy: "Прусское наследие"

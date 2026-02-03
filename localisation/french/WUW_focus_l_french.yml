@@ -2212,6 +2212,7 @@
  GER_all_terrain_military_motorcycle_desc: "La reconnaissance rapide est un atout qui n'est pas à prendre à la légère. Investir dans des unités de motocyclistes nous permettra d'obtenir des renseignements cruciaux sur le champ de bataille, facilitant la prise de décisions stratégiques et améliorant l'efficacité opérationnelle."
  GER_salvage_captured_equipment: "Réutiliser le matériel capturé"
  GER_salvage_captured_equipment_desc: "Si nous mettons en place des centres de recyclage du matériel capturé, il serait possible de remettre à neuf et d'intégrer les armes, les véhicules et les machines ennemis à nos forces armées."
+ GER_salvage_captured_equipment_custom_tt: "Deux généraux [ROOT.GetAdjMP] aléatoires vont obtenir le trait §YRécupérateur§!."
  GER_unlock_operational_planning_blitzkrieg_tt: "Donne accès à la décision §Y$GER_operational_planning_category$§!, qui, lorsqu'elle est activée, octroie pendant §Y45 jours§! :"
  GER_unlock_operational_planning_bewegungskrieg_tt: "Donne accès à la décision §Y$GER_operational_planning_category$§!, qui, lorsqu'elle est activée, octroie pendant §Y90 jours§! :"
  GER_the_prussian_legacy: "L'héritage de la Prusse"

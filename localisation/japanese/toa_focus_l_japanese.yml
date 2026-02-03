@@ -964,6 +964,8 @@
  BRA_national_petroleum_council_desc: "畑を走るトラクターから我が国の沿岸を防衛する戦艦に至るまで、石油はもはや近代機器に欠かせないものとなった。そうした極めて重要な資源に依存することは、国家安全保障上の脅威と言える。このリスクを緩和するため、我々は国家石油評議会を設立し、国内の油田の発見と石油の採掘の監督に当たらせるべきだ。"
  BRA_batalha_do_borracha: "ゴム戦争"
  BRA_batalha_do_borracha_desc: "[ENG.GetAdjective]がその帝国中に巨大なプランテーションを築くまでは、[BRA.GetNameDefCap]が世界における独占的なゴムの供給者の立場にあった。あちらの供給ラインが危機的な状況にある今、世界はこの貴重な資源の供給元として再び我々に注目している。"
+ BRA_establish_companhia_vale_do_rio_doce: "ヴァーレ・ド・リオドセ"
+ BRA_establish_companhia_vale_do_rio_doce_desc: "ミナス・ジェライス州、とりわけイタビラ地域では、大規模な鉄鉱脈をはじめとする、さまざまな豊富な鉱床が発見されている。我が国がこれらの資源を活用し、鉱床の開発を進められるよう、それを主目的とする新たな企業を設立しなければならない。"
  BRA_invest_in_road_infrastructure: "道路インフラへの投資"
  BRA_invest_in_road_infrastructure_desc: "経済を発展させる上で、自動車やトラックの重要性が増してきている。だが、世界と同じ規模で大量の車を走らせたくとも、我が国ではそれを支えられるだけの道路網が開発できていない。この国の経済が減速してしまう前に、大規模な幹線道路建設プログラムに投資しなくてはならない。"
  BRA_invest_in_railways: "鉄道への投資"

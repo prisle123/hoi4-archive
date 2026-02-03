@@ -572,6 +572,7 @@
  DR_GUARANTEE: "§Y$US|U$§! steht unter der Garantie von §Y$THEM$§!: "
  DR_GUARANTEEING: "§Y$US|U$§! gewährt Garantie für §Y$THEM$§!: "
  DR_SAME_IDEOLOGY: "§Y$THEM|U$§! hat dieselbe Ideologie: "
+ DR_DIFFERENT_IDEOLOGY: "§Y$THEM|U$§! hat eine andere Ideologie: "
  DR_FACTION_LOW_TENSION: "Weltweite Spannung ist §R$TENSION_DIFF$§! zu niedrig, so dass §Y$THEM$§! nicht in ein Bündnis mit §Y$US$§! eintreten kann!"
  DR_FACTION_TENSION: "Weltweite Spannung: §G$TENSION_DIFF$§!"
  DR_FACTION_SURRENDER: "§Y$THEM|U$§! verliert einen Krieg: "

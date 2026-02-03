@@ -10,6 +10,7 @@
  SUB_MESSAGE_new_sub_DESC: ""
  SUB_MESSAGE_POPUP_DLC: "包括所有的DLC！\n立刻获取所有扩展包、国家包和单位模型。你也能在所有新的DLC发布之时获取它们。"
  SUBSCRIPTION_WIDGET: "订阅并获取所有DLC！"
+ SUBSCRIPTION_WIDGET_SIMP_CHINESE: "在此购买《抗战到底》"
  SUBSCRIPTION_WIDGET_SUBSCRIBED: "订阅已生效！"
  SUBSCRIPTION_RESTART_TITLE: "下载新内容"
  SUBSCRIPTION_RESTART_DESCRIPTION: "你可以在Steam下载并安装所有DLC。需要重启游戏以使新DLC可用。"

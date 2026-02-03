@@ -676,7 +676,16 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
+
 			add_ideas = HOA_every_man_a_warrior_idea
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			set_technology = {
+				militia_tech = 1
+				popup = no
+			}	
+			
 		}
 	}
 	focus = {

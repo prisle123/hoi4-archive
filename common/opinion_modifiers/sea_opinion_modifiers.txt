@@ -275,6 +275,16 @@ opinion_modifiers = {
 		months = 42 
 	}
 
+	MA_family_ties_opm = {
+		value = 50 
+		months = 72 
+	}
+
+	MA_family_ties_2_opm = {
+		value = 75  
+		months = 72 
+	}
+
 }	
 
 

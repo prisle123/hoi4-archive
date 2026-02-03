@@ -477,7 +477,7 @@
  sp_commercial_nuclear_reactor_desc: "Atomreaktoren eignen sich hervorragend für die Materialherstellung für Bomben. Die erzeugte Energiemenge ließe sich jedoch auch dazu nutzen, um die Zivil- und Militärindustrie mit Strom zu versorgen."
  sp_nuclear_engines: "Nuklearantrieb"
  sp_nuclear_engines_desc: "Motoren, die ewig laufen, ohne dass man sie auftanken müsste. Das ist die große Verheißung der Atomenergie. Eine Verheißung, von der unsere Ingenieure sagen, wir stünden sehr dicht davor, sie nutzen zu können."
- sp_nuclear_bomb: "Nukleares Fusionsbombenprojekt"
+ sp_nuclear_bomb: "Kernwaffenprojekt"
  USA_sp_nuclear_bomb: "Manhattan-Projekt"
  SOV_sp_nuclear_bomb: "RDS-1-Projekt"
  ENG_sp_nuclear_bomb: "Erforschung hochexplosiver Nutzlasten"

@@ -1262,6 +1262,7 @@ characters = {
 		name=CHI_he_yingqin
 		portraits={
 			army={
+				large = GFX_portrait_chi_he_yingqin
 				small="GFX_idea_CHI_he_yingqin"
 			}
 		}
@@ -1281,6 +1282,17 @@ characters = {
 					factor = 2
 					has_war = yes
 				}
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			traits = { organizer }
+			visible = {
+				has_completed_focus = CHI_crackdown_on_corruption_in_recruitment
 			}
 		}
 	}
@@ -2956,8 +2968,9 @@ characters = {
 						has_completed_focus = CHI_scout_for_air_experts
 						has_completed_focus = CHI_sea_hire_chennault
 						has_completed_focus = CHI_aeronautical_expertise
-					}
-					NOT = { is_hired_as_advisor = yes }
+					}	
+					not_already_hired_except_as = air_chief
+
 					NOT = { has_war_with = USA }
 				}
 				idea_token = CHI_claire_lee_chennault_ground_support
@@ -2976,7 +2989,7 @@ characters = {
 						has_completed_focus = CHI_aeronautical_expertise
 						has_completed_focus = CHI_scout_for_air_experts
 					}
-					NOT = { is_hired_as_advisor = yes }
+					not_already_hired_except_as = theorist
 					NOT = { has_war_with = USA }
 				}
 				idea_token = CHI_claire_lee_chennault_theorist

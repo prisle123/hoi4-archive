@@ -596,7 +596,7 @@
  AAT_Sweden_flashpoints.32.desc: "[SWE.GetName] uparcie odmawia nam dostępu do swojej infrastruktury, ponieważ kurczowo trzyma się swojej neutralności. Może trzeba odpowiedzieć im bardziej zdecydowanie i przypomnieć, że ich dzisiejsza niepodległość to tylko nagroda od nas za ich uległość podczas naszych działań mających na celu reorganizację Europy."
  AAT_Sweden_flashpoints.32.a: "Poinformujcie ich, że [GER.GetLeader] zaczyna wątpić w ich neutralność."
  AAT_Sweden_flashpoints.32.b: "Porzućmy ten temat, nie możemy ryzykować, że przyłączą się do wroga."
- AAT_Sweden_flashpoints.33.t: "Adolf Hitler wątpi w [SWE.GetAdjective] neutralność"
+ AAT_Sweden_flashpoints.33.t: "[GER.GetLeader] wątpi w [SWE.GetAdjective] neutralność"
  AAT_Sweden_flashpoints.33.desc: "[GER.Capital.GetCapitalVictoryPointName] przesyła nam ostro sformułowany telegram, w którym informuje, że [GER.GetLeader] wyraża niezadowolenie z powodu odrzucenia przez nas ich niedawnej prośby. Najwyraźniej [GER.GetAdjective] przywódca zaczyna powątpiewać w naszą neutralność i uważa nasze ostatnie działania za przychylne wobec wrogów państwa [GER.GetAdjective]. \n\nWygląda na to, że mogą dążyć do eskalacji i wywołania konfliktu. Może nadszedł czas przemyśleć naszą obecną postawę."
  AAT_Sweden_flashpoints.33.a: "Przetrwanie jest ważniejsze niż neutralność."
  AAT_Sweden_flashpoints.33.b: "[GER.GetLeader] nie może nas zastraszać. Zacznijmy mobilizację naszych wojsk. "

@@ -2212,6 +2212,7 @@
  GER_all_terrain_military_motorcycle_desc: "对于快速侦查再重视也不为过。投资摩托车部队将提供关键的战场情报，协助做出战略决策，提高作战效率。"
  GER_salvage_captured_equipment: "回收利用战俘装备"
  GER_salvage_captured_equipment_desc: "通过建立设施，为我们的军队回收和重新利用缴获的敌人装备，我们可以翻新并整合战俘武器、车辆和机械，以增强我们的武装力量。"
+ GER_salvage_captured_equipment_custom_tt: "随机两名[ROOT.GetAdjective]将官会获得§Y清拣缴获大师§!特质。"
  GER_unlock_operational_planning_blitzkrieg_tt: "解锁决议：§Y$GER_operational_planning_category$§!，激活后会提供§Y45天§!："
  GER_unlock_operational_planning_bewegungskrieg_tt: "解锁决议：§Y$GER_operational_planning_category$§!，激活后会提供§Y90天§!："
  GER_the_prussian_legacy: "普鲁士的遗产"

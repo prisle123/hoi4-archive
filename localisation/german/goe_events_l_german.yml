@@ -324,6 +324,11 @@
  AFG_political_events.172.desc: "\nAnfang dieser Woche rückten [FROM.GetAdjective]e Truppen nach Wasiristan vor und besetzten unser Territorium. Sie begründeten dies damit, sie hätten es sich zur Aufgabe gemacht, die Region vor einer möglichen Besatzung durch ihre Feinde zu schützen. Für uns ist dies jedoch eindeutig ein kriegerischer Akt. Da man sich wahrscheinlich nicht mit uns anlegen will, sondern nur versucht, das zerstreute paschtunische Volk zu vereinen, können wir dies aber auch einfach ignorieren."
  AFG_political_events.172.a: "Das ist es nicht wert, dafür in den Krieg zu ziehen ..."
  AFG_political_events.172.b: "Für wen halten die sich?!"
+ AFG_royal_succession_events.01.t: "Ein neuer Premierminister"
+ AFG_royal_succession_events.01.desc: "Da viele die Entscheidungen von $AFG_mohammad_hashim_khan$ infrage stellten, wurde beschlossen, die königliche Herrschaft zu sichern, indem eines seiner Geschwister zum neuen Oberhaupt ernannt und $AFG_mohammed_zahir_shah$ unterstellt wird. Wer soll sein Nachfolger werden?"
+ AFG_royal_succession_events.01.a: "Der stets konsequente $AFG_shah_mahmud_khan$."
+ AFG_royal_succession_events.01.b: "Das militärische Genie $AFG_sardar_shah_wali_khan$."
+ AFG_royal_succession_events.01.c: "Der fortschrittliche $AFG_mohammed_daoud_khan$."
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetNameDefCap] bittet um Erlaubnis für einen Einmarsch in [BHU.GetName]"
@@ -1315,6 +1320,14 @@
  IRQ_political_events.76.t: "Delegation abgewiesen"
  IRQ_political_events.76.desc: "Bedauerlicherweise lehnte die [FROM.GetAdjective]e Regierung unseren Vorschlag ab, wertvolles Öl gegen Waffen zu tauschen. Ihr Verlust ist unser Gewinn."
  IRQ_political_events.76.a: "Bedauerlich."
+ IRQ_political_events.77.t: "[IRQ.GetNameDef] erobert [680.GetName]"
+ IRQ_political_events.77.desc: "Nach einem schnellen Feldzug in [680.GetName] schaffte es die [IRQ.GetAdjective]e Armee, alle größeren Siedlungen zu erobern und die Region unter ihre Kontrolle zu bringen."
+ IRQ_political_events.77.a: "Unsere Stärke wächst!"
+ IRQ_political_events.77.b: "Das ist höchst bedauerlich."
+ IRQ_political_events.78.t: "[IRQ.GetNameDef] zieht sich aus [680.GetName] zurück"
+ IRQ_political_events.78.desc: "Da sie auf schweren Widerstand traf, sah sich die [IRQ.GetAdjective]e Armee gezwungen, sich aus der Stadt Deir az-Zur zurückzuziehen. Dies ist möglicherweise nicht das Ende des Konflikts, doch vorerst bleibt das Gebiet [CHI.GetAdjective]."
+ IRQ_political_events.78.a: "Ein vorübergehender Rückschlag ..."
+ IRQ_political_events.78.b: "Deir az-Zur bleibt standhaft!"
  #Kurdistan
  IRQ_kurdistan_events.1.t: "Kurdische Nationalisten bitten um Unterstützung"
  IRQ_kurdistan_events.1.desc: "Wir haben ein Kommuniqué von den kurdischen Nationalisten erhalten, die unter der Herrschaft der [IRQ.GetAdjective]en Unterdrückung stehen. Sie haben um eine Unterstützung ihrer Revolution gebeten."

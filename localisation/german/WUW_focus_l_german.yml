@@ -2212,6 +2212,7 @@
  GER_all_terrain_military_motorcycle_desc: "Die Bedeutung einer schnellen Aufklärung ist nicht zu unterschätzen. In den Aufbau einer Motorrad-Division zu investieren, liefert uns entscheidende Informationen über das Schlachtfeld, verbessert unsere strategische Entscheidungsfindung und steigert die operative Effizienz."
  GER_salvage_captured_equipment: "Erbeutete Ausrüstung wiederverwerten"
  GER_salvage_captured_equipment_desc: "Standorte, die erbeutete Waffen, Fahrzeuge, Maschinen oder andere Ausrüstung unserer Feinde wiederaufbereiten, erlauben es uns, unsere Streitkräfte zu verstärken."
+ GER_salvage_captured_equipment_custom_tt: "Zwei zufällige [ROOT.GetAdjective]e Generäle erhalten die Eigenschaft „§YPlünderer§!“."
  GER_unlock_operational_planning_blitzkrieg_tt: "Neue Entscheidung: §Y$GER_operational_planning_category$§!. Diese gibt bei Aktivierung §Y45 Tage§! lang Folgendes:"
  GER_unlock_operational_planning_bewegungskrieg_tt: "Neue Entscheidung: §Y$GER_operational_planning_category$§!. Diese gibt bei Aktivierung §Y90 Tage§! lang Folgendes:"
  GER_the_prussian_legacy: "Das preußische Erbe"

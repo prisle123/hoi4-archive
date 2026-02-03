@@ -3467,12 +3467,15 @@ focus_tree = {
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
-			every_army_leader = {
-				limit = {
-					NOT = { has_trait = scavenger }
+			custom_effect_tooltip = GER_salvage_captured_equipment_custom_tt
+			hidden_effect = {
+				every_army_leader = {
+					limit = {
+						NOT = { has_trait = scavenger }
+					}
+					random_select_amount = 2
+					add_trait = { trait = scavenger }
 				}
-				random_select_amount = 2
-				add_trait = { trait = scavenger }
 			}
 		}
 	}
@@ -33678,6 +33681,8 @@ focus_tree = {
 		id = GER_the_sino_germanic_pact
 		icon = GFX_focus_GER_the_proud_eagle_and_the_rising_dragon
 		prerequisite = { focus = GER_request_the_return_of_qingdao }
+		
+		enable_automatic_bypass = no
 		
 		x = 0
 		y = 1

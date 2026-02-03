@@ -25,6 +25,7 @@ IRQ_fascism_plan = {
 		SSB_expand_iraqs_military_infrastructure
 
 		#1936
+		IRQ_ensure_sunni_dominance # 35
 		IRQ_party_of_national_brotherhood
 		IRQ_royal_iraqi_army
 		IRQ_bakr_sidqi_coup
@@ -47,6 +48,7 @@ IRQ_fascism_plan = {
 		IRQ_independent_flight_schools
 		IRQ_strengthen_the_iraqi_dinar
 		IRQ_heavy_industry_investments	
+		IRQ_suppress_tribal_revolts
 		IRQ_infantry_focus
 		IRQ_purchase_alternative_aricraft
 		SSB_berlin_baghdad_railway_into_iran_afghanistan
@@ -150,10 +152,12 @@ IRQ_hashemite_plan = {
 		SSB_expand_iraqs_military_infrastructure
 
 		#1936
+		IRQ_ensure_sunni_dominance # 35
 		IRQ_rally_behind_the_hashemite_dynasty
 		IRQ_royal_iraqi_army
 		IRQ_increase_anglo_iraqi_economic_ties
 		IRQ_raf_levies_focus
+		IRQ_suppress_tribal_revolts
 		SSB_military_cooperation
 		SSB_economic_cooperation
 
@@ -268,6 +272,7 @@ IRQ_Sidqi_plan = {
 		SSB_expand_iraqs_military_infrastructure
 
 		#1936
+		IRQ_ensure_sunni_dominance # 35
 		IRQ_party_of_national_brotherhood
 		IRQ_royal_iraqi_army
 		IRQ_bakr_sidqi_coup
@@ -277,12 +282,12 @@ IRQ_Sidqi_plan = {
 		SSB_economic_cooperation
 		
 		#1937
-		IRQ_expand_habbaniya_airbase
+		IRQ_suppress_tribal_revolts
 		IRQ_decouple_from_the_pound
 		IRQ_found_the_iraqi_state_railways
 		IRQ_purchase_foreign_equipment
+		IRQ_expand_habbaniya_airbase
 		IRQ_independent_flight_schools
-		SSB_joint_military_exercises
 
 		#1938
 		IRQ_infantry_focus
@@ -293,6 +298,7 @@ IRQ_Sidqi_plan = {
 		IRQ_attempted_assasination_of_sidqi
 		SSB_expand_road_and_rail_connections
 		SSB_coordinate_military_production
+		SSB_joint_military_exercises
 
 		#1939
 		IRQ_curtail_arabism
@@ -407,12 +413,16 @@ IRQ_kurdistan_plan = {
 		IRQ_local_arms_industry
 		SSB_expand_road_and_rail_connections
 		SSB_coordinate_military_production
+		IRQ_effectivize_the_production_line
 
 		#1939
 		IRQ_construct_the_kut_barrage		
 		IRQ_kurdish_women_in_military
 		IRQ_kurdish_oil
 		IRQ_kurdish_reject_ankara_treaty
+		IRQ_support_from_the_mountains
+		IRQ_further_ussr_support
+		IRQ_support_from_skies_above
 		IRQ_kurdish_attack_turkey
 		SSB_combined_arms
 		SSB_saadabad_research_cooperation

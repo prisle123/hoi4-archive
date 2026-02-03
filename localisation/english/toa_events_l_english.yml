@@ -602,7 +602,7 @@
  CHL_news_events.4.b: "We will bring freedom and prosperity to those in need!"
 
  CHL_political_events.82.t: "The Capital of the Kingdom"
- CHL_political_events.82.desc: "With the establishment of our new Kingdom of Araucanía and Patagonia, questions have arisen regarding our status. As of currently, Santiago is still our capital, which means we aren't all that different from the decrepit old state of Chile. There are however other potential cities that are good candidates for being the Kingdom's new capital. What is the will our our high king, Antoine III?"
+ CHL_political_events.82.desc: "With the establishment of our new Kingdom of Araucanía and Patagonia, questions have arisen regarding our status. As of currently, Santiago is still our capital, which means we aren't all that different from the decrepit old state of Chile. There are however other potential cities that are good candidates for being the Kingdom's new capital. What is the will our high king, Antoine III?"
  CHL_political_events.82.a: "Santiago will continue to be our capital"
  CHL_political_events.82.b: "Perquenco was the old capital"
  CHL_political_events.82.c: "We need the Southernmost Capital in the world!"
@@ -1028,13 +1028,13 @@ JUNO_brazil_events.133.desc: "As was to be expected, following our recent attack
 JUNO_brazil_events.133.a: "We are better off on our own anyway."
 
 JUNO_brazil_events.134.t: "[BRA.GetNameDefCap] Seeks License Production Deal"
-JUNO_brazil_events.134.desc: "We have recieved a request for license production from our comrades in [BRA.GetNameDef]. They wish to have a long term deal on licensing production from us, but in return for this, they ask for a discount. We would earn less than usual for each licensed design, but we would be gaining some trust and goodwill from the [BRA.GetAdjective] leadership."
+JUNO_brazil_events.134.desc: "We have received a request for license production from our comrades in [BRA.GetNameDef]. They wish to have a long term deal on licensing production from us, but in return for this, they ask for a discount. We would earn less than usual for each licensed design, but we would be gaining some trust and goodwill from the [BRA.GetAdjective] leadership."
 JUNO_brazil_events.134.a: "We can take a slight loss for our comrades"
 JUNO_brazil_events.134.b: "This does not seem a fair or beneficial deal to us"
 JUNO_brazil_events.134.tt: "\n Picking this option will decrease the amount of factories we earn from licensed production in [BRA.GetFlag]§Y[BRA.GetNameDef]§! by §R-30%§!."
 
 JUNO_brazil_events.135.t: "[SOV.GetNameDefCap] Agrees to a Deal"
-JUNO_brazil_events.135.desc: "We recently recieved the news that [SOV.GetNameDef] has agreed to our proposed deal. From now on, we will be able to license production of their equipment at a lower cost!"
+JUNO_brazil_events.135.desc: "We recently received the news that [SOV.GetNameDef] has agreed to our proposed deal. From now on, we will be able to license production of their equipment at a lower cost!"
 JUNO_brazil_events.135.a: "Fantastic news!"
 JUNO_brazil_events.135.tt: "We have gained §YIncrease in opinion§! (Opinion of [SOV.GetFlag]§Y[SOV.GetName]§! §G+25§!.)"
 
@@ -1044,7 +1044,7 @@ JUNO_brazil_events.136.a: "It was worth asking..."
 JUNO_brazil_events.136.tt: "We have gained §YDecrease in opinion§! (Opinion of [SOV.GetFlag]§Y[SOV.GetName]§! §R-50§!.)"
 
 JUNO_brazil_events.137.t: "[BRA.GetNameDefCap] Demands We Release South American Colonies"
-JUNO_brazil_events.137.desc: "We have recieved a rather strongly worded communication from [BRA.GetNameDef]. They demand we release [BRA_country_to_be_liberated.GetNameDef] and return the territories to their rightful owners."
+JUNO_brazil_events.137.desc: "We have received a rather strongly worded communication from [BRA.GetNameDef]. They demand we release [BRA_country_to_be_liberated.GetNameDef] and return the territories to their rightful owners."
 JUNO_brazil_events.137.a: "We don't have much use for those colonies anyways."
 JUNO_brazil_events.137.b: "Their rightful owners would be us."
 JUNO_brazil_events.137.b.tt: "§RTHis will give them a war goal on us!§!"
@@ -1189,16 +1189,16 @@ ARG_political_events.5.a: "The islands are theirs."
 ARG_political_events.5.b: "We cannot let them go for free..."
 ARG_political_events.5.c: "Absolutely not."
 
-ARG_political_events.6.t: "[ENG.GetName] agrees to our proposal!"
-ARG_political_events.6.desc: "Our proposal to take control of the Falkland and South Georgia islands has been accepted by the  [ENG.GetAdjective] government. Now that the islands are rightfully Argentinian, we can begin work to protect our waters during this conflict."
+ARG_political_events.6.t: "[FROM.GetName] agrees to our proposal!"
+ARG_political_events.6.desc: "Our proposal to take control of the Falkland and South Georgia islands has been accepted by the  [FROM.GetAdjective] government. Now that the islands are rightfully Argentinian, we can begin work to protect our waters during this conflict."
 ARG_political_events.6.a: "Excellent!"
 
-ARG_political_events.7.t: "[ENG.GetName] requests that we pay for the islands."
-ARG_political_events.7.desc: "Despite our efforts to convince the [ENG.GetAdjective] that the islands should belong to [ARG.GetName], their government have offered to turn the land over in return for payment. This would be a minor blow to our economy, but having this territory will benefit us more in the long run."
+ARG_political_events.7.t: "[FROM.GetName] requests that we pay for the islands."
+ARG_political_events.7.desc: "Despite our efforts to convince the [FROM.GetAdjective] that the islands should belong to [ARG.GetName], their government have offered to turn the land over in return for payment. This would be a minor blow to our economy, but having this territory will benefit us more in the long run."
 ARG_political_events.7.a: "Not great, but we will accept."
 
-ARG_political_events.8.t: "[ENG.GetName] refuses to give up the islands."
-ARG_political_events.8.desc: "Unfortunately, our proposal has fallen on deaf ears. The [ENG.GetAdjective] government have decided that the Falkland and South Georgia islands best remain under their protection. Whilst this is disappointing, at least we know that our allies are nearby."
+ARG_political_events.8.t: "[FROM.GetName] refuses to give up the islands."
+ARG_political_events.8.desc: "Unfortunately, our proposal has fallen on deaf ears. The [FROM.GetAdjective] government have decided that the islands best remain under their protection. Whilst this is disappointing, at least we know that our allies are nearby."
 ARG_political_events.8.a: "Disappointing."
 
 ARG_political_events.9.t: "Civil War is Upon Us"
@@ -1410,7 +1410,7 @@ ARG_political_events.81.desc: "As we open up our newest education grant, we were
 ARG_political_events.81.a: "Money well spent."
 
 ARG_political_events.82.t: "The Industrial Education Grant"
-ARG_political_events.82.desc: "As we open up our newest education grant, we were met with resounding praise from academics across the country. Since we have chosen to focus in on educating people in the the efficiency of new industrial developments, we can expect a steady boom to progress within our research departments."
+ARG_political_events.82.desc: "As we open up our newest education grant, we were met with resounding praise from academics across the country. Since we have chosen to focus in on educating people in the efficiency of new industrial developments, we can expect a steady boom to progress within our research departments."
 ARG_political_events.82.a: "Money well spent."
 
 ARG_political_events.83.t: "The Synthetics Research Grant"

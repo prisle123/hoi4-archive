@@ -756,6 +756,7 @@
  JAP_STATE_608: "Пекин"
  STATE_609: "Восточный Хэбэй"
  STATE_610: "Жэхэ"
+ state_610_modern_name: "Реэ"
  STATE_611: "Чахар" #was South Chahar
  STATE_612: "Шилин-Гол" #was Chahar
  STATE_613: "Шанхай"
@@ -967,6 +968,8 @@
  STATE_797: "Стамбул"
  STATE_798: "Амасья"
  STATE_799: "Хатай"
+ FRA_STATE_799: "Санджак Александретта"
+ SYR_STATE_799: "Александретта"
  STATE_800: "Ван"
  STATE_801: "Мёзия"
  STATE_802: "Косово"
@@ -1131,6 +1134,7 @@
  STATE_940: "Акри"
  STATE_941: "Токантинс"
  STATE_942: "Гуапоре" #can be renamed to Rondônia later
+ 942_rondonia_name: "Рондония"
  STATE_943: "Эспириту-Санту"
  STATE_944: "Парана"
  STATE_945: "Серро-Ларго"

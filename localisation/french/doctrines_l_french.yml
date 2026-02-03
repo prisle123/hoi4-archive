@@ -769,3 +769,4 @@
  ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "Sélectionnez une doctrine principale avant de choisir une §Hdoctrine secondaire§!."
  TRACK_INACTIVE_EXPLANATION: "§gLorsqu'une voie n'est pas active, aucune nouvelle §!§Hdoctrine secondaire§!§g ne peut être assignée et aucun point de £doctrine_mastery §!§Hmaîtrise§!§g obtenu.§!"
  SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§HCette doctrine secondaire octroie de la £doctrine_mastery maîtrise grâce à certaines unités :§!"
+ land_mastery_gain_factor_tt: " Gain de maîtrise terrestre : $RIGHT|+=%1$\n"

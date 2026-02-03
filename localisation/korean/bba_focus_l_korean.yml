@@ -1440,6 +1440,7 @@
  ITA_extraction_industry_oil_tt: "\n이미 석유를 생산하는 완전히 지배 중인 모든 주에 §Y2§!£resources_strip|1 생산 추가."
  ITA_expand_the_royal_guard_re_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$\n$modifier_army_sub_unit_cavalry_defence_factor$: §G+5.00%§!\n\n"
  ITA_has_disbanded_blackshirts_tt: "검은 셔츠단이 해산되지 않음"
+ ITA_has_disbanded_blackshirts_tt_NOT: "아님: 검은 셔츠단이 해체됨"
  ITA_paramilitary_training_re_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$\n$modifier_army_sub_unit_militia_attack_factor$: §G+5.00%§!\n$modifier_army_sub_unit_militia_defence_factor$: §G+5.00%§!\n\n"
  ITA_mobilize_the_railway_guns_military_industry_dm_tt: "$ITA_modify_military_industry_dynamic_modifier_ns_intro$\n$ITA_mobilize_the_railway_guns_dynamic_modifier_tt$\n\n"
  ITA_mobilize_railway_guns_tt: "[ROOT.capital.GetName]에서 §Y$railway_gun_equipment_1$ 4개§! 부대 창설."

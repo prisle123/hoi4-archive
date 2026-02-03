@@ -264,6 +264,9 @@ Project Manager:
 Troy Ye
 
 Translators:
+worriedfish
+Takeshi Kido
+bruceczk
 ShaoYang
 ol123489
 Gannod-Kitkut
@@ -272,7 +275,6 @@ Haximodor He
 DesertEagleF
 Miller Mei
 Isabelle Du
-(more to be added soon)
 
 #Spanish
 QLOC S.A.

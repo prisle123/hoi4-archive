@@ -789,7 +789,7 @@
  SWE_government_weapons_contract_desc: "De nombreuses sociétés [SWE.GetAdjFP] sont en mesure de fabriquer de l'armement. Si nous devions livrer un jour une guerre totale, avoir stimulé ces compagnies par des contrats gouvernementaux visant à doter l'armée s'avérerait crucial."
  SWE_bofors_fly_swatter: "Tue-mouches Bofors"
  SWE_bofors_fly_swatter_desc: "La compagnie Bofors a tout le potentiel requis pour mettre au point une technologie anti-aérienne. Nous devrions lui donner les ressources pour le faire et nous assurer ainsi d'éviter la présence d'avions ennemis dans le ciel [SWE.GetDuDeDNP] [SWE.GetName]."
- SWE_husqvarna_vapenfabrik: "$SWE_mio_organization_husqvarna$"
+ SWE_husqvarna_vapenfabrik: "Fabrique d'armes Husqvarna"
  SWE_husqvarna_vapenfabrik_desc: "Husqvarna fabrique depuis longtemps des armes légères pour l'armée [SWE.GetAdjFS]. Il est temps maintenant que l'entreprise soit développée et fasse usage de son expertise pour permettre la modernisation de nos forces."
  SWE_work_projects_for_the_unemployed: "Grands travaux pour les chômeurs"
  SWE_work_projects_for_the_unemployed_desc: "Ces gens en mesure de travailler mais ne trouvant pas d'emploi alimentent l'extrémisme. Si nous voulons éviter qu'ils se retournent contre le gouvernement, nous devons donc créer des emplois."

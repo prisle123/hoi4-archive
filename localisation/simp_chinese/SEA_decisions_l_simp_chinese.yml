@@ -9,6 +9,7 @@
  unite_hui_states: "统一回族"
  rename_ulanbaatar_monarchist_decision: "光复乌尔嘎"
  rename_ulanbaatar_non_monarchist_decision: "光复大库伦"
+ reorganize_manchuria_decision: "重组满洲"
  RNG_core_state: "将§Y[FROM.GetName]§!整合进新的中国政府"
  RNG_coring_state_in_progress: "一个地区正在整合中。"
  KOR_regain_core_on_state_decision: "恢复§Y[FROM.GetName]§!秩序"
@@ -31,6 +32,7 @@
  PSR_core_state: "将§Y[FROM.GetName]§!并入第二共和国"
  PSR_coring_state_in_progress: "一个地区正在整合中。"
  SOV_cancel_the_japanese_resource_rights_to_sakhalin_decision: "取消[JAP.GetAdjective]对§Y[655.GetName]§!的资源开采权"
+ MEN_request_initiation_of_the_suiyuan_campaign_decision: "请求发动绥远战役"
  ###################
  ###### JAPAN ######
  ###################
@@ -742,6 +744,8 @@
  CHI_warlord_core_manchuria: "整合[FROM.GetName]"
  MAN_china_matters: "中国事务"
  MAN_request_full_control_over_china: "请求完全控制中国"
+ MAN_unify_with_specific_japanese_puppet_decision: "请求完全整合[FROM.GetName]"
+ MAN_is_currently_seeking_to_merge_a_puppet_government_into_them_flag: "[MAN.GetNameDefCap]目前正在寻求吞并另一个[JAP.GetAdjective]傀儡政权"
  MAN_yong_ying_category: "勇营"
  MAN_yong_ying_category_desc: "勇营是清朝时期使用的一种民兵组织形式，“勇”指从当地招募的民兵。他们由公共财政资助，并不属于正规军编制，作为独立运作的武装力量存在，通常承担自卫职责。我们应当完善这一制度，以便在未来的战争中有效运用。"
  MAN_expand_yong_ying_recruitment: "扩大勇营征募"
@@ -778,6 +782,8 @@
  CHI_stalemate_tt: "战争将陷入僵局，部队将返回初始位置"
  GDC_holding_out: "坚守"
  GDC_survival_tt: "如果我们能坚持一年，战争就会陷入僵局，我们就能保留在两广的地位。当僵局发生时，落入我们掌控的相邻共和派地区将被我们纳入囊中。"
+ MAN_warlord_autonomy_drift_decision: "§Y[FROM.GetName]§!整合工作"
+ YUN_core_state: "将§Y[FROM.GetName]§!整合入我们的省份"
  XIC_war_in_yanan: "第六次围剿"
  XIC_war_in_yanan_desc: "随着陕北战争的重新爆发，剿匪军的部队迟早会放弃并逃亡。如要获胜，我们必须迅速且果断地出击。"
  XIC_war_halting: "攻势力竭"
@@ -815,3 +821,5 @@
  BRM_blow_up_the_oil_fields: "炸毁缅甸油田"
  BRM_blown_up_oil_fields: "被摧毁的油田与矿井"
  BRM_repair_the_oil_fields: "修复油田"
+ develop_guapore_casserite_deposits: "开发[942.GetName]锡石矿脉"
+ rename_guapore_to_rondonia_decision: "设立朗多尼亚联邦领地"

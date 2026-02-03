@@ -2624,6 +2624,8 @@ initial_show_position = {
 						has_cosmetic_tag = PHI_asean_tag
 						has_cosmetic_tag = PHI_reino_de_filipinas_tag
 						has_cosmetic_tag = PHI_hispanic_empire_tag
+						has_cosmetic_tag = PHI_hispanic_empire_tag_war
+						has_cosmetic_tag = PHI_reino_de_filipinas_tag_war
 					}
 				}
 				custom_effect_tooltip = PHI_manila_tag_tt

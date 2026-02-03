@@ -1337,6 +1337,7 @@
  state_resource_tungsten: "텅스텐"
  state_resource_steel: "강철"
  state_resource_chromium: "크롬"
+ state_resource_coal: "석탄"
  temporary_state_resource_oil: "석유"
  temporary_state_resource_aluminium: "알루미늄"
  temporary_state_resource_rubber: "고무"

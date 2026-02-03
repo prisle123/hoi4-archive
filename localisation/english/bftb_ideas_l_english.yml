@@ -185,6 +185,7 @@
  onassis_proposition_accepted:0 "§YAristotle Onassis§! has formed his anti-fascist organization."
  GRE_metaxas_is_dead_crab_rave_flag:0 "§YIoannis Metaxas§! has died."
  GRE_ioannis_metaxas:0 "Ioannis Metaxas"
+ GRE_king_george_ii: "George II"
  GRE_konstantinos_maniadakis:0 "Konstantinos Maniadakis"
  GRE_konstantinos_tsaldaris:0 "Konstantinos Tsaldaris"
  GRE_aristeidis_dimitratos:0 "Aristeidis Dimitratos"
@@ -230,6 +231,15 @@
  GRE_stylianos_gonatas: "Stylianos Gonatas"
  GRE_macedonian_farmlands_idea: "The Macedonian Farmlands"
  GRE_macedonian_farmlands_idea_desc: "By utilizing the rich farmlands in Macedonia, our army can stay supplied for as long of a time as it possibly can."
+
+ TUR_inventive_genius_hidden_idea: "$TUR_kamil_tolon$"
+ TUR_inventive_genius_electronics_modifier_tt: "$electronics$ Research Speed: §G+10%§!"
+
+ TUR_first_five_year_plan: "Birinci Beş Yıllık Sanayi Planı"
+ TUR_first_five_year_plan_desc: "Modeled after the [SOV.GetAdjective] Five-Year Plans, and guided by both [SOV.GetAdjective] and [USA.GetAdjective] experts, our first five year plan came into effect on April 17, 1934. Through this plan, we aim to have 20 new factories built by the time the second plan is implemented."
+
+ TUR_widespread_illiteracy_idea: "Widespread Illiteracy"
+ TUR_widespread_illiteracy_idea_desc: "Tough the literacy within our nation has increased drastically since the initial implementations of the alphabet and language reforms thanks to Atatürk's literacy drive and national education campaigns, even going as far as earning himself the title başöğretmen, there is still much to be done."
 
  TUR_kemalist_army_officers_powerful_loyal:0 "Kemalist Officers"
  TUR_kemalist_army_officers_powerful_loyal_desc:0 "The elite Turkish officer corps are some of the staunchest protectors of Kemalist values. Kemalism has never before been so entrenched in Turkey as it is today, and our state has never been in safer hands than it is under the current administration."
@@ -532,7 +542,10 @@
  TUR_ottoman_officers_invited_back:0 "The §YOttoman Loyalists§! have been invited to return to active service."
  TUR_cannot_form_kurdish_collaboration_government_tt:0 "§Y[TUR.GetNameDef]§! can never form a Kurdish Collaboration Government."
  TUR_has_a_prime_minister_tt:0 "§Y[TUR.GetNameDef]§! has a Prime Minister."
-
+ etibank: "Etibank"
+ electricity_focused_state_bank: "Electricity Sector State Bank"
+ sumerbank: "Sümerbank"
+ industrial_investment_bank: "Industrial Investment Bank"
 
  BUL_army_restrictions:0 "Army Restrictions"
  BUL_army_restrictions_desc:0 "Another consequence of the Treaty of Neuilly-sur-Seine are the severe restrictions imposed on our army, not only do they prohibit compulsory military service, limit the amount of troops and officers in our forces and prevent us from maintaining any advanced equipment, they also prohibit any military maneuvers or campaign planning and even stipulate the number of rifles we can use."

@@ -480,6 +480,9 @@ warlord_rule_all_parties = {
 		if = {
 			limit = {
 				tag = KHM
+				NOT = {
+					has_completed_focus = KHM_shizangs_coup
+				}
 			}
 			add_country_leader_role = {
 				character = KHM_ma_hushan
@@ -511,6 +514,46 @@ warlord_rule_all_parties = {
 					ideology = rexism
 					traits = {
 						KHM_padishah
+					}
+				}
+				promote_leader = yes				
+			}
+		}
+		else_if = {
+			limit = {
+				tag = KHM
+				has_completed_focus = KHM_shizangs_coup
+			}
+			add_country_leader_role = {
+				character = KHM_mahmut_muhiti
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = anti_revisionism
+					traits = {
+						KHM_emir_of_khotan
+					}
+				}
+				promote_leader = yes				
+			}			
+			add_country_leader_role = {
+				character = KHM_mahmut_muhiti
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = socialism
+					traits = {
+						KHM_emir_of_khotan
+					}
+				}
+				promote_leader = yes				
+				
+			}	
+			add_country_leader_role = {
+				character = KHM_mahmut_muhiti
+				country_leader = {
+					expire = "1965.1.1"
+					ideology = rexism
+					traits = {
+						KHM_emir_of_khotan
 					}
 				}
 				promote_leader = yes				
@@ -806,5 +849,24 @@ RNG_add_or_modify_state_shintoism = {
 	}
 	ELSE = {
 		custom_effect_tooltip = RNG_modify_state_shinotism_modifier_tt
+	}
+}
+
+ma_clique_remove_the_collective_effect = {
+	IF = {
+		limit = {
+			has_dynamic_modifier = { modifier = CHI_ma_clique_collective } 
+		}
+		remove_dynamic_modifier = {
+			modifier = CHI_ma_clique_collective
+		}	
+	}
+	IF = {
+		limit = {
+			NOT = {
+				has_country_flag = cast_off_ma_ties_or_became_china_flag
+			}
+		}
+		set_country_flag = cast_off_ma_ties_or_became_china_flag
 	}
 }

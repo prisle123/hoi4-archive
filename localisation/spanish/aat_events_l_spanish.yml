@@ -596,7 +596,7 @@
  AAT_Sweden_flashpoints.32.desc: "Con su habitual terquedad, [SWE.GetName] nos ha denegado el acceso a su infraestructura en virtud de la neutralidad de la que tanto alardean. Tal vez sea necesaria una respuesta firme por nuestra parte que les recuerde que su independencia no es sino el premio que recibieron por su obediencia mientras reorganizamos Europa."
  AAT_Sweden_flashpoints.32.a: "Informémosles de que [GER.GetLeader] empieza a dudar de su neutralidad."
  AAT_Sweden_flashpoints.32.b: "Dejémoslo estar; no nos conviene arriesgarnos a que se unan al enemigo."
- AAT_Sweden_flashpoints.33.t: "Adolf Hitler pone en tela de juicio la neutralidad [SWE.GetAdjective]"
+ AAT_Sweden_flashpoints.33.t: "[GER.GetLeader] pone en tela de juicio la neutralidad [SWE.GetAdjective]"
  AAT_Sweden_flashpoints.33.desc: "Hemos recibido un telegrama contundente de [GER.Capital.GetCapitalVictoryPointName] informándonos de que [GER.GetLeader] está consternado por nuestro rechazo a su reciente solicitud. Al parecer, el líder [GER.GetAdjective] empieza a cuestionarse nuestra neutralidad y cree que las decisiones que viene tomando nuestra administración de un tiempo a esta parte son síntoma de afinidad con los enemigos de [GER.GetName]. \n\nCabe pensar que están dispuestos a forzar un conflicto si es necesario. Tal vez deberíamos reevaluar nuestra postura."
  AAT_Sweden_flashpoints.33.a: "La supervivencia prima sobre la neutralidad."
  AAT_Sweden_flashpoints.33.b: "[GER.GetLeader] no nos coaccionará. Que se vayan movilizando nuestras fuerzas."

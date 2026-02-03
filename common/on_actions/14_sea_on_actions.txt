@@ -3868,11 +3868,36 @@ on_actions = {
 
         effect = {
             FROM = {
-                if = {    #This prevents the country capping again after just having been puppeted
+                IF = {    #This prevents the country capping again after just having been puppeted
                     limit = {
                         has_idea = BEL_surrender_ns
                     }
                     remove_ideas = BEL_surrender_ns
+                }
+            }
+        }
+
+        effect = {
+            FROM = {
+                IF = {    #This prevents Japan from capping again after just having been puppeted
+                    limit = {
+                        has_idea = JAP_accepted_the_potsdam_agreement
+                    }
+                    remove_ideas = JAP_accepted_the_potsdam_agreement
+                }
+            }
+        }
+
+        effect = {
+            FROM = {
+                IF = {    # This prevents Japan from having a non-allowed eco modifier after being puppeted etc 
+                    limit = {
+                        has_idea = national_defense_state
+                    }
+                    swap_ideas = {
+                    	remove_idea = national_defense_state
+                    	add_idea = partial_economic_mobilisation
+                    }	
                 }
             }
         }
@@ -3919,6 +3944,39 @@ on_actions = {
         				target = FROM
         				transfer_troops = yes
         			}	
+        		}
+        	}
+        }
+
+        # Merging of accidental leftover Japan into American Japanese puppet government if there is one, if Japan surrendered through the focus  
+        effect = {
+        	IF = {
+        		limit = {
+        			# USA is a winner and has the JAP as their puppet 
+        			ROOT = {
+        				original_tag = USA
+        			}
+        			# One of the losers if a Japan that should be made a part of the other one 
+        			FROM = {
+        				original_tag = JAP  
+        				is_subject = no
+        				OR = {
+        					has_government = neutrality
+        					has_government = fascism
+        				}
+         			}
+         			has_global_flag = JAP_surrendered_through_their_focus_flag
+        		}
+        		ROOT = {
+        			random_subject_country = {
+        				limit = {
+        					original_tag = JAP 
+        				}
+    					annex_country = {
+    						target = FROM
+    						transfer_troops = yes
+    					}	
+        			}
         		}
         	}
         }

@@ -1337,6 +1337,7 @@
  state_resource_tungsten: "Tungstênio"
  state_resource_steel: "Aço"
  state_resource_chromium: "Crômio"
+ state_resource_coal: "Carvão"
  temporary_state_resource_oil: "Petróleo"
  temporary_state_resource_aluminium: "Alumínio"
  temporary_state_resource_rubber: "Borracha"

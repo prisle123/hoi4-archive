@@ -596,7 +596,7 @@
  AAT_Sweden_flashpoints.32.desc: "[SWE.GetName] 측이 중립 준수를 이유를 들며 우리의 기반시설 접근을 완강히 거부하고 있습니다. 아마도 그들에게 더 강력한 대응이 필요할 것입니다. 그들의 지속적인 독립은 우리가 유럽을 재편성하는 동안 그들의 순응에 대한 보상일 뿐이라는 것을 상기시켜야 할 것입니다."
  AAT_Sweden_flashpoints.32.a: "[GER.GetLeader](이)가 그들의 중립을 의심하기 시작했다고 알려주어라."
  AAT_Sweden_flashpoints.32.b: "이 문제는 넘어간다. 그들이 적에 합류하는 위험을 감수할 수 없다."
- AAT_Sweden_flashpoints.33.t: "[SWE.GetAdjective]의 중립에 의문을 품은 아돌프 히틀러"
+ AAT_Sweden_flashpoints.33.t: "[SWE.GetAdjective]의 중립에 의문을 품은 [GER.GetLeader]"
  AAT_Sweden_flashpoints.33.desc: "[GER.Capital.GetCapitalVictoryPointName](으)로부터 강력한 어조의 전보를 받았습니다. [GER.GetLeader](은)는 우리가 최근 요청을 거절한 것에 대해 실망했다고 합니다. [GER.GetAdjective] 지도자는 우리의 중립성을 의심하기 시작했으며, 최근 행동이 [GER.GetName]의 적들과 손을 잡으려는 움직임으로 보인다고 믿고 있습니다. \n\n[GER.GetName] 측은 필요하다면 이번 상황을 분쟁으로 확대할 의향이 있어 보입니다. 이제는 우리의 입장을 재고해야 할 때일지도 모릅니다."
  AAT_Sweden_flashpoints.33.a: "중립보다 생존이 더 중요하다."
  AAT_Sweden_flashpoints.33.b: "[GER.GetLeader]에게 굴복하지 않겠다. 병력을 동원하기 시작하라."

@@ -265,7 +265,7 @@
  PEACE_WAR_SCORE_REDISTRIBUTION_FROM_PUPPETS:0 "Received from puppets"
  PEACE_WAR_SCORE_REDISTRIBUTION_FROM_FACTION_MEMBERS:0 "Received from faction members"
  PEACE_WAR_SCORE_REDISTRIBUTION_FROM_LOW_PARTICIPATION_COUNTY:0 "Received from low war participation countries"
- PEACE_WAR_SCORE_REDISTRIBUTION_FROM_TOP_FACTION_INFLUENCE: "Recieved from being in the top $AMOUNT|Y$ of influence in your faction"
+ PEACE_WAR_SCORE_REDISTRIBUTION_FROM_TOP_FACTION_INFLUENCE: "Received from being in the top $AMOUNT|Y$ of influence in your faction"
  PEACE_WAR_SCORE_REDISTRIBUTION_TO_HUMANS:0 "Transferred to player(s)"
  PEACE_WAR_SCORE_REDISTRIBUTION_TO_OVERLORD:0 "Transferred to overlord"
  PEACE_WAR_SCORE_REDISTRIBUTION_TO_FACTION_LEADER:0 "Transferred to faction leader"

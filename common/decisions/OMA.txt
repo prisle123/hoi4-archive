@@ -54,6 +54,10 @@ political_actions = {
 		}
 
 		complete_effect = { 
+			
+		}
+
+		remove_effect = {
 
 			IF = {
 				limit = {
@@ -75,9 +79,65 @@ political_actions = {
 			add_war_support = 0.05
 			add_stability = 0.05
 
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			add_country_leader_trait = OMA_unifier_of_muscat_and_oman
+
 			hidden_effect = {
 				set_country_flag = OMA_restored_interior_omani_order
 			}
+
+		}
+
+	}
+
+	# Establish the Sultanate of Oman 
+	OMA_establih_the_sultanate_of_oman  = {
+
+		priority = 90
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		ai_will_do = {
+			base = 100
+			modifier = {
+				factor = 0
+				date < 1940.1.1
+			}
+			modifier = {
+				factor = 0.5
+				date < 1943.1.1
+			}
+		}
+
+		allowed = {  
+			original_tag = OMA
+		}
+
+		available = {
+			has_government = neutrality
+			1015 = {
+				is_core_of = ROOT
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+
+		visible = { 
+			
+		}
+
+		fire_only_once = yes
+
+		cost = 100
+
+		complete_effect = { 
+
+			add_ideas = OMA_modernization_initiatives_idea  
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+
+			set_cosmetic_tag = OMA_modern_tag  
+			
 		}
 
 		remove_effect = {

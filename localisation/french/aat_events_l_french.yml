@@ -596,7 +596,7 @@
  AAT_Sweden_flashpoints.32.desc: "\n[From.GetLeLaLNPCap] [From.GetName] refus[From.GetEEntNP] obstinément de nous autoriser l'accès à [From.GetSesLeursNP] infrastructures, au prétexte de préserver [From.GetSaLeurNP] neutralité. Peut-être les [From.GetHabitants] ont-ils besoin de recevoir un message un petit peu plus ferme, les informant que leur indépendance et leur souveraineté ne sont de notre part qu'une amabilité à leur égard, alors même que nous sommes en train de réorganiser l'Europe ?"
  AAT_Sweden_flashpoints.32.a: "Informons-les que [Root.Capital.GetCapitalVictoryPointName]\ncommence à douter de leur neutralité"
  AAT_Sweden_flashpoints.32.b: "Nous devrions éviter de les jeter\ndans les bras de nos ennemis..."
- AAT_Sweden_flashpoints.33.t: "[From.GetLeader] commence\nà douter de notre neutralité"
+ AAT_Sweden_flashpoints.33.t: "[GER.GetLeader] doute de la neutralité [SWE.GetAdjFS]"
  AAT_Sweden_flashpoints.33.desc: "\nNous venons de recevoir un télégramme très peu diplomatique de [From.Capital.GetCapitalVictoryPointName], nous informant que notre rejet de la requête de transit humanitaire sur le territoire [Root.GetAdjMS] a profondément déçu [From.GetLeader]. Il semblerait que notre volonté de neutralité commence à être mise en doute. [From.GetLeader] se demande si nos décisions récentes ne masqueraient pas un rapprochement progressif avec les ennemis [From.GetDuDelaDelNP] [From.GetName].\n\n[From.GetLeader] ne renoncerait pas à s'engager dans un conflit si cela s'avérait nécessaire. Mieux vaut donc réévaluer notre position, tant que nous en avons encore la possibilité..."
  AAT_Sweden_flashpoints.33.a: "$AAT_Sweden_flashpoints.31.a$"
  AAT_Sweden_flashpoints.33.b: "Nous ne nous laisserons pas intimider ainsi,\nmobilisation générale !"

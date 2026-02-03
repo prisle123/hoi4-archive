@@ -2212,6 +2212,7 @@
  GER_all_terrain_military_motorcycle_desc: "A importância de realizar um reconhecimento rápido não pode ser ignorada. Investir em unidades de motocicletas proporcionará uma inteligência crucial do campo de batalha, facilitando a tomada de decisões estratégicas e aumentando a eficácia operacional."
  GER_salvage_captured_equipment: "Recuperar equipamento capturado"
  GER_salvage_captured_equipment_desc: "Ao estabelecer instalações para recuperar e reutilizar equipamentos inimigos capturados para o nosso Exército, poderemos reformar e incorporar armas, veículos e maquinário capturados para uso de nossas forças armadas."
+ GER_salvage_captured_equipment_custom_tt: "Dois generais aleatórios d[ROOT.GetNameDef] ganharão a característica §YSucateiro§!."
  GER_unlock_operational_planning_blitzkrieg_tt: "Desbloqueia a decisão: §Y$GER_operational_planning_category$§!, que, ao ativar, concederá por §Y45 dias§!:"
  GER_unlock_operational_planning_bewegungskrieg_tt: "Desbloqueia a decisão: §Y$GER_operational_planning_category$§!, que, ao ativar, concederá por §Y90 dias§!:"
  GER_the_prussian_legacy: "O legado da Prússia"

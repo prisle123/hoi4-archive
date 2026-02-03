@@ -1440,6 +1440,7 @@
  ITA_extraction_industry_oil_tt: "\nDans chaque État sous contrôle produisant déjà du pétrole : §Y+2§!£resources_strip|1£ supplémentaires"
  ITA_expand_the_royal_guard_re_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$modifier_army_sub_unit_cavalry_defence_factor$: §G+5%§!\n\n"
  ITA_has_disbanded_blackshirts_tt: "Les Chemises noires n'ont pas été dissoutes"
+ ITA_has_disbanded_blackshirts_tt_NOT: "IMPOSSIBLE : les Chemises noires sont dissoutes"
  ITA_paramilitary_training_re_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$\n$modifier_army_sub_unit_militia_attack_factor$: §G+5%§!\n$modifier_army_sub_unit_militia_defence_factor$: §G+5%§!\n\n"
  ITA_mobilize_the_railway_guns_military_industry_dm_tt: "$ITA_modify_military_industry_dynamic_modifier_ns_intro$\n$ITA_mobilize_the_railway_guns_dynamic_modifier_tt$\n\n"
  ITA_mobilize_railway_guns_tt: "Crée §Y4 canons ferroviaires§! dans l'État de §Y[Root.Capital.GetName]§!."

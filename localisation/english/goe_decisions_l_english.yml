@@ -85,6 +85,9 @@
  AFG_sikh_recruitment_cat: "Sikh Recruitment"
  AFG_sikh_recruitment_tt: "§YCreates two seasoned mountaineer divisions§!\n"
 
+ AFG_a_royal_successor_decision: "A Royal Successor"
+ AFG_a_royal_successor_decision_desc: "If we want to properly secure our rule over this land, we must decide on who to take over the role of Prime Minister, now that $AFG_mohammad_hashim_khan$'s ability to lead is coming under question both internationally and internally."
+
  #RAJ
  RAJ_GOE_partition_cat: "Partition"
  RAJ_GOE_independence_movement: "Independence Movement"
@@ -487,6 +490,7 @@
  neo_assyrian_empire_category_desc: "At its maximum extent, the Neo-Assyrian Empire dominated most of the Middle-East We should endeavor to restore our state to its ancient glory, and reconquer our empire of old." 
  neo_assyrian_empire_decision: "Reclaim our Ancient Glory"
  neo_mesopotamia_category: "Restore Mesopotamia"
+ neo_mesopotamia_category_desc: "The Fertile Crescent is the cradle of civilization and the home of many great states. With territorial integrity now restored, we can finally proclaim the creation of a unified Mesopotamian state."
  neo_mesopotamia_decision: "Restore the Cradle of Civilization"
  neo_mesopotamia_formed_flag: "Mesopotamia has already been reformed"
  IRQ_arab_free_legion_cat: "Free Arabian Legion"
@@ -512,8 +516,15 @@
  IRQ_flood_the_plains: "Flood the Plains"
  IRQ_flood_the_plains_desc: "The Euphrates and Tigris have long been the lifeline for our economy and sustenance. Extensive irrigation works carried out over the last decades however, give us the opportunity to control the flow of their tributaries. A coordinated flood could turn low-lying lands into a defensible marsh for a limited time."
  can_flood_plains_tt: "Unlock a decision to §Y$IRQ_flood_the_plains$§! in the event of an invasion."
- united_arab_rep_core_state: "Integrate [FROM.GetName] into [ROOT.GetName]"
+ united_arab_rep_core_state: "Integrate §Y[FROM.GetName]§! into [ROOT.GetNameDef]"
+
+ KUR_syrian_border_skrimish_cat: "Syrian Border Skirmishes"
+ KUR_syrian_border_skrimish_decision: "Liberate the Western Kurds"
+ IRQ_march_on_syrian_kurdistan_mission: "Infiltrating Western Kurdistan"
 
  maghreb_formable_category: "Unite the Maghreb"
  maghreb_formable_category_desc: "With the conquest of the western Arab world, we have secured our position on the world stage. It is now time to declare the Maghreb unified, and stand ready to take on any who would challenge our position!"
  unite_maghreb: "Proclaim a Maghrebi State"
+
+ SAU_refining_our_national_identity_decision: "Refine the National Identity"
+ OMA_establih_the_sultanate_of_oman: "Establish the Sultanate of Oman"

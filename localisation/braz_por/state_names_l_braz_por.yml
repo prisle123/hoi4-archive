@@ -756,6 +756,7 @@
  JAP_STATE_608: "Peking"
  STATE_609: "Hebei Oriental"
  STATE_610: "Jehol"
+ state_610_modern_name: "Rehe"
  STATE_611: "Chahar" #was South Chahar
  STATE_612: "Xilingol" #was Chahar
  STATE_613: "Xangai"
@@ -967,6 +968,8 @@
  STATE_797: "Istambul"
  STATE_798: "Amásia"
  STATE_799: "Hatay"
+ FRA_STATE_799: "Sandjak d'Alexandrette"
+ SYR_STATE_799: "Alexandretta"
  STATE_800: "Van"
  STATE_801: "Mésia"
  STATE_802: "Kosovo"
@@ -1131,6 +1134,7 @@
  STATE_940: "Acre"
  STATE_941: "Tocantins"
  STATE_942: "Guaporé" #can be renamed to Rondônia later
+ 942_rondonia_name: "Rondônia"
  STATE_943: "Espírito Santo"
  STATE_944: "Paraná"
  STATE_945: "Cerro Largo"

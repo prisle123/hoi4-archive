@@ -1004,6 +1004,7 @@
  TRIGGER_MORE_THAN_IDEOLOGY_SUPPORT: "세력 맹주국의 이념($IDEOLOGY|H$)에 대한 지지도가 $REQUIRED|H%0$(을)를 초과(현재 $CURRENT|H%0$)"
  TRIGGER_LESS_THAN_IDEOLOGY_SUPPORT: "세력 맹주국의 이념($IDEOLOGY|H$)에 대한 지지도가 $REQUIRED|H%0$ 미만(현재 $CURRENT|H%0$)"
  TRIGGER_HAS_EQ_IDEOLOGY_SUPPORT: "세력 맹주국의 이념($IDEOLOGY|H$)에 대한 지지도가 $REQUIRED|H%0$임(현재 $CURRENT|H%0$)"
- GOAL_T_TRIGGER_A: "세력 내에서 알려진 기술($LEFT|0H$)이 $RIGHT|0H$(을)를 초과"
+ GOAL_T_TRIGGER_A: "세력 내에서 알려진 기술의 평균($LEFT|0H$)이 $RIGHT|0H$ 이상임"
  GOAL_T_TRIGGER_B: "세력 내 사단($LEFT|0H$)이 $RIGHT|0H$(을)를 초과"
  TRIGGER_EQUIPMENT_CURRENT_VALUE: " (현재 비축량: $CURRENT|H$)"
+ TRIGGER_ENERGY_RATIO: "에너지 비율"

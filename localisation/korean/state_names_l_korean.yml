@@ -756,6 +756,7 @@
  JAP_STATE_608: "베이징"
  STATE_609: "동허베이"
  STATE_610: "러허"
+ state_610_modern_name: "열하"
  STATE_611: "차하얼" #was South Chahar
  STATE_612: "시린골" #was Chahar
  STATE_613: "상하이"
@@ -967,6 +968,8 @@
  STATE_797: "이스탄불"
  STATE_798: "아마시아"
  STATE_799: "하타이"
+ FRA_STATE_799: "알렉산드레타 산자크"
+ SYR_STATE_799: "알렉산드레타"
  STATE_800: "반"
  STATE_801: "모에시아"
  STATE_802: "코소보"
@@ -1131,6 +1134,7 @@
  STATE_940: "아크리"
  STATE_941: "토칸칭스"
  STATE_942: "과포레" #can be renamed to Rondônia later
+ 942_rondonia_name: "혼도니아"
  STATE_943: "이스피리투산투"
  STATE_944: "파라나"
  STATE_945: "세로라르고"

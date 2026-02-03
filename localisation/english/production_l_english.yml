@@ -231,7 +231,7 @@
  INTEL_CIVILIAN_FACTORIES_USED_ON_TRADE:0 "Estimated Civilian Factories used on trade"
  INTEL_ARMS_FACTORIES_USED_ON_EQUIPMENT:0 "Estimated Military Factories used on military equipments"
  INTEL_ARMS_FACTORIES_USED_ON_ARMOR:0 "Estimated Military Factories used on armored vehicles"
- INTEL_ARMS_FACTORIES_USED_ON_AIR:0 "Estimated Military Factories used on aircrafts"
+ INTEL_ARMS_FACTORIES_USED_ON_AIR:0 "Estimated Military Factories used on aircraft"
  INTEL_DOCKYARDS_USED_ON_CAPITAL:0 "Estimated Naval Dockyards used capital ships"
  INTEL_DOCKYARDS_USED_ON_SCREEN:0 "Estimated Naval Dockyards used screen ships"
  INTEL_DOCKYARDS_USED_ON_OTHER:0 "Estimated Naval Dockyards used other ships"

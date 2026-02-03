@@ -10,6 +10,7 @@
  SUB_MESSAGE_new_sub_DESC: ""
  SUB_MESSAGE_POPUP_DLC: "¡Se incluye todo el contenido descargable!\nAccede a todas las expansiones, paquetes de país y modelos de unidad inmediatamente. También obtendrás los nuevos contenidos descargables el día de su lanzamiento."
  SUBSCRIPTION_WIDGET: "¡Suscríbete y consigue acceso a todo el contenido descargable!"
+ SUBSCRIPTION_WIDGET_SIMP_CHINESE: "Buy NCNS here"
  SUBSCRIPTION_WIDGET_SUBSCRIBED: "¡La suscripción está activa!"
  SUBSCRIPTION_RESTART_TITLE: "Descarga nuevo contenido"
  SUBSCRIPTION_RESTART_DESCRIPTION: "Puedes descargar e instalar todo el contenido descargable en Steam. Hay que reiniciar el juego para que el nuevo contenido descargable esté disponible."

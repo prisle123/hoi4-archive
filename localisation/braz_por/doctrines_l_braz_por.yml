@@ -769,3 +769,4 @@
  ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "Confirme a seleção da grande doutrina antes de atribuir uma §Hsubdoutrina§!"
  TRACK_INACTIVE_EXPLANATION: "§gEnquanto uma trilha estiver inativa, nenhuma §!§Hsubdoutrina§!§g nova pode ser atribuída e nenhuma £doctrine_mastery §!§Hmaestria§!§g pode ser adquirida.§!"
  SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§HEsta subdoutrina ganha £doctrine_mastery Maestria de um grupo específico de unidades:§!"
+ land_mastery_gain_factor_tt: " Ganho de maestria de território: $RIGHT|+=%1$"

@@ -139,6 +139,7 @@
  NORDIC_is_democratic_tt: "Ist berechtigt, das gemeinsame demokratische Bündnis zu gründen"
  NORDIC_is_monarchist_tt: "Ist berechtigt, das gemeinsame monarchistische Bündnis zu gründen"
  NORDIC_alliance_created_already_TT: "Es wurde ein beliebiges gemeinsames Bündnis geschlossen."
+ NORDIC_alliance_created_already_TT_NOT: "Es wurde KEIN gemeinsames Bündnis geschlossen."
  NORDIC_airforce_capstone_unlock_TT: "Dies schaltet zusätzliche Schwerpunkte für den Zweig §Y$NORDIC_nordic_airforce$§! frei."
  NORDIC_navy_capstone_unlock_TT: "Dies schaltet zusätzliche Schwerpunkte für den Zweig §Y$NORDIC_nordic_navy$§! frei."
  NORDIC_army_capstone_unlock_TT: "Dies schaltet zusätzliche Schwerpunkte für den Zweig §Y$NORDIC_nordic_army$§! frei."

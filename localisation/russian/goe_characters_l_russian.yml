@@ -26,6 +26,9 @@
  IRQ_ahmed_barzani: "Шейх Ахмед Барзани"
  IRQ_mustafa_barzani: "Мустафа Барзани"
  GER_oskar_von_nidermayer: "Оскар фон Нидермайер"
+ YEM_imam_yahya: "Имам Яхья Мухаммед Хамид-ад-Дин"
+ OMA_said_bin_taimur: "Саид бен Таймур"
+ SAU_abdulaziz_ibn_saud: "Абдул-Азиз ибн Сауд"
  #RAJ#
  RAJ_GOE_j_r_d_tata: "Дж. Р. Д. Тата"
  RAJ_GOE_jawaharlal_nehru: "Джавахарлал Неру"
@@ -167,6 +170,7 @@
  AFG_nur_muhammad_taraki: "Нур Мохаммад Тараки"
  AFG_sheikh_omar_mojadidi: "Нурул Машавих Шейх Фазл Омар Моджадиди"
  AFG_sher_khan_nashir: "Шерхан Нашер"
+ AFG_abdul_hadi_dawi: "Абдул Хади Дави"
  BUK_mohammed_alim_khan: "Сеид Мир Мухаммед Алим-хан"
  BUK_polat_usmon: "Пулат Усман Ходжаев"
  ##################
@@ -201,3 +205,9 @@
  IRQ_akram_mushtak: "Акрам Муштак"
  IRQ_muhammad_ali_jawad: "Мохаммед Али Джавад"
  IRQ_maruf_al_rusafi: "Мааруф ар-Русафи"
+ IRQ_ahmed_rushdi_muhammad: "Ахмед Рушди бен аль-Хадж Мухаммед"
+ IRQ_jamil_ahmad_abullah_al_rawi: "Джамиль Ахмад Абдулла аль-Рави"
+ IRQ_kamil_al_jaderji: "Камиль Чадирж"
+ IRQ_mohamed_hadid: "Мухаммед Хадид"
+ IRQ_jafar_al_timman: "Джафар Абу аль-Тимман"
+ IRQ_mohamed_mahdi_kubba: "Мухаммед Махди Кубба"

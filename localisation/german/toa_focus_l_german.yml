@@ -964,6 +964,8 @@
  BRA_national_petroleum_council_desc: "Von den Traktoren auf den Feldern bis hin zu den Kriegsschiffen, die unsere Küsten verteidigen, ist Öl das Lebenselixier, das unsere hochmoderne Maschinerie antreibt. Die Abhängigkeit von einer derart wichtigen Ressource ist eine Gefahr für unsere nationale Sicherheit. Um dieses Risiko zu mindern, muss ein nationaler Erdölrat gegründet werden, der die Erschließung und den Betrieb unserer Ölquellen überwacht."
  BRA_batalha_do_borracha: "Batalha da Borracha"
  BRA_batalha_do_borracha_desc: "[BRA.GetNameDefCap] versorgte einst die ganze Welt mit Kautschuk, bis [ENG.GetNameDef] eigene Plantagen anlegte. Da die Versorgungslinien der Engländer nun bedroht sind, blickt die Welt wieder auf uns, um sie mit dem kostbaren Rohstoff zu versorgen."
+ BRA_establish_companhia_vale_do_rio_doce: "Companhia Vale do Rio Doce"
+ BRA_establish_companhia_vale_do_rio_doce_desc: "In Minas Gerais, insbesondere in der Region Itabira, wurden große Eisenerzadern und verschiedene andere reichhaltige Mineralvorkommen entdeckt. Wir müssen sicherstellen, dass der Staat diese Vorkommen erschließen kann, indem wir ein neues Unternehmen gründen."
  BRA_invest_in_road_infrastructure: "In die Straßeninfrastruktur investieren"
  BRA_invest_in_road_infrastructure_desc: "Autos und LKWs werden ein immer wichtigerer Faktor für die Wirtschaft. Unsere Straßennetze sind jedoch nicht ausreichend entwickelt, um die benötigte Anzahl an Fahrzeugen zu unterstützen. Wir müssen massiv in den Bau von Autobahnen investieren, bevor Fahrzeuge zum Flaschenhals unserer Wirtschaft werden."
  BRA_invest_in_railways: "In Eisenbahnen investieren"

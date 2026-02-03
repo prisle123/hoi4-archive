@@ -572,6 +572,7 @@
  DR_GUARANTEE:1 "§Y$US|U$§! is guaranteed by §Y$THEM$§!: "
  DR_GUARANTEEING:1 "§Y$US|U$§! is guaranteeing §Y$THEM$§!: "
  DR_SAME_IDEOLOGY:0 "§Y$THEM|U$§! has the same ideology: "
+ DR_DIFFERENT_IDEOLOGY:0 "§Y$THEM|U$§! has a different ideology: "
  DR_FACTION_LOW_TENSION:0 "World tension is §R$TENSION_DIFF$§! too low for §Y$THEM$§! to enter a faction with §Y$US$§!"
  DR_FACTION_TENSION:0 "World tension: §G$TENSION_DIFF$§!"
  DR_FACTION_SURRENDER:1 "§Y$THEM|U$§! is losing a war: "

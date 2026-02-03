@@ -756,6 +756,7 @@
  JAP_STATE_608: "北京"
  STATE_609: "冀东"
  STATE_610: "热河"
+ state_610_modern_name: "热河"
  STATE_611: "察哈尔" #was South Chahar
  STATE_612: "锡林郭勒" #was Chahar
  STATE_613: "上海"
@@ -967,6 +968,8 @@
  STATE_797: "伊斯坦布尔"
  STATE_798: "阿马西亚"
  STATE_799: "哈塔伊"
+ FRA_STATE_799: "亚历山大勒塔桑贾克"
+ SYR_STATE_799: "亚历山大勒塔"
  STATE_800: "凡城"
  STATE_801: "默西亚"
  STATE_802: "科索沃"
@@ -1131,6 +1134,7 @@
  STATE_940: "阿克里"
  STATE_941: "托坎廷斯"
  STATE_942: "瓜波雷" #can be renamed to Rondônia later
+ 942_rondonia_name: "朗多尼亚"
  STATE_943: "圣埃斯皮里图"
  STATE_944: "巴拉那"
  STATE_945: "塞罗拉戈"

@@ -10,6 +10,7 @@
  SUB_MESSAGE_new_sub_DESC: ""
  SUB_MESSAGE_POPUP_DLC: "Todos os DLCs inclusos!\nAcesso instantâneo a todas as expansões, pacotes de países e modelos de unidades. Você também receberá todos os DLCs novos no dia do lançamento."
  SUBSCRIPTION_WIDGET: "Assine e receba acesso a todos os DLCs!"
+ SUBSCRIPTION_WIDGET_SIMP_CHINESE: "Buy NCNS here"
  SUBSCRIPTION_WIDGET_SUBSCRIBED: "A assinatura está ativa!"
  SUBSCRIPTION_RESTART_TITLE: "Baixar conteúdo novo"
  SUBSCRIPTION_RESTART_DESCRIPTION: "Você pode baixar e instalar todos os DLCs no Steam. O jogo deve ser reiniciado para que os novos DLCs estejam disponíveis."

@@ -596,7 +596,7 @@
  AAT_Sweden_flashpoints.32.desc: "[SWE.GetName]固执地拒绝让我们使用他们的基建，同时指出了他们保持中立的承诺。也许他们需要一个更确切的行动来提醒他们，在我们重组欧洲的过程中，他们保持独立只是我们对他们遵守的奖励。"
  AAT_Sweden_flashpoints.32.a: "通知他们，[GER.GetLeader]开始怀疑他们的中立性。"
  AAT_Sweden_flashpoints.32.b: "撇开这个问题，我们不能冒着让他们加入敌人的风险。"
- AAT_Sweden_flashpoints.33.t: "阿道夫-希特勒对[SWE.GetAdjective]中立性的质疑"
+ AAT_Sweden_flashpoints.33.t: "[GER.GetLeader]质疑[SWE.GetAdjective]的中立性"
  AAT_Sweden_flashpoints.33.desc: "我们收到了来自[GER.Capital.GetCapitalVictoryPointName]的严厉措辞的电报，通知我们[GER.GetLeader]对我们拒绝他们最近的请求感到沮丧。显然，[GER.GetAdjective]领导人开始质疑我们的中立性，并认为我们最近的行动表明，我们正在逐步与[GER.GetName]的敌人站在一起。\n\n看来，如果有必要，他们可能愿意将局势升级为冲突。因此，现在可能是我们重新评估我们目前立场的时候了。"
  AAT_Sweden_flashpoints.33.a: "生存比中立更重要"
  AAT_Sweden_flashpoints.33.b: "我们不会被[GER.GetLeader]所胁迫，开始动员我们的力量。"

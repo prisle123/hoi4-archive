@@ -10,6 +10,7 @@
  SUB_MESSAGE_new_sub_DESC:0 ""
  SUB_MESSAGE_POPUP_DLC:0 "All DLC included!\nAccess all expansions, country packs, and unit models immediately. You will also get all new DLC on the day of their release."
  SUBSCRIPTION_WIDGET:0 "Subscribe and get access to all DLC!"
+ SUBSCRIPTION_WIDGET_SIMP_CHINESE: "Buy NCNS here"
  SUBSCRIPTION_WIDGET_SUBSCRIBED:0 "Subscription is active!"
  SUBSCRIPTION_RESTART_TITLE:0 "Download new content"
  SUBSCRIPTION_RESTART_DESCRIPTION:0 "You can download and install all DLC in Steam. The game need to be restarted for the new DLC to be available."

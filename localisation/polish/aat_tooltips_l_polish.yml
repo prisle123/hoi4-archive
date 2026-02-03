@@ -139,6 +139,7 @@
  NORDIC_is_democratic_tt: "Może stworzyć demokratyczny wspólny sojusz"
  NORDIC_is_monarchist_tt: "Może stworzyć monarchistyczny wspólny sojusz"
  NORDIC_alliance_created_already_TT: "Powstał dowolny wspólny sojusz."
+ NORDIC_alliance_created_already_TT_NOT: "Nie utworzono wspólnego sojuszu."
  NORDIC_airforce_capstone_unlock_TT: "Odblokuje to dodatkowe cele dla gałęzi §Y$NORDIC_nordic_airforce$§!."
  NORDIC_navy_capstone_unlock_TT: "Odblokuje to dodatkowe cele dla gałęzi §Y$NORDIC_nordic_navy$§!."
  NORDIC_army_capstone_unlock_TT: "Odblokuje to dodatkowe cele dla gałęzi §Y$NORDIC_nordic_army$§!."

@@ -2952,7 +2952,7 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  COG_unify_east_africa_desc: "Now, we can finally achieve the dreams of the Rwandan kings of old, by attempting to unify East Africa. This is a great achievement, and will bring us great glory!"
 
  COG_a_german_protectorate: "A German Protectorate"
- COG_a_german_protectorate_desc: "In order to bring legitimacy to our new state, as well as protect it from hungry vultures such the the British and the French, we should attempt to become a protectorate of our old friends, [GER.GetNameDef]."
+ COG_a_german_protectorate_desc: "In order to bring legitimacy to our new state, as well as protect it from hungry vultures such as the British and the French, we should attempt to become a protectorate of our old friends, [GER.GetNameDef]."
 
  COG_invite_german_kasierist_exiles: "Invite German Monarchists"
  COG_invite_german_kasierist_exiles_desc: "It seems as though the Germans have given up on their glorious Kaiser and settled for true mediocrity. We should endeavor to invite loyal German monarchists to our nation, and attempt to establish a true Mittelafrika!"
@@ -3147,6 +3147,7 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_all_terrain_military_motorcycle_desc: "The importance of rapid reconnaissance cannot be overestimated. Investing in motorbike units will provide crucial battlefield intelligence, yielding strategic decision-making and enhancing operational effectiveness."
  GER_salvage_captured_equipment: "Salvage Captured Equipment"
  GER_salvage_captured_equipment_desc: "By establishing facilities to salvage and repurpose captured enemy equipment for our military, we can refurbish and integrate captured weapons, vehicles, and machinery to bolster our armed forces."
+ GER_salvage_captured_equipment_custom_tt: "Two random [ROOT.GetAdjective] generals will gain the §YScavenger§! trait."
  GER_unlock_operational_planning_blitzkrieg_tt: "Unlocks Decision: §Y$GER_operational_planning_category$§!, which when activated will grant for §Y45 days§!:"
  GER_unlock_operational_planning_bewegungskrieg_tt: "Unlocks Decision: §Y$GER_operational_planning_category$§!, which when activated will grant for §Y90 days§!:"
  GER_the_prussian_legacy: "The Prussian Legacy"
@@ -3178,7 +3179,7 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_nationalize_ford_factories_desc: "Seizing control of Ford’s factories in [51.GetName] and placing them under state control would strengthen our industrial capacity and ensure a steady supply of vital equipment and vehicles to support our armed forces and logistics."
  GER_kriegslokomotiven: "Kriegslokomotiven"
  GER_kriegslokomotiven_desc: "The logistical challenges of warfare necessitate the production of kriegslokomotiven, or war locomotives. These trains will be tailored towards our economic circumstances and the need for rapid, cheap mass production."
- GER_improve_the_logistics_system: "Improve the Logistics System."
+ GER_improve_the_logistics_system: "Improve the Logistics System"
  GER_improve_the_logistics_system_desc: "Too many of our generals in the High Command have a dismissive attitude toward logistics and supply chains, suffering from a lack of understanding of the issues of our current system. They must be made aware of the paramount importance of efficient logistics in modern warfare as we embark on a comprehensive initiative to enhance our logistical system."
  GER_defend_the_vaterland: "Defend the Vaterland"
  GER_defend_the_vaterland_desc: "With threats looming at our borders, we must stand firm in defense of the Vaterland! To safeguard the German people, we have to fortify our positions and rally our troops - [ROOT.GetNameDef] will persevere and triumph!"

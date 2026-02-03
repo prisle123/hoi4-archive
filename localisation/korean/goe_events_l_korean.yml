@@ -324,6 +324,11 @@
  AFG_political_events.172.desc: "\n이번 주 초, [FROM.GetNameDef] 군대가 진입해 우리의 와지리스탄 영토를 점령했습니다. 명분은 향후 해당 지역이 적에게 점령되지 않도록 방어해 주겠다는 것입니다. 이것은 명백한 전쟁 행위이지만, 싸움을 걸려고 했다기보다는 흩어진 파슈툰족을 다시 통합하려고 한 것에 가까운 만큼, 그냥 무시하는 것도 좋은 선택일 수 있습니다."
  AFG_political_events.172.a: "싸울 가치가 없다."
  AFG_political_events.172.b: "자기들이 뭐라도 되는 줄 아나?"
+ AFG_royal_succession_events.01.t: "새로운 왕족 총리"
+ AFG_royal_succession_events.01.desc: "많은 사람이 $AFG_mohammad_hashim_khan$의 결정에 의문을 제기하자, 그는 자신의 형제 중 한 명을 $AFG_mohammed_zahir_shah$에게 복종하는 새로운 지도자로 임명해 왕권을 공고히 하기로 했습니다. 과연 누가 그의 자리를 이어받게 될까요?"
+ AFG_royal_succession_events.01.a: "일관성 있는 $AFG_shah_mahmud_khan$"
+ AFG_royal_succession_events.01.b: "군사적으로 유능한 $AFG_sardar_shah_wali_khan$"
+ AFG_royal_succession_events.01.c: "더 진보적인 $AFG_mohammed_daoud_khan$"
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetName]의 [BHU.GetName] 침공 권한 요청"
@@ -1315,6 +1320,14 @@
  IRQ_political_events.76.t: "대표단 파견 거부"
  IRQ_political_events.76.desc: "안타깝게도 [FROM.GetAdjective] 정부에서 귀중한 석유를 무기로 교환하자는 우리의 요청을 거부했습니다. 그들이 무기를 얻을 기회를 잃은 만큼, 그 손해는 우리에게 새로운 이익으로 돌아올 것입니다."
  IRQ_political_events.76.a: "유감이군."
+ IRQ_political_events.77.t: "[IRQ.GetNameDefCap]의 [680.GetName] 정복"
+ IRQ_political_events.77.desc: "[680.GetName]에서의 신속한 작전 이후, [IRQ.GetAdjective] 군대는 모든 주요 정착지를 점령하고 해당 지역이 자신들의 통제 아래 있다고 선언했습니다."
+ IRQ_political_events.77.a: "우리의 힘이 커진다!"
+ IRQ_political_events.77.b: "어쩔 수 없지."
+ IRQ_political_events.78.t: "[IRQ.GetNameDefCap]의 [680.GetName] 철수"
+ IRQ_political_events.78.desc: "심각한 어려움에 직면한 [IRQ.GetAdjective] 군대는 데이르에조르에서 철수했습니다. 이것이 분쟁이 끝난 건 아니겠지만, 이 지역은 당분간 [SYR.GetAdjective] 영토로 남게 될 것입니다."
+ IRQ_political_events.78.a: "일시적인 차질일 뿐이다..."
+ IRQ_political_events.78.b: "데이르에조르는 굳건하다!"
  #Kurdistan
  IRQ_kurdistan_events.1.t: "쿠르드 민족주의자들의 원조 요청"
  IRQ_kurdistan_events.1.desc: "[IRQ.GetNameDefCap]의 쿠르드 민족주의자들이 우리에게 혁명을 지원해달라고 요청해 왔습니다."

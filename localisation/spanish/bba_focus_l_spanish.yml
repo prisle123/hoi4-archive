@@ -1440,6 +1440,7 @@
  ITA_extraction_industry_oil_tt: "\nAñade la producción de §Y2§!£resources_strip|1 en cada estado completamente controlado que produzca petróleo."
  ITA_expand_the_royal_guard_re_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$modifier_army_sub_unit_cavalry_defence_factor$: §G+5,00%§! \n\n"
  ITA_has_disbanded_blackshirts_tt: "No ha disuelto los Camisas Negras."
+ ITA_has_disbanded_blackshirts_tt_NOT: "NO: ha disuelto a los Camisas Negras."
  ITA_paramilitary_training_re_tt: "$ITA_modify_regio_esercito_dynamic_modifier_ns_intro$ \n$modifier_army_sub_unit_militia_attack_factor$: §G+5,00%§!\n$modifier_army_sub_unit_militia_defence_factor$: §G+5,00%§!\n\n"
  ITA_mobilize_the_railway_guns_military_industry_dm_tt: "$ITA_modify_military_industry_dynamic_modifier_ns_intro$ \n$ITA_mobilize_the_railway_guns_dynamic_modifier_tt$ \n\n"
  ITA_mobilize_railway_guns_tt: "Crea §Y4 $railway_gun_equipment_1$§! unidades en [ROOT.Capital.GetName]."

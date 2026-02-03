@@ -139,6 +139,7 @@
  NORDIC_is_democratic_tt: "Peut créer une alliance commune démocratique"
  NORDIC_is_monarchist_tt: "Peut créer une alliance commune monarchiste"
  NORDIC_alliance_created_already_TT: "N'importe quelle alliance commune a été formée."
+ NORDIC_alliance_created_already_TT_NOT: "Aucune alliance commune n'a été formée."
  NORDIC_airforce_capstone_unlock_TT: "Donne accès à des priorités supplémentaires dans la branche §Y$NORDIC_nordic_airforce$§!."
  NORDIC_navy_capstone_unlock_TT: "Donne accès à des priorités supplémentaires dans la branche §Y$NORDIC_nordic_navy$§!."
  NORDIC_army_capstone_unlock_TT: "Donne accès à des priorités supplémentaires dans la branche §Y$NORDIC_nordic_army$§!."

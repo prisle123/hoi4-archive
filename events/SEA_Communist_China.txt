@@ -1877,7 +1877,10 @@ country_event = {
 				news_event = { id = news.288 days = 1 } # United Front forms
 			}
 			FROM = {
-				hidden_effect = { set_rule = { can_create_factions = yes }}
+				hidden_effect = { 
+					set_rule = { can_create_factions = yes }
+					set_rule = { can_join_factions = yes }
+				}
 				create_faction_from_template = faction_template_chinese_united_front
 				add_to_faction = ROOT
 				set_country_flag = PRC_created_faction_flag
@@ -1953,6 +1956,7 @@ country_event = {
 	option = { #Fools!
 		name = SEA_PRC_faction_events.11.a
 		set_rule = { can_create_factions = yes }
+		set_rule = { can_join_factions = yes }
 		create_faction_from_template = faction_template_PRC_the_peoples_front
 		every_other_country = {
 			limit = {

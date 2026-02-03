@@ -36,6 +36,7 @@ IRQ_historical_plan = {
 		SSB_saadabad_research_cooperation
 		
 		#1936
+		IRQ_ensure_sunni_dominance # 35
 		IRQ_party_of_national_brotherhood
 		IRQ_royal_iraqi_army
 		IRQ_invest_in_ordnance_mountain_howitzers
@@ -80,6 +81,7 @@ IRQ_historical_plan = {
 		IRQ_fligerfuhrer_irak
 		IRQ_restore_regent
 		IRQ_refuge_for_the_grand_mufti
+		IRQ_suppress_tribal_revolts
 		IRQ_anglo_iraqi_oil_expansion
 		IRQ_support_the_allied_war_effort
 

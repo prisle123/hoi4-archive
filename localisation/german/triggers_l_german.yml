@@ -1004,6 +1004,7 @@
  TRIGGER_MORE_THAN_IDEOLOGY_SUPPORT: "Die Unterstützung für die Ideologie ($IDEOLOGY|H$) des Bündnisanführers ist größer als $REQUIRED|H%0$ (derzeit $CURRENT|H%0$)"
  TRIGGER_LESS_THAN_IDEOLOGY_SUPPORT: "Die Unterstützung für die Ideologie ($IDEOLOGY|H$) des Bündnisanführers ist kleiner als $REQUIRED|H%0$ (derzeit $CURRENT|H%0$)"
  TRIGGER_HAS_EQ_IDEOLOGY_SUPPORT: "Die Unterstützung für die Ideologie ($IDEOLOGY|H$) des Bündnisanführers ist gleich $REQUIRED|H%0$ (derzeit $CURRENT|H%0$)"
- GOAL_T_TRIGGER_A: "Die Anzahl an bekannten Technologien im Bündnis ($LEFT|0H$) ist größer als $RIGHT|0H$"
+ GOAL_T_TRIGGER_A: "Durchschnittliche Anzahl bekannter Technologien im Bündnis ($LEFT|0H$) ist größer oder gleich $RIGHT|0H$"
  GOAL_T_TRIGGER_B: "Die Anzahl an Divisionen im Bündnis ($LEFT|0H$) ist größer als $RIGHT|0H$"
  TRIGGER_EQUIPMENT_CURRENT_VALUE: " (derzeitiger Lagerbestand: $CURRENT|H$)"
+ TRIGGER_ENERGY_RATIO: "Energieverhältnis"

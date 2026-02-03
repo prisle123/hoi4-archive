@@ -769,3 +769,4 @@
  ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "在确认主要学说后才能分配§H次要学说§!。"
  TRACK_INACTIVE_EXPLANATION: "§g学说线未激活时，不能分配新的§!§H次要学说§!§g，也不能获得£doctrine_mastery §!§H精通度§!§g§!"
  SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§H该次要学说可从特定单位组获得£doctrine_mastery 精通度：§!"
+ land_mastery_gain_factor_tt: "陆军学说精通度获取$RIGHT|+=%1$"

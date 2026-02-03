@@ -139,6 +139,7 @@
  NORDIC_is_democratic_tt: "민주주의 합동 동맹 형성이 가능함"
  NORDIC_is_monarchist_tt: "군주주의 합동 동맹 형성이 가능함"
  NORDIC_alliance_created_already_TT: "어떠한 합동 동맹도 형성되지 않음."
+ NORDIC_alliance_created_already_TT_NOT: "합동 동맹이 형성되지 않음."
  NORDIC_airforce_capstone_unlock_TT: "§Y$NORDIC_nordic_airforce$§! 계통에 추가 중점 잠금 해제."
  NORDIC_navy_capstone_unlock_TT: "§Y$NORDIC_nordic_navy$§! 계통에 추가 중점 잠금 해제."
  NORDIC_army_capstone_unlock_TT: "§Y$NORDIC_nordic_army$§! 계통에 추가 중점 잠금 해제."

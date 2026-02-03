@@ -10,6 +10,7 @@
  SUB_MESSAGE_new_sub_DESC: ""
  SUB_MESSAGE_POPUP_DLC: "Включены все дополнения!\nНемедленный доступ ко всем дополнениям, наборам стран и моделям подразделений. Вы также будете получать все новые дополнения прямо в день выхода."
  SUBSCRIPTION_WIDGET: "Подпишитесь и получите доступ ко всем дополнениям!"
+ SUBSCRIPTION_WIDGET_SIMP_CHINESE: "Buy NCNS here"
  SUBSCRIPTION_WIDGET_SUBSCRIBED: "Подписка активна!"
  SUBSCRIPTION_RESTART_TITLE: "Загрузить новые материалы"
  SUBSCRIPTION_RESTART_DESCRIPTION: "Все дополнения можно загрузить и установить в Steam. Новые дополнения станут доступны после перезапуска игры."

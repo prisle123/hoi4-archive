@@ -769,3 +769,4 @@
  ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "§Hサブドクトリン§!を割り当てる前に主要ドクトリンの選択を確認してください。"
  TRACK_INACTIVE_EXPLANATION: "§g分岐が有効でない間は新たな§!§Hサブドクトリン§!§gを割り当てることはできず、£doctrine_mastery §!§H習熟度§!§gを獲得することができない。§!"
  SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§Hこのサブドクトリンは特定の部隊から£doctrine_mastery 習熟度を得る:§!"
+ land_mastery_gain_factor_tt: " 陸戦習熟度獲得: $RIGHT|+=%1$"

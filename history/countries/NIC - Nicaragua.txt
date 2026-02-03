@@ -36,6 +36,8 @@ recruit_character = NIC_noel_esto_nino_miranda
 recruit_character = NIC_maximiliano_benito
 recruit_character = NIC_victor_roman_y_reyes
 recruit_character = NIC_manuel_corovel_kirsch
+recruit_character = NIC_benjamin_lacayo_sacasa
+recruit_character = NIC_leonardo_arguello_vargas
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1

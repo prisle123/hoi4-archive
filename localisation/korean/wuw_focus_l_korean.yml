@@ -2212,6 +2212,7 @@
  GER_all_terrain_military_motorcycle_desc: "신속한 정찰의 중요성은 아무리 강조해도 지나치지 않습니다. 오토바이 부대에 투자하면 중요한 전장 정보를 확보하여 전략적 의사 결정과 작전 효율성을 향상시킬 수 있습니다."
  GER_salvage_captured_equipment: "노획한 장비 회수"
  GER_salvage_captured_equipment_desc: "적에게서 노획한 장비를 우리 군에서 회수하여 재활용하기 위한 시설을 설립하면, 노획한 무기, 차량, 기계 등을 재정비하고 통합하여 우리의 군사력을 강화할 수 있습니다."
+ GER_salvage_captured_equipment_custom_tt: "무작위 [ROOT.GetAdjective] 장군 두 명이 §Y노획꾼§! 특성을 획득합니다."
  GER_unlock_operational_planning_blitzkrieg_tt: "결정 잠금 해제: §Y$GER_operational_planning_category$§!, 발동 시 §Y45일§! 동안 효과 부여:"
  GER_unlock_operational_planning_bewegungskrieg_tt: "결정 잠금 해제: §Y$GER_operational_planning_category$§!, 발동 시 §Y90일§! 동안 효과 부여:"
  GER_the_prussian_legacy: "프로이센의 유산"

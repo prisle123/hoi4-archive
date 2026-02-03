@@ -628,6 +628,28 @@
  SEA_japan_foreign_policy.136.desc: "Yesterday, a date which will live in infamy, [ROOT.GetNameDef] was suddenly and deliberately attacked by naval and air forces of the [JAP.GetNameDef]. [ROOT.GetNameDefCap] was at peace with that Nation and, at the solicitation of [JAP.GetNonIdeologyName], was still in conversation with its Government and its Emperor looking toward the maintenance of peace in the Pacific. Indeed, one hour after [JAP.GetAdjective] air squadrons had commenced bombing in the [ROOT.GetAdjective] Island of Oahu, the [JAP.GetAdjective] Ambassador to the United States and his colleague delivered to our Secretary of State a formal reply to a recent [ROOT.GetAdjective] message. And while this reply stated that it seemed useless to continue the existing diplomatic negotiations, it contained no threat or hint of war or of armed attack. But now it is time to face the truth... We are at war!"
  SEA_japan_foreign_policy.136.a: "This day will live on in infamy!"
 
+ SEA_japan_foreign_policy.137.t: "Merging with [MAN.GetNameDef]"
+ SEA_japan_foreign_policy.137.desc: "[JAP.GetLeader] has demanded that we merge our government with [MAN.GetNameDef], ending our independence and giving our leadership high-ranking positions within the [MAN.GetAdjective] government. Do we accept this proposal?"
+ SEA_japan_foreign_policy.137.a: "[ROOT.GetLeader] will gain a good position, so we accept"
+ SEA_japan_foreign_policy.137.b: "That would be the end to our autonomy, no!"
+
+ SEA_japan_foreign_policy.138.t: "[FROM.GetNameDefCap] Merges with Us"
+ SEA_japan_foreign_policy.138.desc: "[FROM.GetLeader] of [FROM.GetNameDef] has accepted the [JAP.GetAdjective] proposal to merge with our government, and the [FROM.GetAdjective] lands now all fall under our jurisdiction. This is a great day for us!"
+ SEA_japan_foreign_policy.138.a: "A Wise Choice"
+
+ SEA_japan_foreign_policy.139.t: "[FROM.GetNameDefCap] Rejects the Merger"
+ SEA_japan_foreign_policy.139.desc: "The shallow [FROM.GetLeader] has refused to see reason, and has rejected our proposal to merge them into the [MAN.GetAdjective] government. Perhaps a better deal, and maybe even a proper dosage of intimidation is in order."
+ SEA_japan_foreign_policy.139.a: "A Great Shame"
+
+ SEA_japan_foreign_policy.140.t: "[MAN.GetLeader] Seeks to Merge Puppet Administrations"
+ SEA_japan_foreign_policy.140.desc: "[MAN.GetLeader] has requested that we merge other Chinese puppet governments with [MAN.GetNameDef], ending their autonomy and giving their lands to the [MAN.GetAdjective] government. Do we accept this proposal?"
+ SEA_japan_foreign_policy.140.a: "Very well, it makes our administrative duties simpler"
+ SEA_japan_foreign_policy.140.b: "Sounds suspicious"
+
+ SEA_japan_foreign_policy.141.t: "[JAP.GetLeader] Rejects our Proposal"
+ SEA_japan_foreign_policy.141.desc: "[JAP.GetLeader] has thoroughly rejected our request to merge other Chinese puppet governments with ours. It seems it was too early for such a move to be readily accepted by the government."
+ SEA_japan_foreign_policy.141.a: "We will have to try again later..."
+
 
 
 
@@ -1265,6 +1287,11 @@
  the_game_will_end_for_us: "§RThe game will end for us§!"
  SEA_china.28.b: "Never!"
 
+# Zhang Xueliang getting thrown in jail
+ SEA_china.29.t: "The fate of $CHI_zhang_xueliang$"
+ SEA_china.29.desc: "In his zeal for the liberty of our country $CHI_zhang_xueliang$ has overstepped his station by a large margin. Normally this would be unacceptable, but we do not live in normal times and while [ROOT.GetLeader] demands that we imprison him, the competence of [CHI_zhang_xueliang.GetName] could prove useful."
+ SEA_china.29.a: "Throw him in jail!"
+ SEA_china.29.b: "We can't afford to lose him..."
 
  SEA_china_improvement.1.t: "A New Class of Officers"
  SEA_china_improvement.1.desc: "The sun is shining, shirts are ironed and boots have been polished. Soldiers stand in neat ranks, listening to [ROOT.GetLeader] that has come to hold a speech for their graduation. Soon the graduates will be at the front, bringing glory to [ROOT.GetNameDef]."
@@ -2074,7 +2101,7 @@ SEA_PHI_political_events.48.desc: "Earlier today we received reports of irregula
 SEA_PHI_political_events.48.desc.2: "Earlier today we received reports of irregularities in [FROM.GetNameDef]. Following this, we have now received a declaration of independence from their government, with a clear statement of support from the [JAP.GetAdjective] government. Although the statement appeals to us to not intervene, the [FROM.GetAdjective] government has made it clear that they would not shun from fighting to maintain their newfound independence, and with [JAP.GetAdjective] backing."
 SEA_PHI_political_events.48.desc.3: "Earlier today we received reports of irregularities in [FROM.GetNameDef]. Following this, we have now received a declaration of independence from their government, with a clear statement of support from a few South American governments. Although the statement appeals to us to not intervene, the [FROM.GetAdjective] government has made it clear that they would not shun from fighting to maintain their newfound independence, and with South American backing."
 SEA_PHI_political_events.48.desc.4: "Earlier today we received reports of irregularities in [FROM.GetNameDef]. Following this, we have now received a declaration of independence from their government, with a clear statement of support from the [SPR.GetAdjective] government. Although the statement appeals to us to not intervene, the [FROM.GetAdjective] government has made it clear that they would not shun from fighting to maintain their newfound independence, and with [SPR.GetAdjective] backing."
-SEA_PHI_political_events.48.desc.5: "Earlier today we received reports of irregularities in [FROM.GetNameDef]. Following this, we have now received a declaration of independence from their government, with a clear statement of support from the the [SPR.GetAdjective] and some South American governments. Although the statement appeals to us to not intervene, the [FROM.GetAdjective] government has made it clear that they would not shun from fighting to maintain their newfound independence, and with the backing of its Hispanic allies."
+SEA_PHI_political_events.48.desc.5: "Earlier today we received reports of irregularities in [FROM.GetNameDef]. Following this, we have now received a declaration of independence from their government, with a clear statement of support from the [SPR.GetAdjective] and some South American governments. Although the statement appeals to us to not intervene, the [FROM.GetAdjective] government has made it clear that they would not shun from fighting to maintain their newfound independence, and with the backing of its Hispanic allies."
 SEA_PHI_political_events.48.a: "We were going to give them it anyway"
 SEA_PHI_political_events.48.b: "They aren't ready yet"
 
@@ -2562,13 +2589,44 @@ SEA_generic_events.15.b: "Blame the protestors"
  SEA_warlords.67.a: "We will gain it back one day..."
 
  SEA_warlords.68.t: "Guominjun Generals Defect to [FROM.GetNameDef]"
- SEA_warlords.68.desc: "Feng Yuxiang and his soldiers once loyal to the the Guominjun, an organization that once rebelled against us and rejoined after we crushed them, are now defecting to [FROM.GetNameDef] as [FROM.GetLeader] has declared the revival of the military organization."
+ SEA_warlords.68.desc: "Feng Yuxiang and his soldiers once loyal to the Guominjun, an organization that once rebelled against us and rejoined after we crushed them, are now defecting to [FROM.GetNameDef] as [FROM.GetLeader] has declared the revival of the military organization."
  SEA_warlords.68.a: "The Guominjun's specter still haunts us..."
 
  SEA_warlords.69.t: "Dissolution of the Hebei-Chahar Political Council"
  SEA_warlords.69.desc: "Having fallen to enemy forces, the Hebei-Chahar Political Council which acted as a local autonomy to honor the demands for regional demilitarization made by Japan as part of the He-Umezu agreement no longer serves any real purpose. Perhaps it may be time to reign their leadership in, and bring their forces under the command of the central government."
  SEA_warlords.69.a: "They have served their purpose"
  SEA_warlords.69.b: "They may still be of use to us"
+
+ SEA_warlords.70.t: "The Legacy of the Pingnan Guo"
+ SEA_warlords.70.desc: "Having now achieved what was sought after by our people during the Panthay and Dungan Rebellions, ousting all remnants of Qing and Kuomintang rule from China, many have come to question the nature by which we rule the land. Should we take up the mantle of Du Wenxiu and bring forth our new golden era, or take the safer route and follow in the footsteps of Yuan Shikai?"
+ SEA_warlords.70.a: "The time has come at long last for a new type of government!"
+ SEA_warlords.70.b: "We will be an empire once more!"
+ SEA_warlords.70.c: "Long Live the Great Ma Dynasty!"
+
+ SEA_warlords.71.t: "[FROM.GetLeader] Requests Aid"
+ SEA_warlords.71.desc: "[FROM.GetLeader] has requested our aid in the fight against [SIK.GetLeader]. While losing them would mean we lose our family's footing in the province, it is also vital that we don't let the communists to our east seize the opportunity when our troops are off fighting elsewhere."
+ SEA_warlords.71.a: "We shall aid them in their fight against communism!"
+ SEA_warlords.71.b: "We already have enough problem to deal with"
+
+ SEA_warlords.72.t: "Aid Arrives from [FROM.GetNameDef]"
+ SEA_warlords.72.desc: "[FROM.GetLeader] of [FROM.GetNameDef] has decided to fully stand behind our efforts to ensure the Soviets don't seize our province, and with that risking their own relationship with the state."
+ SEA_warlords.72.a: "With this we can turn the tide!"
+
+ SEA_warlords.73.t: "No Aid Arrives from [FROM.GetNameDef]"
+ SEA_warlords.73.desc: "[FROM.GetLeader] of [FROM.GetNameDef] has decided to not lend us any aid to please the Soviet authorities as they value their partnership with the nation far more than our survival."
+ SEA_warlords.73.a: "Those damn traitors"
+
+ SEA_warlords.74.t: "The Fall of the Khotan Ma Clique"
+ SEA_warlords.74.desc: "Following a coup d'etat against Ma Hushan, many of our family members have begun flooding across the border to join up with us to retake their now lost clique in due time."
+ SEA_warlords.74.a: "We welcome you brothers"
+
+ SEA_warlords.75.t: "[FROM.GetLeader] Wishes to Begin the Suiyuan Campaign"
+ SEA_warlords.75.desc: "The Inner Mongolian Army and Grand Han Righteous Army stand ready to launch an operation into the territories of warlord [SHX.GetLeader], provided they get our air support and supervision by Japanese staff officers. Perhaps we can secure more of Inner Mongolia without proving a larger-scale war in China."
+ SEA_warlords.75.a: "They are welcome to try"
+ SEA_warlords.75.b: "A foolish idea"
+
+ JAP_suiyuan_campaign_has_started_flag: " The Suiyuan Campaign has Begun"
+ JAP_suiyuan_campaign_has_ended_flag: " The Suiyuan Campaign has Ended"
  
  SEA_warlords.100.t: "[XIC.GetName] Betrays [ROOT.GetLeader]"
  SEA_warlords.100.desc: "An urgent report has come from [XIC.GetNameDef] stating that [XIC.GetLeader] has withdrawn his troops from [1032.GetName], letting [PRC.GetNameDef] forces pour into the region and claiming it as their own. The entire purpose of [XIC.GetName] was to keep [PRC.GetName] in check and to eradicate them - not help them."
@@ -2588,7 +2646,7 @@ SEA_generic_events.15.b: "Blame the protestors"
  ##MANCHUKUO##
  #############
  tsr_manchukuo.1.t: "The Question of Leadership"
- tsr_manchukuo.1.desc: "The position of the Emperor has always been a bit of a sore in the the side of Manchuria's position as an empire. With the nation functionally acting as a republic under the rule of prime minister Zhang Jinghui and the Kwantung Army the Emperor is very weak, barely functioning as a figurehead. This could all be changed though, as some Kwantung Army officers are of the belief that for the nation to prosper, the throne must be firmly in the hands of the Emperor. But there are also those who see Puyi as weak and unreliable, and would much rather the throne fell in the hands of his Japanese-educated brother, Pujie."
+ tsr_manchukuo.1.desc: "The position of the Emperor has always been a bit of a thorn in the side of Manchuria's position as an empire. With the nation functionally acting as a republic under the rule of prime minister Zhang Jinghui and the Kwantung Army the Emperor is very weak, barely functioning as a figurehead. This could all be changed though, as some Kwantung Army officers are of the belief that for the nation to prosper, the throne must be firmly in the hands of the Emperor. But there are also those who see Puyi as weak and unreliable, and would much rather the throne fell in the hands of his Japanese-educated brother, Pujie."
  tsr_manchukuo.1.a: "We should keep the status quo"
  tsr_manchukuo.1.b: "Puyi should have his throne!"
  tsr_manchukuo.1.c: "The emperor can't be trusted, Pujie is the right choice"
@@ -2688,7 +2746,7 @@ SEA_generic_events.15.b: "Blame the protestors"
  tsr_manchukuo_border_war.2.a: "A Temporary Setback..."
  tsr_manchukuo_border_war.2.b: "Kalgan stands!"
  tsr_manchukuo_border_war.3.t: "[MAN.GetNameDefCap] Conquers [608.GetName]"
- tsr_manchukuo_border_war.3.desc: "Following the [MAN.GetAdjective] army's triumphant march into Beijing, the the [CHI.GetAdjective] army has retreated south to a more defensible position."
+ tsr_manchukuo_border_war.3.desc: "Following the [MAN.GetAdjective] army's triumphant march into Beijing, the [CHI.GetAdjective] army has retreated south to a more defensible position."
  tsr_manchukuo_border_war.3.a: "Beijing is finally ours!"
  tsr_manchukuo_border_war.3.b: "They leave us no choice, withdraw!"
  tsr_manchukuo_border_war.4.t: "[MAN.GetNameDefCap] withdraws from [608.GetName]"

@@ -26,6 +26,9 @@
  IRQ_ahmed_barzani: "シェイク・アフメド・バルザニイ"
  IRQ_mustafa_barzani: "ムスタファ・バルザニイ"
  GER_oskar_von_nidermayer: "オスカー・フォン・ニーダーマイヤー"
+ YEM_imam_yahya: "イマーム・ヤヒヤー・ムハンマド・ハミードゥッディーン"
+ OMA_said_bin_taimur: "サイード・ビン・タイムール"
+ SAU_abdulaziz_ibn_saud: "アブドゥルアズィーズ・イブン・サウード"
  #RAJ#
  RAJ_GOE_j_r_d_tata: "Ｊ. Ｒ. Ｄ. タタ"
  RAJ_GOE_jawaharlal_nehru: "ジャワハルラール・ネルー"
@@ -167,6 +170,7 @@
  AFG_nur_muhammad_taraki: "ヌール・ムハンマド・タラキー"
  AFG_sheikh_omar_mojadidi: "ヌルル・マシャウィフ・シャイフ・ファズル・オマル・モジャディディ"
  AFG_sher_khan_nashir: "シェル・カーン・ナシル"
+ AFG_abdul_hadi_dawi: "アブドゥル・ハディ・ダウィー"
  BUK_mohammed_alim_khan: "サイイド・ミール・ムハンマド・アーリム・ハーン"
  BUK_polat_usmon: "ポラト・ウスマン・ホジャエフ"
  ##################
@@ -201,3 +205,9 @@
  IRQ_akram_mushtak: "アクラム・ムシュタク"
  IRQ_muhammad_ali_jawad: "ムハンマド・アリ・ジャワド"
  IRQ_maruf_al_rusafi: "マルーフ・アル・ルサフィ"
+ IRQ_ahmed_rushdi_muhammad: "アフマド・ルシュディ・ビン・アル＝ハッジ・ムハンマド"
+ IRQ_jamil_ahmad_abullah_al_rawi: "ジャミール・アフマド・アブドゥッラー・アル＝ラウィー"
+ IRQ_kamil_al_jaderji: "カーミル・チャーディルジー"
+ IRQ_mohamed_hadid: "モハンマド・ハディード"
+ IRQ_jafar_al_timman: "ジャファール・アブー・アル＝ティンマン"
+ IRQ_mohamed_mahdi_kubba: "ムハンマド・マフディー・クッバ"

@@ -473,10 +473,8 @@ add_opinion_modifier = { target = CHI modifier = hostile_status }
 	add_state_claim = 609
 	add_state_claim = 597
 	add_state_claim = 614
-	add_state_claim = 525
 	add_state_claim = 608
 	add_state_claim = 615
-	add_state_claim = 527
 
 	add_ideas = {
 		#laws

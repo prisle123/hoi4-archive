@@ -769,3 +769,4 @@
  ASSIGN_SUBDOCTRINE_AFTER_GRAND_DOCTRINE: "Confirma qué gran doctrina deseas seleccionar antes de asignar una §Hdoctrina secundaria§!."
  TRACK_INACTIVE_EXPLANATION: "§gCuando una línea está inactiva, no es posible asignar §!§Hdoctrinas secundarias§!§g ni ganar £doctrine_mastery §!§Hmaestría§!§g.§!"
  SUBDOCTRINE_OVERRIDE_MASTERY_TITLE: "§HEsta doctrina secundaria gana £doctrine_mastery maestría gracias un conjunto de unidades específico:§!"
+ land_mastery_gain_factor_tt: " Ganancia de maestría en tierra: $RIGHT|+=%1$"

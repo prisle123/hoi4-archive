@@ -562,6 +562,29 @@ country_event = { ## US leaves PHI interior politics alone - auto complete treat
 
 		add_political_power = 50
 		add_stability = 0.05	
+
+		if = {
+			limit = {
+				is_subject = yes
+				overlord = {
+					original_tag = USA
+				}
+			}
+			overlord = {
+				end_puppet = ROOT
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = USA
+			}
+			every_allied_country = {
+				limit = {
+					is_faction_leader = yes
+				}
+				remove_from_faction = ROOT
+			}
+		}
 	}
 }
 

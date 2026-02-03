@@ -1416,22 +1416,27 @@ focus_tree = {
 			every_other_country = {
 				limit = {
 					OR = {
-						tag = GXC
-						tag = YUN
-						tag = SHX
-						tag = XSM
-						tag = SIK
-						tag = GDC
-						tag = SND
-						tag = SIC
-						tag = XIC
-						tag = NXM
-						tag = GSM
-						tag = KHM
-						tag = HBC
+						original_tag = GXC
+						original_tag = YUN
+						original_tag = SHX
+						original_tag = XSM
+						original_tag = SIK
+						original_tag = GDC
+						original_tag = SND
+						original_tag = SIC
+						original_tag = XIC
+						original_tag = NXM
+						original_tag = GSM
+						original_tag = KHM
+						original_tag = HBC
 					}
+					is_subject = no 
 				}
-				country_event = { id = wtt_china.1 }
+				country_event = { 
+					id = wtt_china.1 
+					hours = 4
+					random_hours = 6 
+				}
 			}
 			unlock_decision_category_tooltip = CHI_integrate_the_warlords
 		}
@@ -1931,7 +1936,31 @@ focus_tree = {
 
 	focus = {
 		id = CHI_tsr_restoration_of_the_chinese_empire
-		icon = GFX_focus_CHI_a_second_empire_of_china
+
+		icon = {
+			trigger = {
+				original_tag = KUM 
+			}
+			value = GFX_focus_CHI_a_second_yuan_empire
+		}
+		icon = {
+			trigger = {
+				OR = {
+					original_tag = XSM 
+					original_tag = KHM 
+					original_tag = NXM 
+					original_tag = GSM 
+				}
+			}
+			value = GFX_focus_CHI_a_second_panthay_empire
+		}
+		icon = {
+			trigger = {
+				always = yes
+			}
+			value = GFX_focus_CHI_a_second_empire_of_china
+		} 
+
 		x = -2
 		y = 2
 
@@ -2002,7 +2031,101 @@ focus_tree = {
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
-			set_cosmetic_tag = TSR_empire_of_china
+			IF = {
+				limit = {
+					original_tag = KUM
+				}
+				set_cosmetic_tag = CHI_great_yuan
+			}
+			ELSE_IF = {
+				limit = {
+					AND = {
+						OR = {
+							original_tag = XSM 
+							original_tag = KHM 
+							original_tag = NXM 
+							original_tag = GSM 
+						}
+						OR = {
+							has_country_leader = {
+								ruling_only = yes
+								character = XSM_ma_buqing
+							}
+							has_country_leader = {
+								ruling_only = yes
+								character = XSM_ma_hongkui
+							}	
+							has_country_leader = {
+								ruling_only = yes
+								character = KHM_ma_hushan
+							}	
+							has_country_leader = {
+								ruling_only = yes
+								character = QHM_ma_lin
+							}	
+							has_country_leader = {
+								ruling_only = yes
+								character = XSM_ma_bufang	
+							}	
+							has_country_leader = {
+								ruling_only = yes
+								character = XSM_ma_hongbin
+							}	
+						}
+					}
+				}
+				country_event = {
+					id = SEA_warlords.70 
+				}	
+				effect_tooltip = {
+					set_cosmetic_tag = CHI_great_ma 
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					OR = {
+						original_tag = XSM 
+						original_tag = KHM 
+						original_tag = NXM 
+						original_tag = GSM 
+					}
+					NOT = {
+						has_country_leader = {
+							ruling_only = yes
+							character = XSM_ma_buqing
+						}
+						has_country_leader = {
+							ruling_only = yes
+							character = XSM_ma_hongkui
+						}	
+						has_country_leader = {
+							ruling_only = yes
+							character = KHM_ma_hushan
+						}	
+						has_country_leader = {
+							ruling_only = yes
+							character = QHM_ma_lin
+						}	
+						has_country_leader = {
+							ruling_only = yes
+							character = XSM_ma_bufang	
+						}	
+						has_country_leader = {
+							ruling_only = yes
+							character = XSM_ma_hongbin
+						}	
+					}
+				}
+				country_event = {
+					id = SEA_warlords.70 
+				}	
+				effect_tooltip = {
+					set_cosmetic_tag = CHI_panthay_empire 
+				}
+			}
+			ELSE = {
+				set_cosmetic_tag = TSR_empire_of_china
+			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
@@ -2017,9 +2140,27 @@ focus_tree = {
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
-			set_province_name = { id = 9843 name = PRC_beijing_capital_name }
-			608 = {
-				set_state_name = PRC_beijing_capital_name
+			IF = {
+				limit = {
+					original_tag = KUM
+				}
+				set_province_name = { id = 9843 name = beijing_winter_capital_name }
+				608 = {
+					set_state_name = beijing_winter_capital_name
+				}
+				hidden_effect = {
+					set_province_name = { id = 7674 name = yuan_summer_capital_name }
+				}
+				add_victory_points = {
+					province = 7674
+					value = 5 
+				}	
+			}
+			ELSE = {
+				set_province_name = { id = 9843 name = PRC_beijing_capital_name }
+				608 = {
+					set_state_name = PRC_beijing_capital_name
+				}
 			}
 
 		}

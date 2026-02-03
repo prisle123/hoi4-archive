@@ -572,6 +572,7 @@
  DR_GUARANTEE: "§Y$US|U$§!被§Y$THEM$§!保障独立： "
  DR_GUARANTEEING: "§Y$US|U$§!保障§Y$THEM$§!的独立： "
  DR_SAME_IDEOLOGY: "§Y$THEM|U$§!有着形同的意识形态： "
+ DR_DIFFERENT_IDEOLOGY: "§Y$THEM|U$§!有着不同的意识形态："
  DR_FACTION_LOW_TENSION: "全球紧张度为§R$TENSION_DIFF$§!，对§Y$THEM$§!加入§Y$US$§!阵营来说过低"
  DR_FACTION_TENSION: "全球紧张度：§G$TENSION_DIFF$§!"
  DR_FACTION_SURRENDER: "§Y$THEM|U$§!在战争中处于劣势："

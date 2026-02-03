@@ -1004,6 +1004,7 @@
  TRIGGER_MORE_THAN_IDEOLOGY_SUPPORT: "O apoio à ideologia do líder da facção ($IDEOLOGY|H$) é maior que $REQUIRED|H%0$ (Atual: $CURRENT|H%0$)"
  TRIGGER_LESS_THAN_IDEOLOGY_SUPPORT: "O apoio à ideologia do líder da facção ($IDEOLOGY|H$) é menor que $REQUIRED|H%0$ (Atual: $CURRENT|H%0$)"
  TRIGGER_HAS_EQ_IDEOLOGY_SUPPORT: "O apoio à ideologia do líder da facção ($IDEOLOGY|H$) é igual a $REQUIRED|H%0$ (Atual: $CURRENT|H%0$)"
- GOAL_T_TRIGGER_A: "Número de tecnologias conhecidas na facção ($LEFT|0H$) é maior que $RIGHT|0H$"
+ GOAL_T_TRIGGER_A: "A média de tecnologias conhecidas na facção ($LEFT|0H$) é igual ou superior a $RIGHT|0H$"
  GOAL_T_TRIGGER_B: "Número de divisões na facção ($LEFT|0H$) é maior que $RIGHT|0H$"
  TRIGGER_EQUIPMENT_CURRENT_VALUE: " (estoque atual: $CURRENT|H$)"
+ TRIGGER_ENERGY_RATIO: "Taxa de energia"

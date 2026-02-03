@@ -2172,6 +2172,7 @@ country_event = {
 		add_war_support = 0.05
 		hidden_effect = {
 			event_target:SSB_leader = { country_event = { id = PER_imperial_events.202 hours = 6 random = 8 } }
+			set_country_flag = saadabad_pact_rejected
 		}
 	}
 }
@@ -2348,6 +2349,13 @@ country_event = {
 			character = PER_mohammad_mosaddegh 
 			ideology = conservatism 
 		}
+
+		set_party_name = {
+			ideology = democratic
+			long_name = PER_iran_party_dem_long
+			name = PER_iran_party_dem
+		}	
+
 	}
 	# guy 2
 	option = {
@@ -2360,6 +2368,13 @@ country_event = {
 			character = PER_mohammad_ali_foroughi 
 			ideology = conservatism 
 		}
+
+		set_party_name = {
+			ideology = democratic
+			long_name = PER_revival_party_dem_long
+			name = PER_revival_party_dem
+		}	
+
 	}
 	# guy 3
 	#option = {
@@ -2672,6 +2687,17 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
+
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no 
+		}	
+
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.2
+		}	
+
 	}
 }
 
@@ -3738,7 +3764,7 @@ country_event = {
 	title = PER_communist_events.20.t
 	desc = PER_communist_events.20.desc
 	picture = GFX_report_event_generic_read_write
-	fire_only_once = no
+	fire_only_once = yes
 	is_triggered_only = yes
 	# Release the Republic of Mahabad
 	option = {

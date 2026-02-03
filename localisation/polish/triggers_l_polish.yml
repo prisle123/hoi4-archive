@@ -1004,6 +1004,7 @@
  TRIGGER_MORE_THAN_IDEOLOGY_SUPPORT: "Poparcie dla ideologii lidera frakcji ($IDEOLOGY|H$) wynosi więcej niż $REQUIRED|H%0$ (obecnie $CURRENT|H%0$)"
  TRIGGER_LESS_THAN_IDEOLOGY_SUPPORT: "Poparcie dla ideologii lidera frakcji ($IDEOLOGY|H$) wynosi mniej niż $REQUIRED|H%0$ (obecnie $CURRENT|H%0$)"
  TRIGGER_HAS_EQ_IDEOLOGY_SUPPORT: "Poparcie dla ideologii lidera frakcji ($IDEOLOGY|H$) jest równe $REQUIRED|H%0$ (obecnie $CURRENT|H%0$)"
- GOAL_T_TRIGGER_A: "Liczba znanych we frakcji technologii ($LEFT|0H$) wynosi więcej niż $RIGHT|0H$"
+ GOAL_T_TRIGGER_A: "Średnia liczba znanych we frakcji technologii ($LEFT|0H$) wynosi co najmniej $RIGHT|0H$"
  GOAL_T_TRIGGER_B: "Liczba dywizji frakcji ($LEFT|0H$) wynosi więcej niż $RIGHT|0H$"
  TRIGGER_EQUIPMENT_CURRENT_VALUE: " (bieżące zapasy: $CURRENT|H$)"
+ TRIGGER_ENERGY_RATIO: "Współczynnik energii"

@@ -25,6 +25,8 @@ CHI_sea_warlord_alternate_plan_nationalist = {
 		GXC_denounce_chiang
 		GXC_formation_of_the_nraja
 		GXC_declare_opposition
+		XSM_sideline_family_conflicts
+		KHM_expand_the_madrasas
 		KHM_call_for_aid
 		KHM_push_them_back
 		KHM_the_sinkiang_ma_clique
@@ -53,6 +55,15 @@ CHI_sea_warlord_alternate_plan_nationalist = {
 		XIC_form_the_anti_japanese_comrades_association
 		XIC_withdraw_forces_from_yanan
 		XIC_invite_chiang_for_troop_inspections
+		YUN_rally_around_long_yun
+		YUN_expand_local_infrastructure
+		YUN_strive_for_self_sufficiency
+		YUN_a_land_of_mountains
+		YUN_political_reforms
+		YUN_eduational_reforms
+		YUN_the_democratic_fortress
+		MA_develop_inter_province_ties
+		MA_strenghten_regional_trade
 	}
 
 
@@ -132,6 +143,7 @@ CHI_sea_warlord_alternate_plan_communist = {
 		SIK_cooperate_with_the_nkvd
 		SIK_three_year_plan_for_reconstruction
 		SIK_a_new_nationality_policy
+		SIK_settle_dzungarian_tribes
 		SIK_ensure_a_clean_government
 
 		SIK_a_new_xinjiang # As soon as it's unlocked 

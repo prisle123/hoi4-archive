@@ -882,6 +882,9 @@ CHI_setup_colonized_countries_to_liberate_array = {
 					exists = no #the country does not exist
 					any_state = {
 						is_core_of = PREV #the state is a core of the non-existing country
+						NOT = {
+							is_core_of = ROOT
+						}
 						OR = {
 							is_on_continent = asia #the state is in Asia
 							is_on_continent = australia #the state is in Oceania

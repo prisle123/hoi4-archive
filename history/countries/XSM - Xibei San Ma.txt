@@ -24,6 +24,14 @@ set_variable = { RNG_state_shintoism_research_speed_factor = 0 }
 set_variable = { RNG_state_shintoism_recruitable_population_factor = 0 }
 set_variable = { RNG_state_shintoism_political_power_gain = 0 }
 
+# The Ma Clique Collective 
+set_variable = { CHI_ma_clique_collective_cavalry_attack_factor = 0.05 }
+set_variable = { CHI_ma_clique_collective_political_power_factor = 0 }
+set_variable = { CHI_ma_clique_collective_production_speed_infrastructure_factor = 0 }
+set_variable = { CHI_ma_clique_collective_conscription_factor = 0 }
+set_variable = { CHI_ma_clique_collective_cavalry_defence_factor = 0 }
+set_variable = { CHI_ma_clique_collective_army_core_defence_factor = 0 }
+
 IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
@@ -56,9 +64,19 @@ IF = {
 		has_dlc = "No Compromise, No Surrender"
 	}
 	recruit_character = QHM_ma_lin
+	recruit_character = GSM_ma_yuanxiang
+	recruit_character = XSM_wang_jingzhai
+	recruit_character = XSM_han_youwen
+	recruit_character = XSM_han_yimu
 	set_technology = {
 		gw_artillery = 1
 	}
+	add_ideas = {
+		CHI_warlord_looting_idea
+	}
+	add_dynamic_modifier = {
+		modifier = CHI_ma_clique_collective
+	}	
 	ELSE = {
 		recruit_character = XSM_ma_hongbin
 		recruit_character = XSM_ma_buqing
@@ -82,6 +100,8 @@ recruit_character = XSM_li_shiqun
 recruit_character = XSM_fang_jing
 recruit_character = XSM_zi_shen
 
+set_stability = 0.5
+set_war_support = 0.5
 
 if = {
 	limit = {

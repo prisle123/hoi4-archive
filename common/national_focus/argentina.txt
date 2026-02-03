@@ -3835,7 +3835,24 @@ focus_tree = {
 		relative_position_id = ARG_envoy_to_london
 		cost = 10
 		available = {
+			NOT = {
+				299 = {
+					is_owned_and_controlled_by = ROOT
+				}
+				720 = {
+					is_owned_and_controlled_by = ROOT
+				}
+			}
 		}
+		bypass = {
+			299 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			720 = {
+				is_owned_and_controlled_by = ROOT
+			}
+		}
+
 
 		ai_will_do = {
 			factor = 5
@@ -3844,14 +3861,20 @@ focus_tree = {
 		search_filters = { }
 
 		completion_reward = { 
-			ENG = {
+			every_other_country = {
+				limit = {
+					OR = {
+						controls_state = 299
+						controls_state = 720
+					}
+				}
 				country_event = {
-				id = ARG_political_events.5
-				hours = 1
+					id = ARG_political_events.5
+					hours = 1
+				}
 			}
 		}
 	}
-}
 
 	focus = { #COOPERATION
 		id = ARG_improving_the_islands

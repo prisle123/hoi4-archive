@@ -15,6 +15,8 @@
  rename_ulanbaatar_monarchist_decision: "Restore Urga"
  rename_ulanbaatar_non_monarchist_decision: "Restore Ikh Khüree"
 
+ reorganize_manchuria_decision: "Reorganize Manchuria"
+
  RNG_core_state: "Integrate §Y[FROM.GetName]§! into the new Chinese Administration"
  RNG_coring_state_in_progress: " Integration of a state is in progress."
 
@@ -43,6 +45,8 @@
  PSR_coring_state_in_progress: " Integration of a state is in progress."
 
  SOV_cancel_the_japanese_resource_rights_to_sakhalin_decision: "Cancel the [JAP.GetAdjective] Resource Rights to §Y[655.GetName]§!"
+
+ MEN_request_initiation_of_the_suiyuan_campaign_decision: "Request Initiation of the Suiyuan Campaign"
 
  ###################
  ###### JAPAN ######
@@ -913,6 +917,8 @@ PHI_sugar_excise_divisions: "Fund Training Exercise with Sugar Fund"
  CHI_warlord_core_manchuria: "Integrating [FROM.GetName]"
  MAN_china_matters: "Chinese Matters"
  MAN_request_full_control_over_china: "Request Full Control Over China"
+ MAN_unify_with_specific_japanese_puppet_decision: "Request Total Integration of [FROM.GetName]"
+ MAN_is_currently_seeking_to_merge_a_puppet_government_into_them_flag: " [MAN.GetNameDefCap] is currently seeking to annex another [JAP.GetAdjective] puppet administration"
  MAN_yong_ying_category: "The Yong Ying"
  MAN_yong_ying_category_desc: "The Yong Ying, or brave camps, are a form of militia used during the Qing era with the Braves being militiamen recruited from the local population. Publicly funded rather than part of the standing army, they served independently, often in the purpose of self-defense. We should seek to perfect this system to efficiently use it in coming wars."
  MAN_expand_yong_ying_recruitment: "Expand Yong Ying Recruitment"
@@ -950,9 +956,12 @@ PHI_sugar_excise_divisions: "Fund Training Exercise with Sugar Fund"
  CHI_stalemate_tt: "The war will result in a stalemate and troops will return to their original positions"
  GDC_holding_out: "Holding out"
  GDC_survival_tt: "If we hold out for a year the war will stagnate and our position in Liangguang will remain. Any neighboring Republican States that have fallen under our control will remain part of our Clique when the stalemate happens"
+ MAN_warlord_autonomy_drift_decision: "§Y[FROM.GetName]§! Integration Efforts"
+
+ YUN_core_state: "Integrate §Y[FROM.GetName]§! into our Province"
 
  XIC_war_in_yanan: "The Sixth Encirclement Campaign"
- XIC_war_in_yanan_desc: "With the advent of resumed war in Shaanxi province it is only a matter of time until the the Bandit Suppression Army's troops give up and desert. If we are to win we must strike fast and decisively."
+ XIC_war_in_yanan_desc: "With the advent of resumed war in Shaanxi province it is only a matter of time until the Bandit Suppression Army's troops give up and desert. If we are to win we must strike fast and decisively."
  XIC_war_halting: "The Offensive Running out of Steam"
  XIC_stalemate_tt: "The war will result in a stalemate and troops will return to their original positions, unless we can defeat [PRC.GetNameWithFlag] within the specified time."
  PRC_holding_out: "Holding out"
@@ -993,3 +1002,6 @@ PHI_sugar_excise_divisions: "Fund Training Exercise with Sugar Fund"
  BRM_blow_up_the_oil_fields: "Blow up the Burmese Oil Fields"
  BRM_blown_up_oil_fields: "Destroyed Oil Fields and Mines"
  BRM_repair_the_oil_fields: "Repair the Oil Fields"
+
+ develop_guapore_casserite_deposits: "Develop [942.GetName] Cassiterite Deposits"
+ rename_guapore_to_rondonia_decision: "Establish the Federal Territory of Rondônia"

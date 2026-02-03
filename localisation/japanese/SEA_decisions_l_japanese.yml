@@ -9,6 +9,7 @@
  unite_hui_states: "回族の統合"
  rename_ulanbaatar_monarchist_decision: "ウルガの再興"
  rename_ulanbaatar_non_monarchist_decision: "イヘ・フレーの再興"
+ reorganize_manchuria_decision: "満洲の再編"
  RNG_core_state: "§Y[FROM.GetName]§!を新たな中国政権に統合する"
  RNG_coring_state_in_progress: " 国家統合を実行中。"
  KOR_regain_core_on_state_decision: "§Y[FROM.GetName]§!の秩序回復"
@@ -31,6 +32,7 @@
  PSR_core_state: "§Y[FROM.GetName]§!を第二共和国に統合"
  PSR_coring_state_in_progress: " 国家統合を実行中。"
  SOV_cancel_the_japanese_resource_rights_to_sakhalin_decision: "§Y[655.GetName]§!に対する[JAP.GetAdjective]の資源の権利を取り消す"
+ MEN_request_initiation_of_the_suiyuan_campaign_decision: "綏遠作戦の開始を要請"
  ###################
  ###### JAPAN ######
  ###################
@@ -742,6 +744,8 @@
  CHI_warlord_core_manchuria: "[FROM.GetName]を統合中"
  MAN_china_matters: "中国の問題"
  MAN_request_full_control_over_china: "中国の完全な支配権を要求"
+ MAN_unify_with_specific_japanese_puppet_decision: "[FROM.GetName]の完全統合を要請"
+ MAN_is_currently_seeking_to_merge_a_puppet_government_into_them_flag: " [MAN.GetNameDefCap]は現在、[JAP.GetAdjective]の別の傀儡政権を併合しようとしている"
  MAN_yong_ying_category: "勇営"
  MAN_yong_ying_category_desc: "「勇ましい陣営」と書いて勇営と呼ばれた彼らは清朝時代の民兵部隊の1形態である。勇と呼ばれた民兵たちは地元の住民から徴用され、常設軍の一部としてではなく、独立した部隊として、主に防衛目的で公費で運営されていた。我々は来たる戦争に向けてこの制度を完全再現し、効率的に運用することを目指すべきである。"
  MAN_expand_yong_ying_recruitment: "勇営の採用拡大"
@@ -778,6 +782,8 @@
  CHI_stalemate_tt: "戦争は膠着状態におちいり、各部隊は持ち場に帰るだろう"
  GDC_holding_out: "持ちこたえる"
  GDC_survival_tt: "1年間持ちこたえれば、戦況は停滞し、両広における我々の地位は維持されるだろう。膠着状態になれば、我々の支配下に落ちた隣接する共和主義諸州は我々の軍閥にとどまることになる。"
+ MAN_warlord_autonomy_drift_decision: "§Y[FROM.GetName]§!統合に向けた努力"
+ YUN_core_state: "§Y[FROM.GetName]§!を我々の省へ統合"
  XIC_war_in_yanan: "第6次囲剿作戦"
  XIC_war_in_yanan_desc: "陝西省において戦争が再開したことを受け、剿匪軍の部隊が諦めて逃走するのは時間の問題だ。我々が勝つためには、迅速かつ決定的な攻撃を加えなければならない。"
  XIC_war_halting: "戦況が失速"
@@ -815,3 +821,5 @@
  BRM_blow_up_the_oil_fields: "バーマの油田を爆破せよ"
  BRM_blown_up_oil_fields: "油田と鉱山を破壊した"
  BRM_repair_the_oil_fields: "油田の修復"
+ develop_guapore_casserite_deposits: "[942.GetName]錫石鉱床の開発"
+ rename_guapore_to_rondonia_decision: "ロンドニア連邦直轄領を設立"

@@ -72,6 +72,7 @@ IF = {
 	recruit_character = AFG_nur_muhammad_taraki
 	recruit_character = AFG_inyatullah_khan
 	recruit_character = AFG_sheikh_omar_mojadidi
+	recruit_character = AFG_abdul_hadi_dawi
 
 	# Generics
 	recruit_character = AFG_generic_army_1

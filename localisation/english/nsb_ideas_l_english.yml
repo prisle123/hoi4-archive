@@ -9,7 +9,7 @@
  material_destruction_spirit_desc:2 "Destruction of equipment and disruption of the enemy's lines of communication shall seal victory faster than any number of inflicted casualties."
  air_modernizers_spirit:0 "Air Modernizers"
  air_modernizers_spirit_desc:1 "It hasn't been long since the Fokker E.III was the best fighter in the world. Things change fast."
- industry_liasons_spirit:0 "Industry Liasons"
+ industry_liasons_spirit:0 "Industry Liaisons"
  industry_liasons_spirit_desc:1 "Only frictionless cooperation between the aircraft industry, military, and government will ensure the highest quality."
  air_crew_surveys_spirit:0 "Air Crew Surveys"
  air_crew_surveys_spirit_desc:1 "After all, they are the ones using the equipment, so why not ask them?"
@@ -28,7 +28,7 @@
  subservience_to_army_spirit:0 "Subservience To Army"
  subservience_to_army_spirit_desc:0 "It's a simple job description really, bomb where the Generals tell you to bomb."
  subservience_to_navy_spirit:0 "Subservience To Navy"
- subservience_to_navy_spirit_desc:0 "Aircrafts are only really useful as naval support weapons and reconnaisance."
+ subservience_to_navy_spirit_desc:0 "Aircraft are only really useful as naval support weapons and reconnaisance."
  no_focus_on_training_spirit:0 "No Focus on Training"
  no_focus_on_training_spirit_desc:0 "Practice? Why should we do that? This is easy! Also; saves fuel."
  disorganized_ground_crews_spirit:0 "Disorganized Ground Crews"
@@ -673,7 +673,7 @@
  SOV_fascist_womens_movement_idea:0 "Fascist Women's Movement"
  SOV_fascist_womens_movement_idea_desc:2 "At the heart of the nationalist movement stands the [ROOT.GetAdjective] woman. Mothers, wives, and daughters of our brave soldiers, organized and ready to support the fight for greatness."
  SOV_the_true_tsars_idea:0 "The True Tsars"
- SOV_the_true_tsars_idea_desc:1 "The Tsar is the legitimate leader of [ROOT.GetNameDef]. Rallying behind the Tsar, rather than another indivual or ideology, allows us to attract more supporters to our cause."
+ SOV_the_true_tsars_idea_desc:1 "The Tsar is the legitimate leader of [ROOT.GetNameDef]. Rallying behind the Tsar, rather than another individual or ideology, allows us to attract more supporters to our cause."
 
  #Dynamic Modifiers
  SOV_defend_moscow:0 "Defend Moscow"

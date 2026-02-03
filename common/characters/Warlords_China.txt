@@ -1096,6 +1096,50 @@ characters={
 		}
 	}
 
+	XSM_han_youwen = {
+		name = XSM_han_youwen
+		portraits = {
+			army = {
+				large = GFX_portrait_XSM_han_youwen
+				small = GFX_portrait_XSM_han_youwen_small
+			}
+		}
+		corps_commander = {
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			skill = 3
+			traits = { cavalry_leader }
+			legacy_id = -1
+			visible = {
+				has_completed_focus = XSM_recruit_salar_officers
+			}
+		}
+	}
+
+	XSM_han_yimu = {
+		name = XSM_han_yimu
+		portraits = {
+			army = {
+				large = GFX_portrait_XSM_han_yimu
+				small = GFX_portrait_XSM_han_yimu_small
+			}
+		}
+		corps_commander = {
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			skill = 2
+			traits = { infantry_officer }
+			legacy_id = -1
+			visible = {
+				has_completed_focus = XSM_recruit_salar_officers
+			}
+		}
+	}
+
 	XSM_ma_hongbin={
 		instance = {
 			allowed = {
@@ -2942,6 +2986,268 @@ characters={
 			id=-1
 			traits = { KUM_wild_horse }
 		}
+	}
+
+	HBC_wu_peifu = {
+
+		name = HBC_wu_peifu
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_HBC_wu_peifu_small
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = HBC_wu_peifu
+
+			allowed = {
+				is_literally_china = yes 
+			}
+
+			visible = {
+
+			}
+
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			traits = {
+				CHI_jade_marshal 
+			}
+
+		}
+
+	}
+
+	GSM_ma_yuanxiang = {
+
+		name = GSM_ma_yuanxiang
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_GSM_ma_yuanxiang_small
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = GSM_ma_yuanxiang
+
+			allowed = {
+				is_literally_china = yes 
+			}
+
+			visible = {
+
+			}
+
+			available = {
+				NOT = {
+					has_government = communism
+				}
+				has_country_flag = XSM_rebuilt_the_ninghai_army_flag 
+			}
+
+			traits = {
+				CHI_border_garrison_commander
+			}
+
+		}
+
+	}
+
+	XSM_wang_jingzhai = {
+
+		name = XSM_wang_jingzhai
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_XSM_wang_jingzhai_small
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = XSM_wang_jingzhai
+
+			allowed = {
+				is_literally_china = yes 
+			}
+
+			visible = {
+
+			}
+
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			traits = {
+				gentle_scholar
+			}
+
+		}
+
+	}
+
+	KHM_peter_fleming = {
+
+		name = KHM_peter_fleming
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_KHM_peter_fleming_small
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = KHM_peter_fleming
+
+			allowed = {
+				original_tag = KHM 
+			}
+
+			visible = {
+
+			}
+
+			available = {
+				NOT = {
+					has_war_with = ENG
+				}
+			}
+
+			traits = {
+				KHM_british_connection
+			}
+
+		}
+
+	}
+
+	KHM_ma_shaowu = {
+
+		name = KHM_ma_shaowu
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_KHM_ma_shaowu_small
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = KHM_ma_shaowu
+
+			allowed = {
+				is_literally_china = yes 
+			}
+
+			visible = {
+
+			}
+
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			traits = {
+				KHM_daoyin_of_kashgar
+			}
+
+		}
+
+	}
+
+	KHM_khoya_niyaz = {
+
+		name = KHM_khoya_niyaz
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_KHM_khoya_niyaz_small
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = KHM_khoya_niyaz
+
+			allowed = {
+				original_tag = KHM 
+			}
+
+			visible = {
+
+			}
+
+			available = {
+				NOT = {
+					has_government = communism
+				}
+				has_completed_focus = KHM_establish_the_kashgar_clique
+			}
+
+			traits = {
+				KHM_civil_governor_for_life 
+			}
+
+		}
+
+	}
+
+	KHM_muhammad_amin_bughra = {
+
+		name = KHM_muhammad_amin_bughra
+
+		portraits = {
+			civilian = {
+				small = GFX_portrait_KHM_muhammad_amin_bughra_small
+			}
+		}
+
+		advisor = {
+			cost = 150
+			slot = political_advisor
+			idea_token = KHM_muhammad_amin_bughra
+
+			allowed = {
+				original_tag = KHM 
+			}
+
+			visible = {
+
+			}
+
+			available = {
+				NOT = {
+					has_government = communism
+				}
+				has_completed_focus = KHM_establish_the_kashgar_clique
+			}
+
+			traits = {
+				KHM_jadidist_emir 
+			}
+
+		}
+
 	}
 
 

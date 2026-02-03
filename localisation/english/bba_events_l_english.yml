@@ -161,7 +161,7 @@
  BBA_italo_ethiopian_war_events.402.t:0 "[FROM.GetLeader] Folds"
  BBA_italo_ethiopian_war_events.402.desc:0 "[FROM.GetNameDefCap] has accepted our demands to let us use the [FROM.GetAdjective] lands as a base of operations against [ETH.GetName]. This effectively ends the independence of [FROM.GetName]."
  BBA_italo_ethiopian_war_events.402.a:0 "Good, let's move in and occupy the lands."
- BBA_italo_ethiopian_war_events.403.t:0 "[FROM.GetNameDefCap]Remains Defiant"
+ BBA_italo_ethiopian_war_events.403.t: "[FROM.GetNameDefCap] Remains Defiant"
  BBA_italo_ethiopian_war_events.403.desc:0 "Unfortunately diplomatic pressure has not been enough to secure Italian overlordship of [FROM.GetNameDef]. [FROM.GetLeader] remains adamant that his country can stand against the military might of [ROOT.GetName]."
  BBA_italo_ethiopian_war_events.403.a:0 "We will have to do this the hard way"
 
@@ -600,7 +600,7 @@
 
 # Industrial and Financial Events
  BBA_ethiopia_industrial_financial_events.2.t:0 "[FROM.GetNameDefCap] Demands Integration"
- BBA_ethiopia_industrial_financial_events.2.desc:0 "Citing the fact that the economies of [ROOT.GetName] and [FROM.GetName] are so intertwined, and that much of the industry in [ROOT.GetName] is already controlled by [FROM.GetName], [FROM.GetLeader] demands that border stations between the two countries be removed. The control of all foreign policy is to be placed under the control of [FROM.Getname] to ensure maximum protection, coordination, and effficiency. In effect this would mean the end of [ROOT.GetAdjective] independence.\n All this will be done with the the best interest of both countries in mind, [FROM.GetLeader] ensures."
+ BBA_ethiopia_industrial_financial_events.2.desc:0 "Citing the fact that the economies of [ROOT.GetName] and [FROM.GetName] are so intertwined, and that much of the industry in [ROOT.GetName] is already controlled by [FROM.GetName], [FROM.GetLeader] demands that border stations between the two countries be removed. The control of all foreign policy is to be placed under the control of [FROM.Getname] to ensure maximum protection, coordination, and effficiency. In effect this would mean the end of [ROOT.GetAdjective] independence.\n All this will be done with the best interest of both countries in mind, [FROM.GetLeader] ensures."
  BBA_ethiopia_industrial_financial_events.2.a:0 "They have no right to do this!"
  BBA_ethiopia_industrial_financial_events.2.b:0 "As long as we can retain some kind autonomy"
  BBA_ethiopia_industrial_financial_events.2.c:0 "It really is for the best of both our countries "
@@ -1321,7 +1321,7 @@
  BBA_italy_air_accident.11.desc:1 "While en route to inspect the French border, Chief of Air Force Aldo Pellegrini’s and General Pietro Pintor’s airplane encountered engine problems. The Aircraft crashed, leaving no one alive onboard."
  BBA_italy_air_accident.11.a:0 "[ROOT.GetNameDefCap] has lost two fine officers."
  BBA_italy_air_accident.12.t:0 "Air Crash"
- BBA_italy_air_accident.12.desc:1 "While flying to the French border, Chief of Air Force Aldo Pellegrini’s and General Pietro Pintor’s airplane encountered engine problems and started to rapidly lose altitude. Faced with certain death, Pellegrini took the controls and managed to crash land the airplane thanks to his familiarity with Savoia-Marchetti aircrafts. Everyone onboard survived, albeit bruised up. "
+ BBA_italy_air_accident.12.desc:1 "While flying to the French border, Chief of Air Force Aldo Pellegrini’s and General Pietro Pintor’s airplane encountered engine problems and started to rapidly lose altitude. Faced with certain death, Pellegrini took the controls and managed to crash land the airplane thanks to his familiarity with Savoia-Marchetti aircraft. Everyone on board survived, albeit bruised up. "
  BBA_italy_air_accident.12.a:0 "Fortune is with them!"
  ITA_pellegrini_promotion_tt:0 "\n$air_chief$ trait improved from §YSpecialist§! to §YExpert§!."
 
