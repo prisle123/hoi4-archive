@@ -625,7 +625,7 @@ NProduction = {
 	BASE_COUNTRY_ENERGY_PRODUCTION = 10.0, 			-- The base energy production of a country
 	ENERGY_SCALING_COST_BY_FACTORY_COUNT = 0.0225, -- Scales energy cost based on the total number of factories
 	BASE_ENERGY_COST = 0.25,						-- How much energy per factory consumes
-	ENERGY_COST_CAP = 6,						-- Maximum energy cost per factory
+	ENERGY_COST_CAP = 6.6,						-- Maximum energy cost per factory
 	ENERGY_SCALE_PER_TRADE_FACTORY_EXPORT = 0.25, -- Factor of how many of the factories gained from trade is affects the energy cost scaling
 	BASE_FACTORY_SPEED = 4, 					-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
 	BASE_FACTORY_SPEED_MIL = 3.5, 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
@@ -1715,21 +1715,54 @@ NNavy = {
 		0.0, -- CONVOY ESCORT
 		0.7, -- MINES PLANTING
 		0.7, -- MINES SWEEPING
-		0.5, -- TRAIN
+		0.5, -- TRAINING
 		0.0, -- RESERVE_FLEET
 		0.0, -- NAVAL_INVASION_SUPPORT
 	},
 	MISSION_DEFAULT_SPREAD_BASE = 1.0, -- multiplier for mission spreads. higher = less ships on start
 
+
+	-------		For "aggression" related values, think of it more as "risk taking" rather than "aggression". 
+	-------		It modifies how big of a difference between taskforce strengths the ships will consider "i could do that"
+
 	AGGRESSION_SETTINGS_VALUES = { -- ships will use this values while deciding to attack enemies
 		0,		-- do not engage
-		0.5,	-- low
-		0.9,	-- medium
-		2.0,	-- high
+		0.4,	-- low
+		1.1,	-- medium
+		2,		-- high
 		10000,	-- I am death incarnate!
 	},
 
-	AGGRESION_MULTIPLIER_FOR_COMBAT = 1.2,				-- ships are more aggresive in combat
+	AGGRESSION_LEVEL_BY_MISSION_WEAKER = { -- the aggression level per mission when the AI has a weaker navy than its opponent
+		---- values correspond to the indexes of the AGGRESSION_SETTINGS_VALUES. 0 = do not engage, 1 = low, 2 = medium, etc. 
+		---- If set to (-1), will use the hardcoded behavior (low if navy is generally weaker than opponent, medium if stronger)
+		-1, -- HOLD
+		0, -- PATROL
+		1, -- STRIKE FORCE
+		1, -- CONVOY RAIDING
+		1, -- CONVOY ESCORT
+		-1, -- MINES PLANTING
+		-1, -- MINES SWEEPING
+		-1, -- TRAINING
+		-1, -- RESERVE_FLEET
+		2, -- NAVAL_INVASION_SUPPORT
+	},
+	AGGRESSION_LEVEL_BY_MISSION_STRONGER_OR_EQUAL = { -- the aggression level per mission when the AI has a stronger navy than its opponent
+		---- values correspond to the indexes of the AGGRESSION_SETTINGS_VALUES. 0 = do not engage, 1 = low, 2 = medium, etc. 
+		---- If set to (-1), will use the hardcoded behavior (low if navy is generally weaker than opponent, medium if stronger)
+		-1, -- HOLD
+		1, -- PATROL
+		3, -- STRIKE FORCE
+		2, -- CONVOY RAIDING
+		2, -- CONVOY ESCORT
+		-1, -- MINES PLANTING
+		-1, -- MINES SWEEPING
+		-1, -- TRAINING
+		-1, -- RESERVE_FLEET
+		3, -- NAVAL_INVASION_SUPPORT
+	},
+
+	AGGRESION_MULTIPLIER_FOR_COMBAT = 1.8,				-- ships are more aggresive in combat
 
 	AGGRESSION_ARMOR_EFFICIENCY_MULTIPLIER = 1.0,		-- armor to enemy piercing ratio is multiplied by this value, which will increase the strength of ships while considering them for aggression
 	AGGRESSION_MIN_ARMOR_EFFICIENCY = 0.5,              -- armor multiplier has a min and max caps while being factored in aggression
@@ -3431,10 +3464,21 @@ NAI = {
     CONVOY_DANGER_FOR_MAX_IMPORTANCE = 50,                  -- When deciding whether to protect a convoy route, the importance will scale with convoy danger up to this value
     NUM_CONVOYS_FOR_MAX_PROTECTION = 50,                    -- When deciding whether to protect a convoy route, the importance will scale with the number of convoys up to this value
     CONVOY_RAIDING_TARGET_RECALC_DAYS = 3,                  -- Each X days, the AI will reevaluate which regions to convoy raid (because enemy convoy usage or trade routes might change)
+	STRIKE_FORCE_TARGET_RECALC_DAYS = 1,					-- Each X days, the AI will reevaluate which regions to put strike forces in (because patrol coverage will change)
     AI_OBJECTIVE_DEFAULT_TARGET_RECALC_DAYS = 0,            -- Each X days, the AI will reevaluate which regions to target for naval missions (this is the default value, but can be overriden by specific objectives, see CONVOY_RAIDING_TARGET_RECALC_DAYS)
 	DANGEROUS_ENEMY_ARMY_SIZE = 100,						-- If the size of the enemy's army of the attacking country is more than this value, the AI will add naval invasion defense importance
 	DANGEROUS_DISTANCE_TO_CAPITAL = 1000.0,					-- Distance in pixels from the target province to capital location where the AI will add the naval invasion defense importance
 	
+	NAVAL_STRIKE_FORCE_OBJECTIVE_IMPORTANCE = {				-- ordering of this list is important!
+		0.1875,	-- invasion suppport
+		0.25,	-- invasion defense
+		0,0,	-- others ( MineSweeping, MineLaying )
+		0.0625,	-- generic coast defense
+		0,0,	-- others ( ConvoyRaiding, ConvoyProtection )
+		0.125,	-- naval dominance strategy
+		0,0,0	-- others ( Training, NavalBlockade, StrikeForce )
+	},
+
 	MIN_FACTORIES_TO_WANT_TO_IMPORT = {  -- minimum number of civilian factories the AI must have to consider importing a resource - per strategic resource. Default 0, array -should- be updated with new resources, or if the order changes.
 		0, -- oil
 		0, -- aluminium
