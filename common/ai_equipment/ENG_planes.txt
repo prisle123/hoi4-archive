@@ -91,9 +91,7 @@ ENG_fighter = {
 			modules = {
 				fixed_main_weapon_slot = { any_of = { aircraft_cannon_1_2x aircraft_cannon_1_1x } }
 				fixed_auxiliary_weapon_slot_1 = { any_of = { aircraft_cannon_1_2x aircraft_cannon_1_1x } }
-				engine_type_slot = { any_of = { engine_3_1x engine_2_1x } }
-				special_type_slot_1 = armor_plate_small
-				special_type_slot_2 = self_sealing_fuel_tanks_small
+				engine_type_slot = engine_2_1x
 			}
 		}
 
@@ -101,7 +99,6 @@ ENG_fighter = {
 			light_mg_4x
 			aircraft_cannon_1_1x
 			aircraft_cannon_1_2x
-			engine_3_1x
 			engine_2_1x
 			armor_plate_small
 			self_sealing_fuel_tanks_small
@@ -116,6 +113,10 @@ ENG_fighter = {
 				has_tech = advanced_small_airframe
 				factor = 0 #let's not waste XP here
 			}
+			modifier = {
+				has_tech = survivability_studies
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		history = yes
@@ -125,18 +126,13 @@ ENG_fighter = {
 			modules = {
 				fixed_main_weapon_slot = light_mg_4x
 				fixed_auxiliary_weapon_slot_1 = light_mg_4x
-				engine_type_slot = { any_of = { engine_3_1x engine_2_1x } }
-				special_type_slot_1 = armor_plate_small
-				special_type_slot_2 = self_sealing_fuel_tanks_small
+				engine_type_slot = engine_2_1x
 			}
 		}
 
 		allowed_modules = {
 			light_mg_4x
-			engine_3_1x
 			engine_2_1x
-			armor_plate_small
-			self_sealing_fuel_tanks_small
 		}
 	}
 
@@ -145,7 +141,15 @@ ENG_fighter = {
 		priority = {
 			factor = 200
 			modifier = {
+				not = { has_tech = survivability_studies }
+				factor = 0 #let's not waste XP here
+			}
+			modifier = {
 				has_tech = advanced_small_airframe
+				factor = 0 #let's not waste XP here
+			}
+			modifier = {
+				has_tech = engines_3
 				factor = 0 #let's not waste XP here
 			}
 		}
@@ -164,6 +168,7 @@ ENG_fighter = {
 		}
 
 		allowed_modules = {
+			light_mg_4x
 			aircraft_cannon_1_2x
 			engine_3_1x
 			engine_2_1x
@@ -180,6 +185,10 @@ ENG_fighter = {
 				has_tech = advanced_small_airframe
 				factor = 0 #let's not waste XP here
 			}
+			modifier = {
+				not = { has_tech = engines_3 }
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		history = yes
@@ -189,7 +198,7 @@ ENG_fighter = {
 			modules = {
 				fixed_main_weapon_slot = aircraft_cannon_1_2x
 				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
-				engine_type_slot = { any_of = { engine_3_1x engine_2_1x } }
+				engine_type_slot = engine_3_1x
 				special_type_slot_1 = armor_plate_small
 				special_type_slot_2 = self_sealing_fuel_tanks_small
 			}
@@ -212,6 +221,10 @@ ENG_fighter = {
 				has_tech = advanced_small_airframe
 				factor = 0 #let's not waste XP here
 			}
+			modifier = {
+				not = { has_tech = engines_4 }
+				factor = 0 #let's not waste XP here
+			}
 		}
 
 		history = yes
@@ -221,7 +234,7 @@ ENG_fighter = {
 			modules = {
 				fixed_main_weapon_slot = aircraft_cannon_1_2x
 				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
-				engine_type_slot = { any_of = { engine_4_1x engine_3_1x engine_2_1x } }
+				engine_type_slot = engine_4_1x
 				special_type_slot_1 = armor_plate_small
 				special_type_slot_2 = self_sealing_fuel_tanks_small
 			}

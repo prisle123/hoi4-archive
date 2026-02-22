@@ -324,11 +324,11 @@
  AFG_political_events.172.desc: "\nNesta semana, forças do Estado [FROM.GetNameDef] ocuparam nosso território do Vaziristão sob o pretexto de uma missão para proteger a região de uma possível ocupação pelos seus inimigos. Tal ato é claramente uma declaração de guerra, mas podemos simplesmente decidir ignorá-lo, pois não é provável que eles estejam buscando nos confrontar, mas sim visando a reunificação do povo pastó disperso."
  AFG_political_events.172.a: "Não vale a pena lutar por isso."
  AFG_political_events.172.b: "Quem eles pensam que são?"
- AFG_royal_succession_events.01.t: "Um novo primeiro-ministro real"
- AFG_royal_succession_events.01.desc: "Diante das crescentes contestações às escolhas de $AFG_mohammad_hashim_khan$, decidiu-se assegurar o poder real nomeando um de seus irmãos como o novo líder, subordinado a $AFG_mohammed_zahir_shah$. Quem deverá assumir seu lugar?"
- AFG_royal_succession_events.01.a: "O sempre consistente $AFG_shah_mahmud_khan$."
- AFG_royal_succession_events.01.b: "O brilhante estrategista militar $AFG_sardar_shah_wali_khan$."
- AFG_royal_succession_events.01.c: "O mais progressista, $AFG_mohammed_daoud_khan$."
+ AFG_political_events.173.t: "Um novo primeiro-ministro real"
+ AFG_political_events.173.desc: "Diante das crescentes contestações às escolhas de $AFG_mohammad_hashim_khan$, decidiu-se assegurar o poder real nomeando um de seus irmãos como o novo líder, subordinado a $AFG_mohammed_zahir_shah$. Quem deverá assumir seu lugar?"
+ AFG_political_events.173.a: "O sempre consistente $AFG_shah_mahmud_khan$."
+ AFG_political_events.173.b: "O brilhante estrategista militar $AFG_sardar_shah_wali_khan$."
+ AFG_political_events.173.c: "O mais progressista, $AFG_mohammed_daoud_khan$."
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "Governo [FROM.GetAdjective] pede permissão para invadir [BHU.GetNameDef]"

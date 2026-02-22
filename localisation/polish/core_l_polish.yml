@@ -1754,7 +1754,7 @@
  CONVOY_ESCORT_PRESENCE_IN_REGION_EXPANDED: "W ciągu ostatniego miesiąca nasze eskortowe grupy operacyjne były gotowe przez $HOURS_WITH$/$HOURS_TOTAL|H$ godz. ($PERCENT|H$)"
  CONVOY_ESCORT_EFFICIENCY_FLEET_DESC: "Flota $FLEET|H$ ma $NUM|.0H$ okr. i $NUM_TASKFORCES|.0H$ gr. zad. Może eskortować następującą liczbę konwojów: $COVERED_CONVOY|.0H$ albo chronić następującą liczbę regionów: $COVERED_REGION|.0H$.($EFFICIENCY|H$)"
  CONVOY_RAIDING_EFFICIENCY_IN_REGION: "Średnia skuteczność ataków na konwoje w tym regionie: $VALUE$"
- CONVOY_RAIDING_TASK_FORCE_EFFICIENCY_DESC: "$TASK_FORCE|H$ może skutecznie atakować konwoje w następującej liczbie regionów: $REGIONS|.1H$ ($EFFICIENCY|H$)."
+ CONVOY_RAIDING_TASK_FORCE_EFFICIENCY_DESC: "$TASK_FORCE|H$ może skutecznie atakować konwoje w następującej liczbie regionów: $REGIONS|H$ ($EFFICIENCY|H$)."
  FACTION_LEADER_CAPITULATED_HEADER: "Przywództwo frakcji"
  FACTION_LEADER_CAPITULATED_WE_ARE_NEW_LEADER: "$OLDLEADER|H$ kapituluje. $FACTION|H$ ma teraz nowego lidera, czyli nas."
  RESEARCH_WITH_XP_TEXT: "Wydaj $XP_TEXT$"

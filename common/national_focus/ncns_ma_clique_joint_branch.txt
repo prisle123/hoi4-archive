@@ -368,6 +368,7 @@ joint_focus = {
 					original_tag = NXM
 					original_tag = GSM
 					original_tag = KHM
+					original_tag = SIK
 				}
 				is_ai = no 
 			}
@@ -375,6 +376,10 @@ joint_focus = {
 		modifier = {
 			factor = 0 
 			is_historical_focus_on = yes 
+		}
+		modifier = {
+			factor = 0 
+			date < 1942.1.1 
 		}
 	}
 

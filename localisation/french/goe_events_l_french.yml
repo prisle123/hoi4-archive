@@ -324,11 +324,11 @@
  AFG_political_events.172.desc: "\nEn début de semaine, des forces [FROM.GetAdjFP] ont occupé le Waziristan, déclarant qu'elles avaient pour mission de protéger la région d'une potentielle occupation ennemie. Il s'agit clairement d'un acte de guerre, mais nous pourrions choisir de l'ignorer : ils ne cherchent pas à se battre contre nous, mais plutôt à réunifier les peuples pachtounes."
  AFG_political_events.172.a: "Inutile de se disputer"
  AFG_political_events.172.b: "Pour qui se prennent-ils ?"
- AFG_royal_succession_events.01.t: "La royauté au ministère"
- AFG_royal_succession_events.01.desc: "Toutes les décisions prises par $AFG_mohammad_hashim_khan$ sont contestées. C'est pourquoi nous allons nommer un nouveau dirigeant capable de se plier à l'autorité de $AFG_mohammed_zahir_shah$. Qui le remplacera ?"
- AFG_royal_succession_events.01.a: "$AFG_shah_mahmud_khan$, la constance incarnée"
- AFG_royal_succession_events.01.b: "$AFG_sardar_shah_wali_khan$, le génie militaire"
- AFG_royal_succession_events.01.c: "$AFG_mohammed_daoud_khan$, le progressiste"
+ AFG_political_events.173.t: "La royauté au ministère"
+ AFG_political_events.173.desc: "Toutes les décisions prises par $AFG_mohammad_hashim_khan$ sont contestées. C'est pourquoi nous allons nommer un nouveau dirigeant capable de se plier à l'autorité de $AFG_mohammed_zahir_shah$. Qui le remplacera ?"
+ AFG_political_events.173.a: "$AFG_shah_mahmud_khan$, la constance incarnée"
+ AFG_political_events.173.b: "$AFG_sardar_shah_wali_khan$, le génie militaire"
+ AFG_political_events.173.c: "$AFG_mohammed_daoud_khan$, le progressiste"
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] demand[FROM.GetEEntNP]\nla permission d'envahir [BHU.GetLeLaLNP] [BHU.GetName]"

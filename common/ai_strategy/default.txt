@@ -776,7 +776,7 @@ slightly_naval_focused_nation = {
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship
-		value = 1
+		value = 4
 	}
 
 	ai_strategy = {
@@ -812,7 +812,7 @@ more_naval_focused_nation = {
 	ai_strategy = {
 		type = unit_ratio
 		id = screen_ship
-		value = 1
+		value = 4
 	}
 
 	ai_strategy = {

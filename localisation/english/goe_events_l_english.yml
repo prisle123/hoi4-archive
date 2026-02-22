@@ -419,11 +419,11 @@
  AFG_political_events.172.a: "It is not worth fighting over"
  AFG_political_events.172.b: "Who do they think they are?"
 
- AFG_royal_succession_events.01.t: "A New Royal Prime Minister"
- AFG_royal_succession_events.01.desc: "Due to many questioning the decisions taken by $AFG_mohammad_hashim_khan$, the decision has been taken to secure the royal rule by appointing one of his siblings as the new leader, subservient to $AFG_mohammed_zahir_shah$. Who will be made to replace him?"
- AFG_royal_succession_events.01.a: "The ever consistent $AFG_shah_mahmud_khan$"
- AFG_royal_succession_events.01.b: "The militarily brilliant $AFG_sardar_shah_wali_khan$"
- AFG_royal_succession_events.01.c: "The more progressive $AFG_mohammed_daoud_khan$"
+ AFG_political_events.173.t: "A New Royal Prime Minister"
+ AFG_political_events.173.desc: "Due to many questioning the decisions taken by $AFG_mohammad_hashim_khan$, the decision has been taken to secure the royal rule by appointing one of his siblings as the new leader, subservient to $AFG_mohammed_zahir_shah$. Who will be made to replace him?"
+ AFG_political_events.173.a: "The ever consistent $AFG_shah_mahmud_khan$"
+ AFG_political_events.173.b: "The militarily brilliant $AFG_sardar_shah_wali_khan$"
+ AFG_political_events.173.c: "The more progressive $AFG_mohammed_daoud_khan$"
 
  #RAJ
  #India wants to invade Bhutan

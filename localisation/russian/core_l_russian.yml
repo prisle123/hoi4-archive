@@ -1754,7 +1754,7 @@
  CONVOY_ESCORT_PRESENCE_IN_REGION_EXPANDED: "За последний месяц общее время готовности наших оперативных соединений составило $HOURS_WITH$/$HOURS_TOTAL|H$ ч. ($PERCENT|H$)"
  CONVOY_ESCORT_EFFICIENCY_FLEET_DESC: "Флот $FLEET|H$ располагает $NUM|.0H$ свободными кораблями и $NUM_TASKFORCES|.0H$ доступными оперативными соединениями. Он может сопровождать до $COVERED_CONVOY|.0H$ конвоев или покрывать до $COVERED_REGION|.0H$ регионов. ($EFFICIENCY|H$)"
  CONVOY_RAIDING_EFFICIENCY_IN_REGION: "Средняя эффективность перехвата конвоев в регионе: $VALUE$"
- CONVOY_RAIDING_TASK_FORCE_EFFICIENCY_DESC: "$TASK_FORCE|H$ может эффективно перехватывать конвои в разных регионах, общим числом до $REGIONS|.1H$ ($EFFICIENCY|H$)."
+ CONVOY_RAIDING_TASK_FORCE_EFFICIENCY_DESC: "$TASK_FORCE|H$ может эффективно перехватывать конвои в разных регионах, общим числом до $REGIONS|H$ ($EFFICIENCY|H$)."
  FACTION_LEADER_CAPITULATED_HEADER: "Контроль над альянсом"
  FACTION_LEADER_CAPITULATED_WE_ARE_NEW_LEADER: "После капитуляции государства $OLDLEADER|H$ мы получили контроль над альянсом $FACTION|H$."
  RESEARCH_WITH_XP_TEXT: "Потратить $XP_TEXT$"

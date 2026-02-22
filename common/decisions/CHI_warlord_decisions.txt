@@ -16,7 +16,7 @@ political_actions	= {
 			}
 			
 			visible = {
-				has_completed_focus = YUN_strengthen_burmic_ties
+				has_country_flag = YUN_did_burmic_ties_focus_flag
 			}
 			available = {
 				NOT = { has_country_flag = IRQ_coring_state_in_progress }

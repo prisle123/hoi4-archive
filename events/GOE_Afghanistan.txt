@@ -4,7 +4,6 @@
 
 add_namespace = AFG_industrial_events
 add_namespace = AFG_political_events
-add_namespace = AFG_royal_succession_events 
 
 #Offer oil concession deal to X
 country_event = {
@@ -3710,15 +3709,15 @@ country_event = {
 
 # Royal Succession Election Event
 country_event = {
-	id = AFG_royal_succession_events.01
-	title = AFG_royal_succession_events.01.t
-	desc = AFG_royal_succession_events.01.desc
+	id = AFG_political_events.173
+	title = AFG_political_events.173.t
+	desc = AFG_political_events.173.desc
 	picture = GFX_report_event_generic_sign_treaty2
 	is_triggered_only = yes
 	fire_only_once = yes
 	# Continuity - Sardar Shah Mahmud Khan
 	option = {
-		name = AFG_royal_succession_events.01.a
+		name = AFG_political_events.173.a
 		ai_chance = {
 			base = 7
 		}
@@ -3740,7 +3739,7 @@ country_event = {
 	}	
 	# Military - Sardar Shah Wali Khan 
 	option = {
-		name = AFG_royal_succession_events.01.b
+		name = AFG_political_events.173.b
 		ai_chance = {
 			base = 2
 		}
@@ -3759,7 +3758,7 @@ country_event = {
 	}
 	# Youth - Daod
 	option = {
-		name = AFG_royal_succession_events.01.c
+		name = AFG_political_events.173.c
 		ai_chance = {
 			base = 1
 		}

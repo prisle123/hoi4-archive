@@ -190,7 +190,7 @@
  NAVAL_COMBAT_RESULT_SURVIVOR_CONVOYS: "$FLAG$§H輸送船§!$COUNT|H$隻"
  NAVAL_COMBAT_RESULT_SUNK_BY: "$NAME|Y$（$KILLER|Y$により撃沈）"
  LAND_COMBAT_CAS_INFO: "総撃墜数: $LOST|R$\n£organization_texticon ダメージ $ORG|R0$\n£strenght_texticon ダメージ: $STR|R0$"
- LAND_COMBAT_CAS_INFO_TOOLTIP: "$SIDE$側の約$NUM|Y$機の航空機が、この戦闘で支援を行った。\n§Y指揮統制率§!に$ORG|G0$ダメージを与え、目下の敵の§Y指揮統制率§!は$ORG_MAX|G0$である。\n§Y耐久力§!に$STR|G0$ダメージを与え、目下の敵の§Y耐久力§!は$STR_MAX|G0$である。\n敵§Y対空§!師団は航空機を合計$KILL|R$機撃墜し、さらに§Y指揮統制率§!への$ORG_PREVENT|R0$ダメージと、§Y充足率§!への$STR_PREVENT|R0$ダメージを防いだ。"
+ LAND_COMBAT_CAS_INFO_TOOLTIP: "$SIDE$側の約$NUM|Y$機の航空機が、この戦闘で支援を行った。\n§Y指揮統制率§!に$ORG|G0$ダメージを与え、目下の敵の§Y指揮統制率§!は$ORG_MAX|G0$である。\n§Y耐久力§!に$STR|G0$ダメージを与え、目下の敵の§Y耐久力§!は$STR_MAX|G0$である。\n敵§Y対空§!師団は航空機を$KILL|R$機撃墜し、さらに$AA_EFFECTIVENESS|H%1$の効率で§Y指揮統制率§!への$ORG_PREVENT|R0$ダメージと、§Y充足率§!への$STR_PREVENT|R0$ダメージを防いだ。"
  LAND_COMBAT_CAS_INFO_TOOLTIP_DETAIL: "支援可能な航空機の最大数は$MAX_PLANES|Y$機。戦闘正面幅が大きければ、その分多くの航空機を使用できる。"
  SHIP_KILLS_AND_ASSISTS: "敵艦$SUNK|G$沈没\n$ASS|G$アシスト"
  CARRIER_STACK_PENALTY_DESC: " §H空母攻撃ペナルティ§!\n\n敵を攻撃できるのは航空隊の$PERC|H%0$である。\n\nこの値は現在上空に展開している航空機数と敵の艦隊の構成により算出される。\n\n少なくとも$MINIMUM|H$機はペナルティなしに上空に展開できる。敵の艦隊の構成によって、$ENEMY_FLEET|H$機を有効活用できる。この2つの値のうち、大きい方の値が採用される。"

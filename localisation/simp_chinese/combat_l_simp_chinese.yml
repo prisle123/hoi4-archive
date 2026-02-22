@@ -190,7 +190,7 @@
  NAVAL_COMBAT_RESULT_SURVIVOR_CONVOYS: "$FLAG$$COUNT|H$§H运输船§!"
  NAVAL_COMBAT_RESULT_SUNK_BY: "$NAME|Y$（被$KILLER|Y$击沉）"
  LAND_COMBAT_CAS_INFO: "击落：$LOST|R$\n£organization_texticon 伤害：$ORG|R0$\n£strenght_texticon 伤害：$STR|R0$"
- LAND_COMBAT_CAS_INFO_TOOLTIP: "大约$NUM|Y$架支援机从$SIDE$起飞并参与了这场战斗。\n他们对敌人§Y组织度§!造成了$ORG|G0$伤害，目前敌人的§Y组织度§!是$ORG_MAX|G0$。\n他们对敌人§Y兵力§!造成了$STR|G0$伤害，目前敌人的§Y兵力§!是$STR_MAX|G0$。\n敌方部队的§Y对空§!击落了$KILL|R$架飞机，防止了$ORG_PREVENT|R0$§Y组织度§!损失与$STR_PREVENT|R0$§Y兵力§!损失。"
+ LAND_COMBAT_CAS_INFO_TOOLTIP: "大约$NUM|Y$架支援机从$SIDE$起飞并参与了这场战斗。\n他们对敌人§Y组织度§!造成了$ORG|G0$伤害，目前敌人的§Y组织度§!是$ORG_MAX|G0$。\n他们对敌人§Y兵力§!造成了$STR|G0$伤害，目前敌人的§Y兵力§!是$STR_MAX|G0$。\n敌方部队的§Y对空§!击落了$KILL|R$架飞机，效率为$AA_EFFECTIVENESS|H%1$，防止了$ORG_PREVENT|R0$§Y组织度§!损失与$STR_PREVENT|R0$§Y兵力§!损失。"
  LAND_COMBAT_CAS_INFO_TOOLTIP_DETAIL: "可以参与密接支援的最大飞机数量为$MAX_PLANES|Y$。使用的战斗宽度越大，可参战的飞机越多。"
  SHIP_KILLS_AND_ASSISTS: "共击沉$SUNK|G$艘敌方舰船。\n协助击沉艘$ASS|G$。"
  CARRIER_STACK_PENALTY_DESC: "§H航母打击惩罚§!\n\n能够攻击敌军的空军联队比例为$PERC|H%0$。\n\n该比例取决于我们当前空中战机数量及敌军舰队构成。\n\n当空中战机数量低于$MINIMUM|H$架时将触发惩罚。敌军舰队配置可有效应对$ENEMY_FLEET|H$架战机。最终将取这两个数值中的较高者作为计算基准。"

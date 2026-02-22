@@ -3668,6 +3668,9 @@
 			1042 = {
 				is_controlled_by = ROOT
 			}
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
+			}
 		}
 
 		bypass = {
@@ -3741,6 +3744,9 @@
 				NOT = {
 					is_controlled_by = ROOT
 				}
+			}
+			all_owned_state = {
+				is_fully_controlled_by = ROOT
 			}
 		}
 
@@ -9244,6 +9250,10 @@
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			custom_effect_tooltip = AFG_proclaim_a_new_caliphate_2_tt
+
+			hidden_effect = {
+				set_country_flag = YUN_did_burmic_ties_focus_flag  
+			}
 
 		}
 	}

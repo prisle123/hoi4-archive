@@ -324,11 +324,11 @@
  AFG_political_events.172.desc: "\nНесколькими днями ранее [FROM.GetAdjRuLower]ие войска оккупировали принадлежащую нам территорию Вазаристана под предлогом защиты этой местности от возможного вторжения их врага. Это не что иное, как вооруженная агрессия, однако мы можем закрыть глаза на этот факт: оккупант не стремится воевать с нами — он хочет воссоединить разрозненный пуштунский народ."
  AFG_political_events.172.a: "За это не стоит проливать кровь."
  AFG_political_events.172.b: "Кем они себя возомнили?"
- AFG_royal_succession_events.01.t: "Новый королевский премьер-министр"
- AFG_royal_succession_events.01.desc: "Поскольку многие не согласны с решениями, которые принимает $AFG_mohammad_hashim_khan$, остается лишь одно: назначить новым правителем кого-нибудь из его родственников, позаботившись тем самым о несокрушимости королевской власти. Преемника будет полностью контролировать $AFG_mohammed_zahir_shah$. Кто же займет это место?"
- AFG_royal_succession_events.01.a: "Неизменно последовательный $AFG_shah_mahmud_khan$."
- AFG_royal_succession_events.01.b: "Выдающийся военачальник $AFG_sardar_shah_wali_khan$."
- AFG_royal_succession_events.01.c: "Прогрессивно мыслящий $AFG_mohammed_daoud_khan$."
+ AFG_political_events.173.t: "Новый королевский премьер-министр"
+ AFG_political_events.173.desc: "Поскольку многие не согласны с решениями, которые принимает $AFG_mohammad_hashim_khan$, остается лишь одно: назначить новым правителем кого-нибудь из его родственников, позаботившись тем самым о несокрушимости королевской власти. Преемника будет полностью контролировать $AFG_mohammed_zahir_shah$. Кто же займет это место?"
+ AFG_political_events.173.a: "Неизменно последовательный $AFG_shah_mahmud_khan$."
+ AFG_political_events.173.b: "Выдающийся военачальник $AFG_sardar_shah_wali_khan$."
+ AFG_political_events.173.c: "Прогрессивно мыслящий $AFG_mohammed_daoud_khan$."
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetName] просит разрешения ввести войска в [BHU.GetNameRuAcc]"

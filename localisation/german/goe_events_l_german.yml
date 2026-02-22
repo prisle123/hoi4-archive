@@ -324,11 +324,11 @@
  AFG_political_events.172.desc: "\nAnfang dieser Woche rückten [FROM.GetAdjective]e Truppen nach Wasiristan vor und besetzten unser Territorium. Sie begründeten dies damit, sie hätten es sich zur Aufgabe gemacht, die Region vor einer möglichen Besatzung durch ihre Feinde zu schützen. Für uns ist dies jedoch eindeutig ein kriegerischer Akt. Da man sich wahrscheinlich nicht mit uns anlegen will, sondern nur versucht, das zerstreute paschtunische Volk zu vereinen, können wir dies aber auch einfach ignorieren."
  AFG_political_events.172.a: "Das ist es nicht wert, dafür in den Krieg zu ziehen ..."
  AFG_political_events.172.b: "Für wen halten die sich?!"
- AFG_royal_succession_events.01.t: "Ein neuer Premierminister"
- AFG_royal_succession_events.01.desc: "Da viele die Entscheidungen von $AFG_mohammad_hashim_khan$ infrage stellten, wurde beschlossen, die königliche Herrschaft zu sichern, indem eines seiner Geschwister zum neuen Oberhaupt ernannt und $AFG_mohammed_zahir_shah$ unterstellt wird. Wer soll sein Nachfolger werden?"
- AFG_royal_succession_events.01.a: "Der stets konsequente $AFG_shah_mahmud_khan$."
- AFG_royal_succession_events.01.b: "Das militärische Genie $AFG_sardar_shah_wali_khan$."
- AFG_royal_succession_events.01.c: "Der fortschrittliche $AFG_mohammed_daoud_khan$."
+ AFG_political_events.173.t: "Ein neuer Premierminister"
+ AFG_political_events.173.desc: "Da viele die Entscheidungen von $AFG_mohammad_hashim_khan$ infrage stellten, wurde beschlossen, die königliche Herrschaft zu sichern, indem eines seiner Geschwister zum neuen Oberhaupt ernannt und $AFG_mohammed_zahir_shah$ unterstellt wird. Wer soll sein Nachfolger werden?"
+ AFG_political_events.173.a: "Der stets konsequente $AFG_shah_mahmud_khan$."
+ AFG_political_events.173.b: "Das militärische Genie $AFG_sardar_shah_wali_khan$."
+ AFG_political_events.173.c: "Der fortschrittliche $AFG_mohammed_daoud_khan$."
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetNameDefCap] bittet um Erlaubnis für einen Einmarsch in [BHU.GetName]"

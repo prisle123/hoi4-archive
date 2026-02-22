@@ -324,11 +324,11 @@
  AFG_political_events.172.desc: "\n本周早些时候，隶属于[FROM.GetNameDef]的部队进入并占领了我们的瓦济里斯坦地区，声称他们执行的任务是保护该地区免受敌人的潜在占领。这显然是一种战争行为，但我们或许可以选择无视，因为他们可能并非要与我们开战，而是寻求统一四散的普什图族人民。"
  AFG_political_events.172.a: "不值得为之开战"
  AFG_political_events.172.b: "他们以为自己是谁？"
- AFG_royal_succession_events.01.t: "新任王室首相"
- AFG_royal_succession_events.01.desc: "由于$AFG_mohammad_hashim_khan$所做的决策遭到众多质疑，现已决定通过任命他的一位兄弟为新的领导者来稳固王室统治，并服从于$AFG_mohammed_zahir_shah$。将由谁来接替他？"
- AFG_royal_succession_events.01.a: "始终如一的$AFG_shah_mahmud_khan$"
- AFG_royal_succession_events.01.b: "军事的天才$AFG_sardar_shah_wali_khan$"
- AFG_royal_succession_events.01.c: "更进步的$AFG_mohammed_daoud_khan$"
+ AFG_political_events.173.t: "新任王室首相"
+ AFG_political_events.173.desc: "由于$AFG_mohammad_hashim_khan$所做的决策遭到众多质疑，现已决定通过任命他的一位兄弟为新的领导者来稳固王室统治，并服从于$AFG_mohammed_zahir_shah$。将由谁来接替他？"
+ AFG_political_events.173.a: "始终如一的$AFG_shah_mahmud_khan$"
+ AFG_political_events.173.b: "军事的天才$AFG_sardar_shah_wali_khan$"
+ AFG_political_events.173.c: "更进步的$AFG_mohammed_daoud_khan$"
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetName]申请入侵[BHU.GetName]许可"

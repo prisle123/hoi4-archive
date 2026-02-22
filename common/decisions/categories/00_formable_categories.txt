@@ -256,6 +256,8 @@ form_arabia_category = {
 			original_tag = FSA
 			# Imamate of Oman
 			original_tag = IMO
+			# Rif 
+			original_tag = RIF
 		}
 		has_dlc = "Waking the Tiger"
 	}

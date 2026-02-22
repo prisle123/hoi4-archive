@@ -4306,17 +4306,17 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_pc_of_mechanical_engineering
-		cost = 10
+		cost = 5
 
 		available = {
 			if = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
-				has_tech = improved_medium_tank_chassis
+				has_tech = basic_medium_tank_chassis
 			}
 			else = {
-				has_tech = improved_medium_tank
+				has_tech = basic_medium_tank
 			}
 		}
 		
@@ -4328,7 +4328,7 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = SOV_superior_war_machines
-				bonus = 0.75
+				bonus = 0.5
 				uses = 2
 				category = armor
 			}
@@ -4383,8 +4383,8 @@ focus_tree = {
 							special_type_slot_1 = sloped_armor
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 10
-							tank_nsb_armor_upgrade = 7
+							tank_nsb_engine_upgrade = 7
+							tank_nsb_armor_upgrade = 5
 						}
 						icon = "GFX_SOV_improved_medium_tank_medium"
 					}
@@ -4406,8 +4406,8 @@ focus_tree = {
 							special_type_slot_1 = sloped_armor
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 10
-							tank_nsb_armor_upgrade = 7
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 5
 						}
 						icon = "GFX_SOV_improved_medium_tank_medium"
 					}
@@ -4426,8 +4426,8 @@ focus_tree = {
 							special_type_slot_1 = sloped_armor
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 10
-							tank_nsb_armor_upgrade = 7
+							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 3
 						}
 						icon = "GFX_SOV_improved_medium_tank_medium"
 					}
@@ -4444,7 +4444,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_pc_of_mechanical_engineering
-		cost = 10
+		cost = 5
 
 		available = {
 
@@ -4458,7 +4458,7 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = SOV_the_means_to_wage_war
-				bonus = 0.75
+				bonus = 0.5
 				uses = 2
 				category = support_tech
 			}
@@ -4581,7 +4581,7 @@ focus_tree = {
 				}
 				else_if = {
 					limit = {
-						has_tech = antitank2
+						has_tech = antitank4
 					}
 					create_equipment_variant = {
 						name = "SU-100"
@@ -6374,7 +6374,7 @@ focus_tree = {
 					NOT = { has_completed_focus = SOV_lessons_of_war }
 				}
 				
-				add_to_variable = { SOV_the_red_army_mastery_loss_factor = 0.1 tooltip = land_mastery_gain_factor_tt }
+				add_to_variable = { SOV_the_red_army_mastery_loss_factor = 0.15 tooltip = land_mastery_gain_factor_tt }
 
 				#Need for tooltip
 				set_variable = { SOV_the_red_army_mastery_loss_factor_inverted = SOV_the_red_army_mastery_loss_factor }
@@ -6498,7 +6498,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_to_variable = { SOV_the_red_army_army_org_factor = 0.05 }
-			set_variable = { SOV_the_red_army_experience_gain_army_factor = 0 }
 			set_variable = { SOV_the_red_army_experience_loss_factor = 0 }
 			set_variable = { SOV_the_red_army_mastery_loss_factor = 0 }
 
@@ -7845,7 +7844,7 @@ focus_tree = {
 				limit = { NOT = { has_completed_focus = SOV_lessons_of_war } }
 				
 				custom_effect_tooltip = modify_the_red_army_tt
-				add_to_variable = { SOV_the_red_army_mastery_loss_factor = -0.03 tooltip = land_mastery_gain_factor_tt }
+				add_to_variable = { SOV_the_red_army_mastery_loss_factor = -0.05 tooltip = land_mastery_gain_factor_tt }
 
 				#Need for tooltip
 				set_variable = { SOV_the_red_army_mastery_loss_factor_inverted = SOV_the_red_army_mastery_loss_factor }
@@ -7955,7 +7954,7 @@ focus_tree = {
 				limit = { NOT = { has_completed_focus = SOV_lessons_of_war } }
 				
 				custom_effect_tooltip = modify_the_red_army_tt
-				add_to_variable = { SOV_the_red_army_mastery_loss_factor = -0.03 tooltip = land_mastery_gain_factor_tt }
+				add_to_variable = { SOV_the_red_army_mastery_loss_factor = -0.05 tooltip = land_mastery_gain_factor_tt }
 
 				#Need for tooltip
 				set_variable = { SOV_the_red_army_mastery_loss_factor_inverted = SOV_the_red_army_mastery_loss_factor }

@@ -1807,7 +1807,7 @@ political_actions = {
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			country_event = {
-				id = AFG_royal_succession_events.01
+				id = AFG_political_events.173
 			}	
 
 		}

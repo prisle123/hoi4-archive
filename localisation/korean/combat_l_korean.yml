@@ -190,7 +190,7 @@
  NAVAL_COMBAT_RESULT_SURVIVOR_CONVOYS: "$FLAG$ §H호송§!: $COUNT|H$"
  NAVAL_COMBAT_RESULT_SUNK_BY: "$NAME|Y$($KILLER|Y$에 격침당함)"
  LAND_COMBAT_CAS_INFO: "격추당한 총수: $LOST|R$\n£organization_texticon 피해 $ORG|R0$\n£strenght_texticon 피해: $STR|R0$"
- LAND_COMBAT_CAS_INFO_TOOLTIP: "$SIDE$ 측의 지원기 약 $NUM|Y$기가 이 전투를 지원했습니다.\n지원기가 §Y조직력§!에 $ORG|G0$ 피해를 주었고, 현재 적의 §Y조직력§!은 $ORG_MAX|G0$입니다.\n지원기가 §Y내구도§!에 $STR|G0$ 피해를 주었고, 현재 적의 §Y내구도§!는 $STR_MAX|G0$입니다.\n적 사단의 §Y대공 수단§!은 비행기를 총 $KILL|R$기 격추했고, $ORG_PREVENT|R0$ §Y조직력§!피해 및 $STR_PREVENT|R0$ §Y내구도§! 피해를 방지했습니다."
+ LAND_COMBAT_CAS_INFO_TOOLTIP: "$SIDE$ 측의 지원기 약 $NUM|Y$기가 이 전투를 지원했습니다.\n지원기가 §Y조직력§!에 $ORG|G0$ 피해를 주었고, 현재 적의 §Y조직력§!은 $ORG_MAX|G0$입니다.\n지원기가 §Y내구도§!에 $STR|G0$ 피해를 주었고, 현재 적의 §Y내구도§!는 $STR_MAX|G0$입니다.\n적 사단의 §Y대공 수단§!은 비행기를 총 $KILL|R$기 격추했고, $AA_EFFECTIVENESS|H%1$의 효율로 $ORG_PREVENT|R0$ §Y조직력§! 피해 및 $STR_PREVENT|R0$ §Y내구도§! 피해를 방지했습니다."
  LAND_COMBAT_CAS_INFO_TOOLTIP_DETAIL: "지원 가능한 비행기는 최대 $MAX_PLANES|Y$기입니다. 전장 너비가 넓을수록 더 많은 비행기가 투입될 수 있습니다."
  SHIP_KILLS_AND_ASSISTS: "적 함선 $SUNK|G$척 격침\n$ASS|G$척 격침 도움"
  CARRIER_STACK_PENALTY_DESC: " §H항공모함 타격 불이익§!\n\n비행단의 $PERC|H%0$가 적을 공격할 수 있습니다.\n\n이 값은 현재 공중에 있는 아군 항공기 수와 적 함대 구성을 통해 산출됩니다.\n\n최소 $MINIMUM|H$기의 항공기가 공중에 있어야 불이익이 적용되며, 적 함대 구성으로 인해 $ENEMY_FLEET|H$기의 항공기를 효과적으로 운용할 수 있습니다. 이 두 수치 중 더 높은 값이 사용됩니다."

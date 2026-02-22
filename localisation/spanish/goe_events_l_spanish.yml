@@ -324,11 +324,11 @@
  AFG_political_events.172.desc: "\nA principios de esta semana, fuerzas de [FROM.GetNameDef] han invadido y ocupado nuestro territorio de Waziristán con el pretexto de proteger la región de una hipotética ocupación enemiga. Se trata claramente de un acto de guerra, pero podríamos optar por no responder, ya que no parece que busquen enfrentarse a nosotros, sino reunificar al pueblo pastún disperso."
  AFG_political_events.172.a: "No vale la pena luchar."
  AFG_political_events.172.b: "¿Quiénes se han creído que son?"
- AFG_royal_succession_events.01.t: "Un nuevo primer ministro monárquico"
- AFG_royal_succession_events.01.desc: "Habida cuenta del recelo que venían suscitando las decisiones de $AFG_mohammad_hashim_khan$, se ha optado finalmente por delegar el cargo en alguno de sus hermanos, cuya potestad quedaría supeditada a la de $AFG_mohammed_zahir_shah$. Con esta medida se trata de proteger el poder de la corona. ¿Quién habrá de tomar el relevo?"
- AFG_royal_succession_events.01.a: "El siempre coherente $AFG_shah_mahmud_khan$."
- AFG_royal_succession_events.01.b: "$AFG_sardar_shah_wali_khan$, portento de la estrategia militar."
- AFG_royal_succession_events.01.c: "$AFG_mohammed_daoud_khan$, de corte más progresista."
+ AFG_political_events.173.t: "Un nuevo primer ministro monárquico"
+ AFG_political_events.173.desc: "Habida cuenta del recelo que venían suscitando las decisiones de $AFG_mohammad_hashim_khan$, se ha optado finalmente por delegar el cargo en alguno de sus hermanos, cuya potestad quedaría supeditada a la de $AFG_mohammed_zahir_shah$. Con esta medida se trata de proteger el poder de la corona. ¿Quién habrá de tomar el relevo?"
+ AFG_political_events.173.a: "El siempre coherente $AFG_shah_mahmud_khan$."
+ AFG_political_events.173.b: "$AFG_sardar_shah_wali_khan$, portento de la estrategia militar."
+ AFG_political_events.173.c: "$AFG_mohammed_daoud_khan$, de corte más progresista."
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetName] solicita permiso para invadir [BHU.GetName]"

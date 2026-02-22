@@ -9612,7 +9612,6 @@ SOV_set_up_dynamic_modifiers_civil_war = { #Used for Stalinist side in the CW
 	# Copy Red Army Dynamic Modifier
 	set_variable = { SOS.SOV_the_red_army_mobilization_laws_cost_factor = SOV.SOV_the_red_army_mobilization_laws_cost_factor }
 	set_variable = { SOS.SOV_the_red_army_army_org_factor = SOV.SOV_the_red_army_army_org_factor }
-	set_variable = { SOS.SOV_the_red_army_experience_gain_army_factor = SOV.SOV_the_red_army_experience_gain_army_factor }
 	set_variable = { SOS.SOV_the_red_army_experience_loss_factor = SOV.SOV_the_red_army_experience_loss_factor }
 	set_variable = { SOS.SOV_the_red_army_mastery_loss_factor = SOV.SOV_the_red_army_mastery_loss_factor }
 	set_variable = { SOS.SOV_the_red_army_mastery_loss_factor_inverted = SOV.SOV_the_red_army_mastery_loss_factor_inverted }

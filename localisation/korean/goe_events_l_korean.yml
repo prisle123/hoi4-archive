@@ -324,11 +324,11 @@
  AFG_political_events.172.desc: "\n이번 주 초, [FROM.GetNameDef] 군대가 진입해 우리의 와지리스탄 영토를 점령했습니다. 명분은 향후 해당 지역이 적에게 점령되지 않도록 방어해 주겠다는 것입니다. 이것은 명백한 전쟁 행위이지만, 싸움을 걸려고 했다기보다는 흩어진 파슈툰족을 다시 통합하려고 한 것에 가까운 만큼, 그냥 무시하는 것도 좋은 선택일 수 있습니다."
  AFG_political_events.172.a: "싸울 가치가 없다."
  AFG_political_events.172.b: "자기들이 뭐라도 되는 줄 아나?"
- AFG_royal_succession_events.01.t: "새로운 왕족 총리"
- AFG_royal_succession_events.01.desc: "많은 사람이 $AFG_mohammad_hashim_khan$의 결정에 의문을 제기하자, 그는 자신의 형제 중 한 명을 $AFG_mohammed_zahir_shah$에게 복종하는 새로운 지도자로 임명해 왕권을 공고히 하기로 했습니다. 과연 누가 그의 자리를 이어받게 될까요?"
- AFG_royal_succession_events.01.a: "일관성 있는 $AFG_shah_mahmud_khan$"
- AFG_royal_succession_events.01.b: "군사적으로 유능한 $AFG_sardar_shah_wali_khan$"
- AFG_royal_succession_events.01.c: "더 진보적인 $AFG_mohammed_daoud_khan$"
+ AFG_political_events.173.t: "새로운 왕족 총리"
+ AFG_political_events.173.desc: "많은 사람이 $AFG_mohammad_hashim_khan$의 결정에 의문을 제기하자, 그는 자신의 형제 중 한 명을 $AFG_mohammed_zahir_shah$에게 복종하는 새로운 지도자로 임명해 왕권을 공고히 하기로 했습니다. 과연 누가 그의 자리를 이어받게 될까요?"
+ AFG_political_events.173.a: "일관성 있는 $AFG_shah_mahmud_khan$"
+ AFG_political_events.173.b: "군사적으로 유능한 $AFG_sardar_shah_wali_khan$"
+ AFG_political_events.173.c: "더 진보적인 $AFG_mohammed_daoud_khan$"
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetName]의 [BHU.GetName] 침공 권한 요청"

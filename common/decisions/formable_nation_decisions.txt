@@ -7986,6 +7986,8 @@ form_arabia_category = {
 				original_tag = FSA
 				# Imamate of Oman
 				original_tag = IMO
+				# Rif
+				original_tag = RIF
 			}
 			NOT = { has_global_flag = form_arabia_flag }
 		}
@@ -8220,6 +8222,9 @@ form_arabia_category = {
 				state = 551
 				state = 883
 				state = 767
+				state = 886
+				state = 549
+				state = 887
 			}
 		}
 
@@ -8243,6 +8248,9 @@ form_arabia_category = {
 			controls_state = 453
 			controls_state = 551
 			controls_state = 883
+			controls_state = 886
+			controls_state = 549
+			controls_state = 887
 
 		}
 
@@ -8259,6 +8267,9 @@ form_arabia_category = {
 			551 = { add_core_of = ROOT } # Kharthoum
 			883 = { add_core_of = ROOT } # Kassala
 			767 = { add_core_of = ROOT } # North Darfur
+			886 = { add_core_of = ROOT } # Blue Nile 
+			549 = { add_core_of = ROOT } # Kurdufan 
+			887 = { add_core_of = ROOT } # South Darfur 
 			
 		}
 

@@ -380,9 +380,10 @@ areas = {
 	
 	italy_med_control_zone = {
 		strategic_regions = {
-			169
+			69
 			29
 			168
+			202
 		}
 	}
 }

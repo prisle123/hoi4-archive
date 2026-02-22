@@ -324,11 +324,11 @@
  AFG_political_events.172.desc: "\nNa początku tego tygodnia siły [FROM.GetAdjective] wkroczyły i zajęły nasze terytorium Waziristan, twierdząc, że ich misją jest ochrona regionu przed potencjalną okupacją przez ich wrogów. Jest to ewidentny akt wojny, który możemy jednak zignorować, ponieważ prawdopodobnie nie chcą walczyć z nami, a raczej dążą do ponownego zjednoczenia rozproszonych ludów pasztuńskich."
  AFG_political_events.172.a: "Nie warto o to walczyć"
  AFG_political_events.172.b: "Za kogo oni się uważają?"
- AFG_royal_succession_events.01.t: "Nowy rojalistyczny premier"
- AFG_royal_succession_events.01.desc: "Wielu ludzi kwestionuje decyzje, które podejmuje $AFG_mohammad_hashim_khan$, dlatego postanowiono zabezpieczyć królewską władzę poprzez mianowanie nowym przywódcą jednego z jego braci, których podporządkował sobie $AFG_mohammed_zahir_shah$. Kto zostanie następcą?"
- AFG_royal_succession_events.01.a: "Zawsze konsekwentny $AFG_shah_mahmud_khan$"
- AFG_royal_succession_events.01.b: "Genialny wojskowy $AFG_sardar_shah_wali_khan$"
- AFG_royal_succession_events.01.c: "Bardziej postępowy $AFG_mohammed_daoud_khan$"
+ AFG_political_events.173.t: "Nowy rojalistyczny premier"
+ AFG_political_events.173.desc: "Wielu ludzi kwestionuje decyzje, które podejmuje $AFG_mohammad_hashim_khan$, dlatego postanowiono zabezpieczyć królewską władzę poprzez mianowanie nowym przywódcą jednego z jego braci, których podporządkował sobie $AFG_mohammed_zahir_shah$. Kto zostanie następcą?"
+ AFG_political_events.173.a: "Zawsze konsekwentny $AFG_shah_mahmud_khan$"
+ AFG_political_events.173.b: "Genialny wojskowy $AFG_sardar_shah_wali_khan$"
+ AFG_political_events.173.c: "Bardziej postępowy $AFG_mohammed_daoud_khan$"
  #RAJ
  #India wants to invade Bhutan
  GOE_RAJ.1.t: "[FROM.GetName] prosi o zgodę na zaatakowanie państwa [BHU.GetAdjective]"

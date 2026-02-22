@@ -1757,7 +1757,7 @@
  CONVOY_ESCORT_PRESENCE_IN_REGION_EXPANDED:0 "Over the last month, our escort Task Forces were ready $HOURS_WITH$/$HOURS_TOTAL|H$ hours ($PERCENT|H$)"
  CONVOY_ESCORT_EFFICIENCY_FLEET_DESC:4 "The Fleet $FLEET|H$ has $NUM|.0H$ available ships and $NUM_TASKFORCES|.0H$ available taskforces and can escort up to $COVERED_CONVOY|.0H$ convoys or cover up to $COVERED_REGION|.0H$ regions.($EFFICIENCY|H$)"
  CONVOY_RAIDING_EFFICIENCY_IN_REGION:0 "Average Convoy Raiding Efficiency in the region: $VALUE$"
- CONVOY_RAIDING_TASK_FORCE_EFFICIENCY_DESC:0 "$TASK_FORCE|H$ can raid convoys in up to $REGIONS|.1H$ ($EFFICIENCY|H$) different regions efficiently."
+ CONVOY_RAIDING_TASK_FORCE_EFFICIENCY_DESC:0 "$TASK_FORCE|H$ can raid convoys in up to $REGIONS|H$ ($EFFICIENCY|H$) different regions efficiently."
  FACTION_LEADER_CAPITULATED_HEADER:0 "Faction Leadership"
  FACTION_LEADER_CAPITULATED_WE_ARE_NEW_LEADER:0 "After the capitulation of $OLDLEADER|H$ we are now the leader of $FACTION|H$."
  RESEARCH_WITH_XP_TEXT:1 "Spend $XP_TEXT$"
