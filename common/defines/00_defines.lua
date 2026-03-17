@@ -1658,7 +1658,7 @@ NNavy = {
 
 	REPAIR_SPLIT_TASKFORCE_SIZE = 5,								-- if a country does not have empty naval naval bases for repairs, it will split ships with this sizes and distribute them around
 	NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SHIP_WAITING_EXTRA_SHIP = 5,  -- if a naval base has more ships than it can repair, it will get penalties
-	NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SLOT = 1.0,					-- while searching for a naval base for repairs, the bases gets a bonus to their scores per empty slot they have
+	NAVY_REPAIR_BASE_SEARCH_SCORE_PER_SLOT = 2.5,					-- while searching for a naval base for repairs, the bases gets a bonus to their scores per empty slot they have
 	NAVY_REPAIR_BASE_SEARCH_BOOST_FOR_SAME_COUNTRY = 5,				-- while searching for a naval base for repairs, your own bases gets a bonus
 	NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_LOW = 2,					-- bases with a level above this value will be set to low prio	(bases between these levels will get medium prio)
 	NAVY_REPAIR_BASE_PRIORITY_THRESHOLD_HIGH = 7,					-- bases with a level above this value will be set to high prio (bases between these levels will get medium prio)
@@ -1759,7 +1759,7 @@ NNavy = {
 		---- values correspond to the indexes of the AGGRESSION_SETTINGS_VALUES. 0 = do not engage, 1 = low, 2 = medium, etc. 
 		---- If set to (-1), will use the hardcoded behavior (low if navy is generally weaker than opponent, medium if stronger)
 		-1, -- HOLD
-		2, -- PATROL
+		1, -- PATROL
 		4, -- STRIKE FORCE
 		2, -- CONVOY RAIDING
 		2, -- CONVOY ESCORT
@@ -2264,7 +2264,7 @@ NTrade = {
 },
 
 NAI = {
-	PEACE_TIME_NAVY_FUEL_FACTOR = 0.2,			-- Percentage of fuel available to navy that is allowed to use for missiosn during peace time
+	PEACE_TIME_NAVY_FUEL_FACTOR = 0.25,			-- Percentage of fuel available to navy that is allowed to use for missiosn during peace time
 	PEACE_TIME_NAVY_FUEL_LIMIT = 0.5,			-- The maximum fuel percentage to use for navy at peace from available fuel scaled with world tension
 	GARRISON_FRACTION = 0.0, 					-- How large part of a front should always be holding the line rather than advancing at the enemy
 	THEORIST_SCALING_WEIGHT_FACTOR_PER_NON_POLITICAL_ADVISORS = 0.15, --Scale theorist weight by this * num non political advisors
@@ -4487,8 +4487,8 @@ NFactions = {
 	AI_FACTION_POWER_PROJECTION_VALUE = 0.01,				-- AI score per Power Projection point
 	AI_MIN_POWER_PROJECTION_SCORE = -100,					-- Min AI score for Power Projection
 	AI_MAX_POWER_PROJECTION_SCORE = 100,					-- Max AI score for Power Projection
-	FACTION_INFLUENCE_LEND_LEASE_FACTOR=0.01,				-- how much the country's contribution in the faction affects its influence
-	FACTION_INFLUENCE_WAR_SCORE_FACTOR=0.1,					-- how much the country's war score affects its influence
+	FACTION_INFLUENCE_LEND_LEASE_FACTOR=0.025,				-- how much the country's contribution in the faction affects its influence
+	FACTION_INFLUENCE_WAR_SCORE_FACTOR=0.125,					-- how much the country's war score affects its influence
 	FACTION_INFLUENCE_EFFECTS_FACTOR=1,						-- how much the effects affects its influence
 	FACTION_INFLUENCE_INDUSTRIAL_CAPACITY_FACTOR = 5, 			--how much the country's industry affects its influence
 	FACTION_INFLUENCE_GARRISON_SUPPORT_PROVIDER_FACTOR = 0.001,  	--how much the country's provided garrison support affects its influence
@@ -4499,7 +4499,7 @@ NFactions = {
 	FACTION_INFLUENCE_EXPEDITIONARY_FORCE_RECIEVER_FACTOR = -0.02 , --how much the country's provided expeditionary forces affects its influence
 	FACTION_MANPOWER_GIVE_CONTRIBUTION_SCALAR=0.1,			-- a scalar of how much contribution you get for giving a singular recruitable population to your faction
 	FACTION_MANPOWER_RECIEVE_CONTRIBUTION_SCALAR=0.1,		-- a scalar for how much contribution it takes to get a singular recruitable population
-	FACTION_SCIENTIST_CONTRIBUTION_VALUE = 3,				--how much contribution one scientists gives to you if it is working for somebody else.
+	FACTION_INFLUENCE_SCIENTIST_CONTRIBUTION_VALUE = 0.5,				-- how much contribution one scientists gives to you if it is working for somebody else.
 	ASSIGN_FACILITY_TO_FACTION_INITIATIVE_COST = 1,		--The initiative cost of assigning a facility to a faction
 	FACTION_ASSIGN_SCIENTIST_COST = 25,						--how much political power it costs to assign a supportive scientist
 	FACTION_UNLOCK_COMMANDER_COST = 1,						--how much initiative it costs to create a new faction theater
@@ -4543,7 +4543,7 @@ NFactions = {
 	MAX_NUM_MEDIUM_TERM_GOALS = 1,						-- Maximum number of medium term goals a faction can have at any one time
 	MAX_NUM_LONG_TERM_GOALS = 1,						-- Maximum number of long term goals a faction can have at any one time
 	REPLACING_UNFINISHED_FACTION_GOAL_COST = 1,			-- The cost of replacing a goal if it is not finished
-	PASSIVE_INITIATIVE_GENERATION = 0.01,				-- How much initiative we are generating per day, scaled by manifest progress and influence%
+	PASSIVE_INITIATIVE_GENERATION = 0.015,				-- How much initiative we are generating per day, scaled by manifest progress and influence%
 	MAX_FACTION_THEATERS = 4,							-- The maximum number of faction theaters that can be created
 	
 	AI_FACTION_THEATER_TEMPLATE_SELECTION_RANDOMNESS = 1,	-- AI will pick a weighted random template from the top of the list

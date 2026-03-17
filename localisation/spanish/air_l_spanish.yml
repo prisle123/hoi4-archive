@@ -45,7 +45,7 @@
  AIRWING_MISSION_TYPE_RECON_DESC: "Efectúa una exploración aérea y recopila información.\n\nLos aviones que no sean de reconocimiento solo pueden ejecutar esta misión en estados controlados por el enemigo."
  AIRWING_MISSION_TYPE_NAVAL_PATROL: "Patrulla naval"
  AIRWING_MISSION_TYPE_NAVAL_PATROL_DESC: "Patrulla el mar sin enfrentarte a los barcos enemigos y ayuda a las fuerzas especiales aliadas que patrullan la zona a detectar enemigos."
- AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Misiones de cazas y de apoyo"
+ AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Misiones de AAC y cazas"
  AIRWING_MISSION_TYPE_NAVAL_MISSIONS: "Misiones navales"
  AIRWING_MISSION_TYPE_BOMBING_MISSIONS: "Misiones de bombardeo"
  AIRWING_MISSION_TYPE_BOMBING_LOGISTICS_MISSIONS: "Misiones de bombardeo y logística"

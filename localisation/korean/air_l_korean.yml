@@ -45,7 +45,7 @@
  AIRWING_MISSION_TYPE_RECON_DESC: "공중 정찰 및 정보 수집을 수행합니다.\n\n정찰기가 아닌 비행기는 이 임무를 적이 점령한 주에서만 수행할 수 있습니다."
  AIRWING_MISSION_TYPE_NAVAL_PATROL: "해상 초계"
  AIRWING_MISSION_TYPE_NAVAL_PATROL_DESC: "적 함선과 교전하지 않고 바다를 순찰하며, 이 지역을 순찰하는 아군 태스크 포스가 적을 발견할 수 있게 지원합니다."
- AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "전투기 및 지원 임무"
+ AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "전투기와 근접항공지원기 임무"
  AIRWING_MISSION_TYPE_NAVAL_MISSIONS: "해상 임무"
  AIRWING_MISSION_TYPE_BOMBING_MISSIONS: "폭격 임무"
  AIRWING_MISSION_TYPE_BOMBING_LOGISTICS_MISSIONS: "폭격 및 병참 임무"

@@ -1992,7 +1992,7 @@
  SWI_pre_empt_anschluss_desc:0 "There are rumblings that [GER.GetNameDef] is looking to annex [AUS.GetName] in the name of [GER.GetAdjective] unity. This is not something that [ROOT.GetNAmeDef] can allow, as it will empower [GER.GetNameDef] to make the same claims about our German speaking cantons. We must hurry and set the stage for a defense of all of [AUS.GetName]."
  SWI_pre_empt_anschluss_tt:1 "§YShould [AUS.GetNameDef] accept we will gain cores on their core states§! \n\nThey will be more likely to accept based on the §Ysize§! of our armed forces, their §Yopinion§! of us and if §Y[GER.GetNameDef] is getting ready§! to annex [AUS.GetName]."
  SWI_demand_italian_alps:0 "Demand Italian Alps"
- SWI_demand_italian_alps_desc:0 "For decades, [ITA.GetName] has shamelessly claimed our [ITA.GetAdjective] speaking cantons. If they can do that we can certainly demand that their Alps join our democratic regime, after all, they belong in [ROOT.GetNameDef] as much as Ticino belongs to [ITA.GetNameDef]."
+ SWI_demand_italian_alps_desc:0 "For decades, [ITA.GetName] has shamelessly claimed our [ITA.GetAdjective] speaking cantons. If they can do that we can certainly demand that their Alps join our democratic society. After all, they belong in [ROOT.GetNameDef] as much as Ticino belongs to [ITA.GetNameDef]."
  SWI_demand_french_alps:0 "Demand French Alps"
  SWI_demand_french_alps_desc:0 "It's a matter of time until [FRA.GetNameDef] crumbles under internal and external pressures. We must take a proactive stance in the defense of the Alps, otherwise a dangerous enemy could take control of defensible positions that can serve as a staging ground for an invasion into our territory."
  SWI_alpine_redoubt:0 "Alpine Redoubt"

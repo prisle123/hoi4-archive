@@ -3201,7 +3201,7 @@ characters={
 				NOT = {
 					has_government = communism
 				}
-				has_completed_focus = KHM_establish_the_kashgar_clique
+				has_country_flag = KHM_established_the_kashgar_clique_flag 
 			}
 
 			traits = {
@@ -3239,7 +3239,7 @@ characters={
 				NOT = {
 					has_government = communism
 				}
-				has_completed_focus = KHM_establish_the_kashgar_clique
+				has_country_flag = KHM_established_the_kashgar_clique_flag 
 			}
 
 			traits = {

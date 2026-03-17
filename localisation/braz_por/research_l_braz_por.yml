@@ -704,7 +704,7 @@
  massed_strikes: "Ataques em massa"
  massed_strikes_desc: "Pilotos treinados para missões de porta-aviões permitirão que até mesmo um porta-aviões superlotado funcione facilmente, cercando o inimigo e melhorando vastamente sua eficiência em batalhas navais. Um carreiro precisa funcionar como uma máquina bem lubrificada onde todo mundo sabe sua função."
  carrier_battlegroups: "Grupos de batalha de porta-aviões"
- carrier_battlegroups_desc: "Porta-aviões são capazes de atacar o inimigo de uma maior distância do que um canhão naval e com olhos no céu, nunca seremos pegos desprevenidos. Porta-aviões em massa são uma força a ser considerada."
+ carrier_battlegroups_desc: "Porta-aviões são capazes de atacar o inimigo a partir de distâncias maiores que o alcance de qualquer canhão naval e, com olhos no céu, nunca seremos pegos desprevenidos. Uma frota de porta-aviões é uma força a ser considerada."
  escort_patrols: "Patrulhas de escolta"
  escort_patrols_desc: "Melhorar a detecção torna nossas escoltas de comboios ainda mais mortais para submarinos. Sem nenhum lugar para se esconder, eles não são uma grande ameaça."
  RESEARCH_PROGRESS_DONE: "§TTempo pesquisado: $WEEKS|H$§!"

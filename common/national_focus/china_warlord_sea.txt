@@ -5733,6 +5733,10 @@
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = KHM_muhammad_amin_bughra
 
+			hidden_effect = {
+				set_country_flag = KHM_established_the_kashgar_clique_flag
+			}
+
 		}
 
 	}

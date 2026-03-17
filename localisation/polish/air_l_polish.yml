@@ -45,7 +45,7 @@
  AIRWING_MISSION_TYPE_RECON_DESC: "Przeprowadź rozpoznanie z powietrza i zbierz dane wywiadowcze.\n\nSamoloty inne niż rozpoznawcze mogą wykonać tę misję tylko w regionach kontrolowanych przez wroga."
  AIRWING_MISSION_TYPE_NAVAL_PATROL: "Patrol morski"
  AIRWING_MISSION_TYPE_NAVAL_PATROL_DESC: "Patroluj morze, nie atakując wrogich okrętów, i pomóż wykrywać wrogów sojuszniczym grupom operacyjnym w tym obszarze."
- AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Misje myśliwców i samolotów wsparcia"
+ AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Misje myśliwców i samolotów szturmowych"
  AIRWING_MISSION_TYPE_NAVAL_MISSIONS: "Misje morskie"
  AIRWING_MISSION_TYPE_BOMBING_MISSIONS: "Misje bombowe"
  AIRWING_MISSION_TYPE_BOMBING_LOGISTICS_MISSIONS: "Misje bombowe i logistyczne"

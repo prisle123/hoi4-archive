@@ -704,7 +704,7 @@
  massed_strikes: "Frappes massives"
  massed_strikes_desc: "Les pilotes entraînés aux missions embarquées permettent à un porte-avions, même s'il emporte trop d'appareils, de bien fonctionner. Ils peuvent ainsi submerger l'ennemi tout en conservant leur efficacité lors des engagements. Un porte-avions doit tourner comme une machine bien huilée, où chacun sait parfaitement quel est son rôle."
  carrier_battlegroups: "Groupes navals de porte-avions"
- carrier_battlegroups_desc: "Les porte-avions peuvent frapper l'ennemi de plus loin que n'importe quel canon, et grâce à la surveillance aérienne ils ne peuvent être pris de court par l'ennemi. Un groupe de porte-avions est une force qui ne peut en aucun cas être négligée."
+ carrier_battlegroups_desc: "Les porte-avions peuvent frapper l'ennemi plus loin que n'importe quel canon, et leur surveillance aérienne rend impossible toute embuscade adverse. Les flottes de porte-avions rassemblées sont une force qui ne peut en aucun cas être négligée."
  escort_patrols: "Patrouilles d'escorte"
  escort_patrols_desc: "L'amélioration de la détection rend les escortes des convois bien plus dangereuses contre les sous-marins ennemis. N'ayant plus nulle part où se cacher, ils ne sont plus une menace véritable."
  RESEARCH_PROGRESS_DONE: "§TDurée de recherche : $WEEKS|H$§!"

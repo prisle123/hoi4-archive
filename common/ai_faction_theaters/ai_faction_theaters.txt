@@ -81,7 +81,7 @@ eastern_europe = {
 	regions = {
 		8 # Eastern Germany
 		38 # Western Poland
-		9 # Czechoslovakia
+		22 # Czechoslovakia
 		39 # Eastern Poland
 		206 # Lower Baltic Sea
 		37 # Baltic States
@@ -128,8 +128,8 @@ barbarossa_north = {
 		132 # Novgorod
 		206 # Lower Baltic Sea
 		9 # Gulf of Finland  
-		12 # Eastern Finland  
-		265 # Eastern Finland  
+		13 # Eastern Finland  
+		265 # East Karelia
 		150 # Archangelsk
 		278 # Western Finland
 		279 # Gulf of Botnia
@@ -198,7 +198,7 @@ barbarossa_south = { # For Barbarossas
 		26 # Eastern Balkans
 		27 #Northern Balkans
 		30 # Black Sea
-		15 # Kuban Region
+		135 # Kuban Region
 		137 # Western Steppe
 		267 # Transcaspia
 		270 # Syrdania
@@ -327,7 +327,7 @@ black_sea_region = {
 		modifier = {
 			add = 1
 			OR = {
-				controls_state = 21 # Edirne
+				controls_state = 341 # Edirne
 				controls_state = 211 # Varna
 				controls_state = 971 # Northern Dobrudja
 				controls_state = 137 # Crimea
@@ -335,7 +335,7 @@ black_sea_region = {
 				controls_state = 192 # Odessa
 			}
 			any_enemy_country = {
-				controls_state = 21 # Edirne
+				controls_state = 341 # Edirne
 				controls_state = 211 # Varna
 				controls_state = 971 # Northern Dobrudja
 				controls_state = 137 # Crimea
@@ -1099,13 +1099,13 @@ japanese_home_islands = {
 				size > 150
 			}
 			controls_state = 648 # Minamitorishima
-			controls_state = 94 # Iwo Jima
+			controls_state = 645 # Iwo Jima
 		}
 		modifier = {
 			add = 10
 			original_tag = JAP
 			any_enemy_country = {
-				controls_state = 94 # Iwo Jima
+				controls_state = 645 # Iwo Jima
 			}
 		}
 		modifier = {

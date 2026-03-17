@@ -45,7 +45,7 @@
  AIRWING_MISSION_TYPE_RECON_DESC:1 "Perform aerial scouting and intel gathering.\n\nNon-scout planes can only execute this mission on enemy controlled states."
  AIRWING_MISSION_TYPE_NAVAL_PATROL:0 "Naval Patrol"
  AIRWING_MISSION_TYPE_NAVAL_PATROL_DESC:1 "Patrol the sea, without engaging enemy ships, and help friendly task forces patrolling in the area spot enemies."
- AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS:0 "Fighter and Support Missions"
+ AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS:0 "Fighter and CAS Missions"
  AIRWING_MISSION_TYPE_NAVAL_MISSIONS:0 "Naval Missions"
  AIRWING_MISSION_TYPE_BOMBING_MISSIONS:0 "Bombing Missions"
  AIRWING_MISSION_TYPE_BOMBING_LOGISTICS_MISSIONS:0 "Bombing and Logistics Missions"

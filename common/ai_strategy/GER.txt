@@ -85,7 +85,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = unit_ratio
 		id = convoy
-		value = 20
+		value = 10
 	}
 
 	ai_strategy = {
@@ -97,13 +97,13 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_factor
 		id = anti_tank
-		value = 20
+		value = 30
 	}
 
 	ai_strategy = {
 		type = equipment_production_factor
 		id = anti_air
-		value = 25
+		value = 15
 	}
 
 	ai_strategy = {
@@ -114,7 +114,7 @@ GER_unit_production = {
 	ai_strategy = {
 		type = equipment_production_min_factories_archetype #Build these up over time, don't stall
 		id = anti_air_equipment
-		value = 2
+		value = 1
 	}
 	ai_strategy = {
 		type = equipment_production_min_factories_archetype
@@ -764,7 +764,7 @@ GER_blitzkrieg_poland = {
 	ai_strategy = {
 		type = front_armor_score
 		id = POL
-		value = 100
+		value = 250
 	}
 
 	ai_strategy = {
@@ -2631,10 +2631,7 @@ GER_market_management_after_anschluss = {
 	}
 	enable = {
 		has_government = fascism
-		OR = {
-			has_completed_focus = GER_anschluss
-			has_completed_focus = GER_anschluss
-		}
+		has_completed_focus = GER_anschluss
 	}
 	abort_when_not_enabled = yes
 
@@ -2642,22 +2639,42 @@ GER_market_management_after_anschluss = {
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = infantry
-		value = 100000
+		value = 200000
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = support
-		value = 500
+		value = 1000
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = artillery
-		value = 500
+		value = 1500
+	}
+	ai_strategy = {
+		type = equipment_market_for_sale_threshold
+		id = anti_air
+		value = 1000
+	}
+	ai_strategy = {
+		type = equipment_market_for_sale_threshold
+		id = anti_tank
+		value = 1500
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = armor
-		value = 500
+		value = 1000
+	}
+	ai_strategy = {
+		type = equipment_market_for_sale_threshold
+		id = motorized
+		value = 2000
+	}
+	ai_strategy = {
+		type = equipment_market_for_sale_threshold
+		id = train
+		value = 200
 	}
 }
 
@@ -2675,37 +2692,37 @@ GER_market_management_after_sudetenland = {
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = infantry
-		value = 200000
+		value = 400000
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = support
-		value = 1500
+		value = 3000
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = artillery
-		value = 1500
+		value = 3000
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = anti_air
-		value = 1500
+		value = 2000
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = anti_tank
-		value = 1500
+		value = 3000
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = armor
-		value = 1000
+		value = 2000
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
 		id = motorized
-		value = 2000
+		value = 4000
 	}
 	ai_strategy = {
 		type = equipment_market_for_sale_threshold
@@ -2771,11 +2788,12 @@ GER_we_are_bad_at_espionage_because_it_is_expensive_and_not_tanks = {
 GER_my_precisioussss = {
 	allowed = {
 		original_tag = GER
+		is_historical_focus_on = yes
 	}
 
 	enable = {
 		OR = {
-			date < 1944.6.1
+			date < 1938.1.1
 			has_war = yes
 		}
 	}
@@ -3588,6 +3606,15 @@ GER_blitzkrieg_russia_hard  = { #STEINER, IT IS NOT TIME YET
 		ordertype = front
 		execution_type = rush
 		execute_order = yes
+	}
+	ai_strategy = {
+		# Avoid the Pripyat Marshes
+		type = force_concentration_target_weight
+		state = 94 # Polesie
+		state = 93 # Volyn
+		state = 194 # Mozyr
+
+		value = -40 # -40%
 	}
 }
 
@@ -4774,7 +4801,10 @@ GER_tanks_in_greece = { #Gotta rush GRE so we're ready for SOV
 GER_raid_the_north_sea = {
 	allowed = { original_tag = GER }
 	enable = {
-		has_war = yes
+		OR = {
+			has_war_with = NOR
+			has_war_with = SOV
+		}
 	}
 	abort_when_not_enabled = yes
 
@@ -4793,11 +4823,6 @@ GER_raid_the_north_sea = {
 		id = 173 #Eastern North Sea
 		value = 250
 	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 207 #Danish Belts
-		value = 100
-	}
 }
 
 #Yo-ho-ho and a bottle of rum! We set sail for the North Atlantic aaaargh!
@@ -4807,6 +4832,7 @@ GER_raid_the_atlantic = {
 		OR = {
 			has_war_with = ENG
 			has_war_with = USA
+			has_war_with = CAN
 		}
 		#Gotta control the Western coast of France
 		any_controlled_state = {
@@ -4817,26 +4843,8 @@ GER_raid_the_atlantic = {
 				state = 19
 			}
 		}
-		has_navy_size = {
-		    type = submarine
-		    size > 40
-		}
 	}
-	abort = {
-		has_war = no
-		NOT = {
-			any_controlled_state = {
-				state = 14
-				state = 30
-				state = 23
-				state = 19
-			}
-		}
-		has_navy_size = {
-		    type = submarine
-		    size < 30
-		}
-	}
+
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
@@ -4847,11 +4855,6 @@ GER_raid_the_atlantic = {
 	ai_strategy = {
 		type = naval_convoy_raid_region
 		id = 47 #Iberian Coast
-		value = 250
-	}
-	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 49 #North Atlantic Ridge
 		value = 250
 	}
 	ai_strategy = {

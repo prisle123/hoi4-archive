@@ -754,7 +754,6 @@
  sp_naval_nuclear_submarine_desc: "Nous sommes capables de fabriquer des moteurs nucléaires suffisamment compacts pour être intégrés à un sous-marin, ce qui permettrait non seulement de rendre le navire silencieux, mais aussi de disposer d'une portée fantastique."
  sp_naval_nuclear_submarine_free_design: "Sous-marin nucléaire"
  sp_naval_rocket_launching_submarine: "Sous-marin lance-missile"
- JAP_sp_naval_rocket_launching_submarine: "Sous-marin lance-missile de classe I-400"
  SOV_sp_naval_rocket_launching_submarine: "Projet 611"
  PRC_sp_naval_rocket_launching_submarine: "Type 094 Jin"
  sp_naval_rocket_launching_submarine_desc: "En équipant nos sous-marins de missiles, nous pourrons frapper des cibles stratégiques ennemies n'importe où et à l'improviste."
@@ -815,6 +814,7 @@
  sp_naval_escort_carrier_desc: "Pour protéger nos lignes de ravitaillement, il nous faut des porte-avions plus petits et plus économiques. Une protection anti-aérienne et anti-sous-marine à moindres frais."
  sp_naval_escort_carrier_free_design: "Porte-avions d'escorte"
  sp_naval_submarine_carrier: "Porte-avions sous-marin"
+ JAP_sp_naval_submarine_carrier: "Porte-avions sous-marin de classe I-400"
  sp_naval_submarine_carrier_desc: "Nous sommes en train de mettre au point un nouveau type de sous-marin, capable d'accueillir plusieurs avions à déployer en missions diverses, au-delà de la simple reconnaissance."
  sp_naval_submarine_carrier_free_design: "Porte-avions sous-marin"
  #################################

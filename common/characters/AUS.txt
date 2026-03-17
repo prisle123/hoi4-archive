@@ -2005,7 +2005,7 @@ characters = {
 	AUS_godwin_von_brumowski = { 
 		advisor = {
 			
-			slot = air_chief
+			slot = high_command
 			idea_token = AUS_godwin_von_brumowski
 			allowed = {
 				original_tag = AUS

@@ -901,7 +901,7 @@
  remove_political_advisor: "Eliminar como §YConsejero político§!:\n"
  remove_chief_of_army: "Eliminar como §YJefe de ejército§!:\n"
  remove_chief_of_navy: "Eliminar como §YJefe de la marina§!:\n"
- remove_chief_of_airforce: "Eliminar como §YJefe de la fuerza aérea§!:\n"
+ remove_chief_of_airforce: "§RCesa§! como §Yjefe de las fuerzas aéreas§! a:\n"
  remove_military_high_command: "Eliminar como §YAlto mando militar§!:\n"
  remove_theorist: "Eliminar como §YTeórico§!:\n"
  usa_focus: "Enfoque nacional de Estados Unidos"

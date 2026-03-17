@@ -754,7 +754,6 @@
  sp_naval_nuclear_submarine_desc: "Wir sollten in der Lage sein, Atomantriebe zu bauen, die selbst in einen kleinen U-Boot-Rumpf passen und dem U-Boot nicht nur eine extreme Reichweite geben, sondern es auch unhörbar machen werden."
  sp_naval_nuclear_submarine_free_design: "Atom-U-Boot"
  sp_naval_rocket_launching_submarine: "Raketen-U-Boot"
- JAP_sp_naval_rocket_launching_submarine: "Raketen-U-Boot der I-400-Klasse"
  SOV_sp_naval_rocket_launching_submarine: "Projekt 611"
  PRC_sp_naval_rocket_launching_submarine: "Typ 094 Jin"
  sp_naval_rocket_launching_submarine_desc: "Indem wir unsere U-Boote mit Raketen und Abschussvorrichtungen ausstatten, sollten wir in der Lage sein, feindliche strategische Ziele überall und ohne Vorwarnung zu treffen."
@@ -815,6 +814,7 @@
  sp_naval_escort_carrier_desc: "Zur Sicherung unserer Nachschubwege schlug man vor, kleinere, wirtschaftlichere Flugzeugträger zu entwickeln, die uns eine kosteneffiziente Luftabdeckung und U-Boot-Abwehrkapazitäten auf den Weltmeeren bieten."
  sp_naval_escort_carrier_free_design: "Geleitflugzeugträger"
  sp_naval_submarine_carrier: "U-Boot-Flugzeugträger"
+ JAP_sp_naval_submarine_carrier: "U-Boot-Flugzeugträger der I-400-Klasse"
  sp_naval_submarine_carrier_desc: "Wir planen eine neue Art von U-Boot zu entwickeln, das mehrere Flugzeuge aufnehmen kann, um Missionen jenseits der Luftaufklärung zu erfüllen."
  sp_naval_submarine_carrier_free_design: "U-Boot-Flugzeugträger"
  #################################

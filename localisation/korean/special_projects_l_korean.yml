@@ -754,7 +754,6 @@
  sp_naval_nuclear_submarine_desc: "우리는 핵 엔진을 특수 잠수함에 장착할 수 있을 만큼 작게 만들어, 잠수함을 무음 상태로 만들며 최대한의 항행 범위를 제공할 수 있어야 합니다."
  sp_naval_nuclear_submarine_free_design: "원자력 잠수함"
  sp_naval_rocket_launching_submarine: "미사일 발사 잠수함"
- JAP_sp_naval_rocket_launching_submarine: "I-400급 미사일 잠수함"
  SOV_sp_naval_rocket_launching_submarine: "프로옉트 611형"
  PRC_sp_naval_rocket_launching_submarine: "094식 진"
  sp_naval_rocket_launching_submarine_desc: "잠수함에 미사일과 발사 시스템을 장착하면 어디에서든 적의 전략 목표물을 사전 경고 없이 타격할 수 있을 것입니다."
@@ -815,6 +814,7 @@
  sp_naval_escort_carrier_desc: "우리는 보급로 보호를 위해 더 작고 경제적인 항공모함을 개발하여 비용 효율적인 공중 엄호와 대양에서의 대잠수함 능력을 제공하고자 합니다."
  sp_naval_escort_carrier_free_design: "호위 항공모함"
  sp_naval_submarine_carrier: "잠수함 항공모함"
+ JAP_sp_naval_submarine_carrier: "I-400급 잠수함 항공모함"
  sp_naval_submarine_carrier_desc: "우리는 공중 정찰 임무를 넘어선 작전을 수행할 수 있도록 여러 대의 비행기를 탑재하고 이륙시킬 수 있는 새로운 종류의 잠수함을 개발하고자 합니다."
  sp_naval_submarine_carrier_free_design: "잠수함 항공모함"
  #################################

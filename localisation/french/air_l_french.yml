@@ -45,7 +45,7 @@
  AIRWING_MISSION_TYPE_RECON_DESC: "Reconnaissance et collecte de renseignements depuis le ciel.\n\nLes appareils non spécifiquement prévus pour la reconnaissance ne peuvent effectuer cette mission qu'au-dessus des États contrôlés par l'ennemi."
  AIRWING_MISSION_TYPE_NAVAL_PATROL: "Patrouille aérienne"
  AIRWING_MISSION_TYPE_NAVAL_PATROL_DESC: "Patrouilles en mer sans engager les navires ennemis, et aide aux escadres amies pour patrouiller dans les zones où des ennemis ont été repérés."
- AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Missions de combat et soutien"
+ AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Missions de chasseurs et d'AAR"
  AIRWING_MISSION_TYPE_NAVAL_MISSIONS: "Missions en mer"
  AIRWING_MISSION_TYPE_BOMBING_MISSIONS: "Missions de bombardement"
  AIRWING_MISSION_TYPE_BOMBING_LOGISTICS_MISSIONS: "Missions de bombardement et de logistique"

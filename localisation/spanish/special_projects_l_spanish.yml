@@ -754,7 +754,6 @@
  sp_naval_nuclear_submarine_desc: "Deberíamos poder fabricar motores nucleares tan pequeños que quepan en un submarino especializado. Eso nos proporcionaría una autonomía increíble y lo haría más silencioso."
  sp_naval_nuclear_submarine_free_design: "Submarino nuclear"
  sp_naval_rocket_launching_submarine: "Submarino lanzamisiles"
- JAP_sp_naval_rocket_launching_submarine: "Submarino de misiles de clase I-400"
  SOV_sp_naval_rocket_launching_submarine: "Proyecto 611"
  PRC_sp_naval_rocket_launching_submarine: "Tipo 094 (Jin)"
  sp_naval_rocket_launching_submarine_desc: "Si equipamos nuestros submarinos con misiles y sistemas de lanzamiento, deberíamos ser capaces de alcanzar los objetivos estratégicos de nuestros enemigos en cualquier parte y sin previo aviso."
@@ -815,6 +814,7 @@
  sp_naval_escort_carrier_desc: "En aras de la continuidad de nuestras líneas de suministro, nos conviene desarrollar portaaviones más pequeños y económicos que, sin renunciar a la efectividad, procuren cobertura aérea y protección contra submarinos en cualquier medio marítimo."
  sp_naval_escort_carrier_free_design: "Portaaviones de escolta"
  sp_naval_submarine_carrier: "Submarino portaaviones"
+ JAP_sp_naval_submarine_carrier: "Submarino portaaviones de clase I-400"
  sp_naval_submarine_carrier_desc: "Estamos desarrollando un nuevo tipo de submarino capaz de dar cabida a varios aviones, que podrán emplearlo de plataforma para llevar a cabo misiones adicionales al reconocimiento aéreo."
  sp_naval_submarine_carrier_free_design: "Submarino portaaviones"
  #################################

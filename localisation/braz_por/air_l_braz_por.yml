@@ -45,7 +45,7 @@
  AIRWING_MISSION_TYPE_RECON_DESC: "Realiza observação aérea e recolhimento de informações."
  AIRWING_MISSION_TYPE_NAVAL_PATROL: "Patrulha Naval"
  AIRWING_MISSION_TYPE_NAVAL_PATROL_DESC: "Realiza patrulha naval."
- AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Missões de batalha e suporte"
+ AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Missões de caça e Apoio Aéreo Aproximado (CAS)"
  AIRWING_MISSION_TYPE_NAVAL_MISSIONS: "Missões navais"
  AIRWING_MISSION_TYPE_BOMBING_MISSIONS: "Missões de bombardeio"
  AIRWING_MISSION_TYPE_BOMBING_LOGISTICS_MISSIONS: "Missões de bombardeio e logística"

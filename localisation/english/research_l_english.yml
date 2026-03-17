@@ -706,7 +706,7 @@
  massed_strikes:0 "Massed Strikes"
  massed_strikes_desc:0 "Pilots trained for carrier missions will allow even an overcrowded carrier to function smoothly, swarming the enemy and vastly improving their effectiveness in naval battles. A carrier needs to run like a well-oiled machine where everyone knows their role."
  carrier_battlegroups:0 "Carrier Battlegroups"
- carrier_battlegroups_desc:0 "Carriers are able to strike at the enemy from a greater distance than any naval cannon and with eyes in the sky we will never be caught off guard. Carriers in mass is a force to be reckoned with."
+ carrier_battlegroups_desc:0 "Carriers are able to strike at the enemy from a greater distance than any naval cannon and with eyes in the sky we will never be caught off guard. Massed carriers are a force to be reckoned with."
  escort_patrols:0 "Escort Patrols"
  escort_patrols_desc:0 "Improving detection makes our convoy escorts far deadlier to submarines. With nowhere to hide they pose no real threat."
  RESEARCH_PROGRESS_DONE:0 "§TResearched time: $WEEKS|H$§!"

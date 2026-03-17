@@ -703,7 +703,7 @@ AAT_norway_news.99.a: "This is getting out of hand!"
  AAT_Sweden_flashpoints.16.a: "About time they backed down."
 
  AAT_Sweden_flashpoints.17.t: "[SWE.GetName] Escalates Tensions by Arming [FIN.GetName]"
- AAT_Sweden_flashpoints.17.desc: "With [SWE.GetName]’s attempt to tarnish our reputation over the bombing of Pajala failing, they are now overtly arming the [FIN.GetAdjective] military with infantry equipment. This is a clear attempt to blackmail us into accepting responsibility for the attack or risk more Soviet soldiers dying. \n\nWe must carefully asses our next move to prevent the [SWE.GetAdjective] becoming fully embroiled in the war as a [FIN.GetAdjective] ally."
+ AAT_Sweden_flashpoints.17.desc: "With [SWE.GetName]’s attempt to tarnish our reputation over the bombing of Pajala failing, they are now overtly arming the [FIN.GetAdjective] military with infantry equipment. This is a clear attempt to blackmail us into accepting responsibility for the attack or risk more Soviet soldiers dying. \n\nWe must carefully assess our next move to prevent the [SWE.GetAdjective] becoming fully embroiled in the war as a [FIN.GetAdjective] ally."
  AAT_Sweden_flashpoints.17.a: " We shall escalate to de-escalate by threatening war if they do not stop."
  AAT_Sweden_flashpoints.17.b: " We have to appease the [SWE.GetAdjective]. For now."
 

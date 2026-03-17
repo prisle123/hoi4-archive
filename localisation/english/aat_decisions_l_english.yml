@@ -573,7 +573,7 @@
 
 
  FIN_finnish_resistance_category: "[FIN.GetAdjective] Resistance"
- FIN_finnish_resistance_category_desc: "As part of a secret military operation, a large amount of [ROOT.GetAdjective] Army weapons and equipment were in caches scattered around Finland, aiming at aiding [ROOT.GetAdjective] Resistance elements to continue the fight against out troops."
+ FIN_finnish_resistance_category_desc: "As part of a secret military operation, a large amount of [ROOT.GetAdjective] Army weapons and equipment were in caches scattered around Finland, aiming at aiding [ROOT.GetAdjective] Resistance elements to continue the fight against our troops."
  FIN_search_for_weapon_caches_in_state: "Search for Weapon Caches in [FROM.GetName]"
  FIN_search_for_weapon_caches_in_state_desc: "Our troops will conduct a thorough investigation on the Finnish Weapons Cache Case in [FROM.GetName] in order to locate and seize all weapon caches in the state."
  FIN_search_for_weapon_caches_decision_cost_cp: "£command_power  §Y[?FIN.FIN_search_for_weapon_caches_decision_cost]§!"

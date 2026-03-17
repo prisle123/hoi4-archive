@@ -754,7 +754,6 @@
  sp_naval_nuclear_submarine_desc: "我们应该能够制造出足够小的、适应专门的潜艇的核动力引擎，使潜艇航程极远且静音。"
  sp_naval_nuclear_submarine_free_design: "核潜艇"
  sp_naval_rocket_launching_submarine: "导弹发射潜艇"
- JAP_sp_naval_rocket_launching_submarine: "I-400级导弹潜艇"
  SOV_sp_naval_rocket_launching_submarine: "611工程"
  PRC_sp_naval_rocket_launching_submarine: "094型晋级"
  sp_naval_rocket_launching_submarine_desc: "通过为潜艇配备导弹及发射系统，我们应该能够在没有事先警告的情况下，从任意位置打击敌人的战略目标。"
@@ -815,6 +814,7 @@
  sp_naval_escort_carrier_desc: "为确保补给线路安全，我们拟研发更为轻量化且经济实惠的航母型号，为海域提供高性价比的空中掩护与反潜作战能力。"
  sp_naval_escort_carrier_free_design: "护航航母"
  sp_naval_submarine_carrier: "潜水航母"
+ JAP_sp_naval_submarine_carrier: "I-400级潜水航母"
  sp_naval_submarine_carrier_desc: "我们正开发一种能够容纳并发射多架飞机的新式潜艇，来执行空中侦察外的任务。"
  sp_naval_submarine_carrier_free_design: "潜水航母"
  #################################

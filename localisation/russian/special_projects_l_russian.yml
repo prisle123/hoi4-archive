@@ -754,7 +754,6 @@
  sp_naval_nuclear_submarine_desc: "Нам вполне по силам сконструировать компактный атомный реактор, который поместится в подлодку особой конструкции. Так мы не только значительно увеличим дальность хода, но и сделаем лодку бесшумной."
  sp_naval_nuclear_submarine_free_design: "Атомная подлодка"
  sp_naval_rocket_launching_submarine: "Ракетная подлодка"
- JAP_sp_naval_rocket_launching_submarine: "Ракетная подлодка типа I-400"
  SOV_sp_naval_rocket_launching_submarine: "Проект 611"
  PRC_sp_naval_rocket_launching_submarine: "Тип 094 «Цзинь»"
  sp_naval_rocket_launching_submarine_desc: "Оснастив подводные лодки ракетами и системами запуска, мы сможем поражать стратегические цели откуда угодно и совершенно неожиданно для врага."
@@ -815,6 +814,7 @@
  sp_naval_escort_carrier_desc: "Для защиты линий снабжения нам нужно разработать относительно небольшие авианосцы, которые будут с меньшими затратами обеспечивать прикрытие с неба и борьбу с подводными лодками."
  sp_naval_escort_carrier_free_design: "Авианосец сопровождения"
  sp_naval_submarine_carrier: "Подводный авианосец"
+ JAP_sp_naval_submarine_carrier: "Подводный авианосец типа I-400"
  sp_naval_submarine_carrier_desc: "Мы хотим разработать новый вид подводной лодки, способный нести и запускать несколько самолетов, чтобы выполнять задачи, выходящие за рамки воздушной разведки."
  sp_naval_submarine_carrier_free_design: "Подводный авианосец"
  #################################

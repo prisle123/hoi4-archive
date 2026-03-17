@@ -1921,7 +1921,7 @@
  SWI_pre_empt_anschluss_desc: "[GER.GetNameDef] 측이 [GER.GetAdjective]인 통합의 명목으로 [AUS.GetName] 측을 병합하려 한다는 소문이 있습니다. 이것은 [GER.GetNameDef] 측이 우리의 독일어를 사용하는 칸톤들에 대해 동일한 주장을 할 명분을 주므로 [ROOT.GetNAmeDef](은)는 이를 허용할 수 없습니다. 우리는 서둘러 [AUS.GetName] 전역을 방어할 준비를 갖춰야 합니다."
  SWI_pre_empt_anschluss_tt: "§Y[AUS.GetNameDef] 측이 수락할 경우, 우리는 그들의 핵심 주 전역에 대한 핵심 주를 얻습니다§!\n\n우리 군의 §Y규모§!, 우리에 대한 §Y의견§!, §Y[GER.GetNameDef] 측의 [AUS.GetName] 합병 준비§! 여부에 따라 수락할 가능성이 높아집니다."
  SWI_demand_italian_alps: "이탈리아령 알프스 요구"
- SWI_demand_italian_alps_desc: "수십 년 동안 [ITA.GetName] 측은 뻔뻔하게도 [ITA.GetAdjective]어를 사용하는 칸톤의 영유권을 주장해 왔습니다. [ITA.GetName] 측이 그렇게 한다면 당연히 우리도 그들이 가진 알프스 지역을 우리 민주주의 정부에 넘기도록 요구할 수 있습니다. 티치노가 [ITA.GetNameDef]의 땅이라면 알프스는 [ROOT.GetNameDef]의 땅입니다."
+ SWI_demand_italian_alps_desc: "수십 년 동안 [ITA.GetName] 측은 뻔뻔하게도 [ITA.GetAdjective]어를 사용하는 칸톤의 영유권을 주장해 왔습니다. 그렇다면 우리도 당연히 그들이 가진 알프스 지역을 우리 민주주의 사회에 넘기도록 요구할 수 있습니다. 티치노가 [ITA.GetNameDef]의 땅이라면 알프스는 [ROOT.GetNameDef]의 땅입니다."
  SWI_demand_french_alps: "프랑스령 알프스 요구"
  SWI_demand_french_alps_desc: "[FRA.GetNameDef] 측이 내외부의 압력에 의해 무너지는 것은 시간문제입니다. 우리는 알프스 방어에 선제적인 방안을 택해야 합니다. 그렇지 않으면 위험한 적이 방어에 유용한 요충지를 장악하여 우리 영토 침공의 발판으로 삼을 수 있습니다."
  SWI_alpine_redoubt: "알프스 보루"

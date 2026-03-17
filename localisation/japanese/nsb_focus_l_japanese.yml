@@ -1557,7 +1557,7 @@
  SOV_comecon_communist_name: "$SOV_comecon_name$"
  SOV_comecon_alt_name: "$SOV_common_economic_space_name$"
  SOV_desperate_measures_decisions_unlocked_tt: "いくつかの§Y$SOV_great_patriotic_war$§!ディシジョンが解禁される。"
- SOV_lessons_of_war_ns_tt: "§Y$SOV_the_red_army_dynamic_modifier$§!に以下の修正:\n師団指揮統制率: §G+5.0%§! \n陸軍経験値獲得: §G+10.0%§! \n熟練兵損失率: §G-25.0%§!\n"
+ SOV_lessons_of_war_ns_tt: "§Y$SOV_the_red_army_dynamic_modifier$§!に以下の修正:\n師団指揮統制率:§G+5.0%§!\n熟練兵損失率:§G-25.0%§!\n"
  SOV_lessons_of_war_unlock_military_operations_tt: "§Y$SOV_order_227$§!を有効化すると、§Y軍事攻勢§!を準備して実行するディシジョンが解禁される。"
  SOV_lessons_of_war_cowed_trait_tt: "\n§Y$trait_SOV_cowed_by_stalin_army$§!の特性がある§Yすべての陸海軍の指揮官§!: \n   §Y$trait_SOV_cowed_by_stalin_army$§!を喪失:\n     - 師団回復率: §R-10.0%§! \n     - 増援確率: §R-2.0%§!\n"
  SOV_the_glory_of_the_red_army_masterful_blitz_tactic_tt: "\n戦術を有効化: §Y$tactic_masterful_blitz$§!"

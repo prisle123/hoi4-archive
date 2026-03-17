@@ -3286,7 +3286,8 @@ PHI_thalassocracy_desc: "The concept of an 'Army with a State' is well known, an
  XSM_recruit_salar_officers_desc: "The turkic Salar people of Qinghai province show promise in the art of war. Officers will be sent out to Xunhua county to scout out promising new leaders, and ensure they are given proper military training."
  XSM_rebuild_the_ninghai_army: "Rebuild the Ninghai Army"
  XSM_rebuild_the_ninghai_army_desc: "In order to once again bring order to our southern provinces and secure our borders, we must rebuild the Ninghai army. By doing this, we should be able to gain the upper hand in our skirmishes against the Tibetans."
- XSM_rebuilt_the_ninghai_army_flag: "Rebuilt the Ninghai Army"
+ XSM_rebuilt_the_ninghai_army_flag: "Rebuilt the §YNinghai Army§!"
+ KHM_established_the_kashgar_clique_flag: "Established the §YKashgar Clique§!" 
 
  KUM_victory_in_tihwa: "Victory in Tihwa"
  KUM_victory_in_tihwa_desc: "With the fall of [617.GetName], our position in the province has been properly solidified. Today we stand victorious, long live the Khan!"

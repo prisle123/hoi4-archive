@@ -754,7 +754,6 @@
  sp_naval_nuclear_submarine_desc: "原子力エンジンは特殊な潜水艦に収まるほど小型化できるはずだ。そうすれば極めて航続距離の長い潜水艦が実現するだけでなく、静音化も可能になる。"
  sp_naval_nuclear_submarine_free_design: "原子力潜水艦"
  sp_naval_rocket_launching_submarine: "ミサイル発射潜水艦"
- JAP_sp_naval_rocket_launching_submarine: "I-400級ミサイル潜水艦"
  SOV_sp_naval_rocket_launching_submarine: "611号計画"
  PRC_sp_naval_rocket_launching_submarine: "094型晋"
  sp_naval_rocket_launching_submarine_desc: "潜水艦にミサイルと発射システムを装備すれば、敵の戦略目標をどこであろうと、警告なしに攻撃できるようになるはずだ。"
@@ -815,6 +814,7 @@
  sp_naval_escort_carrier_desc: "我々の補給線を守るため、我々は費用対効果の良い航空支援と対潜水艦能力を海洋全域に提供できる、より小型で経済的な空母の開発を望んでいる。"
  sp_naval_escort_carrier_free_design: "護衛空母"
  sp_naval_submarine_carrier: "潜水母艦"
+ JAP_sp_naval_submarine_carrier: "I-400級潜水母艦"
  sp_naval_submarine_carrier_desc: "我々は、航空偵察を凌駕した任務を遂行するために、複数の飛行機を格納および発艦させることが可能な新しい種類の潜水艦の開発を検討している。"
  sp_naval_submarine_carrier_free_design: "潜水母艦"
  #################################

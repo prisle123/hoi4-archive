@@ -754,7 +754,6 @@
  sp_naval_nuclear_submarine_desc: "Powinniśmy być w stanie stworzyć silniki atomowe na tyle małe, by zmieściły się w specjalnym okręcie podwodnym, dzięki czemu jednostka ta będzie bezgłośna i zyska ekstremalny zasięg."
  sp_naval_nuclear_submarine_free_design: "Atomowy o. podwodny"
  sp_naval_rocket_launching_submarine: "Rakietowy okręt podwodny"
- JAP_sp_naval_rocket_launching_submarine: "Rakietowy okręt podwodny klasy I-400"
  SOV_sp_naval_rocket_launching_submarine: "Projekt 611"
  PRC_sp_naval_rocket_launching_submarine: "Typ 094 Jin"
  sp_naval_rocket_launching_submarine_desc: "Wyposażając nasze okręty podwodne w pociski i systemy startowe, powinniśmy być w stanie uderzyć w strategiczne cele naszych wrogów w dowolnym miejscu i bez ostrzeżenia."
@@ -815,6 +814,7 @@
  sp_naval_escort_carrier_desc: "Żeby chronić nasze linie zaopatrzenia, chcemy zaprojektować mniejsze, tańsze lotniskowce, które zapewnią niskokosztową osłonę powietrzną i zdolności zwalczania okrętów podwodnych na oceanach."
  sp_naval_escort_carrier_free_design: "Lotniskowiec eskortowy"
  sp_naval_submarine_carrier: "Lotniskowiec podwodny"
+ JAP_sp_naval_submarine_carrier: "Lotniskowiec podwodny klasy I-400"
  sp_naval_submarine_carrier_desc: "Zamierzamy zaprojektować nowy rodzaj okrętu podwodnego, który mógłby przenosić i wypuszczać samoloty, które realizowałyby zadania wykraczające poza zwiad powietrzny."
  sp_naval_submarine_carrier_free_design: "Lotniskowiec podwodny"
  #################################

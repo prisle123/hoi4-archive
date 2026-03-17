@@ -36,10 +36,10 @@ units = {
 			ship = { name = "Ryujo" definition = carrier equipment = { ship_hull_carrier_1 = {amount = 1 owner = JAP version_name = "Ryujo Class" } } 				
 				
 			}
-			ship = { name = "Fuso" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso/Ise Class"} } }
-			ship = { name = "Yamashiro" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso/Ise Class"} } }
-			ship = { name = "Ise" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso/Ise Class" } } }	
-			ship = { name = "Hyuga" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso/Ise Class" } } }
+			ship = { name = "Fuso" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso Class"} } }
+			ship = { name = "Yamashiro" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Fuso Class"} } }
+			ship = { name = "Ise" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Ise Class" } } }	
+			ship = { name = "Hyuga" definition = battleship start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Ise Class" } } }
 			ship = { name = "Haruna" definition = battle_cruiser start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
 			ship = { name = "Kongo" definition = battle_cruiser start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }
 			ship = { name = "Kirishima" definition = battle_cruiser start_experience_factor = 0.5 equipment = { ship_hull_heavy_1 = {amount = 1 owner = JAP version_name = "Kongo Class"} } }

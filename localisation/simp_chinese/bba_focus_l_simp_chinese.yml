@@ -1921,7 +1921,7 @@
  SWI_pre_empt_anschluss_desc: "有一些小道消息说[GER.GetNameDef]试图以[GER.GetAdjective]统一的名义吞并[AUS.GetName]。这是[ROOT.GetNAmeDef]不会容许的，并且这可能会使[GER.GetNameDef]有理由对我们以德语为主要语言的州做出相同宣称。我们必须加快速度做好保卫所有[AUS.GetName]的准备。"
  SWI_pre_empt_anschluss_tt: "§Y如果[AUS.GetNameDef]接受，我们将获得其所有核心地区的核心§!\n\n他们将基于我们军队的§Y规模§!、他们对我们的§Y评价§!以及§Y[GER.GetNameDef]是否准备§!吞并[AUS.GetName]做出决定。"
  SWI_demand_italian_alps: "索取意属阿尔卑斯"
- SWI_demand_italian_alps_desc: "几十年以来，[ITA.GetName]无耻地声索着我们讲意大利语的各州。既然他们这样做，那我们为什么不能索取意属阿尔卑斯？我们可是民主政权！毕竟，这些地方之于[ROOT.GetNameDef]，不亚于提契诺之于[ITA.GetNameDef]。"
+ SWI_demand_italian_alps_desc: "几十年以来，[ITA.GetName]无耻地声索着我们讲意大利语的各州。既然他们能如此行事，我们当然有权利要求他们的阿尔卑斯山区加入我们民主的社会。毕竟，它们与提契诺属于[ITA.GetNameDef]一样，理应属于[ROOT.GetNameDef]。"
  SWI_demand_french_alps: "索取法属阿尔卑斯"
  SWI_demand_french_alps_desc: "[FRA.GetNameDef]在内部和外部的压力下崩溃只是时间问题。我们必须为了保卫阿尔卑斯山地区采取先发制人的态度，否则危险的敌人将会占领易于防守的位置，并将其作为进攻的垫脚石。"
  SWI_alpine_redoubt: "阿尔卑斯堡垒"

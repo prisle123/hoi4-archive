@@ -45,7 +45,7 @@
  AIRWING_MISSION_TYPE_RECON_DESC: "Führt eine Luftaufklärung durch.\n\nFlugzeuge, die keine Aufklärungsflugzeuge sind, können diese Mission nur in vom Feind kontrollierten Staaten durchführen."
  AIRWING_MISSION_TYPE_NAVAL_PATROL: "Marinepatrouille"
  AIRWING_MISSION_TYPE_NAVAL_PATROL_DESC: "Führt Patrouillen auf dem Meer durch, ohne feindliche Schiffe anzugreifen, und hilft befreundeten Einsatzkräften, die in diesem Gebiet patrouillieren, Feinde zu entdecken."
- AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Jäger- und Unterstützungsmissionen"
+ AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Jäger- & Luftnahunterstützungsmissionen"
  AIRWING_MISSION_TYPE_NAVAL_MISSIONS: "Flottenmissionen"
  AIRWING_MISSION_TYPE_BOMBING_MISSIONS: "Bombermissionen"
  AIRWING_MISSION_TYPE_BOMBING_LOGISTICS_MISSIONS: "Bomber- und Logistikmissionen"

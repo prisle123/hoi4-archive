@@ -45,7 +45,7 @@
  AIRWING_MISSION_TYPE_RECON_DESC: "Выполнить разведку с воздуха и собрать разведданные.\n\nНеразведывательные самолеты могут выполнять это задание только в регионах, контролируемых противником."
  AIRWING_MISSION_TYPE_NAVAL_PATROL: "Морской патруль"
  AIRWING_MISSION_TYPE_NAVAL_PATROL_DESC: "Патрулировать море, не вступая в бой с кораблями противника, и помогать дружественным оперативным соединениям в патруле обнаруживать противников."
- AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Задания по истреблению авиации и сопровождению"
+ AIRWING_MISSION_TYPE_FIGHTER_SUPPORT_MISSIONS: "Задания по истреблению и штурмовке"
  AIRWING_MISSION_TYPE_NAVAL_MISSIONS: "Задания флота"
  AIRWING_MISSION_TYPE_BOMBING_MISSIONS: "Задания по бомбардировке"
  AIRWING_MISSION_TYPE_BOMBING_LOGISTICS_MISSIONS: "Задания по бомбардировке и логистике"

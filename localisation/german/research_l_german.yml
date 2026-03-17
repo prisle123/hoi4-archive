@@ -704,7 +704,7 @@
  massed_strikes: "Massenangriffe"
  massed_strikes_desc: "Wenn unsere Piloten für Trägermissionen ausgebildet sind, kann selbst ein überfüllter Träger reibungslos funktionieren und den Feind durch schiere Masse erdrücken. Die Effektivität in Seeschlachten wird deutlich verbessert. Ein Flugzeugträger muss wie eine gut geölte Maschine funktionieren, bei der jeder seine Rolle kennt."
  carrier_battlegroups: "Flugzeugträgerkampfgruppen"
- carrier_battlegroups_desc: "Träger können den Feind aus größerer Entfernung angreifen als jedes Marinegeschütz - und mit Augen am Himmel können wir nie überrascht werden. Eine große Gruppe von Flugzeugträgern stellt den Feind vor fast unlösbare Schwierigkeiten."
+ carrier_battlegroups_desc: "Träger können den Feind aus größerer Entfernung angreifen als jedes Marinegeschütz - und mit Augen am Himmel können wir nie überrascht werden. Eine große Gruppe von Flugzeugträgern stellt den Feind vor nahezu unüberwindbare Hindernisse."
  escort_patrols: "Geleitschutz"
  escort_patrols_desc: "Wenn wir unsere Ortungsfähigkeiten verbessern, sind unsere Konvoi-Eskorten noch tödlicher für feindliche U-Boote. Nachdem sie sich nirgendwo verstecken können, stellen sie keine echte Gefahr dar."
  RESEARCH_PROGRESS_DONE: "§TErforschte Zeit: $WEEKS|H$§!"

@@ -1921,7 +1921,7 @@
  SWI_pre_empt_anschluss_desc: "[GER.GetNameDef]が同国の統一の名の元に、[AUS.GetName]の併合を考えているとの噂がある。これは[ROOT.GetNAmeDef]にとって許容し難いことだ。これが現実となれば、[GER.GetNameDef]は自国の言葉を話す民がいる我が国の州に対し、同じ主張をしやすくなってしまう。急いで[AUS.GetName]全土を守る準備を整えなくてはならない。"
  SWI_pre_empt_anschluss_tt: "§Y[AUS.GetNameDef]が認めれば、彼らの中核州において、逆に我々が中核州を得ることになるだろう§! \n\n我々の軍隊の§Y規模§!や、我々に対する§Y評価§!からして、あちらが受け入れる可能性は高い。§Y[GER.GetNameDef]も[AUS.GetName]併合に向けて動いている§!わけだしな。"
  SWI_demand_italian_alps: "イタリア領アルプスを要求"
- SWI_demand_italian_alps_desc: "恥ず知らずにも[ITA.GetName]は何十年もの間、我が国において[ITA.GetAdjective]語を話す州の支配権を主張してきた。あちらがそう言うのなら、こちらだって奴らの側のアルプスを、我らの民主主義体制の一部と言うことができる。何と言っても、ティチーノが[ITA.GetNameDef]のものだというのなら、それは必然的にアルプスもまた[ROOT.GetNameDef]のものであることを意味するのだから。"
+ SWI_demand_italian_alps_desc: "恥を知らない[ITA.GetName]は何十年にもわたり、[ITA.GetAdjective]語を話す我が国の州に対して領有権を主張してきた。そのような理屈が通るのならば、彼らが領有するアルプス地方を我が民主主義社会の傘下に加えるよう要求しても構わないということになる。ティチーノが[ITA.GetNameDef]領だと言うのならば、アルプス地方は[ROOT.GetNameDef]領になるということだ。"
  SWI_demand_french_alps: "フランス領アルプスを要求"
  SWI_demand_french_alps_desc: "[FRA.GetNameDef]が内部および外部からの圧力に耐えきれず、崩壊するのももはや時間の問題だ。アルプスを守るために、我々は積極的な取り組みをしなくてはならない。さもなければ、我が国の領土に侵略してくる国が出てきた際に、足場として使える防衛地点が危険な敵の支配下に置かれてしまう可能性がある。"
  SWI_alpine_redoubt: "アルプスの砦"

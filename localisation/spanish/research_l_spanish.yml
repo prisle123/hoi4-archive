@@ -704,7 +704,7 @@
  massed_strikes: "Ataques en masa"
  massed_strikes_desc: "Los pilotos entrenados para las misiones en portaaviones permitirán que hasta un portaaviones saturado funcione sin problemas al desbordar al enemigo y mejorar la efectividad en batallas navales. Un portaaviones debe funcionar como una máquina bien engrasada en la que todos conocen su función."
  carrier_battlegroups: "Grupos de combate de portaaviones"
- carrier_battlegroups_desc: "Los portaaviones pueden atacar al enemigo desde una distancia mayor que cualquier cañón naval y, al vigilar desde el cielo, jamás nos cogerán desprevenidos. Los portaaviones en masa son un enemigo formidable."
+ carrier_battlegroups_desc: "Los portaaviones pueden atacar al enemigo desde más lejos que cualquier cañón naval, y sus prestaciones de vigilancia aérea nos protegerán de ataques imprevistos. Un portaaviones bien dotado es poco menos que un coloso imbatible."
  escort_patrols: "Patrullas de escolta"
  escort_patrols_desc: "Al mejorar la detección, nuestras escoltas de convoyes resultan más letales para los submarinos. No representan una amenaza real si no tienen donde esconderse."
  RESEARCH_PROGRESS_DONE: "§TTiempo de investigación pasado: $WEEKS|H$§!"

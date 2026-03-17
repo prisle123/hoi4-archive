@@ -901,7 +901,7 @@
  remove_political_advisor: "§RRetrait§! du conseiller politique : "
  remove_chief_of_army: "§RRetrait§! du chef de l'Armée de terre : "
  remove_chief_of_navy: "§RRetrait§! du chef de la §YMarine§! : "
- remove_chief_of_airforce: "§RRetrait§! du chef de l'Armée de l'air : "
+ remove_chief_of_airforce: "§RRetrait§! du §Ychef de l'armée de l'air§! :\n"
  remove_military_high_command: "§RRetrait§! du chef d'état-major : "
  remove_theorist: "§RRetrait§! du théoricien : "
  usa_focus: "Priorité - nation américaine"
