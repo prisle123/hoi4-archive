@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§Y有効§!"
  AUTOMATION_HOMEBASE_OFF: "§g無効§!"
  SEAZONE_MINIMUM_DOMINANCE: "海域の支配に必要な最低£naval_dominance_texticon£: $VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§H海上支配§!\nある地域が完全に味方に支配されたとみなすには、支配率§Y66%§!以上が必要。"
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§H海上支配§!\nある地域が完全に味方に支配されたとみなすには、支配率§Y60%§!以上が必要。"
  NAVAL_DOMINANCE_EXPLANATION: "§Y海上支配§! \n特定の海域に対して艦艇が支配力を行使する度合。"
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§H物資消費量: $VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "基本値: $VAL|H$"

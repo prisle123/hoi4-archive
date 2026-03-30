@@ -1542,7 +1542,7 @@ NNavy = {
 	BEST_CAPITALS_TO_SCREENS_RATIO = 0.25, 							-- capitals / screens ratio used for creating FEX groups in naval combat
 
 	COMBAT_BASE_HIT_CHANCE = 0.1,									-- base chance for hit (in percent)
-	COMBAT_MIN_HIT_CHANCE = 0.02,									-- never less hit chance then this (in percent)
+	COMBAT_MIN_HIT_CHANCE = 0.005,									-- never less hit chance then this (in percent)
 
 	COMBAT_EVASION_TO_HIT_CHANCE = 0.007,							-- we take ship evasion stats, and mult by this value, so it gives hit chance reduction. So if reduction is 0.025 and ship evasion = 10, then there will be 0.25 (25%) lower hit chance. (Fe. 50% base -25% from evasion +10% bcoz it's very close).
 	COMBAT_EVASION_TO_HIT_CHANCE_TORPEDO_MULT = 10.0,				-- the above evasion hit chance is multiplied by 400% if shooting with torpedoes. Torpedoes are slow, so evasion matters more.
@@ -1843,12 +1843,12 @@ NNavy = {
 	MISSION_DAILY_COUNTRY_EXP_SHIP_RATIO_FACTOR =  300.0,					-- Factor used to scale the ratio of ships on mission for the Daily Country Navy XP gain
 	MISSION_EXP_RATIOS = {											-- experience multipliers for different mission types
 		0.0,	-- HOLD
-		0.005,	-- PATROL
-		0.005,	-- STRIKE FORCE
-		0.005,	-- CONVOY RAIDING
-		0.005,	-- CONVOY ESCORT
-		0.005,	-- MINES PLANTING
-		0.005,	-- MINES SWEEPING
+		0.2,	-- PATROL
+		0.05,	-- STRIKE FORCE
+		0.2,	-- CONVOY RAIDING
+		0.2,	-- CONVOY ESCORT
+		0.2,	-- MINES PLANTING
+		0.2,	-- MINES SWEEPING
 		1.0,	-- TRAIN
 		0.0,	-- RESERVE_FLEET
 		0.005,	-- NAVAL_INVASION_SUPPORT
@@ -2110,9 +2110,14 @@ NNavy = {
 	NAVAL_COMBAT_SUB_DETECTION_FACTOR                               = 1.0,      -- balance value for sub detection in combat by ships
 	SUBMARINE_HIDE_TIMEOUT 											= 20,		-- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide.
 	SUBMARINE_REVEALED_TIMEOUT 										= 16,		-- Amount of in-game-hours that makes the submarine visible if it is on the defender side.
-	SUBMARINE_REVEAL_BASE_CHANCE 									= 11,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
-	SUBMARINE_REVEAL_POW 											= 3.0,		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
-	SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE 							= 0.035,		-- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection
+	SUBMARINE_REVEAL_BASE_CHANCE 									= 11,		-- /deprecated, will be removed in the future update/ Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
+	SUBMARINE_REVEAL_POW 											= 3.0,		-- /deprecated, will be removed in the future update/ A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
+	SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE 							= 0.035,		-- /deprecated, will be removed in the future update/ Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection
+	
+	-- reworked submarine detection formula, new formula is (avg. sub detection * SUBMARINE_REVEAL_DETECTION_MULTIPLIER) / MAX{( SUBMARINE_BASE_STEALTH_VALUE - sub visibility), 0.1_fixed }, for formula (with one 'hack' on the graph to avoid undefined) - https://www.desmos.com/calculator/zhbwchjblc
+	SUBMARINE_BASE_STEALTH_VALUE									= 100,		-- Used in the reworked formula, sub_visiblity is subtracted from SUBMARINE_BASE_STEALTH_VALUE for the divider. The higher the define, the lower the chance for detection to happen
+	SUBMARINE_REVEAL_DETECTION_MULTIPLIER							= 0.1,		-- Used in the reworked formula, multiplies the average submarine detection. The higher the define, the higher chance for detection to happen
+	SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER			= 1,		-- used in the reworked formula when firing the torpedos to see whether it has been detected. This define is applied as multiplier to the numerator (avg. sub detection * SUBMARINE_REVEAL_DETECTION_MULTIPLIER * SUBMARINE_REVEAL_TORPEDO_FIRING_DETECTION_MULTIPLIER). define = 1, no difference, define < 0, no chance of detecting, 0 < define < 1, lowers chance of detecting comparing to passive reveal, 1 < define, increases chance to be revealed.
 
 	MAX_NUM_HOURS_TO_WAIT_AT_ALLY_DOCKYARDS_FOR_REPAIRS 			= 48,		-- taskforces will wait at most this amount of hours in ally bases for repairs before switching to another base for repairs
 
