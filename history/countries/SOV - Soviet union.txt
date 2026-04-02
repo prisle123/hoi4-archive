@@ -1502,7 +1502,10 @@ if = {
 			tank_nsb_engine_upgrade = 10
 			tank_nsb_armor_upgrade = 2
 		}
+
 		icon = "GFX_SOV_improved_light_tank_medium"
+		model = "SOV_light_armor_entity"
+	
 	}
 
 	create_equipment_variant = {
