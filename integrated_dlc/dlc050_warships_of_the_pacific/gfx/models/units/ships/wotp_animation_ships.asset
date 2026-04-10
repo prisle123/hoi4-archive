@@ -1,0 +1,581 @@
+##########################
+# CHINA #
+##########################
+
+### Light Cruiser ------------------------------------------------------------------------------------------------------------------
+
+#NING HAI
+animation = {
+	name = "CHI_light_cruiser_ning_hai_idle_animation"
+	file = "CHI_light_cruiser_ning_hai_idle.anim"
+}
+
+animation = {
+	name = "CHI_light_cruiser_ning_hai_attack_animation"
+	file = "CHI_light_cruiser_ning_hai_attack.anim"
+}
+
+animation = {
+	name = "CHI_light_cruiser_ning_hai_defend_animation"
+	file = "CHI_light_cruiser_ning_hai_defend.anim"
+}
+
+animation = {
+	name = "CHI_light_cruiser_ning_hai_death_animation"
+	file = "CHI_light_cruiser_ning_hai_death.anim"
+}
+
+##########################
+# PEOPLE'S REPUBLIC OF CHINA #
+##########################
+
+### Destroyer ------------------------------------------------------------------------------------------------------------------
+
+#ANSHAN
+animation = {
+	name = "PRC_destroyer_anshan_idle_animation"
+	file = "PRC_destroyer_anshan_idle.anim"
+}
+
+animation = {
+	name = "PRC_destroyer_anshan_attack_animation"
+	file = "PRC_destroyer_anshan_attack.anim"
+}
+
+animation = {
+	name = "PRC_destroyer_anshan_defend_animation"
+	file = "PRC_destroyer_anshan_defend.anim"
+}
+
+animation = {
+	name = "PRC_destroyer_anshan_death_animation"
+	file = "PRC_destroyer_anshan_death.anim"
+}
+
+##########################
+# COMMONWEALTH #
+##########################
+
+### Destroyer ------------------------------------------------------------------------------------------------------------------
+
+#HMAS VAMPIRE
+animation = {
+	name = "commonwealth_destroyer_vampire_idle_animation"
+	file = "commonwealth_destroyer_vampire_idle.anim"
+}
+
+animation = {
+	name = "commonwealth_destroyer_vampire_attack_animation"
+	file = "commonwealth_destroyer_vampire_attack.anim"
+}
+
+animation = {
+	name = "commonwealth_destroyer_vampire_defend_animation"
+	file = "commonwealth_destroyer_vampire_defend.anim"
+}
+
+animation = {
+	name = "commonwealth_destroyer_vampire_death_animation"
+	file = "commonwealth_destroyer_vampire_death.anim"
+}
+
+### Light Cruiser ------------------------------------------------------------------------------------------------------------------
+
+#HMAS HOBART
+animation = {
+	name = "commonwealth_light_cruiser_hobart_idle_animation"
+	file = "commonwealth_light_cruiser_hobart_idle.anim"
+}
+
+animation = {
+	name = "commonwealth_light_cruiser_hobart_attack_animation"
+	file = "commonwealth_light_cruiser_hobart_attack.anim"
+}
+
+animation = {
+	name = "commonwealth_light_cruiser_hobart_defend_animation"
+	file = "commonwealth_light_cruiser_hobart_defend.anim"
+}
+
+animation = {
+	name = "commonwealth_light_cruiser_hobart_death_animation"
+	file = "commonwealth_light_cruiser_hobart_death.anim"
+}
+
+
+#HMAS DIDO
+animation = {
+	name = "commonwealth_light_cruiser_dido_idle_animation"
+	file = "commonwealth_light_cruiser_dido_idle.anim"
+}
+
+animation = {
+	name = "commonwealth_light_cruiser_dido_attack_animation"
+	file = "commonwealth_light_cruiser_dido_attack.anim"
+}
+
+animation = {
+	name = "commonwealth_light_cruiser_dido_defend_animation"
+	file = "commonwealth_light_cruiser_dido_defend.anim"
+}
+
+animation = {
+	name = "commonwealth_light_cruiser_dido_death_animation"
+	file = "commonwealth_light_cruiser_dido_death.anim"
+}
+
+
+### Heavy Cruiser ------------------------------------------------------------------------------------------------------------------
+
+#HMAS AUSTRALIA
+animation = {
+	name = "commonwealth_heavy_cruiser_australia_idle_animation"
+	file = "commonwealth_heavy_cruiser_australia_idle.anim"
+}
+
+animation = {
+	name = "commonwealth_heavy_cruiser_australia_attack_animation"
+	file = "commonwealth_heavy_cruiser_australia_attack.anim"
+}
+
+animation = {
+	name = "commonwealth_heavy_cruiser_australia_defend_animation"
+	file = "commonwealth_heavy_cruiser_australia_defend.anim"
+}
+
+animation = {
+	name = "commonwealth_heavy_cruiser_australia_death_animation"
+	file = "commonwealth_heavy_cruiser_australia_death.anim"
+}
+
+### Battleship -----------------------------------------------------------------------------------------------------------------
+
+#IJN WARSPITE
+animation = {
+	name = "commonwealth_battleship_warspite_idle_animation"
+	file = "commonwealth_battleship_warspite_idle.anim"
+}
+
+animation = {
+	name = "commonwealth_battleship_warspite_attack_animation"
+	file = "commonwealth_battleship_warspite_attack.anim"
+}
+
+animation = {
+	name = "commonwealth_battleship_warspite_defend_animation"
+	file = "commonwealth_battleship_warspite_defend.anim"
+}
+
+animation = {
+	name = "commonwealth_battleship_warspite_death_animation"
+	file = "commonwealth_battleship_warspite_death.anim"
+}
+
+### Battlecruiser ------------------------------------------------------------------------------------------------------------------
+
+#HMAS EREBUS
+animation = {
+	name = "commonwealth_battle_cruiser_erebus_idle_animation"
+	file = "commonwealth_battle_cruiser_erebus_idle.anim"
+}
+
+animation = {
+	name = "commonwealth_battle_cruiser_erebus_attack_animation"
+	file = "commonwealth_battle_cruiser_erebus_attack.anim"
+}
+
+animation = {
+	name = "commonwealth_battle_cruiser_erebus_defend_animation"
+	file = "commonwealth_battle_cruiser_erebus_defend.anim"
+}
+
+animation = {
+	name = "commonwealth_battle_cruiser_erebus_death_animation"
+	file = "commonwealth_battle_cruiser_erebus_death.anim"
+}
+
+### Carrier ------------------------------------------------------------------------------------------------------------------
+
+#HMAS ILLUSTRIOUS
+animation = {
+	name = "commonwealth_carrier_illustrious_idle_animation"
+	file = "commonwealth_carrier_illustrious_idle.anim"
+}
+
+animation = {
+	name = "commonwealth_carrier_illustrious_death_animation"
+	file = "commonwealth_carrier_illustrious_death.anim"
+}
+
+animation = {
+	name = "commonwealth_carrier_illustrious_death2_animation"
+	file = "commonwealth_carrier_illustrious_death2.anim"
+}
+
+animation = {
+	name = "commonwealth_carrier_illustrious_takeoff_animation"
+	file = "commonwealth_carrier_illustrious_takeoff.anim"
+}
+
+##########################
+# JAPAN #
+##########################
+
+### Battleship ------------------------------------------------------------------------------------------------------------------
+
+#IJN FUSO
+animation = {
+	name = "JAP_battleship_fuso_idle_animation"
+	file = "JAP_battleship_fuso_idle.anim"
+}
+
+animation = {
+	name = "JAP_battleship_fuso_attack_animation"
+	file = "JAP_battleship_fuso_attack.anim"
+}
+
+animation = {
+	name = "JAP_battleship_fuso_defend_animation"
+	file = "JAP_battleship_fuso_defend.anim"
+}
+
+animation = {
+	name = "JAP_battleship_fuso_death_animation"
+	file = "JAP_battleship_fuso_death.anim"
+}
+
+
+#IJN ISE
+animation = {
+	name = "JAP_battleship_ise_idle_animation"
+	file = "JAP_battleship_ise_idle.anim"
+}
+
+animation = {
+	name = "JAP_battleship_ise_attack_animation"
+	file = "JAP_battleship_ise_attack.anim"
+}
+
+animation = {
+	name = "JAP_battleship_ise_defend_animation"
+	file = "JAP_battleship_ise_defend.anim"
+}
+
+animation = {
+	name = "JAP_battleship_ise_death_animation"
+	file = "JAP_battleship_ise_death.anim"
+}
+
+
+#IJN KONGO
+animation = {
+	name = "JAP_battleship_kongo_idle_animation"
+	file = "JAP_battleship_kongo_idle.anim"
+}
+
+animation = {
+	name = "JAP_battleship_kongo_attack_animation"
+	file = "JAP_battleship_kongo_attack.anim"
+}
+
+animation = {
+	name = "JAP_battleship_kongo_defend_animation"
+	file = "JAP_battleship_kongo_defend.anim"
+}
+
+animation = {
+	name = "JAP_battleship_kongo_death_animation"
+	file = "JAP_battleship_kongo_death.anim"
+}
+
+#IJN NAGATO
+animation = {
+	name = "JAP_battleship_nagato_idle_animation"
+	file = "JAP_battleship_nagato_idle.anim"
+}
+
+animation = {
+	name = "JAP_battleship_nagato_attack_animation"
+	file = "JAP_battleship_nagato_attack.anim"
+}
+
+animation = {
+	name = "JAP_battleship_nagato_defend_animation"
+	file = "JAP_battleship_nagato_defend.anim"
+}
+
+animation = {
+	name = "JAP_battleship_nagato_death_animation"
+	file = "JAP_battleship_nagato_death.anim"
+}
+
+### Destroyer ------------------------------------------------------------------------------------------------------------------
+
+
+#IJN YUKIKAZE
+animation = {
+	name = "JAP_destroyer_yukikaze_idle_animation"
+	file = "JAP_destroyer_yukikaze_idle.anim"
+}
+
+animation = {
+	name = "JAP_destroyer_yukikaze_attack_animation"
+	file = "JAP_destroyer_yukikaze_attack.anim"
+}
+
+animation = {
+	name = "JAP_destroyer_yukikaze_defend_animation"
+	file = "JAP_destroyer_yukikaze_defend.anim"
+}
+
+animation = {
+	name = "JAP_destroyer_yukikaze_death_animation"
+	file = "JAP_destroyer_yukikaze_death.anim"
+}
+
+### Light Cruiser -----------------------------------------------------------------------------------------------------------------
+
+#IJN SENDAI
+animation = {
+	name = "JAP_light_cruiser_sendai_idle_animation"
+	file = "JAP_light_cruiser_sendai_idle.anim"
+}
+
+animation = {
+	name = "JAP_light_cruiser_sendai_attack_animation"
+	file = "JAP_light_cruiser_sendai_attack.anim"
+}
+
+animation = {
+	name = "JAP_light_cruiser_sendai_defend_animation"
+	file = "JAP_light_cruiser_sendai_defend.anim"
+}
+
+animation = {
+	name = "JAP_light_cruiser_sendai_death_animation"
+	file = "JAP_light_cruiser_sendai_death.anim"
+}
+
+
+### Heavy Cruiser -----------------------------------------------------------------------------------------------------------------
+
+
+#IJN TONE
+animation = {
+	name = "JAP_heavy_cruiser_tone_idle_animation"
+	file = "JAP_heavy_cruiser_tone_idle.anim"
+}
+
+animation = {
+	name = "JAP_heavy_cruiser_tone_attack_animation"
+	file = "JAP_heavy_cruiser_tone_attack.anim"
+}
+
+animation = {
+	name = "JAP_heavy_cruiser_tone_defend_animation"
+	file = "JAP_heavy_cruiser_tone_defend.anim"
+}
+
+animation = {
+	name = "JAP_heavy_cruiser_tone_death_animation"
+	file = "JAP_heavy_cruiser_tone_death.anim"
+}
+
+### Carrier ------------------------------------------------------------------------------------------------------------------
+
+#IJN HOSO
+animation = {
+	name = "JAP_carrier_hoso_idle_animation"
+	file = "JAP_carrier_hoso_idle.anim"
+}
+
+animation = {
+	name = "JAP_carrier_hoso_death_animation"
+	file = "JAP_carrier_hoso_death.anim"
+}
+
+animation = {
+	name = "JAP_carrier_hoso_takeoff_animation"
+	file = "JAP_carrier_hoso_takeoff.anim"
+}
+
+
+#IJN SHOKAKU
+animation = {
+	name = "JAP_carrier_shokaku_idle_animation"
+	file = "JAP_carrier_shokaku_idle.anim"
+}
+
+animation = {
+	name = "JAP_carrier_shokaku_death_animation"
+	file = "JAP_carrier_shokaku_death.anim"
+}
+
+animation = {
+	name = "JAP_carrier_shokaku_takeoff_animation"
+	file = "JAP_carrier_shokaku_takeoff.anim"
+}
+
+
+#IJN SHINANO
+animation = {
+	name = "JAP_carrier_shinano_idle_animation"
+	file = "JAP_carrier_shinano_idle.anim"
+}
+
+animation = {
+	name = "JAP_carrier_shinano_death_animation"
+	file = "JAP_carrier_shinano_death.anim"
+}
+
+animation = {
+	name = "JAP_carrier_shinano_takeoff_animation"
+	file = "JAP_carrier_shinano_takeoff.anim"
+}
+
+
+##########################
+# USA #
+##########################
+
+### Battleship ------------------------------------------------------------------------------------------------------------------
+
+#USS COLORADO
+animation = {
+	name = "USA_battleship_colorado_idle_animation"
+	file = "USA_battleship_colorado_idle.anim"
+}
+
+animation = {
+	name = "USA_battleship_colorado_attack_animation"
+	file = "USA_battleship_colorado_attack.anim"
+}
+
+animation = {
+	name = "USA_battleship_colorado_defend_animation"
+	file = "USA_battleship_colorado_defend.anim"
+}
+
+animation = {
+	name = "USA_battleship_colorado_death_animation"
+	file = "USA_battleship_colorado_death.anim"
+}
+
+
+#USS NEVADA
+animation = {
+	name = "USA_battleship_nevada_idle_animation"
+	file = "USA_battleship_nevada_idle.anim"
+}
+
+animation = {
+	name = "USA_battleship_nevada_attack_animation"
+	file = "USA_battleship_nevada_attack.anim"
+}
+
+animation = {
+	name = "USA_battleship_nevada_defend_animation"
+	file = "USA_battleship_nevada_defend.anim"
+}
+
+animation = {
+	name = "USA_battleship_nevada_death_animation"
+	file = "USA_battleship_nevada_death.anim"
+}
+
+
+#USS TENNESSEE
+animation = {
+	name = "USA_battleship_tennessee_idle_animation"
+	file = "USA_battleship_tennessee_idle.anim"
+}
+
+animation = {
+	name = "USA_battleship_tennessee_attack_animation"
+	file = "USA_battleship_tennessee_attack.anim"
+}
+
+animation = {
+	name = "USA_battleship_tennessee_defend_animation"
+	file = "USA_battleship_tennessee_defend.anim"
+}
+
+animation = {
+	name = "USA_battleship_tennessee_death_animation"
+	file = "USA_battleship_tennessee_death.anim"
+}
+
+### Heavy Cruiser -----------------------------------------------------------------------------------------------------------------
+
+#USS WICHITA
+animation = {
+	name = "USA_heavy_cruiser_wichita_idle_animation"
+	file = "USA_heavy_cruiser_wichita_idle.anim"
+}
+
+animation = {
+	name = "USA_heavy_cruiser_wichita_attack_animation"
+	file = "USA_heavy_cruiser_wichita_attack.anim"
+}
+
+animation = {
+	name = "USA_heavy_cruiser_wichita_defend_animation"
+	file = "USA_heavy_cruiser_wichita_defend.anim"
+}
+
+animation = {
+	name = "USA_heavy_cruiser_wichita_death_animation"
+	file = "USA_heavy_cruiser_wichita_death.anim"
+}
+
+### Carrier ------------------------------------------------------------------------------------------------------------------
+
+#USS LANGLEY
+animation = {
+	name = "USA_carrier_langley_idle_animation"
+	file = "USA_carrier_langley_idle.anim"
+}
+
+animation = {
+	name = "USA_carrier_langley_death_animation"
+	file = "USA_carrier_langley_death.anim"
+}
+
+animation = {
+	name = "USA_carrier_langley_takeoff_animation"
+	file = "USA_carrier_langley_takeoff.anim"
+}
+
+
+#USS ESSEX
+animation = {
+	name = "USA_carrier_essex_idle_animation"
+	file = "USA_carrier_essex_idle.anim"
+}
+
+animation = {
+	name = "USA_carrier_essex_death_animation"
+	file = "USA_carrier_essex_death.anim"
+}
+
+animation = {
+	name = "USA_carrier_essex_takeoff_animation"
+	file = "USA_carrier_essex_takeoff.anim"
+}
+
+
+#USS CASABLANCA 
+animation = {
+	name = "USA_carrier_casablanca_idle_animation"
+	file = "USA_carrier_casablanca_idle.anim"
+}
+
+animation = {
+	name = "USA_carrier_casablanca_death_animation"
+	file = "USA_carrier_casablanca_death.anim"
+}
+
+animation = {
+	name = "USA_carrier_casablanca_takeoff_animation"
+	file = "USA_carrier_casablanca_takeoff.anim"
+}

@@ -1,0 +1,152 @@
+spriteTypes = {
+
+
+
+ #     # ####### ####### ######  
+ #  #  # #     #    #    #     # 
+ #  #  # #     #    #    #     # 
+ #  #  # #     #    #    ######  
+ #  #  # #     #    #    #       
+ #  #  # #     #    #    #       
+  ## ##  #######    #    #       
+
+
+# CHI #
+
+	spriteType = {
+		name = "GFX_CHI_light_cruiser_ning_hai"
+		texturefile = "gfx/interface/technologies/CHI_light_cruiser_ning_hai.dds"
+	}
+
+# COMMONWEALTH #
+
+	spriteType = {
+		name = "GFX_commonwealth_battleship_warspite"
+		texturefile = "gfx/interface/technologies/commonwealth_battleship_warspite.dds"
+	}
+	spriteType = {
+		name = "GFX_commonwealth_heavy_cruiser_erebus"
+		texturefile = "gfx/interface/technologies/commonwealth_battle_cruiser_erebus.dds"
+	}
+	spriteType = {
+		name = "GFX_commonwealth_carrier_illustrious"
+		texturefile = "gfx/interface/technologies/commonwealth_carrier_illustrious.dds"
+	}
+	spriteType = {
+		name = "GFX_commonwealth_destroyer_vampire"
+		texturefile = "gfx/interface/technologies/commonwealth_destroyer_vampire.dds"
+	}
+	spriteType = {
+		name = "GFX_commonwealth_heavy_cruiser_australia"
+		texturefile = "gfx/interface/technologies/commonwealth_heavy_cruiser_australia.dds"
+	}
+	spriteType = {
+		name = "GFX_commonwealth_light_cruiser_dido"
+		texturefile = "gfx/interface/technologies/commonwealth_light_cruiser_dido.dds"
+	}
+	spriteType = {
+		name = "GFX_commonwealth_light_cruiser_hobart"
+		texturefile = "gfx/interface/technologies/commonwealth_light_cruiser_hobart.dds"
+	}
+	spriteType = {
+		name = "GFX_commonwealth_submarine_trenchant"
+		texturefile = "gfx/interface/technologies/commonwealth_submarine_trenchant.dds"
+	}
+
+# JAP #
+
+	spriteType = {
+		name = "GFX_JAP_battleship_fuso"
+		texturefile = "gfx/interface/technologies/JAP_battleship_fuso.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_battleship_ise"
+		texturefile = "gfx/interface/technologies/JAP_battleship_ise.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_battleship_kongo"
+		texturefile = "gfx/interface/technologies/JAP_battleship_kongo.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_battleship_nagato"
+		texturefile = "gfx/interface/technologies/JAP_battleship_nagato.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_carrier_hoso"
+		texturefile = "gfx/interface/technologies/JAP_carrier_hoso.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_carrier_shinano"
+		texturefile = "gfx/interface/technologies/JAP_carrier_shinano.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_carrier_shokaku"
+		texturefile = "gfx/interface/technologies/JAP_carrier_shokaku.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_destroyer_yukikaze"
+		texturefile = "gfx/interface/technologies/JAP_destroyer_yukikaze.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_heavy_cruiser_tone"
+		texturefile = "gfx/interface/technologies/JAP_heavy_cruiser_tone.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_light_cruiser_sendai"
+		texturefile = "gfx/interface/technologies/JAP_light_cruiser_sendai.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_ship_hull_carrier_submarine_sen_toku"
+		texturefile = "gfx/interface/technologies/JAP_ship_hull_carrier_submarine_sen_toku.dds"
+	}
+
+# PRC #
+
+	spriteType = {
+		name = "GFX_PRC_destroyer_anshan"
+		texturefile = "gfx/interface/technologies/PRC_destroyer_anshan.dds"
+	}
+
+# SOV #
+
+	spriteType = {
+		name = "GFX_SOV_submarine_m49"
+		texturefile = "gfx/interface/technologies/SOV_submarine_m49.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_submarine_shchuka"
+		texturefile = "gfx/interface/technologies/SOV_submarine_shchuka.dds"
+	}
+
+# USA #
+
+	spriteType = {
+		name = "GFX_USA_battleship_colorado"
+		texturefile = "gfx/interface/technologies/USA_battleship_colorado.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_battleship_nevada"
+		texturefile = "gfx/interface/technologies/USA_battleship_nevada.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_battleship_tennessee"
+		texturefile = "gfx/interface/technologies/USA_battleship_tennessee.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_carrier_casablanca"
+		texturefile = "gfx/interface/technologies/USA_carrier_casablanca.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_carrier_essex"
+		texturefile = "gfx/interface/technologies/USA_carrier_essex.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_carrier_langley"
+		texturefile = "gfx/interface/technologies/USA_carrier_langley.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_heavy_cruiser_wichita"
+		texturefile = "gfx/interface/technologies/USA_heavy_cruiser_wichita.dds"
+	}
+
+}

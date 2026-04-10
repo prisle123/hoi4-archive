@@ -1,0 +1,452 @@
+objectTypes = {
+
+################################################## CHINA ######################################################
+
+### Light Cruiser ------------------------------------------------------------------------------------------------------------------
+
+#NING HAI
+	pdxmesh = {
+		name = "CHI_light_cruiser_ning_hai_mesh"
+		file = "gfx/models/units/ships/CHI_light_cruiser_ning_hai.mesh"
+		
+		animation = { id = "idle"			type = "CHI_light_cruiser_ning_hai_idle_animation" }
+		animation = { id = "attack"			type = "CHI_light_cruiser_ning_hai_attack_animation" }
+		animation = { id = "defend"			type = "CHI_light_cruiser_ning_hai_defend_animation" }
+		animation = { id = "damaged_attack"	type = "CHI_light_cruiser_ning_hai_attack_animation" }
+		animation = { id = "damaged_defend"	type = "CHI_light_cruiser_ning_hai_defend_animation" }
+		animation = { id = "death"			type = "CHI_light_cruiser_ning_hai_death_animation" }
+		
+	}
+
+################################################## PEOPLE'S REPUBLIC OF CHINA ######################################################
+
+### Destroyer ------------------------------------------------------------------------------------------------------------------
+
+#ANSHAN
+	pdxmesh = {
+		name = "PRC_destroyer_anshan_mesh"
+		file = "gfx/models/units/ships/PRC_destroyer_anshan.mesh"
+		
+		animation = { id = "idle"			type = "PRC_destroyer_anshan_idle_animation" }
+		animation = { id = "attack"			type = "PRC_destroyer_anshan_attack_animation" }
+		animation = { id = "defend"			type = "PRC_destroyer_anshan_defend_animation" }
+		animation = { id = "damaged_attack"	type = "PRC_destroyer_anshan_attack_animation" }
+		animation = { id = "damaged_defend"	type = "PRC_destroyer_anshan_defend_animation" }
+		animation = { id = "death"			type = "PRC_destroyer_anshan_death_animation" }
+		
+	}
+
+################################################## COMMONWEALTH ######################################################
+
+### Destroyer ------------------------------------------------------------------------------------------------------------------
+
+#HMAS VAMPIRE
+	pdxmesh = {
+		name = "commonwealth_destroyer_vampire_mesh"
+		file = "gfx/models/units/ships/commonwealth_destroyer_vampire.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_destroyer_vampire_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_destroyer_vampire_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_destroyer_vampire_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_destroyer_vampire_death_animation" }
+		
+	}
+
+### Light Cruiser ------------------------------------------------------------------------------------------------------------------
+
+#HMAS HOBART
+	pdxmesh = {
+		name = "commonwealth_light_cruiser_hobart_mesh"
+		file = "gfx/models/units/ships/commonwealth_light_cruiser_hobart.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_light_cruiser_hobart_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_light_cruiser_hobart_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_light_cruiser_hobart_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_light_cruiser_hobart_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_light_cruiser_hobart_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_light_cruiser_hobart_death_animation" }
+	}
+
+#HMAS DIDO
+	pdxmesh = {
+		name = "commonwealth_light_cruiser_dido_mesh"
+		file = "gfx/models/units/ships/commonwealth_light_cruiser_dido.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_light_cruiser_dido_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_light_cruiser_dido_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_light_cruiser_dido_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_light_cruiser_dido_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_light_cruiser_dido_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_light_cruiser_dido_death_animation" }
+	}
+
+### Heavy Cruiser ------------------------------------------------------------------------------------------------------------------
+
+#HMAS AUSTRALIA
+	pdxmesh = {
+		name = "commonwealth_heavy_cruiser_australia_mesh"
+		file = "gfx/models/units/ships/commonwealth_heavy_cruiser_australia.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_heavy_cruiser_australia_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_heavy_cruiser_australia_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_heavy_cruiser_australia_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_heavy_cruiser_australia_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_heavy_cruiser_australia_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_heavy_cruiser_australia_death_animation" }
+	}
+
+### Battleship -----------------------------------------------------------------------------------------------------------------
+
+
+#HMAS WARSPITE
+	pdxmesh = {
+		name = "commonwealth_battleship_warspite_mesh"
+		file = "gfx/models/units/ships/commonwealth_battleship_warspite.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_battleship_warspite_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_battleship_warspite_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_battleship_warspite_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_battleship_warspite_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_battleship_warspite_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_battleship_warspite_death_animation" }
+	}
+
+
+
+### Battlecruiser ------------------------------------------------------------------------------------------------------------------
+
+#HMAS EREBUS
+	pdxmesh = {
+		name = "commonwealth_battle_cruiser_erebus_mesh"
+		file = "gfx/models/units/ships/commonwealth_battle_cruiser_erebus.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_battle_cruiser_erebus_idle_animation" }
+		animation = { id = "attack"			type = "commonwealth_battle_cruiser_erebus_attack_animation" }
+		animation = { id = "defend"			type = "commonwealth_battle_cruiser_erebus_defend_animation" }
+		animation = { id = "damaged_attack"	type = "commonwealth_battle_cruiser_erebus_attack_animation" }
+		animation = { id = "damaged_defend"	type = "commonwealth_battle_cruiser_erebus_defend_animation" }
+		animation = { id = "death"			type = "commonwealth_battle_cruiser_erebus_death_animation" }
+	}
+
+### Carrier -------------------------------------------------------------------------------------------------------------------
+
+#HMAS ILLUSTRIOUS
+	pdxmesh = {
+		name = "commonwealth_carrier_illustrious_mesh"
+		file = "gfx/models/units/ships/commonwealth_carrier_illustrious.mesh"
+		
+		animation = { id = "idle"			type = "commonwealth_carrier_illustrious_idle_animation" }
+		animation = { id = "death"			type = "commonwealth_carrier_illustrious_death_animation" }
+		animation = { id = "death2"			type = "commonwealth_carrier_illustrious_death2_animation" }
+		animation = { id = "takeoff"		type = "commonwealth_carrier_illustrious_takeoff_animation" }
+	}
+
+### Submarine -----------------------------------------------------------------------------------------------------------------
+
+#HMS TRENCHANT
+	pdxmesh = {
+		name = "commonwealth_submarine_trenchant_mesh"
+		file = "gfx/models/units/ships/commonwealth_submarine_trenchant.mesh"
+		
+		animation = { id = "idle"			type = "generic_submarine_idle_animation" }
+		animation = { id = "attack"			type = "generic_submarine_attack_animation" }
+		animation = { id = "defend"			type = "generic_submarine_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_submarine_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_submarine_defend_animation" }
+		animation = { id = "death"			type = "generic_submarine_death_animation" }
+	}
+
+##################################################### JAPAN ##########################################################
+
+### Battleship -----------------------------------------------------------------------------------------------------------------
+
+#IJN FUSO
+	pdxmesh = {
+		name = "JAP_battleship_fuso_mesh"
+		file = "gfx/models/units/ships/JAP_battleship_fuso.mesh"
+		
+		animation = { id = "idle"			type = "JAP_battleship_fuso_idle_animation" }
+		animation = { id = "attack"			type = "JAP_battleship_fuso_attack_animation" }
+		animation = { id = "defend"			type = "JAP_battleship_fuso_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_battleship_fuso_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_battleship_fuso_defend_animation" }
+		animation = { id = "death"			type = "JAP_battleship_fuso_death_animation" }
+		
+	}
+
+#IJN ISE
+	pdxmesh = {
+		name = "JAP_battleship_ise_mesh"
+		file = "gfx/models/units/ships/JAP_battleship_ise.mesh"
+		
+		animation = { id = "idle"			type = "JAP_battleship_ise_idle_animation" }
+		animation = { id = "attack"			type = "JAP_battleship_ise_attack_animation" }
+		animation = { id = "defend"			type = "JAP_battleship_ise_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_battleship_ise_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_battleship_ise_defend_animation" }
+		animation = { id = "death"			type = "JAP_battleship_ise_death_animation" }
+		
+	}
+
+#IJN KONGO
+	pdxmesh = {
+		name = "JAP_battleship_kongo_mesh"
+		file = "gfx/models/units/ships/JAP_battleship_kongo.mesh"
+		
+		animation = { id = "idle"			type = "JAP_battleship_kongo_idle_animation" }
+		animation = { id = "attack"			type = "JAP_battleship_kongo_attack_animation" }
+		animation = { id = "defend"			type = "JAP_battleship_kongo_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_battleship_kongo_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_battleship_kongo_defend_animation" }
+		animation = { id = "death"			type = "JAP_battleship_kongo_death_animation" }
+		
+	}
+
+#IJN NAGATO
+	pdxmesh = {
+		name = "JAP_battleship_nagato_mesh"
+		file = "gfx/models/units/ships/JAP_battleship_nagato.mesh"
+		
+		animation = { id = "idle"			type = "JAP_battleship_nagato_idle_animation" }
+		animation = { id = "attack"			type = "JAP_battleship_nagato_attack_animation" }
+		animation = { id = "defend"			type = "JAP_battleship_nagato_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_battleship_nagato_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_battleship_nagato_defend_animation" }
+		animation = { id = "death"			type = "JAP_battleship_nagato_death_animation" }
+		
+	}
+
+
+
+### Destroyer -----------------------------------------------------------------------------------------------------------------
+
+
+#IJN YUKIKAZE
+	pdxmesh = {
+		name = "JAP_destroyer_yukikaze_mesh"
+		file = "gfx/models/units/ships/JAP_destroyer_yukikaze.mesh"
+
+		animation = { id = "idle"			type = "JAP_destroyer_yukikaze_idle_animation" }
+		animation = { id = "attack"			type = "JAP_destroyer_yukikaze_attack_animation" }
+		animation = { id = "defend"			type = "JAP_destroyer_yukikaze_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_destroyer_yukikaze_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_destroyer_yukikaze_defend_animation" }
+		animation = { id = "death"			type = "JAP_destroyer_yukikaze_death_animation" }
+
+	}
+
+
+### Light Cruiser -----------------------------------------------------------------------------------------------------------------
+
+
+#IJN SENDAI
+	pdxmesh = {
+		name = "JAP_light_cruiser_sendai_mesh"
+		file = "gfx/models/units/ships/JAP_light_cruiser_sendai.mesh"
+
+		animation = { id = "idle"			type = "JAP_light_cruiser_sendai_idle_animation" }
+		animation = { id = "attack"			type = "JAP_light_cruiser_sendai_attack_animation" }
+		animation = { id = "defend"			type = "JAP_light_cruiser_sendai_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_light_cruiser_sendai_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_light_cruiser_sendai_defend_animation" }
+		animation = { id = "death"			type = "JAP_light_cruiser_sendai_death_animation" }
+
+	}
+
+
+
+### Heavy Cruiser -----------------------------------------------------------------------------------------------------------------
+
+
+#IJN TONE
+	pdxmesh = {
+		name = "JAP_heavy_cruiser_tone_mesh"
+		file = "gfx/models/units/ships/JAP_heavy_cruiser_tone.mesh"
+
+		animation = { id = "idle"			type = "JAP_heavy_cruiser_tone_idle_animation" }
+		animation = { id = "attack"			type = "JAP_heavy_cruiser_tone_attack_animation" }
+		animation = { id = "defend"			type = "JAP_heavy_cruiser_tone_defend_animation" }
+		animation = { id = "damaged_attack"	type = "JAP_heavy_cruiser_tone_attack_animation" }
+		animation = { id = "damaged_defend"	type = "JAP_heavy_cruiser_tone_defend_animation" }
+		animation = { id = "death"			type = "JAP_heavy_cruiser_tone_death_animation" }
+
+	}
+
+### Carrier ------------------------------------------------------------------------------------------------------------------
+
+#IJN HOSO
+	pdxmesh = {
+		name = "JAP_carrier_hoso_mesh"
+		file = "gfx/models/units/ships/JAP_carrier_hoso.mesh"
+		
+		animation = { id = "idle"			type = "JAP_carrier_hoso_idle_animation" }
+		animation = { id = "death"			type = "JAP_carrier_hoso_death_animation" }
+		animation = { id = "takeoff"		type = "JAP_carrier_hoso_takeoff_animation" }
+	}
+
+
+#IJN SHOKAKU
+	pdxmesh = {
+		name = "JAP_carrier_shokaku_mesh"
+		file = "gfx/models/units/ships/JAP_carrier_shokaku.mesh"
+		
+		animation = { id = "idle"			type = "JAP_carrier_shokaku_idle_animation" }
+		animation = { id = "death"			type = "JAP_carrier_shokaku_death_animation" }
+		animation = { id = "takeoff"		type = "JAP_carrier_shokaku_takeoff_animation" }
+	}
+
+#IJN SHINANO
+	pdxmesh = {
+		name = "JAP_carrier_shinano_mesh"
+		file = "gfx/models/units/ships/JAP_carrier_shinano.mesh"
+		
+		animation = { id = "idle"			type = "JAP_carrier_shinano_idle_animation" }
+		animation = { id = "death"			type = "JAP_carrier_shinano_death_animation" }
+		animation = { id = "takeoff"		type = "JAP_carrier_shinano_takeoff_animation" }
+	}
+
+
+### Submarine Carrier ------------------------------------------------------------------------------------------------------------
+
+#IJN SEN TOKU
+	pdxmesh = {
+		name = "JAP_ship_hull_carrier_submarine_mesh"
+		file = "gfx/models/units/ships/JAP_ship_hull_carrier_submarine.mesh"
+		
+		animation = { id = "idle"			type = "submarine_carrier_idle_animation" }
+		animation = { id = "attack"			type = "submarine_carrier_attack_animation" }
+		animation = { id = "defend"			type = "submarine_carrier_defend_animation" }
+		animation = { id = "damaged_attack"	type = "submarine_carrier_attack_animation" }
+		animation = { id = "damaged_defend"	type = "submarine_carrier_defend_animation" }
+		animation = { id = "death"			type = "submarine_carrier_death_animation" }
+	}
+
+
+
+##################################################### SOVIET UNION ##########################################################
+
+### Submarine -----------------------------------------------------------------------------------------------------------------
+
+#USSR SHCHUKA
+	pdxmesh = {
+		name = "SOV_submarine_shchuka_mesh"
+		file = "gfx/models/units/ships/SOV_submarine_shchuka.mesh"
+		
+		animation = { id = "idle"			type = "generic_submarine_idle_animation" }
+		animation = { id = "attack"			type = "generic_submarine_attack_animation" }
+		animation = { id = "defend"			type = "generic_submarine_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_submarine_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_submarine_defend_animation" }
+		animation = { id = "death"			type = "generic_submarine_death_animation" }
+	}
+
+#USSR M49
+	pdxmesh = {
+		name = "SOV_submarine_m49_mesh"
+		file = "gfx/models/units/ships/SOV_submarine_m49.mesh"
+		
+		animation = { id = "idle"			type = "generic_submarine_idle_animation" }
+		animation = { id = "attack"			type = "generic_submarine_attack_animation" }
+		animation = { id = "defend"			type = "generic_submarine_defend_animation" }
+		animation = { id = "damaged_attack"	type = "generic_submarine_attack_animation" }
+		animation = { id = "damaged_defend"	type = "generic_submarine_defend_animation" }
+		animation = { id = "death"			type = "generic_submarine_death_animation" }
+	}
+
+############################################### UNITED STATES OF AMERICA #######################################################
+
+### Battleship -----------------------------------------------------------------------------------------------------------------
+
+#USS COLORADO
+	pdxmesh = {
+		name = "USA_battleship_colorado_mesh"
+		file = "gfx/models/units/ships/USA_battleship_colorado.mesh"
+		
+		animation = { id = "idle"			type = "USA_battleship_colorado_idle_animation" }
+		animation = { id = "attack"			type = "USA_battleship_colorado_attack_animation" }
+		animation = { id = "defend"			type = "USA_battleship_colorado_defend_animation" }
+		animation = { id = "damaged_attack"	type = "USA_battleship_colorado_attack_animation" }
+		animation = { id = "damaged_defend"	type = "USA_battleship_colorado_defend_animation" }
+		animation = { id = "death"			type = "USA_battleship_colorado_death_animation" }
+		
+	}
+
+#USS NEVADA
+	pdxmesh = {
+		name = "USA_battleship_nevada_mesh"
+		file = "gfx/models/units/ships/USA_battleship_nevada.mesh"
+		
+		animation = { id = "idle"			type = "USA_battleship_nevada_idle_animation" }
+		animation = { id = "attack"			type = "USA_battleship_nevada_attack_animation" }
+		animation = { id = "defend"			type = "USA_battleship_nevada_defend_animation" }
+		animation = { id = "damaged_attack"	type = "USA_battleship_nevada_attack_animation" }
+		animation = { id = "damaged_defend"	type = "USA_battleship_nevada_defend_animation" }
+		animation = { id = "death"			type = "USA_battleship_nevada_death_animation" }
+		
+	}
+
+#USS TENNESSEE
+	pdxmesh = {
+		name = "USA_battleship_tennessee_mesh"
+		file = "gfx/models/units/ships/USA_battleship_tennessee.mesh"
+		
+		animation = { id = "idle"			type = "USA_battleship_tennessee_idle_animation" }
+		animation = { id = "attack"			type = "USA_battleship_tennessee_attack_animation" }
+		animation = { id = "defend"			type = "USA_battleship_tennessee_defend_animation" }
+		animation = { id = "damaged_attack"	type = "USA_battleship_tennessee_attack_animation" }
+		animation = { id = "damaged_defend"	type = "USA_battleship_tennessee_defend_animation" }
+		animation = { id = "death"			type = "USA_battleship_tennessee_death_animation" }
+		
+	}
+
+### Heavy Cruiser -----------------------------------------------------------------------------------------------------------------
+
+#USS WICHITA
+	pdxmesh = {
+		name = "USA_heavy_cruiser_wichita_mesh"
+		file = "gfx/models/units/ships/USA_heavy_cruiser_wichita.mesh"
+		
+		animation = { id = "idle"			type = "USA_heavy_cruiser_wichita_idle_animation" }
+		animation = { id = "attack"			type = "USA_heavy_cruiser_wichita_attack_animation" }
+		animation = { id = "defend"			type = "USA_heavy_cruiser_wichita_defend_animation" }
+		animation = { id = "damaged_attack"	type = "USA_heavy_cruiser_wichita_attack_animation" }
+		animation = { id = "damaged_defend"	type = "USA_heavy_cruiser_wichita_defend_animation" }
+		animation = { id = "death"			type = "USA_heavy_cruiser_wichita_death_animation" }
+		
+	}
+
+### Carrier ------------------------------------------------------------------------------------------------------------------
+
+#USS LANGLEY
+	pdxmesh = {
+		name = "USA_carrier_langley_mesh"
+		file = "gfx/models/units/ships/USA_carrier_langley.mesh"
+		
+		animation = { id = "idle"			type = "USA_carrier_langley_idle_animation" }
+		animation = { id = "death"			type = "USA_carrier_langley_death_animation" }
+		animation = { id = "takeoff"		type = "USA_carrier_langley_takeoff_animation" }
+	}
+
+#USS ESSEX
+	pdxmesh = {
+		name = "USA_carrier_essex_mesh"
+		file = "gfx/models/units/ships/USA_carrier_essex.mesh"
+		
+		animation = { id = "idle"			type = "USA_carrier_essex_idle_animation" }
+		animation = { id = "death"			type = "USA_carrier_essex_death_animation" }
+		animation = { id = "takeoff"		type = "USA_carrier_essex_takeoff_animation" }
+	}
+
+#USS CASABLANCA
+	pdxmesh = {
+		name = "USA_carrier_casablanca_mesh"
+		file = "gfx/models/units/ships/USA_carrier_casablanca.mesh"
+		
+		animation = { id = "idle"			type = "USA_carrier_casablanca_idle_animation" }
+		animation = { id = "death"			type = "USA_carrier_casablanca_death_animation" }
+		animation = { id = "takeoff"		type = "USA_carrier_casablanca_takeoff_animation" }
+	}
+
+}

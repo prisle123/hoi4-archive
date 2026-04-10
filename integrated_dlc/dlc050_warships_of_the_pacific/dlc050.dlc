@@ -1,0 +1,9 @@
+name = "Warships of the Pacific"
+path = dlc/dlc050_warships_of_the_pacific/
+steam_id = "3796270"
+pops_id = "hoi4_dlc050_warships_of_the_pacific"
+affects_checksum = no
+affects_compatability = no
+third_party_content = no
+category = "unit_pack"
+checksum = "c08194550103300d4dee5ca72fe9988e"
