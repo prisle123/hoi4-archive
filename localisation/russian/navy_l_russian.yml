@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§YВключено§!"
  AUTOMATION_HOMEBASE_OFF: "§gОтключено§!"
  SEAZONE_MINIMUM_DOMINANCE: "Минимум £naval_dominance_texticon£ для контроля над зоной: $VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HПревосходство на море§!\nЧтобы регион считался полностью перешедшим под дружественный контроль, показатель контроля должен составлять не менее §Y60%§!."
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HПревосходство на море§!\nЧтобы регион считался полностью перешедшим под дружественный контроль, показатель контроля должен составлять не менее §Y66%§!."
  NAVAL_DOMINANCE_EXPLANATION: "§YПревосходство на море§! \nЭффективность корабля в осуществлении контроля над определенной морской зоной."
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§HРасход припасов $VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "Базовое значение: $VAL|H$"

@@ -367,6 +367,11 @@ mio_header_heavy_assault_gun_department: "Heavy Assault Gun Department"
 mio_header_helicopter_construction: "Helicopter Construction"
 mio_header_single_rotor: "Single Rotor"
 mio_header_tandem_rotor: "Tandem Rotor"
+mio_header_aircraft_weapons: "Aircraft Weapons"
+mio_header_light_tank_destroyers_department: "Light Destroyers Department"
+mio_header_medium_tank_destroyers_department: "Medium Destroyers Department"
+mio_header_heavy_tank_destroyers_department: "Heavy Destroyers Department"
+mio_header_tank_production: "Tank Production"
 
 
 
@@ -502,6 +507,7 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
  JAP_tachikawa_aircraft_company_organization: "$tachikawa_aircraft_company$"
  JAP_kawasaki_dockyards_organization: "$kawasaki_dockyards$"
  JAP_isuzu_motors: "Isuzu Motors"
+ JAP_nippon_sharyo_organization: "Nippon Sharyo Seizo Kaisha"
 
  JAP_kawasaki_dockyards_org_name: "Carrier-Focused Raiding Fleet"
 
@@ -649,6 +655,7 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
  FRA_mio_trait_standardized_turrets: "APX Turrets"
  FRA_mio_trait_b1_bis_suspension: "B1 bis Suspension"
  FRA_mio_trait_l_35: "L/35"
+ FRA_mio_trait_scam_facilities: "SACM Facilities"
 
 
 #################
@@ -788,6 +795,7 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
  ITA_breda_organization: "$breda$"
  ITA_brescia_arsenal_organization: "$ITA_brescia_arsenal$"
  ITA_officine_meccaniche_organization: "$ITA_officine_meccaniche$"
+ ITA_ansaldo_train_organization: "$AUS_ansaldo_organization$"
 
 ### TRAITS ###
  ITA_mio_trait_air_race_pedigree: "Air Race Pedigree"
@@ -920,10 +928,7 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
  CZE_avia_organization: "$CZE_avia$"
  CZE_aero_organization: "$CZE_aero$"
  CZE_letov_organization: "$CZE_letov$"
-
-### CZECHOSLOVAKIAN TRAITS ###
- CZE_mio_trait_skoda_works: "$CZE_skoda_works$"
-
+ CZE_praga_aviation_organization: "$CZE_praga$ Aviation"
 
 #################
 #### HUNGARY ####
@@ -1533,6 +1538,7 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
  BEL_minerva_imperia_armored_car_organization: "Minerva-Imperia Armoured Cars"
  BEL_minerva_imperia_motorized_organization: "Minerva-Imperia Automobiles"
  BEL_laboratoire_aerotechnique_de_belgique_organization: "Laboratoire Aérotechnique de Belgique"
+ BEL_ateliers_metallurgiques_tubize_organization: "Ateliers Métallurgiques-Tubize"
  
  
  #BELGIUM - MIO Traits
@@ -1680,6 +1686,113 @@ USA_mio_trait_dedicated_tank_factory: "Dedicated Tank Factory"
  PHI_mio_trait_widened_tires: "Widened Tires"
  PHI_mio_trait_improvised_bombs: "Improvised Bombs"
  PHI_mio_trait_engine_filters: "Engine Filters"
+
+########################################################################    
+
+  ##     ## ##     ## ##    ## ####  ######  ##     ##
+  ###   ### ##     ## ###   ##  ##  ##    ## ##     ##
+  #### #### ##     ## ####  ##  ##  ##       ##     ## 
+  ## ### ## ##     ## ## ## ##  ##  ##       #########
+  ##     ## ##     ## ##  ####  ##  ##       ##     ##
+  ##     ## ##     ## ##   ###  ##  ##    ## ##     ##
+  ##     ##  #######  ##    ## ####  ######  ##     ##
+
+ ##########################
+ #######    PFOT    #######
+ ##########################
+
+ #CZECHOSLOVAKIA - Organizations
+ CZE_zbrojovka_vsetin_organization:0 "Zbrojovka-Vsetín"
+ CZE_benees_mraz_organization:0 "Beneš-Mráz"
+ CZE_zlin_aircraft_organization:0 "Zlín Aircraft"
+ CZE_CKD_plzen_organization:0 "CKD-Plzen"
+ CZE_ceska_zbrojovka_uhersky_brod_organization: "CZ Uherský Brod"
+ CZE_ringhoffer_tatra_organization: "Ringhoffer-Tatra"
+ CZE_skoda_plzen_tank_destroyer_organization: "Škoda Armor-Plzen"
+
+ #OTHER TAGS - Organizations
+ CZE_skoda_works_german_organization: "$CZE_skoda_works$-Prague"
+ CZE_bohmische_mahrische_maschinenfabrik_ag_german_organization: "Böhmische-Mährische Maschinenfabrik AG"
+ GER_henschel_kassel_organization: "Henschel-Kassel"
+ ENG_crewe_works_organization: "Crewe Works"
+ USA_baldwin_locomotive_works_organization: "Baldwin Locomotive Works"
+ FRA_alsthom_organization: "Alsthom"
+ SOV_kolomna_locomotive_plant_name_dynamic: "[SOV_kolomna_locomotive_plant_name_dynamic]"
+ SOV_kolomna_locomotive_plant_communist: "V.V. Kuybyshev Locomotive Factory"
+ SOV_kolomna_locomotive_plant_default: "Kolomna Locomotive Works"
+
+ #CZECHOSLOVAKIA - MIO Traits
+ CZE_mio_trait_skoda_works: "$CZE_skoda_works$"
+ CZE_mio_trait_walter_co_name: "$CZE_walter_co$ Engines"
+ CZE_bata_corporation_name: "$CZE_bata_corporation$ Facilities"
+ CZE_mio_trait_walter_co_taken_flag: " $GER_hoesch_facilities_trait_taken_flag$"
+ CZE_mio_trait_bata_corporation_taken_flag: " $GER_hoesch_facilities_trait_taken_flag$"
+
+ #OTHER TAGS - MIO Traits
+ CZE_mio_trait_gun_smuggling_difficulties: "Weapon Smuggling Difficulties"
+ CZE_mio_trait_panzer_38t_chassis_conversion: "Panzer 38(t) Chassis Conversion"
+ CZE_mio_trait_messerschmitt_integration: "Integration into Messerschmitt's Production Lines"
+ CZE_mio_trait_walter_co_german_taken_flag: "  $GER_hoesch_facilities_trait_taken_flag$"
+ GER_mio_trait_lokomotivfabrik_floridsdorf: "Lokomotivfabrik Floridsdorf Facilities"
+ generic_mio_trait_compulsory_tank_designer: "Compelled Tank Manufacturer"
+ generic_mio_trait_off_the_board_designs: "Off the Board Designs"
+ generic_mio_trait_armor_improvements: "Armor Improvements"
+ generic_mio_trait_cruiser_tank_production: "Cruiser tank Production"
+ generic_mio_trait_additional_anti_aircraft_machine_guns: "Additional Anti-Aircraft Machine Guns"
+ ENG_mio_trait_lms_logistical_expertise: "LMS Railway Logistical Expertise"
+ CZE_mio_trait_minimalist_wagon_design: "Minimalist Wagon Design"
+ ENG_mio_trait_lms_class_stanier_class_5_black_five: "LMS Black Fives"
+ ENG_mio_trait_vickers_armstrong_knowledge_sharing: "$ENG_vickers_armstrong_eng_organization$ Knowledge Sharing"
+ CZE_mio_trait_scam_facilities: "Mulhouse Plant"
+
+ #SLOVAKIA - Organizations
+ SLO_povazska_bystrica_organization: "Škoda-Považská Bystrica"
+ SLO_CZE_skoda_artillery_organization: "Škoda-Dubnica nad Váhom"
+ SLO_zbrojnica_roth_organization: "Zbrojnica Roth"
+ SLO_generic_escort_ship_organization: "Prístav Bratislava"
+ SLO_CZE_letov_organization: "Letov-Bratislava"
+ SLO_generic_general_aircraft_organization: "Považské strojárne"
+ SLO_svit_organization: "Svit"
+ SLO_CZE_skoda_armor_organization: "Škoda-Dubnica nad Váhom"
+ SLO_CZE_skoda_plzen_tank_destroyer_organization: "Závody ťažkého strojárstva"
+
+ ###################################
+ #### AUTOMATIC WEAPON DESIGNER ####
+ ###################################
+ CZE_mio_initial_trait_automatic_manufacturer: "Automatic Weapons Manufacturer"
+ CZE_mio_trait_drum_mags: "Drum Mags"
+ CZE_mio_trait_box_mags: "Box Mags"
+ CZE_mio_trait_9_mm: "9mm Calibers"
+ CZE_mio_trait_larger_calibers: "45mm Calibers"
+ CZE_mio_trait_maintain_current_firing_mechanism: "Keep Current Firing Mechanism Designs"
+ CZE_mio_trait_simplified_firing_mechanisms: "Simplified Firing Mechanism"
+ CZE_mio_trait_reduce_use_of_wooden_parts: "Reduce use of Wooden Housing"
+ CZE_mio_trait_stamp_steel_components: "Stamp Steel Construction"
+ CZE_mio_trait_anti_tank_rifles: "Anti Tank Rifles"
+ CZE_mio_trait_simplified_barrel_forging: "Simplifed Barrel Forging "
+ 
+
+ ###################################
+ ####  Tank Destroyer Designer  ####
+ ###################################
+ CZE_tank_destroyer_organization: "Tank Destroyer Manufacturer"
+ CZE_mio_trait_initial_trait_tank_destroyer_guns_organization: "Tank Destroyer Designer"
+ CZE_mio_trait_mobile_tank_destroyers: "Hit and Run Destroyers"
+ CZE_mio_trait_multi_purpose_ammunition_tank_destoryer: "Multi-Purpose Ammunition"
+ CZE_mio_trait_light_tank_destroyer_artillery_gun_combo: "Artillery Gun Combo"
+ CZE_mio_trait_light_tank_destroyer_gun_improved_muzzle_breaks: "Improved Muzzle Breaks"
+ CZE_mio_trait_medium_tank_hunters_tank_destoryer: "Mobile Tank Hunters"
+ CZE_mio_trait_low_profile_ambushers_tank_destoryer: "Low Profile Ambushers"
+ CZE_mio_trait_armor_reinforced_sloped_armor_tank_destroyer: "Reinforced Sloped Armor"
+ CZE_mio_trait_rear_and_low_ammo_compartment_tank_destroyer: "Rear and Low Ammo Compartment"
+ CZE_mio_trait_medium_tank_destroyer_gun_high_velocity_rounds: "High-Velocity Rounds"
+ CZE_mio_trait_medium_tank_destroyer_extended_barrel_length: "Extended Barrel Length"
+ CZE_mio_trait_heavy_mobile_siege_cannons: "Mobile Siege Guns"
+ CZE_mio_trait_improved_barrel_cooling: "Improved Barrel Cooling"
+ CZE_mio_minimalist_gun_designs: "Minimalistic Gun Designs"
+ CZE_mio_trait_additional_ammo_storage: "Additional Ammo Storage"
+ CZE_mio_trait_easier_gun_maintance: "Easier Gun Maintenance"
+ CZE_mio_trait_cannon_improvements: "Cannon Improvements"
 
 
 ########################################################################                                                 
@@ -2312,6 +2425,25 @@ generic_mio_trait_extra_seating: "Extra Seating"
 generic_mio_trait_co_axial_rotors: "Co-Axial Rotors"
 generic_mio_trait_mass_production_certification: "Mass Production Certification"
 
+############################
+#### TRAIN MANUFACTURER #### #marijn211: PfoT CCP addition
+############################
+ generic_mio_initial_trait_generic_train_manufacturer: "Train Manufacturer"
+ generic_mio_trait_material_improvements: "Material Improvements"
+ generic_mio_trait_joint_stock_scheme: "Joint Stock Schemes"
+ generic_rapid_production_upscaling: "Rapid Production Upscaling"
+ generic_mio_trait_additional_flak_wagons: "Additional Flak Wagons"
+ generic_mio_trait_improved_axle_fitting: "Improved Axle Fitting"
+ generic_mio_trait_improved_wagon_design: "Improved Wagon Design"
+ generic_mio_trait_improved_loading: "Improved Loading Methods"
+ generic_mio_trait_ugly_ducklings: "Ugly Ducklings"
+ generic_mio_trait_armor_plating: "Armor Plating"
+ generic_mio_trait_simplified_rail_carrier: "Simplified Rail Carrier"
+ generic_mio_trait_improved_barrel_lining: "Improved Barrel Lining"
+ generic_mio_trait_quick_design_turnarounds: "Quick Design Turnarounds"
+ generic_mio_trait_salavage_destoryed_locomotives: "Salvage Destroyed Locomotives"
+ generic_mio_trait_train_production_at_scale: "Production at Scale"
+ generic_mio_trait_machine_assembly: "Machine Assembly"
 
 ########### DEBUG #############
 

@@ -336,6 +336,11 @@
  sp_air_radar_desc: "펄스 형태의 라디오 파장을 발사하고 반사 신호를 감지하면 육지, 해상, 공중에서 적의 움직임을 효과적으로 감시할 수 있습니다."
  sp_air_centimetric_radar: "센티미터파 레이더"
  sp_air_centimetric_radar_desc: "센티미터파 레이더를 개발하면 훨씬 더 작은 안테나로도 훨씬 더 작은 목표물을 탐지할 수 있게 됩니다."
+ #Project Wolfdog
+ sp_land_large_caliber_kinetic_energy_sabot: "대구경 분리형 운동에너지탄"
+ sp_land_large_caliber_kinetic_energy_sabot_desc: "방어 시설을 관통하기 위해 설계된 대구경 장갑관통탄입니다."
+ GER_sp_land_large_caliber_kinetic_energy_sabot: "뢰흘링 포탄"
+ #End Wolfdog
  sp_land_reward_land_cruiser_overheating: "시험 중 과열 발생"
  sp_land_reward_land_cruiser_chassis: "차체 응력 파손"
  sp_land_reward_land_cruiser_chassis_desc: "응력 시험 도중, [SpecialProject.GetName]의 차체가 무지막지한 하중을 이기지 못하고 구조적 변성을 일으키는 것이 확인되었습니다. 설계팀은 차량 무게를 늘리며 추가 보강을 진행할 것인지, 아니면 내구성을 희생하며 더 가벼운 소재를 사용할 것인지를 두고 의견이 엇갈린 상태입니다."

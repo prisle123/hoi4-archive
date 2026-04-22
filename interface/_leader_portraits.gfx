@@ -3220,6 +3220,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
 	}
 
+	spriteType = {	#PfoT only - should never show up
+		name = GFX_portrait_AUS_alfred_klahr_small
+		texturefile = "gfx/interface/ideas/idea_europe_generic_land_2.dds"
+	}
+
 	spriteType = {
 		name = GFX_portrait_BEL_hubert_pierlot
 		texturefile = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"

@@ -118,8 +118,6 @@
  thats_sikh_tt: "As Khalistan, control all of [RAJ.GetNonIdeologyName] starting states"
  revenge_for_1925_tt: "As [IRQ.GetNonIdeologyName], form the Hashemite Arab Federation and capitulate Saudi Arabia"
  i_shall_either_find_a_way_or_make_one_tt: "As [RAJ.GetNonIdeologyName], fully control [2.GetName] and have an elephant unit in the state."
-
-
  battle_royale_tt: "As [PRC.GetName], fight both [CHI.GetNonIdeologyName] and [JAP.GetNonIdeologyName] before 1940 within 90 days of being at war with the other, and capitulate them both"
  the_winner_takes_it_all_tt: "As [PRC.GetName], own and control all of [PRC.GetNonIdeologyName]'s starting core states"
  master_infiltrator_tt: "As [PRC.GetName], don't expand beyond Yan'an, and infiltrate at least 5 Chinese states and flip them to your control when attacking the rest of China"
@@ -131,3 +129,6 @@
  cobalt_sea_tt: "As [PHI.GetNonIdeologyName], launch a successful Nuclear or Thermonuclear Raid from a Submarine"
  the_neverending_story_tt: "As a Warlord, control all Chinese starting core states and restore the Chinese Empire"
  doctrine_of_choice_tt: "Has completed three subdoctrines in the same track"
+ achievement_bought_cze_weapons: "Bought Czechoslovak weapons through $CZE_skoda_focus_category$ decisions"
+ CZE_capitulated_germany: "Capitulated Germany"
+ i_didnt_hear_no_bell_tt: "Became $CZE_second_republic_democratic$"

@@ -147,3 +147,7 @@
  SSB_tech_sharing_group_desc: "萨德阿巴德条约成员国间的统一科研协议，该协议允许全面科研合作。或许，这将使原本地处边缘的小区域成为强有力的力量中心。"
  MAN_PRC_technology_sharing_group_name: "中共联合研究小组"
  MAN_PRC_technology_sharing_group_desc: "多片领土处于中国共产党控制下，这也意味着双方之间的沟通必须加强，以免某一方落后。协调研究工作是这种沟通中最重要的环节之一。"
+ CZE_balkan_tech_sharing_group_name: "小协约国科学委员会"
+ CZE_balkan_tech_sharing_group_desc: "这是一项巴尔干国家与[CZE.GetNameDef]之间的研究协议，旨在使参会各国的工业技术与大国保持同步。"
+ CZE_german_czechoslovak_equipment_design_group_name: "捷德装备设计委员会"
+ CZE_german_czechoslovak_equipment_design_group_desc: "[GER.GetNameDef]和[CZE.GetNameDef]的科学家已开始在坦克和飞机设计领域展开合作。"

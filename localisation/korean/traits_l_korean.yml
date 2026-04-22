@@ -2350,3 +2350,76 @@
  CHI_minister_of_transport_trait: "교통부"
  CHI_minister_of_transport_trait_2: "$CHI_minister_of_transport_trait$"
  CHI_geologist_trait: "지리학자"
+ ##################
+ #### PFOT/MUN ####
+ ##################
+ #Theorist Traits
+ well_renowned_military_theorist: "유명한 군사이론가"
+ #Military High Command Traits
+ army_guerilla_organizer_1: "유격전 조직자\n(특기병)"
+ army_guerilla_organizer_2: "유격전 조직자\n(전문가)"
+ army_guerilla_organizer_3: "유격전 조직자\n(천재)"
+ #Naval Chief Traits
+ navy_chief_naval_gunnery_designer_1: "함포 설계사\n(특기병)"
+ navy_chief_naval_gunnery_designer_2: "함포 설계사\n(전문가)"
+ navy_chief_naval_gunnery_designer_3: "함포 설계사\n(천재)"
+ #Designer Traits
+ train_equipment_manufacturer: "열차 설계사"
+ automatic_weapons_manufacturer: "자동화기 설계사"
+ tank_destroyer_manufacturer: "구축전차 설계사"
+ helicopter_equipment_manufacturer: "$generic_helicopter_organization$"
+ #Concerns Traits
+ industrial_focused_central_bank: "산업 중점 중앙은행"
+ engine_manufacturing_concern: "엔진 제조 회사"
+ construction_company_shell: "건설 회사"
+ commercial_bank: "상업은행"
+ #PFOT/MUN Advisor Traits
+ militant_priest: "전투적인 성직자"
+ militant_minister_2: "군부 장관"
+ space_lawyer: "우주 법률가"
+ austrian_exile: "오스트리아 망명자"
+ socialist_firebrand: "사회주의 선동가"
+ union_women: "여성 연합"
+ bold_intelligence_officer: "대담한 정보장교"
+ bold_intelligence_officer_no_lar: "대담한 정보장교"
+ nationalist_catholic_priest: "국민주의 가톨릭 성직자"
+ #PFOT/MUN Leader Traits
+ de_facto_leader: "사실상의 지도자"
+ undermined_support_base: "약화된 지지기반"
+ agrarian_old_guard: "농민 보수파"
+ #CZE PFOT/MUN Advisor Traits
+ CZE_2nd_prezident: "2대 대통령" #Used on CZE_edvard_benesh as both a advisor and leader trait
+ CZE_diplomatic_workhorse: "성실한 외교관"
+ CZE_pro_soviet_diplomat: "친소비에트 외교관"
+ CZE_benes_lackey: "베네시의 아첨꾼"
+ CZE_minister_of_foreign_affairs: "베네시의 외무장관"
+ CZE_general_director_of_ckd: "ČKD 총괄 이사"
+ CZE_minister_of_public_works: "공공사업장관"
+ CZE_nationalistic_agitating_academic: "선동적인 민족주의 학자"
+ fellow_traveller: "동조자"
+ CZE_minister_of_finance: "재무장관"
+ CZE_minister_of_industry_and_trade: "산업무역부장관"
+ CZE_minister_of_posts_and_telegraphs: "우편 및 전신 장관"
+ CZE_minister_of_railways: "철도장관"
+ CZE_overly_pragmatic_diplomat: "과도한 실용주의 외교관"
+ CZE_sokol_administrator: "소콜 운동 행정관"
+ CZE_slovakian_nationalist: "슬로바키아 국민주의자"
+ CZE_prime_minister_of_carpathian_ukraine: "카르파티아 우크라이나의 총리"
+ CZE_leader_of_the_csl: "체코슬로바키아 인민당의 지도자"
+ CZE_prolific_aviator: "왕성하게 활동하는 비행사"
+ CZE_corporate_emperor: "산업계 황제"
+ CZE_corporatist_lackey: "산업계 아첨꾼"
+ #CZE PFOT/MUN Leader Traits
+ CZE_disoriented_minister_of_foreign_affairs: "혼란에 빠진 외무장관"
+ CZE_3rd_prezident: "3대 대통령"
+ CZE_reluctant_prime_minister: "내키지 않은 총리"
+ CZE_spirit_of_zizka: "지슈카의 정신"
+ CZE_minister_of_defense: "국방장관"
+ CZE_leader_of_the_sdp: "사회민주당의 지도자"
+ CZE_minister_of_public_health: "보건장관"
+ #SLO PFOT/MUN Advisor Traits
+ SLO_head_of_the_radical_wing: "급진파의 수장"
+ #SLO PFOT/MUN Leader Traits
+ SLO_nationalist_catholic_priest: "국민주의 가톨릭 성직자"
+ #RUT PFOT/MUN Leader Traits
+ RUT_independence_minded_priest: "독립적인 성향의 성직자"

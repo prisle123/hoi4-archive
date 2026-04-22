@@ -1058,6 +1058,208 @@ spriteTypes = {
 		name = "GFX_focus_CZE_military_research_institute"
 		texturefile = "gfx/interface/goals/focus_cze_military_research_institute.dds"
 	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_balance_plan"
+		texturefile = "gfx/interface/goals/focus_CZE_balance_plan.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_CZE_bohemia_plan"
+		texturefile = "gfx/interface/goals/focus_CZE_bohemia_plan.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_build_infantry"
+		texturefile = "gfx/interface/goals/focus_CZE_build_infantry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_slovak_arrow"
+		texturefile = "gfx/interface/goals/focus_CZE_slovak_arrow.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_CZE_state_defense_guard"
+		texturefile = "gfx/interface/goals/focus_CZE_state_defense_guard.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_focus_generic_industry_investment"
+		texturefile = "gfx/interface/goals/focus_generic_industry_investment.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_arms_trade"
+		texturefile = "gfx/interface/goals/focus_generic_arms_trade.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_stalinist_industry"
+		texturefile = "gfx/interface/goals/focus_generic_stalinist_industry.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_czechoslovak_legion"
+		texturefile = "gfx/interface/goals/focus_CZE_czechoslovak_legion.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_appeal_to_the_castle"
+		texturefile = "gfx/interface/goals/focus_CZE_appeal_to_the_castle.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_federative_republic"
+		texturefile = "gfx/interface/goals/focus_CZE_federative_republic.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_army_reform"
+		texturefile = "gfx/interface/goals/focus_CZE_army_reform.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_the_air_is_our_sea"
+		texturefile = "gfx/interface/goals/focus_CZE_the_air_is_our_sea.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_slovak_independence"
+		texturefile = "gfx/interface/goals/focus_CZE_slovak_independence.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_generic_steel_mill"
+		texturefile = "gfx/interface/goals/focus_generic_steel_mill.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_bohemia_crown"
+		texturefile = "gfx/interface/goals/focus_CZE_bohemia_crown.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_focus_CZE_our_royal_claims"
+		texturefile = "gfx/interface/goals/focus_CZE_our_royal_claims.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_unify_the_fascist_parties"
+		texturefile = "gfx/interface/goals/focus_CZE_unify_the_fascist_parties.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_hussite_legacy"
+		texturefile = "gfx/interface/goals/focus_CZE_hussite_legacy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_second_fortification_program"
+		texturefile = "gfx/interface/goals/focus_CZE_second_fortification_program.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_CZE_second_fortification_program"
+		texturefile = "gfx/interface/goals/focus_CZE_second_fortification_program.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_war_college"
+		texturefile = "gfx/interface/goals/focus_CZE_war_college.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_coalition_building"
+		texturefile = "gfx/interface/goals/focus_CZE_coalition_building.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_free_tuka"
+		texturefile = "gfx/interface/goals/focus_CZE_free_tuka.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_full_faith_in_hacha"
+		texturefile = "gfx/interface/goals/focus_CZE_full_faith_in_hacha.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_moravecs_bohemia"
+		texturefile = "gfx/interface/goals/focus_CZE_moravecs_bohemia.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_attack_slovenia"
+		texturefile = "gfx/interface/goals/focus_generic_attack_slovenia.dds"
+	}
+
+	SpriteType = { #Used for DLC banner
+		name = "GFX_focus_CZE_flag_and_fortification"
+		texturefile = "gfx/interface/goals/focus_CZE_flag_and_fortification.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_befriend_poland"
+		texturefile = "gfx/interface/goals/focus_generic_befriend_poland.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_demonstration_of_military_achievements"
+		texturefile = "gfx/interface/goals/focus_CZE_demonstration_of_military_achievements.dds"
+	}
+
+	#Industry focus overlays
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_industry_focus"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_industry_focus.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_air_focus"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_air_focus.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_navy_focus"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_navy_focus.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_small_arms_focus"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_small_arms_focus.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_tank_focus"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_tank_focus.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_level_four"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_level_four.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_level_five"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_level_five.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_military_equipment"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_military_equipment.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_plane_tank"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_plane_tank.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_military_four"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_military_four.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_overlay_cze_military_five"
+		texturefile = "gfx/interface/goals/focus_overlay_cze_military_five.dds"			
+	}
+	SpriteType = {
+		name = "GFX_focus_fast_overlay_generic_clock_and_cze_industry_focus"
+		texturefile = "gfx/interface/goals/focus_fast_overlay_generic_clock_and_cze_industry_focus.dds"			
+	}
+
+
 	
 	### Yugoslavia
 	

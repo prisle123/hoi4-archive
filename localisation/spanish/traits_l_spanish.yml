@@ -2350,3 +2350,76 @@
  CHI_minister_of_transport_trait: "Ministro de Transporte y Comunicación"
  CHI_minister_of_transport_trait_2: "$CHI_minister_of_transport_trait$"
  CHI_geologist_trait: "Geólogo"
+ ##################
+ #### PFOT/MUN ####
+ ##################
+ #Theorist Traits
+ well_renowned_military_theorist: "Teórico militar ilustre"
+ #Military High Command Traits
+ army_guerilla_organizer_1: "Organizador de guerrillas\n(Especialista)"
+ army_guerilla_organizer_2: "Organizador de guerrillas\n(Experto)"
+ army_guerilla_organizer_3: "Organizador de guerrillas\n(Genio)"
+ #Naval Chief Traits
+ navy_chief_naval_gunnery_designer_1: "Diseñador de artillería naval\n(Especialista)"
+ navy_chief_naval_gunnery_designer_2: "Diseñador de artillería naval\n(Experto)"
+ navy_chief_naval_gunnery_designer_3: "Diseñador de artillería naval\n(Genio)"
+ #Designer Traits
+ train_equipment_manufacturer: "Diseñador de trenes"
+ automatic_weapons_manufacturer: "Diseñador de armas automáticas"
+ tank_destroyer_manufacturer: "Diseñador de cazacarros"
+ helicopter_equipment_manufacturer: "$generic_helicopter_organization$"
+ #Concerns Traits
+ industrial_focused_central_bank: "Banco central con orientación industrial"
+ engine_manufacturing_concern: "Empresa de fabricación de motores"
+ construction_company_shell: "Constructora"
+ commercial_bank: "Banco comercial"
+ #PFOT/MUN Advisor Traits
+ militant_priest: "Sacerdote militante"
+ militant_minister_2: "Ministro militante"
+ space_lawyer: "Abogado especializado en derecho espacial"
+ austrian_exile: "Exilio austríaco"
+ socialist_firebrand: "Agitador socialista"
+ union_women: "Sindicalista"
+ bold_intelligence_officer: "Oficial de inteligencia audaz"
+ bold_intelligence_officer_no_lar: "Oficial de inteligencia audaz"
+ nationalist_catholic_priest: "Sacerdote nacionalista católico"
+ #PFOT/MUN Leader Traits
+ de_facto_leader: "Líder de facto"
+ undermined_support_base: "Base de apoyo debilitada"
+ agrarian_old_guard: "Vieja guardia agraria"
+ #CZE PFOT/MUN Advisor Traits
+ CZE_2nd_prezident: "2.º presidente" #Used on CZE_edvard_benesh as both a advisor and leader trait
+ CZE_diplomatic_workhorse: "Caballo de batalla diplomático"
+ CZE_pro_soviet_diplomat: "Diplomático prosoviético"
+ CZE_benes_lackey: "Lacayo de Beneš"
+ CZE_minister_of_foreign_affairs: "Ministro de Asuntos Exteriores de Beneš"
+ CZE_general_director_of_ckd: "Director general de ČKD"
+ CZE_minister_of_public_works: "Ministro de Obras Públicas"
+ CZE_nationalistic_agitating_academic: "Académico agitador nacionalista"
+ fellow_traveller: "Compañero de ruta"
+ CZE_minister_of_finance: "Ministro de Economía"
+ CZE_minister_of_industry_and_trade: "Ministro de Industria y Comercio"
+ CZE_minister_of_posts_and_telegraphs: "Ministro de Correos y Telégrafos"
+ CZE_minister_of_railways: "Ministro del Ferrocarril"
+ CZE_overly_pragmatic_diplomat: "Diplomático excesivamente pragmático"
+ CZE_sokol_administrator: "Administrador del movimiento Sokol"
+ CZE_slovakian_nationalist: "Nacionalista de Eslovaquia"
+ CZE_prime_minister_of_carpathian_ukraine: "Primer ministro de Ucrania de los Cárpatos"
+ CZE_leader_of_the_csl: "Líder del ČSL"
+ CZE_prolific_aviator: "Aviador prolífico"
+ CZE_corporate_emperor: "Emperador industrial"
+ CZE_corporatist_lackey: "Lacayo industrial"
+ #CZE PFOT/MUN Leader Traits
+ CZE_disoriented_minister_of_foreign_affairs: "Ministro de Asuntos Exteriores desorientado"
+ CZE_3rd_prezident: "3.er presidente"
+ CZE_reluctant_prime_minister: "Primer ministro reticente"
+ CZE_spirit_of_zizka: "Espíritu de Zizka"
+ CZE_minister_of_defense: "Ministro de Defensa"
+ CZE_leader_of_the_sdp: "Líder del Partido Alemán de los Sudetes"
+ CZE_minister_of_public_health: "Ministro de Salud"
+ #SLO PFOT/MUN Advisor Traits
+ SLO_head_of_the_radical_wing: "Líder del ala radical"
+ #SLO PFOT/MUN Leader Traits
+ SLO_nationalist_catholic_priest: "Sacerdote nacionalista católico"
+ #RUT PFOT/MUN Leader Traits
+ RUT_independence_minded_priest: "Sacerdote independentista"

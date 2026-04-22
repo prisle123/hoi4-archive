@@ -5,105 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>script_collection_input.md</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
 </head>
 <body>
     <main>
     <div class="container">
-        <md-block>
-            # Script Collection Input
-
-## Table of Content
-
-* [collection NAME](#collection-name)
-* [constant NAME](#constant-name)
-* [game all_countries](#game-all_countries)
-* [game all_possible_countries](#game-all_possible_countries)
-* [game all_states](#game-all_states)
-* [game scope](#game-scope)
-
-## game all_countries
-All existing countries (including government in exile).
-### Example
-```
-has_resources_in_collection = {
-	collection = game:all_countries
-	resource = steel
-	amount > 799
-	extracted = yes
+        <h1 id="script-collection-input">Script Collection Input</h1>
+<h2 id="table-of-content">Table of Content</h2>
+<ul>
+<li><a href="#collection-name">collection NAME</a></li>
+<li><a href="#constant-name">constant NAME</a></li>
+<li><a href="#game-all_countries">game all_countries</a></li>
+<li><a href="#game-all_possible_countries">game all_possible_countries</a></li>
+<li><a href="#game-all_states">game all_states</a></li>
+<li><a href="#game-scope">game scope</a></li>
+</ul>
+<h2 id="collection-name">collection NAME</h2>
+<p>Use a named collection as input.</p>
+<h3 id="example">Example</h3>
+<p>Checks if there are more than 42 members in the collection named "my_named_collection".</p>
+<pre><code>collection_size = {
+    input = collection:my_named_collection
+    value &gt; 42
 }
-```
-
-
-## game all_possible_countries
-All countries (including those that doesn't exist).
-
-### Example
-```
-has_resources_in_collection = {
-	collection = collection:all_possible_countries
-	resource = steel
-	amount > 799
-	extracted = yes
+</code></pre>
+<h2 id="constant-name">constant NAME</h2>
+<p>Use a constant as input.</p>
+<h3 id="example_1">Example</h3>
+<p>Checks if there are more than 42 members in the collection named "my_named_collection".</p>
+<pre><code>collection_size = {
+    input = constant:my_constant
+    value &gt; 42
 }
-```
-
-
-## game all_states
-All existing states.
-
-### Example
-Check if there are more than 42 states in the game.
-```
-collection_size = {
-	input = game:all_states
-	value > 42
+</code></pre>
+<h2 id="game-all_countries">game all_countries</h2>
+<p>All existing countries (including government in exile).</p>
+<h3 id="example_2">Example</h3>
+<pre><code>has_resources_in_collection = {
+    collection = game:all_countries
+    resource = steel
+    amount &gt; 799
+    extracted = yes
 }
-```
-
-
-## game scope
-Current scope object.
-
-### Example
-Check if there are more than 42 members in the faction of the current scope (assumes current scope is country scope).
-```
-collection_size = {
+</code></pre>
+<h2 id="game-all_possible_countries">game all_possible_countries</h2>
+<p>All countries (including those that doesn't exist).</p>
+<h3 id="example_3">Example</h3>
+<pre><code>has_resources_in_collection = {
+    collection = collection:all_possible_countries
+    resource = steel
+    amount &gt; 799
+    extracted = yes
+}
+</code></pre>
+<h2 id="game-all_states">game all_states</h2>
+<p>All existing states.</p>
+<h3 id="example_4">Example</h3>
+<p>Check if there are more than 42 states in the game.</p>
+<pre><code>collection_size = {
+    input = game:all_states
+    value &gt; 42
+}
+</code></pre>
+<h2 id="game-scope">game scope</h2>
+<p>Current scope object.</p>
+<h3 id="example_5">Example</h3>
+<p>Check if there are more than 42 members in the faction of the current scope (assumes current scope is country scope).</p>
+<pre><code>collection_size = {
     input = {
         input = game:scope
         operators = { faction_members }
     }
-	value > 42
+    value &gt; 42
 }
-```
-
-
-## collection NAME
-Use a named collection as input.
-
-### Example
-Checks if there are more than 42 members in the collection named "my_named_collection".
-```
-collection_size = {
-    input = collection:my_named_collection
-    value > 42
-}
-```
-
-
-## constant NAME
-Use a constant as input.
-### Example
-Checks if there are more than 42 members in the collection named "my_named_collection".
-```
-collection_size = {
-	input = constant:my_constant
-	value > 42
-}
-```
-
-
-        </md-block>
+</code></pre>
     </div>
     </main>
 </body>

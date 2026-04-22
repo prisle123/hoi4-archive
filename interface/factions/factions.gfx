@@ -62,6 +62,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 	spriteType = {
+		name = "GFX_faction_logo_little_entente"
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_little_entente.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
 		name = "GFX_faction_logo_generic"
 		texturefile = "gfx/interface/factions/faction_logos/faction_logo_generic.dds"
 		noOfFrames = 2
@@ -188,6 +193,10 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_faction_logo_4th_international_miniature"
 		texturefile = "gfx/interface/factions/faction_logos/faction_logo_4th_international_miniature.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_logo_little_entente_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_little_entente_miniature.dds"
 	}
 		spriteType = {
 		name = "GFX_faction_logo_generic_miniature"

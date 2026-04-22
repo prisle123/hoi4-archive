@@ -2350,3 +2350,76 @@
  CHI_minister_of_transport_trait: "運輸通信大臣"
  CHI_minister_of_transport_trait_2: "$CHI_minister_of_transport_trait$"
  CHI_geologist_trait: "地質学者"
+ ##################
+ #### PFOT/MUN ####
+ ##################
+ #Theorist Traits
+ well_renowned_military_theorist: "高名な軍事理論家"
+ #Military High Command Traits
+ army_guerilla_organizer_1: "ゲリラ組織者\n（専門家）"
+ army_guerilla_organizer_2: "ゲリラ組織者\n（達人）"
+ army_guerilla_organizer_3: "ゲリラ組織者\n（天才）"
+ #Naval Chief Traits
+ navy_chief_naval_gunnery_designer_1: "艦載砲設計者\n（専門家）"
+ navy_chief_naval_gunnery_designer_2: "艦載砲設計者\n（達人）"
+ navy_chief_naval_gunnery_designer_3: "艦載砲設計者\n（天才）"
+ #Designer Traits
+ train_equipment_manufacturer: "鉄道車両設計社"
+ automatic_weapons_manufacturer: "自動火器設計社"
+ tank_destroyer_manufacturer: "駆逐戦車設計社"
+ helicopter_equipment_manufacturer: "$generic_helicopter_organization$"
+ #Concerns Traits
+ industrial_focused_central_bank: "興業銀行"
+ engine_manufacturing_concern: "エンジン製造会社"
+ construction_company_shell: "建設会社"
+ commercial_bank: "商業銀行"
+ #PFOT/MUN Advisor Traits
+ militant_priest: "好戦的な聖職者"
+ militant_minister_2: "好戦的な閣僚"
+ space_lawyer: "宇宙法律家"
+ austrian_exile: "オーストリア人亡命者"
+ socialist_firebrand: "社会主義の扇動者"
+ union_women: "組合の女性"
+ bold_intelligence_officer: "大胆な情報将校"
+ bold_intelligence_officer_no_lar: "大胆な情報将校"
+ nationalist_catholic_priest: "国粋主義のカトリック司祭"
+ #PFOT/MUN Leader Traits
+ de_facto_leader: "事実上の指導者"
+ undermined_support_base: "弱体化した支持基盤"
+ agrarian_old_guard: "農業界の守旧派"
+ #CZE PFOT/MUN Advisor Traits
+ CZE_2nd_prezident: "第2代大統領" #Used on CZE_edvard_benesh as both a advisor and leader trait
+ CZE_diplomatic_workhorse: "外交的勤勉家"
+ CZE_pro_soviet_diplomat: "親ソビエト外交官"
+ CZE_benes_lackey: "ベネシュの追従者"
+ CZE_minister_of_foreign_affairs: "ベネシュの外務大臣"
+ CZE_general_director_of_ckd: "ČKD社長"
+ CZE_minister_of_public_works: "公共事業大臣"
+ CZE_nationalistic_agitating_academic: "国粋主義の扇動する学者"
+ fellow_traveller: "共鳴者"
+ CZE_minister_of_finance: "財務大臣"
+ CZE_minister_of_industry_and_trade: "産業貿易大臣"
+ CZE_minister_of_posts_and_telegraphs: "逓信大臣"
+ CZE_minister_of_railways: "鉄道大臣"
+ CZE_overly_pragmatic_diplomat: "超実用主義的外交官"
+ CZE_sokol_administrator: "ソコル運動の管理者"
+ CZE_slovakian_nationalist: "スロヴァキアの国粋主義者"
+ CZE_prime_minister_of_carpathian_ukraine: "カルパティア・ウクライナの首相"
+ CZE_leader_of_the_csl: "ČSLの党首"
+ CZE_prolific_aviator: "戦果豊富な飛行士"
+ CZE_corporate_emperor: "実業家の皇帝"
+ CZE_corporatist_lackey: "実業家の追従者"
+ #CZE PFOT/MUN Leader Traits
+ CZE_disoriented_minister_of_foreign_affairs: "迷える外務大臣"
+ CZE_3rd_prezident: "第3代大統領"
+ CZE_reluctant_prime_minister: "消極的な首相"
+ CZE_spirit_of_zizka: "ジシュカの精神"
+ CZE_minister_of_defense: "国防大臣"
+ CZE_leader_of_the_sdp: "SdPの指導者"
+ CZE_minister_of_public_health: "保健大臣"
+ #SLO PFOT/MUN Advisor Traits
+ SLO_head_of_the_radical_wing: "過激派の主導者"
+ #SLO PFOT/MUN Leader Traits
+ SLO_nationalist_catholic_priest: "国粋主義のカトリック司祭"
+ #RUT PFOT/MUN Leader Traits
+ RUT_independence_minded_priest: "独立派聖職者"

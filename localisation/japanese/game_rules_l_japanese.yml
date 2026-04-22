@@ -284,6 +284,7 @@
  RULE_OPTION_DEMOCRATIC_ALTERNATE_CZE_AI_DESC: "AIチェコスロヴァキアは関連の国家方針を進めることで、民主主義を存続させながら、自らを守るための陣営を形成しようとするでしょう。"
  RULE_FASCIST_CZE_AI_DESC: "AIチェコスロヴァキアは関連の国家方針を進めることで、国家をファシスト化させ、ドイツとの協定を遂行しようとするでしょう。"
  RULE_HISTORICAL_CZE_AI_DESC: "AIチェコスロヴァキアはできる限り、一連の史実イベントに従おうとするでしょう。"
+ RULE_OPTION_MONARCHIST_CZE_AI_DESC: "チェコスロヴァキアのAIは君主主義者となり、ボヘミア帝国を復活させようとする。"
  RULE_FASCIST_ROM_AI_DESC: "AIルーマニアは関連の国家方針を進めることで史実に従い、枢軸国に加盟しようとするでしょう。"
  RULE_OPTION_COMMUNIST_AST_AI_DESC: "AIオーストラリアは関連の国家方針を進めることで国家を共産化させ、コミンテルンと同盟しようとするでしょう。"
  RULE_OPTION_DEMOCRATIC_HISTORICAL_AST_AI_DESC: "AIオーストラリアは、国家方針内の一連の史実イベント・ディシジョンに従おうとするでしょう。"
@@ -811,3 +812,5 @@
  RULE_OPTION_COMMUNIST_PHI_AI_DESC: "赤い太陽がフィリピンを照らし、海洋共産主義が権力を握る。彼らは平等の精神を世界中の海に広げようとする。"
  RULE_OPTION_MACARTHUR_PHI_AI: "軍事緊急事態の宣言"
  RULE_OPTION_MACARTHUR_PHI_AI_DESC: "フィリピン政府の崩壊後、一人の軍人が立ち上がって国家を指導し、あらゆる侵略者に立ち向かう。"
+ RULE_ALLOW_RELEASE_NATIONS_ALL_NATIONS_SUDETENLAND_TOOLTIP: "この国が解放されることはない。"
+ RULE_ALLOW_RELEASE_NATIONS_ALL_NATIONS_RUTHENIA_TOOLTIP: "この国が解放されることはない。"

@@ -5,738 +5,396 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>loc_objects_documentation.md</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
 </head>
 <body>
     <main>
     <div class="container">
-        <md-block>
-            # Localization Objects
-
-## Table of Content
-
-* [Ace](#ace)
-* [Building](#building)
-* [Character](#character)
-* [Country](#country)
-* [Faction](#faction)
-* [IndustrialOrg](#industrialorg)
-* [LocalizationEnvironment](#localizationenvironment)
-* [Operation](#operation)
-* [Province](#province)
-* [PurchaseContract](#purchasecontract)
-* [Scope](#scope)
-* [SpecialProject](#specialproject)
-* [State](#state)
-* [Terrain](#terrain)
-* [UnitLeader](#unitleader)
-
-## Ace
-
-### Promotions
-**Owner**
-
-Gets the owner country of the ace.
-
-### Properties
-**GetCallsign**
-
-Gets the callsign of the ace.
-
-**GetSheHeCap**
-
-Gets She if the ace is a female, otherwise He.
-
-**GetHerHimCap**
-
-Gets Her if the ace is a female, otherwise Him.
-
-**GetHerselfHimselfCap**
-
-Gets Herself if the ace is a female, otherwise Himself.
-
-**GetHerHis**
-
-Gets her if the ace is a female, otherwise his.
-
-**GetWing**
-
-Gets the name of the wing the ace is in.
-
-**GetWingShort**
-
-Gets the short name of the wing the ace is in.
-
-**GetHersHis**
-
-Gets hers if the ace is a female, otherwise his.
-
-**GetSurname**
-
-Gets the surname of the ace.
-
-**GetAceType**
-
-Gets the type of the ace.
-
-**GetHersHisCap**
-
-Gets Hers if the ace is a female, otherwise His.
-
-**GetName**
-
-Gets the name of the ace.
-
-**GetSheHe**
-
-Gets she if the ace is a female, otherwise he.
-
-**GetHerHim**
-
-Gets her if the ace is a female, otherwise him.
-
-**GetHerselfHimself**
-
-Gets herself if the ace is a female, otherwise himself.
-
-**GetFullName**
-
-Gets the full name of the ace.
-
-**GetHerHisCap**
-
-Gets Her if the ace is a female, otherwise His.
-
-**GetMissionRegion**
-
-Gets the name of the region of the mission the ace is on.
-
-## Building
-
-### Promotions
-### Properties
-**GetName**
-
-Gets the name of the building.
-
-## Character
-
-### Promotions
-**Owner**
-
-Gets the owner country of the character.
-
-### Properties
-**GetSheHeCap**
-
-Gets the pronoun for the character with an initial capital letter.
-
-**GetHerHimCap**
-
-Gets the pronoun for the character with an initial capital letter.
-
-**GetHerselfHimselfCap**
-
-Gets the pronoun for the character with an initial capital letter.
-
-**GetHerHis**
-
-Gets the pronoun for the character.
-
-**GetHersHis**
-
-Gets the pronoun for the character.
-
-**GetIdeology**
-
-Gets the ideology of the character.
-
-**GetHersHisCap**
-
-Gets the pronoun for the character with an initial capital letter.
-
-**GetName**
-
-Gets the name of the character.
-
-**GetSheHe**
-
-Gets the pronoun for the character.
-
-**GetHerHim**
-
-Gets the pronoun for the character.
-
-**GetHerselfHimself**
-
-Gets the pronoun for the character.
-
-**GetIdeologyGroup**
-
-Gets the ideology group of the character.
-
-**GetHerHisCap**
-
-Gets the pronoun for the character with an initial capital letter.
-
-## Country
-
-### Promotions
-**OriginalCapital**
-
-Gets the original capital state of the current country.
-
-**Capital**
-
-Gets the capital state of the current country.
-
-**Overlord**
-
-Gets the overlord country of the current country.
-
-**FactionLeader**
-
-Gets the faction leader country of the current country.
-
-### Properties
-**GetLeader**
-
-Gets the name of the current country's leader.
-
-**GetHerHimCap**
-
-Gets Her if the current country's leader is female, otherwise Him.
-
-**GetChangeRateDesc**
-
-Gets the change rate description of the current country's power balance.
-
-**GetHerHis**
-
-Gets her if the current country's leader is female, otherwise his.
-
-**GetActiveRangeModDesc**
-
-Gets the modifier description of the active range of the current country's power balance.
-
-**GetNonIdeologyNameDef**
-
-Gets the definite name of the current country without considering ideology.
-
-**GetPowerBalanceModDesc**
-
-Gets the modifier description of the current country's power balance.
-
-**GetNeutralParty**
-
-Gets the neutral party of the current country.
-
-**GetHersHisCap**
-
-Gets Hers if the current country's leader is female, otherwise His.
-
-**GetName**
-
-Gets the name of the current country.
-
-**GetNameWithFlag**
-
-Gets the name of the current country with its flag.
-
-**GetPowerBalanceName**
-
-Gets the name of the current country's power balance.
-
-**GetRulingIdeologyNoun**
-
-Gets the ideology of the current country's ruling party as a noun.
-
-**GetOldNameDef**
-
-Gets the definite old name of the current country.
-
-**GetCommunistParty**
-
-Gets the communist party of the current country.
-
-**GetDemocraticParty**
-
-Gets the democratic party of the current country.
-
-**GetTag**
-
-Gets the tag of the current country.
-
-**GetNonIdeologyAdjective**
-
-Gets the adjective of the current country without considering ideology.
-
-**GetHerHisCap**
-
-Gets Her if the current country's leader is female, otherwise His.
-
-**GetActiveRangeRuleDesc**
-
-Gets the rule description of the active range of the current country's power balance.
-
-**GetActiveRangeActivationEffect**
-
-Gets the activation effect description of the active range of the current country's power balance.
-
-**GetHerselfHimselfCap**
-
-Gets Herself if the current country's leader is female, otherwise Himself.
-
-**GetSheHeCap**
-
-Gets She if the current country's leader is female, otherwise He.
-
-**GetRulingParty**
-
-Gets the name of the current country's ruling party.
-
-**GetDemocraticLeader**
-
-Gets the name of the leader of the democratic party of the current country.
-
-**GetOldAdjectiveCap**
-
-Gets the capitalized old adjective of the current country.
-
-**GetCommunistLeader**
-
-Gets the name of the leader of the communistic party of the current country.
-
-**GetActiveRangeDeactivationEffect**
-
-Gets the deactivation effect description of the active range of the current country's power balance.
-
-**GetTrendingSideName**
-
-Gets the name of the trending side of the current country's power balance.
-
-**GetOldAdjective**
-
-Gets the old adjective of the current country.
-
-**GetRulingIdeology**
-
-Gets the ideology of the current country's ruling party.
-
-**GetPartySupport**
-
-Gets the support of the current country's ruling party.
-
-**GetNonIdeologyName**
-
-Gets the name of the current country without considering ideology.
-
-**GetManpower**
-
-Gets the manpower of the current country.
-
-**GetNameDef**
-
-Gets the definite name of the current country.
-
-**GetHersHis**
-
-Gets hers if the current country's leader is female, otherwise his.
-
-**GetNameDefCap**
-
-Gets the capitalized definite name of the current country.
-
-**GetSheHe**
-
-Gets she if the current country's leader is female, otherwise he.
-
-**GetHerselfHimself**
-
-Gets herself if the current country's leader is female, otherwise himself.
-
-**GetActiveRangeName**
-
-Gets the name of the active range of the current country's power balance.
-
-**GetOldNameDefCap**
-
-Gets the capitalized definite old name of the current country.
-
-**GetNeutralLeader**
-
-Gets the name of the leader of the neutral party of the current country.
-
-**GetAdjective**
-
-Gets the adjective of the current country.
-
-**GetAgency**
-
-Gets the name of the current country's intelligence agency.
-
-**GetBopTrendTextIcon**
-
-Gets the icon of the current country's balance of power trend.
-
-**GetNonIdeologyAdjectiveCap**
-
-Gets the capitalized adjective of the current country without considering ideology.
-
-**GetAdjectiveCap**
-
-Gets the capitalized adjective of the current country.
-
-**GetActiveSideName**
-
-Gets the name of the active side of the current country's power balance.
-
-**GetFlag**
-
-Gets the flag of the current country.
-
-**GetFactionName**
-
-Gets the name of the current country's faction.
-
-**GetRightSideName**
-
-Gets the name of the right side of the current country's power balance.
-
-**GetFascistParty**
-
-Gets the fascist party of the current country.
-
-**GetLeftSideName**
-
-Gets the name of the left side of the current country's power balance.
-
-**GetRulingPartyLong**
-
-Gets the long name of the current country's ruling party.
-
-**GetHerHim**
-
-Gets her if the current country's leader is female, otherwise him.
-
-**GetLastElection**
-
-Gets the date of the last election in the current country.
-
-**GetNonIdeologyNameDefCap**
-
-Gets the capitalized definite name of the current country without considering ideology.
-
-**GetFascistLeader**
-
-Gets the name of the leader of the facist party of the current country.
-
-**GetOldName**
-
-Gets the old name of the current country.
-
-## Faction
-
-### Promotions
-**Leader**
-
-Gets the leader of the faction
-
-### Properties
-**GetName**
-
-Gets the name of the faction.
-
-## IndustrialOrg
-
-### Promotions
-**Owner**
-
-Gets the owner country of the industrial organisation
-
-### Properties
-**GetName**
-
-Gets the name of the industrial organisation
-
-## LocalizationEnvironment
-
-### Promotions
-**Faction**
-
-Gets the faction in the localization environment.
-
-**Building**
-
-Gets the building in the localization environment.
-
-**Province**
-
-Gets the province in the localization environment.
-
-**Terrain**
-
-Gets the terrain in the localization environment.
-
-### Properties
-## Operation
-
-### Promotions
-**Target**
-
-Gets the target country of the operation.
-
-**Initiator**
-
-Gets the initiator country of the operation.
-
-**Operative0**
-
-Gets the first operative of the operation.
-
-**Operative2**
-
-Gets the third operative of the operation.
-
-**Operative1**
-
-Gets the second operative of the operation.
-
-**Operative3**
-
-Gets the fourth operative of the operation.
-
-### Properties
-**GetName**
-
-Gets the name of the operation.
-
-## Province
-
-### Promotions
-**Controller**
-
-Gets the controlling country of the province
-
-**Terrain**
-
-Gets the terrain of the province.
-
-### Properties
-**GetName**
-
-Gets the name of the province.
-
-## PurchaseContract
-
-### Promotions
-**Buyer**
-
-Gets the buyer country of the purchase contract.
-
-**Seller**
-
-Gets the seller country of the purchase contract.
-
-### Properties
-**GetDeliveredPayment**
-
-Gets the delivered payment of the purchase contract.
-
-## Scope
-
-### Promotions
-**Player**
-
-Gets the player country.
-
-**This**
-
-Does nothing.
-
-**THIS**
-
-Does nothing.
-
-**Root**
-
-Gets the root scope.
-
-**Operation**
-
-Gets the operation of the current scope.
-
-**Unit**
-
-Gets the unit of the current scope.
-
-**Ace**
-
-Gets the ace of the current scope.
-
-**IndustrialOrganisation**
-
-Gets the industrial organisation of the current scope.
-
-**Prev**
-
-Gets the previous scope.
-
-**Character**
-
-Gets the character of the current scope.
-
-**PurchaseContract**
-
-Gets the purchase contract of the current scope.
-
-**Country**
-
-Gets the country of the current scope.
-
-**From**
-
-Gets the from scope.
-
-**SpecialProject**
-
-Gets the special project of the current scope.
-
-**State**
-
-Gets the state of the current scope.
-
-**Combatant**
-
-Gets the combatant of the current scope.
-
-### Properties
-**GetYear**
-
-Gets the current game year.
-
-**GetDate**
-
-Gets the current game date.
-
-**GetMonth**
-
-Gets the current game month.
-
-**GetDateText**
-
-Gets the current game date as a long string.
-
-## SpecialProject
-
-### Promotions
-**Owner**
-
-Gets the owner country of the special project.
-
-### Properties
-**GetName**
-
-Gets the name of the special project
-
-## State
-
-### Promotions
-**Controller**
-
-Gets the controller country of the state.
-
-**Occupied**
-
-Gets the occupied country of the state.
-
-**Owner**
-
-Gets the owner country of the state.
-
-### Properties
-**GetID**
-
-Gets the ID of the state.
-
-**GetCapitalVictoryPointName**
-
-Gets the name of the capital victory point of the state.
-
-**GetName**
-
-Gets the name of the state.
-
-**GetContinent**
-
-Gets the name of the continent this state is in.
-
-## Terrain
-
-### Promotions
-### Properties
-**GetName**
-
-Gets the name of the terrain.
-
-## UnitLeader
-
-### Promotions
-**Owner**
-
-Gets the owner country of the unit leader.
-
-### Properties
-**GetLeaderSkill**
-
-Gets the skill level of the unit leader.
-
-**GetSheHeCap**
-
-Gets She if the unit leader is a female, otherwise He.
-
-**GetHerHimCap**
-
-Gets Her if the unit leader is a female, otherwise Him.
-
-**GetHerselfHimselfCap**
-
-Gets Herself if the unit leader is a female, otherwise Himself.
-
-**GetHerHis**
-
-Gets her if the unit leader is a female, otherwise his.
-
-**GetName**
-
-Gets the name of the unit leader.
-
-**GetSheHe**
-
-Gets she if the unit leader is a female, otherwise he.
-
-**GetHerHim**
-
-Gets her if the unit leader is a female, otherwise him.
-
-**GetHerselfHimself**
-
-Gets herself if the unit leader is a female, otherwise himself.
-
-**GetRank**
-
-Gets the rank of the unit leader.
-
-**GetCodeName**
-
-Gets the codename of the operative leader.
-
-**GetHerHisCap**
-
-Gets Her if the unit leader is a female, otherwise His.
-
-
-        </md-block>
+        <h1 id="localization-objects">Localization Objects</h1>
+<h2 id="table-of-content">Table of Content</h2>
+<ul>
+<li><a href="#ace">Ace</a></li>
+<li><a href="#building">Building</a></li>
+<li><a href="#character">Character</a></li>
+<li><a href="#country">Country</a></li>
+<li><a href="#faction">Faction</a></li>
+<li><a href="#industrialorg">IndustrialOrg</a></li>
+<li><a href="#localizationenvironment">LocalizationEnvironment</a></li>
+<li><a href="#operation">Operation</a></li>
+<li><a href="#province">Province</a></li>
+<li><a href="#purchasecontract">PurchaseContract</a></li>
+<li><a href="#scope">Scope</a></li>
+<li><a href="#specialproject">SpecialProject</a></li>
+<li><a href="#state">State</a></li>
+<li><a href="#terrain">Terrain</a></li>
+<li><a href="#unitleader">UnitLeader</a></li>
+</ul>
+<h2 id="ace">Ace</h2>
+<h3 id="promotions">Promotions</h3>
+<p><strong>Owner</strong></p>
+<p>Gets the owner country of the ace.</p>
+<h3 id="properties">Properties</h3>
+<p><strong>GetCallsign</strong></p>
+<p>Gets the callsign of the ace.</p>
+<p><strong>GetSheHeCap</strong></p>
+<p>Gets She if the ace is a female, otherwise He.</p>
+<p><strong>GetHerHimCap</strong></p>
+<p>Gets Her if the ace is a female, otherwise Him.</p>
+<p><strong>GetHerselfHimselfCap</strong></p>
+<p>Gets Herself if the ace is a female, otherwise Himself.</p>
+<p><strong>GetHerHis</strong></p>
+<p>Gets her if the ace is a female, otherwise his.</p>
+<p><strong>GetWing</strong></p>
+<p>Gets the name of the wing the ace is in.</p>
+<p><strong>GetWingShort</strong></p>
+<p>Gets the short name of the wing the ace is in.</p>
+<p><strong>GetHersHis</strong></p>
+<p>Gets hers if the ace is a female, otherwise his.</p>
+<p><strong>GetSurname</strong></p>
+<p>Gets the surname of the ace.</p>
+<p><strong>GetAceType</strong></p>
+<p>Gets the type of the ace.</p>
+<p><strong>GetHersHisCap</strong></p>
+<p>Gets Hers if the ace is a female, otherwise His.</p>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the ace.</p>
+<p><strong>GetSheHe</strong></p>
+<p>Gets she if the ace is a female, otherwise he.</p>
+<p><strong>GetHerHim</strong></p>
+<p>Gets her if the ace is a female, otherwise him.</p>
+<p><strong>GetHerselfHimself</strong></p>
+<p>Gets herself if the ace is a female, otherwise himself.</p>
+<p><strong>GetFullName</strong></p>
+<p>Gets the full name of the ace.</p>
+<p><strong>GetHerHisCap</strong></p>
+<p>Gets Her if the ace is a female, otherwise His.</p>
+<p><strong>GetMissionRegion</strong></p>
+<p>Gets the name of the region of the mission the ace is on.</p>
+<h2 id="building">Building</h2>
+<h3 id="promotions_1">Promotions</h3>
+<h3 id="properties_1">Properties</h3>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the building.</p>
+<h2 id="character">Character</h2>
+<h3 id="promotions_2">Promotions</h3>
+<p><strong>Owner</strong></p>
+<p>Gets the owner country of the character.</p>
+<h3 id="properties_2">Properties</h3>
+<p><strong>GetSheHeCap</strong></p>
+<p>Gets the pronoun for the character with an initial capital letter.</p>
+<p><strong>GetHerHimCap</strong></p>
+<p>Gets the pronoun for the character with an initial capital letter.</p>
+<p><strong>GetHerselfHimselfCap</strong></p>
+<p>Gets the pronoun for the character with an initial capital letter.</p>
+<p><strong>GetHerHis</strong></p>
+<p>Gets the pronoun for the character.</p>
+<p><strong>GetHersHis</strong></p>
+<p>Gets the pronoun for the character.</p>
+<p><strong>GetIdeology</strong></p>
+<p>Gets the ideology of the character.</p>
+<p><strong>GetHersHisCap</strong></p>
+<p>Gets the pronoun for the character with an initial capital letter.</p>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the character.</p>
+<p><strong>GetSheHe</strong></p>
+<p>Gets the pronoun for the character.</p>
+<p><strong>GetHerHim</strong></p>
+<p>Gets the pronoun for the character.</p>
+<p><strong>GetHerselfHimself</strong></p>
+<p>Gets the pronoun for the character.</p>
+<p><strong>GetIdeologyGroup</strong></p>
+<p>Gets the ideology group of the character.</p>
+<p><strong>GetHerHisCap</strong></p>
+<p>Gets the pronoun for the character with an initial capital letter.</p>
+<h2 id="country">Country</h2>
+<h3 id="promotions_3">Promotions</h3>
+<p><strong>OriginalCapital</strong></p>
+<p>Gets the original capital state of the current country.</p>
+<p><strong>Capital</strong></p>
+<p>Gets the capital state of the current country.</p>
+<p><strong>Overlord</strong></p>
+<p>Gets the overlord country of the current country.</p>
+<p><strong>FactionLeader</strong></p>
+<p>Gets the faction leader country of the current country.</p>
+<h3 id="properties_3">Properties</h3>
+<p><strong>GetLeader</strong></p>
+<p>Gets the name of the current country's leader.</p>
+<p><strong>GetHerHimCap</strong></p>
+<p>Gets Her if the current country's leader is female, otherwise Him.</p>
+<p><strong>GetChangeRateDesc</strong></p>
+<p>Gets the change rate description of the current country's power balance.</p>
+<p><strong>GetHerHis</strong></p>
+<p>Gets her if the current country's leader is female, otherwise his.</p>
+<p><strong>GetActiveRangeModDesc</strong></p>
+<p>Gets the modifier description of the active range of the current country's power balance.</p>
+<p><strong>GetNonIdeologyNameDef</strong></p>
+<p>Gets the definite name of the current country without considering ideology.</p>
+<p><strong>GetPowerBalanceModDesc</strong></p>
+<p>Gets the modifier description of the current country's power balance.</p>
+<p><strong>GetNeutralParty</strong></p>
+<p>Gets the neutral party of the current country.</p>
+<p><strong>GetHersHisCap</strong></p>
+<p>Gets Hers if the current country's leader is female, otherwise His.</p>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the current country.</p>
+<p><strong>GetNameWithFlag</strong></p>
+<p>Gets the name of the current country with its flag.</p>
+<p><strong>GetPowerBalanceName</strong></p>
+<p>Gets the name of the current country's power balance.</p>
+<p><strong>GetRulingIdeologyNoun</strong></p>
+<p>Gets the ideology of the current country's ruling party as a noun.</p>
+<p><strong>GetOldNameDef</strong></p>
+<p>Gets the definite old name of the current country.</p>
+<p><strong>GetCommunistParty</strong></p>
+<p>Gets the communist party of the current country.</p>
+<p><strong>GetDemocraticParty</strong></p>
+<p>Gets the democratic party of the current country.</p>
+<p><strong>GetTag</strong></p>
+<p>Gets the tag of the current country.</p>
+<p><strong>GetNonIdeologyAdjective</strong></p>
+<p>Gets the adjective of the current country without considering ideology.</p>
+<p><strong>GetHerHisCap</strong></p>
+<p>Gets Her if the current country's leader is female, otherwise His.</p>
+<p><strong>GetActiveRangeRuleDesc</strong></p>
+<p>Gets the rule description of the active range of the current country's power balance.</p>
+<p><strong>GetActiveRangeActivationEffect</strong></p>
+<p>Gets the activation effect description of the active range of the current country's power balance.</p>
+<p><strong>GetHerselfHimselfCap</strong></p>
+<p>Gets Herself if the current country's leader is female, otherwise Himself.</p>
+<p><strong>GetSheHeCap</strong></p>
+<p>Gets She if the current country's leader is female, otherwise He.</p>
+<p><strong>GetRulingParty</strong></p>
+<p>Gets the name of the current country's ruling party.</p>
+<p><strong>GetDemocraticLeader</strong></p>
+<p>Gets the name of the leader of the democratic party of the current country.</p>
+<p><strong>GetOldAdjectiveCap</strong></p>
+<p>Gets the capitalized old adjective of the current country.</p>
+<p><strong>GetCommunistLeader</strong></p>
+<p>Gets the name of the leader of the communistic party of the current country.</p>
+<p><strong>GetActiveRangeDeactivationEffect</strong></p>
+<p>Gets the deactivation effect description of the active range of the current country's power balance.</p>
+<p><strong>GetTrendingSideName</strong></p>
+<p>Gets the name of the trending side of the current country's power balance.</p>
+<p><strong>GetOldAdjective</strong></p>
+<p>Gets the old adjective of the current country.</p>
+<p><strong>GetRulingIdeology</strong></p>
+<p>Gets the ideology of the current country's ruling party.</p>
+<p><strong>GetPartySupport</strong></p>
+<p>Gets the support of the current country's ruling party.</p>
+<p><strong>GetNonIdeologyName</strong></p>
+<p>Gets the name of the current country without considering ideology.</p>
+<p><strong>GetManpower</strong></p>
+<p>Gets the manpower of the current country.</p>
+<p><strong>GetNameDef</strong></p>
+<p>Gets the definite name of the current country.</p>
+<p><strong>GetHersHis</strong></p>
+<p>Gets hers if the current country's leader is female, otherwise his.</p>
+<p><strong>GetNameDefCap</strong></p>
+<p>Gets the capitalized definite name of the current country.</p>
+<p><strong>GetSheHe</strong></p>
+<p>Gets she if the current country's leader is female, otherwise he.</p>
+<p><strong>GetHerselfHimself</strong></p>
+<p>Gets herself if the current country's leader is female, otherwise himself.</p>
+<p><strong>GetActiveRangeName</strong></p>
+<p>Gets the name of the active range of the current country's power balance.</p>
+<p><strong>GetOldNameDefCap</strong></p>
+<p>Gets the capitalized definite old name of the current country.</p>
+<p><strong>GetNeutralLeader</strong></p>
+<p>Gets the name of the leader of the neutral party of the current country.</p>
+<p><strong>GetAdjective</strong></p>
+<p>Gets the adjective of the current country.</p>
+<p><strong>GetAgency</strong></p>
+<p>Gets the name of the current country's intelligence agency.</p>
+<p><strong>GetBopTrendTextIcon</strong></p>
+<p>Gets the icon of the current country's balance of power trend.</p>
+<p><strong>GetNonIdeologyAdjectiveCap</strong></p>
+<p>Gets the capitalized adjective of the current country without considering ideology.</p>
+<p><strong>GetAdjectiveCap</strong></p>
+<p>Gets the capitalized adjective of the current country.</p>
+<p><strong>GetActiveSideName</strong></p>
+<p>Gets the name of the active side of the current country's power balance.</p>
+<p><strong>GetFlag</strong></p>
+<p>Gets the flag of the current country.</p>
+<p><strong>GetFactionName</strong></p>
+<p>Gets the name of the current country's faction.</p>
+<p><strong>GetRightSideName</strong></p>
+<p>Gets the name of the right side of the current country's power balance.</p>
+<p><strong>GetFascistParty</strong></p>
+<p>Gets the fascist party of the current country.</p>
+<p><strong>GetLeftSideName</strong></p>
+<p>Gets the name of the left side of the current country's power balance.</p>
+<p><strong>GetRulingPartyLong</strong></p>
+<p>Gets the long name of the current country's ruling party.</p>
+<p><strong>GetHerHim</strong></p>
+<p>Gets her if the current country's leader is female, otherwise him.</p>
+<p><strong>GetLastElection</strong></p>
+<p>Gets the date of the last election in the current country.</p>
+<p><strong>GetNonIdeologyNameDefCap</strong></p>
+<p>Gets the capitalized definite name of the current country without considering ideology.</p>
+<p><strong>GetFascistLeader</strong></p>
+<p>Gets the name of the leader of the facist party of the current country.</p>
+<p><strong>GetOldName</strong></p>
+<p>Gets the old name of the current country.</p>
+<h2 id="faction">Faction</h2>
+<h3 id="promotions_4">Promotions</h3>
+<p><strong>Leader</strong></p>
+<p>Gets the leader of the faction</p>
+<h3 id="properties_4">Properties</h3>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the faction.</p>
+<h2 id="industrialorg">IndustrialOrg</h2>
+<h3 id="promotions_5">Promotions</h3>
+<p><strong>Owner</strong></p>
+<p>Gets the owner country of the industrial organisation</p>
+<h3 id="properties_5">Properties</h3>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the industrial organisation</p>
+<h2 id="localizationenvironment">LocalizationEnvironment</h2>
+<h3 id="promotions_6">Promotions</h3>
+<p><strong>Faction</strong></p>
+<p>Gets the faction in the localization environment.</p>
+<p><strong>Building</strong></p>
+<p>Gets the building in the localization environment.</p>
+<p><strong>Province</strong></p>
+<p>Gets the province in the localization environment.</p>
+<p><strong>Terrain</strong></p>
+<p>Gets the terrain in the localization environment.</p>
+<h3 id="properties_6">Properties</h3>
+<h2 id="operation">Operation</h2>
+<h3 id="promotions_7">Promotions</h3>
+<p><strong>Target</strong></p>
+<p>Gets the target country of the operation.</p>
+<p><strong>Initiator</strong></p>
+<p>Gets the initiator country of the operation.</p>
+<p><strong>Operative0</strong></p>
+<p>Gets the first operative of the operation.</p>
+<p><strong>Operative2</strong></p>
+<p>Gets the third operative of the operation.</p>
+<p><strong>Operative1</strong></p>
+<p>Gets the second operative of the operation.</p>
+<p><strong>Operative3</strong></p>
+<p>Gets the fourth operative of the operation.</p>
+<h3 id="properties_7">Properties</h3>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the operation.</p>
+<h2 id="province">Province</h2>
+<h3 id="promotions_8">Promotions</h3>
+<p><strong>Controller</strong></p>
+<p>Gets the controlling country of the province</p>
+<p><strong>Terrain</strong></p>
+<p>Gets the terrain of the province.</p>
+<h3 id="properties_8">Properties</h3>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the province.</p>
+<h2 id="purchasecontract">PurchaseContract</h2>
+<h3 id="promotions_9">Promotions</h3>
+<p><strong>Buyer</strong></p>
+<p>Gets the buyer country of the purchase contract.</p>
+<p><strong>Seller</strong></p>
+<p>Gets the seller country of the purchase contract.</p>
+<h3 id="properties_9">Properties</h3>
+<p><strong>GetDeliveredPayment</strong></p>
+<p>Gets the delivered payment of the purchase contract.</p>
+<h2 id="scope">Scope</h2>
+<h3 id="promotions_10">Promotions</h3>
+<p><strong>Player</strong></p>
+<p>Gets the player country.</p>
+<p><strong>This</strong></p>
+<p>Does nothing.</p>
+<p><strong>THIS</strong></p>
+<p>Does nothing.</p>
+<p><strong>Root</strong></p>
+<p>Gets the root scope.</p>
+<p><strong>Operation</strong></p>
+<p>Gets the operation of the current scope.</p>
+<p><strong>Unit</strong></p>
+<p>Gets the unit of the current scope.</p>
+<p><strong>Ace</strong></p>
+<p>Gets the ace of the current scope.</p>
+<p><strong>IndustrialOrganisation</strong></p>
+<p>Gets the industrial organisation of the current scope.</p>
+<p><strong>Prev</strong></p>
+<p>Gets the previous scope.</p>
+<p><strong>Character</strong></p>
+<p>Gets the character of the current scope.</p>
+<p><strong>PurchaseContract</strong></p>
+<p>Gets the purchase contract of the current scope.</p>
+<p><strong>Country</strong></p>
+<p>Gets the country of the current scope.</p>
+<p><strong>From</strong></p>
+<p>Gets the from scope.</p>
+<p><strong>SpecialProject</strong></p>
+<p>Gets the special project of the current scope.</p>
+<p><strong>State</strong></p>
+<p>Gets the state of the current scope.</p>
+<p><strong>Combatant</strong></p>
+<p>Gets the combatant of the current scope.</p>
+<h3 id="properties_10">Properties</h3>
+<p><strong>GetYear</strong></p>
+<p>Gets the current game year.</p>
+<p><strong>GetDate</strong></p>
+<p>Gets the current game date.</p>
+<p><strong>GetMonth</strong></p>
+<p>Gets the current game month.</p>
+<p><strong>GetDateText</strong></p>
+<p>Gets the current game date as a long string.</p>
+<h2 id="specialproject">SpecialProject</h2>
+<h3 id="promotions_11">Promotions</h3>
+<p><strong>Owner</strong></p>
+<p>Gets the owner country of the special project.</p>
+<h3 id="properties_11">Properties</h3>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the special project</p>
+<h2 id="state">State</h2>
+<h3 id="promotions_12">Promotions</h3>
+<p><strong>Controller</strong></p>
+<p>Gets the controller country of the state.</p>
+<p><strong>Occupied</strong></p>
+<p>Gets the occupied country of the state.</p>
+<p><strong>Owner</strong></p>
+<p>Gets the owner country of the state.</p>
+<h3 id="properties_12">Properties</h3>
+<p><strong>GetID</strong></p>
+<p>Gets the ID of the state.</p>
+<p><strong>GetCapitalVictoryPointName</strong></p>
+<p>Gets the name of the capital victory point of the state.</p>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the state.</p>
+<p><strong>GetContinent</strong></p>
+<p>Gets the name of the continent this state is in.</p>
+<h2 id="terrain">Terrain</h2>
+<h3 id="promotions_13">Promotions</h3>
+<h3 id="properties_13">Properties</h3>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the terrain.</p>
+<h2 id="unitleader">UnitLeader</h2>
+<h3 id="promotions_14">Promotions</h3>
+<p><strong>Owner</strong></p>
+<p>Gets the owner country of the unit leader.</p>
+<h3 id="properties_14">Properties</h3>
+<p><strong>GetLeaderSkill</strong></p>
+<p>Gets the skill level of the unit leader.</p>
+<p><strong>GetSheHeCap</strong></p>
+<p>Gets She if the unit leader is a female, otherwise He.</p>
+<p><strong>GetHerHimCap</strong></p>
+<p>Gets Her if the unit leader is a female, otherwise Him.</p>
+<p><strong>GetHerselfHimselfCap</strong></p>
+<p>Gets Herself if the unit leader is a female, otherwise Himself.</p>
+<p><strong>GetHerHis</strong></p>
+<p>Gets her if the unit leader is a female, otherwise his.</p>
+<p><strong>GetName</strong></p>
+<p>Gets the name of the unit leader.</p>
+<p><strong>GetSheHe</strong></p>
+<p>Gets she if the unit leader is a female, otherwise he.</p>
+<p><strong>GetHerHim</strong></p>
+<p>Gets her if the unit leader is a female, otherwise him.</p>
+<p><strong>GetHerselfHimself</strong></p>
+<p>Gets herself if the unit leader is a female, otherwise himself.</p>
+<p><strong>GetRank</strong></p>
+<p>Gets the rank of the unit leader.</p>
+<p><strong>GetCodeName</strong></p>
+<p>Gets the codename of the operative leader.</p>
+<p><strong>GetHerHisCap</strong></p>
+<p>Gets Her if the unit leader is a female, otherwise His.</p>
     </div>
     </main>
 </body>

@@ -127,3 +127,6 @@
  cobalt_sea_tt: "En tant que [PHI.GetLeLaLNP] [PHI.GetNonIdeologyName], lancer un raid nucléaire ou thermonucléaire depuis un sous-marin."
  the_neverending_story_tt: "En tant que seigneur de guerre, contrôler tous les États nationaux de départ de la Chine et restaurer l'Empire chinois."
  doctrine_of_choice_tt: "A achevé les trois doctrines secondaires de la même voie"
+ achievement_bought_cze_weapons: "A acheté des armes tchécoslovaques grâce aux décisions $CZE_skoda_focus_category$"
+ CZE_capitulated_germany: "A fait capituler l'Allemagne"
+ i_didnt_hear_no_bell_tt: "Est devenu $CZE_second_republic_democratic$"

@@ -7674,7 +7674,7 @@ news_event = {
 		}
 	}
 
-	#Peace for our time?
+	#Peace For Our Time?
 	option = {
 		name = news.200.e
 		trigger = {

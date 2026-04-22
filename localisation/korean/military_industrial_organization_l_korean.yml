@@ -330,6 +330,11 @@
  mio_header_helicopter_construction: "헬리콥터 제작"
  mio_header_single_rotor: "싱글 로터"
  mio_header_tandem_rotor: "탠덤 로터"
+ mio_header_aircraft_weapons: "항공기 무장"
+ mio_header_light_tank_destroyers_department: "경구축전차부"
+ mio_header_medium_tank_destroyers_department: "중형구축전차부"
+ mio_header_heavy_tank_destroyers_department: "중구축전차부"
+ mio_header_tank_production: "전차 생산"
  ########   #######  ##       ####  ######  #### ########  ######
  ##     ## ##     ## ##        ##  ##    ##  ##  ##       ##    ##
  ##     ## ##     ## ##        ##  ##        ##  ##       ##
@@ -442,6 +447,7 @@
  JAP_tachikawa_aircraft_company_organization: "$tachikawa_aircraft_company$"
  JAP_kawasaki_dockyards_organization: "$kawasaki_dockyards$"
  JAP_isuzu_motors: "이스즈 자동차"
+ JAP_nippon_sharyo_organization: "닛폰샤료 세이조 카이샤"
  JAP_kawasaki_dockyards_org_name: "항공모함 집중 습격함대"
  ### TRAITS ###
  JAP_mio_trait_rapid_counterflooding_system: "신속 침수방지 시스템"
@@ -557,6 +563,7 @@
  FRA_mio_trait_standardized_turrets: "APX 포탑"
  FRA_mio_trait_b1_bis_suspension: "B1 bis 현가장치"
  FRA_mio_trait_l_35: "L/35"
+ FRA_mio_trait_scam_facilities: "알자스 기계공업 회사"
  #################
  #### GERMANY ####
  #################
@@ -688,6 +695,7 @@
  ITA_breda_organization: "$breda$"
  ITA_brescia_arsenal_organization: "$ITA_brescia_arsenal$"
  ITA_officine_meccaniche_organization: "$ITA_officine_meccaniche$"
+ ITA_ansaldo_train_organization: "$AUS_ansaldo_organization$"
  ### TRAITS ###
  ITA_mio_trait_air_race_pedigree: "항공 경주 명가 출신"
  ITA_mio_trait_special_aerotorpedoes_unit: "특수 항공어뢰 부대"
@@ -792,8 +800,7 @@
  CZE_avia_organization: "$CZE_avia$"
  CZE_aero_organization: "$CZE_aero$"
  CZE_letov_organization: "$CZE_letov$"
- ### CZECHOSLOVAKIAN TRAITS ###
- CZE_mio_trait_skoda_works: "$CZE_skoda_works$"
+ CZE_praga_aviation_organization: "$CZE_praga$ 항공"
  #################
  #### HUNGARY ####
  #################
@@ -1271,6 +1278,7 @@
  BEL_minerva_imperia_armored_car_organization: "미네르바-임페리아 장갑차"
  BEL_minerva_imperia_motorized_organization: "미네르바-임페리아 자동차"
  BEL_laboratoire_aerotechnique_de_belgique_organization: "벨기에 항공 기술 연구소"
+ BEL_ateliers_metallurgiques_tubize_organization: "아틀리에 메탈뤼르지크-튀비즈"
  #BELGIUM - MIO Traits
  BEL_mio_initial_trait_fn_herstal: "소화기 제조사"
  BEL_mio_trait_belgium_congo_link: "벨기에-콩고 연결"
@@ -1402,6 +1410,102 @@
  PHI_mio_trait_widened_tires: "광폭 타이어"
  PHI_mio_trait_improvised_bombs: "급조 폭탄"
  PHI_mio_trait_engine_filters: "엔진 필터"
+ ########################################################################
+ ##     ## ##     ## ##    ## ####  ######  ##     ##
+ ###   ### ##     ## ###   ##  ##  ##    ## ##     ##
+ #### #### ##     ## ####  ##  ##  ##       ##     ##
+ ## ### ## ##     ## ## ## ##  ##  ##       #########
+ ##     ## ##     ## ##  ####  ##  ##       ##     ##
+ ##     ## ##     ## ##   ###  ##  ##    ## ##     ##
+ ##     ##  #######  ##    ## ####  ######  ##     ##
+ ##########################
+ #######    PFOT    #######
+ ##########################
+ #CZECHOSLOVAKIA - Organizations
+ CZE_zbrojovka_vsetin_organization: "즈브로요프카-프세틴"
+ CZE_benees_mraz_organization: "베네시-므라즈"
+ CZE_zlin_aircraft_organization: "즐린 항공기"
+ CZE_CKD_plzen_organization: "CKD-플젠"
+ CZE_ceska_zbrojovka_uhersky_brod_organization: "CZ 우헤르스키 브로트"
+ CZE_ringhoffer_tatra_organization: "링호퍼-타트라"
+ CZE_skoda_plzen_tank_destroyer_organization: "슈코다 기갑-플젠"
+ #OTHER TAGS - Organizations
+ CZE_skoda_works_german_organization: "$CZE_skoda_works$-프라하"
+ CZE_bohmische_mahrische_maschinenfabrik_ag_german_organization: "보헤미아-모라비아 기계공업 AG"
+ GER_henschel_kassel_organization: "헨셸-카셀"
+ ENG_crewe_works_organization: "크루 공업"
+ USA_baldwin_locomotive_works_organization: "볼드윈 기관차 공업"
+ FRA_alsthom_organization: "알스톰"
+ SOV_kolomna_locomotive_plant_name_dynamic: "[SOV_kolomna_locomotive_plant_name_dynamic]"
+ SOV_kolomna_locomotive_plant_communist: "V.V. 쿠이비셰프 기관차 공장"
+ SOV_kolomna_locomotive_plant_default: "콜롬나 기관차 공업"
+ #CZECHOSLOVAKIA - MIO Traits
+ CZE_mio_trait_skoda_works: "$CZE_skoda_works$"
+ CZE_mio_trait_walter_co_name: "$CZE_walter_co$ 엔진"
+ CZE_bata_corporation_name: "$CZE_bata_corporation$ 시설"
+ CZE_mio_trait_walter_co_taken_flag: "$GER_hoesch_facilities_trait_taken_flag$"
+ CZE_mio_trait_bata_corporation_taken_flag: "$GER_hoesch_facilities_trait_taken_flag$"
+ #OTHER TAGS - MIO Traits
+ CZE_mio_trait_gun_smuggling_difficulties: "무기 밀수의 애로사항"
+ CZE_mio_trait_panzer_38t_chassis_conversion: "38(t) 전차 차체 개조"
+ CZE_mio_trait_messerschmitt_integration: "메서슈미트의 생산 라인에 통합"
+ CZE_mio_trait_walter_co_german_taken_flag: "  $GER_hoesch_facilities_trait_taken_flag$"
+ GER_mio_trait_lokomotivfabrik_floridsdorf: "플로리츠도르프 기관차 공장 시설"
+ generic_mio_trait_compulsory_tank_designer: "징발된 전차 제조사"
+ generic_mio_trait_off_the_board_designs: "제외된 설계"
+ generic_mio_trait_armor_improvements: "장갑 개선"
+ generic_mio_trait_cruiser_tank_production: "순항전차 생산"
+ generic_mio_trait_additional_anti_aircraft_machine_guns: "대공기관포 추가 탑재"
+ ENG_mio_trait_lms_logistical_expertise: "LMS 철도 군수 전문 지식"
+ CZE_mio_trait_minimalist_wagon_design: "간소화된 수송차 설계"
+ ENG_mio_trait_lms_class_stanier_class_5_black_five: "LMS 블랙 파이브"
+ ENG_mio_trait_vickers_armstrong_knowledge_sharing: "$ENG_vickers_armstrong_eng_organization$ 지식 공유"
+ CZE_mio_trait_scam_facilities: "뮐루즈 공장"
+ #SLOVAKIA - Organizations
+ SLO_povazska_bystrica_organization: "슈코다-포바슈스카 비스트리차"
+ SLO_CZE_skoda_artillery_organization: "슈코다-두브니차 나드 바홈"
+ SLO_zbrojnica_roth_organization: "로스 조병창"
+ SLO_generic_escort_ship_organization: "브라티슬라바 항구"
+ SLO_CZE_letov_organization: "레토프-브라티슬라바"
+ SLO_generic_general_aircraft_organization: "포바즈스케 기계공업"
+ SLO_svit_organization: "스비트"
+ SLO_CZE_skoda_armor_organization: "슈코다-두브니차 나드 바홈"
+ SLO_CZE_skoda_plzen_tank_destroyer_organization: "자보디 탸슈케호 스트로야르스트바"
+ ###################################
+ #### AUTOMATIC WEAPON DESIGNER ####
+ ###################################
+ CZE_mio_initial_trait_automatic_manufacturer: "자동화기 제조사"
+ CZE_mio_trait_drum_mags: "드럼 탄창"
+ CZE_mio_trait_box_mags: "박스 탄창"
+ CZE_mio_trait_9_mm: "9mm 구경"
+ CZE_mio_trait_larger_calibers: "45mm 구경"
+ CZE_mio_trait_maintain_current_firing_mechanism: "현재 발사 장치 설계 유지"
+ CZE_mio_trait_simplified_firing_mechanisms: "단순화된 발사 장치 설계"
+ CZE_mio_trait_reduce_use_of_wooden_parts: "목재 하우징 사용 줄이기"
+ CZE_mio_trait_stamp_steel_components: "강철 스탬핑 제조"
+ CZE_mio_trait_anti_tank_rifles: "대전차소총"
+ CZE_mio_trait_simplified_barrel_forging: "단순화된 포신 단조"
+ ###################################
+ ####  Tank Destroyer Designer  ####
+ ###################################
+ CZE_tank_destroyer_organization: "구축전차 제조사"
+ CZE_mio_trait_initial_trait_tank_destroyer_guns_organization: "구축전차 설계사"
+ CZE_mio_trait_mobile_tank_destroyers: "타격 후 후퇴용 구축전차"
+ CZE_mio_trait_multi_purpose_ammunition_tank_destoryer: "다목적 포탄"
+ CZE_mio_trait_light_tank_destroyer_artillery_gun_combo: "대전차포 장착"
+ CZE_mio_trait_light_tank_destroyer_gun_improved_muzzle_breaks: "개선된 포구 제동기"
+ CZE_mio_trait_medium_tank_hunters_tank_destoryer: "기동형 구축전차"
+ CZE_mio_trait_low_profile_ambushers_tank_destoryer: "은밀한 매복용 전차"
+ CZE_mio_trait_armor_reinforced_sloped_armor_tank_destroyer: "강화된 경사장갑"
+ CZE_mio_trait_rear_and_low_ammo_compartment_tank_destroyer: "후방 하단 탄약칸"
+ CZE_mio_trait_medium_tank_destroyer_gun_high_velocity_rounds: "고속탄"
+ CZE_mio_trait_medium_tank_destroyer_extended_barrel_length: "포신 연장"
+ CZE_mio_trait_heavy_mobile_siege_cannons: "기동형 공성포"
+ CZE_mio_trait_improved_barrel_cooling: "개선된 포신 냉각"
+ CZE_mio_minimalist_gun_designs: "간소화된 포 설계"
+ CZE_mio_trait_additional_ammo_storage: "추가 탄약 저장고"
+ CZE_mio_trait_easier_gun_maintance: "간편화된 포 정비"
+ CZE_mio_trait_cannon_improvements: "포 개선"
  ########################################################################
  ######   ######## ##    ## ######## ########  ####  ######   ######
  ##    ##  ##       ###   ## ##       ##     ##  ##  ##    ## ##    ##
@@ -1968,6 +2072,25 @@
  generic_mio_trait_extra_seating: "추가 좌석"
  generic_mio_trait_co_axial_rotors: "동축 로터"
  generic_mio_trait_mass_production_certification: "대량 생산 허가"
+ ############################
+ #### TRAIN MANUFACTURER #### #marijn211: PfoT CCP addition
+ ############################
+ generic_mio_initial_trait_generic_train_manufacturer: "열차 제조사"
+ generic_mio_trait_material_improvements: "재료 개선"
+ generic_mio_trait_joint_stock_scheme: "주식회사 제도"
+ generic_rapid_production_upscaling: "신속한 생산 확장"
+ generic_mio_trait_additional_flak_wagons: "추가 대공포 수송차"
+ generic_mio_trait_improved_axle_fitting: "개선된 차축"
+ generic_mio_trait_improved_wagon_design: "개선된 수송차 설계"
+ generic_mio_trait_improved_loading: "개선된 장전 방식"
+ generic_mio_trait_ugly_ducklings: "미운 오리 새끼들"
+ generic_mio_trait_armor_plating: "장갑판"
+ generic_mio_trait_simplified_rail_carrier: "단순화된 레일 캐리어"
+ generic_mio_trait_improved_barrel_lining: "개선된 포신 라이닝"
+ generic_mio_trait_quick_design_turnarounds: "빠른 후속 설계"
+ generic_mio_trait_salavage_destoryed_locomotives: "파괴된 기관차 분해 및 회수"
+ generic_mio_trait_train_production_at_scale: "대규모 생산"
+ generic_mio_trait_machine_assembly: "기계 조립"
  ########### DEBUG #############
  DEBUG_generic_tank_organization: "$generic_tank_organization$"
  DEBUG_generic_infantry_tank_organization: "$generic_infantry_tank_organization$"

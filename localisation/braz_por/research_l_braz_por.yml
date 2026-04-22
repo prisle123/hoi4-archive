@@ -1334,6 +1334,8 @@
  sp_rockets_dual_chamber_rocket_engine_1_desc: "Ao adicionar uma segunda câmara de combustão ao motor, podemos melhorar o tempo de voo e a eficácia de nossos motores de foguete."
  sp_rockets_dual_chamber_rocket_engine_2: "Motores de foguete de câmara dupla avançados"
  sp_rockets_dual_chamber_rocket_engine_2_desc: "Aperfeiçoamentos adicionais no motor de câmara dupla podem levar a avanços ainda mais significativos na eficiência do design."
+ sp_advance_sabot_shells: "Projéteis sabot avançados"
+ sp_advance_sabot_shells_desc: "Os recursos adicionais concedidos para a pesquisa de munição perfuradora de blindagem nos mostraram como melhorar a estabilidade do sabot em vários casos de uso."
  reinforced_wings_mothership: "Fortalecer as alas de naves mães"
  reinforced_wings_mothership_desc: "Sem a nave mãe, os caças ficam basicamente isolados no ar, o que limita muito sua eficiência operacional. Fortalecer as alas aéreas de naves mães é a estratégia mais econômica possível para aumentar a sobrevivência de todo o esquadrão."
  miniature_fighters: "Caças diminutos"

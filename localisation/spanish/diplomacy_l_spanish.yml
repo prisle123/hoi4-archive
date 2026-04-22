@@ -1699,3 +1699,20 @@
  PHI_seized_migrant_property: "Se incautó de los bienes de los emigrantes"
  PHI_welcomed_chinese_migrants: "Acogió a los emigrantes chinos"
  PHI_legalized_communist_party: "Legalizó el Partido Comunista"
+ #### PFOT ####
+ #Czechoslovakia
+ CZE_large_contract_purchases: "Compras de grandes contratos"
+ CZE_working_with_henlein: "Colaborar con Henlein"
+ CZE_renewed_diplomatic_efforts: "Esfuerzos diplomáticos renovados"
+ CZE_sent_attaches: "Pequeño grupo de agregados enviado"
+ CZE_sent_observers: "Observadores enviados"
+ CZE_sent_observers_to_enemy: "Observadores enviados al bando enemigo"
+ CZE_smuggling_guns_to_eth: "Contrabando de armas en Etiopía"
+ CZE_smuggling_guns_to_our_enemy: "Contrabando de armas para el enemigo"
+ CZE_defied_non_intervention_committee: "Comité de no intervención desafiado"
+ CZE_recent_contract_purchases: "Armas compradas recientemente"
+ CZE_improving_cross_border_rail_connections: "Mejora de las conexiones ferroviarias transfronterizas"
+ CZE_customs_union_member: "Miembro de la unión aduanera"
+ CZE_allows_passage_of_soviet_troops: "Permite el paso de las tropas soviéticas"
+ #Czechoslovakia Opinion Modifiers
+ CZE_i_am_agreeable_to_license: "Contratos de compra de Škoda y CKD"

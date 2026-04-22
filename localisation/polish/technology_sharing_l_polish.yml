@@ -147,3 +147,7 @@
  SSB_tech_sharing_group_desc: "Porozumienie naukowe pomiędzy sygnatariuszami paktu z Saadabad umożliwiające całkowitą współpracę badawczą. Być może dzięki niemu ten niewielki region stanie się bardzo potężny."
  MAN_PRC_technology_sharing_group_name: "Wspólna grupa badawcza KPCh"
  MAN_PRC_technology_sharing_group_desc: "KPCh panuje nad więcej niż jednym terytorium, co wymaga usprawnienia komunikacji pomiędzy obiema częściami, by żadna z nich nie pozostawała w tyle. Koordynacja badań to jeden z najważniejszych elementów tej komunikacji."
+ CZE_balkan_tech_sharing_group_name: "Komitet Naukowy Małej Ententy"
+ CZE_balkan_tech_sharing_group_desc: "Porozumienie badawcze między głównymi krajami bałkańskimi a [CZE.GetAdjective] władzami w celu dotrzymania kroku większym krajom w zakresie technologii przemysłowej."
+ CZE_german_czechoslovak_equipment_design_group_name: "Czechosłowacko-niemiecki komitet projektowania wyposażenia"
+ CZE_german_czechoslovak_equipment_design_group_desc: "Rozpoczęła się współpraca [GER.GetAdjective] i [CZE.GetAdjective] naukowców nad projektami samolotów i czołgów."

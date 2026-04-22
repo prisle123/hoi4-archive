@@ -2441,3 +2441,88 @@
  CHI_geologist_trait: "Geologist" 
 
 
+ ##################
+ #### PFOT/MUN ####
+ ##################
+
+ #Theorist Traits
+ well_renowned_military_theorist: "Well Renowned Military Theroist"
+
+ #Military High Command Traits
+ army_guerilla_organizer_1: "Guerilla Organizer\n(Specialist)"
+ army_guerilla_organizer_2: "Guerilla Organizer\n(Expert)"
+ army_guerilla_organizer_3: "Guerilla Organizer\n(Genius)"
+
+ #Naval Chief Traits
+ navy_chief_naval_gunnery_designer_1:1 "Naval Gun Designer\n(Specialist)"
+ navy_chief_naval_gunnery_designer_2:1 "Naval Gun Designer\n(Expert)"
+ navy_chief_naval_gunnery_designer_3:1 "Naval Gun Designer\n(Genius)"
+
+ #Designer Traits
+ train_equipment_manufacturer: "Train Designer"
+ automatic_weapons_manufacturer: "Automatic Weapons Designer"
+ tank_destroyer_manufacturer: "Tank Destroyer Designer"
+ helicopter_equipment_manufacturer: "$generic_helicopter_organization$"
+
+ #Concerns Traits
+ industrial_focused_central_bank: "Industrial Focused Central Bank"
+ engine_manufacturing_concern: "Engine Manufacturing Company"
+ construction_company_shell: "Construction Company"
+ commercial_bank: "Commercial Bank"
+
+ #PFOT/MUN Advisor Traits
+ militant_priest: "Militant Priest"
+ militant_minister_2: "Militant Minister"
+ space_lawyer: "Space Lawyer"
+ austrian_exile: "Austrian Exile"
+ socialist_firebrand: "Socialist Firebrand"
+ union_women: "Union Woman"
+ bold_intelligence_officer: "Bold Intelligence Officer"
+ bold_intelligence_officer_no_lar: "Bold Intelligence Officer"
+ nationalist_catholic_priest: "Nationalist Catholic Priest"
+ 
+ #PFOT/MUN Leader Traits
+ de_facto_leader: "De Facto Leader"
+ undermined_support_base: "Undermined Support Base"
+ agrarian_old_guard: "Agrarian Old Guard"
+
+ #CZE PFOT/MUN Advisor Traits
+ CZE_2nd_prezident:0 "2nd Prezident" #Used on CZE_edvard_benesh as both a advisor and leader trait
+ CZE_diplomatic_workhorse:0 "Diplomatic Workhorse"
+ CZE_pro_soviet_diplomat:0 "Pro-Soviet Diplomat"
+ CZE_benes_lackey:0 "Beneš's Lackey"
+ CZE_minister_of_foreign_affairs:0 "Beneš's Foreign Affairs Minister"
+ CZE_general_director_of_ckd:0 "General Director of ČKD"
+ CZE_minister_of_public_works: "Minister of Public Works"
+ CZE_nationalistic_agitating_academic:0 "Nationalistic Agitating Academic"
+ fellow_traveller: "Fellow Traveller"
+ CZE_minister_of_finance: "Minister of Finance"
+ CZE_minister_of_industry_and_trade: "Minister of Industry and Trade"
+ CZE_minister_of_posts_and_telegraphs: "Minister of Posts and Telegraphs"
+ CZE_minister_of_railways: "Minister of Railways"
+ CZE_overly_pragmatic_diplomat: "Overly Pragmatic Diplomat"
+ CZE_sokol_administrator: "Sokol Movement Administrator"
+ CZE_slovakian_nationalist: "Slovakian Nationalist"
+ CZE_prime_minister_of_carpathian_ukraine: "Prime Minister of Carpathian Ukraine"
+ CZE_leader_of_the_csl: "Leader of the ČSL"
+ CZE_prolific_aviator: "Prolific Aviator"
+ CZE_corporate_emperor: "Industrialist Emperor"
+ CZE_corporatist_lackey: "Industrialist Lackey"
+
+ #CZE PFOT/MUN Leader Traits
+ CZE_disoriented_minister_of_foreign_affairs:0 "Disoriented Foreign Affairs Minister"
+ CZE_3rd_prezident:0 "3rd Prezident"
+ CZE_reluctant_prime_minister: "Reluctant Prime Minister"
+ CZE_spirit_of_zizka: "Spirit of Zizka"
+ CZE_minister_of_defense: "Minister of Defense"
+ CZE_leader_of_the_sdp: "Leader of the SdP"
+ CZE_minister_of_public_health: "Minister of Health"
+
+ #SLO PFOT/MUN Advisor Traits
+ SLO_head_of_the_radical_wing: "Head of the Radical Wing"
+
+ #SLO PFOT/MUN Leader Traits
+ SLO_nationalist_catholic_priest: "Nationalist Catholic Priest"
+ 
+ #RUT PFOT/MUN Leader Traits
+ RUT_independence_minded_priest: "Independence Minded Priest"

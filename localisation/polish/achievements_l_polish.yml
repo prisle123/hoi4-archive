@@ -127,3 +127,6 @@
  cobalt_sea_tt: "Jako [PHI.GetNonIdeologyName] wykorzystaj okręt podwodny do udanego uderzenia jądrowego lub termojądrowego."
  the_neverending_story_tt: "Jako watażka kontroluj wszystkie chińskie początkowe regiony narodowe i odbuduj Imperium Chińskie."
  doctrine_of_choice_tt: "Ukończono trzy doktryny dodatkowe na tym samym torze."
+ achievement_bought_cze_weapons: "Zakupiono czechosłowacką broń dzięki decyzjom związanym z: $CZE_skoda_focus_category$"
+ CZE_capitulated_germany: "Kapitulacja Niemiec"
+ i_didnt_hear_no_bell_tt: "Przekształcenie w: $CZE_second_republic_democratic$"

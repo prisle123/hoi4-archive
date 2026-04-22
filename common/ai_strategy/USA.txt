@@ -1558,6 +1558,26 @@ USA_stay_away_from_my_pacific = {
 	}
 }
 
+USA_prioritize_navy_chief = {
+	allowed = { original_tag = USA }
+	enable = {
+		date > 1937.1.1
+		NOT = {
+			any_character = {
+				has_advisor_role = navy_chief
+				is_hired_as_advisor = yes
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = navy_chief
+		value = 200
+	}
+}
+
 USA_lets_do_a_navy = {
 	allowed = { original_tag = USA }
 	enable = {
@@ -1945,6 +1965,12 @@ USA_sugar_daddy_for_UK = {
 		id = ENG
 		value = 500
 	}
+		
+	ai_strategy = {
+		type = support
+		id = ENG
+		value = 75
+	}
 }
 
 USA_sugar_daddy_for_SOV = {
@@ -1963,6 +1989,12 @@ USA_sugar_daddy_for_SOV = {
 		type = send_lend_lease_desire
 		id = SOV
 		value = 500
+	}
+	
+	ai_strategy = {
+		type = support
+		id = SOV
+		value = 60
 	}
 }
 

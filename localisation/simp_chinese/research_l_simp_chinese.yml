@@ -1334,6 +1334,8 @@
  sp_rockets_dual_chamber_rocket_engine_1_desc: "通过在引擎中添加第二个燃烧室，我们可以提高火箭引擎的飞行时间和效能。"
  sp_rockets_dual_chamber_rocket_engine_2: "先进双燃烧室火箭引擎"
  sp_rockets_dual_chamber_rocket_engine_2_desc: "对双燃烧室引擎的进一步改进可能会在原本设计的基础上带来更大的效能提升。"
+ sp_advance_sabot_shells: "先进穿甲弹"
+ sp_advance_sabot_shells_desc: "通过专项投入穿甲弹研发资源，我们获得了对多场景应用下脱壳稳定性优化的深度认知。"
  reinforced_wings_mothership: "强化空天母舰的航空联队"
  reinforced_wings_mothership_desc: "没有空天母舰的战斗机在空中基本上就会陷入困境，严重限制了它们的作战效能。加强空天母舰的航空联队，是提高整支部队生存能力的最具成本效益的策略。"
  miniature_fighters: "小型战斗机"

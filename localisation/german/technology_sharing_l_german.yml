@@ -147,3 +147,7 @@
  SSB_tech_sharing_group_desc: "Das Saadabad-Abkommen ermöglicht den Unterzeichnern eine umfassende Zusammenarbeit in der Forschung. Vielleicht führt es sogar dazu, dass die ansonsten recht kleine Region sehr mächtig wird."
  MAN_PRC_technology_sharing_group_name: "Gemeinsame Forschungsgruppe der Kommunistischen Partei"
  MAN_PRC_technology_sharing_group_desc: "Wenn mehr als ein Territorium unter der Kontrolle der Kommunistischen Partei steht, bedeutet das auch, dass die Kommunikation zwischen den beiden verbessert werden muss, damit nicht eines ins Hintertreffen gerät. Das Koordinieren von Forschungsaktivitäten gehört zu den wichtigsten Faktoren dieser Kommunikation."
+ CZE_balkan_tech_sharing_group_name: "Forschungskomitee der Kleinen Entente"
+ CZE_balkan_tech_sharing_group_desc: "Eine Forschungsvereinbarung zwischen den Balkannationen und der [CZE.GetAdjective]en Regierung. Sie soll dafür sorgen, dass die Vereinbarungsunterzeichner technologisch mit den größeren Nationen mithalten können."
+ CZE_german_czechoslovak_equipment_design_group_name: "Tschechoslowakisch-Deutsches Ausrüstungsentwicklungskomitee"
+ CZE_german_czechoslovak_equipment_design_group_desc: "Die Wissenschaftler von [GER.GetNameDef] und [CZE.GetNameDef] starten eine Zusammenarbeit in der Entwicklung von Panzern und Flugzeugen."

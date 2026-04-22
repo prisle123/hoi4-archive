@@ -2350,3 +2350,23 @@ JAP_satisfy_zaibatsus_factories_construction = {
 	}
 }
 
+JAP_prioritize_navy_chief = {
+	allowed = { original_tag = JAP }
+	enable = {
+		date > 1936.7.1
+		NOT = {
+			any_character = {
+				has_advisor_role = navy_chief
+				is_hired_as_advisor = yes
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = pp_spend_priority
+		id = navy_chief
+		value = 200
+	}
+}
+

@@ -1334,6 +1334,8 @@
  sp_rockets_dual_chamber_rocket_engine_1_desc: "Durch eine zweite Brennkammer im Triebwerk des Flugzeugs können sowohl dessen Flugzeit als auch die Effizienz erhöht werden."
  sp_rockets_dual_chamber_rocket_engine_2: "Fortschrittliche Zweikammer-Raketentriebwerke"
  sp_rockets_dual_chamber_rocket_engine_2_desc: "Weitere Verbesserungen am Zweikammer-Triebwerk führen zu noch größeren Effizienzsteigerungen."
+ sp_advance_sabot_shells: "Fortschrittliche Treibspiegel"
+ sp_advance_sabot_shells_desc: "Die zusätzlichen Mittel, die man für die Erforschung panzerbrechender Munition bereitstellte, haben es uns erlaubt, die Stabilisierung von Treibspiegelgeschossen in einer Vielzahl von Anwendungsfällen zu verbessern."
  reinforced_wings_mothership: "Verstärkte Mutterschiff-Tragflächen"
  reinforced_wings_mothership_desc: "Ohne ihr Mutterschiff sind Kampfflugzeuge im Grunde genommen in der Luft gestrandet, was ihren operativen Einsatzradius stark einschränkt. Um die Überlebensfähigkeit des gesamten Geschwaders kosteneffizient zu erhöhen, muss man die Tragflächen des Mutterschiffs verstärken."
  miniature_fighters: "Miniaturjäger"

@@ -127,3 +127,6 @@
  cobalt_sea_tt: "Como [PHI.GetNonIdeologyName], ejecuta un asalto nuclear o termonuclear desde un submarino."
  the_neverending_story_tt: "Como caudillo, controla todos los estados esenciales iniciales de China y restaura el Imperio chino."
  doctrine_of_choice_tt: "Ha completado tres doctrinas secundarias en la misma línea."
+ achievement_bought_cze_weapons: "Compra de armas a Checoslovaquia a través de decisiones $CZE_skoda_focus_category$"
+ CZE_capitulated_germany: "Capitulación de Alemania"
+ i_didnt_hear_no_bell_tt: "Ha pasado a ser $CZE_second_republic_democratic$."

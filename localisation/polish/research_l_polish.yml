@@ -1334,6 +1334,8 @@
  sp_rockets_dual_chamber_rocket_engine_1_desc: "Powiększając silniki rakietowe o drugą komorę spalania, możemy wydłużyć czas lotu oraz zwiększyć ich skuteczność."
  sp_rockets_dual_chamber_rocket_engine_2: "Zaawansowane dwukomorowe silniki rakietowe"
  sp_rockets_dual_chamber_rocket_engine_2_desc: "Dalsze usprawnienia dwukomorowego silnika mogą przynieść jeszcze większą poprawę skuteczności tej konstrukcji."
+ sp_advance_sabot_shells: "Pociski z zaawansowanym sabotem"
+ sp_advance_sabot_shells_desc: "Dodatkowe zasoby przeznaczone na badania nad amunicją przeciwpancerną pozwoliły nam poprawić stabilizację sabota w wielu różnych zastosowaniach."
  reinforced_wings_mothership: "Wzmocnione skrzydła samolotu matki"
  reinforced_wings_mothership_desc: "Bez samolotu matki znajdujące się w powietrzu myśliwce są zdane na siebie, co znacznie ogranicza ich skuteczność operacyjną. Wzmocnienie skrzydeł samolotu matki to najbardziej oszczędna strategia zwiększenia odporności całej eskadry."
  miniature_fighters: "Miniaturowe myśliwce"

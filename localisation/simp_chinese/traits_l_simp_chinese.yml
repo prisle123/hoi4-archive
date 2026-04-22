@@ -2350,3 +2350,76 @@
  CHI_minister_of_transport_trait: "中国交通部部长"
  CHI_minister_of_transport_trait_2: "$CHI_minister_of_transport_trait$"
  CHI_geologist_trait: "地质学家"
+ ##################
+ #### PFOT/MUN ####
+ ##################
+ #Theorist Traits
+ well_renowned_military_theorist: "著名军事理论家"
+ #Military High Command Traits
+ army_guerilla_organizer_1: "游击队组织者\n（专家）"
+ army_guerilla_organizer_2: "游击队组织者\n（大师）"
+ army_guerilla_organizer_3: "游击队组织者\n（天才）"
+ #Naval Chief Traits
+ navy_chief_naval_gunnery_designer_1: "海军火炮制造商\n（专家）"
+ navy_chief_naval_gunnery_designer_2: "海军火炮制造商\n（大师）"
+ navy_chief_naval_gunnery_designer_3: "海军火炮制造商\n（奇才）"
+ #Designer Traits
+ train_equipment_manufacturer: "列车制造商"
+ automatic_weapons_manufacturer: "自动武器设计商"
+ tank_destroyer_manufacturer: "自行反坦克炮制造商"
+ helicopter_equipment_manufacturer: "$generic_helicopter_organization$"
+ #Concerns Traits
+ industrial_focused_central_bank: "侧重工业的中央银行"
+ engine_manufacturing_concern: "发动机制造公司"
+ construction_company_shell: "建筑公司"
+ commercial_bank: "商业银行"
+ #PFOT/MUN Advisor Traits
+ militant_priest: "激进的牧师"
+ militant_minister_2: "激进的大臣"
+ space_lawyer: "太空律师"
+ austrian_exile: "奥地利流亡者"
+ socialist_firebrand: "社会主义煽动者"
+ union_women: "女性联合党"
+ bold_intelligence_officer: "大胆的情报官"
+ bold_intelligence_officer_no_lar: "大胆的情报官"
+ nationalist_catholic_priest: "民族主义天主教牧师"
+ #PFOT/MUN Leader Traits
+ de_facto_leader: "实质掌权者"
+ undermined_support_base: "动摇的支持基础"
+ agrarian_old_guard: "老牌农本主义者"
+ #CZE PFOT/MUN Advisor Traits
+ CZE_2nd_prezident: "第二任总统" #Used on CZE_edvard_benesh as both a advisor and leader trait
+ CZE_diplomatic_workhorse: "外交实干家"
+ CZE_pro_soviet_diplomat: "亲苏派外交官"
+ CZE_benes_lackey: "贝奈斯的拥趸"
+ CZE_minister_of_foreign_affairs: "贝奈斯的外交部长"
+ CZE_general_director_of_ckd: "捷克摩拉维亚-科尔本-丹历总管"
+ CZE_minister_of_public_works: "公共工程部长"
+ CZE_nationalistic_agitating_academic: "民族主义煽动学者"
+ fellow_traveller: "同行旅伴"
+ CZE_minister_of_finance: "财政部长"
+ CZE_minister_of_industry_and_trade: "工业和贸易部长"
+ CZE_minister_of_posts_and_telegraphs: "邮电部长"
+ CZE_minister_of_railways: "铁道部长"
+ CZE_overly_pragmatic_diplomat: "务实过头的外交家"
+ CZE_sokol_administrator: "索科尔体联管理者"
+ CZE_slovakian_nationalist: "斯洛伐克民族主义者"
+ CZE_prime_minister_of_carpathian_ukraine: "喀尔巴阡乌克兰总理"
+ CZE_leader_of_the_csl: "捷克人民党领袖"
+ CZE_prolific_aviator: "多产的飞行员"
+ CZE_corporate_emperor: "企业家皇帝"
+ CZE_corporatist_lackey: "企业家忠犬"
+ #CZE PFOT/MUN Leader Traits
+ CZE_disoriented_minister_of_foreign_affairs: "迷茫的外交部长"
+ CZE_3rd_prezident: "第三任总统"
+ CZE_reluctant_prime_minister: "不情愿的首相"
+ CZE_spirit_of_zizka: "杰士卡的传人"
+ CZE_minister_of_defense: "国防部长"
+ CZE_leader_of_the_sdp: "社会民主党领袖"
+ CZE_minister_of_public_health: "卫生部长"
+ #SLO PFOT/MUN Advisor Traits
+ SLO_head_of_the_radical_wing: "激进派领袖"
+ #SLO PFOT/MUN Leader Traits
+ SLO_nationalist_catholic_priest: "民族主义天主教牧师"
+ #RUT PFOT/MUN Leader Traits
+ RUT_independence_minded_priest: "主张独立的牧师"

@@ -1693,6 +1693,10 @@ spriteTypes = {
 		name = "GFX_idea_norfolk_naval_yard"
 		texturefile = "gfx/interface/ideas/idea_norfolk_naval_yard.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_USA_blw"
+		texturefile = "gfx/interface/ideas/idea_usa_blw.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_usa_airborne_divisions"
@@ -2016,6 +2020,11 @@ spriteTypes = {
 		name = "GFX_idea_ENG_ernest_bevin"
 		texturefile = "gfx/interface/ideas/idea_eng_ernest_bevin.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_ENG_crewe"
+		texturefile = "gfx/interface/ideas/idea_eng_crewe.dds"
+	}
+	
 	
 	### ITALIAN IDEAS	
 	spriteType = {
@@ -2324,6 +2333,10 @@ spriteTypes = {
 		name = "GFX_idea_famh"
 		texturefile = "gfx/interface/ideas/idea_famh.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_FRA_alsthom"
+		texturefile = "gfx/interface/ideas/idea_FRA_alsthom.dds"
+	}
 	
 	### RUSSIAN IDEAS
 	spriteType = {
@@ -2514,6 +2527,14 @@ spriteTypes = {
 		name = "GFX_idea_nevskoye_design_bureau"
 		texturefile = "gfx/interface/ideas/idea_nevskoye_design_bureau.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_SOV_kolomna"
+		texturefile = "gfx/interface/ideas/idea_SOV_kolomna.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_kolomna_alt"
+		texturefile = "gfx/interface/ideas/idea_SOV_kolomna_alt.dds"
+	}
 	
 	### HUNGARIAN IDEAS
 	
@@ -2558,6 +2579,36 @@ spriteTypes = {
 	}	
 	
 	### CZECH IDEAS
+
+	spriteType = {
+		name = "GFX_idea_CZE_sudeten_german_quandary"
+		texturefile = "gfx/interface/ideas/idea_CZE_sudeten_german_quandary.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_tatra"
+		texturefile = "gfx/interface/ideas/idea_cze_tatra.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_industrialists_veto"
+		texturefile = "gfx/interface/ideas/idea_CZE_industrialists_veto.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_ceskoslovenska_armada"
+		texturefile = "gfx/interface/ideas/idea_CZE_ceskoslovenska_armada.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_ceskoslovenska_letectvo"
+		texturefile = "gfx/interface/ideas/idea_CZE_ceskoslovenska_letectvo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_ceskoslovenska_lodstvo"
+		texturefile = "gfx/interface/ideas/idea_CZE_ceskoslovenska_lodstvo.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_CZE_skoda_works"
@@ -2567,13 +2618,58 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_CZE_divided_nation"
 		texturefile = "gfx/interface/ideas/idea_cze_divided_nation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_taticek_of_czechoslovakia"
+		texturefile = "gfx/interface/ideas/idea_cze_masaryk.dds"
 	}	
 	
 	spriteType = {
 		name = "GFX_idea_CZE_planning_bonus"
 		texturefile = "gfx/interface/ideas/idea_cze_planning_bonus.dds"
-	}	
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_army_bop_minus_1"
+		texturefile = "gfx/interface/ideas/idea_cze_army_bop_minus_1.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_CZE_army_bop_minus_1"
+		texturefile = "gfx/interface/ideas/idea_cze_army_bop_minus_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CZE_army_bop_minus_2"
+		texturefile = "gfx/interface/ideas/idea_cze_army_bop_minus_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_army_bop_neutral"
+		texturefile = "gfx/interface/ideas/idea_cze_army_bop_neutral.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_army_bop_plus_1"
+		texturefile = "gfx/interface/ideas/idea_cze_army_bop_plus_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_army_bop_plus_2"
+		texturefile = "gfx/interface/ideas/idea_cze_army_bop_plus_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_CZE_army_bop_plus_3"
+		texturefile = "gfx/interface/ideas/idea_cze_army_bop_plus_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CZE_skoda_plzen"
+		texturefile = "gfx/interface/ideas/idea_cze_skoda_plzen.dds"
+	}
+
 	### ROMANIA IDEAS
 	
 	spriteType = {
@@ -3700,6 +3796,12 @@ spriteTypes = {
 		name = "GFX_idea_jap_hirohito"
 		texturefile = "gfx/interface/ideas/idea_jap_hirohito.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_JAP_nippon_sharyo"
+		texturefile = "gfx/interface/ideas/idea_JAP_nippon_sharyo.dds"
+	}
+	
 	
 	### MAN
 	
@@ -8038,10 +8140,6 @@ spriteTypes = {
 
 	### CZECHOSLOVAKIA ###
 	spriteType = {
-		name = "GFX_idea_CZE_tatra"
-		texturefile = "gfx/interface/ideas/idea_cze_tatra.dds"
-	}
-	spriteType = {
 		name = "GFX_idea_CZE_ckd_praga"
 		texturefile = "gfx/interface/ideas/idea_cze_ckd_praga.dds"
 	}
@@ -8081,6 +8179,63 @@ spriteTypes = {
 		name = "GFX_idea_CZE_letov"
 		texturefile = "gfx/interface/ideas/idea_cze_letov.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_CZE_bata_corporation"
+		texturefile = "gfx/interface/ideas/idea_cze_bata_corporation.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_CZE_benes_mraz"
+		texturefile = "gfx/interface/ideas/idea_cze_benes_mraz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_ceska_zbrojovka_uhersky_brod"
+		texturefile = "gfx/interface/ideas/idea_cze_ceska_zbrojovka_uhersky_brod.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_CZE_ckd_plzen"
+		texturefile = "gfx/interface/ideas/idea_cze_ckd_plzen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_national_bank_of_czechoslovakia"
+		texturefile = "gfx/interface/ideas/idea_cze_national_bank_of_czechoslovakia.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_CZE_zbrojovka_vsetin"
+		texturefile = "gfx/interface/ideas/idea_cze_zbrojovka_vsetin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_zlin_aircraft"
+		texturefile = "gfx/interface/ideas/idea_cze_zlin_aircraft.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_zlin_aircraft"
+		texturefile = "gfx/interface/ideas/idea_cze_zlin_aircraft.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_apollo"
+		texturefile = "gfx/interface/ideas/idea_cze_apollo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_trinec_ironworks"
+		texturefile = "gfx/interface/ideas/idea_cze_trinec_ironworks.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_walter_co"
+		texturefile = "gfx/interface/ideas/idea_cze_walter.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_zse"
+		texturefile = "gfx/interface/ideas/idea_cze_zse.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_muller_and_kapsa"
+		texturefile = "gfx/interface/ideas/idea_cze_muller_and_kapsa.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_cze_praga_aviation"
+		texturefile = "gfx/interface/ideas/idea_cze_praga_aviation.dds"
+	}
+
 
 	### YUGOSLAVIA ###
 	spriteType = {
@@ -9310,6 +9465,15 @@ spriteTypes = {
 		name = "GFX_idea_societe_africain_de_explosifes"
 		texturefile = "gfx/interface/ideas/idea_societe_africain_de_explosifes.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_BEL_ateliers_metallurgiques_sambre"
+		texturefile = "gfx/interface/ideas/idea_BEL_ateliers_metallurgiques_sambre.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_BEL_ateliers_metallurgiques_tubize"
+		texturefile = "gfx/interface/ideas/idea_BEL_ateliers_metallurgiques_tubize.dds"
+	}
+
 
 
 
@@ -9646,6 +9810,11 @@ spriteTypes = {
 		name = "GFX_idea_GER_organization_todt"
 		texturefile = "gfx/interface/ideas/idea_GER_organization_todt.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_GER_henschel_civilian"
+		texturefile = "gfx/interface/ideas/idea_GER_henschel_civilian.dds"
+	}
+	
 
 
 		## National Spirits ##

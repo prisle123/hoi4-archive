@@ -284,6 +284,7 @@
  RULE_OPTION_DEMOCRATIC_ALTERNATE_CZE_AI_DESC: "La IA checoslovaca seguirá las ramas pertinentes del árbol de enfoques nacionales para intentar formar una facción propia y defenderse sin dejar de ser democrática."
  RULE_FASCIST_CZE_AI_DESC: "La IA checoslovaca seguirá las ramas pertinentes del árbol de enfoques nacionales para intentar que el país sea fascista y llegar a un acuerdo con Alemania."
  RULE_HISTORICAL_CZE_AI_DESC: "La IA checoslovaca seguirá la cadena de acontecimientos históricos todo lo posible."
+ RULE_OPTION_MONARCHIST_CZE_AI_DESC: "La IA checoslovaca se volverá monárquica e intentará restaurar el Imperio bohemio."
  RULE_FASCIST_ROM_AI_DESC: "La IA rumana seguirá las ramas pertinentes del árbol de enfoques nacionales para intentar seguir la historia y unirse al Eje."
  RULE_OPTION_COMMUNIST_AST_AI_DESC: "La IA australiana seguirá la rama pertinente del árbol de enfoques nacionales para intentar que el país se vuelva comunista y aliarse con la Comintern."
  RULE_OPTION_DEMOCRATIC_HISTORICAL_AST_AI_DESC: "La IA australiana intentará seguir la cadena decisiones y acontecimientos históricos del árbol de enfoques nacionales."
@@ -811,3 +812,5 @@
  RULE_OPTION_COMMUNIST_PHI_AI_DESC: "El sol rojo se alzará sobre Filipinas mientras el comunismo marítimo se afianza y busca difundir el espíritu de igualdad a través de los mares del mundo."
  RULE_OPTION_MACARTHUR_PHI_AI: "Declarar emergencia militar"
  RULE_OPTION_MACARTHUR_PHI_AI_DESC: "Tras la caída del gobierno filipino, una figura militar se alzará y liderará la nación contra todos sus agresores."
+ RULE_ALLOW_RELEASE_NATIONS_ALL_NATIONS_SUDETENLAND_TOOLTIP: "Puede que nunca se libere esta nación."
+ RULE_ALLOW_RELEASE_NATIONS_ALL_NATIONS_RUTHENIA_TOOLTIP: "Puede que nunca se libere esta nación."

@@ -1334,6 +1334,8 @@
  sp_rockets_dual_chamber_rocket_engine_1_desc: "Si añadimos una segunda cámara de combustión al motor, podemos mejorar el tiempo de vuelo y la eficacia de nuestros motores para cohetes."
  sp_rockets_dual_chamber_rocket_engine_2: "Motores de cohete de cámara dual avanzados"
  sp_rockets_dual_chamber_rocket_engine_2_desc: "Perfeccionar los motores de combustión dual aportará aún más mejoras a la eficacia del diseño."
+ sp_advance_sabot_shells: "Proyectiles Sabot avanzados"
+ sp_advance_sabot_shells_desc: "Los recursos adicionales que se han concedido para las investigaciones sobre munición perforante nos han permitido entender cómo mejorar la estabilización del Sabot en multitud de casos prácticos."
  reinforced_wings_mothership: "Alas de nave nodriza reforzadas"
  reinforced_wings_mothership_desc: "Sin su nave nodriza, los cazas se quedan varados en el aire, lo que limita en gran medida su eficacia operativa. Fortalecer las alas de la nave nodriza es la estrategia más rentable y eficaz para mejorar la capacidad de supervivencia del escuadrón entero."
  miniature_fighters: "Cazas en miniatura"

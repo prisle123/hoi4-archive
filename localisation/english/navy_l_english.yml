@@ -97,7 +97,7 @@
   AUTOMATION_HOMEBASE_ON: "§YEnabled§!"
   AUTOMATION_HOMEBASE_OFF: "§gDisabled§!"
   SEAZONE_MINIMUM_DOMINANCE: "Minimum £naval_dominance_texticon£ for zone control: $VALUE|H0$"
-  NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HNaval Dominance§!\nWe require a control ratio of §Y60%§! or greater to consider a region fully under friendly control."
+  NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HNaval Dominance§!\nWe require a control ratio of §Y66%§! or greater to consider a region fully under friendly control."
 
   NAVAL_DOMINANCE_EXPLANATION: "§YNaval Dominance§! \nA measure of how effective a vessel is at asserting control over a specific naval zone."
 

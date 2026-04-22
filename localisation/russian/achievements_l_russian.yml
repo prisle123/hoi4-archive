@@ -127,3 +127,6 @@
  cobalt_sea_tt: "Играя за государство [PHI.GetNonIdeologyName], успешно совершите ядерный или термоядерный налет с подводной лодки"
  the_neverending_story_tt: "Играя за местного правителя, возьмите под контроль все начальные китайские национальные территории и восстановите Китайскую империю"
  doctrine_of_choice_tt: "Выполнено три второстепенные доктрины одного и того же направления"
+ achievement_bought_cze_weapons: "Покупка чехословацкого оружия с помощью решений «$CZE_skoda_focus_category$»"
+ CZE_capitulated_germany: "Капитулировавшая Германия"
+ i_didnt_hear_no_bell_tt: "Теперь $CZE_second_republic_democratic$"

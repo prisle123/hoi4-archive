@@ -1334,6 +1334,8 @@
  sp_rockets_dual_chamber_rocket_engine_1_desc: "로켓 엔진에 두 번째 연소실을 추가하면 엔진의 비행시간과 효율성을 개선할 수 있습니다."
  sp_rockets_dual_chamber_rocket_engine_2: "고급 이중 연소실 로켓 엔진"
  sp_rockets_dual_chamber_rocket_engine_2_desc: "이중 연소 엔진을 더 개선하면 해당 설계의 효율성을 훨씬 더 향상시킬 수 있습니다."
+ sp_advance_sabot_shells: "개선된 이탈피"
+ sp_advance_sabot_shells_desc: "장갑 관통용 탄약 연구에 추가로 투입된 자원 덕분에, 다양한 상황에서 이탈피 안정화를 개선하는 방법에 대한 통찰을 얻게 되었습니다."
  reinforced_wings_mothership: "강화된 공중항모 날개"
  reinforced_wings_mothership_desc: "공중항모가 없으면 전투기는 공중에서 발이 묶여 작전 효율성에 심각한 제한을 겪습니다. 공중항모의 비행단을 강화하는 방안은 편대 전체의 생존 가능성을 높이는 가장 가성비 좋은 전략입니다."
  miniature_fighters: "꼬마 전투기"

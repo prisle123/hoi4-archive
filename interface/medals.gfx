@@ -465,5 +465,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/medals/MEN_medal.dds"
     }
 
+	spriteType = {
+		name = "GFX_medal_icon_cze"
+		texturefile = "gfx/interface/medals/cze_medal_strip.dds"
+		noOfFrames = 4
+    }
+
+	spriteType = {
+		name = "GFX_medal_icon_cze_large"
+		texturefile = "gfx/interface/medals/cze_medal_strip_large.dds"
+		noOfFrames = 4
+    }
     
 }

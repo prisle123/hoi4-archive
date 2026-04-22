@@ -103,6 +103,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/buildings/historical_buildings/large/taj_mahal_icon.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_troop_transport_target_icon"
+		texturefile = "gfx/interface/buildings/historical_buildings/large/troop_transport_target_icon.dds"
+		noOfFrames = 2
+	}
 
 	# Small Icons in Province Window #
    	spriteType = {
@@ -257,6 +262,17 @@ spriteTypes = {
    	spriteType = {
 		name = "GFX_the_great_wall_icon_small"
 		texturefile = "gfx/interface/buildings/historical_buildings/small/the_great_wall_icon_small.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_prague_castle_icon_small"
+		texturefile = "gfx/interface/buildings/historical_buildings/small/prague_castle_icon_small.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_bojnice_castle_icon_small"
+		texturefile = "gfx/interface/buildings/historical_buildings/small/bojnice_castle_icon_small.dds"
 		noOfFrames = 2
 	}
 

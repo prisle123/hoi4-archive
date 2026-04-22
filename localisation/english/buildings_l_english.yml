@@ -138,6 +138,10 @@
  landmark_forbidden_city: "The Forbidden City"
  landmark_forbidden_city_plural: "$landmark_forbidden_city$"
  landmark_forbidden_city_desc: "As ancient seat of Ming power, the Forbidden City is a symbol of China's long history of harmony and prosperity. Today, the treasures and artefacts contained within have been secreted away in fear of another Japanese invasion..."
+ landmark_prague_castle: "The Prague Castle"
+ landmark_prague_castle_desc: "The ancient Prague Castle, the largest in the world, has served for centuries as the residence of kings, emporers and now finally the presidents of Czechoslovakia. Its exterior makes clear that is not a defensive structure, but a symbol of power, being reminiscent of grand palaces. While behind its outer walls it features Czechoslovakia's largest church, finished in 1926."
+ landmark_bojnice_castle: "The Bojnice Castle"
+ landmark_bojnice_castle_desc: "The Bojnice castle once hosted Hungarian kings and other high-ranking nobles, but since its seperation from Hungary in 1920, it serves as one of the most beautiful structures in Slovakia."
 
  BUILDING_BOMBED:0 "$BUILDING$ bombed!"
  BUILDING_SABOTAGED:0 "$BUILDING$ sabotaged!"

@@ -284,6 +284,7 @@
  RULE_OPTION_DEMOCRATIC_ALTERNATE_CZE_AI_DESC: "Die tschechoslowakische KI versucht, ein eigenes Bündnis zu gründen, um sich selbst zu verteidigen und dabei demokratisch zu bleiben, indem sie die entsprechenden Pfade im Nationalen Schwerpunktbaum einschlägt."
  RULE_FASCIST_CZE_AI_DESC: "Die tschechoslowakische KI versucht, faschistisch zu werden und ein Arrangement mit Deutschland einzugehen, indem sie die entsprechenden Pfade im Nationalen Schwerpunktbaum einschlägt."
  RULE_HISTORICAL_CZE_AI_DESC: "Die tschechoslowakische KI versucht, so weit wie möglich die historischen Ereignisse nachzustellen."
+ RULE_OPTION_MONARCHIST_CZE_AI_DESC: "Die tschechoslowakische KI wird monarchistisch werden und versuchen, das Böhmische Reich wiederherzustellen."
  RULE_FASCIST_ROM_AI_DESC: "Die rumänische KI versucht, die historischen Ereignisse nachzustellen und sich den Achstenmächten anzuschließen, indem sie die entsprechenden Pfade im Nationalen Schwerpunktbaum einschlägt."
  RULE_OPTION_COMMUNIST_AST_AI_DESC: "Die australische KI versucht, kommunistisch zu werden und ein Bündnis mit der Komintern einzugehen, indem sie den entsprechenden Pfad im Nationalen Schwerpunktbaum einschlägt."
  RULE_OPTION_DEMOCRATIC_HISTORICAL_AST_AI_DESC: "Die australische KI versucht, so weit wie möglich die historischen Ereignisse nachzustellen."
@@ -811,3 +812,5 @@
  RULE_OPTION_COMMUNIST_PHI_AI_DESC: "Die Rote Sonne erhebt sich über den Philippinen, während der maritime Kommunismus Fuß fasst und versuchen wird, den Geist der Gleichheit auf den Weltmeeren zu verbreiten."
  RULE_OPTION_MACARTHUR_PHI_AI: "Militärischen Notstand ausrufen"
  RULE_OPTION_MACARTHUR_PHI_AI_DESC: "Nach dem Sturz der philippinischen Regierung wird jemand aus dem Militär das Kommando über die Nation übernehmen und sich gegen alle Aggressoren zur Wehr setzen."
+ RULE_ALLOW_RELEASE_NATIONS_ALL_NATIONS_SUDETENLAND_TOOLTIP: "Diese Nation wird niemals in die Unabhängigkeit entlassen."
+ RULE_ALLOW_RELEASE_NATIONS_ALL_NATIONS_RUTHENIA_TOOLTIP: "Diese Nation wird niemals in die Unabhängigkeit entlassen."

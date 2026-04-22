@@ -744,6 +744,16 @@ intelligence_agency = {
 		NOT = { has_government = communism }
 	}
 }
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_cze
+	names = { "2. oddelení Hl. štábu" }	#technically ě but the font doesn't support that
+	
+	available = { always = yes }
+	
+	default = { tag = CZE }
+	available = { original_tag = CZE }
+}
 
 intelligence_agency = {
 

@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§YWł.§!"
  AUTOMATION_HOMEBASE_OFF: "§gWył.§!"
  SEAZONE_MINIMUM_DOMINANCE: "Minimalna £naval_dominance_texticon£ do kontroli stref: $VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HDominacja morska§!\nMusimy mieć wskaźnik kontroli na poziomie §Y60%§! lub wyższy, by ten region został uznany za będący pod całkowitą sojuszniczą kontrolą."
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HDominacja morska§!\nMusimy mieć wskaźnik kontroli na poziomie §Y66%§! lub wyższy, by ten region został uznany za będący pod całkowitą sojuszniczą kontrolą."
  NAVAL_DOMINANCE_EXPLANATION: "§YDominacja morska§! \nWskaźnik skuteczności okrętu w sprawowaniu kontroli nad określoną strefą morską."
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§HZużycie zaopatrzenia: $VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "Wartość podstawowa: $VAL|H$"

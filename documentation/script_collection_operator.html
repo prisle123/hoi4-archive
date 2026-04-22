@@ -5,99 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>script_collection_operator.md</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
 </head>
 <body>
     <main>
     <div class="container">
-        <md-block>
-            # Script Collection Operator
-
-## Table of Content
-
-* [controlled_states](#controlled_states)
-* [country_and_all_subjects](#country_and_all_subjects)
-* [faction_members](#faction_members)
-* [limit = PAYLOAD](#limit-payload)
-* [owned_states](#owned_states)
-
-## faction_members
-Gets all the faction members of the provided country (including the country itself).
-The collection will be empty if there are no faction members.
-
-Will be used to localize if used as first operator after an input that accepts operator localization.
-
-### Example
-```
-collection_size = {
-    input = game:all_countries
-    operators = { faction_members }
-    value > 3
-}
-```
-
-
-## owned_states
-All states owned states by the current country.
-
-Will be used to localize if used as first operator after an input that accepts operator localization.
-
-### Example
-```
-collection_size = {
-    input = game:all_countries
-    operators = { owned_states }
-    value > 5
-}
-```
-
-
-## controlled_states
-All states controlled by the current country.
-
-Will be used to localize if used as first operator after an input that accepts operator localization.
-
-### Example
-```
-collection_size = {
+        <h1 id="script-collection-operator">Script Collection Operator</h1>
+<h2 id="table-of-content">Table of Content</h2>
+<ul>
+<li><a href="#controlled_states">controlled_states</a></li>
+<li><a href="#country_and_all_subjects">country_and_all_subjects</a></li>
+<li><a href="#faction_members">faction_members</a></li>
+<li><a href="#limit-payload">limit = PAYLOAD</a></li>
+<li><a href="#owned_states">owned_states</a></li>
+</ul>
+<h2 id="controlled_states">controlled_states</h2>
+<p>All states controlled by the current country.</p>
+<p>Will be used to localize if used as first operator after an input that accepts operator localization.</p>
+<h3 id="example">Example</h3>
+<pre><code>collection_size = {
     input = game:all_countries
     operators = { controlled_states }
-    value > 5
+    value &gt; 5
 }
-```
-
-
-## country_and_all_subjects
-The current country and all its subjects.
-If the country has no subjects, then the collection will only contain the country itself.
-
-Will be used to localize if used as first operator after an input that accepts operator localization.
-
-### Example
-```
-collection_size = {
+</code></pre>
+<h2 id="country_and_all_subjects">country_and_all_subjects</h2>
+<p>The current country and all its subjects.
+If the country has no subjects, then the collection will only contain the country itself.</p>
+<p>Will be used to localize if used as first operator after an input that accepts operator localization.</p>
+<h3 id="example_1">Example</h3>
+<pre><code>collection_size = {
     input = game:scope
     operators = { country_and_all_subjects }
-    value > 1
+    value &gt; 1
 }
-```
-
-
-## limit = PAYLOAD
-Filters the collection by a trigger.
-
-### Example
-```
-collection_size = {
+</code></pre>
+<h2 id="faction_members">faction_members</h2>
+<p>Gets all the faction members of the provided country (including the country itself).
+The collection will be empty if there are no faction members.</p>
+<p>Will be used to localize if used as first operator after an input that accepts operator localization.</p>
+<h3 id="example_2">Example</h3>
+<pre><code>collection_size = {
+    input = game:all_countries
+    operators = { faction_members }
+    value &gt; 3
+}
+</code></pre>
+<h2 id="limit-payload">limit = PAYLOAD</h2>
+<p>Filters the collection by a trigger.</p>
+<h3 id="example_3">Example</h3>
+<pre><code>collection_size = {
     input = game:all_countries
     operators = { trigger = { has_government = democratic } }
-    value > 2
+    value &gt; 2
 }
-```
-
-
-
-        </md-block>
+</code></pre>
+<h2 id="owned_states">owned_states</h2>
+<p>All states owned states by the current country.</p>
+<p>Will be used to localize if used as first operator after an input that accepts operator localization.</p>
+<h3 id="example_4">Example</h3>
+<pre><code>collection_size = {
+    input = game:all_countries
+    operators = { owned_states }
+    value &gt; 5
+}
+</code></pre>
     </div>
     </main>
 </body>

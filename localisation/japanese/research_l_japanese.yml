@@ -1334,6 +1334,8 @@
  sp_rockets_dual_chamber_rocket_engine_1_desc: "エンジンに2つ目の燃焼室を追加することで、ロケットエンジンの飛行時間と効果を改善することができる。"
  sp_rockets_dual_chamber_rocket_engine_2: "改良型二室式ロケットエンジン"
  sp_rockets_dual_chamber_rocket_engine_2_desc: "二室式燃焼エンジンのさらなる改良により、設計の有効性がさらに向上する可能性がある。"
+ sp_advance_sabot_shells: "改良型サボット弾"
+ sp_advance_sabot_shells_desc: "徹甲弾の研究開発の推進により、さまざまな用途に向けたサボット（装弾筒）の安定性を高めるための技術を実現した。"
  reinforced_wings_mothership: "強化された母船の翼"
  reinforced_wings_mothership_desc: "母船がなければ、戦闘機は空中で事実上孤立し、作戦遂行能力が大幅に制限される。母船の翼を強化することが、飛行隊全体の生存能力を高める上で最も費用対効果の高い戦略だ。"
  miniature_fighters: "小型戦闘機"

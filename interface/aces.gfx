@@ -484,8 +484,26 @@ spriteTypes = {
 		texturefile = "gfx/aces/JAP_Tetsuzo_Iwamoto_ace.dds"
 	}
 
+	##########################
+	#### PFOT ###
+	##########################
 
-
+	spriteType = {
+		name = "GFX_CZE_ace_Karel_Kuttelwascher"
+		texturefile = "gfx/aces/CZE_Karel_Kuttelwascher_ace.dds"
+	}
+	spriteType = {
+		name = "GFX_CZE_ace_František_Peřina"
+		texturefile = "gfx/aces/CZE_Frantisek_Perina_ace.dds"
+	}
+	spriteType = {
+		name = "GFX_CZE_ace_Leopold_Šrom"
+		texturefile = "gfx/aces/CZE_Leopold_Srom_ace.dds"
+	}
+	spriteType = {
+		name = "GFX_CZE_ace_Václav_Jícha"
+		texturefile = "gfx/aces/CZE_Vaclav_Jicha_ace.dds"
+	}
 
 
 

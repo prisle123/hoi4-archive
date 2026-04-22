@@ -336,6 +336,11 @@
  sp_air_radar_desc: "パルス電波を使用し、その反射を検出することで、陸・海・空からの敵の動きを監視できるようになる。"
  sp_air_centimetric_radar: "センチ波レーダー"
  sp_air_centimetric_radar_desc: "センチ波レーダーを開発すれば、より小さな標的の検出と、より小さなアンテナの使用が可能になる。"
+ #Project Wolfdog
+ sp_land_large_caliber_kinetic_energy_sabot: "大口径運動エネルギーサボット弾"
+ sp_land_large_caliber_kinetic_energy_sabot_desc: "装甲の貫通を目的として設計された、大口径砲用の徹甲弾。"
+ GER_sp_land_large_caliber_kinetic_energy_sabot: "レヒリング弾"
+ #End Wolfdog
  sp_land_reward_land_cruiser_overheating: "試験中の過熱"
  sp_land_reward_land_cruiser_chassis: "シャーシ負荷故障"
  sp_land_reward_land_cruiser_chassis_desc: "負荷試験では、[SpecialProject.GetName]のシャーシがその巨大な重量に耐えられず、構造変形を引き起こすことが判明した。設計チームは、車両重量をさらに増やす補強材を追加するか、耐久性を犠牲にするかもしれない軽量素材を使用するかで意見が分かれている。"

@@ -127,3 +127,6 @@
  cobalt_sea_tt: "Spielen Sie als [PHI.GetNonIdeologyName] und führen Sie einen erfolgreichen nuklearen oder thermonuklearen Angriff von einem U-Boot aus"
  the_neverending_story_tt: "Spielen Sie als Kriegsherr, kontrollieren Sie alle anfänglichen chinesischen Kernstaaten und stellen Sie das Chinesische Reich wieder her"
  doctrine_of_choice_tt: "Hat drei Unterdoktrinen im selben Doktrinpfad abgeschlossen"
+ achievement_bought_cze_weapons: "Kaufte tschechoslowakische Waffen durch die Entscheidungen „$CZE_skoda_focus_category$“"
+ CZE_capitulated_germany: "Brachte Deutschland zur Kapitulation"
+ i_didnt_hear_no_bell_tt: "Wurde zur Tschechoslowakischen Republik"

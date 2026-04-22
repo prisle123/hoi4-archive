@@ -147,3 +147,7 @@
  SSB_tech_sharing_group_desc: "Un acuerdo de investigación unificado entre los firmantes del Tratado de Saadabad permitirá la plena cooperación en investigación. Esto podría llevar a una región pequeña a convertirse en una gran potencia."
  MAN_PRC_technology_sharing_group_name: "Grupo de investigación conjunto del PCCh"
  MAN_PRC_technology_sharing_group_desc: "Con más de un territorio bajo el control del PCCh, también es necesario aumentar la comunicación entre ellos para que ninguna de las partes se quede atrás. La coordinación de los esfuerzos de investigación es uno de los aspectos clave a la hora de ponerlos en contacto."
+ CZE_balkan_tech_sharing_group_name: "Comité científico de la Pequeña Entente"
+ CZE_balkan_tech_sharing_group_desc: "Un acuerdo de investigación entre una serie de países, en su mayoría balcánicos, y [CZE.GetNameDef] para mantener su tecnología industrial al mismo nivel que los países más grandes."
+ CZE_german_czechoslovak_equipment_design_group_name: "Comité de diseño de equipo checoslovaco-alemán"
+ CZE_german_czechoslovak_equipment_design_group_desc: "Los científicos de [GER.GetNameDef] y [CZE.GetNameDef] han comenzado a cooperar en el diseño de tanques y aviones."

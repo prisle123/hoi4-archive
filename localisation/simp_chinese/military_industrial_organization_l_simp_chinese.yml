@@ -330,6 +330,11 @@
  mio_header_helicopter_construction: "直升机建造"
  mio_header_single_rotor: "单旋翼"
  mio_header_tandem_rotor: "双旋翼"
+ mio_header_aircraft_weapons: "机载武器"
+ mio_header_light_tank_destroyers_department: "轻型驱逐舰部门"
+ mio_header_medium_tank_destroyers_department: "中型驱逐舰部门"
+ mio_header_heavy_tank_destroyers_department: "重型驱逐舰部门"
+ mio_header_tank_production: "坦克生产"
  ########   #######  ##       ####  ######  #### ########  ######
  ##     ## ##     ## ##        ##  ##    ##  ##  ##       ##    ##
  ##     ## ##     ## ##        ##  ##        ##  ##       ##
@@ -442,6 +447,7 @@
  JAP_tachikawa_aircraft_company_organization: "$tachikawa_aircraft_company$"
  JAP_kawasaki_dockyards_organization: "$kawasaki_dockyards$"
  JAP_isuzu_motors: "五十铃自动车"
+ JAP_nippon_sharyo_organization: "日本车辆制造株式会社"
  JAP_kawasaki_dockyards_org_name: "专注航母的袭击舰队"
  ### TRAITS ###
  JAP_mio_trait_rapid_counterflooding_system: "快速抗倾覆注水系统"
@@ -557,6 +563,7 @@
  FRA_mio_trait_standardized_turrets: "皮托工厂炮塔"
  FRA_mio_trait_b1_bis_suspension: "B1 bis悬挂"
  FRA_mio_trait_l_35: "L/35"
+ FRA_mio_trait_scam_facilities: "SACM 设施"
  #################
  #### GERMANY ####
  #################
@@ -688,6 +695,7 @@
  ITA_breda_organization: "$breda$"
  ITA_brescia_arsenal_organization: "$ITA_brescia_arsenal$"
  ITA_officine_meccaniche_organization: "$ITA_officine_meccaniche$"
+ ITA_ansaldo_train_organization: "$AUS_ansaldo_organization$"
  ### TRAITS ###
  ITA_mio_trait_air_race_pedigree: "空中竞赛血统"
  ITA_mio_trait_special_aerotorpedoes_unit: "特制航空鱼雷装置"
@@ -792,8 +800,7 @@
  CZE_avia_organization: "$CZE_avia$"
  CZE_aero_organization: "$CZE_aero$"
  CZE_letov_organization: "$CZE_letov$"
- ### CZECHOSLOVAKIAN TRAITS ###
- CZE_mio_trait_skoda_works: "$CZE_skoda_works$"
+ CZE_praga_aviation_organization: "$CZE_praga$航空"
  #################
  #### HUNGARY ####
  #################
@@ -1271,6 +1278,7 @@
  BEL_minerva_imperia_armored_car_organization: "密涅瓦-因佩里亚装甲车厂"
  BEL_minerva_imperia_motorized_organization: "密涅瓦-因佩里亚汽车公司"
  BEL_laboratoire_aerotechnique_de_belgique_organization: "比利时航空技术实验室"
+ BEL_ateliers_metallurgiques_tubize_organization: "蒂比兹机械制造厂"
  #BELGIUM - MIO Traits
  BEL_mio_initial_trait_fn_herstal: "轻武器制造商"
  BEL_mio_trait_belgium_congo_link: "比利时-刚果联系"
@@ -1402,6 +1410,102 @@
  PHI_mio_trait_widened_tires: "加宽轮胎"
  PHI_mio_trait_improvised_bombs: "简易炸弹"
  PHI_mio_trait_engine_filters: "引擎过滤器"
+ ########################################################################
+ ##     ## ##     ## ##    ## ####  ######  ##     ##
+ ###   ### ##     ## ###   ##  ##  ##    ## ##     ##
+ #### #### ##     ## ####  ##  ##  ##       ##     ##
+ ## ### ## ##     ## ## ## ##  ##  ##       #########
+ ##     ## ##     ## ##  ####  ##  ##       ##     ##
+ ##     ## ##     ## ##   ###  ##  ##    ## ##     ##
+ ##     ##  #######  ##    ## ####  ######  ##     ##
+ ##########################
+ #######    PFOT    #######
+ ##########################
+ #CZECHOSLOVAKIA - Organizations
+ CZE_zbrojovka_vsetin_organization: "弗塞廷兵工厂"
+ CZE_benees_mraz_organization: "贝内什-姆拉兹"
+ CZE_zlin_aircraft_organization: "兹林飞机制造厂"
+ CZE_CKD_plzen_organization: "捷克摩拉维亚-科尔本-丹历（皮尔森）"
+ CZE_ceska_zbrojovka_uhersky_brod_organization: "捷克兵工厂（乌赫尔布罗德）"
+ CZE_ringhoffer_tatra_organization: "林霍费尔-太脱拉公司"
+ CZE_skoda_plzen_tank_destroyer_organization: "斯柯达装甲（比尔森）"
+ #OTHER TAGS - Organizations
+ CZE_skoda_works_german_organization: "$CZE_skoda_works$（布拉格）"
+ CZE_bohmische_mahrische_maschinenfabrik_ag_german_organization: "波希米亚-摩拉维亚机械制造股份公司"
+ GER_henschel_kassel_organization: "亨舍尔-卡塞尔"
+ ENG_crewe_works_organization: "克鲁工程厂"
+ USA_baldwin_locomotive_works_organization: "鲍德温机车厂"
+ FRA_alsthom_organization: "阿尔斯通"
+ SOV_kolomna_locomotive_plant_name_dynamic: "[SOV_kolomna_locomotive_plant_name_dynamic]"
+ SOV_kolomna_locomotive_plant_communist: "B.B.古比雪夫冠名的科洛姆纳机车厂"
+ SOV_kolomna_locomotive_plant_default: "科洛姆纳机车厂"
+ #CZECHOSLOVAKIA - MIO Traits
+ CZE_mio_trait_skoda_works: "$CZE_skoda_works$"
+ CZE_mio_trait_walter_co_name: "$CZE_walter_co$引擎"
+ CZE_bata_corporation_name: "$CZE_bata_corporation$ 设施"
+ CZE_mio_trait_walter_co_taken_flag: "$GER_hoesch_facilities_trait_taken_flag$"
+ CZE_mio_trait_bata_corporation_taken_flag: "$GER_hoesch_facilities_trait_taken_flag$"
+ #OTHER TAGS - MIO Traits
+ CZE_mio_trait_gun_smuggling_difficulties: "武器走私困难"
+ CZE_mio_trait_panzer_38t_chassis_conversion: "38(t)坦克底盘改装"
+ CZE_mio_trait_messerschmitt_integration: "整合进梅塞施密特生产线"
+ CZE_mio_trait_walter_co_german_taken_flag: "$GER_hoesch_facilities_trait_taken_flag$"
+ GER_mio_trait_lokomotivfabrik_floridsdorf: "弗洛里茨多夫机车制造厂设施"
+ generic_mio_trait_compulsory_tank_designer: "应急坦克制造商"
+ generic_mio_trait_off_the_board_designs: "非制式设计"
+ generic_mio_trait_armor_improvements: "装甲优化升级"
+ generic_mio_trait_cruiser_tank_production: "巡洋坦克量产"
+ generic_mio_trait_additional_anti_aircraft_machine_guns: "附加防空机枪组"
+ ENG_mio_trait_lms_logistical_expertise: "伦米苏铁路后勤专精"
+ CZE_mio_trait_minimalist_wagon_design: "极简型铁路货车设计"
+ ENG_mio_trait_lms_class_stanier_class_5_black_five: "伦米苏“黑五”型蒸汽机车"
+ ENG_mio_trait_vickers_armstrong_knowledge_sharing: "$ENG_vickers_armstrong_eng_organization$技术共享"
+ CZE_mio_trait_scam_facilities: "米卢斯工厂"
+ #SLOVAKIA - Organizations
+ SLO_povazska_bystrica_organization: "斯柯达-瓦赫河畔比斯特里察"
+ SLO_CZE_skoda_artillery_organization: "斯柯达-瓦赫河畔杜布尼察"
+ SLO_zbrojnica_roth_organization: "罗特武器厂"
+ SLO_generic_escort_ship_organization: "布拉迪斯拉发码头"
+ SLO_CZE_letov_organization: "莱托夫-布拉迪斯拉发"
+ SLO_generic_general_aircraft_organization: "瓦赫河畔机械厂"
+ SLO_svit_organization: "斯维特"
+ SLO_CZE_skoda_armor_organization: "斯柯达-瓦赫河畔杜布尼察"
+ SLO_CZE_skoda_plzen_tank_destroyer_organization: "重型机械工厂"
+ ###################################
+ #### AUTOMATIC WEAPON DESIGNER ####
+ ###################################
+ CZE_mio_initial_trait_automatic_manufacturer: "自动武器制造商"
+ CZE_mio_trait_drum_mags: "弹鼓"
+ CZE_mio_trait_box_mags: "弹匣"
+ CZE_mio_trait_9_mm: "9mm口径"
+ CZE_mio_trait_larger_calibers: "45mm口径"
+ CZE_mio_trait_maintain_current_firing_mechanism: "保留当前击发装置设计"
+ CZE_mio_trait_simplified_firing_mechanisms: "简化击发装置"
+ CZE_mio_trait_reduce_use_of_wooden_parts: "减少木质房屋使用"
+ CZE_mio_trait_stamp_steel_components: "压钢建筑"
+ CZE_mio_trait_anti_tank_rifles: "反坦克步枪"
+ CZE_mio_trait_simplified_barrel_forging: "简化枪管锻造"
+ ###################################
+ ####  Tank Destroyer Designer  ####
+ ###################################
+ CZE_tank_destroyer_organization: "自行反坦克炮制造商"
+ CZE_mio_trait_initial_trait_tank_destroyer_guns_organization: "自行反坦克炮设计商"
+ CZE_mio_trait_mobile_tank_destroyers: "袭扰驱逐舰"
+ CZE_mio_trait_multi_purpose_ammunition_tank_destoryer: "多用途弹药"
+ CZE_mio_trait_light_tank_destroyer_artillery_gun_combo: "火炮组合"
+ CZE_mio_trait_light_tank_destroyer_gun_improved_muzzle_breaks: "改进型炮口制退器"
+ CZE_mio_trait_medium_tank_hunters_tank_destoryer: "自行坦克猎手"
+ CZE_mio_trait_low_profile_ambushers_tank_destoryer: "隐蔽性伏击者"
+ CZE_mio_trait_armor_reinforced_sloped_armor_tank_destroyer: "强化倾斜装甲"
+ CZE_mio_trait_rear_and_low_ammo_compartment_tank_destroyer: "后部及低位弹药舱"
+ CZE_mio_trait_medium_tank_destroyer_gun_high_velocity_rounds: "高速弹"
+ CZE_mio_trait_medium_tank_destroyer_extended_barrel_length: "延长炮管长度"
+ CZE_mio_trait_heavy_mobile_siege_cannons: "可移动攻城炮"
+ CZE_mio_trait_improved_barrel_cooling: "改进枪管冷却"
+ CZE_mio_minimalist_gun_designs: "极简枪械设计"
+ CZE_mio_trait_additional_ammo_storage: "额外弹药储存"
+ CZE_mio_trait_easier_gun_maintance: "易维护枪械"
+ CZE_mio_trait_cannon_improvements: "火炮改进"
  ########################################################################
  ######   ######## ##    ## ######## ########  ####  ######   ######
  ##    ##  ##       ###   ## ##       ##     ##  ##  ##    ## ##    ##
@@ -1968,6 +2072,25 @@
  generic_mio_trait_extra_seating: "额外座位"
  generic_mio_trait_co_axial_rotors: "共轴旋翼"
  generic_mio_trait_mass_production_certification: "大规模生产证书"
+ ############################
+ #### TRAIN MANUFACTURER #### #marijn211: PfoT CCP addition
+ ############################
+ generic_mio_initial_trait_generic_train_manufacturer: "火车制造商"
+ generic_mio_trait_material_improvements: "材料改进"
+ generic_mio_trait_joint_stock_scheme: "合资企业模式"
+ generic_rapid_production_upscaling: "快速生成扩大化"
+ generic_mio_trait_additional_flak_wagons: "额外高射炮车"
+ generic_mio_trait_improved_axle_fitting: "改进轮轴配件"
+ generic_mio_trait_improved_wagon_design: "改进货车设计"
+ generic_mio_trait_improved_loading: "改进装载方法"
+ generic_mio_trait_ugly_ducklings: "丑小鸭"
+ generic_mio_trait_armor_plating: "装甲覆层"
+ generic_mio_trait_simplified_rail_carrier: "简化铁路运输车"
+ generic_mio_trait_improved_barrel_lining: "改进型炮管内衬"
+ generic_mio_trait_quick_design_turnarounds: "快速设计迭代"
+ generic_mio_trait_salavage_destoryed_locomotives: "回收被毁机车"
+ generic_mio_trait_train_production_at_scale: "大规模生产"
+ generic_mio_trait_machine_assembly: "机械组装"
  ########### DEBUG #############
  DEBUG_generic_tank_organization: "$generic_tank_organization$"
  DEBUG_generic_infantry_tank_organization: "$generic_infantry_tank_organization$"

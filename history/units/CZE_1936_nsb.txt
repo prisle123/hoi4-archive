@@ -9,9 +9,10 @@
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }			# Included Engineers as of start date
 	}
 }
 
@@ -26,9 +27,9 @@ division_template = {
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }
-		mountaineers = { x = 2 y = 1 }
-		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }			# Mountian Guns
 	}
 }
 
@@ -40,9 +41,11 @@ division_template = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
 		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
+		artillery = { x = 0 y = 1 }
 	}
 }
 
@@ -81,7 +84,7 @@ units = {
 		division_template = "Rychlá divize"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
-		force_equipment_variants = { light_tank_chassis_1 = { owner = "CZE" version_name = "Tancik vz. 33" } }
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "CZE" version_name = "Tancik vz. 33" } }
 	}
 	division = { # "4. divize"
 		division_name = {
@@ -137,7 +140,7 @@ units = {
 		division_template = "Rychlá divize"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
-		force_equipment_variants = { light_tank_chassis_1 = { owner = "CZE" version_name = "Tancik vz. 33" } }
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "CZE" version_name = "Tancik vz. 33" } }
 	}
 	division = { # "15. divize"
 		division_name = {
@@ -170,7 +173,7 @@ units = {
 		division_template = "Rychlá divize"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.1
-		force_equipment_variants = { light_tank_chassis_1 = { owner = "CZE" version_name = "Tancik vz. 33" } }
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "CZE" version_name = "Tancik vz. 33" } }
 	}
 	division = { # "4. fast"
 		division_name = {
@@ -181,7 +184,7 @@ units = {
 		division_template = "Rychlá divize"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.1
-		force_equipment_variants = { light_tank_chassis_1 = { owner = "CZE" version_name = "Tancik vz. 33" } }
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "CZE" version_name = "Tancik vz. 33" } }
 	}
 	### I Armáda ###
 	division = { # "18. divize"
@@ -380,7 +383,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_chassis_1
+			type = light_tank_chassis_2
 			creator = CZE
 			version_name = "LT vz. 35"
 		}
@@ -388,5 +391,15 @@ instant_effect = {
 		progress = 0.48
 		efficiency = 100
 		industrial_manufacturer = mio:CZE_ckd_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = CZE
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+		industrial_manufacturer = mio:CZE_skoda_artillery_organization
 	}
 }

@@ -336,6 +336,11 @@
  sp_air_radar_desc: "Une technologie innovante permettant de suivre les mouvements ennemis, sur terre, en mer et dans le ciel grâce à des ondes radio projetées contre des parois."
  sp_air_centimetric_radar: "Radar centimétrique"
  sp_air_centimetric_radar_desc: "Ce type de radar est capable de détecter des cibles plus petites à l'aide d'antennes moins imposantes."
+ #Project Wolfdog
+ sp_land_large_caliber_kinetic_energy_sabot: "Sabot gros calibre à énergie cinétique"
+ sp_land_large_caliber_kinetic_energy_sabot_desc: "Cette version gros calibre de la munition d'artillerie perforante est destinée à détruire des fortifications."
+ GER_sp_land_large_caliber_kinetic_energy_sabot: "Obus Röchling"
+ #End Wolfdog
  sp_land_reward_land_cruiser_overheating: "Surchauffe lors des essais"
  sp_land_reward_land_cruiser_chassis: "Défaut de châssis sous pression"
  sp_land_reward_land_cruiser_chassis_desc: "Durant l'épreuve d'effort, le châssis du [SpecialProject.GetName] n'a pas pu résister sous tout le poids, ce qui a engendré des déformations structurelles. L'équipe de conception se demande si ce serait une bonne idée d'ajouter des renforts supplémentaires, au risque d'alourdir le véhicule, ou bien d'employer des matériaux plus légers, ce qui minimiserait la durabilité de l'engin."

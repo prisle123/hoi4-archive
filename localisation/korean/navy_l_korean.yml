@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§Y활성화§!"
  AUTOMATION_HOMEBASE_OFF: "§g비활성화§!"
  SEAZONE_MINIMUM_DOMINANCE: "지역 통제를 위한 최소 £naval_dominance_texticon£: $VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§H해상 지배§!\n한 지역이 완전히 아군 통제하에 있다고 간주되려면 지배율이 §Y60%§! 이상이어야 합니다."
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§H해상 지배§!\n한 지역이 완전히 아군 통제하에 있다고 간주되려면 지배율이 §Y66%§! 이상이어야 합니다."
  NAVAL_DOMINANCE_EXPLANATION: "§Y해상 지배§! \n선박이 특정 해상 구역에 대해 얼마나 큰 통제력을 행사하는지를 나타내는 척도입니다."
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§H보급 소비량: $VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "기본값: $VAL|H$"

@@ -1699,3 +1699,20 @@
  PHI_seized_migrant_property: "이주민 재산을 압류함"
  PHI_welcomed_chinese_migrants: "중국 이민자들을 환영함"
  PHI_legalized_communist_party: "공산당을 합법화함"
+ #### PFOT ####
+ #Czechoslovakia
+ CZE_large_contract_purchases: "대규모 계약 구매"
+ CZE_working_with_henlein: "헨라인과 협력"
+ CZE_renewed_diplomatic_efforts: "외교적 노력 재개"
+ CZE_sent_attaches: "소규모 주재무관단 파견함"
+ CZE_sent_observers: "관찰자 파견함"
+ CZE_sent_observers_to_enemy: "적측에 관찰자 파견함"
+ CZE_smuggling_guns_to_eth: "에티오피아로 총기 밀수"
+ CZE_smuggling_guns_to_our_enemy: "적국에 총기 밀수"
+ CZE_defied_non_intervention_committee: "불간섭위원회에 저항함"
+ CZE_recent_contract_purchases: "최근의 무기 구매"
+ CZE_improving_cross_border_rail_connections: "국경 간 철도 연결 개선"
+ CZE_customs_union_member: "관세 동맹 회원국"
+ CZE_allows_passage_of_soviet_troops: "소련 병력의 통과 허용"
+ #Czechoslovakia Opinion Modifiers
+ CZE_i_am_agreeable_to_license: "슈코다 및 CKD 구매 계약"

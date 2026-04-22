@@ -100,6 +100,9 @@
  raid_type_JAP_pearl_harbor_strike: "Pearl Harbor Strike"
  raid_type_JAP_pearl_harbor_strike_desc: "By sending a group of bombers to attack the enemy's main naval headquarter and fleet in the Pacific Ocean, we can boost our people's morale, while inflicting a blow to our enemy's morale and naval capabilities at the same time. Through this, our navies will be able to roam freely for 6 months!"
 
+ raid_type_CZE_sokolov_raid_pfot: "Falknov Raid"
+ raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
+
  RAID_TARGET_NAME: "$WHAT|H$ in $LOCATION|H$"
  TOOLTIP_POTENTIAL_TARGET_ENTRY: "§GClick§! to raid $CONTROLLER_FLAG$$TARGET_NAME$"
  TOOLTIP_POTENTIAL_TARGET_ENTRY_NOT_ALLOWED: "§RCannot§! raid $CONTROLLER_FLAG$$TARGET_NAME$"
@@ -113,6 +116,7 @@
  TOOLTIP_TARGET_FACILITY_NO_ONGOING_PROJECT_DESC: "No ongoing project"
  TOOLTIP_TARGET_FACILITY_PROJECT_UNKNOWN_DESC: "Current project unknown due to insufficient Target Information ($CURRENT|R1$/$REQUIRED|H1$)"
  MAP_ICON_RAID_TARGET_HEADER: "Plan Raid"
+ RAID_SHIFT_CLICK_QUICK_START: "§GShift+Click§! to instantly prepare a raid."
  MAP_ICON_RAID_UNIT_HEADER: "Select Raid Unit"
  TOOLTIP_MAP_ICON_RAID_UNITS_HEADER: "$NUM|H$ raid units available"
  TOOLTIP_MAP_ICON_RAID_UNIT_ENTRY: "- $NAME|H$ ($SUCCESS$)"
@@ -278,6 +282,10 @@
  kiel_canal_damaged_tt: "Canal blocked due to damage to locks"
  kiel_canal_damaged_tt_NOT: "$kiel_canal_damaged_tt$"
  panama_canal_damaged_modifier: "Panama Canal Damaged"
+ sokolov_raided_modifier: "Falknov Raided"
+ sokolov_raided_limited_success_modifier: "$sokolov_raided_modifier$"
+ sokolov_raided_success_modifier: "$sokolov_raided_modifier$"
+ sokolov_raided_critical_modifier: "$sokolov_raided_modifier$"
 
  tooltip_raid_warning_counterplay_header: "§GTo increase the chance of a successful defense:§!"
  tooltip_raid_success_chance_improvement_header: "§GTo increase the chance of a successful raid:§!"
@@ -462,6 +470,9 @@
  #Custom Raid Names
  raid_type_PRC_weapons_depot_raid: "Raid Weapon Depots"
  raid_type_PRC_probe_border_defenses_raid: "Raid Border Defenses"
+ raid_type_SOV_transport_volunteers_to_CZE: "Air Bridge for Soviet Volunteers"
+ raid_type_SOV_transport_volunteers_to_CZE_desc: "Czechoslovakia has requested military aid, but our lack of direct borders complicates logistics, instead, we could assemble a force of volunteers that will be transported by air to fight as part of the Czechoslovak army."
+ raid_target_name_CZE_volunteer_transport: "Mukaĉevo Airport"
 
  raid_tooltip_trigger_title: "$TITLE|H$:"
  

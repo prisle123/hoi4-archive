@@ -1,0 +1,62 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_CZE_skoda_gui_logo"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_CZE_skoda_background"
+		texturefile = "gfx/interface/cze_skoda/skoda_background_interface.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_default"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_default.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_default_selected"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_default_selected.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_infantry"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_infantry.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_infantry_selected"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_infantry_selected.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_armor"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_armor.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_armor_selected"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_armor_selected.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_aircraft"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_aircraft.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_aircraft_selected"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_aircraft_selected.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_naval"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_naval_work.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_naval_selected"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_naval_work_selected.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_square_naval_disabled"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_UI_square_naval_work_disabled.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_efficiency_cog"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_efficiency_cog.dds"
+	}
+	SpriteType = {
+		name = "GFX_CZE_skoda_explanation_background"
+		texturefile = "gfx/interface/cze_skoda/CZE_skoda_explanation_background.dds"
+	}
+}

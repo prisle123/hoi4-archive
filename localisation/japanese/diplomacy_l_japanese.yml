@@ -1699,3 +1699,20 @@
  PHI_seized_migrant_property: "移民の資産を没収した"
  PHI_welcomed_chinese_migrants: "中国人移民を歓迎した"
  PHI_legalized_communist_party: "共産党を合法化した"
+ #### PFOT ####
+ #Czechoslovakia
+ CZE_large_contract_purchases: "大規模契約の購入"
+ CZE_working_with_henlein: "ヘンラインとの協力"
+ CZE_renewed_diplomatic_efforts: "外交努力の再開"
+ CZE_sent_attaches: "小規模の駐在武官団を派遣"
+ CZE_sent_observers: "監視団を派遣"
+ CZE_sent_observers_to_enemy: "敵側に監視団を派遣"
+ CZE_smuggling_guns_to_eth: "エチオピアへ銃器を密輸"
+ CZE_smuggling_guns_to_our_enemy: "敵に銃器を密輸"
+ CZE_defied_non_intervention_committee: "不干渉委員会を無視"
+ CZE_recent_contract_purchases: "最近購入した武器"
+ CZE_improving_cross_border_rail_connections: "国境横断鉄道の接続改善"
+ CZE_customs_union_member: "関税同盟の加盟国"
+ CZE_allows_passage_of_soviet_troops: "ソビエト軍の通過を許可"
+ #Czechoslovakia Opinion Modifiers
+ CZE_i_am_agreeable_to_license: "シュコダとČKDの購入契約"

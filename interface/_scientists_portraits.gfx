@@ -436,6 +436,22 @@ spriteTypes = {
 		name = "GFX_portrait_USA_vannevar_bush"
 		texturefile = "gfx/leaders/scientists/portrait_USA_vannevar_bush.dds"
 	}
+
+	## CZE ##
+	spriteType = {
+		name = "GFX_portrait_CZE_alexej_surin"
+		texturefile = "gfx/leaders/scientists/portrait_CZE_alexej_surin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_antonin_husnik"
+		texturefile = "gfx/leaders/scientists/portrait_CZE_antonin_husnik.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CZE_georg_placzek"
+		texturefile = "gfx/leaders/scientists/portrait_CZE_georg_placzek.dds"
+	}
 	
 
 			## GENERIC SCIENTISTS ##

@@ -2962,4 +2962,31 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decisions_generic_counter_infiltration_3.dds"
 	}
 
+		# # # # ### 
+		### # # # # 
+		### # # # # 
+		# # # # # # 
+		# # ### # #
+
+			#### CZE ####
+	## Decision Category Pictures ##
+	spriteType = {
+		name = "GFX_decision_cat_picture_CZE_divided_nation"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_CZE_divided_nation.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_CZE_border_fortification"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_CZE_border_fortification.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_central_europan_federation"
+		texturefile = "gfx/interface/decisions/decision_cat_central_europan_federation.dds"
+	}
+
+
+	## Decision Icon ##
+	spriteType = {
+		name = "GFX_decision_category_CZE_divided_nation_icon"
+		texturefile = "gfx/interface/decisions/decision_category_CZE_divided_nation.dds"
+	}
 }

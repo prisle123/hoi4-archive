@@ -284,6 +284,7 @@
  RULE_OPTION_DEMOCRATIC_ALTERNATE_CZE_AI_DESC: "Czechosłowackie SI będzie dążyło do utworzenia własnej frakcji, by bronić się i utrzymać demokrację, wybierając odpowiednią drogę na drzewku celów narodowych."
  RULE_FASCIST_CZE_AI_DESC: "Czechosłowackie SI będzie dążyło do zmiany ustroju na faszystowski i porozumienia się z Niemcami, wybierając odpowiednią drogę na drzewku celów narodowych."
  RULE_HISTORICAL_CZE_AI_DESC: "Czechosłowackie SI będzie dążyło do jak najwierniejszego odtworzenia historycznego łańcucha zdarzeń."
+ RULE_OPTION_MONARCHIST_CZE_AI_DESC: "Czechosłowackie SI wprowadzi monarchię i spróbuje odnowić Imperium Czech."
  RULE_FASCIST_ROM_AI_DESC: "Rumuńskie SI będzie dążyło do odtworzenia zdarzeń historycznych i do przyłączenia się do państw Osi, wybierając odpowiednią drogę na drzewku celów narodowych."
  RULE_OPTION_COMMUNIST_AST_AI_DESC: "Australijskie SI będzie dążyło do zmiany ustroju na komunistyczny i zawarcia sojuszu z Kominternem, wybierając odpowiednią drogę na drzewku celów narodowych."
  RULE_OPTION_DEMOCRATIC_HISTORICAL_AST_AI_DESC: "Australijskie SI będzie dążyło do jak najwierniejszego odtworzenia historycznego łańcucha zdarzeń i wyborów na drzewku celów narodowych."
@@ -811,3 +812,5 @@
  RULE_OPTION_COMMUNIST_PHI_AI_DESC: "Czerwone słońce wzejdzie nad Filipinami, a komunizm morski umocni swoją pozycję i będzie dążył do szerzenia ducha równości na oceanach świata."
  RULE_OPTION_MACARTHUR_PHI_AI: "Postawienie wojska w stan gotowości"
  RULE_OPTION_MACARTHUR_PHI_AI_DESC: "Po upadku filipińskiego rządu pojawi się wojskowy przywódca, który poprowadzi naród do walki przeciwko wszelkim agresorom."
+ RULE_ALLOW_RELEASE_NATIONS_ALL_NATIONS_SUDETENLAND_TOOLTIP: "Ten kraj może nigdy nie doczekać się wyzwolenia."
+ RULE_ALLOW_RELEASE_NATIONS_ALL_NATIONS_RUTHENIA_TOOLTIP: "Ten kraj może nigdy nie doczekać się wyzwolenia."

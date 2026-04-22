@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§YAktiviert§!"
  AUTOMATION_HOMEBASE_OFF: "§gDeaktiviert§!"
  SEAZONE_MINIMUM_DOMINANCE: "Mindestwert von £naval_dominance_texticon£ für Zonenkontrolle: $VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HMarinedominanz§!\nWir benötigen eine Kontrollquote von mindestens §Y60%§!, damit eine Region als vollständig unter freundlicher Kontrolle gilt."
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HMarinedominanz§!\nWir benötigen eine Kontrollquote von mindestens §Y66%§!, damit eine Region als vollständig unter freundlicher Kontrolle gilt."
  NAVAL_DOMINANCE_EXPLANATION: "§YMarinedominanz§! \nEin Maß dafür, wie effektiv ein Schiff Kontrolle über eine bestimmte Seezone ausüben kann."
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§HNachschubverbrauch: $VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "Grundwert: $VAL|H$"

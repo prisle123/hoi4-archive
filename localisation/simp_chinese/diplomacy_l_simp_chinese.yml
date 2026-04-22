@@ -1699,3 +1699,20 @@
  PHI_seized_migrant_property: "没收移民财产"
  PHI_welcomed_chinese_migrants: "欢迎中国移民"
  PHI_legalized_communist_party: "合法化共产党"
+ #### PFOT ####
+ #Czechoslovakia
+ CZE_large_contract_purchases: "大额合同采购"
+ CZE_working_with_henlein: "与亨莱因合作"
+ CZE_renewed_diplomatic_efforts: "重新开展的外交努力"
+ CZE_sent_attaches: "派遣军事顾问小组"
+ CZE_sent_observers: "派遣观察员"
+ CZE_sent_observers_to_enemy: "向敌方派遣观察员"
+ CZE_smuggling_guns_to_eth: "走私军火进入埃塞俄比亚"
+ CZE_smuggling_guns_to_our_enemy: "向我们的敌人走私军火"
+ CZE_defied_non_intervention_committee: "违抗不干涉委员会"
+ CZE_recent_contract_purchases: "近期购买武器"
+ CZE_improving_cross_border_rail_connections: "改善跨境铁路"
+ CZE_customs_union_member: "关税同盟成员"
+ CZE_allows_passage_of_soviet_troops: "允许苏联军事通行"
+ #Czechoslovakia Opinion Modifiers
+ CZE_i_am_agreeable_to_license: "斯柯达和CKD采购合同"

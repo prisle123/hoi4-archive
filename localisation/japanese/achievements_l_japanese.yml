@@ -127,3 +127,6 @@
  cobalt_sea_tt: "[PHI.GetNonIdeologyName]として、潜水艦からの核攻撃または核融合爆弾攻撃を成功させる"
  the_neverending_story_tt: "軍閥として、中国のすべての初期中核州を支配し、中華帝国を復活させる"
  doctrine_of_choice_tt: "同一分岐内の3つのサブドクトリンを完了した"
+ achievement_bought_cze_weapons: "$CZE_skoda_focus_category$のディシジョンを通じてチェコスロヴァキアの武器を購入した"
+ CZE_capitulated_germany: "ドイツの降伏"
+ i_didnt_hear_no_bell_tt: "$CZE_second_republic_democratic$になった"

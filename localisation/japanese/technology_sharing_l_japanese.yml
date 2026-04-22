@@ -147,3 +147,7 @@
  SSB_tech_sharing_group_desc: "サーダーバード条約加盟国が完全に協力し、一体となって研究を行うための研究協定である。これにより、小規模な地域が強大な力を手にすることもあり得る。"
  MAN_PRC_technology_sharing_group_name: "中国共産党共同研究集団"
  MAN_PRC_technology_sharing_group_desc: "中国共産党が複数の領土を支配下に置いている今、両者の意思疎通を増やし、どちらかが取り残されないようにする必要がある。研究活動の協調は、この意思疎通にとって最も重要な部分の一つである。"
+ CZE_balkan_tech_sharing_group_name: "小協商科学委員会"
+ CZE_balkan_tech_sharing_group_desc: "バルカン諸国と[CZE.GetNameDef]が結んだ研究協定。大国と並ぶ工業技術を獲得することを主な目的としている。"
+ CZE_german_czechoslovak_equipment_design_group_name: "チェコスロヴァキア・ドイツ装備設計委員会"
+ CZE_german_czechoslovak_equipment_design_group_desc: "[GER.GetNameDef]と[CZE.GetNameDef]の科学者たちが共同で戦車と航空機の設計を始めている。"

@@ -127,3 +127,6 @@
  cobalt_sea_tt: "作为[PHI.GetNonIdeologyName]，使用潜艇实施一场成功的核突袭或热核突袭"
  the_neverending_story_tt: "作为中国军阀，控制所有中国起始核心地区并复辟为中华帝国"
  doctrine_of_choice_tt: "已完成同一学说线中的三个次要学说"
+ achievement_bought_cze_weapons: "通过$CZE_skoda_focus_category$决议购买捷克斯洛伐克武器"
+ CZE_capitulated_germany: "德国停止抵抗"
+ i_didnt_hear_no_bell_tt: "成立了$CZE_second_republic_democratic$"

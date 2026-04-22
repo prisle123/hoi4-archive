@@ -336,6 +336,11 @@
  sp_air_radar_desc: "Dzięki impulsom fal radiowych i wykrywaniu ich odbijania, możemy śledzić ruchy wroga z ziemi, powietrza oraz morza."
  sp_air_centimetric_radar: "Radar centymetrowy"
  sp_air_centimetric_radar_desc: "Stworzenie radaru centymetrowego umożliwi wykrywanie o wiele mniejszych celów i stosowanie o wiele mniejszych anten."
+ #Project Wolfdog
+ sp_land_large_caliber_kinetic_energy_sabot: "Wielkokalibrowe kinetyczne pociski z sabotem"
+ sp_land_large_caliber_kinetic_energy_sabot_desc: "Większy kaliber artyleryjskiej amunicji przeciwpancernej przeznaczonej do penetracji fortyfikacji."
+ GER_sp_land_large_caliber_kinetic_energy_sabot: "Pocisk Röchlinga"
+ #End Wolfdog
  sp_land_reward_land_cruiser_overheating: "Przegrzewanie podczas testów"
  sp_land_reward_land_cruiser_chassis: "Niepowodzenie próby obciążeniowej podwozia"
  sp_land_reward_land_cruiser_chassis_desc: "Podczas próby obciążeniowej podwozie konstrukcji ([SpecialProject.GetName]) okazało się niezdolne do przenoszenia ogromnego ciężaru, co skutkowało deformacją strukturalną pojazdu. Zespół projektowy spiera się, czy należy dodać wzmocnienia, które powiększą masę maszyny, czy zastosować lżejsze materiały, co z kolei może osłabić jej wytrzymałość."

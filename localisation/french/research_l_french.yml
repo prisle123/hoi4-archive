@@ -1334,6 +1334,8 @@
  sp_rockets_dual_chamber_rocket_engine_1_desc: "En ajoutant une seconde chambre de combustion aux moteurs, nous améliorons à la fois la durée effective de vol ainsi que l'efficacité de nos missiles."
  sp_rockets_dual_chamber_rocket_engine_2: "Moteurs-fusées à double combustion avancés"
  sp_rockets_dual_chamber_rocket_engine_2_desc: "De nouvelles améliorations sur le moteur à double combustion ont permis un perfectionnement du modèle déjà très efficient."
+ sp_advance_sabot_shells: "Sabots avancés"
+ sp_advance_sabot_shells_desc: "Les nouvelles ressources accordées à la recherche dans le domaine de la munition perforante nous offrent des moyens inédits de stabiliser tous types de projectiles."
  reinforced_wings_mothership: "Ailes renforcées de vaisseau mère"
  reinforced_wings_mothership_desc: "Sans leur vaisseau mère, ces chasseurs s'avèreraient bien moins efficaces. C'est pourquoi il est important d'améliorer les ailes de cet appareil gigantesque pour assurer la survie de ces escadrilles à moindre coût."
  miniature_fighters: "Chasseurs miniatures"

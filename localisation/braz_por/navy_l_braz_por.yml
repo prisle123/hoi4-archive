@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§YHabilitado§!"
  AUTOMATION_HOMEBASE_OFF: "§gDesabilitado§!"
  SEAZONE_MINIMUM_DOMINANCE: "£naval_dominance_texticon£ mínima para controle de zona: $VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HDominância naval§!\nExigimos uma taxa de controle de §Y60%§! ou mais para considerar a região totalmente sob controle aliado."
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HDominância naval§!\nExigimos uma taxa de controle de §Y66%§! ou mais para considerar a região totalmente sob controle aliado."
  NAVAL_DOMINANCE_EXPLANATION: "§YDominância naval§! \nMede a eficácia de uma embarcação em controlar uma zona marítima específica."
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§HConsumo de suprimentos: $VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "Valor base: $VAL|H$"
