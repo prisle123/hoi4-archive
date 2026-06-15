@@ -2219,7 +2219,7 @@
  wuw_GER_diplomacy.99.a: "Großartig!"
  wuw_GER_diplomacy.101.t: "[FROM.GetNameDefCap] lehnt Technologieaustauschinitiative ab"
  wuw_GER_diplomacy.101.desc: "Trotzt der offensichtlichen Vorteile hat es [FROM.GetNameDef] abgelehnt, unserer Technologieaustauschinitiative beizutreten. Man gibt an, man könne uns nicht trauen, und hat klargemacht, dass wir nicht erneut fragen müssen."
- wuw_GER_diplomacy.101.a: "Unvernünftige Narren …"
+ wuw_GER_diplomacy.101.a: "Unvernünftige Narren ..."
  wuw_GER_diplomacy.102.t: "[FROM.GetNameDefCap] stimmt Nichtangriffspakt zu"
  wuw_GER_diplomacy.102.desc: "Unser Vorschlag eines Nichtangriffspakts ist in [FROM.GetName] auf Zustimmung gestoßen. Von nun an werden wir beide von Aggressionen gegeneinander absehen. Wir sind sicher, dies wird von großem Nutzen für unsere Nationen sein."
  wuw_GER_diplomacy.102.a: "Großartig!"

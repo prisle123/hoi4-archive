@@ -377,7 +377,7 @@
  AAT_Sweden.19.t: "[SWE.GetNameDefCap] devolve Narvik"
  AAT_Sweden.19.desc: "É um dia glorioso para [Nor.GetNameDef], que está finalmente unificada. [SWE.GetNameDefCap] graciosamente aceitou nosso pedido para a devolução de Narvik, uma área protegida pelo governo [SWE.GetAdjective] durante a guerra. Oferecemos nossa mais profunda gratidão ao governo [SWE.GetAdjective], pois esse é realmente um sinal de que a forte ligação entre nossos países seguirá inabalada no futuro."
  AAT_Sweden.19.a: "A Noruega está completa novamente."
- AAT_Sweden.19_tt: "§Y[ROOT.GetNameDefCap]§! agora poderá condecorar §YComandantes de Campo§! com a §YCruz de Honra da Defesa Norueguesa§!."
+ AAT_Sweden.19_tt: "O governo §Y[ROOT.GetAdjective]§! agora poderá condecorar §YOficiais de Campo§! com a §YCruz de Honra da Defesa Norueguesa§!."
  AAT_Sweden.20.t: "[SWE.GetNameDefCap] se recusa a devolver Narvik"
  AAT_Sweden.20.desc: "Durante a guerra, [SWE.GetNameDef] descaradamente ocupou partes do nosso país sob o pretexto de \"salvar a população norueguesa de uma ocupação ainda pior\". No fim, isso não passou de uma desculpa para o governo [SWE.GetAdjective] poder concretizar suas próprias ambições territoriais, já que se recusaram a devolver o território ocupado citando \"problemas atuais de estabilidade e tensão mundial após a guerra\". Nós vemos essa ação pelo que realmente é, oportunismo básico e uma traição barata que ameaça a liberdade e integridade do nosso Estado. Narvik pertence à Noruega e permanecerá assim, à força se necessário."
  AAT_Sweden.20.a: "Então é guerra."

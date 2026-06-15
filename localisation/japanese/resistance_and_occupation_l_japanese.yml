@@ -184,3 +184,5 @@
  non_core_controller_desc: "この州を中核州としない国によって支配されている"
  independent_rule: "独立統治"
  princely_subjugation: "藩王の征服"
+ INS_direct_rule_occupation_law: "直接統治"
+ INS_local_autonomy_occupation_law: "地方自治"

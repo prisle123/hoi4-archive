@@ -369,6 +369,13 @@
  RAJ_has_met_with_kremlin_flag_NO_USSR: "A rencontré des groupes communistes étrangers"
  RAJ_communist_unions_promised_worker_safety_mission: "Honorer nos engagements auprès des syndicats"
  RAJ_communist_unions_promised_minimum_wage_mission: "$RAJ_communist_unions_promised_worker_safety_mission$"
+ GOE_form_hindustan_category: "L'unification de l'Hindoustan"
+ GOE_form_hindustan_category_desc: "Avec la conquête de toutes les terres indiennes, il est grand temps pour [ROOT.GetLeader] de déclarer l'unification de l'Hindoustan, afin d'attirer le soutien et l'attention vers notre grande nation."
+ GOE_form_hindustan: "Unir l'Hindoustan"
+ GOE_form_country_india_required_states_tt: "Contrôle tous les États §Yindiens§!"
+ GOE_form_country_pakistan_required_states_tt: "Contrôle tous les États §Ypakistanais§!"
+ GOE_form_country_india_coring_states_tt: "Tous les États §Yindiens§! deviennent des États nationaux"
+ GOE_form_country_pakistan_coring_states_tt: "Tous les États §Ypakistanais§! deviennent des États nationaux"
  ##############
  #### IRAN ####
  ##############
@@ -462,6 +469,7 @@
  IRQ_invite_to_federation: "Inviter §Y[FROM.OWNER.GetLeLaLNP] [FROM.OWNER.GetName]§! [ROOT.GetAuEnANP] [ROOT.GetName]"
  IRQ_invite_to_federation_africa: "$IRQ_invite_to_federation$"
  IRQ_inviting_to_federation_in_progress: "En train d'inviter d'autres nations dans la fédération."
+ is_the_current_invitation_target_of_IRQ_hashemite_flag: " A été invitée dans la fédération."
  IRQ_has_permanently_rejected_fed: "A rejeté définitivement l'adhésion."
  OMA_restore_order_in_the_interior: "Restaurer l'ordre sur le territoire"
  united_arab_republic_cat: "$IRQ_proclaim_united_arab_republic$"

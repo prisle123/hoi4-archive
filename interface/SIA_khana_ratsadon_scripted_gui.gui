@@ -1,0 +1,143 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "sia_khana_ratsadon_ui_window"
+		orientation = lower_left
+		position = { x = 0 y = 0 }
+		size = { width = 460 height = 370 }
+		clipping = no
+
+		background = {
+			name = "sia_khana_ratsadon_background"
+			quadTextureSprite = "GFX_tiled_plain_bg"
+		}
+
+		# Trait badge backgrounds — declared before text so they render beneath
+		iconType = {
+			name = "sia_khana_ratsadon_civilian_state_box"
+			spriteType = "GFX_trait_box_fuhrer"
+			position = { x = 115 y = 163 }
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "sia_khana_ratsadon_military_state_box"
+			spriteType = "GFX_trait_box_fuhrer"
+			position = { x = 345 y = 163 }
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "sia_khana_ratsadon_title"
+			position = { x = 0 y = 10 }
+			format = center
+			font = "hoi_36header"
+			text = "SIA_khana_ratsadon_inlay_title"
+			maxWidth = 460
+			maxHeight = 40
+		}
+
+		# Civilian wing — left half centre ~115px
+		iconType = {
+			name = "civilian_wing_status"
+			position = { x = 90 y = 55 }
+			spriteType = "GFX_idea_SIA_civillian_neutral"
+			tooltip = "SIA_civilian_wing_history_tt"
+		}
+
+		instantTextBoxType = {
+			name = "sia_khana_ratsadon_civilian_label"
+			position = { x = 40 y = 130 }
+			format = center
+			font = "hoi_18"
+			text = "SIA_civilian_wing_label"
+			maxWidth = 150
+			maxHeight = 22
+		}
+
+		instantTextBoxType = {
+			name = "sia_khana_ratsadon_civilian_state"
+			position = { x = 40 y = 153 }
+			format = center
+			font = "hoi_18"
+			context_aware_text = [SIA_GetCivilianWingState]
+			maxWidth = 150
+			maxHeight = 22
+		}
+
+		containerWindowType = {
+			name = "sia_khana_ratsadon_civilian_desc_container"
+			position = { x = 15 y = 182 }
+			size = { width = 195 height = 165 }
+			clipping = no
+
+			background = {
+				name = "sia_khana_ratsadon_civilian_desc_bg"
+				spriteType = "GFX_tiled_window_thin_border"
+			}
+
+			instantTextBoxType = {
+				name = "sia_khana_ratsadon_civilian_desc"
+				position = { x = 10 y = 10 }
+				format = center
+				font = "hoi_16mbs"
+				context_aware_text = [SIA_GetCivilianWingDesc]
+				maxWidth = 175
+				maxHeight = 145
+			}
+		}
+
+		# Military wing — right half centre ~345px
+		iconType = {
+			name = "military_wing_status"
+			position = { x = 320 y = 55 }
+			spriteType = "GFX_idea_SIA_military_neutral"
+			tooltip = "SIA_military_wing_history_tt"
+		}
+
+		instantTextBoxType = {
+			name = "sia_khana_ratsadon_military_label"
+			position = { x = 270 y = 130 }
+			format = center
+			font = "hoi_18"
+			text = "SIA_military_wing_label"
+			maxWidth = 150
+			maxHeight = 22
+		}
+
+		instantTextBoxType = {
+			name = "sia_khana_ratsadon_military_state"
+			position = { x = 270 y = 153 }
+			format = center
+			font = "hoi_18"
+			context_aware_text = [SIA_GetMilitaryWingState]
+			maxWidth = 150
+			maxHeight = 22
+		}
+
+		containerWindowType = {
+			name = "sia_khana_ratsadon_military_desc_container"
+			position = { x = 250 y = 182 }
+			size = { width = 195 height = 165 }
+			clipping = no
+
+			background = {
+				name = "sia_khana_ratsadon_military_desc_bg"
+				spriteType = "GFX_tiled_window_thin_border"
+			}
+
+			instantTextBoxType = {
+				name = "sia_khana_ratsadon_military_desc"
+				position = { x = 10 y = 10 }
+				format = center
+				font = "hoi_16mbs"
+				context_aware_text = [SIA_GetMilitaryWingDesc]
+				maxWidth = 175
+				maxHeight = 145
+			}
+		}
+	}
+
+}

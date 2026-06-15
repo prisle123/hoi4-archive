@@ -151,3 +151,7 @@
  CZE_balkan_tech_sharing_group_desc: "バルカン諸国と[CZE.GetNameDef]が結んだ研究協定。大国と並ぶ工業技術を獲得することを主な目的としている。"
  CZE_german_czechoslovak_equipment_design_group_name: "チェコスロヴァキア・ドイツ装備設計委員会"
  CZE_german_czechoslovak_equipment_design_group_desc: "[GER.GetNameDef]と[CZE.GetNameDef]の科学者たちが共同で戦車と航空機の設計を始めている。"
+ cominwealth_allied_research_name: "共産連邦の研究"
+ cominwealth_allied_research_desc: "共産連邦の構成国により研究された技術の研究時間が短縮された。"
+ siam_tech_sharing_group: "タイの研究"
+ siam_tech_sharing_group_desc: "他のタイの同盟国により研究された技術の研究時間が短縮された。"

@@ -151,7 +151,7 @@
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_TT: "§YDécision de prototype disponible§!"
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_DELAYED_TT: "Une décision de prototype est disponible pour :"
  SPECIAL_PROJECT_ITERATION_DEFAULT_CHOICE_REWARD_ALERT_DELAYED_TT: "Si aucun choix n'est sélectionné, l'option par défaut sera appliquée lors de la prochaine récompense d'itération."
- SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§GCliquer§! pour voir les effets."
+ SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§GCliquer§! pour voir les effets"
  SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_CHOICE: "Cette option sera automatiquement choisie si une nouvelle itération voit le jour ou si le projet est terminé."
  SPECIAL_PROJECT_AVAILABLE_ALERT_TT: "§YProjet spécial disponible§!"
  SPECIAL_PROJECT_AVAILABLE_ALERT_DELAYED_TT: "Vous pouvez lancer un projet spécial dans :"
@@ -188,7 +188,7 @@
  NOT_CAN_CONSTRUCT_BUILDING_IN_STATE: "Impossibilité de construire le bâtiment $BUILDING|Y$ dans l'État $STATE|Y$"
  CONSTRUCT_BUILDING_IN_STATE: "Construire le bâtiment $BUILDING|Y$ dans l'État $STATE|Y$"
  DISMANTLE_FACILITY_DESC_TT: "§GCliquer§! pour démanteler le bâtiment.\n\nCela prendra $DAYS|Y$ jour(s)."
- ABORT_DISMANTLE_FACILITY_DESC_TT: "§GCliquer§! pour interrompre le démantèlement du bâtiment."
+ ABORT_DISMANTLE_FACILITY_DESC_TT: "§GCliquer§! pour interrompre le démantèlement du bâtiment"
  ABORT_DISMANTLE_PROJECT_POPUP_DESC: "Interrompre le démantèlement du bâtiment ?"
  DISMANTLE_FACILITY_TT: "Démantèlement dans $DAYS|Y$ jours"
  DISMANTLE_FACILITY_PROGRESS: "$PROGRESS|0%Y$"
@@ -336,11 +336,11 @@
  sp_air_radar_desc: "Une technologie innovante permettant de suivre les mouvements ennemis, sur terre, en mer et dans le ciel grâce à des ondes radio projetées contre des parois."
  sp_air_centimetric_radar: "Radar centimétrique"
  sp_air_centimetric_radar_desc: "Ce type de radar est capable de détecter des cibles plus petites à l'aide d'antennes moins imposantes."
- #Project Wolfdog
+ #Pfot
  sp_land_large_caliber_kinetic_energy_sabot: "Sabot gros calibre à énergie cinétique"
  sp_land_large_caliber_kinetic_energy_sabot_desc: "Cette version gros calibre de la munition d'artillerie perforante est destinée à détruire des fortifications."
  GER_sp_land_large_caliber_kinetic_energy_sabot: "Obus Röchling"
- #End Wolfdog
+ #End Pfot
  sp_land_reward_land_cruiser_overheating: "Surchauffe lors des essais"
  sp_land_reward_land_cruiser_chassis: "Défaut de châssis sous pression"
  sp_land_reward_land_cruiser_chassis_desc: "Durant l'épreuve d'effort, le châssis du [SpecialProject.GetName] n'a pas pu résister sous tout le poids, ce qui a engendré des déformations structurelles. L'équipe de conception se demande si ce serait une bonne idée d'ajouter des renforts supplémentaires, au risque d'alourdir le véhicule, ou bien d'employer des matériaux plus légers, ce qui minimiserait la durabilité de l'engin."

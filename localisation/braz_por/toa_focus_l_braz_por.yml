@@ -1103,6 +1103,8 @@
  BRA_united_kingdom_of_brazil_and_portugal: "Reinos Unidos do Brasil e Portugal"
  BRA_united_kingdom_of_brazil_and_portugal_desc: "A restauração da Casa Imperial do Brasil reacendeu os sentimentos monarquistas também em Portugal. Talvez devêssemos usar isso como uma oportunidade para unificar nossas nações sob um único monarca novamente. Afinal de contas, ambas podem se beneficiar dos recursos e da experiência uma da outra."
  BRA_united_kingdom_of_brazil_and_portugal_tt: "Solicita a unificação de §Y[POR.GetFlag] [POR.GetNonIdeologyName]§! e §Y[BRA.GetFlag] [BRA.GetNonIdeologyName]§!. Se §Y[POR.GetFlag] [POR.GetNonIdeologyName]§! aceitar, o país se tornará um Estado súdito do Brasil. No entanto, eles podem oferecer uma alternativa ou recusar a proposta."
+ BRA_claim_the_french_throne: "Reivindicar o trono francês"
+ BRA_claim_the_french_throne_desc: "Por meio da Casa de Orléans e Bragança, nossa dinastia detém uma reivindicação ao trono francês que ainda não foi concretizada. Pedro Gastão de Orléans e Bragança deseja utilizá-la para expandir nosso domínio. Trata-se de uma oportunidade que não pode ser desperdiçada!"
  BRA_undermine_democracy: "Enfraquecer o Congresso Nacional"
  BRA_undermine_democracy_desc: "Nossos apoiadores mais influentes não estão satisfeitos com essa concessão por uma monarquia constitucional. Eles estão ficando impacientes e querem ver o monarca usar sua influência recém-conquistada para invalidar o Congresso Nacional, nomeando um novo Conselho de Ministros."
  BRA_use_the_national_security_law: "Utilizar a Lei de Segurança Nacional"

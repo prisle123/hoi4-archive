@@ -1,0 +1,97 @@
+		
+guiTypes = {
+
+	containerWindowType = {
+		name = "AST_cabinet_trust_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 150 }
+
+		#BACKGROUND 
+		iconType = {
+			name ="AST_cabinet_trust_bg"
+			spriteType = "GFX_AST_cabinet_trust_bg"
+			position = { x=0 y=-22 }
+		}
+
+		#STATE 1 
+		iconType = {
+			name ="AST_cabinet_trust_state_1_logo"
+			orientation = center_up
+			position = { x=-238	 y=20 }
+		}
+
+		#STATE 2 
+		iconType = {
+			name ="AST_cabinet_trust_state_2_logo"
+			orientation = center_up
+			position = { x=-140	 y=20 }
+		}
+
+		#STATE 3 
+		iconType = {
+			name ="AST_cabinet_trust_state_3_logo"
+			orientation = center_up
+			position = { x=-43	 y=20 }
+		}
+
+		#STATE 4 
+		iconType = {
+			name ="AST_cabinet_trust_state_4_logo"
+			orientation = center_up
+			position = { x=54	 y=20 }
+		}
+
+		#STATE 5 
+		iconType = {
+			name ="AST_cabinet_trust_state_5_logo"
+			orientation = center_up
+			position = { x=152	 y=20 }
+		}
+
+		#TOOLTIP STATE 1
+		instantTextBoxType = {
+			name = "cabinet_trust_state_1_tooltip_fake"
+			position = { x = 5 y = 20 }
+			maxwidth = 90
+			maxHeight = 90
+			pdx_tooltip = AST_cabinet_trust_effects_1
+		}
+
+		#TOOLTIP STATE 2
+		instantTextBoxType = {
+			name = "cabinet_trust_state_2_tooltip_fake"
+			position = { x = 103 y = 20 }
+			maxwidth = 90
+			maxHeight = 90
+			pdx_tooltip = AST_cabinet_trust_effects_2
+		}
+
+		#TOOLTIP STATE 3
+		instantTextBoxType = {
+			name = "cabinet_trust_state_3_tooltip_fake"
+			position = { x = 200 y = 20 }
+			maxwidth = 90
+			maxHeight = 90
+			pdx_tooltip = AST_cabinet_trust_effects_3
+		}
+
+		#TOOLTIP STATE 4
+		instantTextBoxType = {
+			name = "cabinet_trust_state_4_tooltip_fake"
+			position = { x = 297 y = 20 }
+			maxwidth = 90
+			maxHeight = 90
+			pdx_tooltip = AST_cabinet_trust_effects_4
+		}
+
+		#TOOLTIP STATE 5
+		instantTextBoxType = {
+			name = "cabinet_trust_state_5_tooltip_fake"
+			position = { x = 395 y = 20 }
+			maxwidth = 90
+			maxHeight = 90
+			pdx_tooltip = AST_cabinet_trust_effects_5
+		}
+	}
+
+}

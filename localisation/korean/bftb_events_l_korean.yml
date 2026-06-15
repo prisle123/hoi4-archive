@@ -1626,7 +1626,7 @@
  bftb_news.10.a: "꿈이 실현되었군!"
  bftb_news.10.b: "이게 정말 [THIS.GetNameDef]에 필요한 일일까?" #THIS
  bftb_news.10.c: "이게 정말 발칸에 필요한 일인가?"
- bftb_news.10.d: "터무니없군!"
+ bftb_news.10.d: "말도 안 된다!"
  bftb_news.11.t: "[BUL.GetNameDefCap]에 접근하는 [GER.GetNameDef]"
  bftb_news.11.desc: "\n[BUL.GetAdjective] 정부가 [GER.GetAdjective](와)과의 관계를 강화하고 외국 자본 유입을 촉진하기 위해 여러 [GER.GetNameDef] 기업과 상업 협정을 체결했습니다.\n이 협정에 따라 [GER.GetAdjective] 투자자들은 [BUL.GetNameDef]에서 사업을 운영할 때 상당한 법적 혜택과 세금 감면을 받게 됩니다."
  bftb_news.11.a: "이는 우리와 [GER.GetNameDef]의 관계를 향상할 것이다!"

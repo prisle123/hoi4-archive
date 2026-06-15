@@ -102,7 +102,7 @@
  RELEASE_NATION_DESC: "Na pewno chcesz wyzwolić kraj ($COUNTRY|H$): $LIST|H$?"
  RETURN_TERRITORY_TITLE: "Zwróć terytorium"
  RETURN_TERRITORY_DESC: "Na pewno chcesz dokonać zwrotu: $LIST|H$ ($COUNTRY|H$)?"
- manage_occupied_territories: "§GKliknij, by zarządzać okupowanymi ziemiami.§!"
+ manage_occupied_territories: "§GKliknij, by zarządzać okupowanymi ziemiami§!"
  manage_occupied_territories_empty: "§RNie okupujesz żadnych ziem, którymi trzeba zarządzać.§!"
  manage_occupied_territories_puppet: "§RMusisz mieć większą autonomię, żeby uwalniać kraje.§!"
  manage_occupied_territories_desc: "§TMożesz zarządzać polityką okupacyjną zajmowanych prowincji narodowych innych krajów lub je wyzwolić.§!"

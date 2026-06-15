@@ -1103,6 +1103,8 @@
  BRA_united_kingdom_of_brazil_and_portugal: "Les Royaumes-Unis du Brésil et du Portugal"
  BRA_united_kingdom_of_brazil_and_portugal_desc: "La restauration de la maison impériale du Brésil a également ravivé les sentiments monarchistes au Portugal. Peut-être devrions-nous en profiter pour unifier à nouveau nos nations sous un seul monarque. Après tout, nous pourrions bénéficier de nos ressources et expertise respectives."
  BRA_united_kingdom_of_brazil_and_portugal_tt: "Demande d'unification entre §Y[POR.GetFlag][POR.GetNonIdeologyName]§! et §Y[BRA.GetFlag][BRA.GetNonIdeologyName]§!. Si §Y[POR.GetFlag][POR.GetNonIdeologyName]§! accepte, devient une dépendance du Brésil. Il est toutefois possible de proposer une alternative ou de rejeter la proposition."
+ BRA_claim_the_french_throne: "Revendiquer le trône de France"
+ BRA_claim_the_french_throne_desc: "Grâce à la famille d'Orléans-Bragance, notre dynastie peut légitimement prétendre au trône français qui est actuellement vacant. Pedro Gastão compte bien ressusciter la monarchie de ce pays pour étendre notre royaume. C'est une brillante idée !"
  BRA_undermine_democracy: "Discréditer le Congrès national"
  BRA_undermine_democracy_desc: "Nos partisans les plus influents ne sont pas satisfaits de ce compromis de monarchie constitutionnelle, ils perdent patience. Ils veulent voir le monarque user de sa nouvelle puissance pour renverser le Congrès national en nommant un nouveau Conseil des ministres."
  BRA_use_the_national_security_law: "Mettre en avant les lois sur la sécurité nationale"

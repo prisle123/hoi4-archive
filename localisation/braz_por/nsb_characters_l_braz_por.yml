@@ -113,6 +113,7 @@
  SOV_metropolitan_meletius: "Meletius metropolitano"
  SOV_patriarch_meletius: "Patriarca Meletius"
  #ARGENTINA
+ #'Hilter' over 'Hitler' is intentional
  ARG_senor_hitler: "Señor Hilter"
  #AUSTRIA
  AUS_kurt_schuschnigg: "Kurt Schuschnigg"
@@ -828,11 +829,12 @@
  HOL_pieter_sjoerds_gerbrandy: "Pieter Sjoerds Gerbrandy"
  HOL_johannes_theodorus_furstner: "Johannes Theodorus Furstner"
  #DUTCH EAST INDIES
- INS_sukarno: "Sukarno"
- INS_a_t_van_starkenborgh_stachouwer: "A. T. van Starkenborgh Stachouwer"
- INS_amir_sjarifuddin_harahap: "Amir Sjarifuddin Harahap"
- INS_suharto: "Suharto"
- INS_sutan_sjahrir: "Sutan Sjahrir"
+ #INS_sukarno: "Sukarno"
+ #INS_a_t_van_starkenborgh_stachouwer: "A. T. van Starkenborgh Stachouwer"
+ #INS_amir_sjarifuddin_harahap: "Amir Sjarifuddin Harahap"
+ #INS_suharto: "Suharto"
+ #INS_sutan_sjahrir: "Sutan Sjahrir"
+ #moved to taog files
  #BRITISH RAJ
  RAJ_lord_linlithgow: "Lord Linlithgow"
  RAJ_p_krishna_pillai: "P. Krishna Pillai"

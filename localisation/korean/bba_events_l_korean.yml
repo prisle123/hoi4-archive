@@ -1837,7 +1837,7 @@
  BBA_switzerland.5.b: "[SWI.GetAdjective]의 문제에 개입할 필요는 없다."
  #Germany INSISTS on harsher trial
  BBA_switzerland.6.t: "[GER.GetAdjective]의 다비드 프랑크푸르터에 대한 엄벌 촉구"
- BBA_switzerland.6.desc: "구스틀로프의 미망인을 대변하는 법률 대리인은 의심할 여지 없이 [?SWI.SWI_fascist_germany.GetNameDef]에서 보낸 사람으로, 다비드 프랑크푸르터가 가혹한 처벌을 받도록 연방 평의회가 법원을 움직이는 걸 바라고 있습니다. 이는 매우 이례적인 요청이며, 의심할 여지 없이 [?SWI.SWI_fascist_germany.GetNameDef] 측이 우리에게 영향력을 행사하려는 겁니다.\n\n이 요청을 받아들이면 우리의 국제적 평판에 금이 갈 수 있습니다. 그렇다고 성급히 거절하면 그들의 분노가 우리를 기다리고 있을 겁니다."
+ BBA_switzerland.6.desc: "구스틀로프의 미망인을 대변하는 법률 대리인은 의심할 여지 없이 [?SWI.SWI_fascist_germany.GetNameDef]에서 보낸 사람으로, 다비드 프랑크푸르터가 가혹한 처벌을 받도록 연방평의회가 법원을 움직이는 걸 바라고 있습니다. 이는 매우 이례적인 요청이며, 의심할 여지 없이 [?SWI.SWI_fascist_germany.GetNameDef] 측이 우리에게 영향력을 행사하려는 겁니다.\n\n이 요청을 받아들이면 우리의 국제적 평판에 금이 갈 수 있습니다. 그렇다고 성급히 거절하면 그들의 분노가 우리를 기다리고 있을 겁니다."
  BBA_switzerland.6.a: "법원이 판단할 문제다."
  BBA_switzerland.6.b: "고려해 보겠다."
  #Frankfurter "dies" under mysterious circumstances
@@ -1878,7 +1878,7 @@
  SWI_frankfurter_german_expectations_TT: "§Y[GER.GetNameDefCap]§! 측은 §Y다비드 프랑크푸르터§!에게 더욱 가혹한 판결이 내려지길 기대합니다."
  #### Other Events ####
  BBA_switzerland.14.t: "200명의 탄원"
- BBA_switzerland.14.desc: "몇몇 우익 단체가 힘을 합쳐 200명의 서명이 담긴 탄원서를 연방 평의회에 제출했습니다. 탄원서에는 [ROOT.GetNameDef](이)가 되도록 중립을 유지하면서 [SWI_get_fascist_neighbor] 측과 더 우호적인 관계를 맺었으면 한다고 적혀 있었습니다. 이 목표를 달성하기 위해 우익 단체들은 [SWI_get_fascist_neighbor](을)를 부정적으로 말하는 언론을 가혹하게 검열해 그들의 분노를 피해야 한다고 제안했습니다."
+ BBA_switzerland.14.desc: "몇몇 우익 단체가 힘을 합쳐 200명의 서명이 담긴 탄원서를 연방평의회에 제출했습니다. 탄원서에는 [ROOT.GetNameDef](이)가 되도록 중립을 유지하면서 [SWI_get_fascist_neighbor] 측과 더 우호적인 관계를 맺었으면 한다고 적혀 있었습니다. 이 목표를 달성하기 위해 우익 단체들은 [SWI_get_fascist_neighbor](을)를 부정적으로 말하는 언론을 가혹하게 검열해 그들의 분노를 피해야 한다고 제안했습니다."
  BBA_switzerland.14.a: "잘 달래주되 요청은 무시하자."
  BBA_switzerland.14.b: "일리가 있군."
  BBA_switzerland.14.c: "그들은 스위스의 적이니 체포해라!"
@@ -1939,7 +1939,7 @@
  BBA_SWI_annual_election.1.c: "[SWI_GetCouncilor3name](을)를 선출해라."
  SWI_first_election_text: "평의원이 연방 대통령이 되면 더 이상 정치 고문으로는 임명될 수 없지만, 강력한 결정을 내릴 수 있습니다. 정치 고문 자리가 너무 오랫동안 비어 있으면 불이익을 받게 되므로 자리를 빠르게 채워야 합니다.\n\n"
  BBA_SWI_annual_election.2.t: "연방 대통령 긴급 투표!"
- BBA_SWI_annual_election.2.desc: "전례 없이 [?SWI_ousted_president.GetName](이)가 축출되고 연방 평의회가 정치적 불안에 휩싸인 후, 다시 연방 대통령을 선출할 때가 왔습니다. 새로운 대통령이 [SWI.GetNameDef]의 흐름을 바로잡고, 나라의 마지막 대통령이 되지 않기를 바랍시다."
+ BBA_SWI_annual_election.2.desc: "전례 없이 [?SWI_ousted_president.GetName](이)가 축출되고 연방평의회가 정치적 불안에 휩싸인 후, 다시 연방 대통령을 선출할 때가 왔습니다. 새로운 대통령이 [SWI.GetNameDef]의 흐름을 바로잡고, 나라의 마지막 대통령이 되지 않기를 바랍시다."
  BBA_SWI_annual_election.2.a: "[SWI_GetCouncilor1name](을)를 선출해라."
  BBA_SWI_annual_election.2.b: "[SWI_GetCouncilor2name](을)를 선출해라."
  BBA_SWI_annual_election.2.c: "[SWI_GetCouncilor3name](을)를 선출해라."

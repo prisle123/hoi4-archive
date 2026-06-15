@@ -712,7 +712,7 @@
  PHI_modify_economic_recovery_dynamic_modifier_tt: "Modifie §Y$PHI_economic_growth_dynamic_modifier$§! ainsi :"
  PHI_replace_economic_dynamic_modifier_tt: "Remplace §Y$PHI_recovering_economy_dynamic_modifier$§! par §Y$PHI_economic_growth_dynamic_modifier$§!\nChangements concrets :\nSeuil de tension pour intégrer une faction : §G-[?PHI_the_great_depression_join_faction_tension|%0]§!"
  PHI_pearl_of_the_orient_dynamic_modifier: "$PHI_pearl_of_the_orient_seas$"
- PHI_pearl_of_the_orient_dynamic_modifier_desc: "Nous vivons actuellement un véritable boom économique ! Libres de toute contrainte coloniale, nous pouvons désormais prendre les décisions les plus bénéfiques pour notre nation, prouvant que l'Asie du Sud-Est peut elle aussi connaître la prospérité."
+ PHI_pearl_of_the_orient_dynamic_modifier_desc: "Nous vivons actuellement un véritable boom économique ! Libres de toute contrainte coloniale, nous pouvons désormais prendre les décisions les plus bénéfiques pour notre nation, prouvant que l'Asie du Sud-Est peut, elle aussi, connaître la prospérité."
  PHI_remove_economic_recovery_dynamic_modifier_tt: "Remplace §Y$PHI_economic_growth_dynamic_modifier$§! par §Y.$PHI_pearl_of_the_orient_dynamic_modifier$§!\nChangements concrets :"
  PHI_modify_pearl_of_the_orient_dynamic_modifier_tt: "Modifie §Y$PHI_pearl_of_the_orient_dynamic_modifier$§! ainsi :"
  ## Philippine Army

@@ -12,7 +12,7 @@
  STATE_BUILDING_SOME_KNOWN_FACTORIES: "Nossas informações indicam que há pelo menos $AMOUNT|H$ fábricas neste estado"
  STATE_CONVERT_BUILDING: "Converter $FACTOR|H$ $BUILDING_FROM$ em §H1§! $BUILDING_TO$."
  STATE_CONTROLLER: "Controlador: @$TAG$$COUNTRY|H$"
- STATE_CONTROLLER_DELAYED: "§GClique para abrir Diplomacia.§!"
+ STATE_CONTROLLER_DELAYED: "§GClique para abrir Diplomacia§!"
  STATE_OWNER: "Proprietário: @$TAG$$COUNTRY|H$"
  STATE_OWNER_CORE: "§GEstado central§!"
  STATE_OWNER_NON_CORE: "§YEstado colonial§!"

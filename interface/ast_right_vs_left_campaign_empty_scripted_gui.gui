@@ -1,0 +1,54 @@
+@POSTERS_Y = 0
+@TEXT_LEFT_X = 15
+@TEXT_CENTER_X = 170
+@TEXT_RIGHT_X = 315
+@TEXTS_Y = 215
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "ast_right_vs_left_campaign_empty_ui_window"
+		orientation = lower_left
+		position = { x = 0 y = 0 }
+		size = { width = 651 height = 481 }
+		clipping = no
+
+		#BACKGROUND
+		background = {
+			name = "background"
+			quadTextureSprite="GFX_AST_right_vs_left_campaign_decor_bg"
+			alwaystransparent = yes
+		}
+
+		#GREY LAYER
+		background = {
+			name = "background"
+			quadTextureSprite="GFX_tiled_transparent_bg"
+			alwaystransparent = yes
+		}
+
+
+		#TITLE [Democratic Elections]
+		instantTextBoxType = {
+			name ="AST_right_vs_left_campaign_title_name"
+			position = { x = 0 y = 3 }
+			format = center
+			font = "hoi_36header"
+			text = "AST_right_vs_left_campaign_title_text"
+			maxWidth = 651
+			maxHeight = 40
+		}
+
+		#LOCKED TT
+		instantTextBoxType = {
+			name ="AST_bg_empty_text"
+			position = { x = 20 y = 55 }
+			format = center
+			font = "hoi_30header"
+			text = "AST_bg_empty_text_tt"
+			maxWidth = 611
+			maxHeight = 417
+		}
+
+	}
+}

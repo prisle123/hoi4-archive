@@ -247,6 +247,8 @@
  MUN_czech.1054.a: "他国の拡大に抵抗するためには、我々も拡大しなければならない。"
  MUN_czech.1055.t: "[SOV.GetAdjective]の義勇軍が到着"
  MUN_czech.1055.d: "空輸兵站における前例のない偉業である。[SOV.GetNameDef]は我々の目下の戦争努力を支援するため、空軍を使って数個師団の義勇兵を[73.GetName]の空港に配備した。"
+ MUN_czech.1056.t: "[FROM.GetName]が[975.GetName]を要求"
+ MUN_czech.1056.d: "かつて第一次世界大戦後のパリ講和会議で提案されたように、[CZE.GetNameDef]は同盟国である[YUG.GetNameDef]へと通じる回廊が同盟の安全保障上必要であると表明した。この目標を達成するために、[FROM.GetAdjective]の代表団は最後通牒として、我々に[975.GetName]の割譲を要求している。"
  #THE FALL OF THE REPUBLIC EVENTS#
  MUN_the_fall_of_the_republic.1.t: "大規模な抗議活動の勃発"
  MUN_the_fall_of_the_republic.1.d: "[ROOT.GetLeader]が最近下した、ズデーテンラントを放棄する決断は、全国で抗議活動を引き起こしている。政治と軍の指導者たちは、絶望的な状況下での無意味な抵抗を避け、流血を回避したいと考えていたが、国民の多くは、彼らが間違った判断を下したと感じている。一部の政治勢力は、この混乱を機に自らの目的を推進するため動き始めている。"
@@ -316,6 +318,10 @@
  MUN_slovakia_little_war.4.t: "[71.Getname]における膠着状態"
  MUN_slovakia_little_war.4.d: "全力を尽くしたにもかかわらず、我が軍は[71.Getname]における戦闘で勝ち切ることができかなった。開戦までに十分な弾薬と車両装備を準備できなかったのが大きな要因だ。大きな痛手ではあるが、この戦闘に参加した指揮官たちには多くの学びがあったことだろう。"
  MUN_slovakia_little_war.4.a: "残念だ。"
+ ##Exile##
+ MUN_czech_exile.1.t: "[CZE.GetAdjective]の亡命者が[ROOT.GetNameDef]に到着"
+ MUN_czech_exile.1.d: "ミュンヘン会談を受けて[GER.GetNameDef]が解体された後、[CZE.GetAdjective]の亡命者たちは我が国を含む多くの国々にたどり着いた。彼らは我々を支援するために武器を取る意思があり、いつの日か我々の支援を受けて祖国を解放することを望んでいる。"
+ MUN_czech_exile.1.a: "歓迎する。"
  ##NEWS EVENTS##
  MUN_czech.news.1.t: "ズデーテンラント危機"
  MUN_czech.news.1.desc: "ズデーテンラントの住民が[CZE.getnameDef]に対して武装反乱を始めた。ズデーテンラントの準軍事組織が各地域の警察署や政府施設への攻撃を開始したとの報告が相次いでいる。これは、[FROM.getname]が同地域を併合する意向を示した最近の知らせをきっかけとしている。\n\nこれらの反乱は[FROM.getname]と[CZE.GetNameDef]との間のより大規模な衝突の前兆のように思える。実際、この衝突はもう避けられないものだろう。"

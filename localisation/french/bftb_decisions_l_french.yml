@@ -392,7 +392,7 @@
  TUR_put_new_safety_regulations_regarding_the_operation_of_aircraft_into_effect: "Légiférer sur la sécurité aérienne"
  TUR_put_new_safety_regulations_regarding_the_operation_of_aircraft_into_effect_desc: "Nous avons toujours été fiers d'être à l'avant-garde des innovations aéronautiques en Europe. Mais les pilotes [Root.GetAdjMP] ont la réputation – parfaitement méritée – d'être des fous furieux."
  TUR_etatism_crisis_1: "Inflation croissante"
- TUR_etatism_crisis_1_desc: "Tenter à la fois de préserver le modèle économique étatiste et d'adopter une économie de guerre pose de nombreux problèmes."
+ TUR_etatism_crisis_1_desc: "$TUR_etatism_crisis_1_desc$"
  TUR_etatism_crisis_2: "Dévaluation de la livre"
  TUR_etatism_crisis_2_desc: "$TUR_etatism_crisis_1_desc$"
  TUR_etatism_crisis_3: "Aggravation de la récession"

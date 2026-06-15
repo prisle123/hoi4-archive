@@ -28,6 +28,8 @@
  SEA_japan_foreign_policy.4.desc: "Uma delegação do governo [FROM.GetAdjective] nos abordou com uma proposta de cooperação em sua missão para dominar o continente asiático, exigindo que ingressemos em suas guerras contemporâneas e futuras. Não parece que eles aceitarão \"não\" como resposta, mas será que isso nos beneficiará?"
  SEA_japan_foreign_policy.4.a: "Juntos, seremos mais fortes."
  SEA_japan_foreign_policy.4.b: "Isso vai de encontro aos nossos princípios de neutralidade!"
+ SEA_japan_foreign_policy.4.c: "Estamos no meio de uma guerra! Peça que esperem."
+ SEA_japan_foreign_policy.4.c_tt: "Precisaremos responder quando a guerra limitada terminar."
  SEA_japan_foreign_policy.5.t: "Governo [FROM.GetAdjective] aceita nossa oferta"
  SEA_japan_foreign_policy.5.desc: "[FROM.GetLeader] enxergou a razão e decidiu que toda a documentação necessária será assinada para facilitar a entrada d[FROM.GetNameDef] em nossa facção. Hoje é um dia de celebração!"
  SEA_japan_foreign_policy.5.a: "Como deveria ser."

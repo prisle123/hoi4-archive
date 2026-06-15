@@ -234,7 +234,7 @@
  SWE_historical_trade_with_Germany: "Commerce historique avec les [GER.GetHabitants]"
  SWE_formation_flying_idea: "$SWE_formation_flying$"
  SWE_marauder_bombers_idea: "$SWE_marauder_bombers$"
- SWE_radiotjanst_democratic: "$SWE_radiojanst$"
+ SWE_radiotjanst_democratic: "Radiotjänst"
  SWE_radiotjanst_fascism: "Dagens Sanning"
  SWE_radiotjanst_unaligned: "Konungens Dagliga"
  SWE_radiotjanst_communism: "Folkets Radio"

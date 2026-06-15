@@ -151,3 +151,7 @@
  CZE_balkan_tech_sharing_group_desc: "Porozumienie badawcze między głównymi krajami bałkańskimi a [CZE.GetAdjective] władzami w celu dotrzymania kroku większym krajom w zakresie technologii przemysłowej."
  CZE_german_czechoslovak_equipment_design_group_name: "Czechosłowacko-niemiecki komitet projektowania wyposażenia"
  CZE_german_czechoslovak_equipment_design_group_desc: "Rozpoczęła się współpraca [GER.GetAdjective] i [CZE.GetAdjective] naukowców nad projektami samolotów i czołgów."
+ cominwealth_allied_research_name: "Badania Wspólnoty Narodów"
+ cominwealth_allied_research_desc: "Krótszy czas badań nad technologiami, które opracowują członkowie Wspólnoty Narodów."
+ siam_tech_sharing_group: "Badania tajskie"
+ siam_tech_sharing_group_desc: "Krótszy czas badań nad technologiami opracowywanymi przez inne sojusznicze państwa tajskie."

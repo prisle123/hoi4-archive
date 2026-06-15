@@ -164,7 +164,7 @@
  NORDIC_is_northern_sea_state: "§Y북해§! 해안에 접함"
  NORDIC_is_danish_belt_state: "§Y덴마크 벨트 해협§! 해안에 접함"
  NORDIC_number_of_technologies_TT: "연구된 기술: §Y[?num_researched_technologies]§!"
- NORDIC_unlocks_reaching_out_to_our_neighbors_TT: "공용 중점 §Y$NORDIC_reaching_out_to_our_neighbors$§! 잠금 해제"
+ NORDIC_unlocks_reaching_out_to_our_neighbors_TT: "§Y$NORDIC_reaching_out_to_our_neighbors$§! 공용 중점 잠금 해제"
  NORDIC_unlocks_the_nordic_march_TT: "공용 중점 §Y$NORDIC_the_nordic_march$§! 잠금 해제"
  NORDIC_unlocks_to_arms_against_tyranny_TT: "공용 중점 §Y$NORDIC_to_arms_against_tyranny$§! 잠금 해제"
  NORDIC_is_joint_focus_member_TT: "§Y[NORDIC_get_alliance_name]§!의 일원임"
@@ -241,7 +241,7 @@
  DEN_loses_one_offmap_civ_tt: "([DEN.GetFlag][DEN.GetNameDefCap]) 오프맵 §Y$industrial_complex$§! §R1§!개 제거."
  DEN_loses_two_offmap_civ_tt: "([DEN.GetFlag][DEN.GetNameDefCap]) 오프맵 §Y민간공장§! §R2§!개 제거."
  #Modifiers
- DEN_modify_occupation_laws_dynamic_modifier: "§Y$DEN_occupation_laws_dynamic_modifier$§! 변동치"
+ DEN_modify_occupation_laws_dynamic_modifier: "§Y$DEN_occupation_laws_dynamic_modifier$§! 변동치:"
  add_to_faction_tt: "세력에 추가"
  form_north_sea_empire_norway_required_states_tt: "§Y노르웨이§! 본토의 모든 주 지배."
  form_north_sea_empire_swedish_required_states_tt: "§Y$STATE_138$§! 및 §Y$STATE_915$§! 지배."

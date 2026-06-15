@@ -56,8 +56,8 @@
  CZE_rut_comprise_agreement_modifier: "カルパト・ウクライナ自治条約" #Can't use [RUT.Getname] in the context this is used in
  CZE_improve_cross_border_rail_connections_modifier: "国境横断鉄道の接続改善"
  #National Spirits
- CZE_taticek_of_czechoslovakia: "タティーネク"
- CZE_taticek_of_czechoslovakia_desc: "「タティーネク（国家の父）」の愛称で呼ばれるトマーシュ・マサリクは、チェコスロヴァキア建国以来この国の礎となってきた存在である。不可能と思われた合意の形成や、解決困難な難局の数々を、マサリクは奇跡的に何度も乗り越え、チェコスロヴァキアの成長を助けてきた。大統領の座を退いた後ですらも、その影響力は絶大であり、彼の提言は助言というよりも命令として指導者層に受け止められている。"
+ CZE_taticek_of_czechoslovakia: "タティーチェク・マサリク"
+ CZE_taticek_of_czechoslovakia_desc: "「タティーチェク・マサリク（国家の父）」の愛称で呼ばれるトマーシュ・マサリクは、チェコスロヴァキア建国以来この国の礎となってきた存在である。不可能と思われた合意の形成や、解決困難な難局の数々を、マサリクは奇跡的に何度も乗り越え、チェコスロヴァキアの成長を助けてきた。大統領の座を退いた後ですらも、その影響力は絶大であり、彼の提言は助言というよりも命令として指導者層に受け止められている。"
  CZE_industrialists_veto: "実業家の拒否権"
  CZE_industrialists_veto_desc: "[CZE.GetNameDef]最大級のコングロマリットのトップに立つ実業家たちは我が国の政治に対して多大な影響力を有している。経済政策の問題に関して彼らの懸念事項を無視することはできず、経済動員は彼らが最も激しく抵抗する施策の一つである。"
  CZE_agrarian_politics_1: "農業政治"
@@ -105,6 +105,7 @@
  CZE_vitkovice_mining_and_metallurgical_company: "ヴィートコヴィツェ鉱業冶金会社"
  CZE_joint_stock_schemes_idea_aat: "ジョイントストック・カンパニー"
  CZE_joint_stock_schemes_idea_aat_desc: "チェコ企業の多くは、政治的またはファシズム的な困難に直面しながらも成長を維持するため、ジョイントストック（共同出資）の仕組みを活用している。"
+ CZE_powerhouse_of_europe_idea_desc: "$CZE_giant_of_central_europe_industry_desc$"
  CZE_national_defense_act_idea: "国防法"
  CZE_mobilize_the_reserves_idea: "予備師団の動員"
  CZE_rapid_response_divisions_idea: "緊急対応師団"
@@ -128,8 +129,10 @@
  CZE_adminstrative_chaos: "行政の混乱"
  CZE_semi_constitutional_constitution: "改正された憲法"
  CZE_semi_constitutional_constitution_desc: "[ROOT.GetNameDef]の新たな憲法は、市民の代表たる政府という民主主義的側面と、君主による干渉権を定め、安全と安定を確保している。"
+ CZE_emergency_measures_idea: "$CZE_emergency_measures$"
  CZE_a_modern_navy_idea: "近代的な海軍"
  CZE_bastion_of_liberty_idea: "自由の砦"
+ CZE_wielding_the_hammer_idea: "立法府の掌握"
  CZE_leveraged_sokol: "強化されたソコル"
  CZE_truth_prevails_idea: "真実は勝つ"
  CZE_standing_against_the_storm_idea: "嵐に立ち向かえ"
@@ -143,9 +146,12 @@
  CZE_federalization_agreement_puppets: "連邦化協定"
  CZE_strike_at_the_heart_of_bolshevism_idea: "[THIS.GetAntiSovietFocusName]"
  CZE_form_the_government_army_idea: "政府軍"
- CZE_GRE_paying_off_debt_small: "貿易債務の免除"
+ CZE_forgive_trading_debts_idea: "貿易債務の免除"
+ CZE_forgive_trading_debts_idea_desc: "$CZE_forgive_trading_debts_desc$"
  CZE_soviet_influence: "[SOV.GetAdjective]の影響力"
  CZE_mil_access_debuff_cancels_after_month_tt: "§Yこのアイデアは軍事通行権が終了してから30日後に取り消される。\n§!"
+ CZE_state_catholicism: "$POL_state_catholicism$"
+ CZE_exiles_idea_POL: "[CZE.GetAdjective]の亡命者"
  ##SLOVAKIA##
  #SLO Concerns
  SLO_CZE_skoda_works_2: "シュコダ・ブラチスラヴァ"
@@ -160,7 +166,7 @@
  SLO_CZE_skoda_plzen_tank_destroyer: "ザヴォディ・ジャシュケホ・ストロジャールストヴァ"
  SLO_CZE_skoda_armor: "シュコダ・ドゥブニツァ・ナド・ヴァホム"
  #SLO National Spirits
- SLO_slovak_army: "ブランナ・モック・スロベンスキー"
+ SLO_slovak_army: "スロバキア軍"
  SLO_clerical_politics: "聖職者政治"
  SLO_rapid_brigades: "高速旅団"
  ##CARPATHO-UKRAINIAN##
@@ -193,6 +199,7 @@
  ##TOOLTIPS##
  #MISC Tooltips
  generic_has_happen_tt: "§Yが起きた§!: "
+ generic_can_only_happen_once_tt: "この§Y効果§!は一度しか発生しない"
  CZE_skoda_texticon_ref: "£GFX_CZE_skoda_text_icon"
  CZE_the_fall_of_the_republic_warning_tt: "§Rこの選択は、我が国に破滅的な政治的結果をもたらす。その影響は予想もできない。§!"
  CZE_the_fall_of_the_republic_warning_munich_tt: "§Rズデーテンラントを手放す決定を下すと、我が国に破滅的な政治的結果をもたらす。だが、他に選択肢などあるだろうか？§!"
@@ -203,7 +210,7 @@
  #Custom Trigger Tooltips
  CZE_has_a_skoda_planes_focus_tt: "$CZE_skoda_texticon_ref$ 現在の§Yシュコダの優先度§!は§Y航空機重視§!"
  CZE_has_a_skoda_no_focus_tt: "$CZE_skoda_texticon_ref$ 現在の§Yシュコダの優先度§!は§Y重工業重視§!"
- CZE_has_a_skoda_no_focus_tt_NOT: "$CZE_skoda_texticon_ref$§Y重工業重視§!は現在の§Yシュコダの優先事項§!ではない"
+ CZE_has_a_skoda_no_focus_tt_NOT: "$CZE_skoda_texticon_ref$ §Y重工業重視§!は現在の§Yシュコダの優先事項§!ではない"
  CZE_has_a_skoda_infantry_focus_tt: "$CZE_skoda_texticon_ref$ 現在の§Yシュコダの優先度§!は§Y歩兵重視§!"
  CZE_has_a_skoda_tank_focus_tt: "$CZE_skoda_texticon_ref$ 現在の§Yシュコダの優先度§!は§Y戦車重視§!"
  CZE_has_a_skoda_naval_focus_tt: "$CZE_skoda_texticon_ref$ 現在の§Yシュコダの優先度§!は§Y海軍重視§!"
@@ -229,16 +236,16 @@
  CZE_current_skoda_priority_dynamic_local_no_core: "$CZE_current_skoda_priority_dynamic_local_start$§Y不明§!"
  CZE_current_skoda_priority_current_optimization_tier_tt: "現在の最適化レベル: §Y$CZE_skoda_optimization_tier_var_text$§!" #$CZE_skoda_optimization_tier_var_text$ is in the 'mun_decisions_l_english' file
  CZE_skoda_fast_optimization_tt_dynamic_local: "[CZE_skoda_fast_optimization_tt_dynamic_local]"
- CZE_skoda_fast_optimization_tt_on_dynamic: "§Yシュコダの優先事項§!の£GFX_prod_eff_cap最適化レベル上昇率は時間の経過とともに最大値に向かって上昇する。最大値: §G+100.0%§!\n\n"
+ CZE_skoda_fast_optimization_tt_on_dynamic: "§Yシュコダの優先事項§!の£GFX_prod_eff_cap 最適化レベル上昇率は時間の経過とともに最大値に向かって上昇する。最大値: §G+100.0%§!\n\n"
  CZE_skoda_fast_optimization_tt_off_dynamic: "\n"
  CZE_current_skoda_max_optimization_tier_start_tt: "最大最適化レベル:"
  CZE_current_skoda_max_optimization_tier_tt: "$CZE_current_skoda_max_optimization_tier_start_tt$ [?skoda_max_optimization_tier|G0]"
  CZE_skoda_works_dynamic_custom_modifier_space_tt: "\n"
  CZE_skoda_works_dynamic_custom_modifier_tt: "$CZE_current_skoda_priority_dynamic_local$ \n$CZE_current_skoda_priority_current_optimization_tier_tt$ \n$CZE_current_skoda_max_optimization_tier_tt$\n$CZE_skoda_fast_optimization_tt_dynamic_local$"
- skoda_optimization_tier_greater_than_three_tt: "$CZE_skoda_texticon_ref$現在の§Yシュコダの優先事項§!の£GFX_prod_eff_cap§W最適化レベル§!が§G3§!より高い"
- skoda_optimization_tier_greater_than_four_tt: "$CZE_skoda_texticon_ref$現在の§Yシュコダの優先事項§!の£GFX_prod_eff_cap§W最適化レベル§!が§G4§!より高い"
+ skoda_optimization_tier_greater_than_three_tt: "$CZE_skoda_texticon_ref$ 現在の§Yシュコダの優先事項§!の£GFX_prod_eff_cap §W最適化レベル§!が§G3§!より高い"
+ skoda_optimization_tier_greater_than_four_tt: "$CZE_skoda_texticon_ref$ 現在の§Yシュコダの優先事項§!の£GFX_prod_eff_cap §W最適化レベル§!が§G4§!より高い"
  #Skoda Works Scripted Effects Tooltips
- CZE_increase_skoda_max_optimization_tier_var_tt: "$CZE_modify_skoda_works_ns_intro_tt$最大£GFX_prod_eff_cap§W最適化レベル§!: §Y+1§!"
+ CZE_increase_skoda_max_optimization_tier_var_tt: "$CZE_modify_skoda_works_ns_intro_tt$最大£GFX_prod_eff_cap §W最適化レベル§!: §Y+1§!"
  #Hidden ideas of Skoda, localized for when shown in research/production bonus tab/tooltips
  CZE_skoda_no_focus_optimization_idea: "シュコダの優先度: 重工業重視"
  CZE_skoda_infantry_focus_optimization_idea: "シュコダの優先度: 歩兵重視"

@@ -151,7 +151,7 @@
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_TT: "§YDostępna decyzja o prototypie§!"
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_DELAYED_TT: "Dostępna jest decyzja o prototypie dla:"
  SPECIAL_PROJECT_ITERATION_DEFAULT_CHOICE_REWARD_ALERT_DELAYED_TT: "Jeśli nic nie wybierzesz, przy następnej nagrodzie zostanie wybrana domyślna opcja."
- SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§GKliknij§!, by zobaczyć efekty."
+ SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§GKliknij§!, by zobaczyć efekty"
  SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_CHOICE: "Opcja ta zostanie automatycznie wybrana, jeśli nowa wersja lub projekt zostaną ukończone."
  SPECIAL_PROJECT_AVAILABLE_ALERT_TT: "§YDostępny projekt specjalny§!"
  SPECIAL_PROJECT_AVAILABLE_ALERT_DELAYED_TT: "Projekt specjalny może rozpocząć się za:"
@@ -188,7 +188,7 @@
  NOT_CAN_CONSTRUCT_BUILDING_IN_STATE: "Nie może zbudować budynku $BUILDING|Y$ w: $STATE|Y$"
  CONSTRUCT_BUILDING_IN_STATE: "Zbuduj budynek $BUILDING|Y$ w: $STATE|Y$"
  DISMANTLE_FACILITY_DESC_TT: "§GKliknij§!, aby zlikwidować budynek placówki.\n\nZajmie to $DAYS|Y$ dni"
- ABORT_DISMANTLE_FACILITY_DESC_TT: "§GKliknij§!, aby przerwać likwidację budynku placówki."
+ ABORT_DISMANTLE_FACILITY_DESC_TT: "§GKliknij§!, aby przerwać likwidację budynku placówki"
  ABORT_DISMANTLE_PROJECT_POPUP_DESC: "Przerwać likwidację budynku placówki?"
  DISMANTLE_FACILITY_TT: "Likwidacja w ciągu $DAYS|Y$ dni"
  DISMANTLE_FACILITY_PROGRESS: "$PROGRESS|0%Y$"
@@ -336,11 +336,11 @@
  sp_air_radar_desc: "Dzięki impulsom fal radiowych i wykrywaniu ich odbijania, możemy śledzić ruchy wroga z ziemi, powietrza oraz morza."
  sp_air_centimetric_radar: "Radar centymetrowy"
  sp_air_centimetric_radar_desc: "Stworzenie radaru centymetrowego umożliwi wykrywanie o wiele mniejszych celów i stosowanie o wiele mniejszych anten."
- #Project Wolfdog
+ #Pfot
  sp_land_large_caliber_kinetic_energy_sabot: "Wielkokalibrowe kinetyczne pociski z sabotem"
  sp_land_large_caliber_kinetic_energy_sabot_desc: "Większy kaliber artyleryjskiej amunicji przeciwpancernej przeznaczonej do penetracji fortyfikacji."
  GER_sp_land_large_caliber_kinetic_energy_sabot: "Pocisk Röchlinga"
- #End Wolfdog
+ #End Pfot
  sp_land_reward_land_cruiser_overheating: "Przegrzewanie podczas testów"
  sp_land_reward_land_cruiser_chassis: "Niepowodzenie próby obciążeniowej podwozia"
  sp_land_reward_land_cruiser_chassis_desc: "Podczas próby obciążeniowej podwozie konstrukcji ([SpecialProject.GetName]) okazało się niezdolne do przenoszenia ogromnego ciężaru, co skutkowało deformacją strukturalną pojazdu. Zespół projektowy spiera się, czy należy dodać wzmocnienia, które powiększą masę maszyny, czy zastosować lżejsze materiały, co z kolei może osłabić jej wytrzymałość."

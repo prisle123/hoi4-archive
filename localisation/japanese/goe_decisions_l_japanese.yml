@@ -369,6 +369,13 @@
  RAJ_has_met_with_kremlin_flag_NO_USSR: "国外の共産主義団体と謁見した"
  RAJ_communist_unions_promised_worker_safety_mission: "労働組合の義務を果たす"
  RAJ_communist_unions_promised_minimum_wage_mission: "$RAJ_communist_unions_promised_worker_safety_mission$"
+ GOE_form_hindustan_category: "ヒンドゥスタンの統一"
+ GOE_form_hindustan_category_desc: "インド全土の征服が進む今、[ROOT.GetLeader]がヒンドゥスタン統一を宣言し、偉大な我が国への支持と注目を集める時である。"
+ GOE_form_hindustan: "ヒンドゥスタンの統一"
+ GOE_form_country_india_required_states_tt: "§Yインド§!のすべての州を支配している"
+ GOE_form_country_pakistan_required_states_tt: "§Yパキスタン§!の州を全て支配する"
+ GOE_form_country_india_coring_states_tt: "§Yインド§!のすべての州を中核州にする"
+ GOE_form_country_pakistan_coring_states_tt: "§Yパキスタン§!のすべての州を中核州にする"
  ##############
  #### IRAN ####
  ##############
@@ -462,6 +469,7 @@
  IRQ_invite_to_federation: "§Y[FROM.OWNER.GetNameDef]§!を[ROOT.GetNameDef]に招待。"
  IRQ_invite_to_federation_africa: "$IRQ_invite_to_federation$"
  IRQ_inviting_to_federation_in_progress: "最近、他国を連邦に勧誘中だ。"
+ is_the_current_invitation_target_of_IRQ_hashemite_flag: " 現在、連邦へ招待中"
  IRQ_has_permanently_rejected_fed: "恒久的に加盟を拒否した。"
  OMA_restore_order_in_the_interior: "内部の秩序を回復する"
  united_arab_republic_cat: "$IRQ_proclaim_united_arab_republic$"

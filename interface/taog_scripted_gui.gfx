@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ins_revolution_gui_background"
+		texturefile = "gfx//interface//GFX_ins_revolution_gui_background.dds"
+		noOfFrames = 1
+	}
+}

@@ -161,7 +161,7 @@
  IRQ_peshmerga_idea: "Peshmergas"
  IRQ_state_company_for_cement_idea: "Compagnie générale du ciment [ROOT.GetAdjMS]"
  IRQ_state_company_of_cotton_industries_idea: "Compagnie nationale du coton"
- IRQ_shia_resistance_modifier: "Tribus chiites rebelles"
+ IRQ_shia_resistance_modifier: "Tribus autonomes rebelles"
  #TRAITS
  independence_activist: "Activiste pour l'indépendance"
  anti_colonial_humanist: "Humaniste anti-colonial"
@@ -457,6 +457,7 @@
  idea_RAJ_thunder_elephants_no_gdr: "Éléphants puissants"
  idea_RAJ_ruler_of_the_peacock_throne: "Le trône du Paon"
  idea_SIA_army_of_siam: "Armée de Siam"
+ idea_SIA_army_of_siam_desc: "L'armée du Siam est le pilier de la défense nationale, son organisation et ses traditions définissant la façon dont les hommes et le matériel sont mobilisés et maintenus à travers le pays."
  idea_RAJ_bose_hiding_raj: "Bose voyage en cachette à travers l'Inde"
  idea_RAJ_bose_hiding_afghanistan: "Bose se cache en Afghanistan à destination de l'URSS"
  idea_RAJ_bose_hiding_ussr: "Bose se trouve en URSS"

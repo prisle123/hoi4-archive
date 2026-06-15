@@ -1,5 +1,5 @@
 ﻿l_polish:
- HOME_BASE_RIGHT_CLICK: "§GKliknij PPM§!, by wycentrować widok na porcie macierzystym."
+ HOME_BASE_RIGHT_CLICK: "§GKliknij PPM§!, by wycentrować widok na porcie macierzystym"
  HOME_BASE_NONE: "Brak"
  HOME_BASE_STATE_NAME: "$STATE$ ($LEVEL|Y$)"
  NAVAL_DOMINANCE_CURRENT_VALUE: "Wskaźnik kontroli: $RATIO|%2G$\nAktualna dominacja: £naval_dominance_texticon£$CURRENT|0Y$"
@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§YWł.§!"
  AUTOMATION_HOMEBASE_OFF: "§gWył.§!"
  SEAZONE_MINIMUM_DOMINANCE: "Minimalna £naval_dominance_texticon£ do kontroli stref: $VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HDominacja morska§!\nMusimy mieć wskaźnik kontroli na poziomie §Y66%§! lub wyższy, by ten region został uznany za będący pod całkowitą sojuszniczą kontrolą."
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HDominacja morska§!\nMusimy mieć wskaźnik kontroli na poziomie §Y60%§! lub wyższy, by ten region został uznany za będący pod całkowitą sojuszniczą kontrolą."
  NAVAL_DOMINANCE_EXPLANATION: "§YDominacja morska§! \nWskaźnik skuteczności okrętu w sprawowaniu kontroli nad określoną strefą morską."
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§HZużycie zaopatrzenia: $VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "Wartość podstawowa: $VAL|H$"

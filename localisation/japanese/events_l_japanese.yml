@@ -3400,7 +3400,7 @@
  AAT_germany.1.a: "重大な関心事ではない"
  AAT_germany.1.b: "誰も損はしない！"
  AAT_germany.2.t: "[FROM.GetName]が我々の取引を拒絶"
- AAT_germany.2.desc: "[FROM.GetName]が我々の提案を拒絶した。曰く、今はあまり関心がないそうだ。\n特に強調していたのは、我々に対する悪意はなく、現在は他に優先すべきことがあるということだ。"
+ AAT_germany.2.desc: "[FROM.GetName]は、現時点では自国の利益にならないとして、我々の提案を拒否した。\n彼らは、我々に悪意があるわけではないが、今は他に優先すべきことがあると強調している。"
  AAT_germany.2.a: "残念だ"
  AAT_germany.3.t: "[FROM.GetName]が我々の取引を承諾"
  AAT_germany.3.desc: "[FROM.GetName]が我々両国に確実に利益をもたらす取引を承諾した。この取り決めによりさらなる利益が生まれることを願っておこう"

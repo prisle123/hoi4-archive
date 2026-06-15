@@ -230,7 +230,7 @@
  SWE_bop_suspend_riksdag: "Riksdag aussetzen"
  SWE_bop_suspend_riksdag_desc: "Da wir nun an der Macht sind, können wir endlich die antiquierte Institution des Riksdag und die damit verbundenen Wahlen abschaffen."
  SWE_ball_bearings_cat: "Handel mit Kugellagern"
- SWE_trade_ball_bearings: "Kugellager mit [From.From.GetName] handeln"
+ SWE_trade_ball_bearings: "Kugellager mit [FROM.FROM.GetName] handeln"
  SWE_revoke_food_trade: "Kugellagerhandel mit [SWE.GetName] beenden"
  SWE_revoke_research_exchange: "$SWE_revoke_food_trade$"
  SWE_waiting_for_ball_bearing_response: "Wartet auf Antwort aus dem Ausland"

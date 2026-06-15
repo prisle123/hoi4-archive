@@ -1103,6 +1103,8 @@
  BRA_united_kingdom_of_brazil_and_portugal: "Die Vereinigte Königreiche von Brasilien und Portugal"
  BRA_united_kingdom_of_brazil_and_portugal_desc: "Die Wiedereinsetzung des brasilianischen Kaiserhauses hat auch in Portugal monarchistisches Gefühle geweckt. Vielleicht sollten wir dies als Gelegenheit nutzen, um unsere Nationen wieder unter einem einzigen Monarchen zu vereinen. Schließlich könnten unser beider Nationen von den Ressourcen und dem Wissen der jeweils anderen profitieren."
  BRA_united_kingdom_of_brazil_and_portugal_tt: "Bittet darum, §Y[POR.GetFlag][POR.GetNonIdeologyName]§! und §Y[BRA.GetFlag][BRA.GetNonIdeologyName]§! zu vereinen. Falls §Y[POR.GetFlag][POR.GetNonIdeologyName]§! zustimmt, wird es ein Untertan von Brasilien. Es kann jedoch auch einen Alternativvorschlag unterbreiten oder den ursprünglichen Vorschlag ablehnen."
+ BRA_claim_the_french_throne: "Den französischen Thron fordern"
+ BRA_claim_the_french_throne_desc: "Durch das Haus Orléans-Braganza erhebt unsere Dynastie einen bis heute unerfüllten Anspruch auf den französischen Thron. Pedro Gastão von Orléans-Braganza beabsichtigt, diesen Anspruch zur Erweiterung unseres Reichs zu nutzen. Dies ist eine Gelegenheit, die man einfach nutzen muss!"
  BRA_undermine_democracy: "Den Nationalkongress untergraben"
  BRA_undermine_democracy_desc: "Unsere einflussreichsten Unterstützer sind mit diesem Kompromiss zur konstitutionellen Monarchie nicht zufrieden. Sie werden ungeduldig und verlangen, dass der Monarch seinen neu gewonnenen Einfluss nutzt, um den Nationalkongress durch die Ernennung eines neuen Ministerrats zu überstimmen."
  BRA_use_the_national_security_law: "Das Gesetz zur nationalen Sicherheit nutzen"

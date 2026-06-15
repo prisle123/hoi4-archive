@@ -151,10 +151,10 @@
  STRATEGICREGION_151: "Syberia Zachodnia"
  STRATEGICREGION_152: "Mongolia Zewnętrzna"
  STRATEGICREGION_153: "Indie Północne"
- STRATEGICREGION_154: "Wyspy Japońskie"
+ STRATEGICREGION_154: "Japonia Środkowa"
  STRATEGICREGION_155: "Mandżuria Zachodnia"
  STRATEGICREGION_156: "Australia Południowa"
- STRATEGICREGION_157: "Nowa Zelandia"
+ STRATEGICREGION_157: "Wyspa Północna" #Was New Zealand
  STRATEGICREGION_158: "Wyspy Sundajskie"
  STRATEGICREGION_159: "Borneo"
  STRATEGICREGION_160: "Filipiny"
@@ -297,3 +297,9 @@
  STRATEGICREGION_296: "Gudźarat"
  STRATEGICREGION_297: "Góry Iranu Wschodniego"
  STRATEGICREGION_298: "Wschodni Zagros"
+ STRATEGICREGION_299: "Japonia Północna" #or Tōsandō
+ STRATEGICREGION_300: "Japonia Południowa"
+ STRATEGICREGION_301: "Wyspa Południowa"
+ STRATEGICREGION_302: "Australia Południowo-Wschodnia"
+ STRATEGICREGION_303: "Australia Zachodnia"
+ STRATEGICREGION_304: "Australia Północno-Zachodnia"

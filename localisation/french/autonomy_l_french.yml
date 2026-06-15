@@ -75,3 +75,5 @@
  AUTONOMY_NOT_ENOUGH_TIME: "§RLe niveau d'autonomie ne peut être modifié qu'une fois tous les §Y$DURATION$ jours§! (§Y$REMAINDER$ jours restants§!)§!"
  autonomy_sea_warlord_subject: "Dépendance de seigneur de guerre"
  autonomy_sea_integrated_warlord_subject: "Dépendance de seigneur de guerre intégrée"
+ autonomy_taog_indonesian_union_state: "État unioniste indonésien"
+ autonomy_associated_dominion: "Dominion associé"

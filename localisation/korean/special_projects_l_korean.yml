@@ -151,7 +151,7 @@
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_TT: "§Y시제품 결정 가능§!"
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_DELAYED_TT: "다음 시제품 결정이 가능해짐:"
  SPECIAL_PROJECT_ITERATION_DEFAULT_CHOICE_REWARD_ALERT_DELAYED_TT: "선택하지 않으면 다음 반복 보상에서 기본값이 선택됩니다."
- SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§G클릭§!하여 효과 보기."
+ SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§G클릭§!하여 효과 보기"
  SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_CHOICE: "새로운 반복이나 프로젝트가 완료되면 이 선택지가 자동으로 선택됩니다."
  SPECIAL_PROJECT_AVAILABLE_ALERT_TT: "§Y진행 가능한 특별 프로젝트§!"
  SPECIAL_PROJECT_AVAILABLE_ALERT_DELAYED_TT: "특별 프로젝트 시작 가능 시점까지:"
@@ -336,11 +336,11 @@
  sp_air_radar_desc: "펄스 형태의 라디오 파장을 발사하고 반사 신호를 감지하면 육지, 해상, 공중에서 적의 움직임을 효과적으로 감시할 수 있습니다."
  sp_air_centimetric_radar: "센티미터파 레이더"
  sp_air_centimetric_radar_desc: "센티미터파 레이더를 개발하면 훨씬 더 작은 안테나로도 훨씬 더 작은 목표물을 탐지할 수 있게 됩니다."
- #Project Wolfdog
+ #Pfot
  sp_land_large_caliber_kinetic_energy_sabot: "대구경 분리형 운동에너지탄"
  sp_land_large_caliber_kinetic_energy_sabot_desc: "방어 시설을 관통하기 위해 설계된 대구경 장갑관통탄입니다."
  GER_sp_land_large_caliber_kinetic_energy_sabot: "뢰흘링 포탄"
- #End Wolfdog
+ #End Pfot
  sp_land_reward_land_cruiser_overheating: "시험 중 과열 발생"
  sp_land_reward_land_cruiser_chassis: "차체 응력 파손"
  sp_land_reward_land_cruiser_chassis_desc: "응력 시험 도중, [SpecialProject.GetName]의 차체가 무지막지한 하중을 이기지 못하고 구조적 변성을 일으키는 것이 확인되었습니다. 설계팀은 차량 무게를 늘리며 추가 보강을 진행할 것인지, 아니면 내구성을 희생하며 더 가벼운 소재를 사용할 것인지를 두고 의견이 엇갈린 상태입니다."

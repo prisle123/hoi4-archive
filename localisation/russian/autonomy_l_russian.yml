@@ -75,3 +75,5 @@
  AUTONOMY_NOT_ENOUGH_TIME: "§RУровень автономии можно менять не чаще одного раза в §Y$DURATION$ дн.§! (§Yосталось: $REMAINDER$ дн.§!)§!"
  autonomy_sea_warlord_subject: "Полевой командир-марионетка"
  autonomy_sea_integrated_warlord_subject: "Интегрированный полевой командир-марионетка"
+ autonomy_taog_indonesian_union_state: "Индонезийское союзное государство"
+ autonomy_associated_dominion: "Ассоциированный доминион"

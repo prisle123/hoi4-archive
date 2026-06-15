@@ -880,7 +880,7 @@
  POL_hungary_scope_no_vojvodina_tt: "@HUN §Y$HUN$§!:"
  clamp_down_on_danzig_tt: "$POL_clamp_down_on_danzig$: §R+30%§!"
  CHI_overlordship_over_indochina_tt: "Wir erhalten ein Kriegsziel gegen sie."
- transfer_state_tt: "Der Staat wird auf uns übertragen."
+ transfer_state_tt: "Der Staat wird an uns übertragen."
  #Custom Tooltips
  POL_find_a_king_tt: "§YWenn dieser Schwerpunkt abgeschlossen ist§!, präsentieren sich Anwärter auf den polnischen Thron, die §YKönig§! von [Root.GetFlag] §YPolen§! werden wollen, über ein §YEreignis§!.\nWenn ein Kandidat ausgewählt wird, wird der jeweilige Schwerpunkt §Yabgeschlossen§!."
  has_sanation_left_tt: "Die §YSanacja-Linke§! wurde nicht aus der Regierung geworfen."

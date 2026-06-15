@@ -75,3 +75,5 @@
  AUTONOMY_NOT_ENOUGH_TIME: "§RPoziom autonomii można zmieniać tylko co §Y$DURATION$ dni§! (zostało §Y$REMAINDER$ dni§!)§!"
  autonomy_sea_warlord_subject: "Poddany watażki"
  autonomy_sea_integrated_warlord_subject: "Zintegrowany poddany watażki"
+ autonomy_taog_indonesian_union_state: "Zjednoczone Państwo Indonezyjskie"
+ autonomy_associated_dominion: "Dominium stowarzyszone"

@@ -369,6 +369,13 @@
  RAJ_has_met_with_kremlin_flag_NO_USSR: "외국 공산주의 단체와 면담함"
  RAJ_communist_unions_promised_worker_safety_mission: "우리 연합의 의무 이행"
  RAJ_communist_unions_promised_minimum_wage_mission: "$RAJ_communist_unions_promised_worker_safety_mission$"
+ GOE_form_hindustan_category: "힌두스탄의 통일"
+ GOE_form_hindustan_category_desc: "인도 전역의 정복이 임박한 지금, 우리 위대한 조국에 대한 지지와 관심을 모으기 위해 [ROOT.GetLeader](이)가 힌두스탄의 통일을 선언할 때가 되었습니다."
+ GOE_form_hindustan: "힌두스탄 통일"
+ GOE_form_country_india_required_states_tt: "§Y인도§!의 모든 주 지배"
+ GOE_form_country_pakistan_required_states_tt: "§Y파키스탄§!의 모든 주 지배"
+ GOE_form_country_india_coring_states_tt: "§Y인도§! 전역의 핵심 주 획득"
+ GOE_form_country_pakistan_coring_states_tt: "§Y파키스탄§! 전역의 핵심 주 획득"
  ##############
  #### IRAN ####
  ##############
@@ -462,6 +469,7 @@
  IRQ_invite_to_federation: "§Y[FROM.OWNER.GetNameDef]§!(을)를 [ROOT.GetNameDef]에 초청함."
  IRQ_invite_to_federation_africa: "$IRQ_invite_to_federation$"
  IRQ_inviting_to_federation_in_progress: "현재 연방에 다른 국가를 초대하고 있음."
+ is_the_current_invitation_target_of_IRQ_hashemite_flag: " 현재 연방에 초대받는 중"
  IRQ_has_permanently_rejected_fed: "회원 자격을 영구히 거부함."
  OMA_restore_order_in_the_interior: "내부 질서 회복"
  united_arab_republic_cat: "$IRQ_proclaim_united_arab_republic$"

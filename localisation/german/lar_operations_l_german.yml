@@ -50,7 +50,7 @@
  operation_infiltrate_armed_forces_navy: "Marine infiltrieren"
  operation_infiltrate_armed_forces_navy_desc: "§LDie eingeschweißten Besatzungen [From.GetAdjective]er Schiffe bieten kaum Möglichkeiten einer Infiltration. Aber das Unterstützungspersonal in der Heimat ist eine andere Sache. Wenn wir dort einen Insider hätten, würde uns das wichtige Informationen liefern und wir könnten zu einem späteren Zeitpunkt schwierige Operationen leichter umsetzen.§!"
  operation_infiltrate_civilian: "Zivile Verwaltung infiltrieren"
- operation_infiltrate_civilian_desc: "§LDie [From.GetAdjective]e Regierung hat einige Schwachstellen, die wir nutzen könnten, um einen Agenten einzuschleusen. Das würde uns wertvolle Einblicke in die [From.getAdjective]e Verwaltung liefern. Außerdem könnten wir den Agenten für zukünftige Operationen gegen [From.GetName] nutzen.§!"
+ operation_infiltrate_civilian_desc: "§LDie [From.GetAdjective]e Regierung hat einige Schwachstellen, die wir nutzen könnten, um einen Agenten einzuschleusen. Das würde uns wertvolle Einblicke in die [From.GetAdjective]e Verwaltung liefern. Außerdem könnten wir den Agenten für zukünftige Operationen gegen [From.GetName] nutzen.§!"
  operation_infiltrate_armed_forces_airforce: "Die Luftwaffe infiltrieren"
  operation_infiltrate_armed_forces_airforce_desc: "§LDie [From.getAdjective]e Luftwaffe ist der jüngste Zweig der [From.GetAdjective]en Streitkräfte. In seinen Reihen befinden sich daher viele Menschen mit ungewöhnlichem Hintergrund. Das könnten wir ausnutzen, um uns einen Insider zu verschaffen.§!"
  operation_infiltrate_armed_forces_army: "Armee infiltrieren"

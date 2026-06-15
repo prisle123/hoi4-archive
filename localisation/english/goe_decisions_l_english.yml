@@ -211,7 +211,7 @@
  tier_4_taxes: "  §W 4th:              More Than [?var:tier_four_taxes_threshold] factories               [?var:tier_four_taxes_tax_tt]%§!"
  tier_4_taxes_tt: "Being in this tax bracket requires us to more than [?var:tier_three_taxes_threshold_plus_1] §YCivilian Factories§!, and being inside this bracket will apply a §Y[?tier_four_taxes_tax_tt] %§! §YConsumer Goods Factories factor§! penalty."
  tier_taxes_header_1: "§W    Tax\nbrackets§!                                                                                                                                                                                                                                                                                                                " 
- tier_taxes_header_1_tt: "At the end of the §Yfiscial Year§! we are expected to pay a portion of our income to the English government in §YComsumer Goods Factories factor§!. The more civilian factories we control, excluding trade and factories owned by puppets, the more we will have to pay. The amount of civilian factories needed to stay inside a specific tax bracket are shown in the §YTaxable Income Bracket§! cells, and the rate of taxation is shown in its corresponding cell."
+ tier_taxes_header_1_tt: "At the end of the §Yfiscal Year§! we are expected to pay a portion of our income to the English government in §YConsumer Goods Factories factor§!. The more civilian factories we control, excluding trade and factories owned by puppets, the more we will have to pay. The amount of civilian factories needed to stay inside a specific tax bracket are shown in the §YTaxable Income Bracket§! cells, and the rate of taxation is shown in its corresponding cell."
  tier_taxes_header_2: "§WTaxable income bracket§!"
  tier_taxes_header_3: "§WTax Rate§!"
  eic_arrow_tt: "This is the current tax bracket that we are in."
@@ -280,7 +280,7 @@
 
  ### LOYALIST BRANCH
  RAJ_return_churchill: "Return $ENG_winston_churchill$ to [ENG.GetNameDef]"
- RAJ_return_churchill_desc: "$ENG_winston_churchill$ has fullfilled his purpose here and it is time for him to go home."
+ RAJ_return_churchill_desc: "$ENG_winston_churchill$ has fulfilled his purpose here and it is time for him to go home."
  RAJ_request_resource_rights_in_burma: "Request Resource Rights in Burma"
  develop_southern_madras_rubber_plantations: "Develop [423.GetName] $state_resource_rubber$ Plantations"
  develop_arunachal_pradesh_tungsten_deposits: "Develop [434.GetName] $state_resource_tungsten$ Deposits"
@@ -308,7 +308,7 @@
  RAJ_local_leaders_investments_defenses: "[?RAJ_local_leaders_defenses|0+]"
  RAJ_local_leaders_investments_infra_tt: "Development of local Infrastructure: \nBuild up to §G1§! §YInfrastructure§! and §Y1§! Building Slot in a state."
  RAJ_local_leaders_investments_civs_tt: "Development of Civilian Industry: \nBuild up to §G1§! §YCivilian Factory§!, §G1§! §YInfrastructure§! and §Y2§! Building Slots in a state."
- RAJ_local_leaders_investments_mils_tt: "Develolpment of Military Industry: \nBuild up to §G1§! §YMilitary Factory§!, §G1§! §YInfrastructure§! and §Y2§! Building Slots in a state."
+ RAJ_local_leaders_investments_mils_tt: "Development of Military Industry: \nBuild up to §G1§! §YMilitary Factory§!, §G1§! §YInfrastructure§! and §Y2§! Building Slots in a state."
  RAJ_local_leaders_investments_defenses_tt: "Development of Territorial Defenses: \nBuild up to §G2§! §YAir Bases§!, §G1§! §YAnti-Air§! and §Y1§! §YRadar Station§! in a state."
  RAJ_local_leaders_investments_chance_tt: "Chance for each investment to be selected when the mission times out."
  RAJ_local_leaders_investments_tt: "Amount of investments already completed."
@@ -405,6 +405,15 @@
  RAJ_communist_unions_promised_worker_safety_mission: "Fulfill our Union Obligations"
  RAJ_communist_unions_promised_minimum_wage_mission: "$RAJ_communist_unions_promised_worker_safety_mission$"
 
+ GOE_form_hindustan_category: "The Unification of Hindustan"
+ GOE_form_hindustan_category_desc: "With the conquest of all Indian lands on the way, it is high time that [ROOT.GetLeader] declares the unification of Hindustan, to gather both support and attention towards our great nation."
+
+ GOE_form_hindustan: "Unite Hindustan"
+ GOE_form_country_india_required_states_tt: "Controls all §YIndian§! states"
+ GOE_form_country_pakistan_required_states_tt: "Controls all §YPakistani§! states"
+ GOE_form_country_india_coring_states_tt: "Gain cores on all §YIndian§! states"
+ GOE_form_country_pakistan_coring_states_tt: "Gain cores on all §YPakistani§! states"
+
 
  ##############
  #### IRAN ####
@@ -487,7 +496,7 @@
 
 
  neo_assyrian_empire_category: "Restore the Neo-Assyrian Empire"
- neo_assyrian_empire_category_desc: "At its maximum extent, the Neo-Assyrian Empire dominated most of the Middle-East We should endeavor to restore our state to its ancient glory, and reconquer our empire of old." 
+ neo_assyrian_empire_category_desc: "At its maximum extent, the Neo-Assyrian Empire dominated most of the Middle-East. We should endeavor to restore our state to its ancient glory, and reconquer our empire of old." 
  neo_assyrian_empire_decision: "Reclaim our Ancient Glory"
  neo_mesopotamia_category: "Restore Mesopotamia"
  neo_mesopotamia_category_desc: "The Fertile Crescent is the cradle of civilization and the home of many great states. With territorial integrity now restored, we can finally proclaim the creation of a unified Mesopotamian state."
@@ -507,6 +516,7 @@
  IRQ_invite_to_federation: "Invite §Y[FROM.OWNER.GetNameDef]§! to [ROOT.GetNameDef]."
  IRQ_invite_to_federation_africa: "$IRQ_invite_to_federation$"
  IRQ_inviting_to_federation_in_progress: "Currently inviting other nations to the Federation."
+ is_the_current_invitation_target_of_IRQ_hashemite_flag: " Is currently being inviting to the Federation"
  IRQ_has_permanently_rejected_fed: "Has permanently rejected membership." 
  OMA_restore_order_in_the_interior: "Restore Order to the Interior"
  united_arab_republic_cat: "$IRQ_proclaim_united_arab_republic$"

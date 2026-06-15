@@ -404,7 +404,7 @@
  CHI_lessons_of_war: "Les leçons de la guerre"
  CHI_bolster_our_ranks: "Renforcement des rangs"
  CHI_industrial_evacuations_from_beijing: "Évacuation des industries de Pékin"
- GER_barbarossa_mission_desc: "« Les forces armées allemandes doivent être préparées à écraser la Russie soviétique au cours d'une campagne rapide. L'essentiel de l'armée russe doit être détruit au cours d'opérations hardies menées par des fers de lance constitués de blindés. »"
+ GER_barbarossa_mission_desc: "Les forces armées allemandes doivent être préparées à écraser la Russie soviétique au cours d'une campagne rapide. L'essentiel de l'armée russe doit être détruit au cours d'opérations hardies menées par des fers de lance constitués de blindés."
  USA_war_measures: "Mesures de guerre"
  USA_homeland_defense: "Homeland Defense Emergency Act"
  USA_homeland_defense_desc: "L'ennemi a pris pied sur le sol de notre glorieuse nation. Le peuple [Root.GetAdjMS] doit se dresser pour repousser l'envahisseur à la mer !"

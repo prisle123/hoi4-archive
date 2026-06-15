@@ -29,6 +29,8 @@
  YEM_imam_yahya: "Имам Яхья Мухаммед Хамид-ад-Дин"
  OMA_said_bin_taimur: "Саид бен Таймур"
  SAU_abdulaziz_ibn_saud: "Абдул-Азиз ибн Сауд"
+ FRA_henri_dentz: "Анри Фернан Денц"
+ LEB_alfred_naqqache: "Альфред Наккаш"
  #RAJ#
  RAJ_GOE_j_r_d_tata: "Дж. Р. Д. Тата"
  RAJ_GOE_jawaharlal_nehru: "Джавахарлал Неру"
@@ -81,6 +83,7 @@
  RAJ_GOE_louis_mountbatten: "Луис Маунтбеттен"
  RAJ_mirza_khurshid_jah_bahadur: "Мирза Хуршид Джа Бахадур"
  BAN_a_k_fazlul_huq: "А. К. Фазлул Хук"
+ RAJ_abdul_ghaffar_khan: "Абдул Гаффар-хан"
  ##############
  #### IRAN ####
  ##############

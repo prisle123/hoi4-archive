@@ -247,6 +247,8 @@
  MUN_czech.1054.a: "Wir müssen expandieren, um der Expansion anderer zuvorzukommen."
  MUN_czech.1055.t: "[SOV.GetAdjective]e Freiwillige sind eingetroffen"
  MUN_czech.1055.d: "In einer beispiellosen logistischen Meisterleitung ist es der [SOV.GetAdjective]en Luftwaffe gelungen, mehrere Freiwilligen-Divisionen zu unserem Luftstützpunkt in [73.GetName] zu bringen, um unsere dortigen Kriegsbemühungen zu unterstützen."
+ MUN_czech.1056.t: "[FROM.GetNameDefCap] fordert [975.GetName]"
+ MUN_czech.1056.d: "Genau wie einst auf der Pariser Friedenskonferenz nach dem Ersten Weltkrieg vorgeschlagen, erklärte [CZE.GetNameDef], dass ein Korridor zu den Verbündeten in [YUG.GetName] für die Sicherheit des Bündnisses notwendig sei. Zur Durchsetzung dieses Ziels wurde uns von den [FROM.GetAdjective]en Abgesandten das Ultimatum gestellt, [975.GetName] abzutreten."
  #THE FALL OF THE REPUBLIC EVENTS#
  MUN_the_fall_of_the_republic.1.t: "Groß angelegte Proteste"
  MUN_the_fall_of_the_republic.1.d: "Die jüngste Entscheidung von [ROOT.GetLeader], das Sudetenland aufzugeben, hat zu zahlreichen Protesten im ganzen Land geführt. Da [ROOT.GetLeader] Widerstand angesichts der aussichtslosen Lage für sinnlos hielt, wollte er mit diesem Schritt unnötiges Blutvergießen vermeiden. Viele Menschen im ganzen Land sind jedoch der Meinung, dies sei die falsche Entscheidung, und einige Bewegungen versuchen nun, die Unruhen zu nutzen, um ihre eigenen Agenden voranzutreiben."
@@ -316,6 +318,10 @@
  MUN_slovakia_little_war.4.t: "Pattsituation in [71.Getname]"
  MUN_slovakia_little_war.4.d: "Obwohl wir alles in unserer Macht Stehende versuchten, konnten wir die Kämpfe in [71.Getname] nicht gewinnen. Die Unfähigkeit, rechtzeitig vor dem Konflikt genügend Munition und motorisierte Ausrüstung zu beschaffen, war ein entscheidender Faktor für unsere Unfähigkeit, einen Sieg zu erringen. Trotz dieses Rückschlags konnten die an der Schlacht beteiligten Kommandanten wertvolle Erfahrung sammeln."
  MUN_slovakia_little_war.4.a: "Enttäuschend."
+ ##Exile##
+ MUN_czech_exile.1.t: "[CZE.GetAdjective]e Exilanten treffen in [ROOT.GetName] ein"
+ MUN_czech_exile.1.d: "Nach der Auflösung ihres Staates im Zuge der Münchner Konferenz durch [GER.GetName] sind viele ehemalige [CZE.GetAdjective]e Staatsbürger geflohen und auch in unserem Land eingetroffen. Sie sind bereit, zu den Waffen zu greifen, um uns zu unterstützen und ihr Land eines Tages mit unserer Hilfe zu befreien."
+ MUN_czech_exile.1.a: "Willkommen."
  ##NEWS EVENTS##
  MUN_czech.news.1.t: "Die Sudetenkrise"
  MUN_czech.news.1.desc: "Die Menschen des Sudetenlands haben zu den Waffen gegriffen, um gegen die [CZE.GetAdjective]e Führung zu rebellieren, und es gibt Berichte, wonach sudetische Milizen Polizeistationen und Regierungsgebäude in der gesamten Region angreifen. Dies ist als Folge darauf geschehen, dass [FROM.getname] ankündigte, die Region annektieren zu wollen.\n\nDie Aufstände wirken wie der Auftakt zu einem größeren Konflikt zwischen [FROM.getname] und [CZE.GetNameDef], der nun unvermeidlich scheint."

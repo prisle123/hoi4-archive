@@ -894,7 +894,7 @@
  YUG_german_military_mission: "독일 기술 감독"
  YUG_medal_for_extreme_bravery: "극도의 용맹 훈장"
  YUG_medal_for_extreme_bravery_desc: "우리 병사들은 사방에서 공격받는 상황에서 분투하며 영웅적인 행적을 보이고 있습니다. 우리는 그들의 굳건한 정신을 기리기 위해 새로운 훈장을 만들어야 합니다."
- yug_extreme_bravery_medal: "§Y[ROOT.GetNameDefCap]§!(은)는 이제 §Y야전 지휘관§!에게 §Y극도의 용맹 훈장§!을 수여할 수 있습니다."
+ yug_extreme_bravery_medal: "§Y[ROOT.GetNameDefCap]§!(은)는 이제 §Y야전 장교§!에게 §Y극도의 용맹 훈장§!을 수여할 수 있습니다."
  YUG_brigadistas: "브리가디스타"
  YUG_brigadistas_desc: "많은 용감한 유고슬라비아 시민이 진행 중인 스페인 내전에서 우리의 공동의 적들과 싸우기 위해 나서고 있습니다."
  ROM_crack_down_on_extremism: "극단주의 탄압"

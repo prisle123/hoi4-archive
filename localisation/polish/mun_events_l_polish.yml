@@ -247,6 +247,8 @@
  MUN_czech.1054.a: "Musimy poszerzać granice, aby przeciwstawić się ekspansji innych"
  MUN_czech.1055.t: "Przybycie [SOV.GetAdjective] ochotników"
  MUN_czech.1055.d: "W ramach bezprecedensowej operacji logistyki lotniczej [SOV.GetAdjective] władze wykorzystały swoje siły powietrzne do przetransportowania kilku dywizji ochotników na nasze lotnisko (lokalizacja: [73.GetName]) w celu wsparcia naszych bieżących działań wojennych."
+ MUN_czech.1056.t: "[FROM.GetName]: żądanie przekazania regionu [975.GetName]"
+ MUN_czech.1056.d: "[CZE.GetNameDef] i [YUG.GetNameDef] muszą zostać połączone lądowym korytarzem, by zabezpieczyć ich sojusz. Koncepcja ta zgłaszana już niegdyś podczas konferencji pokojowej w Paryżu po zakończeniu wielkiej wojny powraca w postaci żądania przedstawicieli [FROM.GetAdjective] władz, którzy domagają się od nas przekazania im części naszego terytorium, regionu [975.GetName]."
  #THE FALL OF THE REPUBLIC EVENTS#
  MUN_the_fall_of_the_republic.1.t: "Wybuch masowych protestów"
  MUN_the_fall_of_the_republic.1.d: "[ROOT.GetLeader] podjął niedawną decyzję o oddaniu Kraju Sudetów, co doprowadziło do wybuchu protestów w narodzie. Przywództwo wojskowe i polityczne chciało uniknąć rozlewu krwi w działaniach, które uznało za bezsensowny opór w przegranej sprawie, jednak wielu obywateli nie zgadza się z tą decyzją. Niektóre ruchy polityczne chcą wykorzystać ten chaos, by realizować własne cele."
@@ -316,6 +318,10 @@
  MUN_slovakia_little_war.4.t: "Pat w regionie [71.Getname]"
  MUN_slovakia_little_war.4.d: "Mimo usilnych starań nasze wojska nie zdołały wygrać potyczki w regionie [71.Getname]. Najważniejszą przyczyną braku wygranej okazały się niedostateczne zapasy amunicji i sprzętu zmotoryzowanego zgromadzone przed rozpoczęciem konfliktu. Pomimo niepowodzenia dowódcy biorący udział w tych działaniach zdobyli niezwykle cenną wiedzę."
  MUN_slovakia_little_war.4.a: "Co za rozczarowanie."
+ ##Exile##
+ MUN_czech_exile.1.t: "Przybycie [CZE.GetAdjective] uchodźców do: [ROOT.GetNameDef]"
+ MUN_czech_exile.1.d: "[GER.GetNameDef] rozpada się w wyniku ustaleń konferencji monachijskiej, przez co [CZE.GetAdjective] uchodźcy przybywają do wielu krajów - w tym do naszego. Są gotowi chwycić za broń, by nam pomóc, w nadziei, że pewnego dnia z naszą pomocą uda im się wyzwolić swoją ojczyznę."
+ MUN_czech_exile.1.a: "Witajcie."
  ##NEWS EVENTS##
  MUN_czech.news.1.t: "Kryzys w Kraju Sudetów"
  MUN_czech.news.1.desc: "Mieszkańcy Kraju Sudetów rozpoczęli zbrojne powstanie przeciwko władzom [CZE.getadjective]. Pojawiły się doniesienia o sudeckich bojówkach, które zaatakowały posterunki policji oraz budynki rządowe w całym regionie. Przyczyną tego wybuchu była niedawna informacja, że rząd [FROM.getadjective] zamierza dokonać aneksji tego regionu.\n\nTe bunty to prawdopodobnie preludium do większego konfliktu [FROM.getname]-[CZE.GetNameDef]. Ten konflikt wydaje się nieunikniony."

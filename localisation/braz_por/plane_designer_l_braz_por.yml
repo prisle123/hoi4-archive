@@ -423,7 +423,7 @@
  heavy_bombs: "Bombas pesadas"
  heavy_bombs_desc: "A guerra moderna exige que aviões usem bombas cada vez maiores em alvos inimigos. Com o tempo, isso tem se transformado em um aspecto fundamental do combate aéreo."
  armor_piercing_bombs: "Bombas perfurantes de blindagem"
- armor_piercing_bombs_desc: "A blindagem dos navios de guerra está sendo aprimorada cada vez mais. Para contornar isso, é preciso desenvolver bombas especializadas e capazes de penetrar a proteção de um convés de voo blindado."
+ armor_piercing_bombs_desc: "A blindagem de convés dos navios de guerra está sendo aprimorada cada vez mais. Para contornar isso, é preciso desenvolver bombas especializadas capazes de penetrar essa proteção."
  air_torpedoe_1: "Torpedos de lançamento aéreo"
  air_torpedoe_1_desc: "Torpedos leves que podem ser carregados por qualquer aeronave, ampliando nossa capacidade de atacar no mar."
  air_torpedoe_2: "Torpedos de lançamento aéreo melhorados"

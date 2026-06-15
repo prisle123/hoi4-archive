@@ -151,3 +151,7 @@
  CZE_balkan_tech_sharing_group_desc: "Cet accord de recherche signé entre les nations des Balkans et [CZE.GetLeLaLNP] [CZE.GetName] vise à dynamiser leur technologie industrielle pour rattraper leur retard sur les grandes puissances."
  CZE_german_czechoslovak_equipment_design_group_name: "Comité à la conception de matériel germano-tchécoslovaque"
  CZE_german_czechoslovak_equipment_design_group_desc: "Les scientifiques [GER.GetAdjMP] et [CZE.GetAdjMP] ont commencé à coopérer sur des projets de conception de chars et d'avions."
+ cominwealth_allied_research_name: "Recherche du Kominwealth"
+ cominwealth_allied_research_desc: "Délais de recherche réduits pour les technologies déjà découvertes par les membres du Kominwealth."
+ siam_tech_sharing_group: "Recherche thaïlandaise"
+ siam_tech_sharing_group_desc: "Délais de recherche réduits pour les technologies déjà découvertes par d'autres pays thaïlandais alliés."

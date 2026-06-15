@@ -371,7 +371,7 @@
  SWI_trading_with_switzerland_military: "스위스에서 전쟁 물자 수입"
  SWI_trading_with_switzerland_civilian: "스위스에서 민간 물자 수입"
  SWI_no_confederation_president_idea: "연방 대통령이 당선되지 않음"
- SWI_no_confederation_president_idea_desc: "상상도 할 수 없는 일이 벌어졌습니다. 스위스 연방 평의회가 대통령을 선출하는 데 실패한 겁니다. 이 상황에서 벗어나려면 많은 노력이 필요할 것입니다."
+ SWI_no_confederation_president_idea_desc: "상상도 할 수 없는 일이 벌어졌습니다. 스위스 연방평의회가 대통령을 선출하는 데 실패한 겁니다. 이 상황에서 벗어나려면 많은 노력이 필요할 것입니다."
  SWI_foreign_fascist_propaganda: "외국 파시즘 선전"
  SWI_foreign_fascist_propaganda_desc: "[SWI.GetName] 안에 큰 파시스트 운동은 존재하지 않습니다. 하지만 우리의 파시스트 이웃들은, 특히 [GER.GetAdjective]어와 [ITA.GetAdjective]어를 사용하는 지역 중심으로 모든 칸톤에서 이적 단체와 선전 작전을 이용해 우리의 연방을 내부에서 찢어 놓으려 합니다."
  SWI_extensive_fascist_propaganda: "대규모 파시즘 선전"

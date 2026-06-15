@@ -102,7 +102,7 @@
  RELEASE_NATION_DESC: "Möchten Sie $COUNTRY|H$ in $LIST|H$ entlassen?"
  RETURN_TERRITORY_TITLE: "Gebiet zurückgeben"
  RETURN_TERRITORY_DESC: "Möchten Sie $LIST|H$ an $COUNTRY|H$ zurückgeben?"
- manage_occupied_territories: "§GKlicken, um Ihre besetzten Gebiete zu verwalten.§!"
+ manage_occupied_territories: "§GKlicken, um Ihre besetzten Gebiete zu verwalten§!"
  manage_occupied_territories_empty: "§RSie haben keine besetzten Gebiete, die verwaltet werden können.§!"
  manage_occupied_territories_puppet: "§RSie brauchen einen höheren Autonomiestatus, um Länder zu entlassen.§!"
  manage_occupied_territories_desc: "§TSie können die Besatzungspolitik bestimmen und Länder freilassen, die Kernprovinzen in Ihren besetzten Gebieten haben.§!"

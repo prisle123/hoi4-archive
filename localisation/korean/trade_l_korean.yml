@@ -49,7 +49,7 @@
  TRADE_ROUTE_DELIVERY_TYPE_LOCKED: "§R운송로 봉쇄됨§!"
  TRADE_ROUTE_DELIVERY_TYPE_LAND: "§T§H육지§!를 통해 $VAL|H$ 운송 중§!"
  TRADE_ROUTE_DELIVERY_TYPE_SEA: "§T수송선 $TOT|H$척 중 $CON|H$척을 사용하여 §H바다§!를 통해 $VAL|H$ 운송 중.§!"
- CONVOYS_USAGE_DESC: "§T우리는 $TOT|H$척의 수송선을 가지고 있습니다.\n총사용량: $USED|H$\n사용량/수요:\n - 상륙 전투 계획 용도: $INVASION_USE|H$/$INVASION_NEED|H$\n - 부대 수송 용도: $TRANSFER_USE|H$/$TRANSFER_NEED|H$\n - 무역 용도: $TRADE_USE|H$/$UNDERWAY_REPLENISHMENT_IF_UNLOCKED$$TRADE_NEED|H$\n - 보급 용도: $SUPPLY_USE|H$/$SUPPLY_NEED|H$\n사용되지 않고 남아있는 수: $LEFT|H$§!"
+ CONVOYS_USAGE_DESC: "§T우리는 $TOT|H$척의 수송선을 가지고 있습니다.\n총사용량: $USED|H$\n사용량/수요:\n - 상륙 전투 계획 용도: $INVASION_USE|H$/$INVASION_NEED|H$\n - 부대 수송 용도: $TRANSFER_USE|H$/$TRANSFER_NEED|H$\n - 무역 용도: $TRADE_USE|H$/$TRADE_NEED|H$\n - 무기대여 용도: $LENDLEASE_USE|H$/$LENDLEASE_NEED|H$\n - 보급 용도: $SUPPLY_USE|H$/$SUPPLY_NEED|H$\n$UNDERWAY_REPLENISHMENT_IF_UNLOCKED$사용되지 않고 남아 있는 수: $LEFT|H$§!"
  CONVOYS_USAGE_UNDERWAY_REPLENISHMENT: " - 해상 재보급 용도: $CONVOY_USE|0H$/$CONVOY_NEED|0H$\n"
  CONVOYS: "수송선"
  NO_IMPORT_TO_CANCEL: "§R수입한 물자가 없으므로 $RESOURCE|H$의 수입을 취소할 수 없습니다.§!"

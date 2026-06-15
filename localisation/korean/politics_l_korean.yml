@@ -102,7 +102,7 @@
  RELEASE_NATION_DESC: "정말로 $LIST|H$의 $COUNTRY|H$(을)를 해방시키겠습니까?"
  RETURN_TERRITORY_TITLE: "영토 반환"
  RETURN_TERRITORY_DESC: "정말로 $COUNTRY|H$에 $LIST|H$ 주를 반환하시겠습니까?"
- manage_occupied_territories: "§G점령지를 관리하려면 클릭하십시오.§!"
+ manage_occupied_territories: "§G점령지를 관리하려면 클릭하십시오§!"
  manage_occupied_territories_empty: "§R관리할 점령지가 없습니다.§!"
  manage_occupied_territories_puppet: "§R국가를 해방하려면 더 높은 자치도가 필요합니다.§!"
  manage_occupied_territories_desc: "§T점령지에 점령 정책을 설정하고, 해당 구역에 핵심 지역을 가지고 있는 국가를 해방할 수 있습니다.§!"

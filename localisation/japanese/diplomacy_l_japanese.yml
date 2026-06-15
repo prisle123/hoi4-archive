@@ -559,6 +559,7 @@
  DR_YEARS_DIFFERENCE: "要求装備の技術格差:  "
  DR_LEND_LEASE: "支援は常に歓迎される:  "
  DR_LEND_LEASE_NO_EQUIPMENT_OR_REQUEST_HAS: "$SENDER|UH$の備蓄が不足しているか、もしくは§Y我々§!の備蓄が過剰である。"
+ DR_LEND_LEASE_CONVOY_OVERCOMMIT: "輸送船キャパシティの不足分: "
  DR_VOLUNTEER: "支援は常に歓迎される: "
  DR_ATTACHE: "支援は常に歓迎される: "
  DR_ATTACHE_LOW_OPINION: "我々に対する評価が低過ぎる: "
@@ -1716,3 +1717,6 @@
  CZE_allows_passage_of_soviet_troops: "ソビエト軍の通過を許可"
  #Czechoslovakia Opinion Modifiers
  CZE_i_am_agreeable_to_license: "シュコダとČKDの購入契約"
+ #INS
+ indonesia_usa_rejected_renville_modifier: "援助を拒否"
+ indonesia_china_trade_modifier: "中国系インドネシア人移民"

@@ -1,0 +1,180 @@
+#### Right VS Left Campaign Assets ####
+
+spriteTypes = {	
+
+	### Progress Bar ###
+	progressbartype = {
+		name = "GFX_AST_right_vs_left_election_progress_bar_uap"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/right_vs_left_campaign/votes_progress_bar_uap.dds"
+		textureFile2 = "gfx/interface/right_vs_left_campaign/votes_progress_bar_frame.dds"
+		size = { x = 160 y = 40 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_AST_right_vs_left_election_progress_bar_alp"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/right_vs_left_campaign/votes_progress_bar_alp.dds"
+		textureFile2 = "gfx/interface/right_vs_left_campaign/votes_progress_bar_frame.dds"
+		size = { x = 160 y = 40 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	### Progress Bar ###
+	spriteType = {
+		name = "GFX_democractic_elections_wins_frame"
+		texturefile = "gfx/interface/right_vs_left_campaign/right_vs_left_election_win_counter_frame.dds"
+	}
+	
+	progressbartype = {
+		name = "GFX_AST_right_vs_left_election_win_counter_uap"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/right_vs_left_campaign/right_vs_left_election_win_counter_uap.dds"
+		textureFile2 = "gfx/interface/absolute_nothing.dds"
+		size = { x = 152 y = 41 }
+		steps = 3
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	progressbartype = {
+		name = "GFX_AST_right_vs_left_election_win_counter_alp"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/right_vs_left_campaign/right_vs_left_election_win_counter_alp.dds"
+		textureFile2 = "gfx/interface/absolute_nothing.dds"
+		size = { x = 152 y = 41 }
+		steps = 3
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+
+	### Graphical Assets ###
+
+	spriteType = {
+		name = "GFX_AST_right_vs_left_campaign_ribbon"
+		texturefile = "gfx/interface/right_vs_left_campaign/ribbon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_australian_labour_party"
+		texturefile = "gfx/interface/right_vs_left_campaign/australian_labour_party.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_united_australia_party"
+		texturefile = "gfx/interface/right_vs_left_campaign/united_australia_party.dds"
+	}
+
+	spriteType = {
+		name = "GFX_AST_campaign_button"
+		texturefile = "gfx/interface/right_vs_left_campaign/campaign_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"		
+	}
+
+	SpriteType = {
+		name = "GFX_AST_campaign_button_current"
+		texturefile = "gfx/interface/right_vs_left_campaign/campaign_button.dds"
+#		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		effectFile = "gfx/FX/buttonstate.lua"		
+#		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/focusview/titlebar/focus_ongoing_mask2.dds"
+			animationtexturefile = "gfx/interface/focusview/titlebar/focus_ongoing_texture.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 20.0				# in seconds
+			animationdelay = 0.2			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "rotating"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+#			animationframes = {1 2 3 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focusview/titlebar/focus_ongoing_mask4.dds"
+			animationtexturefile = "gfx/interface/focusview/titlebar/focus_ongoing_texture.dds"
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 15.0				# in seconds
+			animationdelay = 0.2			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "rotating_ccw"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+#			animationframes = {1 2 3 }
+		}
+		legacy_lazy_load = no
+	}
+
+
+### Leaders ###
+	spriteType = {
+		name = "GFX_AST_australian_labour_party_leader_john_curtin"
+		texturefile = "gfx/interface/right_vs_left_campaign/AST_australian_labour_party_leader_john_curtin.dds"
+	}
+	spriteType = {
+		name = "GFX_AST_labour_party_leader_ben_chifley"
+		texturefile = "gfx/interface/right_vs_left_campaign/AST_australian_labour_party_leader_ben_chifley.dds"
+	}
+	spriteType = {
+		name = "GFX_AST_united_australia_party_leader_robert_menzies"
+		texturefile = "gfx/interface/right_vs_left_campaign/AST_united_australia_party_leader_robert_menzies.dds"
+	}
+	spriteType = {
+		name = "GFX_AST_united_australia_party_leader_billy_hughes"
+		texturefile = "gfx/interface/right_vs_left_campaign/AST_united_australia_party_leader_billy_hughes.dds"
+	}
+
+
+	### BG Assets ###
+	spriteType = {
+		name = "GFX_AST_right_vs_left_campaign_decor_bg"
+		texturefile = "gfx/interface/right_vs_left_campaign/right_vs_left_campaign_decor_bg_voting.dds"
+	}
+	spriteType = {
+		name = "GFX_AST_right_vs_left_campaign_decor_bg_win"
+		texturefile = "gfx/interface/right_vs_left_campaign/right_vs_left_campaign_decor_bg_win.dds"
+	}
+
+
+	### Overlay documents and frame ###
+	spriteType = {
+		name = "GFX_focus_election_overlay_blue_1"
+		texturefile = "gfx/interface/right_vs_left_campaign/focus_election_overlay_blue_1.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_election_overlay_blue_2"
+		texturefile = "gfx/interface/right_vs_left_campaign/focus_election_overlay_blue_2.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_election_overlay_blue_3"
+		texturefile = "gfx/interface/right_vs_left_campaign/focus_election_overlay_blue_3.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_election_overlay_red_1"
+		texturefile = "gfx/interface/right_vs_left_campaign/focus_election_overlay_red_1.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_election_overlay_red_2"
+		texturefile = "gfx/interface/right_vs_left_campaign/focus_election_overlay_red_2.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_election_overlay_red_3"
+		texturefile = "gfx/interface/right_vs_left_campaign/focus_election_overlay_red_3.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_election_overlay_red_1_blue_1"
+		texturefile = "gfx/interface/right_vs_left_campaign/focus_election_overlay_red_1_blue_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_fast_overlay_conscription_election_red_1_blue_1"
+		texturefile = "gfx/interface/right_vs_left_campaign/focus_fast_overlay_conscription_election_red_1_blue_1.dds"
+	}
+
+
+
+}

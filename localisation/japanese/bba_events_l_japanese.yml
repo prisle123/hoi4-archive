@@ -1361,7 +1361,7 @@
  BBA_italy_interaction_events.20.a: "彼ら抜きのほうがうまく事を運べると思う"
  BBA_italy_interaction_events.21.t: "イタリアからの接触と提案"
  BBA_italy_interaction_events.21.desc: "[ITA.GetNameDef]が我々に接触し、魅力的な話を持ちかけてきた。なんと彼らと同盟を結ぶ代わりに、ロードス島とドデカネス諸島の所有権を我々に譲渡するというのだ。あまりにも都合が良すぎてにわかには信じがたいが、実際にそのような提案がされている。さて、どうしたものか。"
- BBA_italy_interaction_events.21.a: "あのギリシャの領土は、我々が先にもらったものだぞ！"
+ BBA_italy_interaction_events.21.a: "どうだ、ギリシャ！こちらが先に手に入れたぞ！"
  BBA_italy_interaction_events.21.b: "どんな条件を提示されようと、イタリア人などに頭を下げてたまるか！"
  BBA_italy_interaction_events.22.t: "[TUR.GetNameDef]が提案を受諾"
  BBA_italy_interaction_events.22.desc: "トルコ政府は本日、我々の提案を受け入れることを宣言し、ドデカネス諸島の所有権を獲得次第、可及的速やかに我々との軍事協力を開始すると述べた。両国がこの先どこに行き着くのか、今はただ見守るとしよう。"

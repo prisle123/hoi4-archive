@@ -38,7 +38,7 @@
  AFG_modify_ssem_ns_intro: "Modify §Y$AFG_subsistence_economy_modifier$§! by:"
  AFG_modify_er_ns_intro: "Modify §Y$AFG_economic_regionalism$§! by:"
  AFG_placated_graduates: "Placated Graduates"
- AFG_placated_graduates_desc: "By expanding the civil service, we have managed to absorb much of the unemployed graduates who would have otherwise became radicalized."
+ AFG_placated_graduates_desc: "By expanding the civil service, we have managed to absorb much of the unemployed graduates who would have otherwise become radicalized."
  AFG_expanded_education: "Expanded Education"
  AFG_expanded_education_desc: "An increased education budget has led to a swell in teaching opportunities in a greatly expanded education facilities."
  AFG_communist_graduates: "Communist Graduates"
@@ -101,7 +101,7 @@
  IRQ_anglo_iraqi_treaty: "Anglo-Iraqi Treaty"
  IRQ_anglo_iraqi_treaty_desc: "Although renegotiated in 1930, the Anglo-Iraqi treaty remains a one sided agreement that leaves Iraq a de facto client state of the British Empire. The treaty gives preferential resource rights to Iraq’s oil to the British and allows them to utilize military facilities across the country. This continues to cause massive dissent among the Iraqi people who yearn for real independence. Any government that comes to power will have to decide whether to renegotiate the treaty again, or tear it up and risk the wrath of the British military."
  IRQ_agrarian_society: "Agrarian Society"
- IRQ_agrarian_society_desc: "Iraq's industry revolves around it's agricultural sector, and the conservative leadership in the region has had no interest in developing and industrializing the land. Proper time and effort will need to be dedicated in order to solve the issues in the state."
+ IRQ_agrarian_society_desc: "Iraq's industry revolves around its agricultural sector, and the conservative leadership in the region has had no interest in developing and industrializing the land. Proper time and effort will need to be dedicated in order to solve the issues in the state."
  IRQ_agrarian_society_modifier_level_down_tt: "§GLowers§! the effects of $IRQ_agrarian_society$"
  IRQ_iraq_currency_board_idea: "[ROOT.GetName] Currency Board"
  IRQ_iraq_currency_board_idea_desc: "$IRQ_decouple_from_the_pound_desc$"
@@ -143,7 +143,7 @@
  IRQ_generic_attack_bonus: "Allied Training"
  IRQ_ENG_attack_bonus: "Anti-British Training"
  IRQ_generic_attack_bonus_axis: "Axis Training"
- IRQ_USA_attack_bonus: "Anti-Ameican Training"
+ IRQ_USA_attack_bonus: "Anti-American Training"
  IRQ_pan_arab_crackdown: "Pan-Arabism Crackdown"
  IRQ_pan_arab_crackdown_desc: "$IRQ_curtail_arabism_desc$"
  IRQ_anglo_iraqi_mutual_defense_agreement: "Anglo-Iraqi Mutual Defense Agreement"
@@ -162,7 +162,7 @@
  IRQ_peshmerga_idea: "Peshmerga"
  IRQ_state_company_for_cement_idea: "The General Company for [ROOT.GetAdjective] Cement"
  IRQ_state_company_of_cotton_industries_idea: "State Company of Cotton Industries"
- IRQ_shia_resistance_modifier: "Unruly Shia Tribes"
+ IRQ_shia_resistance_modifier: "Unruly Autonomous Tribes"
 
  #TRAITS
  independence_activist: "Independence Activist"
@@ -371,7 +371,7 @@
  PER_preemtive_strike_idea: "Striking First"
  PER_preemtive_strike_idea_desc: "We don't have time to wait around to be invaded! It is crucial that we strike whilst the iron is hot, and ensure that we can create some buffer states between ourselves and the larger nations that dare threaten our sovereignty!"
  PER_compliant_subject_idea: "Compliant Subject"
- PER_compliant_subject_idea_desc: "There is no victory to be had standing against a power like [ROOT.OVERLORD.GetNameDef]. Instead, we must play our part as a subject, and show that we are worthy of being a poweful vassal."
+ PER_compliant_subject_idea_desc: "There is no victory to be had standing against a power like [ROOT.OVERLORD.GetNameDef]. Instead, we must play our part as a subject, and show that we are worthy of being a powerful vassal."
  PER_anti_soviet_idea: "Anti-Soviet Sentiments"
  PER_anti_soviet_idea_desc: "After taking our territory during the invasion of Iran, it is time we paid back against these warmongers and take back what is rightfully ours. We will not stop until our former territory belongs to us once more."
  PER_azadi_idea: "Spirit of Azadi"
@@ -388,7 +388,7 @@
  PER_idea_comintern_research_collaboration: "[ROOT.GetFactionName] Research Collaboration"
  PER_idea_comintern_research_collaboration_desc: "[ROOT.GetAdjective] scientists shall be taught by top [SOU.GetAdjective] experts before bringing their skills back home in order to rebuild our nation on the [SOU.GetAdjective] model."
  PER_idea_one_for_all_all_for_one: "One for all, All for one"
- PER_idea_one_for_all_all_for_one_desc: "We must go above and beyond and ensure that every [ROOT.GetAdjective] citizen is ready to defend [ROOT.GetNameDefCap] at a moments notice. It is only by doing so we can stand a chance against the world powers, and maintain our sovereignty and identity after the Great Game."
+ PER_idea_one_for_all_all_for_one_desc: "We must go above and beyond and ensure that every [ROOT.GetAdjective] citizen is ready to defend [ROOT.GetNameDefCap] at a moment's notice. It is only by doing so we can stand a chance against the world powers, and maintain our sovereignty and identity after the Great Game."
  PER_idea_reject_foreign_dominance: "[ROOT.GetAdjective] Solidarity"
  PER_idea_reject_foreign_dominance_desc: "With foreign powers looming ominously at our borders, we will not cave, we will stand our ground and defend ourselves to the bitter end. [ROOT.GetAdjective] sovereignty and identity will survive, no matter the cost."
 
@@ -463,7 +463,7 @@
  idea_RAJ_empowered_police_force: "Empowered Police Force"
  idea_RAJ_pmc: "Private Military Complex"
  idea_RAJ_cost_underrun: "Budget Cost Under-run"
- idea_RAJ_womens_auxiliary_corps: "Womens Auxiliary Corps"
+ idea_RAJ_womens_auxiliary_corps: "Women's Auxiliary Corps"
  idea_RAJ_indian_railways: "Indian Railways"
  idea_RAJ_aden_treaty_port: "Aden Treaty Port"
  idea_RAJ_taking_over_administraive_rights: "Taking over Administrative Rights"
@@ -479,6 +479,7 @@
  idea_RAJ_ruler_of_the_peacock_throne: "The Peacock Throne"
 
  idea_SIA_army_of_siam: "Army of Siam"
+ idea_SIA_army_of_siam_desc: "The Army of Siam forms the backbone of the nation's defence, its organisation and traditions shaping how men and materiel are raised and sustained across the country."
  idea_RAJ_bose_hiding_raj: "Bose is traveling in hiding through India"
  idea_RAJ_bose_hiding_afghanistan: "Bose is hiding in Afghanistan destined for the USSR"
  idea_RAJ_bose_hiding_ussr: "Bose is in the USSR"
@@ -502,7 +503,7 @@
  modifier_RAJ_ENG_anti_communist: "Anti-Indian Communism Agenda"
  modifier_RAJ_PAK_anti_communist: "Religious Intolerance"
  idea_RAJ_PAK_british_anti_communist_investments: "British Anti-Communist Containment Strategy"
- idea_RAJ_the_peoples_liberation_army: "The Peoples Liberation Army"
+ idea_RAJ_the_peoples_liberation_army: "The People's Liberation Army"
  idea_RAJ_hindu_militarism: "Hindu Militarism"
  idea_RAJ_theocratic_rule: "Mandatory Jizyah"
  idea_RAJ_secular_rule: "Secular Rule"
@@ -565,7 +566,7 @@
  
 
  RAJ_a_loyal_government: "A Loyal Government"
- RAJ_a_loyal_government_desc: "Despite the desire for independence from dissidents wtihin [RAJ.GetNameDef], our government remains strong and stable. We will continue to uphold the Crown's interests with discipline and resolve."
+ RAJ_a_loyal_government_desc: "Despite the desire for independence from dissidents within [RAJ.GetNameDef], our government remains strong and stable. We will continue to uphold the Crown's interests with discipline and resolve."
  RAJ_high_import_duties: "High Import Duties"
  RAJ_high_import_duties_desc: "We have enacted a new policy with the intention of protecting local industries and retaining the economic output of [RAJ.GetNameDef]. With higher import duties on foreign goods, we shall ensure that [RAJ.GetNameDef] can stand on its own two feet in global economic circles."
  RAJ_the_zamindari_system: "The Zamindari System"
@@ -590,7 +591,7 @@
   ##### SHARED SAADABAD #####
   ###########################
  SSB_saadabad_pact: "The Saadabad Pact"
- SSB_saadabad_pact_desc: "A treaty of non agression with other middle eastern countries, this could possibly lead to further and stronger collaborations.\n\n §RStarting an offensive war against any member of the Saadabad Pact will cause you to permanently lose this spirit§!."
+ SSB_saadabad_pact_desc: "A treaty of non aggression with other middle eastern countries, this could possibly lead to further and stronger collaborations.\n\n §RStarting an offensive war against any member of the Saadabad Pact will cause you to permanently lose this spirit§!."
  SSB_saadabad_trade_agreement: "Saadabad Trade Agreement"
  SSB_saadabad_trade_agreement_desc: "A mutual trade agreement between the original Saadabad Pact signatories that facilitates further collaboration and a more integrated economy, lifting all tariffs and pooling resources together."
  

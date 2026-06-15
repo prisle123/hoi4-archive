@@ -492,7 +492,7 @@
  artillery5: "Artillerie V"
  artillery5_desc: "Les pièces d'artillerie dotées de profils plus bas seront plus difficiles à cibler pour l'ennemi."
  mountain_gun: "Canon de montagne"
- mountain_gun_desc: "Les terrains montagneux du Nord de l'Inde ont amené le développement d'une pièce d'artillerie qui pouvait être démontée et transportée à dos d'homme ou de mule jusqu'au lieu où on en avait besoin."
+ mountain_gun_desc: "Le terrain montagneux a amené le développement d'une pièce d'artillerie qui pouvait être démontée et transportée à dos d'homme ou de mule jusqu'au lieu où on en avait besoin."
  rocket_artillery2: "Lance-roquettes II"
  rocket_artillery2_desc: "Les pièces d'artillerie automotrices utilisant plusieurs roquettes permettront d'infliger de lourds dégâts, sans perdre de leur mobilité pour éviter les tirs de riposte."
  rocket_artillery3: "Lance-roquettes III"

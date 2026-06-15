@@ -102,7 +102,7 @@
  RELEASE_NATION_DESC: "\nVoulez-vous vraiment accorder l'indépendance à $COUNTRY|H$ en cédant à ce nouveau pays $LIST|H$ ?"
  RETURN_TERRITORY_TITLE: "Rétrocession d'un territoire"
  RETURN_TERRITORY_DESC: "\nVoulez-vous vraiment rétrocéder $LIST|H$ à $COUNTRY|H$ ?"
- manage_occupied_territories: "§GCliquer§! pour gérer les territoires occupés."
+ manage_occupied_territories: "§GCliquer§! pour gérer les territoires occupés"
  manage_occupied_territories_empty: "§RNous n'avons actuellement aucun territoire occupé.§!"
  manage_occupied_territories_puppet: "§RIl faut un niveau d'autonomie plus élevé pour accorder l'indépendance à des pays.§!"
  manage_occupied_territories_desc: "§TIl est possible de définir des politiques d'occupation et d'accorder l'indépendance à des pays disposant de territoires nationaux dans les territoires que nous occupons.§!"

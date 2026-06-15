@@ -21,7 +21,7 @@
  CZE_anglo_czechoslovak_bank_desc: "1930년 프라하에 있는 세 개의 다른 은행이 합병하여 탄생했습니다. 현재는 국가에서 두 번째로 큰 은행입니다."
  CZE_praga_aviation: "$CZE_praga_aviation_organization$"
  #Dynamic Modifiers National Spritits
- CZE_ceskoslovenska_armada_dynamic_modifier: "체코슬로바키아 육군"
+ CZE_ceskoslovenska_armada_dynamic_modifier: "체코슬로바키아군"
  CZE_ceskoslovenska_armada_dynamic_modifier_desc: "이 육군은 체코슬로바키아 군단의 베테랑과 오스트리아-헝가리 체코인 부대의 남은 인원들로 창설되었습니다. 두 부대의 유산은 여전히 육군의 운영 방식에 영향을 미치고 있습니다."
  CZE_ceskoslovenske_letectvo_dynamic_modifier: "체코슬로바키아 공군"
  CZE_ceskoslovenske_letectvo_dynamic_modifier_desc: "비행기는 준비가 안 되어 있을 때도 있지만, 우리 조종사들은 항상 준비되어 있습니다. 공중 위협은 어느 방향에서든 발생할 수 있으므로, 우리는 하늘을 우리의 바다로 만들어야 합니다. 조종사 한 명마다 세 명 분의 가치가 있는 것처럼 대우해야 합니다."
@@ -56,8 +56,8 @@
  CZE_rut_comprise_agreement_modifier: "카르파티아 우크라이나 자치 협정" #Can't use [RUT.Getname] in the context this is used in
  CZE_improve_cross_border_rail_connections_modifier: "국경 간 철도 연결 개선"
  #National Spirits
- CZE_taticek_of_czechoslovakia: "아버지"
- CZE_taticek_of_czechoslovakia_desc: "토마시 마사리크는 '타티네크'라는 별명으로 자주 불리곤 했는데, 이것은 '아빠' 또는 '국가의 아버지'를 의미합니다. 그는 체코슬로바키아 건국 이래 국가의 기반이 되어 왔습니다. 연립 정부 구성이 불가능하다고 생각되고, 정치적 난국이 너무 커서 극복하기 어려웠을 때, 마사리크는 체코슬로바키아를 강화하고 성장시키는 정치적 기적을 거듭 이루어냈습니다. 은퇴 후에도 정치 지도부에 대한 그의 의견과 제안은 조언보다는 명령으로 받아들여지고 있습니다."
+ CZE_taticek_of_czechoslovakia: "타티체크 마사리크"
+ CZE_taticek_of_czechoslovakia_desc: "토마시 마사리크는 흔히 '타티체크 마사리크'라 불리며, 이는 '아빠' 또는 '아버지', 즉 국부를 의미합니다. 그는 건국 이래 체코슬로바키아 국가의 굳건한 기반이 되어 왔습니다. 연정을 구성하는 일이 불가능해 보이고 정치적 교착이 도저히 풀 수 없을 만큼 깊어졌을 때도, 마사리크는 매번 정치적 기적을 일으켜 체코슬로바키아를 강화하고 성장시키는 데 힘을 보탰습니다. 은퇴한 뒤에도, 정치 지도부는 그의 생각과 제안을 조언이라기보다 사실상의 명령처럼 받아들이고 있습니다."
  CZE_industrialists_veto: "산업가의 거부"
  CZE_industrialists_veto_desc: "산업계는 [CZE.GetNameDef]의 주요 재벌 집단 다수를 이끌고 있는 만큼, 국가 정치에 막대한 영향력을 행사하고 있습니다. 경제 정책을 논할 때 그들의 우려를 무시할 수는 없으며, 그들은 경제 동원에 격렬히 반대할 것입니다."
  CZE_agrarian_politics_1: "농업주의 정치"
@@ -86,7 +86,7 @@
  CZE_trade_agreement: "[ROOT.GetAdjective]-[CZE.GetAdjective] 무역 협정"
  CZE_kickstart_rapid_rearmanent_aat_idea: "급속 재무장"
  CZE_influx_of_industrial_funds: "산업 자금 유입"
- CZE_devaluate_the_koruna_idea: "평가 절하된 코루나화"
+ CZE_devaluate_the_koruna_idea: "평가절하된 코루나"
  CZE_the_freeway_project: "고속도로 프로젝트"
  CZE_double_tracking_efforts: "선로 복선화 작업"
  CZE_railway_station_construction_effort: "철도역 건설 작업"
@@ -105,6 +105,7 @@
  CZE_vitkovice_mining_and_metallurgical_company: "비트코비체 광산 및 금속 회사"
  CZE_joint_stock_schemes_idea_aat: "주식회사 제도"
  CZE_joint_stock_schemes_idea_aat_desc: "주식회사 제도는 많은 체코 기업이 정치적 혼란이나 재정적 어려움에 직면했을 때 성장을 유지하기 위해 사용하는 일반적인 방법입니다."
+ CZE_powerhouse_of_europe_idea_desc: "$CZE_giant_of_central_europe_industry_desc$"
  CZE_national_defense_act_idea: "국가 방위법"
  CZE_mobilize_the_reserves_idea: "예비 사단 동원"
  CZE_rapid_response_divisions_idea: "신속대응 사단"
@@ -128,8 +129,10 @@
  CZE_adminstrative_chaos: "혼란스러운 행정"
  CZE_semi_constitutional_constitution: "갱신된 헌법"
  CZE_semi_constitutional_constitution_desc: "[ROOT.GetNameDef]의 새로운 헌법은 국민을 대표하는 정부의 민주주의적 측면과 안정을 수호하기 위해 군주가 개입할 권리 간의 분리를 보장합니다."
+ CZE_emergency_measures_idea: "$CZE_emergency_measures$"
  CZE_a_modern_navy_idea: "현대적인 해군"
  CZE_bastion_of_liberty_idea: "자유의 요새"
+ CZE_wielding_the_hammer_idea: "입법부 장악"
  CZE_leveraged_sokol: "소콜 활용"
  CZE_truth_prevails_idea: "진실은 승리한다"
  CZE_standing_against_the_storm_idea: "폭풍에 맞서기"
@@ -143,9 +146,12 @@
  CZE_federalization_agreement_puppets: "연방화 협정"
  CZE_strike_at_the_heart_of_bolshevism_idea: "[THIS.GetAntiSovietFocusName]"
  CZE_form_the_government_army_idea: "정부군"
- CZE_GRE_paying_off_debt_small: "무역 부채 탕감"
+ CZE_forgive_trading_debts_idea: "무역 부채 탕감"
+ CZE_forgive_trading_debts_idea_desc: "$CZE_forgive_trading_debts_desc$"
  CZE_soviet_influence: "[SOV.GetAdjective]의 영향력"
  CZE_mil_access_debuff_cancels_after_month_tt: "§Y이 국민정신은 군사 통행권이 종료되고 30일이 지나면 취소됩니다.\n§!"
+ CZE_state_catholicism: "$POL_state_catholicism$"
+ CZE_exiles_idea_POL: "[CZE.GetAdjective] 망명자들"
  ##SLOVAKIA##
  #SLO Concerns
  SLO_CZE_skoda_works_2: "슈코다-브라티슬라바"
@@ -193,6 +199,7 @@
  ##TOOLTIPS##
  #MISC Tooltips
  generic_has_happen_tt: "§Y다음이 발생함§!:"
+ generic_can_only_happen_once_tt: "이 §Y효과§!는 한 번만 발생할 수 있습니다"
  CZE_skoda_texticon_ref: "£GFX_CZE_skoda_text_icon"
  CZE_the_fall_of_the_republic_warning_tt: "§R이 선택을 하면 우리 국가에 정치적으로 파멸적인 결과가 초래됩니다. 그 결과는 우리가 예측조차 할 수 없습니다.§!"
  CZE_the_fall_of_the_republic_warning_munich_tt: "§R주데텐란트를 포기하기로 결정하면 우리 국가에 정치적으로 파멸적인 결과가 초래됩니다. 그러나 지금은 어쩔 수 없을지도 모릅니다...§!"

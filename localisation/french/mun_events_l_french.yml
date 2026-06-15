@@ -247,6 +247,8 @@
  MUN_czech.1054.a: "Il faut envahir pour ne pas être envahis"
  MUN_czech.1055.t: "Arrivée de volontaires [SOV.GetAdjMS]"
  MUN_czech.1055.d: "Les [SOV.GetHabitants] ont mené une opération aérienne de grande envergure durant laquelle ils ont réussi à déployer plusieurs divisions de volontaires à l'aéroport de [73.GetName] pour nous assister dans notre effort de guerre."
+ MUN_czech.1056.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] exig[FROM.GetEEntNP] le [975.GetName]"
+ MUN_czech.1056.d: "Les [CZE.GetHabitants] ont exigé l'obtention d'un corridor de sécurité entre leurs terres et celles [YUG.GetDuDelaDelNP] [YUG.GetName], le même qui avait été proposé durant la conférence de paix de Paris après la Grande Guerre. Afin que ce projet voie le jour, des représentants [FROM.GetAdjMP] attendent que nous leur cédions le [975.GetName]."
  #THE FALL OF THE REPUBLIC EVENTS#
  MUN_the_fall_of_the_republic.1.t: "Protestations généralisées"
  MUN_the_fall_of_the_republic.1.d: "La récente décision de [ROOT.GetLeader] visant à céder les Sudètes a provoqué une vague de protestations à travers le pays. Le gouvernement et le haut commandement ont pensé éviter un massacre inutile dans un conflit perdu d'avance en offrant ce territoire, mais la majorité de nos citoyens pense qu'ils se trompent. Certains partis politiques ont d'ailleurs profité du tumulte pour se mettre au-devant de la scène."
@@ -316,6 +318,10 @@
  MUN_slovakia_little_war.4.t: "Impasse en [71.getname]"
  MUN_slovakia_little_war.4.d: "Malheureusement, nos forces n'ont pas remporté la victoire en [71.getname]. Le manque de munitions et d'équipement motorisé a fait défaut à l'armée. Malgré cette impasse, nos commandants ont su tirer les leçons de cette bataille."
  MUN_slovakia_little_war.4.a: "Quelle déception !"
+ ##Exile##
+ MUN_czech_exile.1.t: "Les exilés [CZE.GetAdjMP] arrivent [ROOT.GetAuEnANP] [ROOT.GetName]"
+ MUN_czech_exile.1.d: "La dissolution [GER.GetDuDelaDelNP] [GER.GetName] après la conférence de Munich a provoqué l'arrivée d'exilés [CZE.GetAdjMP] dans plusieurs pays, le nôtre y compris. Ils sont prêts à prendre les armes pour nous aider, dans l'espoir de pouvoir un jour libérer leur pays à nos côtés."
+ MUN_czech_exile.1.a: "Qu'ils soient les bienvenus"
  ##NEWS EVENTS##
  MUN_czech.news.1.t: "La crise des Sudètes"
  MUN_czech.news.1.desc: "Les habitants des Sudètes ont déclenché une révolte armée contre le gouvernement [CZE.GetAdjMS]. D'après nos signalements, des paramilitaires ont pris d'assaut les commissariats et les bâtiments officiels de la région. Ce soulèvement vient en réponse à l'annonce de l'annexion [FROM.GetAdjFS].\n\nCes révoltes annoncent certainement un conflit bien plus large entre [FROM.GetLeLaLNP] [FROM.GetName] et [CZE.GetLeLaLNP] [CZE.GetName], un conflit désormais inévitable."

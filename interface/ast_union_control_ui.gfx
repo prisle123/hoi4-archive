@@ -1,0 +1,29 @@
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ast_union_control_progressbar_frame"
+		textureFile = "gfx//interface//union_control//union_control_progressbar_frame.dds"
+	}
+
+	progressbartype = {
+		name = "GFX_ast_union_control_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/union_control/union_control_progressbar.dds"
+		textureFile2 = "gfx/interface/absolute_nothing.dds"
+		size = { x = 450 y = 33 }
+		steps = 5
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_ast_union_control_progressbar_current"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/union_control/union_control_progressbar_current.dds"
+		textureFile2 = "gfx/interface/absolute_nothing.dds"
+		size = { x = 450 y = 33 }
+		steps = 5
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

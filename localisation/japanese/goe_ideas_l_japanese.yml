@@ -161,7 +161,7 @@
  IRQ_peshmerga_idea: "ペシュメルガ"
  IRQ_state_company_for_cement_idea: "[ROOT.GetAdjective]・セメント総合公社"
  IRQ_state_company_of_cotton_industries_idea: "綿産業国営公社"
- IRQ_shia_resistance_modifier: "手に負えないシーア派部族"
+ IRQ_shia_resistance_modifier: "手に負えない自治部族"
  #TRAITS
  independence_activist: "独立活動家"
  anti_colonial_humanist: "反植民地人道主義者"
@@ -457,6 +457,7 @@
  idea_RAJ_thunder_elephants_no_gdr: "帝国の戦象"
  idea_RAJ_ruler_of_the_peacock_throne: "孔雀の王座"
  idea_SIA_army_of_siam: "シャム軍"
+ idea_SIA_army_of_siam_desc: "シャム軍は国家防衛の中核を成しており、その組織と伝統は、全国で人員と軍需物資を動員・維持する方法を形作っている。"
  idea_RAJ_bose_hiding_raj: "ボースは身を隠してインドを旅している"
  idea_RAJ_bose_hiding_afghanistan: "ボースは身を隠してアフガニスタンからソ連に向かっている"
  idea_RAJ_bose_hiding_ussr: "ボースはソ連にいる"

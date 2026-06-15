@@ -184,3 +184,5 @@
  non_core_controller_desc: "Region kontrolowany przez kraj inny niż narodowy"
  independent_rule: "Niezależna władza"
  princely_subjugation: "Pod władzą księstwa"
+ INS_direct_rule_occupation_law: "Bezpośrednie rządy"
+ INS_local_autonomy_occupation_law: "Lokalna autonomia"

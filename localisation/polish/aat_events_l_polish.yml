@@ -377,7 +377,7 @@
  AAT_Sweden.19.t: "[SWE.GetNameDefCap] zwraca Narwik"
  AAT_Sweden.19.desc: "To wspaniały dzień, w którym [Nor.GetName] to znowu zjednoczone państwo. [SWE.GetName] wspaniałomyślnie zgadza się spełnić nasz wniosek o zwrócenie nam Narwiku, który w czasie wojny znajdował się pod ochroną [SWE.GetAdjective] rządu. Przekazaliśmy nasze podziękowania [SWE.GetAdjective] rządowi. To z pewnością znak, że więzi między naszymi krajami zostaną zacieśnione na wiele lat."
  AAT_Sweden.19.a: "Norwegia znowu jest jednością"
- AAT_Sweden.19_tt: "§Y[ROOT.GetNameDefCap]§! może teraz przyznawać §Ydowódcom polowym§! §YHonorowy Krzyż Obrony Norwegii§!."
+ AAT_Sweden.19_tt: "§Y[ROOT.GetNameDefCap]§! może teraz przyznawać §Yoficerom polowym§! §YHonorowy Krzyż Obrony Norwegii§!."
  AAT_Sweden.20.t: "[SWE.GetNameDefCap] odmawia zwrócenia Narwiku"
  AAT_Sweden.20.desc: "W czasie wojny [SWE.GetNameDef] bezwstydnie zajęła część naszego kraju pod pretekstem \"uratowania obywateli Norwegii przed jeszcze gorszą okupacją\". Okazało się, że był to tylko podstęp rządu [SWE.GetAdjective] mający na celu zaspokojenie ambicji terytorialnych. Odmówiono zwrócenia nam okupowanych ziem ze względu na \"destabilizację świata i powojenne niepokoje\". To oczywiście czysty oportunizm, bezczelne oszustwo, które zagraża wolności i jedności naszego państwa. Narwik jest norweski i takim pozostanie, nawet gdybyśmy mieli odzyskać go siłą."
  AAT_Sweden.20.a: "W takim razie - wojna"

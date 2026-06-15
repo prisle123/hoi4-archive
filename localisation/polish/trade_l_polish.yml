@@ -49,7 +49,7 @@
  TRADE_ROUTE_DELIVERY_TYPE_LOCKED: "§RZablokowano dostawy§!"
  TRADE_ROUTE_DELIVERY_TYPE_LAND: "§T$VAL|H$ jedn. dociera §Hlądem§!.§!"
  TRADE_ROUTE_DELIVERY_TYPE_SEA: "§T$VAL|H$ jedn. dociera §Hmorzem§! przy użyciu $CON|H$ z $TOT|H$ potrzebnych konwojów.§!"
- CONVOYS_USAGE_DESC: "§TMamy następującą liczbę konwojów: $TOT|H$.\nŁączne użycie: $USED|H$\nUżywane/Potrzebne:\n - Do planów desantu morskiego: $INVASION_USE|H$/$INVASION_NEED|H$\n - Do przerzutu wojsk: $TRANSFER_USE|H$/$TRANSFER_NEED|H$\n - Do handlu: $TRADE_USE|H$/$TRADE_NEED|H$\n - Do zaopatrzenia: $SUPPLY_USE|H$/$SUPPLY_NEED|H$\n$UNDERWAY_REPLENISHMENT_IF_UNLOCKED$Niewykorzystane: $LEFT|H$§!"
+ CONVOYS_USAGE_DESC: "§TMamy następującą liczbę konwojów: $TOT|H$.\nŁączne użycie: $USED|H$\nUżywane/Potrzebne:\n - Do planów desantu morskiego: $INVASION_USE|H$/$INVASION_NEED|H$\n - Do przerzutu wojsk: $TRANSFER_USE|H$/$TRANSFER_NEED|H$\n - Do handlu: $TRADE_USE|H$/$TRADE_NEED|H$\n - Do umowy lend-lease: $LENDLEASE_USE|H$/$LENDLEASE_NEED|H$\n - Do zaopatrzenia: $SUPPLY_USE|H$/$SUPPLY_NEED|H$\n$UNDERWAY_REPLENISHMENT_IF_UNLOCKED$Niewykorzystane: $LEFT|H$§!"
  CONVOYS_USAGE_UNDERWAY_REPLENISHMENT: " - Do uzupełnień na morzu: $CONVOY_USE|0H$/$CONVOY_NEED|0H$\n"
  CONVOYS: "Konwoje"
  NO_IMPORT_TO_CANCEL: "§RNie można anulować importu ($RESOURCE|H$), ponieważ nic nie jest importowane.§!"

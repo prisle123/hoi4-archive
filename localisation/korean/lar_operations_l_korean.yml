@@ -284,7 +284,7 @@
  exfiltration_go_to_ground_outcome_fail: "§R팀은 아직까지 미리 약속된 시각에 연락을 취하지 못하고 있습니다. 그들에게 무슨 일이 발생했는지는 아직 파악되지 않았습니다.§!"
  OPERATION_OUTLOOK_LABEL: "전망"
  OPERATION_RISK_HEADER: "§H위험도:§! $VAL|-%0$"
- OPERATION_OUTCOME_HEADER: "§H뜻밖의 결과:§! $VAL|+%0$"
+ OPERATION_OUTCOME_HEADER: "§H추가 결과:§! $VAL|+%0$"
  OPERATION_BASE: "작전: "
  RISK_LOW: "§G안전§!"
  RISK_MID: "§R위험§!"

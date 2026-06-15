@@ -161,7 +161,7 @@
  IRQ_peshmerga_idea: "Peschmerga"
  IRQ_state_company_for_cement_idea: "Staatliche Gesellschaft für [ROOT.GetAdjective]en Zement"
  IRQ_state_company_of_cotton_industries_idea: "Staatsunternehmen für die Baumwollindustrie"
- IRQ_shia_resistance_modifier: "Aufständische Schiiten-Stämme"
+ IRQ_shia_resistance_modifier: "Aufständische autonome Stämme"
  #TRAITS
  independence_activist: "Unabhängigkeitsaktivist"
  anti_colonial_humanist: "Antikolonialismus-Humanist"
@@ -457,6 +457,7 @@
  idea_RAJ_thunder_elephants_no_gdr: "Donnerelefanten"
  idea_RAJ_ruler_of_the_peacock_throne: "Pfauenthron"
  idea_SIA_army_of_siam: "Armee von Siam"
+ idea_SIA_army_of_siam_desc: "Die Armee Siams ist für die Verteidigung des Landes verantwortlich. Ihre Organisation und ihre Traditionen bestimmen darüber, wie Personal und Materialien im Land verteilt werden."
  idea_RAJ_bose_hiding_raj: "Bose reist im Geheimen durch Indien"
  idea_RAJ_bose_hiding_afghanistan: "Bose versteckt sich in Afghanistan, um in die UdSSR zu gelangen"
  idea_RAJ_bose_hiding_ussr: "Bose ist in der UdSSR"

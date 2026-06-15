@@ -56,8 +56,8 @@
  CZE_rut_comprise_agreement_modifier: "Accord d'autonomie d'Ukraine subcarpatique" #Can't use [RUT.Getname] in the context this is used in
  CZE_improve_cross_border_rail_connections_modifier: "Correspondances ferroviaires internationales en rénovation"
  #National Spirits
- CZE_taticek_of_czechoslovakia: "Tatínek"
- CZE_taticek_of_czechoslovakia_desc: "Tomáš Masaryk, affectueusement surnommé « Tatínek », signifiant le père de la nation, est la clé de voûte de la nation tchécoslovaque depuis sa fondation. À l'époque où tout le monde pensait les coalitions inconcevables et les impasses politiques insurmontables, il a su, à maintes reprises, réaliser de véritables miracles pour renforcer la politique de la Tchécoslovaquie. Même retiré du monde politique, son opinion et ses suggestions sont suivies à la lettre par la classe politique."
+ CZE_taticek_of_czechoslovakia: "Tatíček Masaryk"
+ CZE_taticek_of_czechoslovakia_desc: "Tomáš Masaryk, affectueusement surnommé « Tatíček Masaryk », signifiant le père de la nation, est la clé de voûte de la nation tchécoslovaque depuis sa fondation. À l'époque où tout le monde pensait les coalitions inconcevables et les impasses politiques insurmontables, il a su, à maintes reprises, réaliser de véritables miracles pour renforcer la politique de la Tchécoslovaquie. Même retiré du monde politique, son opinion et ses suggestions sont suivies à la lettre par la classe politique."
  CZE_industrialists_veto: "Veto des industriels"
  CZE_industrialists_veto_desc: "Les industriels détiennent une influence considérable sur la politique du pays, possédant la majorité des conglomérats nationaux. Il est difficile d'ignorer leurs opinions sur les questions économiques, et surtout la pression qu'ils exercent pour empêcher la mobilisation."
  CZE_agrarian_politics_1: "Politique agraire"
@@ -105,6 +105,7 @@
  CZE_vitkovice_mining_and_metallurgical_company: "Société minière et métallurgique de Vítkovice"
  CZE_joint_stock_schemes_idea_aat: "Systèmes de sociétés par actions"
  CZE_joint_stock_schemes_idea_aat_desc: "Cette méthode est largement employée par les sociétés tchèques afin d'assurer une croissance stable, même en période d'instabilité politique."
+ CZE_powerhouse_of_europe_idea_desc: "$CZE_giant_of_central_europe_industry_desc$"
  CZE_national_defense_act_idea: "Acte de défense nationale"
  CZE_mobilize_the_reserves_idea: "Mobilisation des divisions de réserve"
  CZE_rapid_response_divisions_idea: "Divisions de réponse rapide"
@@ -128,8 +129,10 @@
  CZE_adminstrative_chaos: "Chaos administratif"
  CZE_semi_constitutional_constitution: "Constitution renouvelée"
  CZE_semi_constitutional_constitution_desc: "La nouvelle constitution [ROOT.GetAdjFS] assure la séparation nette entre le gouvernement démocratique qui représente le peuple et le pouvoir monarchique permettant de garantir la stabilité de la nation."
+ CZE_emergency_measures_idea: "$CZE_emergency_measures$"
  CZE_a_modern_navy_idea: "Forces navales modernes"
  CZE_bastion_of_liberty_idea: "Bastion de la liberté"
+ CZE_wielding_the_hammer_idea: "Capture règlementaire"
  CZE_leveraged_sokol: "Sokol exploité"
  CZE_truth_prevails_idea: "La vérité vaincra"
  CZE_standing_against_the_storm_idea: "Unis face à la tempête"
@@ -143,9 +146,12 @@
  CZE_federalization_agreement_puppets: "Accord de fédéralisation"
  CZE_strike_at_the_heart_of_bolshevism_idea: "[THIS.GetAntiSovietFocusName]"
  CZE_form_the_government_army_idea: "L'Armée gouvernementale"
- CZE_GRE_paying_off_debt_small: "Annulation des dettes"
+ CZE_forgive_trading_debts_idea: "Annulation des dettes"
+ CZE_forgive_trading_debts_idea_desc: "$CZE_forgive_trading_debts_desc$"
  CZE_soviet_influence: "Influence [SOV.GetAdjFS]"
  CZE_mil_access_debuff_cancels_after_month_tt: "§YCette idée sera annulée 30 jours après la fin de l'accès militaire.\n§!"
+ CZE_state_catholicism: "$POL_state_catholicism$"
+ CZE_exiles_idea_POL: "Exilés [CZE.GetAdjMP]"
  ##SLOVAKIA##
  #SLO Concerns
  SLO_CZE_skoda_works_2: "Škoda-Bratislava"
@@ -193,6 +199,7 @@
  ##TOOLTIPS##
  #MISC Tooltips
  generic_has_happen_tt: "§YLes événements suivants se sont produits§! :"
+ generic_can_only_happen_once_tt: "Cet §Yeffet§! se produira une seule fois"
  CZE_skoda_texticon_ref: "£GFX_CZE_skoda_text_icon"
  CZE_the_fall_of_the_republic_warning_tt: "§RCette décision va engendrer de terribles conséquences politiques pour notre nation, des conséquences que nous n'imaginons même pas§!"
  CZE_the_fall_of_the_republic_warning_munich_tt: "§RCéder les Sudètes va engendrer de terribles conséquences politiques pour notre nation, mais nous n'avons plus le choix§!"

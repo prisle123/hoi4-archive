@@ -338,10 +338,18 @@
  CAN_neutrality_party_long: "協同連邦党"
  AST_neutrality_party: "ACP"
  AST_neutrality_party_long: "オーストラリア国家党"
- AST_democratic_party: "労働党"
- AST_democratic_party_long: "オーストラリア労働党"
+ AST_colonial_administration: "CA"
+ AST_colonial_administration_long: "植民地行政"
+ AST_democratic_party: "UAP"
+ AST_democratic_party_long: "統一オーストラリア党"
+ AST_labor_party: "労働党"
+ AST_labor_party_long: "オーストラリア労働党"
  AST_fascism_party: "中央党"
  AST_fascism_party_long: "中央党"
+ AST_australia_first_movement: "オーストラリア・ファースト"
+ AST_australia_first_movement_long: "オーストラリア・ファースト運動"
+ AST_australia_first_party: "オーストラリア・ファースト"
+ AST_australia_first_party_long: "オーストラリア・ファースト党"
  AST_communism_party: "CPA"
  AST_communism_party_long: "オーストラリア共産党"
  MEX_democratic_party: "PLC"
@@ -575,7 +583,7 @@
  CZE_communism_party: "KSČ"
  CZE_communism_party_long: "チェコスロヴァキア共産党"
  CZE_democratic_party: "拡大連合" #RZML led 'Broad Coalition'
- CZE_democratic_party_long: "農業者・小農民共和党ならびに拡大連合"
+ CZE_democratic_party_long: "RSZML主導の拡大連合"
  CZE_fascism_party: "NOF"
  CZE_fascism_party_long: "国家ファシスト共同体"
  CZE_neutrality_party: "自治ブロック"
@@ -660,8 +668,14 @@
  ELS_fascism_party_long: "「母国のための」国民党"
  GUA_democratic_party: "PLP"
  GUA_democratic_party_long: "進歩自由党"
- SIA_neutrality_party: "人民党"
- SIA_neutrality_party_long: "人民党"
+ SIA_democratic_party: "Khana Ratsadon - Civilian"
+ SIA_democratic_party_long: "Khana Ratsadon - Civilian Wing"
+ SIA_neutrality_party: "Khana Ratsadon - Military"
+ SIA_neutrality_party_long: "Khana Ratsadon - Military Wing"
+ SIA_neutrality_party_royalist: "王党派"
+ SIA_neutrality_party_royalist_long: "王党派"
+ SIA_communism_party: "CPT"
+ SIA_communism_party_long: "Communist Party of Thailand"
  URG_democratic_party: "コロラド党"
  URG_democratic_party_long: "コロラド党"
  URG_communism_party: "PCU"
@@ -889,22 +903,47 @@
  ISR_democratic_party: "マパイ"
  ISR_fascism_party: "ヘルパム"
  ISR_neutrality_party: "中央評議会"
- VIN_fascism_party: "ベトナム復興連盟" #or Reformation Society
+ VIN_fascism_party: "大越国家社会党" #was Vietnamese Restoration League or Reformation Society
  VIN_democratic_party: "勤労党" #formed in early 50s
  VIN_communism_party: "ベトナム共産党" #Viet Minh was more important in early years
- VIN_neutrality_party: "ベトナム国民党"
+ VIN_neutrality_party: "Nguyen Dynasty" #was Viêt Nam Quoc Dân Đang
  CAM_fascism_party: "クメール党"
  CAM_democratic_party: "民主党" #formed in 1946
  CAM_communism_party: "クメール・イサラク"
  CAM_neutrality_party: "サンクム・リアハ・ニヨム" #or just Sangkum 1955, democratic but right leaning and anti communist
- INS_fascism_party: "新体制" #inspired by right wingers from 1960s
- INS_democratic_party: "インドネシア国民党" #Indonesian National Party founded by Sukarno
+ CPS_neutrality_party: "Na Champassak"
+ INS_fascism_party: "NSB"
+ INS_fascism_party_long: "オランダ領東インドにおける国家社会主義運動"
+ INS_democratic_party: "フォルクスラート"
  INS_communism_party: "インドネシア共産党" #Partai Komunis Indonesia
- INS_neutrality_party: "民主派" #made up, in reality this guy was a member of PNI
- MAL_fascism_party: "汎大洋連合支持者"
- MAL_democratic_party: "統一マレー国民組織" #or UMNO or PEKEMBAR
- MAL_communism_party: "マラヤ共産党" #or MCP
- MAL_neutrality_party: "青年マレー連合" #or KMM
+ INS_communism_party_long: "インドネシア共産党"
+ INS_neutrality_party: "総督" #Dutch
+ INS_neutrality_party_long: "オランダの帝国統治"
+ INS_republic_knip_party: "KNIP"
+ INS_republic_knip_party_long: "インドネシア中央国民委員会"
+ INS_republic_national_party: "PNI"
+ INS_republic_national_party_long: "インドネシア国民党"
+ INS_republic_socialist_party: "PSI"
+ INS_republic_socialist_party_long: "インドネシア社会党"
+ INS_republic_masyumi_party: "マシュミ"
+ INS_republic_masyumi_party_long: "マシュミ"
+ INS_peta_party: "PETA"
+ INS_peta_party_long: "郷土防衛義勇軍"
+ MAL_fascism_party: "HAMIM"
+ MAL_fascism_party_long: "ヒズプール・ムスリミン"
+ MAL_democratic_party: "UMNO"
+ MAL_democratic_party_long: "United Malays National Organisation"
+ MAL_communism_party: "MCP"
+ MAL_communism_party_long: "Malayan Communist Party"
+ MAL_neutrality_party: "KMM"
+ MAL_neutrality_party_long: "Kesatuan Melayu Muda"
+ SNG_fascism_party: "シンガプーラ王国"
+ SNG_democratic_party: "LF"
+ SNG_democratic_party_long: "Labour Front"
+ SNG_communism_party: "BS"
+ SNG_communism_party_long: "Barisan Sosialis"
+ SNG_neutrality_party: "PAP"
+ SNG_neutrality_party_long: "People's Action Party"
  LAO_fascism_party: "部族中央集権党"
  LAO_democratic_party: "民主党"
  LAO_communism_party: "パテート・ラーオ"

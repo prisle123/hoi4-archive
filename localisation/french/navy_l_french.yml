@@ -1,5 +1,5 @@
 ﻿l_french:
- HOME_BASE_RIGHT_CLICK: "§GClic droit§! pour centrer sur la base d'attache actuelle."
+ HOME_BASE_RIGHT_CLICK: "§GClic droit§! pour centrer sur la base d'attache actuelle"
  HOME_BASE_NONE: "Aucune"
  HOME_BASE_STATE_NAME: "$STATE$ ($LEVEL|Y$)"
  NAVAL_DOMINANCE_CURRENT_VALUE: "Ratio de contrôle : $RATIO|%2G$\nDominance actuelle : £naval_dominance_texticon£$CURRENT|0Y$"
@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§Yactivée§!"
  AUTOMATION_HOMEBASE_OFF: "§gdésactivée§!"
  SEAZONE_MINIMUM_DOMINANCE: "£naval_dominance_texticon£ minimum pour contrôler la zone : $VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HDominance navale§!\nIl nous faut un taux de contrôle de §Y66%§! ou plus pour qu'une région soit sous contrôle allié."
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HDomination navale§!\nIl nous faut un taux de contrôle de §Y60%§! ou plus pour qu'une région soit sous contrôle allié."
  NAVAL_DOMINANCE_EXPLANATION: "§YDominance navale§!\nIndique l'efficacité d'un navire à contrôler une zone navale spécifique."
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§HConsommation du ravitaillement : $VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "Valeur de base : $VAL|H$"

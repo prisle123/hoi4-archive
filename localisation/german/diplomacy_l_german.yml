@@ -559,6 +559,7 @@
  DR_YEARS_DIFFERENCE: "Tech-Unterschied der angefragten Ausrüstung: "
  DR_LEND_LEASE: "Die Hilfe ist willkommen."
  DR_LEND_LEASE_NO_EQUIPMENT_OR_REQUEST_HAS: "$SENDER|UH$ hat nicht genügend Ausrüstung oder §Ywir§! haben zu viel Ausrüstung im Lagerbestand."
+ DR_LEND_LEASE_CONVOY_OVERCOMMIT: "Über der Konvoikapazität:"
  DR_VOLUNTEER: "Die Hilfe ist willkommen."
  DR_ATTACHE: "Die Hilfe ist willkommen: "
  DR_ATTACHE_LOW_OPINION: "Meinung über uns zu niedrig: "
@@ -1138,7 +1139,7 @@
  HAS_GUARANT: "Sie garantieren uns"
  HAS_NOT_GUARANT: "Wir garantieren sie nicht"
  PUPPET_CALLED_YOU_TO_WAR: "Unsere Marionette $PUPPET|Y$ braucht unsere Hilfe und hat uns in den Krieg $WAR|Y$ gerufen."
- MASTER_CALLED_US_TO_WAR: "Unser Herr $MASTER|Y$ braucht unsere Hilfe und hat uns in den $WAR|Y$ gerufen."
+ MASTER_CALLED_US_TO_WAR: "Unser Herr, $MASTER|Y$, benötigt unsere Hilfe und hat uns in den Krieg „$WAR|Y$“ gerufen."
  DIPLOMACY_REQUEST_EXPIRY: "Diese Anfrage läuft am $DATE|Y$ ab"
  DIPLOMACY_OPINION_LEASED_EQUIPMENT: "Kürzlich gelieferte Ausrüstung: $VALUE|+=$"
  DR_KICKED_FROM_FACTION: "Kürzlich aus dem Bündnis hinausgeworfen: "
@@ -1572,7 +1573,7 @@
  SWI_investing_in_switzerland: "Investitionen in die Schweiz"
  SWI_gold_trade: "Goldhandel über die Schweiz"
  SWI_gold_seized_opinion_bad: "Beschlagnahmte unsere Goldreserven!"
- SWI_backchannel_negotiations_opinion_modifier: "Hinterzimmerverhandlungen"
+ SWI_backchannel_negotiations_opinion_modifier: "Geheime Verhandlungen"
  SWI_too_costly_to_invade: "Eine Invasion der Schweiz wäre zu kostspielig"
  SWI_obstructing_anschluss: "Widerstand gegen den Anschluss"
  SWI_supporting_resistance: "Unterstützt Widerstandsgruppen in unserem Territorium"
@@ -1716,3 +1717,6 @@
  CZE_allows_passage_of_soviet_troops: "Erlaubt den Durchmarsch sowjetischer Truppen"
  #Czechoslovakia Opinion Modifiers
  CZE_i_am_agreeable_to_license: "Kaufverträge für Škoda und CKD"
+ #INS
+ indonesia_usa_rejected_renville_modifier: "Hilfe verweigert"
+ indonesia_china_trade_modifier: "Chinesisch-Indonesische Migranten"

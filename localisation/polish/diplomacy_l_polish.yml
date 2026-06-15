@@ -559,6 +559,7 @@
  DR_YEARS_DIFFERENCE: "Różnice technologiczne potrzebnego wyposażenia: "
  DR_LEND_LEASE: "Pomoc została przyjęta."
  DR_LEND_LEASE_NO_EQUIPMENT_OR_REQUEST_HAS: "$SENDER|UH$ ma za mało wyposażenia albo §Ymy§! mamy za dużo wyposażenia w zapasach."
+ DR_LEND_LEASE_CONVOY_OVERCOMMIT: "Wymagana liczba konwojów przekracza stan o:"
  DR_VOLUNTEER: "Pomoc została przyjęta."
  DR_ATTACHE: "Pomoc jest mile widziana: "
  DR_ATTACHE_LOW_OPINION: "Zbyt niska opinia o nas: "
@@ -1138,7 +1139,7 @@
  HAS_GUARANT: "Mamy od nich gwarancję"
  HAS_NOT_GUARANT: "Nie dajemy im gwarancji"
  PUPPET_CALLED_YOU_TO_WAR: "Nasze państwo marionetkowe ($PUPPET|Y$) potrzebuje pomocy i wzywa nas do konfliktu ($WAR|Y$)."
- MASTER_CALLED_US_TO_WAR: "Nasz władca ($MASTER|Y$) potrzebuje pomocy i wzywa nas do konfliktu ($WAR|Y$)."
+ MASTER_CALLED_US_TO_WAR: "Nasz władca $MASTER|Y$ potrzebuje pomocy i wzywa nas do konfliktu: $WAR|Y$."
  DIPLOMACY_REQUEST_EXPIRY: "Ten wniosek wygaśnie $DATE|Y$."
  DIPLOMACY_OPINION_LEASED_EQUIPMENT: "Niedawno dostarczone wyposażenie: $VALUE|+=$"
  DR_KICKED_FROM_FACTION: "Niedawno wyrzucono z frakcji: "
@@ -1716,3 +1717,6 @@
  CZE_allows_passage_of_soviet_troops: "Umożliwia przemarsz sowieckich oddziałów"
  #Czechoslovakia Opinion Modifiers
  CZE_i_am_agreeable_to_license: "Umowy zakupów od Skody i CKD"
+ #INS
+ indonesia_usa_rejected_renville_modifier: "Odmówiono pomocy"
+ indonesia_china_trade_modifier: "Chińsko-indonezyjscy imigranci"

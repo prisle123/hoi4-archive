@@ -1103,6 +1103,8 @@
  BRA_united_kingdom_of_brazil_and_portugal: "ブラジルおよびポルトガル連合王国"
  BRA_united_kingdom_of_brazil_and_portugal_desc: "ブラジル皇室の復興は、ポルトガルにおいても君主制主義者たちの心を再び燃え上がらせている。我々はこのチャンスを活かし、今一度一人の君主のもとに二つの国を統一するべきなのかもしれない。何しろどちらの国も、互いの資源や人材、そして専門知識および技能の恩恵を受けているのだから。"
  BRA_united_kingdom_of_brazil_and_portugal_tt: "§Y[POR.GetFlag][POR.GetNonIdeologyName]§!と§Y[BRA.GetFlag][BRA.GetNonIdeologyName]§!の統一を要請する。§Y[POR.GetFlag][POR.GetNonIdeologyName]§!が承諾すれば、同国はブラジルの従属国となる。あちらから代替案を提示されたり、提案を拒絶されることもあり得る。"
+ BRA_claim_the_french_throne: "フランス王位の要求"
+ BRA_claim_the_french_throne_desc: "オルレアンス＝ブラガンサ家を通じて、我が王朝は未だ果たされていないフランス王位への請求権を有している。同家のペドロ・ガスタンは、この請求権を利用して我々の領土を拡大することを望んでいる。この状況を利用しない手はない！"
  BRA_undermine_democracy: "国民会議の弱体化"
  BRA_undermine_democracy_desc: "最も影響力のある支持者たちが、今回の立憲君主制の妥協案に納得していない。彼らは痺れを切らせてきており、君主が新たに手に入れた影響力でもって新たな閣僚を任命し、国民会議を無力化するところを見たがっている。"
  BRA_use_the_national_security_law: "国家安全保障法の活用"

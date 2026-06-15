@@ -942,7 +942,7 @@
  controls_all_russian_states_tt: "모든 §Y러시아 주§! 지배."
  GER_wont_ally_tt: "§Y[GER.GetNameWithFlag]§!(은)는 §Y[Root.GetNameWithFlag]§!(이)가 자신의 세력에 들어오는 것을 허락하지 않을 가능성이 높습니다."
  control_all_nordic_states_tt: "§Y스웨덴§!, §Y노르웨이§!와 §Y덴마크§! 전역을 지배하거나 괴뢰국으로 가집니다."
- control_all_ukrainian_states_tt: "남베사라비아를 제외한 §Y우크라이나§! 전역을 지배하거나 괴뢰국으로 가집니다."
+ control_all_ukrainian_states_tt: "베사라비아 남부를 제외한 §Y우크라이나§! 전역을 지배하거나 괴뢰국으로 가집니다."
  monarchy_banned_tt: "§Y[pol_monarchy_claimer_target.GetNameWithFlag]§!는 더 이상 군주주의를 전파할 수 없게 됩니다."
  BALTIC_tech_sharing_tt: "우리는 모든 세력 회원국과 §Y기술 공유 협약§!을 체결할 것입니다."
  POL_can_boost_in_benelux_tt: "§Y베네룩스에 팔랑헤주의 촉진§! 결정 잠금 해제."

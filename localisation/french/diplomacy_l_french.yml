@@ -559,6 +559,7 @@
  DR_YEARS_DIFFERENCE: "Différence technologique du matériel demandé : "
  DR_LEND_LEASE: "Toute aide est la bienvenue : "
  DR_LEND_LEASE_NO_EQUIPMENT_OR_REQUEST_HAS: "$SENDER|UH$ manque de matériel ou §Ynous§! avons trop de matériel en réserve "
+ DR_LEND_LEASE_CONVOY_OVERCOMMIT: "Capacité de convoi dépassée : "
  DR_VOLUNTEER: "Toute aide est la bienvenue : "
  DR_ATTACHE: "Toute aide est la bienvenue : "
  DR_ATTACHE_LOW_OPINION: "Opinion trop basse à notre égard : "
@@ -1138,7 +1139,7 @@
  HAS_GUARANT: "Ce pays garantit notre indépendance."
  HAS_NOT_GUARANT: "Nous ne garantissons pas l'indépendance de ce pays."
  PUPPET_CALLED_YOU_TO_WAR: "Notre État fantoche $PUPPET|Y$ a besoin de notre aide et souhaite que nous nous engagions dans la guerre suivante : $WAR|Y$."
- MASTER_CALLED_US_TO_WAR: "Notre maître $MASTER|Y$ a besoin de notre aide et nous demande de nous impliquer dans la $WAR|Y$."
+ MASTER_CALLED_US_TO_WAR: "Notre maître $MASTER|Y$ a besoin de notre aide et souhaite que nous nous engagions dans la guerre suivante : $WAR|Y$."
  DIPLOMACY_REQUEST_EXPIRY: "Cette demande expirera le $DATE|Y$."
  DIPLOMACY_OPINION_LEASED_EQUIPMENT: "Matériel récemment livré : $VALUE|+=$"
  DR_KICKED_FROM_FACTION: "Exclusion récente de la faction : "
@@ -1660,7 +1661,7 @@
  DEN_deteriorating_overlord_relations: "Cela va dégrader les relations avec [DEN.Overlord.GetLeLaLNP] [DEN.Overlord.GetFlag]§Y[DEN.Overlord.GetName]§!."
  DEN_deteriorating_subject_relations: "Cela va dégrader les relations avec [DEN.GetLeLaLNP] [DEN.GetName]"
  DEN_deepening_partnership: "Approfondit le partenariat"
- DEN_cooperative_subject: "Dépendance coopérative"
+ DEN_cooperative_subject: "Sujet coopératif"
  #### FINLAND ####
  FIN_nordic_amity: "Amitié nordique"
  FIN_support_for_east_karealian_independence_big: "Soutien au soulèvement en Carélie orientale"
@@ -1716,3 +1717,6 @@
  CZE_allows_passage_of_soviet_troops: "Autoriser le passage des troupes soviétiques"
  #Czechoslovakia Opinion Modifiers
  CZE_i_am_agreeable_to_license: "Contrats d'achat Škoda et CKD"
+ #INS
+ indonesia_usa_rejected_renville_modifier: "A refusé son soutien"
+ indonesia_china_trade_modifier: "Migrants sino-indonésiens"

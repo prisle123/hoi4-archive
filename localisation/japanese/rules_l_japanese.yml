@@ -1,7 +1,7 @@
 ﻿l_japanese:
  CAN_CREATE_COLLABORATION_GOVERNMENT: "協力政府を作成可能"
  CAN_DECLARE_WAR_WITHOUT_WARGOAL_WHEN_IN_WAR: "主要国と戦争中、戦争目標無しで隣国に宣戦布告ができる"
- CAN_DECLARE_WAR_ON_SAME_IDEOLOGY: "戦争目標無しで同じイデオロギーの国家に宣戦布告ができる"
+ CAN_DECLARE_WAR_ON_SAME_IDEOLOGY: "同じイデオロギーグループの国家に対し、戦争目標の正当化および宣戦布告ができる"
  CAN_FORCE_GOVERNMENT: "他国政府に同じイデオロギーを強いることができる"
  CAN_GUARANTEE_OTHER_IDEOLOGIES: "異なるイデオロギー国家に独立を保障できる"
  CAN_PUPPET: "国家を傀儡化できる"

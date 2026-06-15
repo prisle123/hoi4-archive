@@ -338,10 +338,18 @@
  CAN_neutrality_party_long: "Co-operative Commonwealth Federation"
  AST_neutrality_party: "ACP"
  AST_neutrality_party_long: "Australian Country Party"
- AST_democratic_party: "Arbeit"
- AST_democratic_party_long: "Australian Labor Party"
+ AST_colonial_administration: "KV"
+ AST_colonial_administration_long: "Kolonialverwaltung"
+ AST_democratic_party: "UAP"
+ AST_democratic_party_long: "United Australia Party"
+ AST_labor_party: "Labor"
+ AST_labor_party_long: "Australian Labor Party"
  AST_fascism_party: "Centre Party"
  AST_fascism_party_long: "Centre Party"
+ AST_australia_first_movement: "Australia First"
+ AST_australia_first_movement_long: "Australia First Movement"
+ AST_australia_first_party: "Australia First"
+ AST_australia_first_party_long: "Australia First Party"
  AST_communism_party: "CPA"
  AST_communism_party_long: "Communist Party of Australia"
  MEX_democratic_party: "Partido Comunista Colombiano"
@@ -575,7 +583,7 @@
  CZE_communism_party: "KSČ"
  CZE_communism_party_long: "Komunistická strana Československa"
  CZE_democratic_party: "Široká Koalice" #RZML led 'Broad Coalition'
- CZE_democratic_party_long: "RSZML Vedla Širokou Koalici"
+ CZE_democratic_party_long: "Široká koalice vedená RSZML"
  CZE_fascism_party: "NOF"
  CZE_fascism_party_long: "Národní obec fašistická"
  CZE_neutrality_party: "Autonomistický Blok"
@@ -660,8 +668,14 @@
  ELS_fascism_party_long: "Partido Nacional 'Pro-Patria'"
  GUA_democratic_party: "PLP"
  GUA_democratic_party_long: "Progressive Liberal Party"
- SIA_neutrality_party: "Khana Ratsadon"
- SIA_neutrality_party_long: "Khana Ratsadon"
+ SIA_democratic_party: "Khana Ratsadon - Zivil"
+ SIA_democratic_party_long: "Khana Ratsadon - Zivilflügel"
+ SIA_neutrality_party: "Khana Ratsadon - Militärisch"
+ SIA_neutrality_party_long: "Khana Ratsadon - Militärflügel"
+ SIA_neutrality_party_royalist: "Royalisten"
+ SIA_neutrality_party_royalist_long: "Royalisten"
+ SIA_communism_party: "KPT"
+ SIA_communism_party_long: "Kommunistische Partei Thailands"
  URG_democratic_party: "Colorado"
  URG_democratic_party_long: "Partido Colorado"
  URG_communism_party: "PCU"
@@ -889,22 +903,47 @@
  ISR_democratic_party: "Mapai"
  ISR_fascism_party: "Helpam"
  ISR_neutrality_party: "Zentralrat"
- VIN_fascism_party: "Vietnamesische Restorationsliga" #or Reformation Society
+ VIN_fascism_party: "Dai-Viet Quoc-Gia Xa-Hoi Dang" #was Vietnamese Restoration League or Reformation Society
  VIN_democratic_party: "Can-Lao-Partei" #formed in early 50s
  VIN_communism_party: "Kommunistische Partei Vietnams" #Viet Minh was more important in early years
- VIN_neutrality_party: "Việt Nam Quốc Dân Đảng"
+ VIN_neutrality_party: "Nguyen-Dynastie" #was Viêt Nam Quoc Dân Đang
  CAM_fascism_party: "Khmerit-Partei"
  CAM_democratic_party: "Demokratische Partei" #formed in 1946
  CAM_communism_party: "Khmer Issarak"
  CAM_neutrality_party: "Sangkum Reastr Niyum" #or just Sangkum 1955, democratic but right leaning and anti communist
- INS_fascism_party: "Neue Ordnung" #inspired by right wingers from 1960s
- INS_democratic_party: "PNI" #Indonesian National Party founded by Sukarno
+ CPS_neutrality_party: "Na Champassak"
+ INS_fascism_party: "NSB"
+ INS_fascism_party_long: "Nationaal-Socialistische Beweging in Nederlands-Indië"
+ INS_democratic_party: "Volksraad"
  INS_communism_party: "PKI" #Partai Komunis Indonesia
- INS_neutrality_party: "Demokraten" #made up, in reality this guy was a member of PNI
- MAL_fascism_party: "Panozeanische Unionisten"
- MAL_democratic_party: "Vereinte Malays-Nationalorganisation" #or UMNO or PEKEMBAR
- MAL_communism_party: "Malayische Kommunistische Partei" #or MCP
- MAL_neutrality_party: "Kesatuan Melayu Muda" #or KMM
+ INS_communism_party_long: "Partai Komunis Indonesia"
+ INS_neutrality_party: "Generalgouverneur" #Dutch
+ INS_neutrality_party_long: "Niederländisch-Imperiale Herrschaft"
+ INS_republic_knip_party: "KNIP"
+ INS_republic_knip_party_long: "Zentralindonesisches Nationalkomitee"
+ INS_republic_national_party: "PNI"
+ INS_republic_national_party_long: "Partai Nationalis Indonesia"
+ INS_republic_socialist_party: "PSI"
+ INS_republic_socialist_party_long: "Partai Socialis Indonesia"
+ INS_republic_masyumi_party: "Masyumi"
+ INS_republic_masyumi_party_long: "Masyumi"
+ INS_peta_party: "PETA"
+ INS_peta_party_long: "Verteidiger des Heimatlands"
+ MAL_fascism_party: "HAMIM"
+ MAL_fascism_party_long: "Parti Orang Muslimin Malaya"
+ MAL_democratic_party: "VMNO"
+ MAL_democratic_party_long: "Vereinigte Malaysische Nationalorganisation"
+ MAL_communism_party: "MKP"
+ MAL_communism_party_long: "Malayische Kommunistische Partei"
+ MAL_neutrality_party: "KMM"
+ MAL_neutrality_party_long: "Kesatuan Melayu Muda"
+ SNG_fascism_party: "Kerajaan Singapura"
+ SNG_democratic_party: "AF"
+ SNG_democratic_party_long: "Arbeiterfront"
+ SNG_communism_party: "BS"
+ SNG_communism_party_long: "Barisan Sosialis"
+ SNG_neutrality_party: "VAP"
+ SNG_neutrality_party_long: "Volksaktionspartei"
  LAO_fascism_party: "Stammeszentralisierungspartei"
  LAO_democratic_party: "Demokratische Partei"
  LAO_communism_party: "Pathet Lao"

@@ -550,7 +550,7 @@
  DR_OPINION: "§Y$THEM$§!에 대한 §Y$US|U$§!의 의견:"
  DR_OPINION_DIPLOMATIC_PRESSURE: "£operative_mission_icons_small|7£ 외교적 압박:"
  DR_TRADE_INFLUENCE: "§Y$THEM$§! 측을 향한 §Y$US|U$§! 측의 무역 영향력:"
- DR_TRADE_EMBARGO: "§Y$THEM$§! 측은 §Y$US$§! 측에 금수조치를 당함:"
+ DR_TRADE_EMBARGO: "§Y$THEM$§! 측은 §Y$US$§! 측에 금수 조치를 당함:"
  DR_HAS_NON_AGGRESSION_PACT: "§Y$THEM$§! 측은 §Y$US$§! 측과 불가침조약을 맺었습니다:"
  DR_MARKET_CONTRACT_DURATION: "계약 기간:"
  DR_MARKET_NO_TRADE_ROUTE: "국가들 간에 유효한 무역로가 없습니다:"
@@ -559,6 +559,7 @@
  DR_YEARS_DIFFERENCE: "요청된 장비의 기술 격차:"
  DR_LEND_LEASE: "반가운 도움:"
  DR_LEND_LEASE_NO_EQUIPMENT_OR_REQUEST_HAS: "$SENDER|UH$의 장비가 부족하거나 §Y우리§!의 비축량에 장비가 너무 많습니다."
+ DR_LEND_LEASE_CONVOY_OVERCOMMIT: "수송선 수용량 초과 할당:"
  DR_VOLUNTEER: "반가운 도움:"
  DR_ATTACHE: "반가운 도움:"
  DR_ATTACHE_LOW_OPINION: "우리에 대한 의견이 너무 낮습니다:"
@@ -1716,3 +1717,6 @@
  CZE_allows_passage_of_soviet_troops: "소련 병력의 통과 허용"
  #Czechoslovakia Opinion Modifiers
  CZE_i_am_agreeable_to_license: "슈코다 및 CKD 구매 계약"
+ #INS
+ indonesia_usa_rejected_renville_modifier: "지원 거부"
+ indonesia_china_trade_modifier: "중국-인도네시아 이민자"

@@ -1361,7 +1361,7 @@
  BBA_italy_interaction_events.20.a: "Lepiej nam będzie bez nich"
  BBA_italy_interaction_events.21.t: "Włochy składają nam propozycję"
  BBA_italy_interaction_events.21.desc: "[ITA.GetNameDef] złożyły nam zachęcającą propozycję. Za zawarcie z nimi sojuszu możemy otrzymać Rodos i wyspy Dodekanezu. Oferta ta wydaje się wręcz nieprawdopodobnie szczodra, ale jest prawdziwa. Co zrobimy?"
- BBA_italy_interaction_events.21.a: "To tereny Grecji, kiedyś były nasze!"
+ BBA_italy_interaction_events.21.a: "Dobrze ci tak, Grecjo! Byliśmy pierwsi!"
  BBA_italy_interaction_events.21.b: "Za żadne skarby nie będziemy się kłaniać Włochom!"
  BBA_italy_interaction_events.22.t: "[TUR.GetNameDef] zgadza się na naszą propozycję"
  BBA_italy_interaction_events.22.desc: "Rząd turecki oświadczył dziś, że przyjmuje naszą propozycję podjęcia współpracy militarnej, która rozpocznie się tak szybko, jak to tylko możliwe. W zamian oddamy im wyspy Dodekanezu. Zobaczymy, co z tego wyniknie."

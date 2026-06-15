@@ -14,6 +14,6 @@
  POPS_parse-failure: "클라이언트 오류 (구문 분석)"
  POPS_unsupported-account-details-keys: "클라이언트 오류 (지원되지 않는 키)"
  POPS_invalid-script-code: "클라이언트 오류 (잘못된 스크립트)"
- #These can happen sometimes, when connection failed or some other error occured
+ #These can happen sometimes, when connection failed or some other error occurred
  POPS_NO_MESSAGE: "예상치 못한 에러 발생"
  POPS_UNEXPECTED_ERROR: "예상치 못한 에러가 발생했습니다."

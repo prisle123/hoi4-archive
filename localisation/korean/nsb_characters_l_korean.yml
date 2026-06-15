@@ -113,6 +113,7 @@
  SOV_metropolitan_meletius: "멜레티우스 대주교"
  SOV_patriarch_meletius: "멜레티우스 대주교"
  #ARGENTINA
+ #'Hilter' over 'Hitler' is intentional
  ARG_senor_hitler: "세뇨르 일테르"
  #AUSTRIA
  AUS_kurt_schuschnigg: "쿠르트 슈슈니크"
@@ -427,7 +428,7 @@
  FRA_henry_freydenberg: "앙리 프레덴버그"
  FRA_rene_olry: "르네 올리"
  FRA_francois_darlan: "$francois_darlan$"
- FRA_jeanmarie_charles_abrial: "장-마리 샤를 아브리알"
+ FRA_jeanmarie_charles_abrial: "장마리 샤를 아브리알"
  FRA_jeanpierre_esteva: "장피에르 에스테바"
  FRA_rene_emile_godfroy: "$rene_emile_godfroy$"
  FRA_jean_de_laborde: "$jean_de_laborde$"
@@ -783,7 +784,7 @@
  CRO_nikola_mandic: "니콜라 만디치"
  #GREECE
  GRE_konstantinos_demertzis: "콘스탄티노스 데메르치스"
- GRE_nikos_zachariadis: "니코스 자카리아디스"
+ GRE_nikos_zachariadis: "니코스 자하리아디스"
  GRE_george_mercouris: "예오르요스 메르쿠리스"
  GRE_georgios_kosmidis: "예오르요스 코스미디스"
  GRE_charalambos_katsimitros: "하랄람보스 카치미트로스"
@@ -828,11 +829,12 @@
  HOL_pieter_sjoerds_gerbrandy: "피터르 슈르츠 헤르브란디"
  HOL_johannes_theodorus_furstner: "요하너스 테오도뤼스 퓌르스트너르"
  #DUTCH EAST INDIES
- INS_sukarno: "수카르노"
- INS_a_t_van_starkenborgh_stachouwer: "A. T. 판 스타르켄보르흐 스타하우어르"
- INS_amir_sjarifuddin_harahap: "아미르 샤리푸딘 하라합"
- INS_suharto: "수하르토"
- INS_sutan_sjahrir: "수탄 샤리르"
+ #INS_sukarno: "Sukarno"
+ #INS_a_t_van_starkenborgh_stachouwer: "A. T. van Starkenborgh Stachouwer"
+ #INS_amir_sjarifuddin_harahap: "Amir Sjarifuddin Harahap"
+ #INS_suharto: "Suharto"
+ #INS_sutan_sjahrir: "Sutan Sjahrir"
+ #moved to taog files
  #BRITISH RAJ
  RAJ_lord_linlithgow: "린리스고 경"
  RAJ_p_krishna_pillai: "P. 크리슈나 필라이"
@@ -909,7 +911,7 @@
  PER_dalir_pesyan: "달리르 페시안"
  PER_sohrab_tahmasebi: "소흐라브 타흐마세비"
  #SWITZERLAND
- SWI_federal_council: "연방 평의회"
+ SWI_federal_council: "연방평의회"
  SWI_federal_assembly: "연방의회"
  SWI_ernest_beuin: "에르네스트 베우인"
  SWI_max_leo_keller: "막스 레오 켈러"

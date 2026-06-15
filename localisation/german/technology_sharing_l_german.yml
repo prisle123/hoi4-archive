@@ -151,3 +151,7 @@
  CZE_balkan_tech_sharing_group_desc: "Eine Forschungsvereinbarung zwischen den Balkannationen und der [CZE.GetAdjective]en Regierung. Sie soll dafür sorgen, dass die Vereinbarungsunterzeichner technologisch mit den größeren Nationen mithalten können."
  CZE_german_czechoslovak_equipment_design_group_name: "Tschechoslowakisch-Deutsches Ausrüstungsentwicklungskomitee"
  CZE_german_czechoslovak_equipment_design_group_desc: "Die Wissenschaftler von [GER.GetNameDef] und [CZE.GetNameDef] starten eine Zusammenarbeit in der Entwicklung von Panzern und Flugzeugen."
+ cominwealth_allied_research_name: "Commonwealth-Forschung"
+ cominwealth_allied_research_desc: "Reduzierte Forschungszeit für Technologien, die von Mitgliedern des Commonwealth erforscht wurden."
+ siam_tech_sharing_group: "Thai-Forschung"
+ siam_tech_sharing_group_desc: "Reduzierte Forschungszeit für Technologien, die von anderen thailändischen Verbündeten erforscht wurden."

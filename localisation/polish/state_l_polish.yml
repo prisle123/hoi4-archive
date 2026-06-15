@@ -12,7 +12,7 @@
  STATE_BUILDING_SOME_KNOWN_FACTORIES: "Mamy informacje o przynajmniej $AMOUNT|H$ fabrykach w tym regionie."
  STATE_CONVERT_BUILDING: "Przekształć: $BUILDING_FROM$ ($FACTOR|H$) -> $BUILDING_TO$ (§H1§!)?"
  STATE_CONTROLLER: "Kontroluje: @$TAG$$COUNTRY|H$"
- STATE_CONTROLLER_DELAYED: "§GKliknij, by rozpocząć negocjacje.§!"
+ STATE_CONTROLLER_DELAYED: "§GKliknij, by rozpocząć negocjacje§!"
  STATE_OWNER: "Właściciel: @$TAG$$COUNTRY|H$"
  STATE_OWNER_CORE: "§GRegion narodowy§!"
  STATE_OWNER_NON_CORE: "§YRegion kolonialny§!"

@@ -297,7 +297,7 @@
  DOD_hungary.100.desc: "\nLe gouvernement [HUN.GetAdjMS] nous a contactés à propos de la question du statut futur [SLO.GetDuDelaDelNP] [SLO.GetName]. [HUN.GetIlElleNPCap] [HUN.GetEstSontNP] persuadé[HUN.GetXENP] que c'est à [HUN.GetLuiElleEuxNP] que devrait revenir le contrôle de la région, du fait qu'elle appartenait à la Hongrie à l'époque de l'Empire.\n\nSi la délégation [HUN.GetAdjFS] ne s'est pas risquée à faire des menaces explicites, nos services de renseignement rapportent toutefois une activité alarmante au sein de l'armée [HUN.GetAdjFS]."
  DOD_hungary.100.a: "Nous n'avons guère le choix"
  DOD_hungary.100.b: "Nous ne céderons pas un pouce"
- DOD_hungary.101.t: "Transfert [SLO.GetDuDelaDelNP] [SLO.GetName]"
+ DOD_hungary.101.t: "Transfert de la Slovaquie"
  DOD_hungary.101.desc: "[SLO.GetLeLaLNPCap] [SLO.GetName] [SLO.GetEstSontNP] revenu[SLO.GetXENP] sous notre contrôle. La question maintenant est de savoir comment doit être organisé ce territoire.\n\nTandis que de nombreux membres du gouvernement sont en faveur d'une annexion pure et simple, la qualifiant de « retour aux frontières historiques », d'autres s'inquiètent des effets que pourrait avoir l'intégration d'une population importante, non [HUN.GetAdjFS], au sein du pays. Leur proposition serait donc plutôt d'établir un gouvernement décentralisé à Bratislava, doté de certains pouvoirs sur la vie politique intérieure, mais aligné sur les positions du gouvernement [HUN.GetAdjMS] pour toute autre question."
  DOD_hungary.101.a: "Restaurons les anciennes frontières"
  DOD_hungary.101.b: "Un gouvernement fantoche serait préférable"

@@ -49,7 +49,7 @@
  TRADE_ROUTE_DELIVERY_TYPE_LOCKED: "§RLieferung blockiert§!"
  TRADE_ROUTE_DELIVERY_TYPE_LAND: "§T$VAL|H$ auf dem §HLandweg§! geliefert§!"
  TRADE_ROUTE_DELIVERY_TYPE_SEA: "§T$VAL|H$ auf dem §HSeeweg§! geliefert. Dabei werden von den $TOT|H$ benötigten Konvois $CON|H$ verwendet.§!"
- CONVOYS_USAGE_DESC: "§TWir haben $TOT|H$ Konvois.\nInsgesamt benötigt: $USED|H$\nBenutzt/Benötigt:\n - Für Flotteninvasionspläne: $INVASION_USE|H$/$INVASION_NEED|H$\n- Für Truppentransporte: $TRANSFER_USE|H$/$TRANSFER_NEED|H$\n- Für Handel $TRADE_USE|H$/$TRADE_NEED|H$\n- Für Nachschub: $SUPPLY_USE|H$/$SUPPLY_NEED|H$\n$UNDERWAY_REPLENISHMENT_IF_UNLOCKED$Reserve: $LEFT|H$§!"
+ CONVOYS_USAGE_DESC: "§TWir haben $TOT|H$ Konvois.\nInsgesamt benötigt: $USED|H$\nBenutzt/Benötigt:\n- Für Flotteninvasionspläne: $INVASION_USE|H$/$INVASION_NEED|H$\n- Für Truppentransporte: $TRANSFER_USE|H$/$TRANSFER_NEED|H$\n- Für Handel $TRADE_USE|H$/$TRADE_NEED|H$\n- Für Leihpacht: $LENDLEASE_USE|H$/$LENDLEASE_NEED|H$\n- Für Nachschub: $SUPPLY_USE|H$/$SUPPLY_NEED|H$\n$UNDERWAY_REPLENISHMENT_IF_UNLOCKED$Reserve: $LEFT|H$§!"
  CONVOYS_USAGE_UNDERWAY_REPLENISHMENT: " - Für die Seeversorgung: $CONVOY_USE|0H$/$CONVOY_NEED|0H$\n"
  CONVOYS: "Konvois"
  NO_IMPORT_TO_CANCEL: "§RDer Import von „$RESOURCE|H$“ kann nicht beendet werden, da nichts importiert wird.§!"

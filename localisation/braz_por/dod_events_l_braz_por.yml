@@ -833,7 +833,7 @@
  czech.19.t: "Desonra Antes da Morte"
  czech.19.d: "O governo de [From.GetLeader] percebeu o que sempre soubemos: [From.GetNameDef] pode apenas continuar a existir sob nossa proteção. Apesar de isso impedir a possibilidade de ocuparmos diretamente sua terra, pode ser melhor ter um aliado complacente e evitar se envolver com agentes estrangeiros."
  czech.20.t: "Desonra Antes da Morte"
- czech.20.d: "[From.GetLeader] aceitou nossa oferta. Um plentipotário  [From.GetAdjective] chegou em Praga para coordenar políticas."
+ czech.20.d: "[From.GetLeader] aceitou nossa oferta. Um plenipotenciário [From.GetAdjective] chegou em Praga para coordenar as políticas."
  czech.20.a: "É a única forma."
  czech.21.t: "Desonra antes da morte"
  czech.21.d: "Quando foi apresentado com nossa proposta, [From.GetLeader] teria afirmado \"Nem em um milhão de anos!\", antes de uma tirada longa sobre a inferioridade de nosso povo, nosso sistema de governo e as qualidades das lideranças de [CZE.GetLeader]. Nenhuma recusa oficial foi feita, mas nosso embaixador tem pouca esperança."

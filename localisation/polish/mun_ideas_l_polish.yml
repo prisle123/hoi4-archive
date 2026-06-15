@@ -21,9 +21,9 @@
  CZE_anglo_czechoslovak_bank_desc: "Powstał z połączenia trzech innych praskich banków w 1930 roku. Obecnie jest drugim co do wielkości bankiem w kraju."
  CZE_praga_aviation: "$CZE_praga_aviation_organization$"
  #Dynamic Modifiers National Spritits
- CZE_ceskoslovenska_armada_dynamic_modifier: "Wojsko Czechosłowacji"
+ CZE_ceskoslovenska_armada_dynamic_modifier: "Československá Armáda"
  CZE_ceskoslovenska_armada_dynamic_modifier_desc: "Wojsko powstało na bazie austro-węgierskich jednostek czeskich i weteranów Legionu Czechosłowackiego. Dziedzictwo obu tych formacji nadal wpływa na sposób zarządzania wojskiem."
- CZE_ceskoslovenske_letectvo_dynamic_modifier: "Ceskoslovenske Letectvo"
+ CZE_ceskoslovenske_letectvo_dynamic_modifier: "Československé Letectvo"
  CZE_ceskoslovenske_letectvo_dynamic_modifier_desc: "Nasi piloci w odróżnieniu od samolotów są zawsze gotowi. W obliczu potencjalnych zagrożeń z powietrza, które mogą nadejść z każdej strony, musimy uczynić powietrze naszym morzem. Każdy pilot musi pracować za trzech."
  CZE_a_divided_nation_dynamic_modifier: "Podzielony naród"
  CZE_a_divided_nation_dynamic_modifier_desc: "Państwo [CZE.GetAdjective] wyróżniało się w Europie Środkowej swoim pluralizmem i chronieniem wszystkich obywateli zamieszkujących jego granice. Jednak wielki kryzys zmienił ten stan rzeczy. Trudności gospodarcze spowodowały narastanie niechęci wobec rządu ze strony różnych ugrupowań działających w kraju. Urazy te obecnie głęboko dzielą naród."
@@ -56,8 +56,8 @@
  CZE_rut_comprise_agreement_modifier: "Traktat o autonomii Karpato-Ukrainy" #Can't use [RUT.Getname] in the context this is used in
  CZE_improve_cross_border_rail_connections_modifier: "Modernizacja transgranicznych połączeń kolejowych"
  #National Spirits
- CZE_taticek_of_czechoslovakia: "Tatínek"
- CZE_taticek_of_czechoslovakia_desc: "Tomáš Masaryk, często nazywany Tatínkiem, co oznacza \"tatusia\" lub \"ojca\" (narodu), był opoką czechosłowackiego narodu od momentu jego powstania. Gdy koalicje wydawały się niemożliwe do zbudowania, a polityczne impasy zbyt duże do przezwyciężenia, Masaryk raz za razem dokonywał politycznych cudów, aby wzmocnić i rozwinąć Czechosłowację. Nawet po zakończeniu czynnej działalności politycznej jego sentymenty i sugestie są traktowane bardziej jak rozkazy niż rady."
+ CZE_taticek_of_czechoslovakia: "Tatíček Masaryk"
+ CZE_taticek_of_czechoslovakia_desc: "Tomáš Masaryk, na którego często mawia się \"Tatíček Masaryk\", co oznacza \"tatusia\" lub \"ojca\" (narodu), był opoką czechosłowackiego narodu od momentu jego powstania. Gdy koalicje wydawały się niemożliwe do zbudowania, a polityczne impasy zbyt duże do przezwyciężenia, Masaryk raz za razem dokonywał politycznych cudów, aby wzmocnić i rozwinąć Czechosłowację. Nawet po zakończeniu czynnej działalności politycznej jego sentymenty i sugestie są traktowane bardziej jak rozkazy niż rady."
  CZE_industrialists_veto: "Weto przemysłowców"
  CZE_industrialists_veto_desc: "Przemysłowcy wywierają znaczny wpływ na politykę kraju, ponieważ stoją na czele wielu największych [CZE.GetAdjective] konglomeratów. Nie można ignorować ich obaw w kwestiach polityki gospodarczej, a mobilizacja gospodarcza należy do działań, którym sprzeciwiają się najbardziej."
  CZE_agrarian_politics_1: "Polityka rolna"
@@ -105,6 +105,7 @@
  CZE_vitkovice_mining_and_metallurgical_company: "Kopalnia i zakłady metalurgiczne Vítkovice"
  CZE_joint_stock_schemes_idea_aat: "Przedsięwzięcia akcyjne"
  CZE_joint_stock_schemes_idea_aat_desc: "Przedsięwzięcia akcyjne to metoda powszechnie stosowana przez wiele czeskich przedsiębiorstw w celu utrzymania wzrostu w obliczu politycznych lub finansowych trudności."
+ CZE_powerhouse_of_europe_idea_desc: "$CZE_giant_of_central_europe_industry_desc$"
  CZE_national_defense_act_idea: "Ustawa o obronie narodowej"
  CZE_mobilize_the_reserves_idea: "Mobilizacja dywizji rezerwowych"
  CZE_rapid_response_divisions_idea: "Dywizje szybkiego reagowania"
@@ -128,8 +129,10 @@
  CZE_adminstrative_chaos: "Administracyjny chaos"
  CZE_semi_constitutional_constitution: "Odnowiona konstytucja"
  CZE_semi_constitutional_constitution_desc: "Nowa [ROOT.GetAdjective] konstytucja zapewnia rozdział demokratycznej strony rządowej reprezentującej obywateli od monarchy i daje monarsze możliwości interwencji mającej na celu ochronę stabilności."
+ CZE_emergency_measures_idea: "$CZE_emergency_measures$"
  CZE_a_modern_navy_idea: "Nowoczesne siły morskie"
  CZE_bastion_of_liberty_idea: "Bastion wolności"
+ CZE_wielding_the_hammer_idea: "Przejęcie władzy ustawodawczej"
  CZE_leveraged_sokol: "Naciski na organizację Sokol"
  CZE_truth_prevails_idea: "Prawda zwycięży"
  CZE_standing_against_the_storm_idea: "Walka z zawieruchą"
@@ -143,9 +146,12 @@
  CZE_federalization_agreement_puppets: "Umowa o federalizacji"
  CZE_strike_at_the_heart_of_bolshevism_idea: "[THIS.GetAntiSovietFocusName]"
  CZE_form_the_government_army_idea: "Armia rządowa"
- CZE_GRE_paying_off_debt_small: "Anulowanie długów handlowych"
+ CZE_forgive_trading_debts_idea: "Anulowanie długów handlowych"
+ CZE_forgive_trading_debts_idea_desc: "$CZE_forgive_trading_debts_desc$"
  CZE_soviet_influence: "Wpływ [SOV.GetAdjective]"
  CZE_mil_access_debuff_cancels_after_month_tt: "§YTa idea zostanie anulowana 30 dni po zakończeniu dostępu wojskowego.\n§!"
+ CZE_state_catholicism: "$POL_state_catholicism$"
+ CZE_exiles_idea_POL: "Uchodźcy [CZE.GetAdjective]"
  ##SLOVAKIA##
  #SLO Concerns
  SLO_CZE_skoda_works_2: "Škoda-Bratislava"
@@ -160,7 +166,7 @@
  SLO_CZE_skoda_plzen_tank_destroyer: "Závody ťažkého strojárstva"
  SLO_CZE_skoda_armor: "Škoda-Dubnica nad Váhom"
  #SLO National Spirits
- SLO_slovak_army: "Branná moc Slovenskej"
+ SLO_slovak_army: "Branná moc Slovenska"
  SLO_clerical_politics: "Polityka duchowieństwa"
  SLO_rapid_brigades: "Szybkie brygady"
  ##CARPATHO-UKRAINIAN##
@@ -193,6 +199,7 @@
  ##TOOLTIPS##
  #MISC Tooltips
  generic_has_happen_tt: "§YWydarzenie§!:"
+ generic_can_only_happen_once_tt: "Ten §Yefekt§! może wystąpić tylko raz"
  CZE_skoda_texticon_ref: "£GFX_CZE_skoda_text_icon"
  CZE_the_fall_of_the_republic_warning_tt: "§RPodjęcie tej decyzji będzie miało katastrofalne polityczne konsekwencje dla naszego narodu, których skutków nie jesteśmy nawet w stanie przewidzieć.§!"
  CZE_the_fall_of_the_republic_warning_munich_tt: "§RDecyzja o oddaniu Kraju Sudetów będzie miała katastrofalne polityczne konsekwencje dla naszego narodu. Ale czy mamy inny wybór?§!"

@@ -1,5 +1,5 @@
 ﻿l_german:
- HOME_BASE_RIGHT_CLICK: "§GRechtsklick§!, um die Kamera zum aktuellen Heimatstützpunkt zu bewegen."
+ HOME_BASE_RIGHT_CLICK: "§GRechtsklick§!, um die Kamera zum aktuellen Heimatstützpunkt zu bewegen"
  HOME_BASE_NONE: "Keiner"
  HOME_BASE_STATE_NAME: "$STATE$ ($LEVEL|Y$)"
  NAVAL_DOMINANCE_CURRENT_VALUE: "Kontrollfaktor: $RATIO|%2G$\nAktuelle Dominanz: £naval_dominance_texticon£$CURRENT|0Y$"
@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§YAktiviert§!"
  AUTOMATION_HOMEBASE_OFF: "§gDeaktiviert§!"
  SEAZONE_MINIMUM_DOMINANCE: "Mindestwert von £naval_dominance_texticon£ für Zonenkontrolle: $VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HMarinedominanz§!\nWir benötigen eine Kontrollquote von mindestens §Y66%§!, damit eine Region als vollständig unter freundlicher Kontrolle gilt."
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§HMarinedominanz§!\nWir brauchen eine Kontrollquote von mindestens §Y60%§!, damit eine Region als vollständig unter freundlicher Kontrolle gilt."
  NAVAL_DOMINANCE_EXPLANATION: "§YMarinedominanz§! \nEin Maß dafür, wie effektiv ein Schiff Kontrolle über eine bestimmte Seezone ausüben kann."
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§HNachschubverbrauch: $VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "Grundwert: $VAL|H$"

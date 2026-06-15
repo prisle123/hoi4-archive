@@ -674,7 +674,7 @@
  SOV_SOP_civil_war_divisions_tt: "Poparcie armii: [?SOV.SOV_exiles_army_support|%Y0] \nPoparcie marynarki: [?SOV.SOV_exiles_navy_support|%Y0] \nPoparcie sił powietrznych: [?SOV.SOV_exiles_air_support|%Y0] \n\nPoparcie społeczne: [?SOV_opposition_popular_support|Y1]§Y%§!\n (Poparcie społeczne wpływa na poziom kapitulacji przywódcy ([FROM.GetLeader]) i w czasie wojny dodaje jednostki partyzantów.)"
  SOV_select_headquarters_text: "Wybierz bazę twojego powstania, klikając na mapie ikonę sztabu: \n\n£select_headquarters_texticon"
  SOV_select_state_text: "Zakładaj nowe komórki, by zwiększać wpływy na mapie:\n\n £infiltrate_state_texticon\n\n"
- SOV_opposition_army_support_non_existant: "§RPrawie nie istnieje§!"
+ SOV_opposition_army_support_non_existant: "§RPrawie nieistniejące§!"
  SOV_opposition_army_support_very_low: "§RBardzo słabe§!"
  SOV_opposition_army_support_low: "§YSłabe§!"
  SOV_opposition_army_support_medium: "§YŚrednie§!"

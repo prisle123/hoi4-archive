@@ -686,7 +686,7 @@
  SOV_paranoia_system_nkvd_trait_tt: "§Y$head_of_the_nkvd$§!の特性を持つ政治顧問は、毎週£SOV_paranoia_text_icon政治的パラノイアを増加させる。"
  NSB_soviet_paranoia_system_events.11.t: "反逆罪で告発された顧問"
  NSB_soviet_paranoia_system_events.11.desc: "匿名の情報に基づいて行動し、NKVDは国家に対するスパイ活動、破壊工作、陰謀の容疑で[?ROOT.SOV_purged_character_for_loc.GetName]を逮捕した。この者は無実を主張し続けているが、捜査当局はあと数週間以内に彼を告訴できると確信している。取調べ中に彼が折れるか、あるいは彼の犯罪について証言しようとする周囲の人々から十分な証拠を集めるかのいずれかだ。いずれにしても、これらの罪に対する刑罰は確実に死刑か重労働刑であるべきだ。"
- NSB_soviet_paranoia_system_events.11.a: "心臓に近い腫瘍は容赦なく切除しなければならない"
+ NSB_soviet_paranoia_system_events.11.a: "心臓に近い腫瘍は容赦なく切除しなければならない。"
  NSB_soviet_paranoia_system_events.11.b: "そんな薄っぺらい証拠で誰かを有罪になどできるか！"
  NSB_soviet_paranoia_system_events.12.t: "公務員間の陰謀"
  NSB_soviet_paranoia_system_events.12.desc: "NKVDは、行政内部の大規模な陰謀の証拠を発見した。国家計画委員会の何人かの官僚が一部の工場長と非常に親密な関係になり、五カ年計画の生産数を下方修正していたようだ。NKVDによれば、これは反ソ的破壊工作の明らかな証拠であり、ソ連体制を弱体化させることを意図されたものである。\n\n逮捕された陰謀者らは、尋問を受ける中ですぐに更なる共謀者がいることを明らかにしている。"

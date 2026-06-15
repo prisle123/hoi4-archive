@@ -161,7 +161,7 @@
  IRQ_peshmerga_idea: "페슈메르가"
  IRQ_state_company_for_cement_idea: "[ROOT.GetAdjective] 시멘트 종합 회사"
  IRQ_state_company_of_cotton_industries_idea: "면직물 산업 국영 회사"
- IRQ_shia_resistance_modifier: "반항적인 시아파 부족들"
+ IRQ_shia_resistance_modifier: "반항적인 자치 부족들"
  #TRAITS
  independence_activist: "독립운동가"
  anti_colonial_humanist: "반식민주의 인문주의자"
@@ -457,6 +457,7 @@
  idea_RAJ_thunder_elephants_no_gdr: "천둥 코끼리"
  idea_RAJ_ruler_of_the_peacock_throne: "공작 왕좌"
  idea_SIA_army_of_siam: "시암군"
+ idea_SIA_army_of_siam_desc: "시암군은 국가 방위의 근간을 형성하며, 그 조직과 전통은 전국적으로 병력과 물자를 양성하고 유지하는 방식을 결정합니다."
  idea_RAJ_bose_hiding_raj: "보스가 인도 내에서 숨어 이동 중"
  idea_RAJ_bose_hiding_afghanistan: "보스는 소련으로 가기 위해 아프가니스탄에 숨어있음"
  idea_RAJ_bose_hiding_ussr: "보스는 소련에 있음"

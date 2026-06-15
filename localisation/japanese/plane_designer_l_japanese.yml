@@ -423,7 +423,7 @@
  heavy_bombs: "大型爆弾"
  heavy_bombs_desc: "近代の戦いでは、航空機はますます大型の爆弾を敵目標に使用する必要がある。時が経つにつれ、これは徐々に空中戦の基礎的な部分となった。"
  armor_piercing_bombs: "徹甲爆弾"
- armor_piercing_bombs_desc: "戦艦は着実に甲板の装甲を強化してきている。この専用爆弾はその装甲を貫けるよう開発しなければならない。"
+ armor_piercing_bombs_desc: "軍艦の甲板装甲は着実に強化されてきている。これを貫くには、特化型の爆弾を開発しなければならない。"
  air_torpedoe_1: "航空魚雷"
  air_torpedoe_1_desc: "軽量魚雷を搭載可能な航空機に装備することで、海上での攻撃力が拡大する。"
  air_torpedoe_2: "改良型航空魚雷"

@@ -1,7 +1,7 @@
 ﻿l_polish:
  CAN_CREATE_COLLABORATION_GOVERNMENT: "Może tworzyć rządy kolaborujące"
  CAN_DECLARE_WAR_WITHOUT_WARGOAL_WHEN_IN_WAR: "Może wypowiedzieć wojnę sąsiadowi, nie mając celu wojennego, gdy toczy wojnę z mocarstwem"
- CAN_DECLARE_WAR_ON_SAME_IDEOLOGY: "Może wypowiedzieć wojnę państwu o ideologii z tej samej grupy, nie mając celu wojennego"
+ CAN_DECLARE_WAR_ON_SAME_IDEOLOGY: "Może uzasadnić i wypowiedzieć wojnę państwu o ideologii z tej samej grupy"
  CAN_FORCE_GOVERNMENT: "Może zmusić władze innego państwa do zmiany ideologii"
  CAN_GUARANTEE_OTHER_IDEOLOGIES: "Może zapewnić inne ideologie"
  CAN_PUPPET: "Może stworzyć państwo marionetkowe"

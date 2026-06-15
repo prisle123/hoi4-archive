@@ -161,7 +161,7 @@
  IRQ_peshmerga_idea: "Peszmergowie"
  IRQ_state_company_for_cement_idea: "Główny producent [ROOT.GetAdjective] cementu"
  IRQ_state_company_of_cotton_industries_idea: "Państwowy producent bawełny"
- IRQ_shia_resistance_modifier: "Krnąbrne plemiona szyickie"
+ IRQ_shia_resistance_modifier: "Krnąbrne autonomiczne plemiona"
  #TRAITS
  independence_activist: "Niepodległościowy aktywista"
  anti_colonial_humanist: "Antykolonialny humanista"
@@ -457,6 +457,7 @@
  idea_RAJ_thunder_elephants_no_gdr: "Grzmiące słonie"
  idea_RAJ_ruler_of_the_peacock_throne: "Pawi Tron"
  idea_SIA_army_of_siam: "Armia Syjamu"
+ idea_SIA_army_of_siam_desc: "Armia Syjamu stanowi podstawę obrony narodowej, a jej struktura i tradycje determinują sposób pozyskiwania i utrzymywania żołnierzy oraz sprzętu na terenie całego kraju."
  idea_RAJ_bose_hiding_raj: "Bose ukrywa się i podróżuje po Indiach"
  idea_RAJ_bose_hiding_afghanistan: "Bose ukrywa się w Afganistanie i chce dotrzeć do ZSRR"
  idea_RAJ_bose_hiding_ussr: "Bose jest w ZSRR"

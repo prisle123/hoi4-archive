@@ -410,7 +410,7 @@
  TUR_the_antalya_naval_academy: "アンタルヤ海軍士官学校"
  TUR_the_antalya_naval_academy_desc: "[ITA.GetAdjective]との協業により、提督と海軍士官を養成するための世界でも類を見ない最新鋭の軍学校を設立した。"
  TUR_tuz_golu_training_facility: "トゥズ・ギョリュ訓練場"
- TUR_tuz_golu_training_facility_desc: "我が国の地中海性気候は、我々の兵士に不毛な気候における軍事行動に適応させる訓練するのに適した環境ではない。我が軍が乾燥環境での戦闘により良い準備ができるよう、トゥズ・ギョリュ塩湖の近くに訓練場を設置することを決定した。"
+ TUR_tuz_golu_training_facility_desc: "我が国の地中海性気候は、乾燥した気候において兵士を充分に活動させるための訓練をするのに適した環境では無い。トゥズ塩湖近郊に訓練施設を設立することを選択するすれば、我が軍が乾燥環境での戦闘に備えることが出来るようになるだろう。"
  TUR_sub_zero_survival_training: "氷点下生存訓練"
  TUR_sub_zero_survival_training_desc: "ユーラシア大陸の厳しい寒さを再現するのは容易なことではないが、やるしかない。我々はエルズルムのパランドーケン山の山頂に訓練施設を建設し、更に小規模な訓練施設をアウル山の周辺に建設すると決定したことで、部隊は一年中、高山や氷河のような条件で訓練することが可能になった。"
  TUR_italo_turkish_merchant_fleet: "イタリア＝[TUR.GetAdjective]商船団"

@@ -1103,6 +1103,8 @@
  BRA_united_kingdom_of_brazil_and_portugal: "Zjednoczone królestwa Brazylii i Portugalii"
  BRA_united_kingdom_of_brazil_and_portugal_desc: "Przywrócenie cesarskiego rodu w Brazylii rozbudziło monarchistyczne nastroje także w Portugalii. Być może powinniśmy wykorzystać to jako okazję do ponownego zjednoczenia naszych narodów pod rządami jednego monarchy. W końcu oba narody mogą czerpać korzyści z zasobów i wiedzy drugiej strony."
  BRA_united_kingdom_of_brazil_and_portugal_tt: "Żądanie, by §Y[POR.GetFlag][POR.GetNonIdeologyName]§! i §Y[BRA.GetFlag][BRA.GetNonIdeologyName]§! zjednoczyły się. Jeśli §Y[POR.GetFlag][POR.GetNonIdeologyName]§! wyrazi zgodę, stanie się poddanym Brazylii. Może jednak zaproponować alternatywne rozwiązanie lub odrzucić propozycję."
+ BRA_claim_the_french_throne: "Przejęcie francuskiego tronu"
+ BRA_claim_the_french_throne_desc: "Dzięki rodowi Orléans-Braganza nasza dynastia może rościć sobie prawo do francuskiego tronu, które nie zostało jeszcze spełnione. Pedro Gastão z rodu Orléans-Braganza chce to wykorzystać, by rozbudować nasze królestwo. To szansa, której nie można zaprzepaścić!"
  BRA_undermine_democracy: "Podkopanie Kongresu Narodowego"
  BRA_undermine_democracy_desc: "Nasi najbardziej wpływowi zwolennicy nie są zadowoleni z kompromisu w sprawie monarchii konstytucyjnej. Coraz bardziej się niecierpliwią i chcą, aby monarcha wykorzystał swoje nowe wpływy do przejęcia kompetencji Kongresu Narodowego poprzez powołanie nowej Rady Ministrów."
  BRA_use_the_national_security_law: "Wykorzystanie ustawy o bezpieczeństwie narodowym"

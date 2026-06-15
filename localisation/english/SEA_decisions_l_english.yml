@@ -63,11 +63,11 @@
  JAP_aizawa_trial_ongoing_tt: "The outcome of the Incident will decide which political path we will be able to take"
  
  JAP_increase_takahashi_korekiyo_security_decision: "Increase Security Around $JAP_takahashi_korekiyo$"
- JAP_increase_takahashi_korekiyo_security_decision_tt: "Security around Takahashi Korekiyo will be increased in order to protect him in case of any attacks by army radicals, but as a a result they may re-prioritize their list of targets and put more forces towards taking out someone else"
+ JAP_increase_takahashi_korekiyo_security_decision_tt: "Security around Takahashi Korekiyo will be increased in order to protect him in case of any attacks by army radicals, but as a result they may re-prioritize their list of targets and put more forces towards taking out someone else"
  JAP_will_not_impact_focus_choices_tt: "This will not impact focus choices"
 
  JAP_increase_jotaro_watanabe_security_decision: "Increase Security Around Jōtarō Watanabe"
- JAP_increase_jotaro_watanabe_security_decision_tt: "Security around Jōtarō Watanabe will be increased in order to protect him in case of any attacks by army radicals, but as a a result they may re-prioritize their list of targets and put more forces towards taking out someone else"
+ JAP_increase_jotaro_watanabe_security_decision_tt: "Security around Jōtarō Watanabe will be increased in order to protect him in case of any attacks by army radicals, but as a result they may re-prioritize their list of targets and put more forces towards taking out someone else"
 
  JAP_kwantung_army_decisions: "The Kwantung Army"
  JAP_kwantung_army_decisions_desc: "Our forces operating in Manchuria and China, the Kantō-gun, are currently acting highly autonomously and have been known for taking action without approval from higher order. Originally created to operate as security force for the Kwantung leased territory, they have now far exceeded their original size, and may pull us into large-scale conflict if we do not take firm control of the situation."
@@ -97,7 +97,7 @@
  JAP_hand_chinese_states_to_the_reorganized_government_decision: "Hand Kuomintang States over to the [RNG.GetAdjective] Administration"
 
  JAP_spiritual_mobilization_decisions: "Spiritual Mobilization"
- JAP_spiritual_mobilization_decisions_desc: "The [ROOT.GetAdjective] people are steadfast and ready to support our government in its every decision, as long as sufficient motivation is given. We should mobilize the population, both spiritually and physically, so that thy may do their part in the war effort."
+ JAP_spiritual_mobilization_decisions_desc: "The [ROOT.GetAdjective] people are steadfast and ready to support our government in its every decision, as long as sufficient motivation is given. We should mobilize the population, both spiritually and physically, so that they may do their part in the war effort."
  JAP_luxury_is_the_enemy_decision: "Luxury is the Enemy!"
  JAP_form_a_labor_patriot_corps_decision: "Form a Labor Patriot Corps"
  JAP_produce_bullet_stamps_decision: "Produce Bullet Stamps"
@@ -105,7 +105,7 @@
  JAP_develop_sufu_materials_decision: "Develop Sufu Materials"
  JAP_collect_civilian_donations_decision: "Collect Civilian Donations"
  JAP_raise_military_moreale_decision: "Raise Military Morale"
- JAP_women_in_military_production_decision: "Women in MIlitary Production"
+ JAP_women_in_military_production_decision: "Women in Military Production"
 
  JAP_the_peoples_state_decisions: "The Anti-Military Struggle"
  JAP_the_peoples_state_decisions_desc: "Imperial rule and feudalism will soon be things of the past. It is time for the common man to steer his own destiny, and guide himself towards the goal of ultimate salvation for his people."
@@ -358,7 +358,7 @@
  JAP_organize_the_fifth_column_flag: "Preparing a sabotage action"
 
  JAP_assault_tauran_decision: "Prepare to Assault [MON.GetAdjective] Positions"
- JAP_assault_tauran_decision_desc: "Due to the recent provocation by the [MON.GetAdjective]s and their occupation of the village of Tauran by lake Buir, we must prepare our troops to push them out before their claim to our rightful territory can be legitimized.."
+ JAP_assault_tauran_decision_desc: "Due to the recent provocation by the [MON.GetAdjective]s and their occupation of the village of Tauran by lake Buir, we must prepare our troops to push them out before their claim to our rightful territory can be legitimized."
  JAP_tauran_border_incident_forgotten_1: "Troops Losing Morale"
  JAP_tauran_border_incident_forgotten_1_desc: "If we want to ever reclaim the village from our enemies, we must strike quickly."
  JAP_tauran_border_conflict_warning_MON: "Border Provocation at the [MAN.GetAdjective] Border"
