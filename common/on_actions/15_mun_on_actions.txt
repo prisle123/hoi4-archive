@@ -1,4 +1,33 @@
 on_actions = {
+	on_startup = {
+		effect = {
+			CZE = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 5		#Benelux
+							region = 21		#Alps
+							region = 7		#West Germany
+							region = 6		#North-West Germany
+							region = 8		#East Germany
+							state = 161		#Emilia Romagna
+							state = 162		#Toscana
+							state = 28		#Alsace
+							state = 735		#Savoy
+							state = 58		#Holstein
+							state = 909		#Schleswig
+							state = 102		#North Slovenia
+							state = 853		#Ljubljana
+							state = 736		#Litorale
+							state = 852		#Istria
+						}
+					}
+					add_to_array = { HRE_states = THIS }
+				}
+			}
+		}
+	}
+
 	on_state_control_changed = {
 		effect = {
 			if = {
@@ -459,6 +488,45 @@ on_actions = {
 					every_core_state = {
 						remove_core_of = PREV
 					}
+				}
+			}
+		}
+	}
+
+	on_ruling_party_change = {
+		effect = {
+			FROM = {		#Hlinka should never be used as country leader, his name is only there for flavor
+				if = {
+					limit = {
+						original_tag = CZE
+						has_character = CZE_andrej_hlinka
+						has_country_leader = {
+							character = CZE_andrej_hlinka
+							ruling_only = yes
+						}
+						has_character = CZE_emil_hacha
+					}
+					promote_character = CZE_emil_hacha
+				}
+				if = {
+					limit = {
+						original_tag = CZE
+						NOT = {
+							has_government = fascism
+						}
+						has_cosmetic_tag = CZE_fascist_color
+					}
+					drop_cosmetic_tag = yes
+				}
+				if = {
+					limit = {
+						original_tag = CZE
+						NOT = {
+							has_government = neutrality
+						}
+						has_cosmetic_tag = CZE_first_monarchy_color
+					}
+					drop_cosmetic_tag = yes
 				}
 			}
 		}

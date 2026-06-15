@@ -1103,6 +1103,8 @@
  BRA_united_kingdom_of_brazil_and_portugal: "巴西及葡萄牙联合王国"
  BRA_united_kingdom_of_brazil_and_portugal_desc: "巴西皇室的复辟也重新点燃了葡萄牙的君主主义情绪。也许我们应该利用这一机会，再次将我们的国家统一在一位君主之下。毕竟，两国都将从彼此的资源和专业知识中受益。"
  BRA_united_kingdom_of_brazil_and_portugal_tt: "要求§Y[POR.GetFlag][POR.GetNonIdeologyName]§!和§Y[BRA.GetFlag][BRA.GetNonIdeologyName]§!合一。如果§Y[POR.GetFlag][POR.GetNonIdeologyName]§!同意，他们会成为巴西的附属国。不过他们可能会提出替代方案或是拒绝提议。"
+ BRA_claim_the_french_throne: "声索法国王位"
+ BRA_claim_the_french_throne_desc: "奥尔良-布拉干萨家族手握对法国王位的宣称。奥尔良-布拉干萨家族的佩德罗·加斯唐希望利用这一点来扩大我们的领土。必须利用这一宣称！"
  BRA_undermine_democracy: "破坏国民议会"
  BRA_undermine_democracy_desc: "我们最有影响力的支持者并不满足于这种君主立宪制的妥协。他们越来越不耐烦，希望看到君主利用他们新获得的影响力，通过任命新的内阁来推翻国民议会。"
  BRA_use_the_national_security_law: "利用国家安全法"

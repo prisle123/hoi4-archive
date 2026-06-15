@@ -14,6 +14,6 @@
  POPS_parse-failure: "Ошибка клиента (парсер)"
  POPS_unsupported-account-details-keys: "Ошибка клиента (неподдерживаемые ключи)"
  POPS_invalid-script-code: "Ошибка клиента (неверный скрипт)"
- #These can happen sometimes, when connection failed or some other error occured
+ #These can happen sometimes, when connection failed or some other error occurred
  POPS_NO_MESSAGE: "Произошла непредвиденная ошибка"
  POPS_UNEXPECTED_ERROR: "Произошла непредвиденная ошибка."

@@ -21,6 +21,7 @@
  tooltip_launch_all_button_second: "$NUM|H$场袭击可发动"
  tooltip_launch_button_enabled: "§G点击§!发动突袭"
  tooltip_launch_button_disabled: "§R尚未做好发动袭击的准备§!"
+ tooltip_launch_button_right_click: "§G右键点击§!查找§Y$NAME$§!"
  tooltip_for_expand_button: "§G点击§!展开"
  tooltip_for_collapse_button: "§G点击§!折叠"
  tooltip_for_no_items: "§R无可用项§!"
@@ -62,6 +63,9 @@
  raid_type_commando_facility_raid_desc: "一支海军陆战队被派去破坏沿海省份的实验设施。"
  raid_type_airfield_raid: "机场的袭击"
  raid_type_supply_hub_raid: "补给中心袭击"
+ raid_type_rescue_captured_general: "营救被俘指挥官"
+ raid_type_rescue_captured_general_desc: "一队士兵潜入敌后，寻找并营救被俘的指挥官。"
+ raid_type_rescue_captured_general_captive_line: "§Y$NAME$§!被关押于此。"
  raid_type_demo_dam_raid: "大坝爆破袭击演示"
  raid_type_AUS_reichstag_bombing: "国会遭炸弹袭击"
  raid_type_AUS_reichstag_bombing_desc: "派遣一组轰炸机攻击敌人的主要指挥部，即德国权力的象征性地点，我们可以同时提振我方的士气，并对敌人造成打击。"
@@ -92,6 +96,8 @@
  raid_type_CHI_great_wall_raid_land_desc: "长城虽已不如昔日那般坚不可摧，但敌人若凭险据守，仍可占据地利。我们只需派遣一支小分队潜入敌军阵地并引爆炸药，便可以彻底瓦解他们的优势。"
  raid_type_JAP_pearl_harbor_strike: "袭击珍珠港"
  raid_type_JAP_pearl_harbor_strike_desc: "派遣轰炸机编队突袭敌军在太平洋的主要海军总部及舰队，此举不仅能重创敌方海军实力、挫败其士气，更能极大提振我国民众信心。如此一来，我军将至少掌控大洋制海权长达半年之久！"
+ success_modifier_completed_kido_butai_focus: "已完成国策：§Y$JAP_form_the_kido_butai$§!"
+ success_modifier_completed_kido_butai_focus_improvement: "-完成国策§Y$JAP_form_the_kido_butai$§!"
  raid_type_CZE_sokolov_raid_pfot: "法尔克诺夫突袭"
  raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
  RAID_TARGET_NAME: "$LOCATION|H$的$WHAT|H$"
@@ -107,7 +113,7 @@
  TOOLTIP_TARGET_FACILITY_NO_ONGOING_PROJECT_DESC: "没有进行中的项目"
  TOOLTIP_TARGET_FACILITY_PROJECT_UNKNOWN_DESC: "由于目标信息不足，当前工程未知（$CURRENT|R1$/$REQUIRED|H1$）"
  MAP_ICON_RAID_TARGET_HEADER: "准备袭击"
- RAID_SHIFT_CLICK_QUICK_START: "§GShift+点击§!以立即准备突袭。"
+ RAID_SHIFT_CLICK_QUICK_START: "§GShift+点击§!以立即准备突袭"
  MAP_ICON_RAID_UNIT_HEADER: "选择袭击单位"
  TOOLTIP_MAP_ICON_RAID_UNITS_HEADER: "$NUM|H$可用袭击单位"
  TOOLTIP_MAP_ICON_RAID_UNIT_ENTRY: "- $NAME|H$（$SUCCESS$）"
@@ -268,6 +274,7 @@
  tooltip_raid_warning_counterplay_header: "§G提高成功防御的概率：§!"
  tooltip_raid_success_chance_improvement_header: "§G增加成功袭击的概率：§!"
  tooltip_raid_modifier_effect_improvement: "  §g（当前效果：§!$VALUE$/$MAX$§g来自§!$SOURCE$§g）§!"
+ tooltip_raid_modifier_effect_improvement_no_source: "§g（当前效果：§!$VALUE$/$MAX$§g）§!"
  tooltip_raid_warning_success_chance_header: "击退袭击的概率：$VALUE|H%1$"
  #Success chance modifiers
  #If you want a separate negative or positive statement, add a specific *_positive or *_negative entry
@@ -419,10 +426,28 @@
  raid_target_name_thermonuclear: "$LOCATION|H$"
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
+ raid_target_name_state: "$LOCATION|H$"
  #Custom Raid Names
+ ### PRC
+ #Land
  raid_type_PRC_weapons_depot_raid: "掠袭武器仓库"
  raid_type_PRC_probe_border_defenses_raid: "突袭边区防线"
  raid_type_SOV_transport_volunteers_to_CZE: "苏联志愿军空中通道"
  raid_type_SOV_transport_volunteers_to_CZE_desc: "捷克斯洛伐克请求军事援助，但由于我们之间没有直接接壤的边境，后勤运输存在困难。作为替代方案，我们可以组建一支志愿军部队，通过空运方式将其送至捷克斯洛伐克军队中参与作战。"
  raid_target_name_CZE_volunteer_transport: "穆卡切沃机场"
+ ### Indonesia
+ #Land
+ #raid_type_INS_militia_knil_sabotage_raid: "Raid KNIL Bases"
+ #raid_type_INS_militia_knil_sabotage_raid_desc: "A team of Militias will attempt to raid KNIL bases with the goal of converting Indonesian soldiers to the Republican side, gaining manpower and valuable insights into enemy plans."
+ #raid_type_INS_militia_knil_supply_raid: "Raid Weapon Depots"
+ #raid_type_INS_militia_knil_supply_raid_desc: "A team of Militias will attempt to raid Supply Hubs controlled by the enemy with the goal of stealing equipment for the Republic"
+ #raid_type_INS_militia_loot_caches_raid: "Raid Weapons Caches"
+ #raid_type_INS_militia_loot_caches_raid_desc: "A team of Militias will raid KNIL weapons caches using intelligence from ex-KNIL republicans, attempting to steal large quantities of equipment."
+ raid_type_INS_militia_increase_activity_raid: "尝试游击渗透"
+ raid_type_INS_militia_increase_activity_raid_desc: "我方将派遣民兵前往该地区，与当地革命人士取得联系并建立游击据点。若行动顺利，我方将尝试渗透该区域，从荷兰当局手中夺取控制权。\n\n§W目标地区必须位于共和派控制的§Y地堡§!、§Y铁路§!或§Y海军基地§!的范围内。这些建筑可作为行动起点。§!\n\n§Y效果：§!\n§R部署的师将会被消耗§!\n§Y成功：§!\n       §W成为该地区的所有者与控制者。\n       提升战局态势等级§R1§!§!级。\n§Y部分成功：§!\n       §W民兵活动等级提升§Y1级§!，提高后续行动的成功概率。§!\n§Y失败：§!\n       §W没有效果。§!"
+ #Naval
+ raid_type_INS_militia_port_raid: "占领海军基地"
+ raid_type_INS_militia_port_raid_desc: "我方将派遣民兵伪装成渔民，乘坐小型船只行动，力求不被当局发现。登陆后，他们将尝试建立游击队据点；若时机成熟，便会同当地游击队协同夺取该海军基地。此次行动风险极高，一旦民兵暴露行踪，行动必将失败。\n\n§Y效果：§!\n§R所分配的师将被消耗§!\n§Y成功：§!\n       §W成为该地区的所有者与控制者。§!\n       提升战局态势等级§R1§!级。\n§Y部分成功：§!\n       §W民兵活动等级提升§Y1级§!，提高后续行动的成功概率。§!\n§Y失败：§!\n       §W没有效果。§!"
+ SIA_pacific_island_raid: "袭击太平洋岛屿"
+ SIA_pacific_island_raid_desc: "我们将袭击太平洋岛屿，试图严重破坏岛上的海军建筑、船只和陆军。"
  raid_tooltip_trigger_title: "$TITLE|H$："

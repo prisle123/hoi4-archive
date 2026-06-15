@@ -483,7 +483,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/bop/bop_FIN_prince_wolfgang_bad_improved_side.dds"
 	}
 	
-	#Czechoslovakia - Wolfdog/Munich MUN
+	#Czechoslovakia - Pfot/Munich MUN
 	spriteType = {
 		name = "GFX_bop_CZE_army_readiness_good_side"
 		texturefile = "gfx/interface/bop/bop_CZE_army_readiness_good_side.dds"

@@ -1805,7 +1805,7 @@
  war_will_cancel_deal_tt: "§YEl acuerdo quedará anulado en caso de guerra entre nuestros países§!"
  DEN_effects_after_fortify_our_borders_tt: "Ha completado el enfoque §Y$DEN_fortify_our_borders$§!:"
  DEN_trade_with_britain: "Comercio con Gran Bretaña"
- DEN_trade_with_britain_desc: "A lo largo de los siglos, [ENG.GetNameDefCap] ha sido nuestro mayor importador de productos agrícolas. Sin embargo, esa relación comercial se vio truncada tras la Gran Depresión. Ahora que hemos devaluado la corona, Gran Bretaña podrá intentar recuperar al fin nuestros enlaces comerciales."
+ DEN_trade_with_britain_desc: "A lo largo de los siglos, [ENG.GetNameDef] ha sido nuestro mayor importador de productos agrícolas. Sin embargo, esa relación comercial se vio truncada tras la Gran Depresión. Ahora que hemos devaluado la corona, Gran Bretaña podrá intentar recuperar al fin nuestros enlaces comerciales."
  DEN_trade_with_germany: "Comercio con Alemania"
  DEN_trade_with_germany_desc: "[GER.GetNameDefCap] siempre ha importado nuestros productos agrícolas en grandes cantidades, práctica a la que ni siquiera la Gran Guerra llegó a afectar. Sin embargo, de unos años a esta parte, el comercio entre los dos países ha mermado. ¡Tal vez sea hora de corregir esta tendencia!"
  DEN_agricultural_subsidies: "Subsidios a la agricultura"

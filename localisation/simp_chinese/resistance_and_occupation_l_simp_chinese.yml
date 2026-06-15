@@ -184,3 +184,5 @@
  non_core_controller_desc: "这个地区被无核心的国家控制"
  independent_rule: "独立治理"
  princely_subjugation: "降服土邦"
+ INS_direct_rule_occupation_law: "直属管辖"
+ INS_local_autonomy_occupation_law: "本地自治"

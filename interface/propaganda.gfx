@@ -4,7 +4,7 @@
 
 spriteTypes = {	
 
-	### Basic assets ###
+	### SOV BG ###
     				
 	spriteType = {
 		name = "GFX_propaganda_bg"
@@ -13,30 +13,47 @@ spriteTypes = {
 	}
 
 
-	### Posters ###
+	### SOV Posters ###
     				
 	spriteType = {
 		name = "GFX_SOV_propaganda_strip"
-		texturefile = "gfx/interface/propaganda/SOV_propaganda_strip.dds"
+		texturefile = "gfx/interface/propaganda/SOV/SOV_propaganda_strip.dds"
 		legacy_lazy_load = no
 		noOfFrames = 26
 	}
 	spriteType = {
 		name = "GFX_SOV_propaganda_strip_aged_1"
-		texturefile = "gfx/interface/propaganda/SOV_propaganda_strip_aged_texture1.dds"
+		texturefile = "gfx/interface/propaganda/SOV/SOV_propaganda_strip_aged_texture1.dds"
 		legacy_lazy_load = no
 		noOfFrames = 26
 	}
 	spriteType = {
 		name = "GFX_SOV_propaganda_strip_aged_2"
-		texturefile = "gfx/interface/propaganda/SOV_propaganda_strip_aged_texture2.dds"
+		texturefile = "gfx/interface/propaganda/SOV/SOV_propaganda_strip_aged_texture2.dds"
 		legacy_lazy_load = no
 		noOfFrames = 26
 	}
 	spriteType = {
 		name = "GFX_SOV_propaganda_strip_aged_3"
-		texturefile = "gfx/interface/propaganda/SOV_propaganda_strip_aged_texture3.dds"
+		texturefile = "gfx/interface/propaganda/SOV/SOV_propaganda_strip_aged_texture3.dds"
 		legacy_lazy_load = no
 		noOfFrames = 26
 	}
+
+
+	### SIA BG and posters ###
+
+	spriteType = {
+		name = "GFX_SIA_propaganda_strip"
+		texturefile = "gfx/interface/propaganda/SIA/SIA_propaganda_strip.dds"
+		legacy_lazy_load = no
+		noOfFrames = 9
+	}
+	spriteType = {
+		name = "GFX_SIA_propaganda_bg"
+		texturefile = "gfx/interface/propaganda/SIA/SIA_propaganda_bg.dds"
+		legacy_lazy_load = no
+	}
+
+
 }

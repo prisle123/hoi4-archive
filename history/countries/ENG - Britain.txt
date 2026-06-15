@@ -303,7 +303,7 @@ if = {
 	}
 	set_autonomy = {
 		target = JOR
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_colony
 		freedom_level = 0.2
 	}
 	set_autonomy = {
@@ -725,6 +725,13 @@ recruit_character = ENG_john_cockcroft
 recruit_character = ENG_charles_goodeve
 recruit_character = ENG_nevil_shute
 recruit_character = ENG_robert_watson_watt
+
+if = { 
+	limit = {
+		has_dlc = "Thunder at Our Gates"
+	}
+	recruit_character = ENG_robert_menzies #Through AST focus tree, Australian PM Menzies can become leader in ENG
+}
 
 if = {
 	limit = {

@@ -2764,6 +2764,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/RAJ_decision_investment_defenses_icon.dds"
 	}
 
+	spriteType = {
+		name = "GFX_form_hindustan_category_icon"
+		texturefile = "gfx/interface/decisions/form_hindustan_category_icon.dds"
+	}
+
 
 
 
@@ -2989,4 +2994,248 @@ spriteTypes = {
 		name = "GFX_decision_category_CZE_divided_nation_icon"
 		texturefile = "gfx/interface/decisions/decision_category_CZE_divided_nation.dds"
 	}
+
+
+
+
+ #######    #    #######  #####  
+    #      # #   #     # #     # 
+    #     #   #  #     # #       
+    #    #     # #     # #  #### 
+    #    ####### #     # #     # 
+    #    #     # #     # #     # 
+    #    #     # #######  #####  
+
+	
+	### AST ###
+	## Decision Category Pictures ##
+	spriteType = {
+		name = "GFX_decision_cat_picture_AST_union_control_1"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_AST_union_control_1.dds"
+	}
+
+	## Decision Cat Icons ##
+	spriteType = {
+		name = "GFX_decision_category_AST_australia_first"
+		texturefile = "gfx/interface/decisions/decision_category_AST_australia_first.dds"
+	}
+
+	### INS ###
+	## Decision Category Pictures ##
+	spriteType = {
+		name = "GFX_decision_cat_picture_INS_volksraad"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_INS_volksraad.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cat_picture_INS_militias"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_INS_militias.dds"
+	}
+
+	## Decision Cat Icons ##
+	spriteType = {
+		name = "GFX_decision_category_INS_militias"
+		texturefile = "gfx/interface/decisions/decision_category_INS_militias.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_INS_national_revolution"
+		texturefile = "gfx/interface/decisions/decision_category_INS_national_revolution.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_INS_unity_in_diversity"
+		texturefile = "gfx/interface/decisions/decision_category_INS_unity_in_diversity.dds"
+	}
+
+	## Decision Icon ##
+	spriteType = {
+		name = "GFX_decision_INS_core_state"
+		texturefile = "gfx/interface/decisions/decision_INS_core_state.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_sukarno_threatened"
+		texturefile = "gfx/interface/decisions/decision_INS_sukarno_threatened.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_destroy_the_east_indies"
+		texturefile = "gfx/interface/decisions/decision_INS_destroy_the_east_indies.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_take_java"
+		texturefile = "gfx/interface/decisions/decision_INS_take_java.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_INS_hold_java"
+		texturefile = "gfx/interface/decisions/decision_INS_hold_java.dds"
+	}
+
+
+	### AST ###
+	## Cabinet Trust ##
+	spriteType = {
+		name = "GFX_AST_cabinet_trust_bg"
+		texturefile = "gfx/interface/decisionview/AST_cabinet_trust_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust1" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust1_black" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust1_black.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust2" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust2_black" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust2_black.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust3" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust3_black" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust3_black.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust4" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust4_black" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust4_black.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust5" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_cabinet_trust5_black" 
+		texturefile = "gfx/interface/decisionview/idea_AST_cabinet_trust5_black.dds"
+	}
+
+	## Union Control ##
+
+	spriteType = {
+		name = "GFX_idea_AST_union_control_brm_1"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_brm_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_brm_2"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_brm_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_brm_3"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_brm_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_brm_4"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_brm_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_brm_5"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_brm_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_ins_1"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_ins_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_ins_2"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_ins_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_ins_3"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_ins_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_ins_4"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_ins_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_ins_5"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_ins_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_mal_1"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_mal_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_mal_2"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_mal_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_mal_3"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_mal_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_mal_4"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_mal_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_mal_5"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_mal_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_nzl_1"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_nzl_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_nzl_2"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_nzl_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_nzl_3"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_nzl_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_nzl_4"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_nzl_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_nzl_5"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_nzl_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_phi_1"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_phi_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_phi_2"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_phi_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_phi_3"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_phi_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_phi_4"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_phi_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_phi_5"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_phi_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_raj_1"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_raj_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_raj_2"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_raj_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_raj_3"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_raj_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_raj_4"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_raj_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AST_union_control_raj_5"
+		texturefile = "gfx/interface/decisionview/idea_AST_union_control_raj_5.dds"
+	}
+
 }

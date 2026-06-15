@@ -1523,7 +1523,7 @@
  ITA_is_not_constitutional_monarchy_tt: "不是§Y君主立宪制§!。"
  ITA_antifascist_civil_war_triggered_flag: "意大利反法西斯内战已发生。"
  ITA_production_lines_factories_tt: "在最多两个核心地区中添加§Y2个建筑位§!和§Y2座军用工厂§!。"
- ITA_industrial_socialization_factories_tt: "在最多两个核心地区中添加§Y2个建筑位§!和§Y2座民用工厂$§!。\n在最多两个不同的核心地区中添加§Y2个建筑位§!和§Y2座军用工厂$§!。"
+ ITA_industrial_socialization_factories_tt: "在最多两个核心地区中添加§Y2个建筑位§!和§Y2座民用工厂§!。\n在最多两个不同的核心地区中添加§Y2个建筑位§!和§Y2座军用工厂§!。"
  ITA_RDS_exists_tt: "国家是§Y$RDS$§!。"
  generic_every_allied_country: "§Y每个盟国§!：\n"
  generic_decision_effects: "\n决议移除时的效果：\n"

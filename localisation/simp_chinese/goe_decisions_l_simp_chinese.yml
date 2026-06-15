@@ -369,6 +369,13 @@
  RAJ_has_met_with_kremlin_flag_NO_USSR: "已与外国共产党团体会面"
  RAJ_communist_unions_promised_worker_safety_mission: "履行我们的联盟义务"
  RAJ_communist_unions_promised_minimum_wage_mission: "$RAJ_communist_unions_promised_worker_safety_mission$"
+ GOE_form_hindustan_category: "印度斯坦的统一"
+ GOE_form_hindustan_category_desc: "征服所有印度领土之后，现在是时候由[ROOT.GetLeader]宣布印度斯坦的统一了，以便为我们伟大的国家凝聚支持与关注。"
+ GOE_form_hindustan: "统一印度斯坦"
+ GOE_form_country_india_required_states_tt: "控制所有§Y印度§!地区"
+ GOE_form_country_pakistan_required_states_tt: "控制所有§Y巴基斯坦§!地区"
+ GOE_form_country_india_coring_states_tt: "获得所有§Y印度§!地区的核心"
+ GOE_form_country_pakistan_coring_states_tt: "获得所有§Y巴基斯坦§!地区的核心"
  ##############
  #### IRAN ####
  ##############
@@ -462,6 +469,7 @@
  IRQ_invite_to_federation: "邀请§Y[FROM.OWNER.GetNameDef]§!加入[ROOT.GetNameDef]。"
  IRQ_invite_to_federation_africa: "$IRQ_invite_to_federation$"
  IRQ_inviting_to_federation_in_progress: "目前正邀请其他国家加入联邦。"
+ is_the_current_invitation_target_of_IRQ_hashemite_flag: "正收到加入联邦的邀请"
  IRQ_has_permanently_rejected_fed: "已永久拒绝成员资格。"
  OMA_restore_order_in_the_interior: "重建内部秩序"
  united_arab_republic_cat: "$IRQ_proclaim_united_arab_republic$"

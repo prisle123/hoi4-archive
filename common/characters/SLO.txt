@@ -571,7 +571,7 @@ characters = {
 		name="Jindrich Honzl"
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_europe_3"
+				small="GFX_idea_generic_navy_europe_2"
 			}
 		}
 		advisor={
@@ -598,13 +598,13 @@ characters = {
 		}
 		advisor={
 			slot = navy_chief
-			idea_token = SLO_jindrich_honzl
+			idea_token = SLO_julius_thorzo
 			allowed  = {
 				original_tag  = SLO
 			}
-			cost = 150
+			#cost = 150
 			traits  = {
-				navy_chief_maneuver_2 
+				navy_chief_reform_2 
 			}
 			ai_will_do  = {
 				factor  = 1.000

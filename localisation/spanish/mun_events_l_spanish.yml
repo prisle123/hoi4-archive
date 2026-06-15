@@ -247,6 +247,8 @@
  MUN_czech.1054.a: "Hemos de expandirnos para resistir a la expansión del prójimo."
  MUN_czech.1055.t: "Llegada de los voluntarios [SOV.GetAdjective]"
  MUN_czech.1055.d: "En un hito de logística aérea sin precedentes, [SOV.GetNameDef] ha recurrido a su fuerza aérea para desplegar varias divisiones de voluntarios en nuestro aeropuerto de [73.GetName] y brindarnos así apoyo bélico."
+ MUN_czech.1056.t: "[FROM.GetName] exige [975.GetName]"
+ MUN_czech.1056.d: "Tal y como se propuso en la Conferencia de Paz de París posterior a la Gran Guerra, [CZE.GetNameDef] ha compartido que, para garantizar la seguridad de la alianza, considera necesaria la creación de un corredor con [YUG.GetNameDef]. Para alcanzar ese objetivo, los líderes [FROM.GetAdjective] nos han enviado un ultimátum mediante el que nos exigen que les cedamos [975.GetName]."
  #THE FALL OF THE REPUBLIC EVENTS#
  MUN_the_fall_of_the_republic.1.t: "Estallido generalizado de protestas"
  MUN_the_fall_of_the_republic.1.d: "La reciente decisión de [ROOT.GetLeader] de ceder los Sudetes ha provocado un estallido de protestas en todo el país. Si bien los líderes políticos y militares querían evitar un derramamiento de sangre en lo que consideraban una resistencia inútil ante una situación imposible, muchos en todo el país sintieron que habían tomado la decisión equivocada. Algunos movimientos políticos están intentando aprovechar la agitación para lograr sus propios objetivos."
@@ -316,6 +318,10 @@
  MUN_slovakia_little_war.4.t: "Punto muerto en [71.GetName]"
  MUN_slovakia_little_war.4.d: "A pesar de todos nuestros esfuerzos, nuestras fuerzas no lograron vencer en la escaramuza de [71.GetName]. El hecho de no haber sido capaces de reunir a tiempo munición y equipamiento motorizado suficientes para el conflicto fue un factor determinante para no poder lograr la victoria. Pese a este revés, los comandantes que participaron en la batalla han aprendido algunas lecciones muy importantes."
  MUN_slovakia_little_war.4.a: "Decepcionante."
+ ##Exile##
+ MUN_czech_exile.1.t: "Exiliados [CZE.GetAdjective] llegan a [ROOT.GetNameDef]"
+ MUN_czech_exile.1.d: "Después de que [GER.GetNameDef] disolviese su país en los Acuerdos de Múnich, han llegado exiliados [CZE.GetAdjective] a muchos países, incluido el nuestro. Están dispuestos a tomar las armas para ayudarnos, con la esperanza de que algún día puedan liberar su país con nuestra ayuda."
+ MUN_czech_exile.1.a: "Bienvenidos."
  ##NEWS EVENTS##
  MUN_czech.news.1.t: "La crisis de los Sudetes"
  MUN_czech.news.1.desc: "Los habitantes de los Sudetes han iniciado una revuelta armada contra [CZE.GetNameDef]. Han comenzado a llegar informes de que algunos paramilitares de los Sudetes han empezado a atacar comisarías y edificios gubernamentales en toda la región. Esto se ha desencadenado por las recientes noticias de que [FROM.GetName] pretende anexionársela.\n\nEstas revueltas parecen ser el preludio de un conflicto mayor entre [FROM.GetName] y [CZE.GetNameDef], un conflicto que ahora parece inevitable."

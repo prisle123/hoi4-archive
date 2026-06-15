@@ -247,6 +247,8 @@
  MUN_czech.1054.a: "我们必须扩张以抵御他国的扩张。"
  MUN_czech.1055.t: "[SOV.GetAdjective]志愿军抵达"
  MUN_czech.1055.d: "在一场前所未有的空运后勤行动中，[SOV.GetNameDef]动用其空军，将数个志愿师部署至我方位于[73.GetName]的机场，以支援我们当前的战争努力。"
+ MUN_czech.1056.t: "[FROM.GetName]要求[975.GetName]"
+ MUN_czech.1056.d: "正如第一次世界大战后的巴黎和会上曾提议的那样，[CZE.GetNameDef]宣称建立一条通往其盟友[YUG.GetNameDef]的走廊对于其联盟安全至关重要。为实现这一目标，[FROM.GetAdjective]代表已发出最后通牒，要求我们割让[975.GetName]。"
  #THE FALL OF THE REPUBLIC EVENTS#
  MUN_the_fall_of_the_republic.1.t: "大范围抗议"
  MUN_the_fall_of_the_republic.1.d: "[ROOT.GetLeader]近期决定放弃苏台德地区，导致全国爆发抗议活动。尽管军政领导层希望避免流血冲突，不想面对不可能的困难进行毫无意义的抵抗，但全国各地的许多民众认为他们做出了错误的决定。一些政治运动现在正在利用这次动乱来推进自己的目标。"
@@ -316,6 +318,10 @@
  MUN_slovakia_little_war.4.t: "[71.Getname]困局"
  MUN_slovakia_little_war.4.d: "尽管我们全力以赴，我军仍在[71.Getname]败北。弹药和摩托化装备未能及时供应，是此次失利的关键原因。不过，指挥官们从这场战斗中吸取了宝贵教训。"
  MUN_slovakia_little_war.4.a: "令人失望。"
+ ##Exile##
+ MUN_czech_exile.1.t: "[CZE.GetAdjective]流亡者抵达[ROOT.GetNameDef]"
+ MUN_czech_exile.1.d: "慕尼黑会议后，[GER.GetNameDef]解散了[CZE.GetAdjective]，他们的流亡者已经抵达包括我们在内的许多国家。他们愿意拿起武器帮助我们，希望有朝一日能借助我们的力量解放自己的祖国。"
+ MUN_czech_exile.1.a: "欢迎"
  ##NEWS EVENTS##
  MUN_czech.news.1.t: "苏台德危机"
  MUN_czech.news.1.desc: "苏台德地区的人们已经开始武装反抗[CZE.getnameDef]。有报道称，苏台德地区的准军事组织已经开始袭击整个地区的警察局和政府大楼。[FROM.getname]试图吞并该地区的消息就是这场叛乱的缘由。\n\n这些叛乱似乎是[FROM.getname]和[CZE.GetNameDef]之间更大冲突的前奏。而这场冲突看起来已不可避免。"

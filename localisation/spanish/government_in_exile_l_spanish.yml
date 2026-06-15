@@ -69,7 +69,7 @@
  COUNTRYVIEW_GIE_INFO_BONUSES: "     - Ataque: $ATTACK|%0+$\n     - Defensa: $DEFENSE|%+0$"
  COUNTRYVIEW_GIE_INFO_DELAYED: "La §Hlegitimidad§! aumenta al luchar en las guerras de tu anfitrión."
  COUNTRYVIEW_GIE_INFO_DELAYED_HOST: "La §Hlegitimidad§! aumenta al luchar en nuestras guerras."
- COUNTRYVIEW_GIE_INFO_BUTTON: "§GHaz clic§! en el botón para ver los efectos actuales."
+ COUNTRYVIEW_GIE_INFO_BUTTON: "§GHaz clic§! en el botón para ver los efectos actuales"
  COUNTRYVIEW_GIE_OCCUPIERLIST_ENTRY: "  $NAMEWITHFLAG|H$"
  GIE_EXILE_ARMY_LEADER_UNLOCKED_WE_RECEIVE: "Hemos recibido un §Hlíder del Ejército exiliado§! $EXILEADJ|H$."
  GIE_EXILE_ARMY_LEADER_UNLOCKED_EXILE_RECEIVES: "$EXILENAMEDEF|UH$ ha recibido un §Hlíder del Ejército exiliado§! $EXILEADJ|HU$."

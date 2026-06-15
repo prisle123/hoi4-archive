@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
  CAN_CREATE_COLLABORATION_GOVERNMENT: "可以建立合作政府"
  CAN_DECLARE_WAR_WITHOUT_WARGOAL_WHEN_IN_WAR: "与主要国家交战时可以无需战争目标向邻国宣战"
- CAN_DECLARE_WAR_ON_SAME_IDEOLOGY: "可以无需战争目标向同一意识形态组的国家宣战"
+ CAN_DECLARE_WAR_ON_SAME_IDEOLOGY: "可以向同一意识形态组的国家正当化战争目标和宣战"
  CAN_FORCE_GOVERNMENT: "可以强迫他国政府接受己方意识形态"
  CAN_GUARANTEE_OTHER_IDEOLOGIES: "可以对其他意识形态的国家保障独立"
  CAN_PUPPET: "可以傀儡其他国家"

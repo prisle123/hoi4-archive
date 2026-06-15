@@ -184,3 +184,5 @@
  non_core_controller_desc: "Регион, контролируемый не национальным государством"
  independent_rule: "Независимое правление"
  princely_subjugation: "Подчинение княжеств"
+ INS_direct_rule_occupation_law: "Прямое управление"
+ INS_local_autonomy_occupation_law: "Местная автономия"

@@ -1,5 +1,5 @@
 ﻿l_simp_chinese:
- HOME_BASE_RIGHT_CLICK: "§G右键点击§!前往当前母港。"
+ HOME_BASE_RIGHT_CLICK: "§G右键点击§!前往当前母港"
  HOME_BASE_NONE: "无"
  HOME_BASE_STATE_NAME: "$STATE$（$LEVEL|Y$）"
  NAVAL_DOMINANCE_CURRENT_VALUE: "控制率：$RATIO|%2G$\n当前制海权：£naval_dominance_texticon£$CURRENT|0Y$"
@@ -97,7 +97,7 @@
  AUTOMATION_HOMEBASE_ON: "§Y启用§!"
  AUTOMATION_HOMEBASE_OFF: "§g禁用§!"
  SEAZONE_MINIMUM_DOMINANCE: "区域控制所需的最低£naval_dominance_texticon£：$VALUE|H0$"
- NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§H制海权§!\n我们需要§Y66%§!或更高的控制率，才能认定一个区域处于友方控制之下。"
+ NAVAL_CONTROL_RATIO_MARKER_TOOLTIP: "§H制海权§!\n我们需要§Y60%§!或更高的控制率，才能认定一个区域处于友方控制之下。"
  NAVAL_DOMINANCE_EXPLANATION: "§Y制海权§!\n衡量船只控制特定海域的效率。"
  NAVY_SUPPLY_USAGE_DESC_TOTAL: "§H补给消耗：$VAL$§!"
  NAVY_SUPPLY_USAGE_DESC_BASE: "基础值：$VAL|H$"

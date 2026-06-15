@@ -151,7 +151,7 @@
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_TT: "§Y原型决议可用§!"
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_DELAYED_TT: "一个原型决议可用："
  SPECIAL_PROJECT_ITERATION_DEFAULT_CHOICE_REWARD_ALERT_DELAYED_TT: "如果未选择选项，新的迭代或者项目完成时将会选择默认选项。"
- SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§G点击§!查看效果。"
+ SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§G点击§!查看效果"
  SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_CHOICE: "新的迭代或者项目完成时，这个选项将被自动选择。"
  SPECIAL_PROJECT_AVAILABLE_ALERT_TT: "§Y可用专项计划§!"
  SPECIAL_PROJECT_AVAILABLE_ALERT_DELAYED_TT: "专项计划可以开始于："
@@ -188,7 +188,7 @@
  NOT_CAN_CONSTRUCT_BUILDING_IN_STATE: "不能在$STATE|Y$建造$BUILDING|Y$"
  CONSTRUCT_BUILDING_IN_STATE: "在$STATE|Y$建造$BUILDING|Y$"
  DISMANTLE_FACILITY_DESC_TT: "§G点击§!以拆除设施建筑。\n\n这将花费$DAYS|Y$天"
- ABORT_DISMANTLE_FACILITY_DESC_TT: "§G点击§!以中止拆除设施建筑。"
+ ABORT_DISMANTLE_FACILITY_DESC_TT: "§G点击§!以中止拆除设施建筑"
  ABORT_DISMANTLE_PROJECT_POPUP_DESC: "中止拆除设施建筑？"
  DISMANTLE_FACILITY_TT: "将在$DAYS|Y$天内拆除"
  DISMANTLE_FACILITY_PROGRESS: "$PROGRESS|0%Y$"
@@ -336,11 +336,11 @@
  sp_air_radar_desc: "通过使用脉冲无线电波并检测其反射，我们将能够监控敌军在陆地、空中和海上的动向。"
  sp_air_centimetric_radar: "厘米波雷达"
  sp_air_centimetric_radar_desc: "开发厘米波雷达将允许我们检测更小的目标，并使用更小的天线。"
- #Project Wolfdog
+ #Pfot
  sp_land_large_caliber_kinetic_energy_sabot: "大口径动能脱壳穿甲弹"
  sp_land_large_caliber_kinetic_energy_sabot_desc: "这是一种更大口径的穿甲炮弹药，专为穿透防御工事而设计。"
  GER_sp_land_large_caliber_kinetic_energy_sabot: "罗氏脱壳穿甲弹"
- #End Wolfdog
+ #End Pfot
  sp_land_reward_land_cruiser_overheating: "试验中过热"
  sp_land_reward_land_cruiser_chassis: "底盘压力测试失败"
  sp_land_reward_land_cruiser_chassis_desc: "在压力测试期间，[SpecialProject.GetName]的底盘无法承受巨大的重量，导致结构变形。设计团队对是否增加额外的加固构件产生了分歧，增添构件会进一步加大车辆的重量，而使用轻量化材料则可能削弱其耐用性。"

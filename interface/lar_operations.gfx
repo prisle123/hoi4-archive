@@ -104,6 +104,10 @@ spriteTypes = {
 		name = "GFX_raid_trotskys_villa"
 		texturefile = "gfx/interface/operations/raid_trotskys_villa.dds"
 	}
+	spriteType = {
+		name = "GFX_operations_rescue_captured_operative"
+		texturefile = "gfx/interface/operations/rescue_captured_operative.dds"
+	}
 
 
 	### Operation types - map icons
@@ -167,10 +171,15 @@ spriteTypes = {
 		name = "GFX_murder_trotsky_map"
 		texturefile = "gfx/interface/operations/map/murder_trotsky_map.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_raid_trotskys_villa_map"
 		texturefile = "gfx/interface/operations/map/raid_trotskys_villa_map.dds"
 	}
+	spriteType = {
+		name = "GFX_operations_rescue_captured_general_map"
+		texturefile = "gfx/interface/operations/map/rescue_captured_general_map.dds"
+	}
+
 
 	### Phase Pictures
 
@@ -507,18 +516,27 @@ spriteTypes = {
 		name = "GFX_phase_coordinated_strike_direct_units"
 		texturefile = "gfx/interface/operations/images/phase_coordinated_strike_direct_units.dds"
 	}
+
 	spriteType = { 
 		name = "GFX_phase_coordinated_strike_occupy_bridges"
 		texturefile = "gfx/interface/operations/images/phase_coordinated_strike_occupy_bridges.dds"
 	}
+
 	spriteType = { 
 		name = "GFX_phase_raid_trotskys_villa"
 		texturefile = "gfx/interface/operations/images/phase_raid_trotskys_villa.dds"
 	}
+
 	spriteType = { 
 		name = "GFX_phase_murder_trotsky"
 		texturefile = "gfx/interface/operations/images/phase_murder_trotsky.dds"
 	}
+
+	spriteType = { 
+		name = "GFX_phase_free_captured_general_disguise_and_extract"
+		texturefile = "gfx/interface/operations/images/phase_free_captured_general_disguise_and_extract.dds"
+	}
+
 
 
 
@@ -880,6 +898,11 @@ spriteTypes = {
 		name = "GFX_phase_raid_trotskys_villa_small"
 		texturefile = "gfx/interface/operations/phases_small/phase_raid_trotskys_villa_small.dds"
 	}
+	spriteType = { 
+		name = "GFX_phase_free_captured_general_disguise_and_extract_small"
+		texturefile = "gfx/interface/operations/phases_small/phase_free_captured_general_disguise_and_extract_small.dds"
+	}
+
 
 	### Progress bar pie charts
 

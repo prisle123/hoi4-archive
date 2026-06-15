@@ -172,7 +172,7 @@
  mio_cat_artillery: "Artillería"
  HUN_recon_airplane_focus: "Enfoque de aviones de reconocimiento"
  HUN_recon_airplane_focus_desc: "Actualmente, [ROOT.GetNameDefCap] está invirtiendo fuertemente en el desarrollo y uso de aviones de reconocimiento, con el fin de vigilar adecuadamente a sus enemigos."
- HUN_rapid_army_groups_idea: "Grupos de ejércitos rápidos"
+ HUN_rapid_army_groups_idea: "Agrupaciones de ejércitos rápidas"
  HUN_rapid_army_groups_idea_desc: "Nuestro ejército se ha reorganizado para poder llegar al lugar que necesite lo más rápido posible en cualquier momento."
  HUN_pan_ugric_volunteer_force: "Fuerzas de voluntarios [ROOT.GetAdjective]"
  HUN_pan_ugric_volunteer_force_desc: "Nuestro reciente fervor por ayudar a nuestros hermanos ugrofineses ha espoleado el reclutamiento de voluntarios [ROOT.GetAdjective] que desean unirse a la lucha en el extranjero."

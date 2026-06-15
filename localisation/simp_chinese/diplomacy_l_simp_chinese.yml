@@ -559,6 +559,7 @@
  DR_YEARS_DIFFERENCE: "请求装备的科技差： "
  DR_LEND_LEASE: "欢迎任何帮助： "
  DR_LEND_LEASE_NO_EQUIPMENT_OR_REQUEST_HAS: "$SENDER|UH$没有足够的装备或者§Y我国§!库存过多。"
+ DR_LEND_LEASE_CONVOY_OVERCOMMIT: "运输船超负荷："
  DR_VOLUNTEER: "欢迎任何帮助： "
  DR_ATTACHE: "欢迎帮助： "
  DR_ATTACHE_LOW_OPINION: "对我们的评价太低："
@@ -1716,3 +1717,6 @@
  CZE_allows_passage_of_soviet_troops: "允许苏联军事通行"
  #Czechoslovakia Opinion Modifiers
  CZE_i_am_agreeable_to_license: "斯柯达和CKD采购合同"
+ #INS
+ indonesia_usa_rejected_renville_modifier: "拒绝提供帮助"
+ indonesia_china_trade_modifier: "华裔印尼侨民"

@@ -184,3 +184,5 @@
  non_core_controller_desc: "Un Estado controlado por un país no esencial"
  independent_rule: "Gobierno independiente"
  princely_subjugation: "Subyugación por principado"
+ INS_direct_rule_occupation_law: "Autogobierno"
+ INS_local_autonomy_occupation_law: "Autonomía local"

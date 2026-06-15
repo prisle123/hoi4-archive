@@ -156,6 +156,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/factions/faction_logos/faction_logo_generic_18.dds"
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_faction_logo_generic_19"
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_generic_19.dds"
+		noOfFrames = 2
+	}
 
 	### Faction Logos - Miniatures ###
 		spriteType = {
@@ -277,6 +282,10 @@ spriteTypes = {
 		spriteType = {
 		name = "GFX_faction_logo_generic_18_miniature"
 		texturefile = "gfx/interface/factions/faction_logos/faction_logo_generic_18_miniature.dds"
+	}
+		spriteType = {
+		name = "GFX_faction_logo_generic_19_miniature"
+		texturefile = "gfx/interface/factions/faction_logos/faction_logo_generic_19_miniature.dds"
 	}
 
 	### Faction Icons ###

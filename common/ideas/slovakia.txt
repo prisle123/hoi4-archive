@@ -17,8 +17,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				conscription_factor = 0.15 
+				conscription_factor = 0.20
 				training_time_factor = -0.05
+				supply_consumption_factor = -0.05
+				out_of_supply_factor = -0.10
 				#mobilization_speed = 0.10
 				air_ace_generation_chance_factor = 0.25
 			}

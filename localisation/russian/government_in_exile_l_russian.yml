@@ -69,7 +69,7 @@
  COUNTRYVIEW_GIE_INFO_BONUSES: "     – Атака: $ATTACK|%0+$\n – Оборона: $DEFENSE|%+0$"
  COUNTRYVIEW_GIE_INFO_DELAYED: "§HЛегитимность§! повышается при участии в войнах, которые ведет принимающая сторона."
  COUNTRYVIEW_GIE_INFO_DELAYED_HOST: "§HЛегитимность§! повышается при участии в войнах, которые ведем мы."
- COUNTRYVIEW_GIE_INFO_BUTTON: "§GЩелкните§!, чтобы увидеть текущие эффекты."
+ COUNTRYVIEW_GIE_INFO_BUTTON: "§GЩелкните§!, чтобы увидеть текущие эффекты"
  COUNTRYVIEW_GIE_OCCUPIERLIST_ENTRY: "  $NAMEWITHFLAG|H$"
  GIE_EXILE_ARMY_LEADER_UNLOCKED_WE_RECEIVE: "Мы получили $EXILEADJ|H$ §Hкомандующего армией в изгнании§!."
  GIE_EXILE_ARMY_LEADER_UNLOCKED_EXILE_RECEIVES: "Государство $EXILENAMEDEF|UH$ получило $EXILEADJ|HU$ §Hкомандующего армией в изгнании§!."

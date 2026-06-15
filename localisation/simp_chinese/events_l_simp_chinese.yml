@@ -3400,7 +3400,7 @@
  AAT_germany.1.a: "这不符合我国最大利益。"
  AAT_germany.1.b: "没人会亏！"
  AAT_germany.2.t: "[FROM.GetName]拒绝我方提案"
- AAT_germany.2.desc: "[FROM.GetName]拒绝了我们的提议，称目前这不符合他们的最佳利益。\n他们强调，没有针对我们的恶意，但他们在这大势中还有其他优先事项。"
+ AAT_germany.2.desc: "[FROM.GetName]拒绝了我们的提议，称目前这不符合他们的最佳利益。\n他们强调，没有针对我们的恶意，但他们目前还有其他优先事项。"
  AAT_germany.2.a: "真是遗憾"
  AAT_germany.3.t: "[FROM.GetName]接受我方提案"
  AAT_germany.3.desc: "[FROM.GetName]接受了我方提案，这无疑将使我们双方受益。让我们盼望以后能有更多这样获利颇丰的协议"

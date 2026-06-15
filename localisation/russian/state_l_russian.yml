@@ -12,7 +12,7 @@
  STATE_BUILDING_SOME_KNOWN_FACTORIES: "По данным разведки, в этом регионе — как минимум $AMOUNT|H$ фабрик(и)"
  STATE_CONVERT_BUILDING: "Преобразовать $FACTOR|H$ ед. сооружений $BUILDING_FROM$ в §H1§! сооружение $BUILDING_TO$."
  STATE_CONTROLLER: "Контролирующее государство: @$TAG$$COUNTRY|H$"
- STATE_CONTROLLER_DELAYED: "§GЩелкните, чтобы открыть меню дипломатии.§!"
+ STATE_CONTROLLER_DELAYED: "§GЩелкните, чтобы открыть меню дипломатии§!"
  STATE_OWNER: "Владелец: @$TAG$$COUNTRY|H$"
  STATE_OWNER_CORE: "§GНациональная территория§!"
  STATE_OWNER_NON_CORE: "§YКолония§!"

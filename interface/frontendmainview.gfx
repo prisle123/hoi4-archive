@@ -56,7 +56,7 @@ spriteTypes = {
 	frameAnimatedSpriteType = {
 		name = "GFX_subscription_widget"
 		textureFile = "gfx/interface/sub/main/subscription_widget.dds"
-		noOfFrames = 9
+		noOfFrames = 10
 		animation_rate_fps = 0.15
 		looping = yes
 		play_on_show = yes
@@ -66,7 +66,8 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_subscription_widget_chinese"
-		textureFile = "gfx/interface/sub/main/subscription_widget_chinese.dds"
+		textureFile = "gfx/interface/sub/main/subscription_widget.dds"
+		noOfFrames = 10
 	}
 
 	spriteType = {
@@ -194,10 +195,20 @@ spriteTypes = {
 	spriteType = { # Pfot - Mun
 		name = "GFX_frontend_banner_dlc051"
 		texturefile = "gfx/interface/dlc_banners/dlc018.dds"
-}
+	}
 
 	spriteType = {
 		name = "GFX_frontend_medal_dlc051"
 		texturefile = "gfx/interface/goals/focus_CZE_flag_and_fortification.dds"
+	}
+
+	spriteType = { # Pfot - Mun
+		name = "GFX_frontend_banner_dlc052"
+		texturefile = "gfx/interface/dlc_banners/dlc018.dds"
+	}
+
+	spriteType = {
+		name = "GFX_frontend_medal_dlc052"
+		texturefile = "gfx/interface/goals/focus_AST_diggers.dds"
 	}
 }

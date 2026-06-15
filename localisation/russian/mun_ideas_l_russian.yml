@@ -56,8 +56,8 @@
  CZE_rut_comprise_agreement_modifier: "Соглашение об автономии Карпатской Украины" #Can't use [RUT.Getname] in the context this is used in
  CZE_improve_cross_border_rail_connections_modifier: "Улучшение международных железных дорог"
  #National Spirits
- CZE_taticek_of_czechoslovakia: "Татинек"
- CZE_taticek_of_czechoslovakia_desc: "Томаш Масарик, которого нередко называют «отцом нации», а то и попросту «папочкой» («татинек» по-чешски), более двух десятилетий оставался стабилизирующей фигурой в политике Чехословакии. Когда в появление коалиций и выход из политического тупика почти никто не верил, Масарик раз за разом совершал политические чудеса, помогая укрепить Чехословакию и сделать ее такой, какой мы видим ее сегодня. Даже сейчас, находясь на заслуженном отдыхе, он дает властям страны ценные советы, которые воспринимаются как руководство к действию."
+ CZE_taticek_of_czechoslovakia: "«Папочка» Масарик"
+ CZE_taticek_of_czechoslovakia_desc: "Томаш Масарик, которого нередко называют отцом нации, а то и попросту папочкой («татичек» по-чешски), более двух десятилетий оставался стабилизирующей фигурой в политике Чехословакии. Когда в появление коалиций и выход из политического тупика почти никто не верил, Масарик раз за разом совершал чудеса, помогая укрепить Чехословакию и сделать ее такой, какой мы видим ее сегодня. Даже сейчас, находясь на заслуженном отдыхе, он дает властям страны ценные советы, которые воспринимаются как руководство к действию."
  CZE_industrialists_veto: "Вето промышленников"
  CZE_industrialists_veto_desc: "Промышленники оказывают значительное влияние на политику страны, ведь они возглавляют многие из крупнейших конгломератов [CZE.GetNameRuGen]. С ними приходится считаться в вопросах экономической политики, и экономическая мобилизация вызовет крайне ожесточенное сопротивление с их стороны."
  CZE_agrarian_politics_1: "Аграрная политика"
@@ -105,6 +105,7 @@
  CZE_vitkovice_mining_and_metallurgical_company: "Горно-металлургическая компания Витковице"
  CZE_joint_stock_schemes_idea_aat: "Акционерные схемы"
  CZE_joint_stock_schemes_idea_aat_desc: "Многие чешские компании используют акционерные схемы, чтобы продолжать свой рост даже в неблагоприятных политических и экономических условиях."
+ CZE_powerhouse_of_europe_idea_desc: "$CZE_giant_of_central_europe_industry_desc$"
  CZE_national_defense_act_idea: "Закон о национальной обороне"
  CZE_mobilize_the_reserves_idea: "Мобилизация резервных дивизий"
  CZE_rapid_response_divisions_idea: "Подразделения быстрого реагирования"
@@ -128,8 +129,10 @@
  CZE_adminstrative_chaos: "Административный хаос"
  CZE_semi_constitutional_constitution: "Обновлённая конституция"
  CZE_semi_constitutional_constitution_desc: "Новая конституция [ROOT.GetNameRuGen] предполагает формирование демократического правительства, представляющего интересы народа, но в то же время сохраняет рычаги влияния для монарха с целью поддержания стабильности."
+ CZE_emergency_measures_idea: "$CZE_emergency_measures$"
  CZE_a_modern_navy_idea: "Современные ВМС"
  CZE_bastion_of_liberty_idea: "Бастион свободы"
+ CZE_wielding_the_hammer_idea: "Регуляторный захват"
  CZE_leveraged_sokol: "Используется Сокольское движение"
  CZE_truth_prevails_idea: "Истина торжествует"
  CZE_standing_against_the_storm_idea: "Наперекор буре"
@@ -143,9 +146,12 @@
  CZE_federalization_agreement_puppets: "Соглашение о федерализации"
  CZE_strike_at_the_heart_of_bolshevism_idea: "[THIS.GetAntiSovietFocusName]"
  CZE_form_the_government_army_idea: "Правительственная армия"
- CZE_GRE_paying_off_debt_small: "Прощение торговых долгов"
+ CZE_forgive_trading_debts_idea: "Прощение торговых долгов"
+ CZE_forgive_trading_debts_idea_desc: "$CZE_forgive_trading_debts_desc$"
  CZE_soviet_influence: "[SOV.GetAdjective]ая сфера влияния"
  CZE_mil_access_debuff_cancels_after_month_tt: "§YЭта идея будет отменена через 30 дней после прекращения действия права на проход войск.\n§!"
+ CZE_state_catholicism: "$POL_state_catholicism$"
+ CZE_exiles_idea_POL: "[CZE.GetAdjective]ие изгнанники"
  ##SLOVAKIA##
  #SLO Concerns
  SLO_CZE_skoda_works_2: "Шкода-Братислава"
@@ -160,7 +166,7 @@
  SLO_CZE_skoda_plzen_tank_destroyer: "Závody ťažkého strojárstva"
  SLO_CZE_skoda_armor: "Шкода-Дубница-над-Вагом"
  #SLO National Spirits
- SLO_slovak_army: "Branná moc Slovenskej"
+ SLO_slovak_army: "Военная мощь Словакии"
  SLO_clerical_politics: "Политика духовенства"
  SLO_rapid_brigades: "Бригады быстрого реагирования"
  ##CARPATHO-UKRAINIAN##
@@ -193,6 +199,7 @@
  ##TOOLTIPS##
  #MISC Tooltips
  generic_has_happen_tt: "§YПроизошло§!:"
+ generic_can_only_happen_once_tt: "Этот §Yэффект§! может сработать только один раз"
  CZE_skoda_texticon_ref: "£GFX_CZE_skoda_text_icon"
  CZE_the_fall_of_the_republic_warning_tt: "§RЭтот выбор приведёт к настоящей политической катастрофе для нашей державы. Мы не можем просчитать все его последствия.§!"
  CZE_the_fall_of_the_republic_warning_munich_tt: "§RСдача Судет приведёт к настоящей политической катастрофе для нашей державы. Но что нам остаётся?§!"

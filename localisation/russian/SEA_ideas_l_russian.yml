@@ -712,7 +712,7 @@
  PHI_modify_economic_recovery_dynamic_modifier_tt: "Изменить §Y«$PHI_economic_growth_dynamic_modifier$»§! на:"
  PHI_replace_economic_dynamic_modifier_tt: "Заменить §Y«$PHI_recovering_economy_dynamic_modifier$»§! на §Y«$PHI_economic_growth_dynamic_modifier$»§!\n.Эффект от изменения:\nУровень напряженности для вступления в альянс: §G-[?PHI_the_great_depression_join_faction_tension|%0]§!"
  PHI_pearl_of_the_orient_dynamic_modifier: "$PHI_pearl_of_the_orient_seas$"
- PHI_pearl_of_the_orient_dynamic_modifier_desc: "Наша экономика переживает настоящий бум. Сбросив оковы колониального владычества, мы обрели свободу в принятии решений и теперь служим ярким примером экономического процветания, которого можно достичь здесь, в Юго-Восточной Азии."
+ PHI_pearl_of_the_orient_dynamic_modifier_desc: "Наша экономика переживает настоящий бум. Сбросив оковы колониального владычества, мы можем принимать решения самостоятельно и теперь служим ярким примером экономического процветания, которого можно достичь здесь, в Юго-Восточной Азии."
  PHI_remove_economic_recovery_dynamic_modifier_tt: "Заменить §Y«$PHI_economic_growth_dynamic_modifier$»§! на §Y«$PHI_pearl_of_the_orient_dynamic_modifier$»§!.\nЭффект от изменения:"
  PHI_modify_pearl_of_the_orient_dynamic_modifier_tt: "§Y$PHI_pearl_of_the_orient_dynamic_modifier$§! изменится на:"
  ## Philippine Army

@@ -277,4 +277,35 @@ spriteTypes = {
 	}
 
 
+
+ #######    #    #######  #####  
+    #      # #   #     # #     # 
+    #     #   #  #     # #       
+    #    #     # #     # #  #### 
+    #    ####### #     # #     # 
+    #    #     # #     # #     # 
+    #    #     # #######  #####  
+
+
+	# Big Icons in Raid Window #
+
+
+   	spriteType = {
+		name = "GFX_cataract_mountain_dam_icon"
+		texturefile = "gfx/interface/buildings/historical_buildings/large/cataract_mountain_dam_icon.dds"
+		noOfFrames = 2
+	}
+
+
+
+	# Small Icons in Province Window #
+
+
+   	spriteType = {
+		name = "GFX_cataract_mountain_dam_icon_small"
+		texturefile = "gfx/interface/buildings/historical_buildings/small/cataract_mountain_dam_icon_small.dds"
+		noOfFrames = 2
+	}
+
+
 }

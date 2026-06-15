@@ -151,10 +151,10 @@
  STRATEGICREGION_151: "Западная Сибирь"
  STRATEGICREGION_152: "Внешняя Монголия"
  STRATEGICREGION_153: "Северная Индия"
- STRATEGICREGION_154: "Внутренние территории"
+ STRATEGICREGION_154: "Центральная Япония"
  STRATEGICREGION_155: "Западная Маньчжурия"
  STRATEGICREGION_156: "Южная Австралия"
- STRATEGICREGION_157: "Новая Зеландия"
+ STRATEGICREGION_157: "Северный остров" #Was New Zealand
  STRATEGICREGION_158: "Зондские острова"
  STRATEGICREGION_159: "Борнео"
  STRATEGICREGION_160: "Филиппины"
@@ -297,3 +297,9 @@
  STRATEGICREGION_296: "Гуджарат"
  STRATEGICREGION_297: "Восточно-Иранский хребет"
  STRATEGICREGION_298: "Восточный Загрос"
+ STRATEGICREGION_299: "Северная Япония" #or Tōsandō
+ STRATEGICREGION_300: "Южная Япония"
+ STRATEGICREGION_301: "Южный остров"
+ STRATEGICREGION_302: "Юго-Восточная Австралия"
+ STRATEGICREGION_303: "Западная Австралия"
+ STRATEGICREGION_304: "Северо-Западная Австралия"

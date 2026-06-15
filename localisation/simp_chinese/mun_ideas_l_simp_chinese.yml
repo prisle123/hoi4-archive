@@ -56,8 +56,8 @@
  CZE_rut_comprise_agreement_modifier: "喀尔巴阡-乌克兰自治条约" #Can't use [RUT.Getname] in the context this is used in
  CZE_improve_cross_border_rail_connections_modifier: "改善跨境铁路"
  #National Spirits
- CZE_taticek_of_czechoslovakia: "塔蒂内克"
- CZE_taticek_of_czechoslovakia_desc: "托马斯·马萨里克，常被称为“塔蒂内克”（意为“父亲”或“祖国之父”），自捷克斯洛伐克建国以来便一直是民族的支柱。当人们认为组建联合政府绝无可能、政治僵局难以打破时，马萨里克总能一次次创造政治的奇迹，帮助捷克斯洛伐克发展壮大。即便退休后，他对政治领导层的意见与建议仍被视为命令，而非忠告。"
+ CZE_taticek_of_czechoslovakia: "马萨里克老爹"
+ CZE_taticek_of_czechoslovakia_desc: "托马斯·马萨里克，常被称为“塔季切克·马萨里克”（意为“父亲”或“祖国之父”），自捷克斯洛伐克建国以来便一直是民族的支柱。当人们认为组建联合政府绝无可能、政治僵局难以打破时，马萨里克总能一次次创造政治的奇迹，帮助捷克斯洛伐克发展壮大。即便退休后，他对政治领导层的意见与建议仍被视为命令，而非忠告。"
  CZE_industrialists_veto: "工业家的反对"
  CZE_industrialists_veto_desc: "工业家们掌控着[CZE.GetNameDef]许多最大的企业集团，在该国政治中拥有相当大的影响力。在经济政策问题上，他们的诉求不容忽视；而经济动员则是他们最强烈抵制的一类措施。"
  CZE_agrarian_politics_1: "农业政治"
@@ -105,6 +105,7 @@
  CZE_vitkovice_mining_and_metallurgical_company: "维特科维采矿业冶金公司"
  CZE_joint_stock_schemes_idea_aat: "合资企业模式"
  CZE_joint_stock_schemes_idea_aat_desc: "合资企业模式是许多捷克公司在面临政治或财政缺口时用来保持发展的一种常见方法。"
+ CZE_powerhouse_of_europe_idea_desc: "$CZE_giant_of_central_europe_industry_desc$"
  CZE_national_defense_act_idea: "国防法案"
  CZE_mobilize_the_reserves_idea: "动员预备役"
  CZE_rapid_response_divisions_idea: "快速反应部队"
@@ -128,8 +129,10 @@
  CZE_adminstrative_chaos: "行政混乱"
  CZE_semi_constitutional_constitution: "更新宪法"
  CZE_semi_constitutional_constitution_desc: "[ROOT.GetNameDef]的新宪法确保了代表人民的政府民主部门与君主为维护稳定而进行干预的权力之间的界限。"
+ CZE_emergency_measures_idea: "$CZE_emergency_measures$"
  CZE_a_modern_navy_idea: "现代海军"
  CZE_bastion_of_liberty_idea: "自由堡垒"
+ CZE_wielding_the_hammer_idea: "立法俘获"
  CZE_leveraged_sokol: "受影响的索科尔运动"
  CZE_truth_prevails_idea: "真理必胜"
  CZE_standing_against_the_storm_idea: "直面风暴"
@@ -143,9 +146,12 @@
  CZE_federalization_agreement_puppets: "联邦化协议"
  CZE_strike_at_the_heart_of_bolshevism_idea: "[THIS.GetAntiSovietFocusName]"
  CZE_form_the_government_army_idea: "政府军"
- CZE_GRE_paying_off_debt_small: "免除贸易债务"
+ CZE_forgive_trading_debts_idea: "免除贸易债务"
+ CZE_forgive_trading_debts_idea_desc: "$CZE_forgive_trading_debts_desc$"
  CZE_soviet_influence: "[SOV.GetAdjective]影响力"
  CZE_mil_access_debuff_cancels_after_month_tt: "§Y该国家精神将在取消军事通行权的30他后失效。\n§!"
+ CZE_state_catholicism: "$POL_state_catholicism$"
+ CZE_exiles_idea_POL: "[CZE.GetAdjective]流亡者"
  ##SLOVAKIA##
  #SLO Concerns
  SLO_CZE_skoda_works_2: "斯柯达-布拉迪斯拉发"
@@ -193,6 +199,7 @@
  ##TOOLTIPS##
  #MISC Tooltips
  generic_has_happen_tt: "§Y已发生§!："
+ generic_can_only_happen_once_tt: "该§Y修正§!只能生效一次"
  CZE_skoda_texticon_ref: "£GFX_CZE_skoda_text_icon"
  CZE_the_fall_of_the_republic_warning_tt: "§R这一选择将给我国带来灾难性的政治后果，其影响甚至难以预估。§!"
  CZE_the_fall_of_the_republic_warning_munich_tt: "§R决定放弃苏台德地区将给我国带来灾难性的政治后果。但我们还有别的选择吗？§!"
@@ -201,15 +208,15 @@
  CZE_trait_mountaineer_random_generals_tt: "§Y两名§!随机的陆军将领会获得§Y山地专家§!：\n-§Y山地地形§!：\n移动：§G+5.0%§!\n进攻：§G+10.0%§!\n防御：§G+10.0%§!"
  CZE_trickster_random_general_tt: "§Y一名§!随机陆军将领会获得§Y奇谋百出§!：\n-侦察：§G+25.0%§!"
  #Custom Trigger Tooltips
- CZE_has_a_skoda_planes_focus_tt: "$CZE_skoda_texticon_ref$§Y飞机重心§!是当前的§Y斯柯达优先事项§!"
- CZE_has_a_skoda_no_focus_tt: "$CZE_skoda_texticon_ref$§Y重工业重心§!是当前的§Y斯柯达优先事项§!"
- CZE_has_a_skoda_no_focus_tt_NOT: "$CZE_skoda_texticon_ref$§Y重工业聚焦§!不是当前的§Y斯柯达优先事项§!"
- CZE_has_a_skoda_infantry_focus_tt: "$CZE_skoda_texticon_ref$§Y步兵重心§!是当前的§Y斯柯达优先事项§!"
- CZE_has_a_skoda_tank_focus_tt: "$CZE_skoda_texticon_ref$§Y坦克重心§!是当前的§Y斯柯达优先事项§!"
- CZE_has_a_skoda_naval_focus_tt: "$CZE_skoda_texticon_ref$§Y海军重心§!是当前的§Y斯柯达优先事项§!"
+ CZE_has_a_skoda_planes_focus_tt: "$CZE_skoda_texticon_ref$ §Y飞机重心§!是当前的§Y斯柯达优先事项§!"
+ CZE_has_a_skoda_no_focus_tt: "$CZE_skoda_texticon_ref$ §Y重工业重心§!是当前的§Y斯柯达优先事项§!"
+ CZE_has_a_skoda_no_focus_tt_NOT: "$CZE_skoda_texticon_ref$ §Y重工业聚焦§!不是当前的§Y斯柯达优先事项§!"
+ CZE_has_a_skoda_infantry_focus_tt: "$CZE_skoda_texticon_ref$ §Y步兵重心§!是当前的§Y斯柯达优先事项§!"
+ CZE_has_a_skoda_tank_focus_tt: "$CZE_skoda_texticon_ref$ §Y坦克重心§!是当前的§Y斯柯达优先事项§!"
+ CZE_has_a_skoda_naval_focus_tt: "$CZE_skoda_texticon_ref$ §Y海军重心§!是当前的§Y斯柯达优先事项§!"
  #Skoda Focus Effects Tooltips - NOTE: These are used on the Skoda Works in focus tree/event context and not the GUI!!!
- CZE_start_skoda_GUI_tt: "$CZE_skoda_texticon_ref$§Y斯柯达优先事项§!系统激活，其效果为：\n$CZE_skoda_works_dynamic_custom_modifier_tt$"
- CZE_start_skoda_GUI_event_tt: "$CZE_skoda_texticon_ref$§Y斯柯达优先事项§!已激活。"
+ CZE_start_skoda_GUI_tt: "$CZE_skoda_texticon_ref$ §Y斯柯达优先事项§!系统激活，其效果为：\n$CZE_skoda_works_dynamic_custom_modifier_tt$"
+ CZE_start_skoda_GUI_event_tt: "$CZE_skoda_texticon_ref$ §Y斯柯达优先事项§!已激活。"
  CZE_start_skoda_GUI_focus_tt: "£GFX_CZE_skoda_text_icon §Y斯柯达优先事项§!将被激活。"
  CZE_start_skoda_raise_more_industrial_funds_tt: "获得§Y$CZE_skoda_works_dynamic_modifier$§!，其效果为：\n工厂产出：§G+5%§!"
  #Dynamic modifier intro Tooltips
@@ -235,10 +242,10 @@
  CZE_current_skoda_max_optimization_tier_tt: "$CZE_current_skoda_max_optimization_tier_start_tt$[?skoda_max_optimization_tier|G0]"
  CZE_skoda_works_dynamic_custom_modifier_space_tt: "\n"
  CZE_skoda_works_dynamic_custom_modifier_tt: "$CZE_current_skoda_priority_dynamic_local$\n$CZE_current_skoda_priority_current_optimization_tier_tt$\n$CZE_current_skoda_max_optimization_tier_tt$\n$CZE_skoda_fast_optimization_tt_dynamic_local$"
- skoda_optimization_tier_greater_than_three_tt: "$CZE_skoda_texticon_ref$当前§Y斯柯达优先事项§!£GFX_prod_eff_cap§W优化等级§!高于§G3§!"
- skoda_optimization_tier_greater_than_four_tt: "$CZE_skoda_texticon_ref$当前§Y斯柯达优先事项§!£GFX_prod_eff_cap§W优化等级§!高于§G4§!"
+ skoda_optimization_tier_greater_than_three_tt: "$CZE_skoda_texticon_ref$ 当前§Y斯柯达优先事项§!£GFX_prod_eff_cap §W优化等级§!高于§G3§!"
+ skoda_optimization_tier_greater_than_four_tt: "$CZE_skoda_texticon_ref$ 当前§Y斯柯达优先事项§!£GFX_prod_eff_cap §W优化等级§!高于§G4§!"
  #Skoda Works Scripted Effects Tooltips
- CZE_increase_skoda_max_optimization_tier_var_tt: "$CZE_modify_skoda_works_ns_intro_tt$最大£GFX_prod_eff_cap§W优化等级§!：§Y+1§!"
+ CZE_increase_skoda_max_optimization_tier_var_tt: "$CZE_modify_skoda_works_ns_intro_tt$最大£GFX_prod_eff_cap §W优化等级§!：§Y+1§!"
  #Hidden ideas of Skoda, localized for when shown in research/production bonus tab/tooltips
  CZE_skoda_no_focus_optimization_idea: "斯柯达优先事项：重工业重心"
  CZE_skoda_infantry_focus_optimization_idea: "斯柯达优先事项：步兵重心"

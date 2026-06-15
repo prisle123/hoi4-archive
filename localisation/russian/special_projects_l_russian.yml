@@ -151,7 +151,7 @@
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_TT: "§YДоступно решение, касающееся прототипа§!"
  SPECIAL_PROJECT_ITERATION_REWARD_ALERT_DELAYED_TT: "Доступно решение, касающееся прототипа:"
  SPECIAL_PROJECT_ITERATION_DEFAULT_CHOICE_REWARD_ALERT_DELAYED_TT: "Если вы ничего не выберете, наградой за следующий этап станет вариант по умолчанию."
- SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§GЩелкните§!, чтобы увидеть эффекты."
+ SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC: "§GЩелкните§!, чтобы увидеть эффекты"
  SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_CHOICE: "Когда проект или один из его этапов завершится, этот вариант будет выбран автоматически."
  SPECIAL_PROJECT_AVAILABLE_ALERT_TT: "§YДоступный специальный проект§!"
  SPECIAL_PROJECT_AVAILABLE_ALERT_DELAYED_TT: "Специальный проект можно начать через:"
@@ -188,7 +188,7 @@
  NOT_CAN_CONSTRUCT_BUILDING_IN_STATE: "В регионе $STATE|Y$ невозможно построить: $BUILDING|Y$"
  CONSTRUCT_BUILDING_IN_STATE: "Построить сооружение «$BUILDING|Y$» в регионе $STATE|Y$"
  DISMANTLE_FACILITY_DESC_TT: "§GЩелкните§!, чтобы демонтировать комплекс.\n\nЭто займет $DAYS|Y$ д."
- ABORT_DISMANTLE_FACILITY_DESC_TT: "§GЩелкните§!, чтобы отменить демонтаж комплекса."
+ ABORT_DISMANTLE_FACILITY_DESC_TT: "§GЩелкните§!, чтобы отменить демонтаж комплекса"
  ABORT_DISMANTLE_PROJECT_POPUP_DESC: "Отменить демонтаж постройки?"
  DISMANTLE_FACILITY_TT: "Будет разобрано через $DAYS|Y$ д."
  DISMANTLE_FACILITY_PROGRESS: "$PROGRESS|0%Y$"
@@ -336,11 +336,11 @@
  sp_air_radar_desc: "Используя импульсные волны и фиксируя их отражения, мы сможем отслеживать передвижения противника на суше, в воздухе и на море."
  sp_air_centimetric_radar: "Сантиметровый радар"
  sp_air_centimetric_radar_desc: "Разработка радара сантиметрового диапазона позволит обнаруживать небольшие цели и использовать антенны гораздо меньшего размера."
- #Project Wolfdog
+ #Pfot
  sp_land_large_caliber_kinetic_energy_sabot: "Тяжёлые подкалиберные снаряды"
  sp_land_large_caliber_kinetic_energy_sabot_desc: "Увеличенный вариант бронебойных артиллерийских снарядов, предназначенный для штурма укреплений."
  GER_sp_land_large_caliber_kinetic_energy_sabot: "Снаряд Рёхлинга"
- #End Wolfdog
+ #End Pfot
  sp_land_reward_land_cruiser_overheating: "Перегрев во время испытаний"
  sp_land_reward_land_cruiser_chassis: "Перегрузка шасси"
  sp_land_reward_land_cruiser_chassis_desc: "В ходе испытаний проекта «[SpecialProject.GetName]» выяснилось, что его шасси не способно выдержать столь огромный вес и попросту ломается под давлением. Команда конструкторов рассматривает два возможных решения: усилить шасси, что еще больше увеличит вес машины, либо использовать более легкие материалы, что может снизить ее прочность."

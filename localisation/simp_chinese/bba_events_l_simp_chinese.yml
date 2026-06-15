@@ -1361,7 +1361,7 @@
  BBA_italy_interaction_events.20.a: "没有他们对我们来说或许更好。"
  BBA_italy_interaction_events.21.t: "意大利给我们的提议"
  BBA_italy_interaction_events.21.desc: "[ITA.GetNameDef]提出了一个充满诱惑力的提议。他们将用罗德岛与十二群岛的所有权换取和我们的盟约。这项过于完美的议案让人不得不怀疑是否另有所图，但其实这也合情合理。我们该如何选择？"
- BBA_italy_interaction_events.21.a: "就因为希腊，我们肯定要抢先同意！"
+ BBA_italy_interaction_events.21.a: "接招吧，希腊！我们先拿到手了！"
  BBA_italy_interaction_events.21.b: "无论怎样，我们都不会向意大利人屈服！"
  BBA_italy_interaction_events.22.t: "[TUR.GetNameDef]接受我方提案"
  BBA_italy_interaction_events.22.desc: "土耳其政府于今日宣布，他们已经接受了我们岛屿换盟约的议案，并于近日开展军事合作。我们期待着两国合作的美好前景。"

@@ -1,6 +1,21 @@
 spriteTypes = {
 			### SCIENTISTS ###
 
+	
+	## AST ##
+	spriteType = {
+		name = "GFX_portrait_AST_lawrence_wackett"
+		texturefile = "gfx/leaders/scientists/portrait_AST_lawrence_wackett.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_jack_piddington"
+		texturefile = "gfx/leaders/scientists/portrait_AST_jack_piddington.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_mark_oliphant"
+		texturefile = "gfx/leaders/scientists/portrait_AST_mark_oliphant.dds"
+	}
+
 	## AUS ##
 	spriteType = {
 		name = "GFX_portrait_AUS_egon_schweidler"

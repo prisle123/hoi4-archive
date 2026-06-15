@@ -151,3 +151,7 @@
  CZE_balkan_tech_sharing_group_desc: "Un acuerdo de investigación entre una serie de países, en su mayoría balcánicos, y [CZE.GetNameDef] para mantener su tecnología industrial al mismo nivel que los países más grandes."
  CZE_german_czechoslovak_equipment_design_group_name: "Comité de diseño de equipo checoslovaco-alemán"
  CZE_german_czechoslovak_equipment_design_group_desc: "Los científicos de [GER.GetNameDef] y [CZE.GetNameDef] han comenzado a cooperar en el diseño de tanques y aviones."
+ cominwealth_allied_research_name: "Investigación en la Mancomunidad"
+ cominwealth_allied_research_desc: "Tiempo de investigación reducido para las tecnologías investigadas por la Mancomunidad."
+ siam_tech_sharing_group: "Investigación tailandesa"
+ siam_tech_sharing_group_desc: "Tiempo de investigación reducido para las tecnologías investigadas por otros países aliados de Tailandia."

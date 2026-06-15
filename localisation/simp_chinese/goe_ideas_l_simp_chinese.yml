@@ -161,7 +161,7 @@
  IRQ_peshmerga_idea: "库尔德自由斗士"
  IRQ_state_company_for_cement_idea: "[ROOT.GetAdjective]水泥集团"
  IRQ_state_company_of_cotton_industries_idea: "国有棉纺企业"
- IRQ_shia_resistance_modifier: "叛逆的什叶派部落"
+ IRQ_shia_resistance_modifier: "叛逆的自治部落"
  #TRAITS
  independence_activist: "独立活动家"
  anti_colonial_humanist: "反殖民人文主义者"
@@ -457,6 +457,7 @@
  idea_RAJ_thunder_elephants_no_gdr: "雷霆战象"
  idea_RAJ_ruler_of_the_peacock_throne: "孔雀王座"
  idea_SIA_army_of_siam: "暹罗军"
+ idea_SIA_army_of_siam_desc: "暹罗陆军构成国家防御的骨干力量，其组织架构与传统深刻影响着全国人力与物资的征募和维持方式。"
  idea_RAJ_bose_hiding_raj: "鲍斯正隐匿行踪穿越印度"
  idea_RAJ_bose_hiding_afghanistan: "鲍斯正藏身于阿富汗并准备前往苏联"
  idea_RAJ_bose_hiding_ussr: "鲍斯位于苏联"

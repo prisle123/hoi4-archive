@@ -309,6 +309,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_bg_dlc052"
+		texturefile = "gfx/interface/career_profile/bg_thunder_at_our_gates.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_bg_dlc052_owned"
+		texturefile = "gfx/interface/career_profile/bg_thunder_at_our_gates_owned.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
 		name = "GFX_career_profile_bg_default"
 		texturefile = "gfx/interface/career_profile/career_profile_bg_default.dds"
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"

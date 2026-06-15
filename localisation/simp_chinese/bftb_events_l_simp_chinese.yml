@@ -1626,7 +1626,7 @@
  bftb_news.10.a: "梦想已然成真！"
  bftb_news.10.b: "这是[THIS.GetNameDef]真正需要的吗？" #THIS
  bftb_news.10.c: "这是巴尔干诸国真正需要的吗？"
- bftb_news.10.d: "简直是一派胡言！"
+ bftb_news.10.d: "胡说八道！"
  bftb_news.11.t: "[BUL.GetNameDefCap]向[GER.GetNameDef]求助"
  bftb_news.11.desc: "\n为了深化和[GER.GetNameDef]的关系且鼓励外资进驻其国家，[BUL.GetAdjective]政府日前同数家[GER.GetAdjective]公司签订了商业协议。\n根据协议，[GER.GetAdjective]的投资者们在[BUL.GetNameDef]展开经营时，将会获得显著的政策扶持以及税收减免。"
  bftb_news.11.a: "这将改善我们和[GER.GetNameDef]的关系！"

@@ -151,3 +151,7 @@
  CZE_balkan_tech_sharing_group_desc: "Соглашение об исследованиях между балканскими государствами и [CZE.GetNameRuInst], заключённое с целью сократить отставание в промышленном развитии от крупных держав."
  CZE_german_czechoslovak_equipment_design_group_name: "Чехословацко-немецкий комитет по разработке снаряжения"
  CZE_german_czechoslovak_equipment_design_group_desc: "Ученые из [GER.GetNameRuGen] и [CZE.GetNameRuGen] начали совместные работы над проектами танков и самолетов."
+ cominwealth_allied_research_name: "Исследования Содружества"
+ cominwealth_allied_research_desc: "Сокращается время исследования технологий, которыми уже владеют другие члены Содружества."
+ siam_tech_sharing_group: "Тайские исследования"
+ siam_tech_sharing_group_desc: "Сокращается время исследования технологий, которыми уже владеют другие союзники Таиланда."

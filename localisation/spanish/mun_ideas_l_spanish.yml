@@ -21,9 +21,9 @@
  CZE_anglo_czechoslovak_bank_desc: "Nació en 1930, fruto de la fusión de otros tres bancos con sede en Praga. Hoy es el segundo banco más grande del país."
  CZE_praga_aviation: "$CZE_praga_aviation_organization$"
  #Dynamic Modifiers National Spritits
- CZE_ceskoslovenska_armada_dynamic_modifier: "Armada checoslovaca"
+ CZE_ceskoslovenska_armada_dynamic_modifier: "Československá Armáda"
  CZE_ceskoslovenska_armada_dynamic_modifier_desc: "La armada se formó a partir de las cenizas de las unidades checas austrohúngaras y los veteranos de la legión checoslovaca. El legado de ambos sigue influyendo en el funcionamiento de la armada."
- CZE_ceskoslovenske_letectvo_dynamic_modifier: "Letectvo checoslovaco"
+ CZE_ceskoslovenske_letectvo_dynamic_modifier: "Československé Letectvo"
  CZE_ceskoslovenske_letectvo_dynamic_modifier_desc: "Puede que los aviones no siempre estén listos, pero nuestros pilotos sí lo están. Con posibles amenazas aéreas en todas las direcciones, debemos convertir el aire en nuestro mar. Cada piloto debe valer por tres."
  CZE_a_divided_nation_dynamic_modifier: "Nación dividida"
  CZE_a_divided_nation_dynamic_modifier_desc: "El Estado [CZE.GetAdjective] se ha mantenido como un Estado pluralista único en Europa Central que ha protegido a todos los que residen dentro de sus fronteras. Sin embargo, la Gran Depresión ha cambiado esta situación. Las dificultades económicas han provocado la aparición de resentimientos contra el gobierno por parte de diversos movimientos dentro del país que están dividiendo profundamente a la nación."
@@ -45,7 +45,7 @@
  CZE_industrial_subsidies: "Subvenciones a la industria"
  CZE_czech_state_mines: "Minas estatales checas"
  CZE_merged_consumer_good_plants: "Plantas de bienes de consumo fusionadas"
- CZE_river_monitor_fleet: "Flota de patrulleras fluviales"
+ CZE_river_monitor_fleet: "Flota de monitores fluviales"
  CZE_enemy_intelligence_collaborators: "Colaboradores con la inteligencia enemiga"
  CZE_enemy_intelligence_collaborators_no_lar: "Colaboradores con la inteligencia enemiga"
  CZE_first_sudetenland_fortification_program: "Primer programa de fortificación de los Sudetes"
@@ -56,8 +56,8 @@
  CZE_rut_comprise_agreement_modifier: "Acuerdo de autonomía de Ucrania de los Cárpatos" #Can't use [RUT.Getname] in the context this is used in
  CZE_improve_cross_border_rail_connections_modifier: "Mejora de las conexiones ferroviarias transfronterizas"
  #National Spirits
- CZE_taticek_of_czechoslovakia: "Tatínek"
- CZE_taticek_of_czechoslovakia_desc: "Tomáš Masaryk, a menudo llamado \"Tatínek\", que significa \"papá\" o \"padre\" (de la nación), ha sido uno de los pilares fundamentales de la nación checoslovaca desde su fundación. Cuando se creía que las coaliciones eran imposibles y los estancamientos políticos demasiado grandes para superarlos, Masaryk logró numerosos milagros políticos que ayudaron a fortalecer y convertir a Checoslovaquia en lo que es hoy. Incluso tras su jubilación, los líderes políticos se toman sus opiniones y sugerencias más como órdenes que como consejos."
+ CZE_taticek_of_czechoslovakia: "Tatíček Masaryk"
+ CZE_taticek_of_czechoslovakia_desc: "Tomáš Masaryk, a menudo llamado \"Tatíček Masaryk\", que significa \"papá\" o \"padre\" (de la nación), ha sido uno de los pilares fundamentales de la nación checoslovaca desde su fundación. Cuando se creía que las coaliciones eran imposibles y los estancamientos políticos demasiado grandes para superarlos, Masaryk logró numerosos milagros políticos que ayudaron a fortalecer y convertir a Checoslovaquia en lo que es hoy. Incluso tras su jubilación, los líderes políticos se toman sus opiniones y sugerencias más como órdenes que como consejos."
  CZE_industrialists_veto: "Veto de los industrialistas"
  CZE_industrialists_veto_desc: "Los industriales ejercen una influencia considerable en la política del país, ya que están a la cabeza de muchos de los mayores conglomerados de [CZE.GetNameDef]. No se pueden ignorar sus cuitas en cuestiones de política económica, y la movilización económica es una de las medidas a las que se opondrían con más fiereza."
  CZE_agrarian_politics_1: "Políticas agrarias"
@@ -86,7 +86,7 @@
  CZE_trade_agreement: "Acuerdo comercial [ROOT.GetAdjective] y [CZE.GetAdjective]"
  CZE_kickstart_rapid_rearmanent_aat_idea: "Rearme rápido"
  CZE_influx_of_industrial_funds: "Entrada de fondos industriales"
- CZE_devaluate_the_koruna_idea: "Corona devaluada"
+ CZE_devaluate_the_koruna_idea: "Corona checa devaluada"
  CZE_the_freeway_project: "El proyecto de autopistas"
  CZE_double_tracking_efforts: "Implantación de la doble vía"
  CZE_railway_station_construction_effort: "Construcción de estaciones de ferrocarril"
@@ -105,6 +105,7 @@
  CZE_vitkovice_mining_and_metallurgical_company: "Compañía metalúrgica y minera de Vítkovice"
  CZE_joint_stock_schemes_idea_aat: "Proyectos de sociedades anónimas"
  CZE_joint_stock_schemes_idea_aat_desc: "Los proyectos de sociedades anónimas son un método que utilizan habitualmente muchas empresas checas para seguir creciendo a pesar de las carencias políticas o fiscales."
+ CZE_powerhouse_of_europe_idea_desc: "$CZE_giant_of_central_europe_industry_desc$"
  CZE_national_defense_act_idea: "Ley de Defensa Nacional"
  CZE_mobilize_the_reserves_idea: "Movilizando las divisiones de reserva"
  CZE_rapid_response_divisions_idea: "Divisiones de respuesta rápida"
@@ -128,8 +129,10 @@
  CZE_adminstrative_chaos: "Caos administrativo"
  CZE_semi_constitutional_constitution: "Constitución renovada"
  CZE_semi_constitutional_constitution_desc: "La nueva constitución de [ROOT.GetNameDef] garantiza la separación entre el poder democrático del gobierno, que representa al pueblo, y las opciones de intervención del monarca para salvaguardar la estabilidad."
+ CZE_emergency_measures_idea: "$CZE_emergency_measures$"
  CZE_a_modern_navy_idea: "Fuerzas navales modernas"
  CZE_bastion_of_liberty_idea: "Bastión de la libertad"
+ CZE_wielding_the_hammer_idea: "Captura del regulador"
  CZE_leveraged_sokol: "Sacar partido al Sokol"
  CZE_truth_prevails_idea: "La verdad prevalece"
  CZE_standing_against_the_storm_idea: "Resistir contra la tormenta"
@@ -143,9 +146,12 @@
  CZE_federalization_agreement_puppets: "Acuerdo de federación"
  CZE_strike_at_the_heart_of_bolshevism_idea: "[THIS.GetAntiSovietFocusName]"
  CZE_form_the_government_army_idea: "El ejército del gobierno"
- CZE_GRE_paying_off_debt_small: "Condonar las deudas comerciales"
+ CZE_forgive_trading_debts_idea: "Condonar las deudas comerciales"
+ CZE_forgive_trading_debts_idea_desc: "$CZE_forgive_trading_debts_desc$"
  CZE_soviet_influence: "Influencia [SOV.GetAdjective]"
  CZE_mil_access_debuff_cancels_after_month_tt: "§YEsta idea se cancelará 30 días después de que finalice el acceso militar.\n§!"
+ CZE_state_catholicism: "$POL_state_catholicism$"
+ CZE_exiles_idea_POL: "Exiliados [CZE.GetAdjective]"
  ##SLOVAKIA##
  #SLO Concerns
  SLO_CZE_skoda_works_2: "Škoda-Bratislava"
@@ -160,7 +166,7 @@
  SLO_CZE_skoda_plzen_tank_destroyer: "Závody ťažkého strojárstva"
  SLO_CZE_skoda_armor: "Škoda-Dubnica nad Váhom"
  #SLO National Spirits
- SLO_slovak_army: "Branná moc Slovenskej"
+ SLO_slovak_army: "Branná moc Slovenska"
  SLO_clerical_politics: "Políticas administrativas"
  SLO_rapid_brigades: "Brigadas rápidas"
  ##CARPATHO-UKRAINIAN##
@@ -193,6 +199,7 @@
  ##TOOLTIPS##
  #MISC Tooltips
  generic_has_happen_tt: "§YHa ocurrido§!:"
+ generic_can_only_happen_once_tt: "Este §Yefecto§! solo puede ocurrir una vez."
  CZE_skoda_texticon_ref: "£GFX_CZE_skoda_text_icon"
  CZE_the_fall_of_the_republic_warning_tt: "§REsta elección tendrá unas consecuencias políticas desastrosas para nuestra nación que ni siquiera podemos imaginar.§!"
  CZE_the_fall_of_the_republic_warning_munich_tt: "§RLa decisión de entregar los Sudetes tendrá consecuencias políticas nefastas para nuestra nación, pero ¿qué otra opción tenemos?§!"

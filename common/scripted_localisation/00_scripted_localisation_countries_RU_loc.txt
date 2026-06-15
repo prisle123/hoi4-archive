@@ -145878,7 +145878,7 @@ defined_text = {
 		}
 		localization_key = RU_Suffix_Dzhet
 	}
-
+
 ##### Cosmetic Tag (1) + Ideology + Subject	330 #####
 	text = {
 		trigger = {

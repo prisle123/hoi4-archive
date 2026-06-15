@@ -668,6 +668,17 @@ neo_assyrian_empire_category = {
 	}
 }
 
+GOE_form_hindustan_category = {
+
+	icon = generic_formable_nations
+ 
+	picture = GFX_form_hindustan_category_icon
+
+	allowed = {
+		has_dlc = "Graveyard of Empires" 
+	}
+}
+
 raj_formable_cat = {
 	icon = generic_formable_nations
 
@@ -692,6 +703,7 @@ neo_mesopotamia_category = {
 			original_tag = EGY # Egypt 
 			original_tag = KUW # Kuwait 
 			original_tag = LEB # Lebanon 
+			original_tag = ASY # Assyria 
 		}
 		
 	}

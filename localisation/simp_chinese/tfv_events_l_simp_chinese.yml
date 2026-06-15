@@ -447,7 +447,7 @@
  tfv_raj.41.b: "我们曾经在印度搞过一次大博弈，让我们看看德国人的本事。"
  tfv_raj.42.t: "[GER.GetNameDefCap]开始支持我们的事业"
  tfv_raj.42.desc_GER_helps: "在会见[GER.GetAdjective]外交部长并就自己的事业进行辩论之后，苏巴斯·钱德拉·鲍斯成功说服了[GER.GetAdjective]支持我们。鲍斯还会见了德国领导人[GER.GetLeader]，并与他就共同利益问题进行了数小时的会谈，包括用英国战俘中的印度人来组建志愿军。"
- tfv_raj.42.desc_GER_helps_ENG_reject: "我们所希望的简单独立之路已经被英国殖民政府凶残的扼杀，[GER.GetAdjective]大使联系他们并提出应当让我们自己决定自己的命运，但他很快被告知这事没有商量的余地。[ENG.GetAdjective]政府声称我们的独立问题是国家内政，任何外国势力都不得干涉。"
+ tfv_raj.42.desc_GER_helps_ENG_reject: "我们所希望的简单独立之路已经被英国殖民政府凶残的扼杀，[GER.GetAdjective]大使联系他们并提出应当让我们自己决定自己的命运，但他很快被告知这事没有商量的余地。[ENG.GetAdjective]政府声称我们的独立问题是国家内政，任何外国势力都不得干涉"
  tfv_raj.42.a: "战斗将会继续。"
  tfv_raj.43.t: "[GER.GetAdjective]拒绝提供帮助"
  tfv_raj.43.desc: "苏巴斯·钱德拉·鲍斯试图说服[GER.GetAdjective]政府为我们的斗争提供帮助，但是他的努力并没有得到成功。在等待[GER.GetLeader]的回复几天之后，他仅仅得到了一场只有十多分钟的会议。\n\n虽然[GER.GetLeader]对我国人民的狂热的反抗精神表示极大的钦佩，但他也明确表示，他不相信我们的国家值得他们耗费资源。"

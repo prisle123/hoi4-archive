@@ -459,7 +459,7 @@
  assimilate_the_chinese_turks_desc: "[TUR_cin_turkleri.GetDesc]"
  unite_with_the_finno_ugrians: "联合芬兰-乌戈尔人"
  unite_with_the_finno_ugrians_desc: "[TUR_crowning_ourselves_with_the_fin_ugor.GetDesc]"
- form_country_turan_syria_required_states_tt: "控制§Y[677.GetName]§!和§Y[680.GetName]§!。"
+ form_country_turan_syria_required_states_tt: "控制§Y[677.GetName]§!和§Y[680.GetName]§!"
  form_country_turan_iraq_required_states_tt: "控制§Y[676.GetName]§!。"
  form_country_turan_iran_required_states_tt: "控制§Y[421.GetName]§!、§Y[419.GetName]§!、§Y[420.GetName]§!、§Y[417.GetName]§!、§Y[413.GetName]§!、§Y[266.GetName]§!、§Y[1000.GetName]§!、§Y[1001.GetName]§!、§Y[1004.GetName]§!和§Y[416.GetName]§!。"
  form_country_turan_azerbaijan_required_states_tt: "控制§Y[229.GetName]§!。"

@@ -338,10 +338,18 @@
  CAN_neutrality_party_long: "平民合作联盟"
  AST_neutrality_party: "澳大利亚乡村党"
  AST_neutrality_party_long: "澳大利亚乡村党"
- AST_democratic_party: "澳大利亚工党"
- AST_democratic_party_long: "澳大利亚工党"
+ AST_colonial_administration: "殖民政府"
+ AST_colonial_administration_long: "殖民政府"
+ AST_democratic_party: "澳大利亚联合党"
+ AST_democratic_party_long: "澳大利亚联合党"
+ AST_labor_party: "澳大利亚工党"
+ AST_labor_party_long: "澳大利亚工党"
  AST_fascism_party: "中央党"
  AST_fascism_party_long: "中央党"
+ AST_australia_first_movement: "澳大利亚优先"
+ AST_australia_first_movement_long: "澳大利亚优先运动"
+ AST_australia_first_party: "澳大利亚优先"
+ AST_australia_first_party_long: "澳大利亚优先党"
  AST_communism_party: "澳大利亚共产党"
  AST_communism_party_long: "澳大利亚共产党"
  MEX_democratic_party: "立宪自由党"
@@ -575,7 +583,7 @@
  CZE_communism_party: "捷克斯洛伐克共产党"
  CZE_communism_party_long: "捷克斯洛伐克共产党"
  CZE_democratic_party: "广泛联盟" #RZML led 'Broad Coalition'
- CZE_democratic_party_long: "广泛联盟"
+ CZE_democratic_party_long: "农业和小农共和党主导的广泛联盟"
  CZE_fascism_party: "国家法西斯党团"
  CZE_fascism_party_long: "国家法西斯党团"
  CZE_neutrality_party: "自治联盟"
@@ -660,8 +668,14 @@
  ELS_fascism_party_long: "“为了祖国”党"
  GUA_democratic_party: "进步自由党"
  GUA_democratic_party_long: "进步自由党"
- SIA_neutrality_party: "人民党"
- SIA_neutrality_party_long: "人民党"
+ SIA_democratic_party: "人民党（文治派）"
+ SIA_democratic_party_long: "人民党（文治派）"
+ SIA_neutrality_party: "人民党（军政派）"
+ SIA_neutrality_party_long: "人民党（军政派）"
+ SIA_neutrality_party_royalist: "保王党"
+ SIA_neutrality_party_royalist_long: "保王党"
+ SIA_communism_party: "泰国共产党"
+ SIA_communism_party_long: "泰国共产党"
  URG_democratic_party: "红党"
  URG_democratic_party_long: "红党"
  URG_communism_party: "乌拉圭共产党"
@@ -889,22 +903,47 @@
  ISR_democratic_party: "以色列地工人党"
  ISR_fascism_party: "赫帕姆党"
  ISR_neutrality_party: "中央委员会"
- VIN_fascism_party: "越南光复会" #or Reformation Society
+ VIN_fascism_party: "大越国家社会党" #was Vietnamese Restoration League or Reformation Society
  VIN_democratic_party: "勤劳党" #formed in early 50s
  VIN_communism_party: "越南共产党" #Viet Minh was more important in early years
- VIN_neutrality_party: "越南国民党"
+ VIN_neutrality_party: "阮朝" #was Viêt Nam Quoc Dân Đang
  CAM_fascism_party: "高棉党"
  CAM_democratic_party: "民主党" #formed in 1946
  CAM_communism_party: "高棉自由民族统一战线"
  CAM_neutrality_party: "人民社会同盟" #or just Sangkum 1955, democratic but right leaning and anti communist
- INS_fascism_party: "新秩序党" #inspired by right wingers from 1960s
- INS_democratic_party: "印尼国家党" #Indonesian National Party founded by Sukarno
+ CPS_neutrality_party: "纳占巴塞王朝"
+ INS_fascism_party: "尼德兰国家社会主义运动"
+ INS_fascism_party_long: "荷属东印度尼德兰国家社会主义运动"
+ INS_democratic_party: "人民议会"
  INS_communism_party: "印尼共产党" #Partai Komunis Indonesia
- INS_neutrality_party: "民主党" #made up, in reality this guy was a member of PNI
- MAL_fascism_party: "泛洋联合会"
- MAL_democratic_party: "马来民族统一组织" #or UMNO or PEKEMBAR
- MAL_communism_party: "马来亚共产党" #or MCP
- MAL_neutrality_party: "青年马来联盟" #or KMM
+ INS_communism_party_long: "印度尼西亚共产党"
+ INS_neutrality_party: "总督" #Dutch
+ INS_neutrality_party_long: "荷兰殖民政府"
+ INS_republic_knip_party: "中央全国委员会"
+ INS_republic_knip_party_long: "中央印度尼西亚全国委员会"
+ INS_republic_national_party: "印尼民族党"
+ INS_republic_national_party_long: "印度尼西亚民族党"
+ INS_republic_socialist_party: "印尼社会党"
+ INS_republic_socialist_party_long: "印度尼西亚社会党"
+ INS_republic_masyumi_party: "马斯友美党"
+ INS_republic_masyumi_party_long: "马斯友美党"
+ INS_peta_party: "乡土防卫义勇军"
+ INS_peta_party_long: "乡土防卫义勇军"
+ MAL_fascism_party: "马来穆斯林人民党"
+ MAL_fascism_party_long: "马来亚穆斯林人民党"
+ MAL_democratic_party: "马来民族统一组织"
+ MAL_democratic_party_long: "马来民族统一组织"
+ MAL_communism_party: "马来亚共产党"
+ MAL_communism_party_long: "马来亚共产党"
+ MAL_neutrality_party: "马来青年联盟"
+ MAL_neutrality_party_long: "马来青年联盟"
+ SNG_fascism_party: "新加坡王政党"
+ SNG_democratic_party: "劳工阵线"
+ SNG_democratic_party_long: "劳工阵线"
+ SNG_communism_party: "社会主义阵线"
+ SNG_communism_party_long: "社会主义阵线"
+ SNG_neutrality_party: "人民行动党"
+ SNG_neutrality_party_long: "人民行动党"
  LAO_fascism_party: "部族集权党"
  LAO_democratic_party: "民主党"
  LAO_communism_party: "巴特寮"

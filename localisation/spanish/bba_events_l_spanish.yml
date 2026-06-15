@@ -1361,7 +1361,7 @@
  BBA_italy_interaction_events.20.a: "Estamos mejor sin ellos."
  BBA_italy_interaction_events.21.t: "Italia nos propone un trato"
  BBA_italy_interaction_events.21.desc: "[ITA.GetNameDef] nos propone un trato interesante. Nos ceden la propiedad de Rodas y el archipiélago del Dodecaneso a cambio de aliarnos con ellos. La oferta podría parecer demasiado buena, pero es sincera. ¿Cómo respondemos?"
- BBA_italy_interaction_events.21.a: "¡Eso es Grecia! ¡Nosotros llegamos antes!"
+ BBA_italy_interaction_events.21.a: "¡Chúpate esa, Grecia! ¡Nosotros primero!"
  BBA_italy_interaction_events.21.b: "¡No nos someteremos a los italianos, por mucho que nos ofrezcan!"
  BBA_italy_interaction_events.22.t: "[TUR.GetNameDef] acepta nuestra oferta"
  BBA_italy_interaction_events.22.desc: "El gobierno turco ha anunciado hoy que acepta nuestra oferta y que iniciará su colaboración militar cuanto antes a cambio del dominio del archipiélago del Dodecaneso. Los efectos de este pacto aún están por ver."

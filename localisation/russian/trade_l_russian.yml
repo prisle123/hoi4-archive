@@ -49,7 +49,7 @@
  TRADE_ROUTE_DELIVERY_TYPE_LOCKED: "§RПуть доставки блокирован§!"
  TRADE_ROUTE_DELIVERY_TYPE_LAND: "§TДоставка $VAL|H$ ед. по §Hсуше§!§!"
  TRADE_ROUTE_DELIVERY_TYPE_SEA: "§TДоставка $VAL|H$ ед. по §Hморю§! с использованием $CON|H$ из $TOT|H$ необходимых конвоев.§!"
- CONVOYS_USAGE_DESC: "§TВсего конвоев у нас: $TOT|H$.\nВсего используется: $USED|H$\nИспользуется/нужно:\n— Для планов морских вторжений: $INVASION_USE|H$/$INVASION_NEED|H$\n— Для перевозки войск: $TRANSFER_USE|H$/$TRANSFER_NEED|H$\n— Для торговли: $TRADE_USE|H$/$TRADE_NEED|H$\n— Для снабжения: $SUPPLY_USE|H$/$SUPPLY_NEED|H$\n$UNDERWAY_REPLENISHMENT_IF_UNLOCKED$Не используется: $LEFT|H$§!"
+ CONVOYS_USAGE_DESC: "§TВсего конвоев у нас: $TOT|H$.\nВсего используется конвоев: $USED|H$\nИспользуется/нужно:\n — Для планов морских вторжений: $INVASION_USE|H$/$INVASION_NEED|H$\n — Для перевозки войск: $TRANSFER_USE|H$/$TRANSFER_NEED|H$\n — Для торговли: $TRADE_USE|H$/$TRADE_NEED|H$\n — Для ленд-лиза: $LENDLEASE_USE|H$/$LENDLEASE_NEED|H$\n — Для снабжения: $SUPPLY_USE|H$/$SUPPLY_NEED|H$\n$UNDERWAY_REPLENISHMENT_IF_UNLOCKED$Не используется: $LEFT|H$§!"
  CONVOYS_USAGE_UNDERWAY_REPLENISHMENT: "— Для пополнения запасов на ходу: $CONVOY_USE|0H$/$CONVOY_NEED|0H$\n"
  CONVOYS: "Конвои"
  NO_IMPORT_TO_CANCEL: "§RНевозможно отменить импорт ресурса «$RESOURCE|H$», поскольку ничего не импортируется.§!"

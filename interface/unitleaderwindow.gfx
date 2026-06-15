@@ -516,7 +516,37 @@ spriteTypes = {
 		name = "GFX_trait_SIC_dubious_loyalty"
 		texturefile = "gfx/interface/traits/personal/trait_SIC_dubious_loyalty.dds"
 	}
+	spriteType = {
+		name = "GFX_trait_INS_loyalty_to_indonesia"
+		texturefile = "gfx/interface/traits/personal/trait_INS_loyalty_to_indonesia.dds"
+	}
 
+	spriteType = {
+		name = "GFX_trait_INS_loyalty_to_netherlands"
+		texturefile = "gfx/interface/traits/personal/trait_INS_loyalty_to_netherlands.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_submarine_officer"
+		texturefile = "gfx/interface/traits/personal/trait_submarine_officer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trait_destroyer_officer"
+		texturefile = "gfx/interface/traits/personal/trait_destroyer_officer.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_cruiser_officer"
+		texturefile = "gfx/interface/traits/personal/trait_cruiser_officer.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_heavy_ship_officer"
+		texturefile = "gfx/interface/traits/personal/trait_heavy_ship_officer.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_carrier_officer"
+		texturefile = "gfx/interface/traits/personal/trait_carrier_officer.dds"
+	}
 
 	
 	#######
@@ -612,6 +642,18 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
 
+	spriteType = {
+		name = "GFX_marshal_captured_bg"
+		texturefile = "gfx/interface/marshal_captured_bg.dds"
+		transparencecheck = yes		
+	}
+
+
+	spriteType = {
+		name = "GFX_captured_general_bars"
+		texturefile = "gfx/interface/captured_general_bars.dds"
+	}	
+
 
 	#### Leader trait icons ####
 
@@ -695,7 +737,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/traits/personal/trait_war_hero.dds"
 	}
 
-	
+	spriteType = {
+		name = "GFX_trait_expeditionary_leader_trait"
+		texturefile = "gfx/interface/traits/trait_expeditionary_leader_trait.dds"
+	}
+
+
 	# Admiral Traits
 	#### See mtg_traits.gfx for admiral traits! ####
 	
