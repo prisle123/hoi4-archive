@@ -60,6 +60,7 @@
  DESIGNER_EXPENSIVE: "설계가 너무 비쌉니다."
  DESIGNER_NOT_ENOUGH_SPECIAL_FORCES: "설계를 이렇게 변경하면 특수부대 한도가 초과됩니다."
  DESIGNER_NOT_ENOUGH_DIVISION_CAP: "설계를 이렇게 변경하면 사단 한도가 초과됩니다."
+ DESIGNER_GARRISON_ZERO_SUPPRESSION: "§R이 편제가 현재 주둔군에 사용 중이며, 변경 시 진압 수치가 §Y0§!이 되므로 변경 사항을 이 편제에 저장할 수 없습니다.§!"
  DESIGNER_NO_CHANGES: "§T저장할 변경 사항이 없습니다.§!"
  DESIGNER_ARMY_SAVE: "£army_experience $VALUE|Y0$ 저장"
  DESIGNER_ARMY_SAVE_HQ: "£army_experience $XP|Y0$ £command_power $CP|Y0$ 저장"

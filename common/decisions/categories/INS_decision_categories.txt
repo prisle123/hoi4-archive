@@ -14,6 +14,7 @@ INS_volksraad_cat = {
 		NOT = {
 			has_completed_focus = INS_underground_revolution
 		}
+		is_subject = yes
 	}
 }
 

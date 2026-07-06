@@ -717,7 +717,7 @@
  SPOTTER_TRIGGER_TT: "敵を発見する"
  FLY_SWATTER_TRIGGER_TT: "敵の航空隊と戦闘する"
  IRONSIDE_TRIGGER_TT: "主力艦と戦闘するか、指揮をする"
- BLOCKADE_RUNNER_TRIGGER_TT: "すべての艦艇が37ノット以上の速度を誇る戦闘に任務部隊を導入する"
+ BLOCKADE_RUNNER_TRIGGER_TT: "全艦艇の速度が32ノットを超える任務部隊を戦闘に参加させる"
  leider: "不運"
  comintern_workhorse: "コミンテルンの手先"
  veteran_communist: "老練な共産主義者"
@@ -2313,6 +2313,7 @@
  PHI_resistance_connections: "レジスタンスとの人脈"
  PHI_san_miguel_trait: "ユア・ワールド・メイド・ベター"
  PHI_marsman_and_company_trait: "金鉱コングロマリット"
+ steady_statesman: "堅実な政治家"
  #CHI
  CHI_generallissimo_sea: "大元帥"
  CHI_all_china_generalisimo: "中国全土の大元帥"
@@ -2562,6 +2563,8 @@
  SIA_ambassador_to_the_uk: "駐英大使"
  SIA_resistance_fighter: "レジスタンスの戦士"
  SIA_leader_of_the_1932_revolution: "1932年革命の指導者"
+ SIA_the_inoffensive_choice: "無難な選択"
+ SIA_the_generals_mandate: "将軍への委任"
  SIA_military_wing_leader: "軍人派指導者"
  SIA_civilian_wing_leader: "文民派指導者"
  AST_standard-bearer: "旗手"
@@ -2613,6 +2616,7 @@
  AST_the_big_australian_upgraded: "$AST_the_big_australian$"
  AST_steelworks_and_shipyard_upgraded: "$AST_steelworks_and_shipyard$"
  AST_mount_isa: "マウント・アイザ"
+ AST_mount_isa_upgraded: "$AST_mount_isa$"
  AST_naval_engineer: "海軍の技術者"
  #New Zealand
  NZL_minister_of_public_works: "公共事業大臣"

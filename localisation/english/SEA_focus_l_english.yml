@@ -3121,7 +3121,7 @@ PHI_thalassocracy_desc: "The concept of an 'Army with a State' is well known, an
  SIK_rejoin_the_central_government: "Rejoin the Central Government"
  SIK_rejoin_the_central_government_desc: "The Soviets aren't as reliable as we may once have thought they were. It seems it would be best to bet on the winning horse, and change our course to rejoin the KMT and rapidly integrate with the Central Government."
  SIK_reestablish_the_guominjun: "Reestablish the Guominjun"
- SIK_reestablish_the_guominjun_desc: "The Guominjun was a military faction founded by Feng Yuxiang in the 1920s. Being committed to nationalism, anti-imperialism and Christian socialism, it seems like a perfect organization to revive if we want to become a third party in the civil war. This is not to mention the fact that it was ultimately the GMJ that [ROOT.GetLeader] joined back in the day, and his loyalties never lied with the KMT."
+ SIK_reestablish_the_guominjun_desc: "The Guominjun was a military faction founded by Feng Yuxiang in the 1920s. Being committed to nationalism, anti-imperialism and Christian socialism, it seems like a perfect organization to revive if we want to become a third party in the civil war. This is not to mention the fact that it was ultimately the GMJ that Sheng Shicai joined back in the day, and his loyalties never lied with the KMT."
  SIK_reaffirm_soviet_connections: "Reaffirm Soviet Connections"
  SIK_reaffirm_soviet_connections_desc: "The Central Government has failed China, and that is becoming ever more clear for each day that goes by. We should attempt to fully sever our ties with them, and join [SOV.GetNameDef] in their crusade against feudalism."
  SIK_utilize_asperovs_contacts: "Utilize Apresov's Contacts"

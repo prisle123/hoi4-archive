@@ -352,6 +352,7 @@
  heavy_armor: "Tanque pesado"
  heavy_armor_desc: "Os tanques mais fortes com blindagem e armas poderosas, porém são lentos e taticamente inflexíveis."
  super_heavy_armor: "Tanque superpesado"
+ super_heavy_armor_desc: "Tanques superpesados sacrificam mobilidade e velocidade em troca de poder de fogo e blindagem superiores aos dos tanques pesados convencionais."
  motorized: "Infantaria motorizada"
  motorized_desc: "Transporte motorizado de infantaria, como caminhões e motocicletas."
  mechanized: "Infantaria mecanizada"

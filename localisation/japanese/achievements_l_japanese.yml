@@ -135,6 +135,7 @@
  hunt_for_the_desert_fox_tt: "$GER_erwin_rommel$を捕縛する"
  right_side_up_tt: "[AST.GetNonIdeologyName]として、[914.GetName]を領有および支配する"
  maphilindia_tt: "[PHI.GetNonIdeologyName]または[INS.GetNonIdeologyName]としてマフィリンドを結成し、[RAJ.GetNonIdeologyName]の初期州をすべて領有する"
+ maphilindia_formed_tt: "マフィリンドを結成した"
  old_zealand_tt: "[NZL.GetNonIdeologyName]として[35.GetName]と[37.GetName]を領有および支配する"
  thaitanic_tt: "[SIA.GetNonIdeologyName]に属する海軍の誇りを沈める"
  thaifighters_tt: "[SIA.GetNonIdeologyName]としてエースを10名養成する"

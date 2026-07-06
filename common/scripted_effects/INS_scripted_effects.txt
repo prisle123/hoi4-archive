@@ -4,11 +4,18 @@ indonesia_free_effect = {
 	ROOT = {
 		drop_cosmetic_tag = yes
 
-		every_unit_leader = {
+		if = {
 			limit = {
-				has_trait = INS_loyalty_to_netherlands
+				NOT = {
+					has_completed_focus = INSHOL_volksraad_compromises
+				}
 			}
-			set_nationality = HOL
+			every_unit_leader = {
+				limit = {
+					has_trait = INS_loyalty_to_netherlands
+				}
+				set_nationality = HOL
+			}
 		}
 
 		#retire_character = INS_bonifacius_cornelis_de_jonge
@@ -246,6 +253,10 @@ rename_batavia_to_jakarta_if_not_already_effect = {
 		set_province_name = {
 			id = 7381
 			name = VICTORY_POINTS_7381_indonesian
+		}
+		set_province_name = {
+			id = 12371
+			name = VICTORY_POINTS_12371_indonesian
 		}
 		hidden_effect = { #to avoid a double tooltip
 			1058 = {
@@ -500,6 +511,7 @@ indonesia_form_republic_effect = {
 
 # Volksraad effects
 indonesia_volksraad_allow_language_in_schools_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_1
 	add_to_variable = { INS_volksraad_counter = 1 }
 	add_autonomy_score = { 
@@ -509,6 +521,7 @@ indonesia_volksraad_allow_language_in_schools_effect = {
 }
 
 indonesia_volksraad_allow_language_in_government_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_2
 	add_to_variable = { INS_volksraad_counter = 1 }
 	add_autonomy_score = { 
@@ -518,6 +531,7 @@ indonesia_volksraad_allow_language_in_government_effect = {
 }
 
 indonesia_volksraad_remove_education_quotas_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_3
 	add_to_variable = { INS_volksraad_counter = 1 }
 	add_autonomy_score = { 
@@ -534,6 +548,7 @@ indonesia_volksraad_remove_education_quotas_effect = {
 }
 
 indonesia_volksraad_reduce_rubber_export_tax_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_4
 	add_to_variable = { INS_volksraad_counter = 1 }
 	add_autonomy_score = { 
@@ -576,6 +591,7 @@ indonesia_volksraad_equal_education_effect = {
 }
 
 indonesia_volksraad_knil_rank_limit_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_6
 	add_to_variable = { INS_volksraad_counter = 1 }
 	add_autonomy_score = { 
@@ -588,6 +604,7 @@ indonesia_volksraad_knil_rank_limit_effect = {
 }
 
 indonesia_volksraad_legalize_displaying_flag_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_7
 	add_to_variable = { INS_volksraad_counter = 1 }
 	set_country_flag = {
@@ -650,6 +667,7 @@ indonesia_volksraad_democratic_volksraad_effect = {
 }
 
 indonesia_volksraad_education_subsidies_for_indonesians_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_10
 	add_to_variable = { INS_volksraad_counter = 1 }
 	add_autonomy_score = { 
@@ -666,6 +684,7 @@ indonesia_volksraad_education_subsidies_for_indonesians_effect = {
 }
 
 indonesia_volksraad_indonesian_national_language_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_11
 	add_to_variable = { INS_volksraad_counter = 1 }
 	add_autonomy_score = { 
@@ -682,6 +701,7 @@ indonesia_volksraad_indonesian_national_language_effect = {
 }
 
 indonesia_volksraad_official_flag_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_12
 	add_to_variable = { INS_volksraad_counter = 1 }
 	add_autonomy_score = { 
@@ -712,6 +732,7 @@ indonesia_volksraad_official_flag_effect = {
 }
 
 indonesia_volksraad_abolish_veto_right_effect = {
+	clr_country_flag = INS_is_taking_volksraad
 	set_country_flag = indonesia_volksraad_passed_13
 	add_to_variable = { INS_volksraad_counter = 1 }
 	add_autonomy_score = { 
@@ -731,6 +752,7 @@ indonesia_volksraad_reject_25_effect = {
 	}
 	INS = {
 		add_political_power = 12
+		clr_country_flag = INS_is_taking_volksraad
 	}
 }
 
@@ -740,6 +762,7 @@ indonesia_volksraad_reject_50_effect = {
 	}
 	INS = {
 		add_political_power = 25
+		clr_country_flag = INS_is_taking_volksraad
 	}
 }
 
@@ -749,6 +772,7 @@ indonesia_volksraad_reject_75_effect = {
 	}
 	INS = {
 		add_political_power = 37
+		clr_country_flag = INS_is_taking_volksraad
 	}
 }
 
@@ -905,6 +929,14 @@ indonesia_form_other_indies_effect = {
 				}
 				add_dynamic_modifier = {
 					modifier = INS_state_militia_activity_3
+				}
+				if = {
+					limit = {
+						NOT = {
+							is_core_of = INS
+						}
+					}
+					add_core_of = INS
 				}
 			}
 		}

@@ -350,7 +350,7 @@
  SWI_buero_ha_idea: "Buero Ha"
  SWI_expanded_spy_network_idea: "Rozbudowana siatka szpiegowska"
  SWI_spirit_of_saint_bernard_idea: "Duch świętego Bernarda"
- SWI_spirit_of_saint_bernard_idea_tooltip: "Odzyskanie ze szpitala polowego: §G+20%§!\nOczekiwany współczynnik strat: §G-30%§!"
+ SWI_spirit_of_saint_bernard_idea_tooltip: "Odzyskanie ze szpitala polowego: §G+10%§!\nOczekiwany współczynnik strat: §G-30%§!"
  SWI_mountaineer_paratroopers_idea: "$SWI_mountaneer_paratroopers$"
  SWI_mountaineer_paratroopers_idea_desc: "Dostęp do najwyższych szczytów i wielowiekowa kultura alpejska zapewniają spadochroniarzom szwajcarskim przewagę nad resztą piechoty powietrznodesantowej. Ci żołnierze skaczą z naszych samolotów transportowych i opanowują szczyty gór, jakby byli na Monte Rosa albo Matterhornie."
  SWI_mountaineer_paratroopers_idea_TT: "§YGóry§!:\n Atak: §G+35%§!\n Obrona: §G+10%§!\n Ruch: §G+20%§!\n§YWzgórza§!:\n Atak: §G+20%§!\n Obrona: §G+5%§!\n Ruch: §G+10%§!"

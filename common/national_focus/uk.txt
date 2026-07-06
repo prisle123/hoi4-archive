@@ -10248,12 +10248,18 @@ focus_tree = {
 		} #UK at war with fascist/commie. iraq is fascist/commie
 
 		bypass = {
-			IRQ = { exists = no }
+			IRQ = { 
+				OR = {
+					exists = no 
+					has_war_with = ROOT
+					is_subject_of = ROOT 
+				}
+			}
 		}
 
 		will_lead_to_war_with = IRQ
 		prerequisite = { focus = ENG_home_defence }
-		icon = GFX_goal_generic_occupy_states_ongoing_war
+		icon = GFX_focus_generic_attack_iraq
 		x = -6
 		y = 1
 		offset = {
@@ -10280,7 +10286,7 @@ focus_tree = {
 	focus = {
 		id = uk_iran_focus
 		prerequisite = { focus = uk_iraq_focus }
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_focus_generic_attack_iran
 		x = 0
 		y = 1
 		relative_position_id = uk_iraq_focus
@@ -10308,7 +10314,13 @@ focus_tree = {
 		}
 
 		bypass = {
-			PER = { exists = no }
+			PER = { 
+				OR = {
+					exists = no 
+					has_war_with = ROOT
+					is_subject_of = ROOT 
+				}
+			}
 		}
 		
 		search_filters = {}
@@ -10583,7 +10595,7 @@ focus_tree = {
 			}			
 		}
 		prerequisite = { focus = ENG_home_defence }
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_generic_attack_nordic_territory
 		x = -3
 		y = 1
 		offset = {

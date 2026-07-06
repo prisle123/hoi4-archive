@@ -49,7 +49,7 @@
  MANPOWER_RAILWAY_GUN_DESC: "§TEste §Hcañón ferroviario§! requiere $AMOUNT|G$ de mano de obra de servicio.§!"
  MANPOWER_AIRWING: "Mano de obra en servicio para el ala"
  MANPOWER_AIRWING_DESC: "§TEsta §Hala§! requiere $AMOUNT|G$ de mano de obra en servicio.§!"
- CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\nMano de obra total efectiva modificada a $VAL|+%0$ debido a\n"
+ CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\nMano de obra efectiva total modificada a $VAL$ debido a\n"
  EQUIPMENT_DIVISION: "Cumplimiento de equipo"
  EQUIPMENT_DIVISION_DESC: "Equipo en uso como porcentaje del total que necesita la división."
  DIVISION_IN_TEMPLATE_TRANSFER: "La división se está reorganizando de la plantilla $OLD|H$ a la $NEW|H$. El proceso terminará cuando se efectúe la entrega del primer cargamento. El equipo antiguo volverá a almacenarse."

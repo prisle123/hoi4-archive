@@ -86,6 +86,8 @@
  SM_MULTISAMPLE: "Multisample Level"
  SM_AMBIENT_OBJECTS: "Ambient Objects"
  SM_VOICE_VOLUME: "Voice Volume"
+ SM_EVENT_SOUNDS: "Event Sounds"
+ SM_EVENT_SOUNDS_DESC: "Allow sounds and music triggered through script. Recommended to be enabled when playing with mods."
  SM_VSYNC: "VSync"
  SM_WEATHER: "Weather"
  SM_WATER_REFL: "Reflections"

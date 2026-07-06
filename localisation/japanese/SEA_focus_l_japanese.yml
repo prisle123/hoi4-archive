@@ -2659,7 +2659,7 @@
  SIK_rejoin_the_central_government: "中央政府に再合流"
  SIK_rejoin_the_central_government_desc: "ソビエトはかつて我々が考えていたほど信頼できる相手ではなかった。勝ち馬に乗ることが最善だとすれば、路線変更して国民党に再合流し、中央政府との迅速な統合を目指すべきである。"
  SIK_reestablish_the_guominjun: "国民軍の再建"
- SIK_reestablish_the_guominjun_desc: "国民軍は1920年代に馮玉祥が創設した軍閥である。我々がこの内戦における第三勢力を目指すのであれば、民族主義、反帝国主義、キリスト教社会主義に専心していたこの組織を復活させるのが最善策だ。言うまでもなく、[ROOT.GetLeader]がかつて最終的に所属していたのは国民軍であり、国民党に忠誠を誓ったことは一度もない。"
+ SIK_reestablish_the_guominjun_desc: "国民軍は1920年代に馮玉祥が創設した軍閥である。民族主義、反帝国主義、キリスト教社会主義を掲げていたこの組織は、我々が内戦の第三勢力を目指すのであれば、復活させるにはうってつけだ。そもそも盛世才がかつて身を寄せたのは国民軍であり、国民党に忠誠を誓ったことは一度もなかった。"
  SIK_reaffirm_soviet_connections: "ソビエトとの関係の再確認"
  SIK_reaffirm_soviet_connections_desc: "中央政府は中国の統治に失敗しており、その事実は日に日に明確になっている。彼らとの関係を完全に断ち切り、[SOV.GetNameDef]とともに封建主義に立ち向かう改革に参加することを目指すべきである。"
  SIK_utilize_asperovs_contacts: "アプレソフの人脈を利用"

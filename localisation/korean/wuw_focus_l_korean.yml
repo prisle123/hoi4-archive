@@ -2541,7 +2541,7 @@
  GER_negotiate_old_colonies_in_the_east: "동방의 구 식민지 협상"
  GER_negotiate_old_colonies_in_the_east_desc: "대전쟁 도중 [JAP.GetAdjective]은 우리의 동아시아 식민지 중 다수를 빼앗아 갔습니다. 현재 우리는 외교 관계 개선에 적극적으로 임하고 있으므로, 외교적 수단을 통해 일부 식민지를 되찾을 수 있을지도 모릅니다."
  GER_claim_old_colonies_in_the_east_tt: "§Y세력 회원국§!과 §Y[CHI.GetNameWithFlag]§!에 §Y동남아시아§!의 이전 [GER.GetAdjective] 식민지의 통제권을 요구하는 사건이 발생합니다. 그들이 거절하거나 해당 영토가 우리가 동맹으로 간주하지 않는 국가의 통제하에 놓일 경우, 분쟁 중인 주에 대한 §Y영유권§!을 획득합니다."
- GER_negotiate_old_colonies_in_the_east_tt: "그들이 통제하는 다음 주들이 우리에게 양도됩니다:\n§Y[684.GetName]\n[647.GetName]\n[646.GetName]\n[633.GetName]\n[743.GetName]\n[979.GetName]\n[737.GetName]\n[726.GetName]\n[725.GetName]\n[634.GetName]§!"
+ GER_negotiate_old_colonies_in_the_east_tt: "그들이 통제하는 다음 주들이 우리에게 양도됩니다:\n§Y[684.GetName]\n[647.GetName]\n[646.GetName]\n[633.GetName]\n[743.GetName]\n[979.GetName]\n[737.GetName]\n[726.GetName]\n[725.GetName]\n[1070.GetName]§!"
  GER_sentinels_of_the_pacific: "태평양의 파수꾼"
  GER_sentinels_of_the_pacific_desc: "태평양에 위치한 우리의 거점들은 대체로 미개발 상태이며 우리 크릭스마리네나 동맹국 모두에게 별다른 도움이 되지 못할 정도로 부적합합니다. 태평양 주요 지역에 적절한 해군 기반시설을 구축하기 위해 상당한 노력이 필요합니다."
  GER_sentinels_of_the_pacific_tt: "다음의 지배하는 모든 주: §Y\n[336.GetName]\n[335.GetName]\n[743.GetName]\n[633.GetName]\n[646.GetName]§!"

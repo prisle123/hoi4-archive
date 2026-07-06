@@ -1,7 +1,6 @@
 ﻿l_german:
  ABILITY_TOOLTIP_NAME: "$NAME|H$"
  ABILITY_TOOLTIP_NAME_CANCEL: "§RAbbrechen: $NAME|H$§!"
- ABILITY_TOOLTIP_OUT_OF_RANGE: "§RDiese Division befindet sich außerhalb der Reichweite dieser Fähigkeit§!"
  ABILITY_TOOLTIP_DETAILED_COST: "    - Basiskosten: $VALUE|H2$ (jeweils für $UNITS|H0$ Bataillone)"
  ABILITY_TOOLTIP_DETAILED_COST_FACTOR: "    - Fähigkeitskosten: $FACTOR|+%$"
  ABILITY_TOOLTIP_DAILY_COST: "Täglich: £command_power $VALUE|H2$"
@@ -35,7 +34,8 @@
  ABILITY_TOOLTIP_FIELD_MARSHAL_BULK_LEADER_UNAVAIL: " - §Y$LEADER$§! §Rist nicht verfügbar§!"
  ABILITY_TOOLTIP_GRANTED_BY_FIELD_MARSHAL: "Diese Fähigkeit wird durch Feldmarschall §Y$NAME$§! gewährt."
  ABILITY_TOOLTIP_LATE_JOINER_WARNING: "Die Stärke dieser Fähigkeit reduziert sich, wenn man der Armee neue Divisionen hinzufügt, während diese Fähigkeit genutzt wird."
- ASSIGN_TARGET_LATE_JOINER_WARNING: "Das Hinzufügen der §Y$COUNT$§! ausgewählten Divisionen fügt den derzeit aktiven Fähigkeiten einen zusätzlichen ($MODIFIER|+%0$) Modifikator für ihre Stärke hinzu: $NAMES$"
+ ABILITY_TOOLTIP_LATE_JOINER_MULT: "Die Stärke dieser Fähigkeit ist um $MULT|0-%$ reduziert, weil der Armee neue Bataillone hinzugefügt wurden, während diese Fähigkeit aktiv war."
+ ASSIGN_TARGET_LATE_JOINER_WARNING: "Das Hinzufügen der §Y$COUNT$§! ausgewählten Bataillone fügt den derzeit aktiven Fähigkeiten einen zusätzlichen ($MODIFIER|+%0$) Modifikator für ihre Stärke hinzu: $NAMES$"
  ASSIGN_TARGET_LATE_JOINER_NAME: "§Y$NAME$§!"
  ABILITY_TOOLTIP_HEADER_SUMMARY: "£command_power §Y$COST|H2$§!  £clock_texticon §Y$DURATION$§!"
  ABILITY_TOOLTIP_HEADER_COST_ONLY: "£command_power §Y$COST|H2$§!"

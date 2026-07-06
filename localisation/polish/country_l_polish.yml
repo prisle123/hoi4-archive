@@ -49,7 +49,7 @@
  MANPOWER_RAILWAY_GUN_DESC: "§TTo §Hdziało kolejowe§! wymaga $AMOUNT|G$ personelu technicznego.§!"
  MANPOWER_AIRWING: "Personel techniczny skrzydła lotniczego"
  MANPOWER_AIRWING_DESC: "§TTo §Hskrzydło§! wymaga $AMOUNT|G$ osób personelu technicznego.§!"
- CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\nWłaściwe zasoby ludzkie zmodyfikowane do $VAL|+%0$, powód:\n"
+ CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\nWłaściwe zasoby ludzkie zmodyfikowane do $VAL$, powód:\n"
  EQUIPMENT_DIVISION: "Realizacja dostaw wyposażenia"
  EQUIPMENT_DIVISION_DESC: "Używane wyposażenie podane w postaci odsetka całkowitego zapotrzebowania dywizji."
  DIVISION_IN_TEMPLATE_TRANSFER: "Obecnie dywizja przechodzi reorganizację z szablonu $OLD|H$ na $NEW|H$. Reorganizacja będzie zakończona, gdy zostanie dostarczony pierwszy potrzebny sprzęt, a stary zwrócony do magazynów."

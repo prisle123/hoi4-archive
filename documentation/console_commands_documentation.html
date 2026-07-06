@@ -230,11 +230,6 @@ AddTaskCapacity // adds 1 capacity to all the player's MIOs"</p>
 <li>Not available in release build</li>
 </ul>
 <p>Add temp supply node</p>
-<h2 id="add_temporary_buff">add_temporary_buff</h2>
-<ul>
-<li>Arguments: <buff_index></li>
-</ul>
-<p>adds temporary buff to selected units</p>
 <h2 id="add_war_support">add_war_support</h2>
 <ul>
 <li>Aliases: ws</li>
@@ -375,6 +370,11 @@ AddTaskCapacity // adds 1 capacity to all the player's MIOs"</p>
 <p>Ignore superiority in the strategic areas crossed by a naval invasion order</p>
 <h2 id="cameraclamp">cameraclamp</h2>
 <p>Toggles the camera clamping</p>
+<h2 id="capture_commander">capture_commander</h2>
+<ul>
+<li>Arguments: <owner_tag>, <leader></li>
+</ul>
+<p>Capture an enemy commander for the player country. <province_id> is required if the commander is not deployed.</p>
 <h2 id="cityreload">cityreload</h2>
 <p>Reloads the cities</p>
 <h2 id="civilwar">civilwar</h2>
@@ -718,11 +718,6 @@ Using <num runs> the combat will be run multiple times and the averages are prin
 <li>Arguments: event id, <Target Country Tag></li>
 </ul>
 <p>Executes an event</p>
-<h2 id="exit">exit</h2>
-<ul>
-<li>Not available in release build</li>
-</ul>
-<p>Exit game</p>
 <h2 id="faction_goal_slot">faction_goal_slot</h2>
 <ul>
 <li>Aliases: fgs</li>
@@ -949,13 +944,13 @@ Using <num runs> the combat will be run multiple times and the averages are prin
 <p>lists all of the hidden focuses from a country</p>
 <h2 id="list_ideas">list_ideas</h2>
 <p>Dump all ideas to console (ministers or national spirits)</p>
+<h2 id="list_leader_modifiers">list_leader_modifiers</h2>
+<p>Lists the leader and unit modifiers on the leader of each selected army</p>
 <h2 id="list_modifiers">list_modifiers</h2>
 <ul>
 <li>Arguments: <scope></li>
 </ul>
 <p>Lists all modifiers in a scope or for the selected country/state/unitleader</p>
-<h2 id="list_temporary_buffs">list_temporary_buffs</h2>
-<p>lists all temporary buffs on selected units</p>
 <h2 id="list_vars">list_vars</h2>
 <ul>
 <li>Arguments: <scope></li>
@@ -1275,43 +1270,6 @@ Using <num runs> the combat will be run multiple times and the averages are prin
 <li>Aliases: save</li>
 </ul>
 <p>Creates a save file.</p>
-<h2 id="scenario_testingclear_production">scenario_testing.clear_production</h2>
-<ul>
-<li>Not available in release build</li>
-</ul>
-<p>Clear all countries production lines</p>
-<h2 id="scenario_testingdefault">scenario_testing.default</h2>
-<ul>
-<li>Not available in release build</li>
-</ul>
-<p>Set pre-defined conditions</p>
-<h2 id="scenario_testingdelete_equipment_stockpile">scenario_testing.delete_equipment_stockpile</h2>
-<ul>
-<li>Not available in release build</li>
-</ul>
-<p>Delete all equipment in the stockpile</p>
-<h2 id="scenario_testingrun_all_tests">scenario_testing.run_all_tests</h2>
-<ul>
-<li>Not available in release build</li>
-</ul>
-<p>Run all tests</p>
-<h2 id="scenario_testingrun_fixture">scenario_testing.run_fixture</h2>
-<ul>
-<li>Arguments: <test_file></li>
-<li>Not available in release build</li>
-</ul>
-<p>Run all tests in a test file</p>
-<h2 id="scenario_testingrun_test">scenario_testing.run_test</h2>
-<ul>
-<li>Arguments: <test_name></li>
-<li>Not available in release build</li>
-</ul>
-<p>Run a test</p>
-<h2 id="scenario_testingstop_evaluation">scenario_testing.stop_evaluation</h2>
-<ul>
-<li>Not available in release build</li>
-</ul>
-<p>Stop all test evaluation of eventually and always effects</p>
 <h2 id="select">select</h2>
 <ul>
 <li>Aliases: sel</li>

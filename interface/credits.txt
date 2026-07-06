@@ -421,7 +421,7 @@ Adam Piesiak
 #Head of Business Development
 Paweł Książek
 
-#Business Development Manager
+#Business Development Operations Coordinator
 Weronika Purgal
 
 #Director of Quality Assurance
@@ -454,13 +454,16 @@ Mateusz Kuriata
 Marcin Oprządek
 
 #QA Testers
-Dawid Bolewski
+Borys Badtke
+Arkadiusz Jakubowski
 Karol Kaczor
 Krzysztof Owczarek
 Mateusz Rosłaniec
 Michał Szcześniak
 Aleksander Taras
 Dariusz Winczewski
+Michał Wiśniewski
+Adrian Witczak
 Tomasz Wypych
 
 #IT Director
@@ -2181,6 +2184,10 @@ Samet Atasoy
 
 #SOUND DESIGNER
 Andrew J Ryan
+
+#VOICE ARTISTS
+Hadrien Buytaers
+Markus Veit
 
 #MUSIC
 

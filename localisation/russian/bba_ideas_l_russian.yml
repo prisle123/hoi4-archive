@@ -350,7 +350,7 @@
  SWI_buero_ha_idea: "Бюро Ха"
  SWI_expanded_spy_network_idea: "Расширенная шпионская сеть"
  SWI_spirit_of_saint_bernard_idea: "Дух Святого Бернарда"
- SWI_spirit_of_saint_bernard_idea_tooltip: "Возмещение потерь благодаря полевым госпиталям: §G+20%§!\nПотеря опыта: §G-30%§!"
+ SWI_spirit_of_saint_bernard_idea_tooltip: "Возмещение потерь благодаря полевым госпиталям: §G+10%§!\nПотеря опыта: §G−30%§!"
  SWI_mountaineer_paratroopers_idea: "$SWI_mountaneer_paratroopers$"
  SWI_mountaineer_paratroopers_idea_desc: "Доступ к одним из неприступнейших гор и столетия культуры жизни в горах дают швейцарским десантникам преимущество над другими десантными войсками. Они могут высадиться с наших транспортных самолетов и обосноваться на горных пиках, словно на Монте-Роза или Маттерхорне."
  SWI_mountaineer_paratroopers_idea_TT: "§YГоры§!:\n Атака: §G+35%§!\n Защита: §G+10%§!\n Скорость перемещения: §G+20%§!\n§YХолмы§!:\n Атака: §G+20%§!\n Защита: §G+5%§!\n Скорость перемещения: §G+10%§!"

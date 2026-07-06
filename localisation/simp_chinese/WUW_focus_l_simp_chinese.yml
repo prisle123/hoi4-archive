@@ -2541,7 +2541,7 @@
  GER_negotiate_old_colonies_in_the_east: "谈判东方旧殖民地"
  GER_negotiate_old_colonies_in_the_east_desc: "在那次世界大战期间，我们在东亚的许多殖民地被[JAP.GetAdjective]夺走。既然我们现在正积极改善外交关系，我们或许可以通过外交手段重新获得这些殖民地。"
  GER_claim_old_colonies_in_the_east_tt: "向§Y阵营成员§!和§Y[CHI.GetNameWithFlag]§!发送事件，请求控制在§Y东南亚§!的前[GER.GetAdjective]殖民地。如果他们拒绝，或者领土被一个我们不认为是盟友的国家控制，则对有争议的地区获得§Y宣称§!。"
- GER_negotiate_old_colonies_in_the_east_tt: "他们控制的以下任何地区都会被转交给我们：\n§Y[684.GetName]\n[647.GetName]\n[646.GetName]\n[633.GetName]\n[743.GetName]\n[979.GetName]\n[737.GetName]\n[726.GetName]\n[725.GetName]\n[634.GetName]§!"
+ GER_negotiate_old_colonies_in_the_east_tt: "他们控制的以下地区都会被转交给我们：\n§Y[684.GetName]\n[647.GetName]\n[646.GetName]\n[633.GetName]\n[743.GetName]\n[979.GetName]\n[737.GetName]\n[726.GetName]\n[725.GetName]\n[1070.GetName]§!"
  GER_sentinels_of_the_pacific: "太平洋哨兵"
  GER_sentinels_of_the_pacific_desc: "我们在太平洋的据点通常开发不足，不足以让我们自己的海军或盟友的海军进行使用。我们必须做出重大努力，确保在太平洋相关地区建立适当的海军基础设施。"
  GER_sentinels_of_the_pacific_tt: "受控制的所有地区如下：§Y\n[336.GetName]\n[335.GetName]\n[743.GetName]\n[633.GetName]\n[646.GetName]§!"

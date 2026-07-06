@@ -135,6 +135,7 @@
  hunt_for_the_desert_fox_tt: "俘虏$GER_erwin_rommel$"
  right_side_up_tt: "作为[AST.GetNonIdeologyName]，拥有并控制[914.GetName]"
  maphilindia_tt: "作为[PHI.GetNonIdeologyName]或[INS.GetNonIdeologyName]，成立马菲印多并拥有[RAJ.GetNonIdeologyName]的所有初始地区"
+ maphilindia_formed_tt: "已成立马菲印多"
  old_zealand_tt: "作为[NZL.GetNonIdeologyName]，拥有并控制[35.GetName]和[37.GetName]"
  thaitanic_tt: "击沉[SIA.GetNonIdeologyName]的舰队荣耀"
  thaifighters_tt: "作为[SIA.GetNonIdeologyName]，晋升10名王牌飞行员"

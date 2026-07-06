@@ -49,7 +49,7 @@
  MANPOWER_RAILWAY_GUN_DESC: "§T此§H列车炮§!需要$AMOUNT|G$服役人力。§!"
  MANPOWER_AIRWING: "空军联队服役人力"
  MANPOWER_AIRWING_DESC: "§T此§H空军联队§!需要$AMOUNT|G$服役人力。§!"
- CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\n由于以下因素，实际总计人力修正为$VAL|+%0$：\n"
+ CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\n由于以下因素，实际总计人力修正为$VAL$：\n"
  EQUIPMENT_DIVISION: "装备率"
  EQUIPMENT_DIVISION_DESC: "此陆军师正在使用中的装备与其总需求量的百分比。"
  DIVISION_IN_TEMPLATE_TRANSFER: "此陆军师正从$OLD|H$改编为$NEW|H$。当其所需的第一件新装备抵达驻地时即会完成改编，其不再需要的装备则将送回仓库。"

@@ -60,6 +60,7 @@
  DESIGNER_EXPENSIVE: "Design caro demais"
  DESIGNER_NOT_ENOUGH_SPECIAL_FORCES: "Uma mudança de design nos colocaria acima do limite das Forças Especiais"
  DESIGNER_NOT_ENOUGH_DIVISION_CAP: "Uma mudança de design nos colocaria acima do limite da Divisão"
+ DESIGNER_GARRISON_ZERO_SUPPRESSION: "§RVocê não pode salvar as alterações feitas neste modelo porque ele está sendo usado para guarnições e a mudança reduziria o valor de Supressão a §Y0§!.§!"
  DESIGNER_NO_CHANGES: "§TNenhuma alteração para salvar§!"
  DESIGNER_ARMY_SAVE: "Salvar £army_experience $VALUE|Y0$"
  DESIGNER_ARMY_SAVE_HQ: "Salvar £army_experience $XP|Y0$ £command_power $CP|Y0$"

@@ -273,6 +273,7 @@
  mio_cat_eq_only_strategic_bomber: "Strategische Bomber"
  mio_cat_eq_all_cv_aircraft: "Alle Trägerflugzeuge"
  mio_cat_eq_all_artillery: "Gesamte Artillerie-Ausrüstung"
+ mio_cat_eq_only_artillery: "$artillery_equipment$"
  mio_cat_eq_all_infantry_and_support_equipment: "Gesamte Infanterie- und Unterstützungsausrüstung"
  ##     ## ########    ###    ########  ######## ########   ######
  ##     ## ##         ## ##   ##     ## ##       ##     ## ##    ##

@@ -717,7 +717,7 @@
  SPOTTER_TRIGGER_TT: "적 발견"
  FLY_SWATTER_TRIGGER_TT: "적 공군 부대와 전투 중"
  IRONSIDE_TRIGGER_TT: "주력함을 지휘하거나 운용"
- BLOCKADE_RUNNER_TRIGGER_TT: "모든 함선의 속도가 37노트 이상인 태스크 포스가 전투에 돌입"
+ BLOCKADE_RUNNER_TRIGGER_TT: "모든 함선의 속도가 32노트 이상인 태스크 포스가 전투에 돌입"
  leider: "레이더르"
  comintern_workhorse: "코민테른 일꾼"
  veteran_communist: "베테랑 공산주의자"
@@ -2313,6 +2313,7 @@
  PHI_resistance_connections: "저항군 연줄"
  PHI_san_miguel_trait: "더 나은 세상으로"
  PHI_marsman_and_company_trait: "금 채굴 재벌"
+ steady_statesman: "신중한 정치인"
  #CHI
  CHI_generallissimo_sea: "대원수"
  CHI_all_china_generalisimo: "전중국의 대원수"
@@ -2562,6 +2563,8 @@
  SIA_ambassador_to_the_uk: "영국 주재 대사"
  SIA_resistance_fighter: "저항군 투사"
  SIA_leader_of_the_1932_revolution: "1932년 혁명의 지도자"
+ SIA_the_inoffensive_choice: "무해한 선택"
+ SIA_the_generals_mandate: "장군의 권한"
  SIA_military_wing_leader: "군부 세력 지도자"
  SIA_civilian_wing_leader: "민간 세력 지도자"
  AST_standard-bearer: "지도자"
@@ -2613,6 +2616,7 @@
  AST_the_big_australian_upgraded: "$AST_the_big_australian$"
  AST_steelworks_and_shipyard_upgraded: "$AST_steelworks_and_shipyard$"
  AST_mount_isa: "마운트 아이자"
+ AST_mount_isa_upgraded: "$AST_mount_isa$"
  AST_naval_engineer: "조선공학자"
  #New Zealand
  NZL_minister_of_public_works: "공공사업장관"

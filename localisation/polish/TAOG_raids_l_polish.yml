@@ -33,3 +33,5 @@
  success_modifier_INS_naval_dominance_modifier: "§H§YDominacja morska§!§!"
  success_modifier_INS_naval_dominance_modifier_counterplay: "- Zwiększenie §Ydominacji morskiej§!"
  success_modifier_INS_naval_dominance_modifier_improvement: "- Zwiększenie §Ydominacji morskiej§!"
+ success_modifier_INS_militia_unit_level_modifier: "§H§YBataliony§!§!"
+ success_modifier_INS_militia_unit_level_modifier_improvement: "- Zwiększ liczbę §Ybatalionów§!"

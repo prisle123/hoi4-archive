@@ -1284,6 +1284,7 @@
  STATE_1059: "Limbang"
  STATE_1060: "Johor"
  STATE_1061: "Perlis-Kedah"
+ STATE_1061_thai_alt: "Syburi"
  STATE_1062: "Kelantan-Terengganu"
  STATE_1063: "Pahang" 
  STATE_1064: "Perak" 

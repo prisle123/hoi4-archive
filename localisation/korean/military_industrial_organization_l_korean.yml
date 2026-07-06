@@ -273,6 +273,7 @@
  mio_cat_eq_only_strategic_bomber: "전략폭격기"
  mio_cat_eq_all_cv_aircraft: "모든 함재기"
  mio_cat_eq_all_artillery: "모든 포병 장비"
+ mio_cat_eq_only_artillery: "$artillery_equipment$"
  mio_cat_eq_all_infantry_and_support_equipment: "모든 보병 및 지원 장비"
  ##     ## ########    ###    ########  ######## ########   ######
  ##     ## ##         ## ##   ##     ## ##       ##     ## ##    ##

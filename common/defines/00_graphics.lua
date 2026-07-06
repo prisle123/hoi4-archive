@@ -1307,16 +1307,6 @@ NGraphics = {
 	RAID_UNIT_ENTITY_BASE_SCALE = 2.0,              -- Base scale of the raid unit entity used to show the progress of the raid (can be further modifier in raid script)
 	RAID_UNIT_ENTITY_OFFSET = { 0.0, 0.0, 0.0 },    -- Raid entity offset from the arrow spline position
 
-	-- The next two values specify how multi-stage animation works for raid units, which is used, for example, for some nuclear rockets.
-	-- Currently, three-stage animation is supported, in order for it to work, the unit entity must have following animation states:
-	--  "idle"			- idle animation of the first stage (looped)
-	--  "idle2_intro"	- intro animation of the second stage (not looped, goes to "idle2" when done)
-	--  "idle2"			- idle animation of the second stage (looped)
-	--  "idle3_intro"	- intro animation of the third stage (not looped, goes to "idle3" when done)
-	--  "idle3"			- idle animation of the third stage (looped)
-	RAID_UNIT_SECOND_STAGE_PROGRESS = 0.33,			-- Specifies raid progress value on [0,1] where second stage is activated
-	RAID_UNIT_THIRD_STAGE_PROGRESS = 0.66,			-- Specifies raid progress value on [0,1] where third stage is activated
-
 	DEFAULT_NUDGE_FLOATING_HARBOR_DIST = 7.0,       -- Default distance of floating harbors from the coast in pixels, for nudger
 
 	RAID_MAP_ICON_DRAW_DISTANCE_MIN = 10.0,                      -- Below this distance, raid map icons are hidden

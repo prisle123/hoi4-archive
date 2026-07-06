@@ -1036,8 +1036,8 @@
  GOE_RAJ_news.3.desc: "The decision to reform the East India Company in [RAJ.GetNonIdeologyName] was taken by [?event_target:EIC_FORMER.GetNonIdeologyName] several years ago in order to stabilize the declining [RAJ.GetAdjective] economy. With this move having been generally considered a success by [?event_target:EIC_FORMER.GetAdjective] economists, the [?event_target:EIC_FORMER.GetAdjective] government has announced that effective immediately, the remaining land controlled by the Raj will be transferred to [RAJ.GetNameDefCap]. The administration of the Raj will be dismantled, allowing for [RAJ.GetNameDefCap] to oversee the entire subcontinent."
  GOE_RAJ_news.3.a: "Promising."
 
- currentStateResistance: "  Currently §R[?var:THIS.resistance]%§! Resistance."
- currentStateCompliance: "  Currently §Y[?var:THIS.compliance]%§! Compliance."
+ currentStateResistance: "  Currently §R[?var:THIS.resistance|1]%§! Resistance."
+ currentStateCompliance: "  Currently §Y[?var:THIS.compliance|1]%§! Compliance."
 
  GOE_RAJ_news.4.t: "Hindustan United"
  GOE_RAJ_news.4.desc: "It has been reported that [FROM.GetLeader] of [FROM.GetNameDef] has declared the unification for all peoples on the Indian subcontinent, marking a new chapter in the history of Asia, and for all the world. Many analysts have already stated that Hindustan's unification can have drastic effects on world politics, and mean the rise of a new Superpower."

@@ -86,6 +86,8 @@
  SM_MULTISAMPLE: "Multisample Level"
  SM_AMBIENT_OBJECTS: "Umgebungslautstärke"
  SM_VOICE_VOLUME: "Sprachlautstärke"
+ SM_EVENT_SOUNDS: "Ereignissounds"
+ SM_EVENT_SOUNDS_DESC: "Erlaubt es Skripten, Sounds und Musik selbstständig auszulösen. Es wird empfohlen, diese Option beim Spielen mit Mods zu aktivieren."
  SM_VSYNC: "VSync"
  SM_WEATHER: "Wetter"
  SM_WATER_REFL: "Reflektionen"

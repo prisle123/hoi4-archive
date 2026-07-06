@@ -86,6 +86,8 @@
  SM_MULTISAMPLE: "Multimuestreo"
  SM_AMBIENT_OBJECTS: "Objetos ambiente"
  SM_VOICE_VOLUME: "Volumen de voz"
+ SM_EVENT_SOUNDS: "Sonidos de evento"
+ SM_EVENT_SOUNDS_DESC: "Permite que los sonidos y la música se activen mediante scripts. Se recomienda activarlo al jugar con mods."
  SM_VSYNC: "VSync"
  SM_WEATHER: "Clima"
  SM_WATER_REFL: "Reflejos"

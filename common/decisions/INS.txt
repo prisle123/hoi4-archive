@@ -232,6 +232,74 @@ political_actions = {
 			}
 		}
 	}
+
+	INS_move_capital_to_amsterdam = {
+		icon = GFX_decision_SOV_place_hq
+		priority = 30
+
+		ai_will_do = {
+			base = 0
+		}
+
+		available = {
+			has_full_control_of_state = 7
+		}
+
+		visible = {
+			OR = {
+				original_tag = INS
+				original_tag = HOL
+			}
+			has_cosmetic_tag = INS_UNION
+
+			7 = {
+				is_capital = no
+			}
+		}
+
+		cost = 50
+
+		complete_effect = {
+			set_capital = {
+				state = 7
+				remember_old_capital = yes
+			}
+		}
+	}
+
+	INS_move_capital_to_batavia = {
+		icon = GFX_decision_SOV_place_hq
+		priority = 30
+
+		ai_will_do = {
+			base = 0
+		}
+
+		available = {
+			has_full_control_of_state = 1058
+		}
+
+		visible = {
+			OR = {
+				original_tag = INS
+				original_tag = HOL
+			}
+			has_cosmetic_tag = INS_UNION
+
+			1058 = {
+				is_capital = no
+			}
+		}
+
+		cost = 50
+
+		complete_effect = {
+			set_capital = {
+				state = 1058
+				remember_old_capital = yes
+			}
+		}
+	}
 }
 
 INS_exile_cat = {
@@ -605,7 +673,6 @@ INS_volksraad_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_is_taking_volksraad
-				days = 60
 				value = 1
 			}
 		}
@@ -697,7 +764,6 @@ INS_volksraad_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_is_taking_volksraad
-				days = 60
 				value = 1
 			}
 		}
@@ -789,7 +855,6 @@ INS_volksraad_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_is_taking_volksraad
-				days = 60
 				value = 1
 			}
 		}
@@ -873,7 +938,6 @@ INS_volksraad_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_is_taking_volksraad
-				days = 90
 				value = 1
 			}
 		}
@@ -962,7 +1026,6 @@ INS_volksraad_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_is_taking_volksraad
-				days = 90
 				value = 1
 			}
 		}
@@ -1051,7 +1114,6 @@ INS_volksraad_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_is_taking_volksraad
-				days = 90
 				value = 1
 			}
 		}
@@ -1140,7 +1202,6 @@ INS_volksraad_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_is_taking_volksraad
-				days = 120
 				value = 1
 			}
 		}
@@ -1231,7 +1292,6 @@ INS_volksraad_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_is_taking_volksraad
-				days = 120
 				value = 1
 			}
 		}
@@ -1303,7 +1363,6 @@ INS_volksraad_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_is_taking_volksraad
-				days = 120
 				value = 1
 			}
 		}
@@ -1480,12 +1539,18 @@ INS_militias_cat = {
 				# the AI is stupid
 				INS_moestopo = {
 					promote_leader = yes
+
 				}
 				hidden_effect = {
 					add_to_variable = { var = INS_missions_completed value = 1 }
 				}
 				INS_moestopo = {
 					add_skill_level = 2
+					add_attack = 1
+					add_logistics = 1
+					add_defense = 1
+					add_planning = 1
+					# add_skill_level adds 1 instead of 3 for some reason so im only adding 4
 				}
 			}
 		}
@@ -1496,6 +1561,11 @@ INS_militias_cat = {
 			}
 			INS_moestopo = {
 				add_skill_level = 2
+				add_attack = 1
+				add_logistics = 1
+				add_defense = 1
+				add_planning = 1
+				# add_skill_level adds 1 instead of 3 for some reason so im only adding 4
 			}
 		}
 	}
@@ -1949,7 +2019,10 @@ INS_unity_in_diversity_cat = {
 		state_target = yes
 		target_trigger = {
 			FROM = {
-				is_in_array = { array = INS.owned_states_at_game_start value = THIS }
+				OR = {
+					is_in_array = { array = INS.owned_states_at_game_start value = THIS }
+					state = 721 #East Timor
+				}
 				is_controlled_by = ROOT
 				NOT = { is_core_of = ROOT }
 				NOT = { state = 1050 } #Atjeh has to be released or cored seperately
@@ -2001,12 +2074,14 @@ INS_revolution_planning_cat = {
 		targets = { 672 1050 1055 1053 673 669 }
 
 		ai_will_do = {
-			base = 10
+			base = 50
 			modifier = {
-				factor = 0.2
+				factor = 0.1
 				FROM = {
-					state = 669
-					state = 1053
+					OR = {
+						state = 669
+						state = 1053
+					}
 				}
 			}
 		}
@@ -2180,6 +2255,12 @@ INS_revolution_planning_cat = {
 					}
 				}
 			}
+			modifier = {
+				factor = 20
+				FROM = {
+					state = 672 #South Sumatra
+				}
+			}
 		}
 
 		complete_effect = {
@@ -2203,6 +2284,12 @@ INS_revolution_planning_cat = {
 				custom_effect_tooltip = INS_state_revolution_hq_tt
 			}
 			clr_country_flag = INS_ongoing_influence_process
+			hidden_effect = {
+				country_event = {
+					id = INS_revolution_events.43
+					hours = 2
+				}
+			}
 		}
 	}
 
@@ -2239,7 +2326,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -2310,7 +2396,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -2398,7 +2483,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -2458,7 +2542,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -2534,7 +2617,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -2647,7 +2729,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -2728,7 +2809,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -2793,7 +2873,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -2876,7 +2955,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -2963,7 +3041,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -3051,7 +3128,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -3124,7 +3200,6 @@ INS_realign_supply_chains_cat = {
 		complete_effect = {
 			set_country_flag = {
 				flag = INS_selling_resource_flag
-				days = var:INS_realign_supply_chains_time
 				value = 1
 			}
 		}
@@ -3301,6 +3376,8 @@ INS_national_revolution_cat = {
 				any_state_in = {
 					array = INS.owned_states_at_game_start
 					tooltip = INS_owned_states_at_game_start_tt
+
+					impassable = no
 					OR = {
 						is_owned_by = HOL
 						is_owned_by = event_target:INS_dutch_indonesia
@@ -3368,6 +3445,14 @@ INS_national_revolution_cat = {
 			if = {
 				limit = {
 					has_war_with = HOL
+				}
+				every_enemy_country = {
+					limit = {
+						is_in_faction_with = HOL
+					}
+					INS = {
+						white_peace = PREV
+					}
 				}
 				white_peace = HOL
 			}
@@ -3574,12 +3659,12 @@ INS_national_revolution_cat = {
 
 		custom_cost_trigger = {
 			has_political_power > 49
-			has_manpower > 2499
+			has_manpower > 4999
 			has_equipment = {
-				infantry_equipment > 2499
+				infantry_equipment > 1499
 			}
 		}
-		custom_cost_text = decision_cost_PP_50_MP_2500_ie_2500
+		custom_cost_text = decision_cost_PP_50_MP_5000_ie_1500
 
 		fire_only_once = no
 
@@ -3594,10 +3679,10 @@ INS_national_revolution_cat = {
 		complete_effect = {
 			hidden_effect = {
 				add_political_power = -50
-				add_manpower = -2500
+				add_manpower = -5000
 				add_equipment_to_stockpile = { 
 					type = infantry_equipment
-					amount = -2500
+					amount = -1500
 				}
 			}
 			FROM = { set_state_flag = { flag = INS_feint_uprising value = 1 days = 60 } }
@@ -3696,6 +3781,8 @@ INS_national_revolution_cat = {
 						militia = 2
 					}
 				}
+				add_to_variable = { INS_level_of_militias = 2 }
+				set_country_flag = INS_reorganize_freedom_fighter_militia_flag
 			}
 		}
 
@@ -3717,6 +3804,7 @@ INS_national_revolution_cat = {
 		}
 
 		available = {
+			has_country_flag = INS_reorganize_freedom_fighter_militia_flag
 			set_temp_variable = {
 				var = INS_militia_cap_multiplied_eq
 				value = INS_militia_cap
@@ -3768,6 +3856,7 @@ INS_national_revolution_cat = {
 						militia = 2
 					}
 				}
+				add_to_variable = { INS_level_of_militias = 3 }
 			}
 		}
 
@@ -3838,6 +3927,7 @@ INS_national_revolution_cat = {
    					    recon = 0
    					}
 				}
+				add_to_variable = { INS_level_of_militias = 1 }
 			}
 		}
 
@@ -4012,9 +4102,9 @@ INS_national_revolution_cat = {
 		available = {
 			check_variable = {
 				var = INS_war_escalation_level
-				value = 1
+				value = 2
 				compare = greater_than_or_equals
-				tooltip = war_escalation_1_or_more_tt
+				tooltip = war_escalation_2_or_more_tt
 			}
 			custom_trigger_tooltip = {
 				tooltip = INS_is_deescalating_tt
@@ -5335,6 +5425,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {
@@ -5391,6 +5492,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {
@@ -5446,6 +5558,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {
@@ -5501,6 +5624,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {
@@ -5557,6 +5691,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {
@@ -5596,7 +5741,9 @@ INS_leaders_cat = {
 			NOT = {
 				has_country_flag = INS_has_changed_leader
 			}
-			has_event_target = INS_dewa_geg
+			hidden_trigger = {
+				has_event_target = INS_dewa_geg
+			}
 			event_target:INS_dewa_geg = {
 				is_country_leader = no
 			}
@@ -5613,6 +5760,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {
@@ -5658,7 +5816,9 @@ INS_leaders_cat = {
 			NOT = {
 				has_country_flag = INS_has_changed_leader
 			}
-			has_event_target = INS_syarif_muhammad_alkadrie
+			hidden_trigger = {
+				has_event_target = INS_syarif_muhammad_alkadrie
+			}
 			event_target:INS_syarif_muhammad_alkadrie = {
 				is_country_leader = no
 			}
@@ -5675,6 +5835,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {
@@ -5720,7 +5891,9 @@ INS_leaders_cat = {
 			NOT = {
 				has_country_flag = INS_has_changed_leader
 			}
-			has_event_target = INS_sultan_muhibuddin
+			hidden_trigger = {
+				has_event_target = INS_sultan_muhibuddin
+			}
 			event_target:INS_sultan_muhibuddin = {
 				is_country_leader = no
 			}
@@ -5737,6 +5910,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {
@@ -5782,7 +5966,9 @@ INS_leaders_cat = {
 			NOT = {
 				has_country_flag = INS_has_changed_leader
 			}
-			has_event_target = INS_iskandar_sjah
+			hidden_trigger = {
+				has_event_target = INS_iskandar_sjah
+			}
 			event_target:INS_iskandar_sjah = {
 				is_country_leader = no
 			}
@@ -5799,6 +5985,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {
@@ -5844,7 +6041,9 @@ INS_leaders_cat = {
 			NOT = {
 				has_country_flag = INS_has_changed_leader
 			}
-			has_event_target = INS_syarif_kasim
+			hidden_trigger = {
+				has_event_target = INS_syarif_kasim
+			}
 			event_target:INS_syarif_kasim = {
 				is_country_leader = no
 			}
@@ -5861,6 +6060,17 @@ INS_leaders_cat = {
 
 		ai_will_do = {
 			base = 1
+			modifier = {
+				factor = 15
+				OR = {
+					INS_a_t_van_starkenborgh_stachouwer = {
+						is_country_leader = yes
+					}
+					INS_bonifacius_cornelis_de_jonge = {
+						is_country_leader = yes
+					}
+				}
+			}
 		}
 
 		complete_effect = {

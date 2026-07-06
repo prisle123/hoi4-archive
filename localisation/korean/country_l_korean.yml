@@ -49,7 +49,7 @@
  MANPOWER_RAILWAY_GUN_DESC: "§T해당 §H열차포§!는 정비 인력이 $AMOUNT|G$명 필요합니다.§!"
  MANPOWER_AIRWING: "비행단 정비 인력"
  MANPOWER_AIRWING_DESC: "§T해당 §H비행단§!은 정비 인력이 $AMOUNT|G$명 필요합니다.§!"
- CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\n실질 총인력이 $VAL|+%0$로 변동되는 이유:\n"
+ CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\n실질 총인력이 $VAL$(으)로 변동되는 이유:\n"
  EQUIPMENT_DIVISION: "장비 충족"
  EQUIPMENT_DIVISION_DESC: "사단의 총수요 대비 사용 중인 장비의 백분율입니다."
  DIVISION_IN_TEMPLATE_TRANSFER: "사단은 현재 $OLD|H$에서 $NEW|H$ 편제로 재편성 중입니다. 재편성은 첫 번째로 필요한 장비가 전달되면 완료되며, 기존 장비는 비축량으로 돌아갑니다."

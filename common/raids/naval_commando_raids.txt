@@ -13,7 +13,7 @@ types = {
 
 		range_factor = 20
 		unlimited_ai_range = yes
-		ai_min_success_chance = 0.2
+		ai_min_success_chance = 0.15
 
 		arrow = {
 			type = naval
@@ -233,7 +233,7 @@ types = {
 
 		success_factors = {
 			success = {
-				base = 0.2
+				base = 0.1
 
 				INS_has_influence_mod = {
 					scope = state
@@ -290,6 +290,20 @@ types = {
 					reference = 5
 				    can_actor_affect = no # If true, this modifier will be included in the list of measures the actor country can take to increase the success chance of the raid
 				    can_target_affect = yes # If true, this modifier will be included in the list of countermeasures the target country can take to decreases the success chance of the raid
+				}
+
+				INS_militia_unit_level_modifier = {
+					scope = country
+					formula = {
+						base = 1
+						modifier = {
+							factor = var:INS_level_of_militias
+						}
+					}
+					weight = 0.2
+					reference = 6
+				    can_actor_affect = yes # If true, this modifier will be included in the list of measures the actor country can take to increase the success chance of the raid
+				    can_target_affect = no # If true, this modifier will be included in the list of countermeasures the target country can take to decreases the success chance of the raid
 				}
 
 				INS_defense_modifier = {

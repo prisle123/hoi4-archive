@@ -1717,6 +1717,7 @@
  SEA_PHI_political_events.64.t: "Décès de $PHI_manuel_luis_quezon$"
  SEA_PHI_political_events.64.desc_quezon: "Depuis qu'il avait contracté la tuberculose, la santé de $PHI_manuel_luis_quezon$ déclinait invariablement, finissant hélas par entraîner son décès. Le vice-président a temporairement endossé ses responsabilités pendant que la nation fait son deuil, mais il faudra bientôt choisir son véritable successeur."
  SEA_PHI_political_events.64.desc_generic: "Le mandat actuel de [ROOT.GetLeader] touche à sa fin et une nouvelle élection doit déterminer quel sera le prochain président. Du fait de sa santé déclinante, $PHI_manuel_luis_quezon$ s'est retiré de la course."
+ SEA_PHI_political_events.64.osmena: "$PHI_sergio_osmena$ assurera l'ordre"
  SEA_PHI_political_events.65.t: "Dwight D. Eisenhower reste [USA.GetAuEnANP] [USA.GetName]"
  SEA_PHI_political_events.65.desc: "Malheureusement, notre demande de renforcement de la mission militaire [USA.GetAdjFS] [ROOT.GetAuEnANP] [ROOT.GetName] a été refusée. D'autres projets militaires [USA.GetAdjMP] nécessitent apparemment son expertise."
  SEA_PHI_political_events.65.a: "C'est fort dommage"

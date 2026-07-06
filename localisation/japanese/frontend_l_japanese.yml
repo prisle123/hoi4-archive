@@ -86,6 +86,8 @@
  SM_MULTISAMPLE: "マルチサンプルレベル"
  SM_AMBIENT_OBJECTS: "周囲のオブジェクト"
  SM_VOICE_VOLUME: "ボイス音量"
+ SM_EVENT_SOUNDS: "イベントサウンド"
+ SM_EVENT_SOUNDS_DESC: "スクリプトによって再生される効果音および音楽を許可する。MOD使用時は有効化推奨。"
  SM_VSYNC: "垂直同期"
  SM_WEATHER: "天候"
  SM_WATER_REFL: "反射"

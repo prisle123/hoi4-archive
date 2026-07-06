@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>script_math_functions.md</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+<body>
+    <main>
+    <div class="container">
+        <h1 id="script-math-functions">Script Math Functions</h1>
+<h2 id="table-of-content">Table of Content</h2>
+<ul>
+<li><a href="#">&lt;</a></li>
+<li><a href="#">&gt;</a></li>
+<li><a href="#add">add</a></li>
+<li><a href="#and">and</a></li>
+<li><a href="#atan">atan</a></li>
+<li><a href="#atan2">atan2</a></li>
+<li><a href="#clamp">clamp</a></li>
+<li><a href="#cos">cos</a></li>
+<li><a href="#divide">divide</a></li>
+<li><a href="#equals">equals</a></li>
+<li><a href="#every_collection">every_collection</a></li>
+<li><a href="#greater_than_or_equals">greater_than_or_equals</a></li>
+<li><a href="#if">if</a></li>
+<li><a href="#lerp">lerp</a></li>
+<li><a href="#less_than_or_equals">less_than_or_equals</a></li>
+<li><a href="#log">log</a></li>
+<li><a href="#max">max</a></li>
+<li><a href="#min">min</a></li>
+<li><a href="#mod">mod</a></li>
+<li><a href="#multiply">multiply</a></li>
+<li><a href="#not">not</a></li>
+<li><a href="#not_equals">not_equals</a></li>
+<li><a href="#or">or</a></li>
+<li><a href="#pow">pow</a></li>
+<li><a href="#root">root</a></li>
+<li><a href="#round">round</a></li>
+<li><a href="#sin">sin</a></li>
+<li><a href="#subtract">subtract</a></li>
+<li><a href="#tan">tan</a></li>
+<li><a href="#xor">xor</a></li>
+</ul>
+<h2 id="_1">&lt;</h2>
+<p>Returns 1 if the accumulator is less than the value, otherwise 0.</p>
+<h3 id="example">Example</h3>
+<pre><code>{ value = 2  less_than = 5 }
+</code></pre>
+<h2 id="_2">&gt;</h2>
+<p>Returns 1 if the accumulator is greater than the value, otherwise 0.</p>
+<h3 id="example_1">Example</h3>
+<pre><code>{ value = 10  greater_than = 5 }
+</code></pre>
+<h2 id="add">add</h2>
+<p>Adds a value to the accumulator.</p>
+<h3 id="example_2">Example</h3>
+<pre><code>{ value = 5.0  add = num_factories }
+</code></pre>
+<h2 id="and">and</h2>
+<p>Returns 1 if both the accumulator and the value are non-zero, otherwise 0.</p>
+<h3 id="example_3">Example</h3>
+<pre><code>{ value = 1  and = 1 }
+</code></pre>
+<h2 id="atan">atan</h2>
+<p>Sets the accumulator to the arctangent of itself. The result is expressed in radians.</p>
+<p>Note: this is computed with a numerical approximation and may be off by a few hundredths of a radian. Follow with <code>round = yes</code> if you need an exact result.</p>
+<h3 id="example_4">Example</h3>
+<pre><code>{ value = 1  atan = yes }
+</code></pre>
+<h2 id="atan2">atan2</h2>
+<p>Sets the accumulator to the quadrant-aware arctangent atan2(y, x), where the accumulator is y and the value is x. The result is expressed in radians.</p>
+<p>Note: this is computed with a numerical approximation and may be off by a few hundredths of a radian; follow with <code>round = yes</code> if you need an exact result. The degenerate case atan2(0, 0) returns roughly pi/2 rather than 0.</p>
+<h3 id="example_5">Example</h3>
+<pre><code>{ value = 1  atan2 = 1 }
+</code></pre>
+<h2 id="clamp">clamp</h2>
+<p>Clamps the accumulator between a minimum and maximum bound. Note that arguments are order sensitive.</p>
+<h3 id="example_6">Example</h3>
+<pre><code>{ value = num_units  clamp = { min = 0 max = 100 } }
+</code></pre>
+<h2 id="cos">cos</h2>
+<p>Sets the accumulator to the cosine of itself. The angle is expressed in radians.</p>
+<h3 id="example_7">Example</h3>
+<pre><code>{ value = 0  cos = yes }
+</code></pre>
+<h2 id="divide">divide</h2>
+<p>Divides the accumulator by a value.</p>
+<h3 id="example_8">Example</h3>
+<pre><code>{ value = 100  divide = 5 }
+</code></pre>
+<h2 id="equals">equals</h2>
+<p>Returns 1 if the accumulator equals the value, otherwise 0.</p>
+<h3 id="example_9">Example</h3>
+<pre><code>{ value = 7  equals = 7 }
+</code></pre>
+<h2 id="every_collection">every_collection</h2>
+<p>Iterates over a named collection, applying statements to the accumulator for each element.</p>
+<h3 id="example_10">Example</h3>
+<pre><code>{ value = 0
+  every_collection = {
+    named_collection = my_collection
+    add = element_value } }
+</code></pre>
+<h2 id="greater_than_or_equals">greater_than_or_equals</h2>
+<p>Returns 1 if the accumulator is greater than or equal to the value, otherwise 0.</p>
+<h3 id="example_11">Example</h3>
+<pre><code>{ value = 5  greater_than_or_equals = 5 }
+</code></pre>
+<h2 id="if">if</h2>
+<p>Conditional statement that modifies the accumulator based on a condition.
+Note that the limit is a math expression. It is considered true if the value is anything but 0.</p>
+<h3 id="example_12">Example</h3>
+<pre><code>{ value = x
+  if = { limit = { value = x  greater_than = 10 }  add = 100 }
+  else = { subtract = 1 } }
+</code></pre>
+<h2 id="lerp">lerp</h2>
+<p>Linearly interpolates from the accumulator towards <code>to</code> by <code>alpha</code>, where alpha is clamped between 0 and 1. An alpha of 0 keeps the accumulator, 1 returns <code>to</code>.</p>
+<h3 id="example_13">Example</h3>
+<pre><code>{ value = 10  lerp = { to = 20  alpha = 0.5 } }
+</code></pre>
+<h2 id="less_than_or_equals">less_than_or_equals</h2>
+<p>Returns 1 if the accumulator is less than or equal to the value, otherwise 0.</p>
+<h3 id="example_14">Example</h3>
+<pre><code>{ value = 5  less_than_or_equals = 5 }
+</code></pre>
+<h2 id="log">log</h2>
+<p>Sets the accumulator to its logarithm in the given base.</p>
+<p>Note: this is computed with a numerical approximation and may produce small rounding errors (e.g. 3.00001 instead of 3). Follow with <code>round = yes</code> if you need an exact integer result.</p>
+<h3 id="example_15">Example</h3>
+<pre><code>{ value = 1000  log = 10 }
+{ value = 1000  log = 10  round = yes }
+</code></pre>
+<h2 id="max">max</h2>
+<p>Sets the accumulator to the maximum of itself and the value.</p>
+<h3 id="example_16">Example</h3>
+<pre><code>{ value = 9  max = 15 }
+</code></pre>
+<h2 id="min">min</h2>
+<p>Sets the accumulator to the minimum of itself and the value.</p>
+<h3 id="example_17">Example</h3>
+<pre><code>{ value = 9  min = 4 }
+</code></pre>
+<h2 id="mod">mod</h2>
+<p>Sets the accumulator to the remainder of dividing it by the value.</p>
+<h3 id="example_18">Example</h3>
+<pre><code>{ value = 17  mod = 5 }
+</code></pre>
+<h2 id="multiply">multiply</h2>
+<p>Multiplies the accumulator by a value.</p>
+<h3 id="example_19">Example</h3>
+<pre><code>{ value = 2.3  multiply = num_units }
+</code></pre>
+<h2 id="not">not</h2>
+<p>Returns 1 if the accumulator is zero, otherwise 0.</p>
+<h3 id="example_20">Example</h3>
+<pre><code>{ value = 0  not = yes }
+</code></pre>
+<h2 id="not_equals">not_equals</h2>
+<p>Returns 1 if the accumulator does not equal the value, otherwise 0.</p>
+<h3 id="example_21">Example</h3>
+<pre><code>{ value = 7  not_equals = 5 }
+</code></pre>
+<h2 id="or">or</h2>
+<p>Returns 1 if either the accumulator or the value is non-zero, otherwise 0.</p>
+<h3 id="example_22">Example</h3>
+<pre><code>{ value = 0  or = 1 }
+</code></pre>
+<h2 id="pow">pow</h2>
+<p>Raises the accumulator to the given power.</p>
+<p>Integer exponents are computed exactly by repeated multiplication. Fractional exponents (e.g. <code>pow = 0.5</code>) use a numerical approximation and may produce small rounding errors; follow with <code>round = yes</code> if you need an exact integer result.</p>
+<h3 id="example_23">Example</h3>
+<pre><code>{ value = 2  pow = 10 }
+{ value = 2  pow = 10  round = yes }
+</code></pre>
+<h2 id="root">root</h2>
+<p>Takes the root of the accumulator. The argument is the degree of the root, so 2 gives the square root, 3 the cube root and so on.</p>
+<p>Note: this is a numerical approximation and may produce small rounding errors (e.g. 4.00001 instead of 4). Follow with <code>round = yes</code> if you need an exact integer result.</p>
+<h3 id="example_24">Example</h3>
+<pre><code>{ value = 16  root = 2 }
+{ value = 27  root = 3 }
+{ value = 16  root = 2  round = yes }
+</code></pre>
+<h2 id="round">round</h2>
+<p>Rounds the accumulator to the nearest integer.</p>
+<h3 id="example_25">Example</h3>
+<pre><code>{ value = 3.7  round = yes }
+</code></pre>
+<h2 id="sin">sin</h2>
+<p>Sets the accumulator to the sine of itself. The angle is expressed in radians.</p>
+<h3 id="example_26">Example</h3>
+<pre><code>{ value = 0  sin = yes }
+</code></pre>
+<h2 id="subtract">subtract</h2>
+<p>Subtracts a value from the accumulator.</p>
+<h3 id="example_27">Example</h3>
+<pre><code>{ value = 20  subtract = 5 }
+</code></pre>
+<h2 id="tan">tan</h2>
+<p>Sets the accumulator to the tangent of itself. The angle is expressed in radians.</p>
+<h3 id="example_28">Example</h3>
+<pre><code>{ value = 0  tan = yes }
+</code></pre>
+<h2 id="xor">xor</h2>
+<p>Returns 1 if exactly one of the accumulator and the value is non-zero, otherwise 0.</p>
+<h3 id="example_29">Example</h3>
+<pre><code>{ value = 1  xor = 0 }
+</code></pre>
+    </div>
+    </main>
+</body>
+</html>

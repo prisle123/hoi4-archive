@@ -225,7 +225,7 @@ AST_vichy_out_of_africa_cat = {
 	visible = { 
 		has_country_flag = AST_vichy_pact_flag
 		NOT = {
-			has_completed_focus = AST_done_meddling
+			has_completed_focus = AST_undeniably_ours
 		}
 	}
 }

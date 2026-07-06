@@ -1224,56 +1224,80 @@ AST_nauru_pact_effect = {
 
 	IF = {
 		limit = {
-			original_tag = AST
-			OR = {
-				has_idea = AST_phosphate_commission
-				has_country_flag = AST_phosphate_commission_flag
+			GER = {
+				OR = { 
+					has_country_flag = AST_ast_to_ger_faction_flag #tt reasons
+					AND = {
+						is_in_faction = yes
+						is_faction_leader = yes
+					}
+				} 
 			}
 		}
 		custom_effect_tooltip = generic_skip_one_line_tt
-		set_country_flag = AST_phosphate_commission_flag
-		remove_ideas = {
-			AST_phosphate_commission
-		}
-	}
-
-	custom_effect_tooltip = generic_skip_one_line_tt
-	GER = { 
-		give_guarantee = AST 
-	}
-
-	IF = {
-		limit = {
-			AST = {
-				is_subject = yes
-			}
-		}
 		IF = {
 			limit = {
-				GER = {
-					is_in_faction = yes
-					is_faction_leader = yes
-				}
-			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			GER = {
-				add_to_faction = AST 
-			}
-		}
-		ELSE_IF = {
-			limit = {	
 				AST = {
-					is_in_faction_with = OVERLORD
+					is_subject = no
 				}
 			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			ROOT.OVERLORD = {
+			effect_tooltip = {
 				set_autonomy = {
 					target = AST
 					autonomy_state = autonomy_free
 				}
-				remove_from_faction = AST
 			}
+		}
+		GER = {
+			add_to_faction = AST 
+			set_country_flag = AST_ast_to_ger_faction_flag #tt reasons
+		}
+	}
+	ELSE = {
+		custom_effect_tooltip = generic_skip_one_line_tt
+		IF = {
+			limit = {
+				AST = {
+					OR = {
+						has_country_flag = AST_nauru_pact_leave_faction_flag #tt reasons
+						is_in_faction_with = ROOT.OVERLORD
+					}
+				}
+			}
+			AST = {
+				ROOT.OVERLORD = {
+					set_autonomy = {
+						target = AST
+						autonomy_state = autonomy_free
+					}
+					remove_from_faction = AST
+				}
+				set_country_flag = AST_nauru_pact_leave_faction_flag
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+		}
+		ELSE_IF = {
+			limit = {
+				AST = {
+					OR = {
+						has_country_flag = AST_nauru_pact_autonomy_free_flag #tt reasons
+						is_subject = yes
+					}
+				}
+			}
+			AST = {
+				ROOT.OVERLORD = {
+					set_autonomy = {
+						target = AST
+						autonomy_state = autonomy_free
+					}
+				}
+				set_country_flag = AST_nauru_pact_autonomy_free_flag
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
+		}
+		GER = { 
+			give_guarantee = AST 
 		}
 	}
 }
@@ -1300,25 +1324,25 @@ AST_broken_nauru_pact_effect = {
 	}
 }
 
-AST_hand_in_glove_effect = {
-	
+AST_hand_in_glove_effect = {	
 	IF = {
 		limit = {
 			BRM = {
-				OR = {
-					is_subject_of = ENG
-					has_country_flag = AST_hand_in_glove_puppet_to_ast
-				}
+				is_ai = yes
+				is_subject_of = ENG
 			}
 		}
 		BRM = { 
-			set_country_flag = AST_hand_in_glove_puppet_to_ast #For tt reasons
-		}
-		AST = {
-			puppet = BRM
-		}
-		hidden_effect = {
-			BRM = { country_event = { id = AST_diplomatic_events.46 hours = 3 } }
+			every_state = {
+				limit = {
+					OR = {
+						is_owned_by = BRM
+						has_state_flag = AST_hand_in_glove_transfer_to_ast
+					}
+				}
+				set_state_flag = AST_hand_in_glove_transfer_to_ast #For tt reasons
+				transfer_state_to = AST
+			} 
 		}
 	}
 	
@@ -1339,21 +1363,23 @@ AST_hand_in_glove_effect = {
 	IF = {
 		limit = {
 			MAL = {
-				OR = {
-					is_subject_of = ENG
-					has_country_flag = AST_hand_in_glove_puppet_to_ast
-				}
+				is_ai = yes
+				is_subject_of = ENG
 			}
 		}
 		MAL = { 
-			set_country_flag = AST_hand_in_glove_puppet_to_ast #For tt reasons
+			every_state = {
+				limit = {
+					OR = {
+						is_owned_by = MAL
+						has_state_flag = AST_hand_in_glove_transfer_to_ast
+					}
+				}
+				set_state_flag = AST_hand_in_glove_transfer_to_ast #For tt reasons
+				transfer_state_to = AST
+			} 
 		}
-		AST = {
-			puppet = MAL
-		}
-		hidden_effect = {
-			MAL = { country_event = { id = AST_diplomatic_events.46 hours = 3 } }
-		}
+		custom_effect_tooltip = generic_skip_one_line_tt
 	}
 	
 	MAL = {
@@ -1368,7 +1394,6 @@ AST_hand_in_glove_effect = {
 			transfer_state_to = AST
 		}
 	}
-
 }
 
 AST_hand_in_glove_deny_effect = {
@@ -1685,6 +1710,38 @@ AST_instigate_civil_war_in_target = {
 				array = AST_union_control_target_array
 				value = event_target:AST_instigated_communist_civil_war_country
 			}
+		}
+	}
+}
+
+# Resolves a union-control civil war where the faction-protected loyalist capitulates but is never annexed. Runs on the loyalist.
+AST_resolve_stuck_union_control_civil_war = {
+	save_event_target_as = AST_stuck_union_control_loyalist
+	if = {
+		limit = {
+			any_country = {
+				has_country_flag = AST_instigated_communist_civil_war
+				check_variable = { AST_communist_civil_war_enemy_country = event_target:AST_stuck_union_control_loyalist }
+			}
+		}
+		every_country = {
+			limit = {
+				has_country_flag = AST_instigated_communist_civil_war
+				check_variable = { AST_communist_civil_war_enemy_country = event_target:AST_stuck_union_control_loyalist }
+			}
+			save_event_target_as = AST_stuck_union_control_rebel
+		}
+
+		event_target:AST_stuck_union_control_rebel = {
+			annex_country = { target = PREV transfer_troops = yes }
+			# Annexing the loyalist makes the rebel inherit its overlord; free it before AST can puppet it.
+			if = {
+				limit = { is_subject = yes }
+				overlord = { end_puppet = PREV }
+			}
+		}
+		AST = {
+			puppet = { target = event_target:AST_stuck_union_control_rebel }
 		}
 	}
 }

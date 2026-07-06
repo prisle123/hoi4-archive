@@ -49,7 +49,7 @@
  MANPOWER_RAILWAY_GUN_DESC: "§TCe §Hcanon ferroviaire§! nécessite une main-d'œuvre de $AMOUNT|G$ hommes.§!"
  MANPOWER_AIRWING: "Main-d'œuvre pour l'escadrille"
  MANPOWER_AIRWING_DESC: "§TCette §Hescadrille§! a besoin d'une main-d'œuvre de $AMOUNT|G$ hommes.§!"
- CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\nMain-d'œuvre totale fixée à $VAL|+%0$ du fait de :\n"
+ CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\nMain-d'œuvre totale fixée à $VAL$ du fait de :\n"
  EQUIPMENT_DIVISION: "Approvisionnement en matériel"
  EQUIPMENT_DIVISION_DESC: "Matériel reçu et utilisé par la division, représentant un pourcentage de ses besoins totaux."
  DIVISION_IN_TEMPLATE_TRANSFER: "La division bascule du modèle $OLD|H$ au modèle $NEW|H$. Sa réorganisation sera terminée lorsque l'équipement de première nécessité aura été livré ; l'ancien équipement sera alors envoyé dans les réserves."

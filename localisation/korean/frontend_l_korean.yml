@@ -86,6 +86,8 @@
  SM_MULTISAMPLE: "멀티샘플 레벨"
  SM_AMBIENT_OBJECTS: "배경 음량"
  SM_VOICE_VOLUME: "음성 음량"
+ SM_EVENT_SOUNDS: "이벤트 효과음"
+ SM_EVENT_SOUNDS_DESC: "스크립트를 통해 재생되는 효과음 및 음악을 허용합니다. 모드를 적용하여 플레이하는 경우 켜는 것을 추천합니다."
  SM_VSYNC: "수직동기화"
  SM_WEATHER: "날씨"
  SM_WATER_REFL: "수면 반사"

@@ -4277,8 +4277,8 @@
  INS_armored_car_equipment_0: "Вилтон-Фейенорд Панцерваген"
  INS_armored_car_equipment_0_short: "ВФ Панцерваген"
  #Vehicles - Mechanized
- INS_mechanized_equipment_1: "Овервалваген I"
- INS_mechanized_equipment_1_short: "Овервалваген I"
+ INS_mechanized_equipment_1: "Овервалваген"
+ INS_mechanized_equipment_1_short: "Овервалваген"
  INS_mechanized_equipment_2: "Овервалваген II"
  INS_mechanized_equipment_2_short: "Овервалваген II"
  INS_mechanized_equipment_3: "Овервалваген Браат"
@@ -4293,6 +4293,10 @@
  INS_infantry_equipment_3: "Пистолет-пулемет M3"
  INS_infantry_equipment_3_short: "Пистолет-пулемет M3"
  INS_support_weapons: "Пулемет «Мадсен»"
+ INS_gw_armored_car_equipment: "Вилтон-Фейеноорд Панцерваген"
+ INS_gw_armored_car_equipment_short: "ВФ Панцерваген"
+ INS_armored_car_equipment_1: "Alvis-Straussler AC3D"
+ INS_armored_car_equipment_1_short: "АС AC3D"
  #Artillery
  INS_artillery_equipment_1: "M23 «Виккерс»"
  INS_artillery_equipment_1_short: "M23 «Виккерс»"

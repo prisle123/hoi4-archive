@@ -60,6 +60,7 @@
  DESIGNER_EXPENSIVE: "该编制花费过高"
  DESIGNER_NOT_ENOUGH_SPECIAL_FORCES: "变化编制会导致我们超出特种部队上限"
  DESIGNER_NOT_ENOUGH_DIVISION_CAP: "设计改动会导致我们超出部队上限"
+ DESIGNER_GARRISON_ZERO_SUPPRESSION: "§R您无法保存对此编制的更改，因为它当前正用于驻防，而此更改将导致其镇压值变为§Y0§!。§!"
  DESIGNER_NO_CHANGES: "§T没有任何更改，无法保存§!"
  DESIGNER_ARMY_SAVE: "花费£army_experience $VALUE|Y0$保存"
  DESIGNER_ARMY_SAVE_HQ: "保存£army_experience $XP|Y0$ £command_power $CP|Y0$"

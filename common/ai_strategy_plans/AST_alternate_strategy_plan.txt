@@ -12,7 +12,7 @@ AST_adela_fascist_ai = {
 		OR = {
 			has_country_flag = AST_ADELA_FASCIST_TAOG_AI
 			has_game_rule = {
-				rule = AST_AI_BEHAVIOR_TAOG
+				rule = AST_AI_BEHAVIOR
 				option = ADELA
 			}
 		}
@@ -69,7 +69,7 @@ AST_peter_fascist_ai = {
 		OR = {
 			has_country_flag = AST_PETER_FASCIST_TAOG_AI
 			has_game_rule = {
-				rule = AST_AI_BEHAVIOR_TAOG
+				rule = AST_AI_BEHAVIOR
 				option = PETER
 			}
 		}
@@ -129,7 +129,7 @@ AST_random_democratic_ai = {
 		OR = {
 			has_country_flag = AST_RANDOM_DEMOCRATIC_TAOG_AI
 			has_game_rule = {
-				rule = AST_AI_BEHAVIOR_TAOG
+				rule = AST_AI_BEHAVIOR
 				option = DEMOCRATIC_TAOG
 			}
 		}
@@ -181,7 +181,7 @@ AST_anti_commonwealth_communist_ai = {
 		OR = {
 			has_country_flag = AST_ANTI_COMMONWEALTH_COMMUNIST_TAOG_AI
 			has_game_rule = {
-				rule = AST_AI_BEHAVIOR_TAOG
+				rule = AST_AI_BEHAVIOR
 				option = ANTICOMMONWEALTHCOMMUNIST
 			}
 		}
@@ -234,7 +234,7 @@ AST_comintern_communist_ai = {
 		OR = {
 			has_country_flag = AST_COMINTERN_COMMUNIST_TAOG_AI
 			has_game_rule = {
-				rule = AST_AI_BEHAVIOR_TAOG
+				rule = AST_AI_BEHAVIOR
 				option = COMINTERNCOMMUNIST
 			}
 		}
@@ -286,7 +286,7 @@ AST_alternate_democratic = {
 
 	allowed = {
 		original_tag = AST
-		has_dlc = "Together for Victory"
+		NOT = {	has_dlc = "Thunder at Our Gates" }
 	}
 	enable = {
 		OR = {
@@ -404,7 +404,7 @@ AST_alternate_fascist = {
 
 	allowed = {
 		original_tag = AST
-		has_dlc = "Together for Victory"
+		NOT = {	has_dlc = "Thunder at Our Gates" }
 	}
 	enable = {
 		OR = {
@@ -523,7 +523,7 @@ AST_alternate_communist = {
 
 	allowed = {
 		original_tag = AST
-		has_dlc = "Together for Victory"
+		NOT = {	has_dlc = "Thunder at Our Gates" }
 	}
 	enable = {
 		OR = {

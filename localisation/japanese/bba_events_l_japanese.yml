@@ -361,7 +361,7 @@
  BBA_ethiopia_exile_events.42.a: "理解はできる"
  BBA_ethiopia_exile_events.42.b: "生意気な。我々の命令に黙って従えば良いものを。"
  BBA_ethiopia_exile_events.43.t: "[FROM.GetName]が要請を承諾"
- BBA_ethiopia_exile_events.43.desc: "[FROM.GetLeader]が理解 "
+ BBA_ethiopia_exile_events.43.desc: "[FROM.GetLeader]は、国民に対して面目を保てるような形で紛争を終結するためには、[ETH.GetName]が領土を譲渡しなければならないということを理解している。まもなく侵攻によるこの混乱は過去の産物となり、我が国は誇りを取り戻すだろう。"
  BBA_ethiopia_exile_events.43.a: "よし"
  BBA_ethiopia_exile_events.44.t: "[FROM.GetLeader]が我々の要求に怒り狂う"
  BBA_ethiopia_exile_events.44.desc: "[ROOT.GetLeader]が提示した議論が、まともに聞き入れられることはなかった。[FROM.GetLeader]は延々と怒鳴り散らしながら、提案された内容が全ての関係者にとって最善のものであると主張し、また[ROOT.GetLeader]が出来損ないであるとした。[ROOT.GetLeader.GetHerHis]のせいで、アフリカで勝利を収められなかったからだ。[FROM.GetLeader]はさらに叫び続けた。[FROM.GetAdjective]はわずか数週間の内に、確実に[ROOT.GetAdjective]軍を壊滅させることができると。"

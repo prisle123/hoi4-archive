@@ -1,7 +1,6 @@
 ﻿l_english:
  ABILITY_TOOLTIP_NAME: "$NAME|H$"
  ABILITY_TOOLTIP_NAME_CANCEL: "§RCancel: $NAME|H$§!"
- ABILITY_TOOLTIP_OUT_OF_RANGE: "§RThis division is outside ability range§!"
  ABILITY_TOOLTIP_DETAILED_COST: "    - Base cost: $VALUE|H2$ (each for $UNITS|H0$ battalions)"
  ABILITY_TOOLTIP_DETAILED_COST_FACTOR: "    - Abilities cost: $FACTOR|+%$"
  ABILITY_TOOLTIP_DAILY_COST: "Daily: £command_power $VALUE|H2$"
@@ -35,7 +34,8 @@
  ABILITY_TOOLTIP_FIELD_MARSHAL_BULK_LEADER_UNAVAIL: " - §Y$LEADER$§! §Ris unavailable§!"
  ABILITY_TOOLTIP_GRANTED_BY_FIELD_MARSHAL: "This ability is granted by Field Marshal §Y$NAME$§!."
  ABILITY_TOOLTIP_LATE_JOINER_WARNING: "The strength of this ability will be reduced if additional divisions are added to the army while the ability is active."
- ASSIGN_TARGET_LATE_JOINER_WARNING: "Adding the selected §Y$COUNT$§! divisions to this army will apply an additional ($MODIFIER|+%0$) modifier to the strength of the currently active abilities: $NAMES$"
+ ABILITY_TOOLTIP_LATE_JOINER_MULT: "The strength of this ability is reduced by $MULT|0-%$ because additional battalions have been added to the army while the ability is active."
+ ASSIGN_TARGET_LATE_JOINER_WARNING: "Adding the selected §Y$COUNT$§! battalions to this army will apply an additional ($MODIFIER|+%0$) modifier to the strength of the currently active abilities: $NAMES$"
  ASSIGN_TARGET_LATE_JOINER_NAME: "§Y$NAME$§!"
  ABILITY_TOOLTIP_HEADER_SUMMARY: "£command_power §Y$COST|H2$§!  £clock_texticon §Y$DURATION$§!"
  ABILITY_TOOLTIP_HEADER_COST_ONLY: "£command_power §Y$COST|H2$§!"

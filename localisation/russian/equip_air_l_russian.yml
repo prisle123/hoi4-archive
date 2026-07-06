@@ -1040,8 +1040,8 @@
  AST_fighter_equipment_3: "CAC CA-15"
  AST_fighter_equipment_3_short: "CA-15"
  #Medium Airframe (Heavy Fighter)
- AST_heavy_fighter_equipment_1: "Бристоль «Бленхейм»"
- AST_heavy_fighter_equipment_1_short: "«Бленхейм»"
+ AST_heavy_fighter_equipment_1: "Бристоль «Бленхейм» Mk. IF"
+ AST_heavy_fighter_equipment_1_short: "Бленхейм IF"
  AST_heavy_fighter_equipment_2: "Бристоль «Бофайтер»"
  AST_heavy_fighter_equipment_2_short: "«Бофайтер»"
  AST_heavy_fighter_equipment_3: "Де Хэвилленд «Москито»"

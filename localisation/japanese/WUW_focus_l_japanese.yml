@@ -2541,7 +2541,7 @@
  GER_negotiate_old_colonies_in_the_east: "東方の旧植民地に関する交渉"
  GER_negotiate_old_colonies_in_the_east_desc: "東アジアにおける我が国の植民地の多くは、第一次世界大戦中に[JAP.GetAdjective]によって奪われた。我々は現在、外交関係の改善に積極的に取り組んでいるので、外交的手段によってこれらの植民地のいくつかを取り戻すことができるかもしれない。"
  GER_claim_old_colonies_in_the_east_tt: "各§Y陣営国§!と§Y[CHI.GetNameWithFlag]§!に、§Y東南アジア§!における[GER.GetAdjective]の旧植民地の支配権を求めるイベントを送信する。拒否された場合や、非同盟国によって地域が支配された場合は、係争州の§Y請求権§!を獲得する。"
- GER_negotiate_old_colonies_in_the_east_tt: "同国が支配する以下の州は我々に譲渡される: \n§Y[684.GetName]\n[647.GetName]\n[646.GetName]\n[633.GetName]\n[743.GetName]\n[979.GetName]\n[737.GetName]\n[726.GetName]\n[725.GetName]\n[634.GetName]§!"
+ GER_negotiate_old_colonies_in_the_east_tt: "同国が支配する以下の州が我々に譲渡される: \n§Y[684.GetName]\n[647.GetName]\n[646.GetName]\n[633.GetName]\n[743.GetName]\n[979.GetName]\n[737.GetName]\n[726.GetName]\n[725.GetName]\n[1070.GetName]§!"
  GER_sentinels_of_the_pacific: "太平洋の歩哨"
  GER_sentinels_of_the_pacific_desc: "太平洋における我が国の足場は概してまだ完全には築けておらず、我が国の海軍および同盟国の海軍のいずれにも役立たない。太平洋の関連地域で適切な海軍インフラが確立されるよう、多大な努力を払わなければならない。"
  GER_sentinels_of_the_pacific_tt: "以下の全支配州：§Y\n[336.GetName]\n[335.GetName]\n[743.GetName]\n[633.GetName]\n[646.GetName]§!"

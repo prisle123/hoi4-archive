@@ -1,7 +1,6 @@
 ﻿l_french:
  ABILITY_TOOLTIP_NAME: "$NAME|H$"
  ABILITY_TOOLTIP_NAME_CANCEL: "§RAnnuler $NAME|H$§!"
- ABILITY_TOOLTIP_OUT_OF_RANGE: "§RCette division est hors de portée de la capacité§!"
  ABILITY_TOOLTIP_DETAILED_COST: "    - Coût de base : $VALUE|H2$ (pour chacun des $UNITS|H0$ bataillons)."
  ABILITY_TOOLTIP_DETAILED_COST_FACTOR: "    - Coût des capacités : $FACTOR|+%$"
  ABILITY_TOOLTIP_DAILY_COST: "Chaque jour : $VALUE|H2$£command_power"
@@ -35,7 +34,8 @@
  ABILITY_TOOLTIP_FIELD_MARSHAL_BULK_LEADER_UNAVAIL: " - §Y$LEADER$§! §Rest indisponible§!"
  ABILITY_TOOLTIP_GRANTED_BY_FIELD_MARSHAL: "Cette capacité est accordée par le maréchal §Y$NAME$§!."
  ABILITY_TOOLTIP_LATE_JOINER_WARNING: "La puissance de cette capacité sera réduite si des divisions supplémentaires sont ajoutées à l'armée lorsqu'elle est active."
- ASSIGN_TARGET_LATE_JOINER_WARNING: "Ajouter les §Y$COUNT$§! divisions sélectionnées à l'armée va appliquer un modificateur supplémentaire ($MODIFIER|+%0$) à la puissance des capacités actives : $NAMES$"
+ ABILITY_TOOLTIP_LATE_JOINER_MULT: "La puissance de cette capacité est réduite de $MULT|0-%$, car des bataillons supplémentaires ont été ajoutés à l'armée lorsqu'elle était active."
+ ASSIGN_TARGET_LATE_JOINER_WARNING: "Ajouter les §Y$COUNT$§! bataillons sélectionnés à l'armée va appliquer un modificateur supplémentaire ($MODIFIER|+%0$) à la puissance des capacités actives : $NAMES$"
  ASSIGN_TARGET_LATE_JOINER_NAME: "§Y$NAME$§!"
  ABILITY_TOOLTIP_HEADER_SUMMARY: "§Y$COST|H2$§!£command_power  §Y$DURATION$§!£clock_texticon"
  ABILITY_TOOLTIP_HEADER_COST_ONLY: "§Y$COST|H2$§!£command_power"

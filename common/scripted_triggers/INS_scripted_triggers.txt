@@ -24,6 +24,7 @@ INS_dutch_army_chief_check_VISIBLE = {
 	OR = {
 		is_subject_of = HOL
 		has_completed_focus = INSHOL_volksraad_compromises
+		has_cosmetic_tag = INS_UNION
 	}
 }
 

@@ -1005,6 +1005,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_report_event_korean_war_march"
+		texturefile = "gfx/event_pictures/report_event_korean_war_march.dds"
+	}
+
+	spriteType = {
 		name = "GFX_report_event_crowd_in_prague"
 		texturefile = "gfx/event_pictures/report_event_crowd_in_prague.dds"
 	}

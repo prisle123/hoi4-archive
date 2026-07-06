@@ -135,6 +135,7 @@
  hunt_for_the_desert_fox_tt: "$GER_erwin_rommel$ 포획함"
  right_side_up_tt: "[AST.GetNonIdeologyName](으)로, [914.GetName] 소유 및 지배함"
  maphilindia_tt: "[PHI.GetNonIdeologyName] 또는 [INS.GetNonIdeologyName](으)로, 마필린도를 형성하고 [RAJ.GetNonIdeologyName]의 모든 시작 주를 소유함"
+ maphilindia_formed_tt: "마필린도를 형성함"
  old_zealand_tt: "[NZL.GetNonIdeologyName](으)로, [35.GetName] 및 [37.GetName] 소유 및 지배함"
  thaitanic_tt: "[SIA.GetNonIdeologyName]에 속한 함대의 자랑을 격침함"
  thaifighters_tt: "[SIA.GetNonIdeologyName](으)로, 에이스 10명을 생산함"

@@ -13154,6 +13154,7 @@ focus_tree = {
 						state = 737
 						state = 634
 						state = 669
+						state = 1070
 						state = 734
 						state = 635
 					}
@@ -14070,7 +14071,10 @@ focus_tree = {
 
 		bypass = {
 			SIA = {
-				has_war_with = ROOT
+				OR = {
+					exists = no
+					has_war_with = ROOT
+				}
 			}
 		}
 

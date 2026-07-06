@@ -60,6 +60,7 @@
  DESIGNER_EXPENSIVE: "Ce modèle est trop coûteux."
  DESIGNER_NOT_ENOUGH_SPECIAL_FORCES: "Ce changement de modèle ferait dépasser la limite maximale des forces spéciales."
  DESIGNER_NOT_ENOUGH_DIVISION_CAP: "Ce changement de modèle ferait dépasser le plafond des divisions."
+ DESIGNER_GARRISON_ZERO_SUPPRESSION: "§RImpossible de sauvegarder les modifications de ce modèle, car il est déjà utilisé en garnison et les modifications produiraient une répression égale à §Y0§!.§!"
  DESIGNER_NO_CHANGES: "§TAucun changement à sauvegarder.§!"
  DESIGNER_ARMY_SAVE: "Sauv. : $VALUE|Y0$£army_experience£"
  DESIGNER_ARMY_SAVE_HQ: "Sauv. : $XP|Y0$£army_experience $CP|Y0$£command_power"

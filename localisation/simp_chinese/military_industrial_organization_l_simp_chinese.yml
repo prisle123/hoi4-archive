@@ -273,6 +273,7 @@
  mio_cat_eq_only_strategic_bomber: "战略轰炸机"
  mio_cat_eq_all_cv_aircraft: "所有舰载机"
  mio_cat_eq_all_artillery: "所有火炮装备"
+ mio_cat_eq_only_artillery: "$artillery_equipment$"
  mio_cat_eq_all_infantry_and_support_equipment: "所有步兵和支援装备"
  ##     ## ########    ###    ########  ######## ########   ######
  ##     ## ##         ## ##   ##     ## ##       ##     ## ##    ##

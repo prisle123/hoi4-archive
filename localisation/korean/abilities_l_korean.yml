@@ -1,7 +1,6 @@
 ﻿l_korean:
  ABILITY_TOOLTIP_NAME: "$NAME|H$"
  ABILITY_TOOLTIP_NAME_CANCEL: "§R취소: $NAME|H$§!"
- ABILITY_TOOLTIP_OUT_OF_RANGE: "§R이 사단은 능력 범위 밖에 있습니다§!"
  ABILITY_TOOLTIP_DETAILED_COST: "    - 기본 비용: $VALUE|H2$(대대 하나당 $UNITS|H0$)"
  ABILITY_TOOLTIP_DETAILED_COST_FACTOR: "    - 능력 비용: $FACTOR|+%$"
  ABILITY_TOOLTIP_DAILY_COST: "매일: £command_power $VALUE|H2$"
@@ -35,7 +34,8 @@
  ABILITY_TOOLTIP_FIELD_MARSHAL_BULK_LEADER_UNAVAIL: " - §Y$LEADER$§! §R사용 불가능§!"
  ABILITY_TOOLTIP_GRANTED_BY_FIELD_MARSHAL: "이 능력은 §Y$NAME$§! 원수에게 부여되었습니다."
  ABILITY_TOOLTIP_LATE_JOINER_WARNING: "이 능력이 활성화되어 있는 동안에 사단이 육군에 추가되면 능력의 효과가 감소합니다."
- ASSIGN_TARGET_LATE_JOINER_WARNING: "선택된 §Y$COUNT$§!개의 사단이 이 육군에 추가되면 추가 변동치($MODIFIER|+%0$)가 현재 활성화된 능력의 효과에 적용됩니다: $NAMES$"
+ ABILITY_TOOLTIP_LATE_JOINER_MULT: "이 능력이 활성화되어 있는 동안에 대대가 육군에 추가되어 능력의 효과가 $MULT|0-%$ 감소했습니다."
+ ASSIGN_TARGET_LATE_JOINER_WARNING: "선택된 §Y$COUNT$§!개의 대대가 이 육군에 추가되면 추가 변동치($MODIFIER|+%0$)가 현재 활성화된 능력의 효과에 적용됩니다: $NAMES$"
  ASSIGN_TARGET_LATE_JOINER_NAME: "§Y$NAME$§!"
  ABILITY_TOOLTIP_HEADER_SUMMARY: "£command_power §Y$COST|H2$§!  £clock_texticon §Y$DURATION$§!"
  ABILITY_TOOLTIP_HEADER_COST_ONLY: "£command_power §Y$COST|H2$§!"

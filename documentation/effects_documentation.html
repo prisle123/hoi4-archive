@@ -46,7 +46,6 @@
 <li><a href="#add_scientist_trait">add_scientist_trait</a></li>
 <li><a href="#add_scientist_xp">add_scientist_xp</a></li>
 <li><a href="#add_skill_level">add_skill_level</a></li>
-<li><a href="#add_temporary_buff_to_units">add_temporary_buff_to_units</a></li>
 <li><a href="#add_timed_unit_leader_trait">add_timed_unit_leader_trait</a></li>
 <li><a href="#add_trait">add_trait</a></li>
 <li><a href="#add_unit_leader_trait">add_unit_leader_trait</a></li>
@@ -68,6 +67,7 @@
 <li><a href="#print_variables">print_variables</a></li>
 <li><a href="#promote_character">promote_character</a></li>
 <li><a href="#promote_leader">promote_leader</a></li>
+<li><a href="#release_from_captivity">release_from_captivity</a></li>
 <li><a href="#remove_advisor_role">remove_advisor_role</a></li>
 <li><a href="#remove_country_leader_role">remove_country_leader_role</a></li>
 <li><a href="#remove_country_leader_trait">remove_country_leader_trait</a></li>
@@ -295,6 +295,7 @@
 <li><a href="#reduce_focus_completion_cost">reduce_focus_completion_cost</a></li>
 <li><a href="#release">release</a></li>
 <li><a href="#release_autonomy">release_autonomy</a></li>
+<li><a href="#release_captured_generals_from">release_captured_generals_from</a></li>
 <li><a href="#release_on_controlled">release_on_controlled</a></li>
 <li><a href="#release_puppet">release_puppet</a></li>
 <li><a href="#release_puppet_on_controlled">release_puppet_on_controlled</a></li>
@@ -414,6 +415,7 @@
 <li><a href="#unlock_decision_tooltip">unlock_decision_tooltip</a></li>
 <li><a href="#unlock_military_industrial_organization_tooltip">unlock_military_industrial_organization_tooltip</a></li>
 <li><a href="#unlock_national_focus">unlock_national_focus</a></li>
+<li><a href="#unlock_subunit">unlock_subunit</a></li>
 <li><a href="#unlock_tactic">unlock_tactic</a></li>
 <li><a href="#upgrade_intelligence_agency">upgrade_intelligence_agency</a></li>
 <li><a href="#white_peace">white_peace</a></li>
@@ -549,6 +551,7 @@
 <li><a href="#add_victory_points">add_victory_points</a></li>
 <li><a href="#build_railway">build_railway</a></li>
 <li><a href="#cancel_border_war">cancel_border_war</a></li>
+<li><a href="#capture_by">capture_by</a></li>
 <li><a href="#change_tag_from">change_tag_from</a></li>
 <li><a href="#clamp_temp_variable">clamp_temp_variable</a></li>
 <li><a href="#clamp_variable">clamp_variable</a></li>
@@ -638,7 +641,6 @@
 <li><a href="#set_victory_points">set_victory_points</a></li>
 <li><a href="#sound_effect">sound_effect</a></li>
 <li><a href="#start_border_war">start_border_war</a></li>
-<li><a href="#store_ref">store_ref</a></li>
 <li><a href="#subtract_from_temp_variable">subtract_from_temp_variable</a></li>
 <li><a href="#subtract_from_variable">subtract_from_variable</a></li>
 <li><a href="#unlock_mio_policy_tooltip">unlock_mio_policy_tooltip</a></li>
@@ -2006,13 +2008,6 @@ Can only use modifiers from the resistance_modifiers.txt/compliance_modifiers.tx
 </ul>
 <pre><code>adds a limited use tech bonus
 </code></pre>
-<h2 id="add_temporary_buff_to_units">add_temporary_buff_to_units</h2>
-<ul>
-<li>Supported Scopes: CHARACTER</li>
-<li>Supported Targets: none</li>
-</ul>
-<pre><code>Add buffs to units that are belongs to the army group/navy of this unit leader
-</code></pre>
 <h2 id="add_threat">add_threat</h2>
 <ul>
 <li>Supported Scopes: COUNTRY</li>
@@ -2096,11 +2091,11 @@ Example: add_to_temp_array = {
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Adds a value or a variable to a temp variable
-Example: add_to_temp_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
+<p>Adds a value, a variable, or a <a href="script_math_expression.md">math expression</a> to a temp variable.</p>
+<h3 id="examples_2">Examples</h3>
+<pre><code>add_to_temp_variable = { num_dogs = 42 }
+add_to_temp_variable = {
+    num_dogs = { value = num_cats  multiply = 2 }
 }
 </code></pre>
 <h2 id="add_to_variable">add_to_variable</h2>
@@ -2108,11 +2103,11 @@ var = num_dogs
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Adds a value or a variable to another one
-Example: add_to_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
+<p>Adds a value, a variable, or a <a href="script_math_expression.md">math expression</a> to a variable.</p>
+<h3 id="examples_3">Examples</h3>
+<pre><code>add_to_variable = { num_dogs = 42 }
+add_to_variable = {
+    num_dogs = { value = num_cats  multiply = 2 }
 }
 </code></pre>
 <h2 id="add_to_war">add_to_war</h2>
@@ -2193,6 +2188,9 @@ add_units_to_division_template = {
   }
   support = {
      military_police = 0 # (Adds military_police to first available slot on first (and likely only) column of supports (x=0))
+  }
+  regimental_support = {
+     military_police = 0 # (Adds military_police to first available slot on first regiment 
   }
 }
 </code></pre>
@@ -2320,6 +2318,23 @@ contract =  {cancel_purchase_contract = yes}
 <pre><code>cancels resistance activity for a core country.
 use along with force_disable_resistance to disable resistance forever
 Example : cancel_resistance = yes
+</code></pre>
+<h2 id="capture_by">capture_by</h2>
+<ul>
+<li>Supported Scopes: any</li>
+<li>Supported Targets: ROOT</li>
+</ul>
+<p>Make the Unit Leader in scope be captured by the specified country (needs to be a general).
+Optionally specify the province where the leader is held captive.</p>
+<h3 id="example_7">Example</h3>
+<pre><code>capture_by = GER
+
+capture_by = FROM
+
+capture_by = {
+  country = GER
+  province = 1234
+}
 </code></pre>
 <h2 id="capture_operative">capture_operative</h2>
 <ul>
@@ -2736,7 +2751,7 @@ create_equipment_variant = {
 </ul>
 <p>Create a faction This effect is deprecated, prefer <a href="#create_faction_from_template">create_faction_from_template</a> instead.
 It will use the FACTION_DEFAULT_EFFECT_TEMPLATE if the Deeper Factions DLC is enabled.</p>
-<h3 id="examples_2">Examples</h3>
+<h3 id="examples_4">Examples</h3>
 <pre><code>TAG = { # Creator's tag
     create_faction = FACTION_NAME_LOC_ID
 }
@@ -2747,7 +2762,7 @@ It will use the FACTION_DEFAULT_EFFECT_TEMPLATE if the Deeper Factions DLC is en
 <li>Supported Targets: none</li>
 </ul>
 <p>Create a faction from a template allows for optional customization of name, icon and color.</p>
-<h3 id="examples_3">Examples</h3>
+<h3 id="examples_5">Examples</h3>
 <pre><code>TAG = { # Creator's tag
     create_faction_from_template = faction_template_id
 }
@@ -2926,7 +2941,7 @@ create_unit = {
 <li>Supported Targets: none</li>
 </ul>
 <p>Append an extra tooltip to the effect. The tooltip is a <a href="script_concept_documentation.md#bindable-localization">bindable localization</a>.</p>
-<h3 id="examples_4">Examples</h3>
+<h3 id="examples_6">Examples</h3>
 <pre><code>custom_effect_tooltip = MY_TOOLTIP # Simple loc key tooltip
 </code></pre>
 <pre><code>custom_effect_tooltip = {
@@ -2945,7 +2960,7 @@ create_unit = {
 </ul>
 <p>Executes the provided effects but with a custom tooltip surpressing all tooltips from all other effects inside this block.
 The custom tooltip is a <a href="script_concept_documentation.md#bindable-localization">bindable localization</a>.</p>
-<h3 id="examples_5">Examples</h3>
+<h3 id="examples_7">Examples</h3>
 <pre><code>custom_override_tooltip = {
     tooltip = MY_TOOLTIP # Simple loc key tooltip
     &lt;other effects&gt;
@@ -3042,7 +3057,7 @@ deactivate_advisor = GER_character_token_air_chief
 </ul>
 <p>Deactivate the shine effect on the focus with the given id. The current focus cannot have it's shine effect removed.</p>
 <p>Note that tooltips are only shown in debug mode.</p>
-<h3 id="example_7">Example:</h3>
+<h3 id="example_8">Example:</h3>
 <pre><code>deactivate_shine_on_focus = GER_prioritize_economic_growth
 </code></pre>
 <h2 id="declare_war_on">declare_war_on</h2>
@@ -3150,12 +3165,17 @@ diplomatic_relation = {
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Divies a temp variable to a value or another variable
-Example: divide_temp_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
-    if_zero = 0 # the value to assign if the divisor is zero (default is zero)
+<p>Divides a temp variable by a value, another variable, or a <a href="script_math_expression.md">math expression</a>.
+<code>if_zero</code> specifies the value to assign if the divisor is zero (default is zero).</p>
+<h3 id="examples_8">Examples</h3>
+<pre><code>divide_temp_variable = { num_dogs = 2 }
+divide_temp_variable = {
+    var = num_dogs
+    value = 2
+    if_zero = 0
+}
+divide_temp_variable = {
+    num_dogs = { value = num_cats  add = 1 }
 }
 </code></pre>
 <h2 id="divide_variable">divide_variable</h2>
@@ -3163,11 +3183,11 @@ var = num_dogs
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Divies a variable to a value or another variable
-Example: divide_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
+<p>Divides a variable by a value, another variable, or a <a href="script_math_expression.md">math expression</a>.</p>
+<h3 id="examples_9">Examples</h3>
+<pre><code>divide_variable = { num_dogs = 2 }
+divide_variable = {
+    num_dogs = { value = num_cats  add = 1 }
 }
 </code></pre>
 <h2 id="division_template">division_template</h2>
@@ -3241,7 +3261,7 @@ event_option_tooltip = mtg_usa_civil_war_fascists.1.a
 <p>Executes children effects on every Allied Country different from the one in scope (or <code>random_select_amount</code> of random country if specified) that fulfills the <code>limit</code> trigger.
 <code>tooltip</code> can be added to override tooltip title (supports <a href="script_concept_documentation.md#bindable-localization">bindable localization</a>).
 By default the effects are only displayed once, you may display them for each matching country with display_individual_scopes.</p>
-<h3 id="example_8">Example</h3>
+<h3 id="example_9">Example</h3>
 <pre><code>ENG = {
     every_allied_country = {
         tooltip = my_loc_key # Optional bindable localization
@@ -4370,11 +4390,11 @@ modulo_variable = {
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Multiplies a temp variable to a value or another variable
-Example: set_temp_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
+<p>Multiplies a temp variable by a value, another variable, or a <a href="script_math_expression.md">math expression</a>.</p>
+<h3 id="examples_10">Examples</h3>
+<pre><code>multiply_temp_variable = { num_dogs = 2 }
+multiply_temp_variable = {
+    num_dogs = { value = num_cats  add = 1 }
 }
 </code></pre>
 <h2 id="multiply_variable">multiply_variable</h2>
@@ -4382,11 +4402,11 @@ var = num_dogs
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Multiplies a variable to a value or another variable
-Example: set_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
+<p>Multiplies a variable by a value, another variable, or a <a href="script_math_expression.md">math expression</a>.</p>
+<h3 id="examples_11">Examples</h3>
+<pre><code>multiply_variable = { num_dogs = 2 }
+multiply_variable = {
+    num_dogs = { value = num_cats  add = 1 }
 }
 </code></pre>
 <h2 id="navy_experience">navy_experience</h2>
@@ -4427,7 +4447,7 @@ news_event = {
 <pre><code>Fires a operative leader event for owner country.
 Example:
 operative_leader_event = {
-    id = generic.17 # The event to fire.
+    id = mtg_exile_leader_added.1 # The event to fire.
     # Optional Fields:
     originator = TAG # The originator of the event (default to the owner of the operative)
     recipient = TAG # The recipient of the event (default to the owner of the operative)
@@ -4440,7 +4460,7 @@ operative_leader_event = {
         # Note:  random_hours and random_days can both be used and will simply be added together.
     random = 6 # Equivalent to random_hours; preserverd for backwards compatibility.
     random = { chance = 50 ... } # Specify a set of child effects to execute as part of this effect, with a percentage chance of randomly happening or not (as a group, not individually).
-    tooltip = generic.17.t # Manually specify which tooltip to use for this effect.
+    tooltip = mtg_exile_leader_added.1.t # Manually specify which tooltip to use for this effect.
     set_from = TAG # Set the scope of the From in the scripted localization
     set_from_from = TAG # Set the scope of the From.From in the scripted localization
     set_root = TAG # Set the scope of the Root in the scripted localization
@@ -4628,7 +4648,7 @@ state = {
 </ul>
 <p>Executes children effects on a random Allied Country different from the one in scope that fulfills the <code>limit</code> trigger.
 <code>tooltip</code> can be used to override tooltip title (supports <a href="script_concept_documentation.md#bindable-localization">bindable localization</a>).</p>
-<h3 id="example_9">Example</h3>
+<h3 id="example_10">Example</h3>
 <pre><code>ENG = {
     random_allied_country = {
         tooltip = my_loc_key # Optional bindable localization
@@ -4993,6 +5013,30 @@ ENG = {
   release_non_owned_controlled = yes # default no. if yes you will release states you only control as well  force_change_controller_for_non_ally_controlled = yes # default = no. if yes it will change the controller of the states you or your allies don't control (ie if an enemy occupying it, the ownership will change but not controller) }
 }
 </code></pre>
+<h2 id="release_captured_generals_from">release_captured_generals_from</h2>
+<ul>
+<li>Supported Scopes: COUNTRY</li>
+<li>Supported Targets: none</li>
+</ul>
+<p>Makes the scoped country release all captured generals from the specified country kept in the specified province.
+If no province is specified, all generals are released.</p>
+<h3 id="example_11">Example</h3>
+<pre><code>release_captured_generals_from = {
+  target = GER
+  province = &lt;province&gt; (optional)
+}
+
+release_captured_generals_from = FROM
+</code></pre>
+<h2 id="release_from_captivity">release_from_captivity</h2>
+<ul>
+<li>Supported Scopes: CHARACTER</li>
+<li>Supported Targets: none</li>
+</ul>
+<p>Releases the scoped army leader from captivity. Has no effect if the leader is not captured.</p>
+<h3 id="example_12">Example</h3>
+<pre><code>var:target_leader = { release_from_captivity = yes }
+</code></pre>
 <h2 id="release_on_controlled">release_on_controlled</h2>
 <ul>
 <li>Supported Scopes: COUNTRY</li>
@@ -5099,7 +5143,7 @@ remove_civil_war_target = TAG
 <p>Removes a contested owner to a state.
 The effect can be used either from a country or a state scope and accepts the other as parameter.
 The effect is localized with a localization environment containing <code>Country</code> and <code>State</code>.</p>
-<h3 id="example_10">Example</h3>
+<h3 id="example_13">Example</h3>
 <p>The following example has the same end result and localization.</p>
 <pre><code>42 = {
     remove_contested_owner = GER
@@ -5183,7 +5227,7 @@ remove_dynamic_modifier = {
 <li>Supported Targets: none</li>
 </ul>
 <p>Remove a goal from the current's country faction.</p>
-<h3 id="examples_6">Examples</h3>
+<h3 id="examples_12">Examples</h3>
 <pre><code>TAG = {
     remove_faction_goal = faction_goal_id
 }
@@ -5401,7 +5445,7 @@ SOV = {
 </ul>
 <p>removes either a resistance or compliance modifier from a state.
 Can only use modifiers from the resistance_modifiers.txt/compliance_modifiers.txt that are marked as is_dynamic = yes</p>
-<h4 id="example_11">Example</h4>
+<h4 id="example_14">Example</h4>
 <pre><code>remove_state_resistance_compliance_modifier  = {
        modifier = dynamic_modifier_name
        state = 738
@@ -5950,7 +5994,7 @@ set_entity_scale = {
 </ul>
 <p>Changes current version number for a given equipment type to N.
 The next equipment variant created from that type will have version number N+1.</p>
-<h4 id="example_12">Example</h4>
+<h4 id="example_15">Example</h4>
 <pre><code>set_equipment_version_number = {
     type = small_plane_airframe_1
     version = 4
@@ -5969,7 +6013,7 @@ The next equipment variant created from that type will have version number N+1.<
 <li>Supported Targets: none</li>
 </ul>
 <p>Changes current country's faction manifest, the previous manifest is removed.</p>
-<h3 id="examples_7">Examples</h3>
+<h3 id="examples_13">Examples</h3>
 <pre><code>TAG = {
     set_faction_manifest = faction_goal_id
 }
@@ -5980,7 +6024,7 @@ The next equipment variant created from that type will have version number N+1.<
 <li>Supported Targets: none</li>
 </ul>
 <p>Set a faction's minimal requirements for an faction member upgrade group</p>
-<h3 id="examples_8">Examples</h3>
+<h3 id="examples_14">Examples</h3>
 <pre><code>TAG = {
     set_faction_upgrade_min = {
     upgrade = TOKEN_TO_FACTION_MEMBER_UPGRADE
@@ -5993,7 +6037,7 @@ The next equipment variant created from that type will have version number N+1.<
 <li>Supported Targets: none</li>
 </ul>
 <p>Sets wheter the current countries faction can make changes to the faction research section</p>
-<h3 id="examples_9">Examples</h3>
+<h3 id="examples_15">Examples</h3>
 <pre><code>TAG = {
     _set_faction_military_unlocked = yes
 }
@@ -6011,7 +6055,7 @@ The next equipment variant created from that type will have version number N+1.<
 <li>Supported Targets: none</li>
 </ul>
 <p>Sets wheter the current countries faction can make changes to the faction research section</p>
-<h3 id="examples_10">Examples</h3>
+<h3 id="examples_16">Examples</h3>
 <pre><code>TAG = {
     set_faction_research_unlocked = yes
 }
@@ -6022,7 +6066,7 @@ The next equipment variant created from that type will have version number N+1.<
 <li>Supported Targets: none</li>
 </ul>
 <p>Set a rule on the country's faction</p>
-<h3 id="examples_11">Examples</h3>
+<h3 id="examples_17">Examples</h3>
 <pre><code>TAG = {
     set_faction_rule = rule_id
 }
@@ -6040,7 +6084,7 @@ The next equipment variant created from that type will have version number N+1.<
 <li>Supported Targets: none</li>
 </ul>
 <p>Set either a member upgrade for the specified tag</p>
-<h3 id="examples_12">Examples</h3>
+<h3 id="examples_18">Examples</h3>
 <pre><code>TAG = {
     set_faction_upgrade = token
 }
@@ -6700,11 +6744,17 @@ GER = {
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Sets a temp variable to a value or another variable
-Example: set_temp_variable = {
-var = num_dogs
+<p>Sets a temp variable to a value, another variable, or a <a href="script_math_expression.md">math expression</a>.
+<code>tooltip</code> can be used to override tooltip title with LEFT and RIGHT tokens.</p>
+<h3 id="examples_19">Examples</h3>
+<pre><code>set_temp_variable = { num_dogs = 42 }
+set_temp_variable = {
+    var = num_dogs
     value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
+    tooltip = loc_str_id_with_LEFT_and_RIGHT
+}
+set_temp_variable = {
+    num_dogs = { value = num_cats  multiply = 2  add = 1 }
 }
 </code></pre>
 <h2 id="set_temp_variable_to_random">set_temp_variable_to_random</h2>
@@ -6750,11 +6800,17 @@ This effect is deprecated in favor of set_character_flag.
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Sets a variable to a value or another variable
-Example: set_variable = {
-var = num_dogs
+<p>Sets a variable to a value, another variable, or a <a href="script_math_expression.md">math expression</a>.
+<code>tooltip</code> can be used to override tooltip title with LEFT and RIGHT tokens.</p>
+<h3 id="examples_20">Examples</h3>
+<pre><code>set_variable = { num_dogs = 42 }
+set_variable = {
+    var = num_dogs
     value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
+    tooltip = loc_str_id_with_LEFT_and_RIGHT
+}
+set_variable = {
+    num_dogs = { value = num_cats  multiply = 2  add = 1 }
 }
 </code></pre>
 <h2 id="set_variable_to_random">set_variable_to_random</h2>
@@ -6971,13 +7027,6 @@ Example: steal_random_tech_bonus = {
 }
 
 </code></pre>
-<h2 id="store_ref">store_ref</h2>
-<ul>
-<li>Supported Scopes: any</li>
-<li>Supported Targets: none</li>
-</ul>
-<pre><code>
-</code></pre>
 <h2 id="strategic_province_location">strategic_province_location</h2>
 <ul>
 <li>Supported Scopes: STATE</li>
@@ -7013,11 +7062,11 @@ Ex:
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Subtracts a value or a variable to a temp variable
-Example: subtract_from_temp_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
+<p>Subtracts a value, a variable, or a <a href="script_math_expression.md">math expression</a> from a temp variable.</p>
+<h3 id="examples_21">Examples</h3>
+<pre><code>subtract_from_temp_variable = { num_dogs = 5 }
+subtract_from_temp_variable = {
+    num_dogs = { value = num_cats  multiply = 2 }
 }
 </code></pre>
 <h2 id="subtract_from_variable">subtract_from_variable</h2>
@@ -7025,11 +7074,11 @@ var = num_dogs
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Subtracts a value or a variable to another one
-Example: subtract_from_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values
+<p>Subtracts a value, a variable, or a <a href="script_math_expression.md">math expression</a> from a variable.</p>
+<h3 id="examples_22">Examples</h3>
+<pre><code>subtract_from_variable = { num_dogs = 5 }
+subtract_from_variable = {
+    num_dogs = { value = num_cats  multiply = 2 }
 }
 </code></pre>
 <h2 id="supply_units">supply_units</h2>
@@ -7216,7 +7265,7 @@ Example: uncomplete_national_focus = {
 <pre><code>Fires a unit leader event for owner country.
 Example:
 unit_leader_event = {
-    id = generic.17 # The event to fire.
+    id = mtg_exile_leader_added.1 # The event to fire.
     # Optional Fields:
     hours = 12 # The number of hours to wait before firing the event.
     days = 5 # The number of days to wait before firing the event.
@@ -7227,7 +7276,7 @@ unit_leader_event = {
         # Note:  random_hours and random_days can both be used and will simply be added together.
     random = 6 # Equivalent to random_hours; preserverd for backwards compatibility.
     random = { chance = 50 ... } # Specify a set of child effects to execute as part of this effect, with a percentage chance of randomly happening or not (as a group, not individually).
-    tooltip = generic.17.t # Manually specify which tooltip to use for this effect.
+    tooltip = mtg_exile_leader_added.1.t # Manually specify which tooltip to use for this effect.
 }
 
 </code></pre>
@@ -7302,6 +7351,19 @@ mio:my_mio = {
 <li>Supported Targets: none</li>
 </ul>
 <pre><code>unlocks a focus for a country
+</code></pre>
+<h2 id="unlock_subunit">unlock_subunit</h2>
+<ul>
+<li>Supported Scopes: COUNTRY</li>
+<li>Supported Targets: none</li>
+</ul>
+<p>Unlocks the specified subunit for the country.</p>
+<pre><code>### Examples
+```
+GER = {
+    unlock_subunit = rangers_support
+}
+```
 </code></pre>
 <h2 id="unlock_tactic">unlock_tactic</h2>
 <ul>

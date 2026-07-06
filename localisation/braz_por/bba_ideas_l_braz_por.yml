@@ -350,7 +350,7 @@
  SWI_buero_ha_idea: "Buero Ha"
  SWI_expanded_spy_network_idea: "Rede de espionagem expandida"
  SWI_spirit_of_saint_bernard_idea: "Espírito de São Bernardo"
- SWI_spirit_of_saint_bernard_idea_tooltip: "Restituição de Hospital de Campanha: §G+20%§!\nFator de Perda de Exp.: §G-30%§!"
+ SWI_spirit_of_saint_bernard_idea_tooltip: "Restituição de Hospital de Campanha: §G+10%§!\nFator de Perda de Exp.: §G-30%§!"
  SWI_mountaineer_paratroopers_idea: "$SWI_mountaneer_paratroopers$"
  SWI_mountaineer_paratroopers_idea_desc: "O acesso a alguns dos picos mais elevados e aos séculos de cultura alpina dão aos paraquedistas suíços uma vantagem sobre todas as outras infantarias de assalto aéreo. Eles podem pular de nossos aviões de transporte e dominar os picos das montanhas como se estivessem no Monte Rosa ou no Matterhorn."
  SWI_mountaineer_paratroopers_idea_TT: "§YMontanhas§!:\n Ataque: §G+35%§!\n Defesa: §G+10%§!\n Movimento: §G+20%§!\n§YColinas§!:\n Ataque: §G+20%§!\n Defesa: §G+5%§!\n Movimento: §G+10%§!"

@@ -135,6 +135,7 @@
  hunt_for_the_desert_fox_tt: "Захватить Эрвина Роммеля"
  right_side_up_tt: "Играя за государство [AST.GetNonIdeologyName], завладейте регионом [914.GetName] и получите над ним контроль"
  maphilindia_tt: "Играя за государство [PHI.GetNonIdeologyName] или [INS.GetNonIdeologyName], сформируйте Мафилиндо и завладейте всеми стартовыми регионами государства [RAJ.GetNonIdeologyName]"
+ maphilindia_formed_tt: "Основано Мафилиндо"
  old_zealand_tt: "Играя за государство [NZL.GetNonIdeologyName], завладейте регионами [35.GetName] и [37.GetName] и получите над ними контроль"
  thaitanic_tt: "Потопите гордость ВМФ государства [SIA.GetNonIdeologyName]"
  thaifighters_tt: "Играя за государство [SIA.GetNonIdeologyName], воспитайте 10 асов"

@@ -18,6 +18,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			check_variable = { SIA_poster_left_icon_frame =  1}
+		}
+		localization_key = SIA_the_king_of_the_white_elephant
+	}
+	text = {
+		trigger = {
 			check_variable = { SIA_poster_left_icon_frame = 2 }
 		}
 		localization_key = SIA_blood_of_suphan
@@ -76,6 +82,12 @@ defined_text = {
 	}
 	text = {
 		trigger = {
+			check_variable = { SIA_poster_center_icon_frame =  1}
+		}
+		localization_key = SIA_the_king_of_the_white_elephant
+	}
+	text = {
+		trigger = {
 			check_variable = { SIA_poster_center_icon_frame = 2 }
 		}
 		localization_key = SIA_blood_of_suphan
@@ -131,6 +143,12 @@ defined_text = {
 			check_variable = { SIA_poster_right_icon_frame = constant:propaganda.SIA.propaganda_locked_slot_index }
 		}
 		localization_key = SIA_propaganda_campaign_locked_slot_tt
+	}
+	text = {
+		trigger = {
+			check_variable = { SIA_poster_right_icon_frame =  1}
+		}
+		localization_key = SIA_the_king_of_the_white_elephant
 	}
 	text = {
 		trigger = {

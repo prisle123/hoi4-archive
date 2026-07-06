@@ -274,7 +274,16 @@ joining_rule_has_no_offensive_war = {
 		}
 	}
 	trigger = {
-		has_offensive_war = no
+		custom_trigger_tooltip = {
+			tooltip = TRIGGER_HAS_NOT_OFFENSIVE_WAR
+			OR = {
+				has_offensive_war = no
+				ROOT = {
+					original_tag = HOL
+					has_war_with = INS
+				}
+			}
+		}
 	}
 	modifier = {
 		defensive_war_stability_factor = 0.15

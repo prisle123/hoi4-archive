@@ -60,6 +60,7 @@
  DESIGNER_EXPENSIVE: "Projekt jest za drogi."
  DESIGNER_NOT_ENOUGH_SPECIAL_FORCES: "Zmiana konstrukcji spowodowałaby przekroczenie limitu jednostek sił specjalnych."
  DESIGNER_NOT_ENOUGH_DIVISION_CAP: "Zmiana konstrukcji spowodowałaby przekroczenie limitu dywizji."
+ DESIGNER_GARRISON_ZERO_SUPPRESSION: "§RNie możesz zapisać zmian w tym szablonie, ponieważ jest wykorzystywany do koszarowania, a zmiany spowodowałyby obniżenie wartości pacyfikacji do §Y0§!.§!"
  DESIGNER_NO_CHANGES: "§TBrak zmian do zapisania.§!"
  DESIGNER_ARMY_SAVE: "Zapisz £army_experience $VALUE|Y0$"
  DESIGNER_ARMY_SAVE_HQ: "Zapisz £army_experience $XP|Y0$ £command_power $CP|Y0$"

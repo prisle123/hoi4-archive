@@ -1040,8 +1040,8 @@
  AST_fighter_equipment_3: "CAC CA-15"
  AST_fighter_equipment_3_short: "CA-15"
  #Medium Airframe (Heavy Fighter)
- AST_heavy_fighter_equipment_1: "브리스틀 블레넘"
- AST_heavy_fighter_equipment_1_short: "블레넘"
+ AST_heavy_fighter_equipment_1: "브리스틀 블레넘 Mk. IF"
+ AST_heavy_fighter_equipment_1_short: "블레넘 IF"
  AST_heavy_fighter_equipment_2: "브리스틀 보파이터"
  AST_heavy_fighter_equipment_2_short: "보파이터"
  AST_heavy_fighter_equipment_3: "더 해빌런드 모스키토"

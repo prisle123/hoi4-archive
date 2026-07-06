@@ -827,17 +827,14 @@ JAP_leave_raj_a_bit = {
 	}
 }
 
-JAP_dei = {
+# Stage 1: Borneo oil + eastern airfields (Manado, Moluccas). Runs in parallel with the Philippines, no PHI gate.
+JAP_dei_stage_1_borneo = {
 	allowed = {
 		original_tag = JAP
 	}
 	enable = {
 		is_historical_focus_on = yes
 		has_war_with = INS
-		OR = {
-			PHI = { has_capitulated = yes }
-			date > 1942.3.1
-		}
 		date > 1941.1.1
 	}
 	abort_when_not_enabled = yes
@@ -851,7 +848,104 @@ JAP_dei = {
 	ai_strategy = {
 		type = invade
 		id = INS
+		value = 300
+	}
+
+	ai_strategy = {
+		type = naval_invasion_focus
+		value = 400
+	}
+
+	# Borneo oil region + eastern airfields first
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 1055 # Eastern Kalimantan (Balikpapan oil)
+		value = 150
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 1056 # Manado
+		value = 100
+	}
+
+	# Skip less desirable
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 738 # Aru Islands
+		value = -100
+	}
+	
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 668 # The Moluccas
+		value = -100
+	}
+}
+
+# Stage 2: once the Borneo region is in hand, close on the heartland (Java, Sumatra) and mop up the rest.
+JAP_dei_stage_2_core = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		is_historical_focus_on = yes
+		has_war_with = INS
+		date > 1941.1.1
+		# Wait for the Borneo region
+		1055 = { state_is_fully_controlled_by_ROOT_or_subject = yes }
+	}
+	abort_when_not_enabled = yes
+
+	# Java heartland
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 1058 # Batavia
+		value = 200
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 335 # West Java
+		value = 150
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 1051 # East Java (Surabaya)
 		value = 120
+	}
+	# Sumatra
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 672 # South Sumatra (Palembang oil)
+		value = 150
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 1049 # Medan and Riouw
+		value = 80
+	}
+	# Remaining islands
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 673 # Sulawesi
+		value = 80
+	}
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 1054 # Dutch Timor
+		value = 60
+	}
+
+	# Aru Islands now fair game
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 738 # Aru Islands
+		value = 100
+	}
+	# The Moluccas can are good to take down now
+	ai_strategy = {
+		type = invasion_unit_request
+		state = 668 # The Moluccas
+		value = 150
 	}
 }
 
@@ -883,6 +977,10 @@ germany_ally = {
 		original_tag = JAP
 	}
 	enable = {
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+		}
 		has_completed_focus = JAP_technological_exchange
 		country_exists = GER
 	}
@@ -907,6 +1005,10 @@ germany_ally_historical = {
 		original_tag = JAP
 	}
 	enable = {
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+		}
 		has_completed_focus = JAP_sea_mil_tech_coop_with_germany
 		country_exists = GER
 	}
@@ -919,7 +1021,7 @@ germany_ally_historical = {
 		id = GER
 		value = 100
 	}
-	
+
 }
 
 JAP_template_design = {

@@ -86,6 +86,8 @@
  SM_MULTISAMPLE: "Poziom próbkowania"
  SM_AMBIENT_OBJECTS: "Obiekty otoczenia"
  SM_VOICE_VOLUME: "Głośność dialogów"
+ SM_EVENT_SOUNDS: "Dźwięki wydarzeń"
+ SM_EVENT_SOUNDS_DESC: "Umożliwia odtwarzanie dźwięków i muzyki uruchamianych przez skrypt. Zaleca się włączyć tę opcję podczas gry z modyfikacjami."
  SM_VSYNC: "Synch.pionowa"
  SM_WEATHER: "Pogoda"
  SM_WATER_REFL: "Odbicia"

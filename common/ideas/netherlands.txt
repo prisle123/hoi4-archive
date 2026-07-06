@@ -35,7 +35,7 @@ ideas = {
 		}
 
 		HOL_agricultural_taxes = {
-			picture = GFX_idea_tur_etatism
+			picture = tur_etatism
 			allowed = {
 				original_tag = HOL
 				has_dlc = "Thunder at Our Gates"
@@ -54,7 +54,7 @@ ideas = {
 		}
 
 		HOL_internationally_controversial_aggression = {
-			picture = SWE_fallen_riksdag_trait
+			picture = AUS_aggression
 			allowed = {
 				original_tag = HOL
 				has_dlc = "Thunder at Our Gates"
@@ -74,7 +74,7 @@ ideas = {
 		}
 
 		HOL_internationally_controversial_aggression_2 = {
-			picture = SWE_fallen_riksdag_trait
+			picture = AUS_aggression
 			allowed = {
 				original_tag = HOL
 				has_dlc = "Thunder at Our Gates"

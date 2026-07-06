@@ -60,6 +60,7 @@
  DESIGNER_EXPENSIVE: "Design is too expensive"
  DESIGNER_NOT_ENOUGH_SPECIAL_FORCES: "Design change would put us over the Special Forces limit"
  DESIGNER_NOT_ENOUGH_DIVISION_CAP: "Design change would put us over the Division limit"
+ DESIGNER_GARRISON_ZERO_SUPPRESSION: "§RYou cannot save the changes to this template because it is currently used for garrisoning and the changes would cause it to have a Suppression value of §Y0§!.§!"
  DESIGNER_NO_CHANGES: "§TNo changes to save§!"
  DESIGNER_ARMY_SAVE: "Save £army_experience $VALUE|Y0$"
  DESIGNER_ARMY_SAVE_HQ: "Save £army_experience $XP|Y0$ £command_power $CP|Y0$"

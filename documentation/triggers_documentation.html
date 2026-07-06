@@ -37,6 +37,7 @@
 <li><a href="#advisor_can_be_fired">advisor_can_be_fired</a></li>
 <li><a href="#attack_skill_level">attack_skill_level</a></li>
 <li><a href="#average_stats">average_stats</a></li>
+<li><a href="#can_be_captured">can_be_captured</a></li>
 <li><a href="#can_be_country_leader">can_be_country_leader</a></li>
 <li><a href="#can_select_trait">can_select_trait</a></li>
 <li><a href="#defense_skill_level">defense_skill_level</a></li>
@@ -70,8 +71,10 @@
 <li><a href="#is_exiled_leader_from">is_exiled_leader_from</a></li>
 <li><a href="#is_female">is_female</a></li>
 <li><a href="#is_field_marshal">is_field_marshal</a></li>
+<li><a href="#is_general_captured">is_general_captured</a></li>
 <li><a href="#is_high_command">is_high_command</a></li>
 <li><a href="#is_hired_as_advisor">is_hired_as_advisor</a></li>
+<li><a href="#is_in_state">is_in_state</a></li>
 <li><a href="#is_leading_army">is_leading_army</a></li>
 <li><a href="#is_leading_army_group">is_leading_army_group</a></li>
 <li><a href="#is_leading_army_in_province">is_leading_army_in_province</a></li>
@@ -82,6 +85,7 @@
 <li><a href="#is_operative">is_operative</a></li>
 <li><a href="#is_operative_captured">is_operative_captured</a></li>
 <li><a href="#is_political_advisor">is_political_advisor</a></li>
+<li><a href="#is_promoted_from_unit">is_promoted_from_unit</a></li>
 <li><a href="#is_scientist_injured">is_scientist_injured</a></li>
 <li><a href="#is_theorist">is_theorist</a></li>
 <li><a href="#is_unit_leader">is_unit_leader</a></li>
@@ -93,6 +97,7 @@
 <li><a href="#operative_leader_operation">operative_leader_operation</a></li>
 <li><a href="#planning_skill_level">planning_skill_level</a></li>
 <li><a href="#skill">skill</a></li>
+<li><a href="#tag">tag</a></li>
 </ul>
 <h2 id="triggers-for-scope-combatant">Triggers for scope COMBATANT</h2>
 <ul>
@@ -225,7 +230,6 @@
 <li><a href="#enemies_naval_strength_ratio">enemies_naval_strength_ratio</a></li>
 <li><a href="#enemies_strength_ratio">enemies_strength_ratio</a></li>
 <li><a href="#energy_ratio">energy_ratio</a></li>
-<li><a href="#equipment_cost">equipment_cost</a></li>
 <li><a href="#estimated_intel_max_armor">estimated_intel_max_armor</a></li>
 <li><a href="#estimated_intel_max_piercing">estimated_intel_max_piercing</a></li>
 <li><a href="#exists">exists</a></li>
@@ -251,6 +255,8 @@
 <li><a href="#has_air_experience">has_air_experience</a></li>
 <li><a href="#has_allowed_idea_with_traits">has_allowed_idea_with_traits</a></li>
 <li><a href="#has_annex_war_goal">has_annex_war_goal</a></li>
+<li><a href="#has_any_captured_general">has_any_captured_general</a></li>
+<li><a href="#has_any_general_captured_by">has_any_general_captured_by</a></li>
 <li><a href="#has_any_grand_doctrine">has_any_grand_doctrine</a></li>
 <li><a href="#has_any_license">has_any_license</a></li>
 <li><a href="#has_any_power_balance">has_any_power_balance</a></li>
@@ -274,6 +280,7 @@
 <li><a href="#has_collaboration">has_collaboration</a></li>
 <li><a href="#has_completed_faction_goal">has_completed_faction_goal</a></li>
 <li><a href="#has_completed_focus">has_completed_focus</a></li>
+<li><a href="#has_completed_goal">has_completed_goal</a></li>
 <li><a href="#has_completed_subdoctrine">has_completed_subdoctrine</a></li>
 <li><a href="#has_completed_track">has_completed_track</a></li>
 <li><a href="#has_contested_owner">has_contested_owner</a></li>
@@ -390,6 +397,7 @@
 <li><a href="#is_in_peace_conference">is_in_peace_conference</a></li>
 <li><a href="#is_in_tech_sharing_group">is_in_tech_sharing_group</a></li>
 <li><a href="#is_justifying_wargoal_against">is_justifying_wargoal_against</a></li>
+<li><a href="#is_leader_visible">is_leader_visible</a></li>
 <li><a href="#is_lend_leasing">is_lend_leasing</a></li>
 <li><a href="#is_licensing_any_to">is_licensing_any_to</a></li>
 <li><a href="#is_licensing_to">is_licensing_to</a></li>
@@ -638,6 +646,7 @@
 <li><a href="#career_profile_has_player_flag">career_profile_has_player_flag</a></li>
 <li><a href="#career_profile_set_temp_playthrough_variable">career_profile_set_temp_playthrough_variable</a></li>
 <li><a href="#career_profile_set_temp_variable">career_profile_set_temp_variable</a></li>
+<li><a href="#check_expr">check_expr</a></li>
 <li><a href="#check_variable">check_variable</a></li>
 <li><a href="#clamp_temp_variable">clamp_temp_variable</a></li>
 <li><a href="#clear_temp_array">clear_temp_array</a></li>
@@ -648,6 +657,7 @@
 <li><a href="#custom_override_tooltip">custom_override_tooltip</a></li>
 <li><a href="#custom_trigger_tooltip">custom_trigger_tooltip</a></li>
 <li><a href="#date">date</a></li>
+<li><a href="#debug_math_expr">debug_math_expr</a></li>
 <li><a href="#difficulty">difficulty</a></li>
 <li><a href="#divide_temp_variable">divide_temp_variable</a></li>
 <li><a href="#find_highest_in_array">find_highest_in_array</a></li>
@@ -713,11 +723,11 @@ Example: add_to_temp_array = {
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Adds a value or a variable to a temporary variable
-Example: add_to_temp_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values. _NOT is added to end for negative trigger
+<p>Adds a value, a variable, or a <a href="script_math_expression.md">math expression</a> to a temporary variable.</p>
+<h3 id="examples">Examples</h3>
+<pre><code>add_to_temp_variable = { num_dogs = 42 }
+add_to_temp_variable = {
+    num_dogs = { value = num_cats  multiply = 2 }
 }
 </code></pre>
 <h2 id="advisor_can_be_fired">advisor_can_be_fired</h2>
@@ -1639,7 +1649,7 @@ Example: average_stats &gt; 10
 </ul>
 <pre><code>Checks if the current scope has the specified amount of the specified building. 
 Usage: &lt;Building&gt; &lt; &lt;int&gt;
-Supported buildings: infrastructure, arms_factory, industrial_complex, air_base, supply_node, rail_way, naval_facility, naval_base, bunker, coastal_bunker, stronghold_network, dockyard, anti_air_building, synthetic_refinery, fuel_silo, radar_station, mega_gun_emplacement, rocket_site, naval_supply_hub, naval_headquarters, nuclear_reactor, nuclear_reactor_heavy_water, commercial_nuclear_reactor, nuclear_facility, air_facility, land_facility, dam, dam_mountain, canal_kiel, canal_panama, energy_infrastructure, industrial_infrastructure, landmark_big_ben, landmark_colosseum, landmark_cristo_redentor, landmark_eiffel_tower, landmark_statue_of_liberty, landmark_kremlin, landmark_hofburg_palace, landmark_berlin_reichstag, landmark_berlin_volkshalle, landmark_taj_mahal, landmark_sadabad_complex, landmark_hagia_sophia, landmark_forbidden_city, landmark_nanjing_presidential_palace, landmark_nanjing_presidential_palace_prc, landmark_nanjing_presidential_palace_gen, landmark_great_wall_section, landmark_tokyo_imperial_palace, landmark_national_diet, landmark_hakko_ichiu, landmark_prague_castle, landmark_bojnice_castle.
+Supported buildings: infrastructure, arms_factory, industrial_complex, air_base, supply_node, rail_way, naval_facility, naval_base, bunker, coastal_bunker, stronghold_network, dockyard, anti_air_building, synthetic_refinery, fuel_silo, radar_station, mega_gun_emplacement, rocket_site, naval_supply_hub, naval_headquarters, nuclear_reactor, nuclear_reactor_heavy_water, commercial_nuclear_reactor, nuclear_facility, air_facility, land_facility, dam, dam_mountain, cataract_dam_mountain, canal_kiel, canal_panama, energy_infrastructure, industrial_infrastructure, landmark_big_ben, landmark_colosseum, landmark_cristo_redentor, landmark_eiffel_tower, landmark_statue_of_liberty, landmark_kremlin, landmark_hofburg_palace, landmark_berlin_reichstag, landmark_berlin_volkshalle, landmark_taj_mahal, landmark_sadabad_complex, landmark_hagia_sophia, landmark_forbidden_city, landmark_nanjing_presidential_palace, landmark_nanjing_presidential_palace_prc, landmark_nanjing_presidential_palace_gen, landmark_great_wall_section, landmark_tokyo_imperial_palace, landmark_national_diet, landmark_hakko_ichiu, landmark_prague_castle, landmark_bojnice_castle.
 </code></pre>
 <h2 id="buyer">buyer</h2>
 <ul>
@@ -1658,6 +1668,13 @@ ex:
 Ger = {
     can_assign_supportive_scientist_to_faction = specialization_land
 }
+</code></pre>
+<h2 id="can_be_captured">can_be_captured</h2>
+<ul>
+<li>Supported Scopes: CHARACTER</li>
+<li>Supported Targets: none</li>
+</ul>
+<pre><code>can_be_captured = yes/no - Checks if the current character can be captured while deployed in a division
 </code></pre>
 <h2 id="can_be_country_leader">can_be_country_leader</h2>
 <ul>
@@ -1843,6 +1860,19 @@ GER = {
 </ul>
 <pre><code>Check the amount of casualties in thousands a country has suffered in all of it's wars
 </code></pre>
+<h2 id="check_expr">check_expr</h2>
+<ul>
+<li>Supported Scopes: any</li>
+<li>Supported Targets: any</li>
+</ul>
+<p>Evaluates a math expression and returns true when the result is non-zero.</p>
+<h3 id="parameters">Parameters</h3>
+<ul>
+<li><code>Expression</code>: Any supported math expression.</li>
+</ul>
+<h3 id="example_9">Example</h3>
+<pre><code>check_expr = { value = 2  add = 3  greater_than = 4 }
+</code></pre>
 <h2 id="check_variable">check_variable</h2>
 <ul>
 <li>Supported Scopes: any</li>
@@ -1896,7 +1926,7 @@ Example: clear_temp_array = array_name
 </ul>
 <p>Checks if the provided collection contains all the provided elements. Possible types to check for are:
 - Countries</p>
-<h3 id="example_9">Example</h3>
+<h3 id="example_10">Example</h3>
 <pre><code>collection_contains = {
     collection = game:all_countries
     countries = { ENG GER }
@@ -1913,7 +1943,7 @@ collection_contains = {
 </ul>
 <p>Compares size of a collection to a value</p>
 <p>NOTE! Comparison is inclusive, so "value &gt; X" actually means "value &gt;= X" etc.!!!</p>
-<h3 id="example_10">Example</h3>
+<h3 id="example_11">Example</h3>
 <pre><code>collection_size = {
     input = collection_id # see the documentation in common/collections for detailed info
     value &gt; N # supported operators: &lt;, &gt;, =
@@ -1959,7 +1989,7 @@ compare_autonomy_state &gt; puppet
 <li>Supported Targets: any</li>
 </ul>
 <p>Compares the ideology support of the country's ruling party for the ideology of the faction it wants to join</p>
-<h3 id="example_11">Example</h3>
+<h3 id="example_12">Example</h3>
 <pre><code>compare_ideology_with_faction = {
     value &gt; 0.5
     leader = FROM
@@ -2117,7 +2147,7 @@ A positive tooltip can be set with <code>tooltip</code> and the tooltip to be us
 If no positive tooltip is provided and the root key is a localization key (not a formatter, see <a href="script_concept_documentation.md#formatted-localization">formatted localization</a>),
 then a negative tooltip will be generated by appending <code>_NOT</code> to the root localization for the positive tooltip.
 Both tooltip and <code>not_tooltip</code> are <a href="script_concept_documentation.md#bindable-localization">bindable localizations</a>.</p>
-<h3 id="examples">Examples</h3>
+<h3 id="examples_1">Examples</h3>
 <pre><code>custom_override_tooltip = {
     tooltip = MY_TOOLTIP # Simple loc key tooltip
     not_tooltip = MY_TOOLTIP_NOT
@@ -2196,6 +2226,20 @@ days_since_last_strategic_bombing &lt; 10
 </ul>
 <pre><code>Check value of purchase contract completion. Example: deal_completition &lt; 0.6
 </code></pre>
+<h2 id="debug_math_expr">debug_math_expr</h2>
+<ul>
+<li>Supported Scopes: any</li>
+<li>Supported Targets: any</li>
+</ul>
+<p>Evaluates a math expression and writes the numeric result to the tooltip.</p>
+<p>Always returns true and is intended for debugging scripts.</p>
+<h3 id="parameters_1">Parameters</h3>
+<ul>
+<li><code>Expression</code>: Any supported math expression.</li>
+</ul>
+<h3 id="example_13">Example</h3>
+<pre><code>debug_math_expr = { value = 120  add = 15  clamp = { min = 0  max = 100 } }
+</code></pre>
 <h2 id="decryption_progress">decryption_progress</h2>
 <ul>
 <li>Supported Scopes: COUNTRY</li>
@@ -2243,11 +2287,11 @@ Example: defense_skill_level &gt; 5
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Divies a temporary variable by a value or another variable
-Example: divide_temp_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values. _NOT is added to end for negative trigger
+<p>Divides a temporary variable by a value, another variable, or a <a href="script_math_expression.md">math expression</a>.</p>
+<h3 id="examples_2">Examples</h3>
+<pre><code>divide_temp_variable = { num_dogs = 2 }
+divide_temp_variable = {
+    num_dogs = { value = num_cats  add = 1 }
 }
 </code></pre>
 <h2 id="division_has_battalion_in_template">division_has_battalion_in_template</h2>
@@ -2305,13 +2349,6 @@ divisions_in_state = {
 </ul>
 <pre><code>energy_ratio &gt; 0.8 - Compare current energy fulfilment to the factories, with 1 being 100% and 0 being 0%
 </code></pre>
-<h2 id="equipment_cost">equipment_cost</h2>
-<ul>
-<li>Supported Scopes: COUNTRY</li>
-<li>Supported Targets: none</li>
-</ul>
-<pre><code>check cost of equipment production line
-</code></pre>
 <h2 id="estimated_intel_max_armor">estimated_intel_max_armor</h2>
 <ul>
 <li>Supported Scopes: COUNTRY</li>
@@ -2339,7 +2376,7 @@ divisions_in_state = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks fulfillment of a faction goal for the current country's faction</p>
-<h3 id="examples_1">Examples</h3>
+<h3 id="examples_3">Examples</h3>
 <pre><code>TAG = {
     faction_goal_fulfillment = {
         goal = goal_id
@@ -2353,7 +2390,7 @@ divisions_in_state = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks influence rank in the faction of the current country</p>
-<h3 id="examples_2">Examples</h3>
+<h3 id="examples_4">Examples</h3>
 <pre><code>TAG = {
     faction_influence_rank &lt; 5
 }
@@ -2364,7 +2401,7 @@ divisions_in_state = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks influence ratio of current country in the faction</p>
-<h3 id="examples_3">Examples</h3>
+<h3 id="examples_5">Examples</h3>
 <pre><code> TAG = {
     faction_influence_ratio &gt; 0.1
 }
@@ -2375,7 +2412,7 @@ divisions_in_state = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks influence value of current country in the faction</p>
-<h3 id="examples_4">Examples</h3>
+<h3 id="examples_6">Examples</h3>
 <pre><code> TAG = {
     faction_influence_score &gt; 100
 }
@@ -2386,7 +2423,7 @@ divisions_in_state = {
 <li>Supported Targets: THIS, ROOT, PREV, FROM, OWNER, CONTROLLER, OCCUPIED, CAPITAL</li>
 </ul>
 <p>Checks manifest fulfillment value of current country's faction manifest</p>
-<h3 id="examples_5">Examples</h3>
+<h3 id="examples_7">Examples</h3>
 <pre><code>TAG = {
     faction_manifest_fulfillment &gt; VALUE
 }
@@ -2397,7 +2434,7 @@ divisions_in_state = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks power value of current country's faction projection</p>
-<h3 id="examples_6">Examples</h3>
+<h3 id="examples_8">Examples</h3>
 <pre><code>TAG = {
     faction_power_projection &gt; VALUE
 }
@@ -2408,7 +2445,7 @@ divisions_in_state = {
 <li>Supported Targets: THIS, ROOT, PREV, FROM, OWNER, CONTROLLER, OCCUPIED, CAPITAL</li>
 </ul>
 <p>Checks the active faction member upgrade against the specified upgrade. works with &gt;, &lt;, = </p>
-<h3 id="examples_7">Examples</h3>
+<h3 id="examples_9">Examples</h3>
 <pre><code>TAG = {
     faction_upgrade_level &gt; upgrade_token
 }
@@ -2597,7 +2634,7 @@ Example: has_ability = force_attack
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks if the country's faction has a specific active rule</p>
-<h3 id="examples_8">Examples</h3>
+<h3 id="examples_10">Examples</h3>
 <pre><code>TAG = {
     has_active_rule = rule_key
 }
@@ -2652,12 +2689,34 @@ has_available_idea_with_traits = {
 </ul>
 <pre><code>Checks a country has annex war goal on another country
 </code></pre>
+<h2 id="has_any_captured_general">has_any_captured_general</h2>
+<ul>
+<li>Supported Scopes: COUNTRY</li>
+<li>Supported Targets: none</li>
+</ul>
+<p>Checks if any of the generals of the scoped country is captured by another country</p>
+<h3 id="examples_11">Examples</h3>
+<pre><code>FRA = {
+    has_any_captured_general = yes
+}
+</code></pre>
 <h2 id="has_any_custom_difficulty_setting">has_any_custom_difficulty_setting</h2>
 <ul>
 <li>Supported Scopes: any</li>
 <li>Supported Targets: any</li>
 </ul>
 <pre><code>Returns true if the game has any custom difficulty on
+</code></pre>
+<h2 id="has_any_general_captured_by">has_any_general_captured_by</h2>
+<ul>
+<li>Supported Scopes: COUNTRY</li>
+<li>Supported Targets: THIS, ROOT, PREV, FROM, OWNER, CONTROLLER, OCCUPIED, CAPITAL</li>
+</ul>
+<p>Checks if the scoped country has any unit leader captured by the target country</p>
+<h3 id="examples_12">Examples</h3>
+<pre><code>FRA = {
+    has_any_general_captured_by = GER # This will be true if any of France's generals are captured by Germany
+}
 </code></pre>
 <h2 id="has_any_grand_doctrine">has_any_grand_doctrine</h2>
 <ul>
@@ -2935,7 +2994,7 @@ has_completed_custom_achievement = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks if the country's faction has successfully completed a goal</p>
-<h3 id="examples_9">Examples</h3>
+<h3 id="examples_13">Examples</h3>
 <pre><code>TAG = {
     has_completed_faction_goal = goal_id
 }
@@ -2946,6 +3005,18 @@ has_completed_custom_achievement = {
 <li>Supported Targets: none</li>
 </ul>
 <pre><code>has country completed focus
+</code></pre>
+<h2 id="has_completed_goal">has_completed_goal</h2>
+<ul>
+<li>Supported Scopes: COUNTRY</li>
+<li>Supported Targets: any</li>
+</ul>
+<p>Checks if the country was a member of a faction when a specific goal was completed.
+Persists across faction disband/recreate, unlike has_completed_faction_goal.</p>
+<h3 id="examples_14">Examples</h3>
+<pre><code>TAG = {
+    has_completed_goal = goal_id
+}
 </code></pre>
 <h2 id="has_completed_subdoctrine">has_completed_subdoctrine</h2>
 <ul>
@@ -2981,7 +3052,7 @@ TAG = {
 <p>Checks if a state has the specified country as a contested owner.
 The trigger can be used either from a country or a state scope and accepts the other as parameter.
 The trigger is localized with a localization environment containing <code>Country</code> and <code>State</code>.</p>
-<h3 id="example_12">Example</h3>
+<h3 id="example_14">Example</h3>
 <p>The following example has the same end result and localization.</p>
 <pre><code>42 = {
     has_contested_owner = GER
@@ -3179,7 +3250,7 @@ TAG = {
 <li>Supported Targets: THIS, ROOT, PREV, FROM, OWNER, CONTROLLER, OCCUPIED, CAPITAL</li>
 </ul>
 <p>Checks if any enemy has enough naval dominance to assert control in certain strategic region.</p>
-<h3 id="examples_10">Examples</h3>
+<h3 id="examples_15">Examples</h3>
 <pre><code>TAG = {
     has_enemy_naval_control = REGION_ID
 }
@@ -3190,7 +3261,7 @@ TAG = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks if the current country has enough political influence to become faction leader</p>
-<h3 id="examples_11">Examples</h3>
+<h3 id="examples_16">Examples</h3>
 <pre><code>TAG = {
     has_enough_influence_for_leadership = yes
 }
@@ -3226,7 +3297,7 @@ SOV = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks if the country's faction has an active or completed goal</p>
-<h3 id="examples_12">Examples</h3>
+<h3 id="examples_17">Examples</h3>
 <pre><code>TAG = {
     has_faction_goal = goal_id
 }
@@ -3237,7 +3308,7 @@ SOV = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Whether the faction has unlocked the military operations</p>
-<h3 id="examples_13">Examples</h3>
+<h3 id="examples_18">Examples</h3>
 <pre><code>TAG = {
     has_faction_military_unlocked = yes
 }
@@ -3248,7 +3319,7 @@ SOV = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Whether the faction has unlocked the research</p>
-<h3 id="examples_14">Examples</h3>
+<h3 id="examples_19">Examples</h3>
 <pre><code>TAG = {
     has_faction_research_unlocked = yes
 }
@@ -3259,7 +3330,7 @@ SOV = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks if the current country is in a faction with a template</p>
-<h3 id="examples_15">Examples</h3>
+<h3 id="examples_20">Examples</h3>
 <pre><code>TAG = {
     has_faction_template = template_id
 }
@@ -3386,7 +3457,7 @@ has_global_flag = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks if the current country exceeds the faction leader in number of factories</p>
-<h3 id="examples_16">Examples</h3>
+<h3 id="examples_21">Examples</h3>
 <pre><code>TAG = {
     has_industry_to_become_leader = yes
 }
@@ -3414,10 +3485,10 @@ has_global_flag = {
 Example: has_license = {
     from = TAG # has license from this country, optional
      #if archetype is specified equipment should not be specified
-    archetype = light_tank_equipment #any armor license
+    archetype = light_tank_chassis #any light tank chassis license
     equipment = { # classical equipment reference
         type = light_tank_equipment_2
-        version = 0
+        version = 0 # optional: omit to match any version of the type
     }
 }
 </code></pre>
@@ -3441,7 +3512,7 @@ Example: has_license = {
 <li>Supported Targets: any</li>
 </ul>
 <p>Checks if the current country exceeds the current faction leader and its subjects in deployed manpower</p>
-<h3 id="examples_17">Examples</h3>
+<h3 id="examples_22">Examples</h3>
 <pre><code>TAG = {
     has_manpower_to_become_leader = yes
 }
@@ -3657,7 +3728,7 @@ has_nationality = GER
 <li>Supported Targets: THIS, ROOT, PREV, FROM, OWNER, CONTROLLER, OCCUPIED, CAPITAL</li>
 </ul>
 <p>Checks if friendly nations and country scope together has enough naval dominance to assert control in strategic region.</p>
-<h3 id="examples_18">Examples</h3>
+<h3 id="examples_23">Examples</h3>
 <pre><code>TAG = {
     has_naval_control = REGION_ID
 }
@@ -3986,7 +4057,7 @@ SOV = {
 </ul>
 <p>Check if country has shine effect on focus (either manually achieved or by being worked on).</p>
 <p>Note that tooltips are only shown in debug mode.</p>
-<h3 id="example_13">Example</h3>
+<h3 id="example_15">Example</h3>
 <pre><code>has_shine_effect_on_focus = GER_prioritize_economic_growth
 </code></pre>
 <h2 id="has_stability">has_stability</h2>
@@ -4257,7 +4328,7 @@ This is most likely what you need if you have a trigger that has side effects or
 <li><code>legacy</code> - Previous behaviour that is similar to <code>eval</code> but a lot less predictable.
 Using this explicitly is very likely a bug.</li>
 </ul>
-<h4 id="examples_19">Examples</h4>
+<h4 id="examples_24">Examples</h4>
 <pre><code>hidden_trigger = {
     tooltip_evaluation = eval
     set_temp_variable = { unlock_compare = 0 }          
@@ -4638,6 +4709,17 @@ is_fighting_in_weather = { artic_water snow }
 </ul>
 <pre><code>checks if fully decrypted a cipher. Example is_fully_decrypted = GER
 </code></pre>
+<h2 id="is_general_captured">is_general_captured</h2>
+<ul>
+<li>Supported Scopes: CHARACTER</li>
+<li>Supported Targets: none</li>
+</ul>
+<p>Checks if the scoped unit leader (general) is captured (by any country)</p>
+<h3 id="examples_25">Examples</h3>
+<pre><code>my_character = {
+    is_general_captured = yes
+}
+</code></pre>
 <h2 id="is_government_in_exile">is_government_in_exile</h2>
 <ul>
 <li>Supported Scopes: COUNTRY</li>
@@ -4720,6 +4802,25 @@ Example: is_in_array = {
 </ul>
 <pre><code>Checks if the country is currently in a peaceconference
 </code></pre>
+<h2 id="is_in_state">is_in_state</h2>
+<ul>
+<li>Supported Scopes: CHARACTER</li>
+<li>Supported Targets: THIS, ROOT, PREV, FROM, CAPITAL</li>
+</ul>
+<p>Checks if the character is in a specific state.
+Works for deployed generals (HQ location), scientists (facility location including faction programs), and operatives (mission location).</p>
+<h3 id="example_16">Example</h3>
+<pre><code># Check if a general is in a specific state
+any_unit_leader = {
+    is_in_state = 64 # Brandenburg
+}
+
+# Check if any scientist is in the capital
+every_character = {
+    limit = { is_active_scientist = yes }
+    is_in_state = root.capital
+}
+</code></pre>
 <h2 id="is_in_tech_sharing_group">is_in_tech_sharing_group</h2>
 <ul>
 <li>Supported Scopes: COUNTRY</li>
@@ -4757,6 +4858,13 @@ ex: 145 = {
 <pre><code>Checks if country is justifying a wargoal against the target. 
 Example: ENG = { is_justifying_wargoal_against = GER }
 </code></pre>
+<h2 id="is_leader_visible">is_leader_visible</h2>
+<ul>
+<li>Supported Scopes: COUNTRY</li>
+<li>Supported Targets: any</li>
+</ul>
+<pre><code>Checks if the leader is visible to its owner (is_visible trigger in the leader's script)
+</code></pre>
 <h2 id="is_leading_army">is_leading_army</h2>
 <ul>
 <li>Supported Scopes: CHARACTER</li>
@@ -4776,7 +4884,7 @@ Example: ENG = { is_justifying_wargoal_against = GER }
 <li>Supported Scopes: CHARACTER</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>is_leading_army_in_province = province_id # checks if the current unit leader is leading an army that has any division in a specific province
+<pre><code>is_leading_army_in_province = province_id # checks if the current unit leader is leading an army that has any division in a specific province. Block form { province = X include_field_marshal = yes } also counts a field marshal whose subordinate generals have a division in the province
 </code></pre>
 <h2 id="is_leading_volunteer_group">is_leading_volunteer_group</h2>
 <ul>
@@ -4816,10 +4924,10 @@ Example: is_licensing_any_to = ENG
 Example: is_licensing_to = {
     target = TAG # licensing to this country
      #if archetype is specified equipment should not be specified
-    archetype = light_tank_equipment #any armor license
+    archetype = light_tank_chassis #any light tank chassis license
     equipment = { # classical equipment reference
         type = light_tank_equipment_2
-        version = 0
+        version = 0 # optional: omit to match any version of the type
     }
 }
 </code></pre>
@@ -5051,6 +5159,17 @@ Example:
 is_preparing_operation = { 
  target = ITA 
  operation = operation_infiltrate_armed_forces_navy}
+</code></pre>
+<h2 id="is_promoted_from_unit">is_promoted_from_unit</h2>
+<ul>
+<li>Supported Scopes: CHARACTER</li>
+<li>Supported Targets: none</li>
+</ul>
+<p>Checks if a unit leader was promoted from a unit (division or ship).</p>
+<h3 id="example_17">Example</h3>
+<pre><code>any_unit_leader = {
+    is_promoted_from_unit = yes
+}
 </code></pre>
 <h2 id="is_puppet">is_puppet</h2>
 <ul>
@@ -5285,11 +5404,11 @@ modulo_temp_variable = {
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Multiplies a temporary variable by a value or another variable
-Example: multiply_temp_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values. _NOT is added to end for negative trigger
+<p>Multiplies a temporary variable by a value, another variable, or a <a href="script_math_expression.md">math expression</a>.</p>
+<h3 id="examples_26">Examples</h3>
+<pre><code>multiply_temp_variable = { num_dogs = 2 }
+multiply_temp_variable = {
+    num_dogs = { value = num_cats  add = 1 }
 }
 </code></pre>
 <h2 id="naval_strength_comparison">naval_strength_comparison</h2>
@@ -6128,11 +6247,16 @@ var:my_var = {
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Sets a temporary variable to a value or another variable
-Example: set_temp_variable = {
-var = num_dogs
+<p>Sets a temporary variable to a value, another variable, or a <a href="script_math_expression.md">math expression</a>.</p>
+<h3 id="examples_27">Examples</h3>
+<pre><code>set_temp_variable = { num_dogs = 42 }
+set_temp_variable = {
+    var = num_dogs
     value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values. _NOT is added to end for negative trigger
+    tooltip = loc_str_id_with_LEFT_and_RIGHT
+}
+set_temp_variable = {
+    num_dogs = { value = num_cats  multiply = 2  add = 1 }
 }
 </code></pre>
 <h2 id="set_temp_variable_to_random">set_temp_variable_to_random</h2>
@@ -6237,11 +6361,11 @@ ships_in_state_ports = {
 <li>Supported Scopes: any</li>
 <li>Supported Targets: none</li>
 </ul>
-<pre><code>Subtracts a value or a variable to a temporary variable
-Example: subtract_from_temp_variable = {
-var = num_dogs
-    value = 42
-    tooltip = loc_str_id_with_LEFT_and_RIGHT  #localized text with LEFT and RIGHT tokens in it, tokens will replaced by values. _NOT is added to end for negative trigger
+<p>Subtracts a value, a variable, or a <a href="script_math_expression.md">math expression</a> from a temporary variable.</p>
+<h3 id="examples_28">Examples</h3>
+<pre><code>subtract_from_temp_variable = { num_dogs = 5 }
+subtract_from_temp_variable = {
+    num_dogs = { value = num_cats  multiply = 2 }
 }
 </code></pre>
 <h2 id="surrender_progress">surrender_progress</h2>
@@ -6253,7 +6377,7 @@ var = num_dogs
 </code></pre>
 <h2 id="tag">tag</h2>
 <ul>
-<li>Supported Scopes: COUNTRY, COMBATANT</li>
+<li>Supported Scopes: COUNTRY, CHARACTER, COMBATANT</li>
 <li>Supported Targets: THIS, ROOT, PREV, FROM, OWNER, CONTROLLER, OCCUPIED, CAPITAL</li>
 </ul>
 <pre><code>country tag trigger

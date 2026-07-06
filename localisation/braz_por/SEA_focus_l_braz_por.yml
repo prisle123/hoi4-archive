@@ -2659,7 +2659,7 @@
  SIK_rejoin_the_central_government: "Retornar ao governo central"
  SIK_rejoin_the_central_government_desc: "Os soviéticos não são tão confiáveis quanto pensávamos. Talvez seja hora de apostar no lado vencedor e mudar nosso rumo, voltando a nos unir ao KMT e buscando uma rápida integração com o governo central."
  SIK_reestablish_the_guominjun: "Restabelecer a Guominjun"
- SIK_reestablish_the_guominjun_desc: "A Guominjun foi uma facção militar fundada por Feng Yuxiang na década de 1920. Comprometida com o nacionalismo, o anti-imperialismo e o socialismo cristão, ela parece ser a organização ideal para reviver caso queiramos nos tornar uma terceira força na guerra civil. Vale lembrar que foi na GMJ que [ROOT.GetLeader] ingressou em sua juventude, então sua lealdade nunca pertenceu ao KMT."
+ SIK_reestablish_the_guominjun_desc: "A Guominjun foi uma facção militar fundada por Feng Yuxiang na década de 1920. Comprometida com o nacionalismo, o anti-imperialismo e o socialismo cristão, ela parece ser a organização ideal para revivermos, caso queiramos nos tornar uma terceira força na guerra civil. Vale lembrar que foi na GMJ que Sheng Shicai ingressou em sua juventude, então sua lealdade nunca pertenceu ao KMT."
  SIK_reaffirm_soviet_connections: "Reafirmar conexões soviéticas"
  SIK_reaffirm_soviet_connections_desc: "O governo central falhou com a China, e isso se torna mais evidente a cada dia que passa. Devemos cortar completamente nossos laços com eles e nos juntarmos ao Estado [SOV.GetAdjective] em sua cruzada contra o feudalismo."
  SIK_utilize_asperovs_contacts: "Utilizar os contatos de Apresov"

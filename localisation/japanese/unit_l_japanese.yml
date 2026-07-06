@@ -352,6 +352,7 @@
  heavy_armor: "重戦車"
  heavy_armor_desc: "強力な武装と強固な装甲を持つ最強の戦車だが、低速で、戦術的柔軟性に欠ける。"
  super_heavy_armor: "超重戦車"
+ super_heavy_armor_desc: "超重戦車は、標準的な重戦車を上回る火力と装甲と引き換えに、機動力と速度を犠牲にしている。"
  motorized: "自動車化歩兵"
  motorized_desc: "トラックやオートバイなどの自動車化された歩兵輸送。"
  mechanized: "機械化歩兵"

@@ -350,7 +350,7 @@
  SWI_buero_ha_idea: "“哈”局"
  SWI_expanded_spy_network_idea: "扩展间谍网"
  SWI_spirit_of_saint_bernard_idea: "圣伯纳德之魂"
- SWI_spirit_of_saint_bernard_idea_tooltip: "野战医院伤兵复原：§G+20%§!\n经验损失系数：§G-30%§!"
+ SWI_spirit_of_saint_bernard_idea_tooltip: "野战医院伤兵复原：§G+10%§!\n经验损失系数：§G-30%§!"
  SWI_mountaineer_paratroopers_idea: "$SWI_mountaneer_paratroopers$"
  SWI_mountaineer_paratroopers_idea_desc: "数世纪的高山文化和进入一些最陡峭山峰的机会赋予了瑞士空降兵一项他国空降兵没有的优势。他们能像在罗莎峰（阿尔卑斯山脉第二高峰）或是马特峰（阿尔卑斯山脉中最后一个被征服的主要山峰）一样跳出我们的运输机，然后降临并控制每个山峰。"
  SWI_mountaineer_paratroopers_idea_TT: "§Y山地§!：\n 进攻：§G+35%§!\n 防御：§G+10%§!\n 移动：§G+20%§!\n§Y丘陵§!：\n 进攻：§G+20%§!\n 防御：§G+5%§!\n 移动：§G+10%§!"

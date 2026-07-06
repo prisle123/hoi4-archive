@@ -49,7 +49,7 @@
  MANPOWER_RAILWAY_GUN_DESC: "§TDieses §HEisenbahngeschütz§! erfordert $AMOUNT|G$ Service-Mannstärke.§!"
  MANPOWER_AIRWING: "Luftgeschwader-Mannstärke"
  MANPOWER_AIRWING_DESC: "§TDieses §HSchiff§! erfordert $AMOUNT|G$ der Mannstärke.§!"
- CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\nEffektive Gesamtmannstärke modifiziert auf $VAL|+%0$ wegen\n"
+ CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\nDie effektive Gesamtmannstärke von $VAL$ basiert auf:\n"
  EQUIPMENT_DIVISION: "Ausrüstungslieferung"
  EQUIPMENT_DIVISION_DESC: "Ausrüstung im Einsatz als Prozentsatz des Gesamtbedarfs der Division."
  DIVISION_IN_TEMPLATE_TRANSFER: "Division wird gerade neu organisiert, von der Vorlage $OLD|H$ zur Vorlage $NEW|H$. Die Neuorganisation wird abgeschlossen, wenn das erste benötigte Ausrüstungsteil geliefert wird. Alte Ausrüstung wird dann in den Bestand zurückgebracht."

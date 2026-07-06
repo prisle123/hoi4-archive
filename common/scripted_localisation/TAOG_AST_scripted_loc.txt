@@ -948,3 +948,38 @@ defined_text = {
 		localization_key = "AST_dividing_the_pacific_tt2" #They Gain
 	}
 }
+
+defined_text = {
+	name = GET_AST_BWC_COUNT
+	text = {
+		trigger = {
+			check_variable = { AST_bwc_count = 2 }
+		}
+		localization_key = "AST_bwc_count_2"
+	}
+	text = {
+		trigger = {
+			check_variable = { AST_bwc_count > 2 }
+		}
+		localization_key = "AST_bwc_count_3"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = GET_AST_NAURU_PACT_FACTION_EFFECT
+	text = {
+		trigger = {
+			GER = {
+				is_in_faction = yes
+				is_faction_leader = yes
+			}
+		}
+		localization_key = "AST_nauru_pact_faction_tt"
+	}
+	text = {
+		localization_key = "AST_nauru_pact_guarantee_tt"
+	}
+}

@@ -352,6 +352,7 @@
  heavy_armor: "Schwerer Panzer"
  heavy_armor_desc: "Die stärksten Panzer, mit beeindruckender Panzerung und mächtigen Geschützen, jedoch langsam und taktisch unflexibel."
  super_heavy_armor: "Überschwerer Panzer"
+ super_heavy_armor_desc: "Überschwere Panzer geben Mobilität und Geschwindigkeit zugunsten von Feuerkraft und Panzerung auf, die weit über die von gewöhnlichen schweren Panzern hinausgeht."
  motorized: "Motorisierte Infanterie"
  motorized_desc: "Motorisierter Infanterietransport, wie Lastwagen und Motorräder."
  mechanized: "Mechanisierte Infanterie"

@@ -4277,12 +4277,12 @@
  INS_armored_car_equipment_0: "ウィルトン・フェイエノールト装甲車"
  INS_armored_car_equipment_0_short: "WF 装甲車"
  #Vehicles - Mechanized
- INS_mechanized_equipment_1: "オーフェルファルワーゲン I"
- INS_mechanized_equipment_1_short: "オーフェルファルワーゲン I"
+ INS_mechanized_equipment_1: "オーフェルファルワーゲン"
+ INS_mechanized_equipment_1_short: "オーフェルファルワーゲン"
  INS_mechanized_equipment_2: "オーフェルファルワーゲン II"
  INS_mechanized_equipment_2_short: "オーフェルファルワーゲン II"
- INS_mechanized_equipment_3: "オーフェルファルワーゲン ブラット"
- INS_mechanized_equipment_3_short: "オーフェルファルワーゲン ブラット"
+ INS_mechanized_equipment_3: "オーフェルファルワーゲン ブラート"
+ INS_mechanized_equipment_3_short: "オーフェルファルワーゲン ブラート"
  #Infantry
  INS_infantry_equipment_0: "マンリッヒャー M95"
  INS_infantry_equipment_0_short: "マンリッヒャー M95"
@@ -4293,6 +4293,10 @@
  INS_infantry_equipment_3: "M3 SMG"
  INS_infantry_equipment_3_short: "M3 SMG"
  INS_support_weapons: "マドセン機関銃"
+ INS_gw_armored_car_equipment: "ウィルトン・フェイエノールト装甲車"
+ INS_gw_armored_car_equipment_short: "WF 装甲車"
+ INS_armored_car_equipment_1: "アルヴィス＝ストラウスラー AC3D"
+ INS_armored_car_equipment_1_short: "AS AC3D"
  #Artillery
  INS_artillery_equipment_1: "M23 ヴィッカース"
  INS_artillery_equipment_1_short: "M23 ヴィッカース"

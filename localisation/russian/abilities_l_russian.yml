@@ -1,7 +1,6 @@
 ﻿l_russian:
  ABILITY_TOOLTIP_NAME: "$NAME|H$"
  ABILITY_TOOLTIP_NAME_CANCEL: "§RОтменить: $NAME|H$§!"
- ABILITY_TOOLTIP_OUT_OF_RANGE: "§RЭта дивизия за пределами дальности способности§!"
  ABILITY_TOOLTIP_DETAILED_COST: "    — Базовая стоимость: $VALUE|H2$ (за каждый из $UNITS|H0$ батальонов)"
  ABILITY_TOOLTIP_DETAILED_COST_FACTOR: "    — Стоимость способностей: $FACTOR|+%$"
  ABILITY_TOOLTIP_DAILY_COST: "Ежедневно: £command_power $VALUE|H2$"
@@ -35,7 +34,8 @@
  ABILITY_TOOLTIP_FIELD_MARSHAL_BULK_LEADER_UNAVAIL: "— Лидер §Y$LEADER$§! §Rнедоступен§!"
  ABILITY_TOOLTIP_GRANTED_BY_FIELD_MARSHAL: "Эту способность предоставляет фельдмаршал §Y$NAME$§!."
  ABILITY_TOOLTIP_LATE_JOINER_WARNING: "Сила этой способности будет снижена, если в то время, пока она активна, к армии добавятся дивизии."
- ASSIGN_TARGET_LATE_JOINER_WARNING: "Если к этой армии добавятся выбранные дивизии (§Y$COUNT$§!), то дополнительный модификатор ($MODIFIER|+%0$) добавится к силе активной способности: $NAMES$"
+ ABILITY_TOOLTIP_LATE_JOINER_MULT: "Сила этой способности снижена на $MULT|0-%$, поскольку во время её действия к армии были добавлены новые батальоны."
+ ASSIGN_TARGET_LATE_JOINER_WARNING: "Если к этой армии добавятся выбранные батальоны (§Y$COUNT$§!), то к силе активной способности — $NAMES$ — добавится дополнительный модификатор: $MODIFIER|+%0$"
  ASSIGN_TARGET_LATE_JOINER_NAME: "§Y$NAME$§!"
  ABILITY_TOOLTIP_HEADER_SUMMARY: "£command_power §Y$COST|H2$§!  £clock_texticon §Y$DURATION$§!"
  ABILITY_TOOLTIP_HEADER_COST_ONLY: "£command_power §Y$COST|H2$§!"

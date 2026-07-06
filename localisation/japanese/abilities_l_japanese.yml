@@ -1,7 +1,6 @@
 ﻿l_japanese:
  ABILITY_TOOLTIP_NAME: "$NAME|H$"
  ABILITY_TOOLTIP_NAME_CANCEL: "§R中止: $NAME|H$§!"
- ABILITY_TOOLTIP_OUT_OF_RANGE: "§Rこの師団は能力の範囲外にある§!"
  ABILITY_TOOLTIP_DETAILED_COST: "    - 基本コスト: $VALUE|H2$（$UNITS|H0$大隊一つあたり）"
  ABILITY_TOOLTIP_DETAILED_COST_FACTOR: "    - アビリティコスト: $FACTOR|+%$"
  ABILITY_TOOLTIP_DAILY_COST: "日毎: £command_power $VALUE|H2$"
@@ -35,7 +34,8 @@
  ABILITY_TOOLTIP_FIELD_MARSHAL_BULK_LEADER_UNAVAIL: " - §Y$LEADER$§!§Rは利用できない§!"
  ABILITY_TOOLTIP_GRANTED_BY_FIELD_MARSHAL: "この能力は陸軍元帥§Y「$NAME$」§!によって付与される。"
  ABILITY_TOOLTIP_LATE_JOINER_WARNING: "この能力が有効である間に師団が軍に追加された場合、この能力の効果が低下する。"
- ASSIGN_TARGET_LATE_JOINER_WARNING: "選択された§Y$COUNT$§!個師団をこの軍に追加すると、現在有効である以下の能力に補正（$MODIFIER|+%0$）が加えられる: $NAMES$"
+ ABILITY_TOOLTIP_LATE_JOINER_MULT: "この能力が有効な間に大隊が軍に追加されたため、この能力の効果が$MULT|0-%$低下した。"
+ ASSIGN_TARGET_LATE_JOINER_WARNING: "選択した§Y$COUNT$§!個大隊をこの軍に追加すると、現在有効な能力の効果に追加補正（$MODIFIER|+%0$）が適用される: $NAMES$"
  ASSIGN_TARGET_LATE_JOINER_NAME: "§Y$NAME$§!"
  ABILITY_TOOLTIP_HEADER_SUMMARY: "£command_power §Y$COST|H2$§!  £clock_texticon §Y$DURATION$§!"
  ABILITY_TOOLTIP_HEADER_COST_ONLY: "£command_power §Y$COST|H2$§!"

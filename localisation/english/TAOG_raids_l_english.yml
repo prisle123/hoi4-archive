@@ -43,3 +43,6 @@
   success_modifier_INS_naval_dominance_modifier: "§H§YNaval Dominance§!§!"
   success_modifier_INS_naval_dominance_modifier_counterplay: "- Increase §YNaval Dominance§!"
   success_modifier_INS_naval_dominance_modifier_improvement: "- Increase §YNaval Dominance§!"
+
+  success_modifier_INS_militia_unit_level_modifier: "§H§YUnit Batallions§!§!"
+  success_modifier_INS_militia_unit_level_modifier_improvement: "- Increase §YUnit Battalions§!"

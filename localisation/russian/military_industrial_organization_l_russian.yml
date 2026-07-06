@@ -273,6 +273,7 @@
  mio_cat_eq_only_strategic_bomber: "Стратегический бомбардировщик"
  mio_cat_eq_all_cv_aircraft: "Вся палубная авиация"
  mio_cat_eq_all_artillery: "Вся артиллерия"
+ mio_cat_eq_only_artillery: "$artillery_equipment$"
  mio_cat_eq_all_infantry_and_support_equipment: "Всё пехотное и вспомогательное снаряжение"
  ##     ## ########    ###    ########  ######## ########   ######
  ##     ## ##         ## ##   ##     ## ##       ##     ## ##    ##
@@ -333,9 +334,9 @@
  mio_header_single_rotor: "Одновинтовая схема"
  mio_header_tandem_rotor: "Продольная схема"
  mio_header_aircraft_weapons: "Авиационное вооружение"
- mio_header_light_tank_destroyers_department: "Отдел легких эсминцев"
- mio_header_medium_tank_destroyers_department: "Отдел средних эсминцев"
- mio_header_heavy_tank_destroyers_department: "Отдел тяжелых эсминцев"
+ mio_header_light_tank_destroyers_department: "Отдел легких ПТ-установок"
+ mio_header_medium_tank_destroyers_department: "Отдел средних ПТ-установок"
+ mio_header_heavy_tank_destroyers_department: "Отдел тяжелых ПТ-установок"
  mio_header_tank_production: "Производство танков"
  ########   #######  ##       ####  ######  #### ########  ######
  ##     ## ##     ## ##        ##  ##    ##  ##  ##       ##    ##

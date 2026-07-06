@@ -627,7 +627,7 @@
  PHI_defend_against_USA: "[USA.GetAdjective]es Eingreifen aufhalten"
  decision_cost_CP_25_army_exp_35: "£command_power  §Y25§!  £army_experience §Y35§!"
  decision_cost_CP_25_army_exp_35_blocked: "£command_power  §R25§!  £army_experience §R35§!"
- decision_cost_CP_25_army_exp_35_tooltip: "Es kostet £command_power §Y25§! und £army_experience §Y35§!, diese Entscheidung zu fällen"
+ decision_cost_CP_25_army_exp_35_tooltip: "Diese Entscheidung kostet £command_power §Y25§! und £army_experience §Y35§!"
  PHI_sent_away: "Auf [USA.GetAdjective]en Druck ins Exil verbannt"
  PHI_american_intervention_is_over: "[USA.GetNameDefCap] hat zugestimmt, nicht einzugreifen"
  PHI_repeatable_except_delay: "Diese Entscheidung kann wiederholt werden, doch die §Yamerikanische Geduld§! wird nur beim ersten Mal verlängert werden."

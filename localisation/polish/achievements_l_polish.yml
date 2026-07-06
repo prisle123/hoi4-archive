@@ -135,6 +135,7 @@
  hunt_for_the_desert_fox_tt: "Weź do niewoli: $GER_erwin_rommel$"
  right_side_up_tt: "Jako [AST.GetNonIdeologyName] posiadaj i kontroluj region [914.GetName]."
  maphilindia_tt: "Jako [PHI.GetNonIdeologyName] albo [INS.GetNonIdeologyName], stwórz Mafilindo i posiadaj wszystkie regiony początkowe, których właścicielem jest [RAJ.GetNonIdeologyName]."
+ maphilindia_formed_tt: "Utworzono Mafilindo"
  old_zealand_tt: "Jako [NZL.GetNonIdeologyName] posiadaj i kontroluj regiony [35.GetName] i [37.GetName]."
  thaitanic_tt: "Zatop chlubę floty należącą do: [SIA.GetNonIdeologyName]."
  thaifighters_tt: "Jako [SIA.GetNonIdeologyName] posiadaj 10 asów."

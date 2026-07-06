@@ -2659,7 +2659,7 @@
  SIK_rejoin_the_central_government: "중앙정부 재합류"
  SIK_rejoin_the_central_government_desc: "소련은 우리가 생각했던 것만큼 신뢰할 수 있는 국가가 아니었습니다. 이기는 말에 걸고, 국민당에 재가입하여 중앙정부와 빠르게 통합하는 방향으로 진로를 바꾸는 것이 최선일 것 같습니다."
  SIK_reestablish_the_guominjun: "국민군 재설립"
- SIK_reestablish_the_guominjun_desc: "국민군은 1920년대에 펑위샹이 창설한 군사 세력이었습니다. 민족주의, 반제국주의, 그리고 기독교 사회주의를 지향하는 이 조직은 우리가 내전에서 제3의 세력이 되기 위해 되살리기에 딱 맞는 조직으로 보입니다. 게다가 결국 그 당시에 [ROOT.GetLeader](이)가 합류한 곳은 국민군이었으며, 그는 결코 국민당에 충성한 적이 없습니다."
+ SIK_reestablish_the_guominjun_desc: "국민군은 1920년대에 펑위샹이 창설한 군사 세력이었습니다. 민족주의, 반제국주의, 그리고 기독교 사회주의를 지향하는 이 조직은 우리가 내전에서 제3의 세력이 되기 위해 되살리기에 딱 맞는 조직으로 보입니다. 게다가 결국 그 당시에 성스차이가 합류한 곳은 국민군이었으며, 그는 결코 국민당에 충성한 적이 없습니다."
  SIK_reaffirm_soviet_connections: "소련과의 관계 재확인"
  SIK_reaffirm_soviet_connections_desc: "중앙정부는 중국을 실패로 이끌었고, 이는 날이 갈수록 더욱 분명해지고 있습니다. 우리는 그들과의 관계를 완전히 끊고, 봉건주의에 맞서는 [SOV.GetNameDef]의 성전에 동참해야 합니다."
  SIK_utilize_asperovs_contacts: "아프레소프의 인맥 활용"

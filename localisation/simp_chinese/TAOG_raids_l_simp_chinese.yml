@@ -33,3 +33,5 @@
  success_modifier_INS_naval_dominance_modifier: "§H§Y制海权§!§!"
  success_modifier_INS_naval_dominance_modifier_counterplay: "-提高§Y制海权§!"
  success_modifier_INS_naval_dominance_modifier_improvement: "-提高§Y制海权§!"
+ success_modifier_INS_militia_unit_level_modifier: "§H§Y单位营§!§!"
+ success_modifier_INS_militia_unit_level_modifier_improvement: "-增加§Y单位营§!"

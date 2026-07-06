@@ -1040,8 +1040,8 @@
  AST_fighter_equipment_3: "CAC CA-15"
  AST_fighter_equipment_3_short: "CA-15"
  #Medium Airframe (Heavy Fighter)
- AST_heavy_fighter_equipment_1: "布里斯托尔 布伦海姆"
- AST_heavy_fighter_equipment_1_short: "布伦海姆"
+ AST_heavy_fighter_equipment_1: "布里斯托尔 布伦海姆 Mk.IF"
+ AST_heavy_fighter_equipment_1_short: "布伦海姆 IF"
  AST_heavy_fighter_equipment_2: "布里斯托尔 英俊战士"
  AST_heavy_fighter_equipment_2_short: "英俊战士"
  AST_heavy_fighter_equipment_3: "德哈维兰 蚊"

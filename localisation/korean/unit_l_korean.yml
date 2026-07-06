@@ -352,6 +352,7 @@
  heavy_armor: "중전차"
  heavy_armor_desc: "강력한 장갑과 무기를 가진 최강의 전차지만, 느리고 전술적 유연성이 떨어집니다."
  super_heavy_armor: "초중전차"
+ super_heavy_armor_desc: "초중전차는 기동성과 속도를 포기하는 대신 일반적인 중전차를 능가하는 수준의 화력과 장갑을 가집니다."
  motorized: "차량화보병"
  motorized_desc: "트럭과 오토바이 등, 차량으로 수송되는 보병입니다."
  mechanized: "기계화보병"

@@ -33,3 +33,5 @@
  success_modifier_INS_naval_dominance_modifier: "§H§Y해상 지배§!§!"
  success_modifier_INS_naval_dominance_modifier_counterplay: "- §Y해상 지배§! 증가"
  success_modifier_INS_naval_dominance_modifier_improvement: "- §Y해상 지배§! 증가"
+ success_modifier_INS_militia_unit_level_modifier: "§H§Y부대 대대§!§!"
+ success_modifier_INS_militia_unit_level_modifier_improvement: "- §Y부대 대대§! 증가"

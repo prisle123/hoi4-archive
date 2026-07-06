@@ -352,6 +352,7 @@
  heavy_armor: "Chars lourds"
  heavy_armor_desc: "Les chars dotés de l'armement le plus puissant et du blindage le plus épais, avec toutefois le désavantage d'être lents et peu polyvalents au niveau tactique."
  super_heavy_armor: "Chars super-lourds"
+ super_heavy_armor_desc: "À la différence des chars lourds ordinaires, les chars super-lourds privilégient la puissance de feu et le blindage au détriment de la maniabilité et la vitesse."
  motorized: "Infanterie motorisée"
  motorized_desc: "Transport motorisé de l'infanterie (camions, motos, etc.)."
  mechanized: "Infanterie mécanisée"

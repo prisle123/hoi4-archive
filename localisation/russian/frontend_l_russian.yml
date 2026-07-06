@@ -86,6 +86,8 @@
  SM_MULTISAMPLE: "Качество сглаживания"
  SM_AMBIENT_OBJECTS: "Объекты на карте"
  SM_VOICE_VOLUME: "Громкость речи"
+ SM_EVENT_SOUNDS: "Звуки событий"
+ SM_EVENT_SOUNDS_DESC: "Позволяет проигрывать звуки и музыку по скриптам. Рекомендуется включить во время игры с модами."
  SM_VSYNC: "Верт. синхронизация"
  SM_WEATHER: "Погода"
  SM_WATER_REFL: "Отражения"

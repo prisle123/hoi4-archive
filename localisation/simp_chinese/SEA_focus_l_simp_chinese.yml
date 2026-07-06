@@ -2659,7 +2659,7 @@
  SIK_rejoin_the_central_government: "重新加入中央政府"
  SIK_rejoin_the_central_government_desc: "苏联并不像我们曾经认为的那样可靠。看来最佳选择是押注胜算更大的一方，转而重新加入国民党并迅速与中央政府整合。"
  SIK_reestablish_the_guominjun: "重建国民军"
- SIK_reestablish_the_guominjun_desc: "国民军是冯玉祥于1920年代创立的军事派系。该组织信奉民族主义、反帝主义及基督教社会主义，若想在内战中成为第三方力量，复兴这一组织似乎是最佳选择。更何况[ROOT.GetLeader]当年最终加入的正是国民军，其忠诚从未归属于国民党。"
+ SIK_reestablish_the_guominjun_desc: "国民军是冯玉祥于1920年代创立的军事派系。该组织信奉民族主义、反帝主义及基督教社会主义，若想在内战中成为第三方力量，复兴这一组织似乎是最佳选择。更何况盛世才当年最终加入的正是国民军，其忠诚从未归属于国民党。"
  SIK_reaffirm_soviet_connections: "重申苏联关系"
  SIK_reaffirm_soviet_connections_desc: "中央政府辜负了中国，这一点正日益明朗。我们应彻底切断与他们的联系，加入[SOV.GetNameDef]反对封建主义的斗争。"
  SIK_utilize_asperovs_contacts: "利用阿普列索夫的人脉"

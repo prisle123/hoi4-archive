@@ -33,3 +33,5 @@
  success_modifier_INS_naval_dominance_modifier: "§H§YMarinedominanz§!§!"
  success_modifier_INS_naval_dominance_modifier_counterplay: "- Erhöht die §YMarinedominanz§!"
  success_modifier_INS_naval_dominance_modifier_improvement: "- Erhöht die §YMarinedominanz§!"
+ success_modifier_INS_militia_unit_level_modifier: "§H§YEinheiten-Bataillone§!§!"
+ success_modifier_INS_militia_unit_level_modifier_improvement: "- §YEinheiten-Bataillone§! erhöhen"

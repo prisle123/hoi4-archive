@@ -361,7 +361,7 @@
  SWI_buero_ha_idea: "Buero Ha"
  SWI_expanded_spy_network_idea: "Expanded Spy Network"
  SWI_spirit_of_saint_bernard_idea: "Spirit of Saint Bernard"
- SWI_spirit_of_saint_bernard_idea_tooltip: "Field Hospital Trickleback: §G+20%§!\nExp. Loss Factor: §G-30%§!"
+ SWI_spirit_of_saint_bernard_idea_tooltip: "Field Hospital Trickleback: §G+10%§!\nExp. Loss Factor: §G-30%§!"
  SWI_mountaineer_paratroopers_idea: "$SWI_mountaneer_paratroopers$"
  SWI_mountaineer_paratroopers_idea_desc: "Access to some of the steepest peaks, and centuries of alpine culture give Swiss Paratroopers an advantage over all other airborne infantry. They can descend from our transport planes and dominate mountain peaks as if they were on Monte Rosa or the Matterhorn."
  SWI_mountaineer_paratroopers_idea_TT: "§YMountains§!:\n Attack: §G+35%§!\n Defense: §G+10%§!\n Movement: §G+20%§!\n§YHills§!:\n Attack: §G+20%§!\n Defense: §G+5%§!\n Movement: §G+10%§!"

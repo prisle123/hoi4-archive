@@ -352,6 +352,7 @@
  heavy_armor: "重型坦克"
  heavy_armor_desc: "拥有强大火力和装甲防护的最强坦克，移动缓慢而缺乏战术灵活性。"
  super_heavy_armor: "超重型坦克"
+ super_heavy_armor_desc: "超重型坦克以牺牲机动性和速度为代价，换取了超越标准重型坦克的火力与装甲厚度。"
  motorized: "摩托化步兵"
  motorized_desc: "摩托化步兵载具，如卡车、摩托车等。"
  mechanized: "机械化步兵"

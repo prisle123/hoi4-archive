@@ -1717,6 +1717,7 @@
  SEA_PHI_political_events.64.t: "$PHI_manuel_luis_quezon$の死"
  SEA_PHI_political_events.64.desc_quezon: "$PHI_manuel_luis_quezon$は結核を患った後に徐々に体調を悪化させ、ついには死を迎えた。国民が喪に服すなか、当面は副大統領がケソンの職務を引き継いでいるが、まもなく後継者を決める時がやってくる。"
  SEA_PHI_political_events.64.desc_generic: "[ROOT.GetLeader]の現在の任期が終わりを迎え、新たな大統領を決める選挙が始まる。$PHI_manuel_luis_quezon$は体調の悪化が原因で次の選挙には出馬しない予定だ。"
+ SEA_PHI_political_events.64.osmena: "$PHI_sergio_osmena$が政権の舵取りを続ける"
  SEA_PHI_political_events.65.t: "ドワイト・D・アイゼンハワーが[USA.GetName]に残留"
  SEA_PHI_political_events.65.desc: "残念ながら、我々が要請した[ROOT.GetNameDef]における[USA.GetAdjective]の軍事任務強化は拒否された。[USA.GetNameDef]の他の軍事計画で彼の専門知識が必要とされているらしい。"
  SEA_PHI_political_events.65.a: "残念だ"

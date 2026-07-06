@@ -135,6 +135,7 @@
  hunt_for_the_desert_fox_tt: "Captura a $GER_erwin_rommel$."
  right_side_up_tt: "Como [AST.GetNonIdeologyName], posee y controla [914.GetName]."
  maphilindia_tt: "Como [PHI.GetNonIdeologyName] o [INS.GetNonIdeologyName], forma Maphilindo y posee todos los estados iniciales de [RAJ.GetNonIdeologyName]."
+ maphilindia_formed_tt: "Se ha creado Maphilindo"
  old_zealand_tt: "Como [NZL.GetNonIdeologyName], posee y controla [35.GetName] y [37.GetName]."
  thaitanic_tt: "Hunde un Orgullo de la flota que pertenezca a [SIA.GetNonIdeologyName]."
  thaifighters_tt: "Como [SIA.GetNonIdeologyName], produce 10 ases."

@@ -350,7 +350,7 @@
  SWI_buero_ha_idea: "ブエロ・ハ"
  SWI_expanded_spy_network_idea: "拡張されたスパイネットワーク"
  SWI_spirit_of_saint_bernard_idea: "サン・ベルナールの精神"
- SWI_spirit_of_saint_bernard_idea_tooltip: "野戦病院への後方移送: §G+20%§!\n経験値損失補正: §G-30%§!"
+ SWI_spirit_of_saint_bernard_idea_tooltip: "野戦病院の後方移送: §G+10%§!\n経験値損失補正: §G-30%§!"
  SWI_mountaineer_paratroopers_idea: "$SWI_mountaneer_paratroopers$"
  SWI_mountaineer_paratroopers_idea_desc: "どこよりも険しい山々が身近な場所で、何世紀にも及ぶアルプス文化に触れてきたスイスの空挺兵達は、他のどんな空挺歩兵よりも優位にある。彼らは輸送機から降下し、そこがあたかもモンテローザやマッターホルンであるかのように、あらゆる山の頂を制圧して行く。"
  SWI_mountaineer_paratroopers_idea_TT: "§Y山§!:\n 攻撃: §G+35%§!\n 防御: §G+10%§!\n 移動: §G+20%§!\n§Y丘§!:\n 攻撃: §G+20%§!\n 防御: §G+5%§!\n 移動: §G+10%§!"

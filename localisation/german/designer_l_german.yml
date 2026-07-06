@@ -60,6 +60,7 @@
  DESIGNER_EXPENSIVE: "Entwurf zu teuer"
  DESIGNER_NOT_ENOUGH_SPECIAL_FORCES: "Durch diese Änderung würden wir die Grenze für Spezialeinheiten überschreiten"
  DESIGNER_NOT_ENOUGH_DIVISION_CAP: "Durch diese Änderung würden wir die Grenze für Divisionen überschreiten"
+ DESIGNER_GARRISON_ZERO_SUPPRESSION: "§RDie Änderungen an dieser Vorlage können nicht gespeichert werden, da sie derzeit als Garnison eingesetzt wird und die Änderungen zu einem Unterdrückungswert von §Y0§! führen würden.§!"
  DESIGNER_NO_CHANGES: "§TKeine Änderungen zum Speichern§!"
  DESIGNER_ARMY_SAVE: "Speichern (£army_experience $VALUE|Y0$)"
  DESIGNER_ARMY_SAVE_HQ: "Speichern (£army_experience $XP|Y0$ £command_power $CP|Y0$)"

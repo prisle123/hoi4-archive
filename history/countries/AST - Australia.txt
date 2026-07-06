@@ -180,6 +180,8 @@ if = {
 		name = AST_colonial_administration
 		long_name = AST_colonial_administration_long
 	}
+
+	add_ideas = AST_brudenell_white
 }
 
 if = {
@@ -905,8 +907,8 @@ set_variable = { AST_imperial_pressure_stability_factor = 0 }
 ## Army
 
 #Citizen Army
-set_variable = { AST_citizen_army_spirit_army_non_core_attack_factor = -0.25 }
-set_variable = { AST_citizen_army_spirit_army_non_core_defence_factor = -0.25 }
+set_variable = { AST_citizen_army_spirit_army_non_core_attack_factor = -0.15 }
+set_variable = { AST_citizen_army_spirit_army_non_core_defence_factor = -0.15 }
 
 #Australian Military Forces
 set_variable = { AST_australian_military_forces_spirit_army_org_factor = 0.05 }
@@ -958,12 +960,17 @@ set_variable = { AST_royal_australian_navy_spirit_invasion_preparation = 0 }
 set_variable = { AST_royal_australian_navy_spirit_naval_invasion_penalty = 0 }
 set_variable = { AST_royal_australian_navy_spirit_navy_intel_factor = 0 }
 set_variable = { AST_royal_australian_navy_spirit_airforce_intel_factor = 0 }
+set_variable = { AST_royal_australian_navy_spirit_navy_casualty_on_sink = 0 }
+set_variable = { AST_royal_australian_navy_spirit_air_wing_xp_loss_when_killed_factor = 0 }
 
 #Cabinet Trust
 set_variable = { AST_cabinet_trust_state = 3 }
 
 #Demanding Vichy France African Terriotries
 set_variable = { AST_vichy_transfer_count = 0 }
+
+#AFM Decision System
+set_variable = { AST_call_on_fascists_cost = 20 }
 
 
 

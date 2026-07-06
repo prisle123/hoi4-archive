@@ -1,7 +1,6 @@
 ﻿l_polish:
  ABILITY_TOOLTIP_NAME: "$NAME|H$"
  ABILITY_TOOLTIP_NAME_CANCEL: "§RAnuluj: $NAME|H$§!"
- ABILITY_TOOLTIP_OUT_OF_RANGE: "§RTa dywizja znajduje się poza zasięgiem działania zdolności§!"
  ABILITY_TOOLTIP_DETAILED_COST: "    - Podstawowy koszt: $VALUE|H2$ (każdy za $UNITS|H0$ bat.)"
  ABILITY_TOOLTIP_DETAILED_COST_FACTOR: "    – Koszt w zdolnościach: $FACTOR|+%$"
  ABILITY_TOOLTIP_DAILY_COST: "Codziennie: £command_power $VALUE|H2$"
@@ -35,7 +34,8 @@
  ABILITY_TOOLTIP_FIELD_MARSHAL_BULK_LEADER_UNAVAIL: " - §Y$LEADER$§! - §Rbrak dostępności§!"
  ABILITY_TOOLTIP_GRANTED_BY_FIELD_MARSHAL: "Tę zdolność zapewniana marszałek polny, §Y$NAME$§!."
  ABILITY_TOOLTIP_LATE_JOINER_WARNING: "Siła tej zdolności zmniejszy się, jeśli będzie ona działała, kiedy do armii zostaną dodane dodatkowe dywizje."
- ASSIGN_TARGET_LATE_JOINER_WARNING: "Dodanie wybranych §Y$COUNT$§! dywizji do tej armii nałoży dodatkowy modyfikator ($MODIFIER|+%0$) do siły obecnie aktywnych zdolności: $NAMES$"
+ ABILITY_TOOLTIP_LATE_JOINER_MULT: "Siła tej zdolności zmniejsza się o $MULT|0-%$, ponieważ kiedy działała, do armii dodano dodatkowe bataliony."
+ ASSIGN_TARGET_LATE_JOINER_WARNING: "Dodanie wybranych §Y$COUNT$§! batalionów do tej armii nałoży dodatkowy modyfikator ($MODIFIER|+%0$) do siły obecnie aktywnych zdolności: $NAMES$"
  ASSIGN_TARGET_LATE_JOINER_NAME: "§Y$NAME$§!"
  ABILITY_TOOLTIP_HEADER_SUMMARY: "£command_power §Y$COST|H2$§!  £clock_texticon §Y$DURATION$§!"
  ABILITY_TOOLTIP_HEADER_COST_ONLY: "£command_power §Y$COST|H2$§!"

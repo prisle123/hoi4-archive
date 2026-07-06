@@ -2659,7 +2659,7 @@
  SIK_rejoin_the_central_government: "Rejoindre le gouvernement central"
  SIK_rejoin_the_central_government_desc: "Les Soviétiques ne sont finalement plus aussi fiables qu'on le pensait. Changeons de bord tant qu'il est encore temps et rejoignons le Kuomintang pour nous intégrer au gouvernement central."
  SIK_reestablish_the_guominjun: "Rétablir le Guominjun"
- SIK_reestablish_the_guominjun_desc: "Le Guominjun était une faction militaire fondée par Feng Yuxiang dans les années 20. Phalange nationaliste, anti-impérialiste et socialo-chrétienne, c'est l'organisation rêvée pour nous interposer comme le troisième camp de la guerre civile. De plus, [ROOT.GetLeader] avait rejoint le Guominjun à l'époque, et non le Kuomintang..."
+ SIK_reestablish_the_guominjun_desc: "Le Guominjun était une faction militaire fondée par Feng Yuxiang dans les années 20. Phalange nationaliste, anti-impérialiste et socialo-chrétienne, c'est l'organisation rêvée pour nous interposer comme le troisième camp de la guerre civile. De plus, Sheng Shicai avait rejoint le Guominjun à l'époque, et non le Kuomintang..."
  SIK_reaffirm_soviet_connections: "Réaffirmer les liens soviétiques"
  SIK_reaffirm_soviet_connections_desc: "Le gouvernement central a échoué en Chine, c'est un fait qui se fait plus évident jour après jour. Coupons définitivement les ponts avec cette faction et rejoignons les [SOV.GetHabitants] dans leur croisade contre le féodalisme."
  SIK_utilize_asperovs_contacts: "Exploiter les contacts d'Apresov"

@@ -717,7 +717,7 @@
  SPOTTER_TRIGGER_TT: "Detectando al enemigo"
  FLY_SWATTER_TRIGGER_TT: "Luchando contra unidades aéreas del enemigo"
  IRONSIDE_TRIGGER_TT: "Mandando o luchando contra buques capitales"
- BLOCKADE_RUNNER_TRIGGER_TT: "Tener en combate una fuerza especial en la que todos los barcos tengan una velocidad superior a 37 nudos"
+ BLOCKADE_RUNNER_TRIGGER_TT: "Ten en combate una fuerza especial en la que todos los barcos tengan una velocidad superior a 32 nudos."
  leider: "Líder"
  comintern_workhorse: "Caballo de batalla de la Comintern"
  veteran_communist: "Comunista veterano"
@@ -2313,6 +2313,7 @@
  PHI_resistance_connections: "Contactos con la resistencia"
  PHI_san_miguel_trait: "Su mundo, pero mejor"
  PHI_marsman_and_company_trait: "Conglomerado de minería de oro"
+ steady_statesman: "Estadista firme"
  #CHI
  CHI_generallissimo_sea: "Generalísimo"
  CHI_all_china_generalisimo: "Generalísimo de toda China"
@@ -2562,6 +2563,8 @@
  SIA_ambassador_to_the_uk: "Embajador del Reino Unido"
  SIA_resistance_fighter: "Combatiente de la resistencia"
  SIA_leader_of_the_1932_revolution: "Líder de la Revolución de 1932"
+ SIA_the_inoffensive_choice: "La opción más inofensiva"
+ SIA_the_generals_mandate: "El mandato del general"
  SIA_military_wing_leader: "Líder del ala militar"
  SIA_civilian_wing_leader: "Líder del ala civil"
  AST_standard-bearer: "Abanderado"
@@ -2613,6 +2616,7 @@
  AST_the_big_australian_upgraded: "$AST_the_big_australian$"
  AST_steelworks_and_shipyard_upgraded: "$AST_steelworks_and_shipyard$"
  AST_mount_isa: "Mount Isa"
+ AST_mount_isa_upgraded: "$AST_mount_isa$"
  AST_naval_engineer: "Ingeniero naval"
  #New Zealand
  NZL_minister_of_public_works: "Ministro de Obras Públicas"

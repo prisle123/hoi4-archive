@@ -33,3 +33,5 @@
  success_modifier_INS_naval_dominance_modifier: "§H§YПревосходство на море§!§!"
  success_modifier_INS_naval_dominance_modifier_counterplay: "— Усилить §Yпревосходство на море§!"
  success_modifier_INS_naval_dominance_modifier_improvement: "Ослабить §Yпревосходство на море§!"
+ success_modifier_INS_militia_unit_level_modifier: "§H§YБатальоны подразделения§!§!"
+ success_modifier_INS_militia_unit_level_modifier_improvement: "— Увеличить количество §Yбатальонов в подразделении§!"

@@ -433,10 +433,7 @@ characters = {
 				cost = 150
 				idea_token = HOL_hein_ter_poorten
 				allowed = {
-					OR = {
-						original_tag = INS
-						original_tag = HOL
-					}
+					original_tag = INS
 				}
 				visible = {
 					original_tag = INS
@@ -450,6 +447,7 @@ characters = {
 						OR = {
 							is_subject_of = HOL
 							has_completed_focus = INSHOL_volksraad_compromises
+							has_cosmetic_tag = INS_UNION
 						}
 					}
 				}
@@ -1719,6 +1717,7 @@ characters = {
 						OR = {
 							is_subject_of = HOL
 							has_completed_focus = INSHOL_volksraad_compromises
+							has_cosmetic_tag = INS_UNION
 						}
 					}
 				}
@@ -1918,6 +1917,7 @@ characters = {
 						is_subject_of = HOL
 						has_completed_focus = INSHOL_volksraad_compromises
 						has_completed_focus = INS_tkr_steal_general
+						has_cosmetic_tag = INS_UNION
 					}
 				}
 			}
@@ -1989,10 +1989,7 @@ characters = {
 				cost = 100
 				idea_token = HOL_hendrik_van_oyen
 				allowed = {
-					OR = {
-						original_tag = INS
-						original_tag = HOL
-					}
+					original_tag = INS
 				}
 				visible = {
 					original_tag = INS
@@ -2006,6 +2003,7 @@ characters = {
 						OR = {
 							is_subject_of = HOL
 							has_completed_focus = INSHOL_volksraad_compromises
+							has_cosmetic_tag = INS_UNION
 						}
 					}
 				}
@@ -2035,19 +2033,9 @@ characters = {
 				cost = 100
 				idea_token = HOL_hendrik_van_oyen
 				allowed = {
-					OR = {
-						original_tag = INS
-						original_tag = HOL
-					}
+					original_tag = INS
 				}
 				visible = {
-					OR = {
-						original_tag = INS
-						AND = {
-							original_tag = HOL
-							has_cosmetic_tag = INS_UNION
-						}
-					}
 					is_subject_of = HOL
 				}
 				available = {
@@ -2103,6 +2091,7 @@ characters = {
 					OR = {
 						is_subject_of = HOL
 						has_completed_focus = INSHOL_volksraad_compromises
+						has_cosmetic_tag = INS_UNION
 					}
 				}
 			}
@@ -2155,6 +2144,7 @@ characters = {
 						OR = {
 							is_subject_of = HOL
 							has_completed_focus = INSHOL_volksraad_compromises
+							has_cosmetic_tag = INS_UNION
 						}
 					}
 				}
@@ -2252,6 +2242,7 @@ characters = {
 					OR = {
 						is_subject_of = HOL
 						has_completed_focus = INSHOL_volksraad_compromises
+						has_cosmetic_tag = INS_UNION
 					}
 				}
 			}
@@ -2368,6 +2359,7 @@ characters = {
 						OR = {
 							has_completed_focus = INS_the_declaration_of_independence
 							has_country_flag = indonesia_volksraad_passed_6
+							has_cosmetic_tag = INS_UNION
 						}
 					}
 				}

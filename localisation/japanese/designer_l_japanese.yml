@@ -60,6 +60,7 @@
  DESIGNER_EXPENSIVE: "経験値が不足"
  DESIGNER_NOT_ENOUGH_SPECIAL_FORCES: "この変更によって我々の特殊部隊数上限に達する"
  DESIGNER_NOT_ENOUGH_DIVISION_CAP: "この変更によって我々の師団数上限に達する"
+ DESIGNER_GARRISON_ZERO_SUPPRESSION: "§R現在この師団編制は駐屯任務に使用されており、変更すると制圧値が§Y0§!になるため変更を保存できません。§!"
  DESIGNER_NO_CHANGES: "§T保存する変更が無い§!"
  DESIGNER_ARMY_SAVE: "£army_experience $VALUE|Y0$を保存"
  DESIGNER_ARMY_SAVE_HQ: "£army_experience $XP|Y0$ £command_power $CP|Y0$を保存"

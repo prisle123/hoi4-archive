@@ -86,6 +86,8 @@
  SM_MULTISAMPLE: "Niveau de détail graphique"
  SM_AMBIENT_OBJECTS: "Objets ambiants"
  SM_VOICE_VOLUME: "Volume des voix"
+ SM_EVENT_SOUNDS: "Sons événements"
+ SM_EVENT_SOUNDS_DESC: "Permet l'activation de sons et pistes musicales via des scripts. Recommandée si des mods ont été chargés."
  SM_VSYNC: "VSync"
  SM_WEATHER: "Météo"
  SM_WATER_REFL: "Réflexions"

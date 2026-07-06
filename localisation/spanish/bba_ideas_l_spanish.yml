@@ -350,7 +350,7 @@
  SWI_buero_ha_idea: "Buero Ha"
  SWI_expanded_spy_network_idea: "Red de espionaje ampliada"
  SWI_spirit_of_saint_bernard_idea: "Espíritu de San Bernardo"
- SWI_spirit_of_saint_bernard_idea_tooltip: "Recuperación en hospital de campaña: §G+20%§!\nFactor de pérdida de EXP: §G-30%§!"
+ SWI_spirit_of_saint_bernard_idea_tooltip: "Recuperación en hospital de campaña: §G+10%§!\nFactor de pérdida de EXP: §G-30%§!"
  SWI_mountaineer_paratroopers_idea: "$SWI_mountaneer_paratroopers$"
  SWI_mountaineer_paratroopers_idea_desc: "El acceso a los picos más escarpados y los siglos de cultura alpina son factores vitales que confieren a los paracaidistas suizos ventaja sobre sus homólogos de otras naciones. Pueden descender de nuestros aviones de transporte y dominar cumbres con la misma facilidad que conquistan el Monte Rosa o el Cervino."
  SWI_mountaineer_paratroopers_idea_TT: "§YMontañas§!:\n Ataque: §G+35%§!\n Defensa: §G+10%§!\n Movimiento: §G+20%§!\n§YColinas§!:\n Ataque: §G+20%§!\n Defensa: §G+5%§!\n Movimiento: §G+10%§!"

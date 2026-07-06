@@ -1,7 +1,6 @@
 ﻿l_braz_por:
  ABILITY_TOOLTIP_NAME: "$NAME|H$"
  ABILITY_TOOLTIP_NAME_CANCEL: "§RCancelar: $NAME|H$§!"
- ABILITY_TOOLTIP_OUT_OF_RANGE: "§REsta divisão está fora do alcance da habilidade§!"
  ABILITY_TOOLTIP_DETAILED_COST: "    - Custo base: $VALUE|H2$ (cada um por $UNITS|H0$ batalhões)"
  ABILITY_TOOLTIP_DETAILED_COST_FACTOR: "    - Custo das habilidades: $FACTOR|+%$"
  ABILITY_TOOLTIP_DAILY_COST: "Diário: £command_power $VALUE|H2$"
@@ -35,7 +34,8 @@
  ABILITY_TOOLTIP_FIELD_MARSHAL_BULK_LEADER_UNAVAIL: " - §Y$LEADER$§! §Restá indisponível§!"
  ABILITY_TOOLTIP_GRANTED_BY_FIELD_MARSHAL: "Esta habilidade é concedida pelo marechal de campo §Y$NAME$§!."
  ABILITY_TOOLTIP_LATE_JOINER_WARNING: "A força desta habilidade será reduzida se divisões adicionais forem incorporadas ao exército enquanto a habilidade estiver ativa."
- ASSIGN_TARGET_LATE_JOINER_WARNING: "Adicionar as §Y$COUNT$§! divisões selecionadas a este exército aplicará um modificador adicional ($MODIFIER|+%0$) à força das habilidades atualmente ativas: $NAMES$"
+ ABILITY_TOOLTIP_LATE_JOINER_MULT: "A força desta habilidade é reduzida em $MULT|0-%$, pois batalhões adicionais foram incorporados ao exército enquanto a habilidade estava ativa."
+ ASSIGN_TARGET_LATE_JOINER_WARNING: "Adicionar os §Y$COUNT$§! batalhões selecionados a este exército aplicará um modificador adicional ($MODIFIER|+%0$) à força das habilidades atualmente ativas: $NAMES$"
  ASSIGN_TARGET_LATE_JOINER_NAME: "§Y$NAME$§!"
  ABILITY_TOOLTIP_HEADER_SUMMARY: "£command_power §Y$COST|H2$§!  £clock_texticon §Y$DURATION$§!"
  ABILITY_TOOLTIP_HEADER_COST_ONLY: "£command_power §Y$COST|H2$§!"

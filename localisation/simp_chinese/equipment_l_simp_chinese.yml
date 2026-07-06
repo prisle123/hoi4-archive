@@ -4277,8 +4277,8 @@
  INS_armored_car_equipment_0: "威尔顿·费诺德装甲车"
  INS_armored_car_equipment_0_short: "WF 装甲车"
  #Vehicles - Mechanized
- INS_mechanized_equipment_1: "一型多用途战车"
- INS_mechanized_equipment_1_short: "一型多用途战车"
+ INS_mechanized_equipment_1: "多用途战车"
+ INS_mechanized_equipment_1_short: "多用途战车"
  INS_mechanized_equipment_2: "多用途战车Ⅱ型"
  INS_mechanized_equipment_2_short: "多用途战车Ⅱ型"
  INS_mechanized_equipment_3: "布拉特多用途战车"
@@ -4293,6 +4293,10 @@
  INS_infantry_equipment_3: "M3 SMG"
  INS_infantry_equipment_3_short: "M3 SMG"
  INS_support_weapons: "麦德森机关枪"
+ INS_gw_armored_car_equipment: "威尔顿·费诺德装甲车"
+ INS_gw_armored_car_equipment_short: "WF 装甲车"
+ INS_armored_car_equipment_1: "阿尔维斯-斯特劳斯勒 AC3D"
+ INS_armored_car_equipment_1_short: "AS AC3D"
  #Artillery
  INS_artillery_equipment_1: "M23 维克斯"
  INS_artillery_equipment_1_short: "M23 维克斯"

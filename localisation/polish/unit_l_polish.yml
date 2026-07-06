@@ -352,6 +352,7 @@
  heavy_armor: "Czołgi ciężkie"
  heavy_armor_desc: "Najsilniejsze czołgi, wyposażone w gruby pancerz i potężne działa. Są powolne, a zakres ich użycia jest ograniczony ."
  super_heavy_armor: "Czołgi superciężkie"
+ super_heavy_armor_desc: "W konstrukcji czołgów superciężkich poświęcono szybkość i mobilność na rzecz siły ognia oraz opancerzenie potężniejsze niż w zwykłych czołgach ciężkich."
  motorized: "Piechota zmotoryzowana"
  motorized_desc: "Pojazdy do transportu piechoty, np. ciężarówki i motocykle."
  mechanized: "Piechota zmechanizowana"

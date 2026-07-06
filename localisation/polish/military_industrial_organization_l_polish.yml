@@ -273,6 +273,7 @@
  mio_cat_eq_only_strategic_bomber: "Bombowiec strategiczny"
  mio_cat_eq_all_cv_aircraft: "Wszystkie samoloty pokładowe"
  mio_cat_eq_all_artillery: "Całe wyposażenie artyleryjskie"
+ mio_cat_eq_only_artillery: "$artillery_equipment$"
  mio_cat_eq_all_infantry_and_support_equipment: "Całe wyposażenie piechoty i wsparcia"
  ##     ## ########    ###    ########  ######## ########   ######
  ##     ## ##         ## ##   ##     ## ##       ##     ## ##    ##

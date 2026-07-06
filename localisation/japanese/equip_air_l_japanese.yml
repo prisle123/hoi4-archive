@@ -1040,8 +1040,8 @@
  AST_fighter_equipment_3: "CAC CA-15"
  AST_fighter_equipment_3_short: "CA-15"
  #Medium Airframe (Heavy Fighter)
- AST_heavy_fighter_equipment_1: "ブリストル ブレニム"
- AST_heavy_fighter_equipment_1_short: "ブレニム"
+ AST_heavy_fighter_equipment_1: "ブリストル ブレニム Mk. IF"
+ AST_heavy_fighter_equipment_1_short: "ブレニム IF"
  AST_heavy_fighter_equipment_2: "ブリストル ボーファイター"
  AST_heavy_fighter_equipment_2_short: "ボーファイター"
  AST_heavy_fighter_equipment_3: "デ・ハビランド モスキート"

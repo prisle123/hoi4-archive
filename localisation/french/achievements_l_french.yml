@@ -135,6 +135,7 @@
  hunt_for_the_desert_fox_tt: "Capturer $GER_erwin_rommel$"
  right_side_up_tt: "En tant que [AST.GetLeLaLNP] [AST.GetNonIdeologyName], contrôler [914.GetName]."
  maphilindia_tt: "En tant que [PHI.GetLeLaLNP] [PHI.GetNonIdeologyName], fonder Maphilindo et contrôler tous les États de départ [RAJ.GetDuDelaDelNP] [RAJ.GetNonIdeologyName]."
+ maphilindia_formed_tt: "A fondé Maphilindo"
  old_zealand_tt: "En tant que [NZL.GetLeLaLNP] [NZL.GetNonIdeologyName], contrôler [35.GetName] et [37.GetName]."
  thaitanic_tt: "Couler un orgueil de la flotte [SIA.GetAdjFS]."
  thaifighters_tt: "En tant que [SIA.GetLeLaLNP] [SIA.GetNonIdeologyName], produire 10 as."

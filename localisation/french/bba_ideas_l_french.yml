@@ -350,7 +350,7 @@
  SWI_buero_ha_idea: "$SWI_buero_ha$"
  SWI_expanded_spy_network_idea: "Réseaux de renseignement renforcés"
  SWI_spirit_of_saint_bernard_idea: "$SWI_spirit_of_saint_bernard$"
- SWI_spirit_of_saint_bernard_idea_tooltip: "Rétablissement grâce aux hôpitaux de campagne : §G+20%§!\nFacteur de perte d'expérience : §G-30%§!"
+ SWI_spirit_of_saint_bernard_idea_tooltip: "Rétablissement grâce aux hôpitaux de campagne : §G+10%§!\nFacteur de perte d'expérience : §G-30%§!"
  SWI_mountaineer_paratroopers_idea: "$SWI_mountaneer_paratroopers$"
  SWI_mountaineer_paratroopers_idea_desc: "La capacité à accéder aux sommets les plus raides et des siècles de vie dans les montagnes donnent un réel avantage aux parachutistes [Root.GetAdjMP] par rapport à toutes les infanteries aéroportées étrangères : ils peuvent sauter de leurs avions et prendre possession des sommets comme s'ils étaient sur le mont Rose ou le Cervin."
  SWI_mountaineer_paratroopers_idea_TT: "§YMontagnes§! :\n Attaque : §G+35%§!\n Défense : §G+10%§!\n Mouvement : §G+20%§!\n§YCollines§! :\n Attaque : §G+20%§!\n Défense : §G+5%§!\n Mouvement : §G+10%§!"

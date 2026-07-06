@@ -1717,6 +1717,7 @@
  SEA_PHI_political_events.64.t: "$PHI_manuel_luis_quezon$ nie żyje"
  SEA_PHI_political_events.64.desc_quezon: "Niestety po tym, jak $PHI_manuel_luis_quezon$ zaraził się gruźlicą, stan jego zdrowia ulegał stopniowemu pogorszeniu i ostatecznie doprowadził do śmierci. Naród przeżywa żałobę, a obowiązki Quezona przejął tymczasowo wiceprezydent, lecz wkrótce przyjdzie pora na wybranie jego następcy."
  SEA_PHI_political_events.64.desc_generic: "Kadencja, którą sprawował [ROOT.GetLeader], dobiegła końca, a nowy prezydent zostanie wyłoniony w wyborach. Z powodu pogarszającego się stanu zdrowia $PHI_manuel_luis_quezon$ wycofał się z wyścigu o prezydenturę."
+ SEA_PHI_political_events.64.osmena: "$PHI_sergio_osmena$ zapanuje nad tym okrętem"
  SEA_PHI_political_events.65.t: "[USA.GetName]: Dwight D. Eisenhower zostaje w kraju"
  SEA_PHI_political_events.65.desc: "Niestety, ale nasza prośba o wzmocnienie [USA.GetAdjective] misji wojskowej w państwie [ROOT.GetNameDef] została odrzucona. Najwyraźniej [USA.GetNameDef] snują inne plany, do których potrzebują jego ekspertyzy."
  SEA_PHI_political_events.65.a: "Szkoda."

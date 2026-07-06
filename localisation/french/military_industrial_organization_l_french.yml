@@ -273,6 +273,7 @@
  mio_cat_eq_only_strategic_bomber: "Bombardiers stratégiques"
  mio_cat_eq_all_cv_aircraft: "Tous les avions embarqués"
  mio_cat_eq_all_artillery: "Toutes les artilleries"
+ mio_cat_eq_only_artillery: "$artillery_equipment$"
  mio_cat_eq_all_infantry_and_support_equipment: "Toutes les infanteries et soutien"
  ##     ## ########    ###    ########  ######## ########   ######
  ##     ## ##         ## ##   ##     ## ##       ##     ## ##    ##

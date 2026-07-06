@@ -11564,79 +11564,79 @@ spriteTypes = {
 		## Designer ##
 	spriteType = {
 		name = "GFX_idea_PRC_china_national_nuclear_corporation"
-		texturefile = "gfx/interface/ideas/idea_PRC_china_national_nuclear_corporation.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_china_national_nuclear_corporation.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_china_railway_construction_corporation"
-		texturefile = "gfx/interface/ideas/idea_PRC_china_railway_construction_corporation.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_china_railway_construction_corporation.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_china_state_construction_engineering_corporation"
-		texturefile = "gfx/interface/ideas/idea_PRC_china_state_construction_engineering_corporation.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_china_state_construction_engineering_corporation.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_cmc_military_industry_bureau"
-		texturefile = "gfx/interface/ideas/idea_PRC_cmc_military_industry_bureau.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_cmc_military_industry_bureau.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_dalian_shipbuilding_company"
-		texturefile = "gfx/interface/ideas/idea_PRC_dalian_shipbuilding_company.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_dalian_shipbuilding_company.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_factory_617"
-		texturefile = "gfx/interface/ideas/idea_PRC_factory_617.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_factory_617.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_first_automative_works"
-		texturefile = "gfx/interface/ideas/idea_PRC_first_automative_works.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_first_automative_works.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_first_tractor_company"
-		texturefile = "gfx/interface/ideas/idea_PRC_first_tractor_company.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_first_tractor_company.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_harbin_aircraft"
-		texturefile = "gfx/interface/ideas/idea_PRC_harbin_aircraft.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_harbin_aircraft.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_huangyadong_arsenal"
-		texturefile = "gfx/interface/ideas/idea_PRC_huangyadong_arsenal.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_huangyadong_arsenal.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_jianguo_ironwork_cooperative"
-		texturefile = "gfx/interface/ideas/idea_PRC_jianguo_ironwork_cooperative.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_jianguo_ironwork_cooperative.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_nanjing_wireless_electronics_plant"
-		texturefile = "gfx/interface/ideas/idea_PRC_nanjing_wireless_electronics_plant.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_nanjing_wireless_electronics_plant.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_ordenance_bureau"
-		texturefile = "gfx/interface/ideas/idea_PRC_ordenance_bureau.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_ordenance_bureau.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_peoples_aviation_company_of_china"
-		texturefile = "gfx/interface/ideas/idea_PRC_peoples_aviation_company_of_china.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_peoples_aviation_company_of_china.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_peoples_bank_of_china"
-		texturefile = "gfx/interface/ideas/idea_PRC_peoples_bank_of_china.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_peoples_bank_of_china.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_publicity_department_of_central_committee"
-		texturefile = "gfx/interface/ideas/idea_PRC_publicity_department_of_central_committee.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_publicity_department_of_central_committee.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_shenyang_aircraft_corporation"
-		texturefile = "gfx/interface/ideas/idea_PRC_shenyang_aircraft_corporation.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_shenyang_aircraft_corporation.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_shipbuilding_industry_bureau"
-		texturefile = "gfx/interface/ideas/idea_PRC_shipbuilding_industry_bureau.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_shipbuilding_industry_bureau.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_PRC_sinochem"
-		texturefile = "gfx/interface/ideas/idea_PRC_sinochem.png"
+		texturefile = "gfx/interface/ideas/idea_PRC_sinochem.dds"
 	}
 
 		## National spirits ##
@@ -11812,8 +11812,34 @@ spriteTypes = {
 		name = "GFX_portrait_AST_james_fairbairn_small"
 		texturefile = "gfx/interface/ideas/portrait_AST_james_fairbairn_small.dds"
 	}
-
-
+	spriteType = {
+		name = "GFX_portrait_AST_jack_piddington_small"
+		texturefile = "gfx/interface/ideas/portrait_AST_jack_piddington_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_frank_forde_small"
+		texturefile = "gfx/interface/ideas/portrait_AST_frank_forde_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_john_lavarack_small"
+		texturefile = "gfx/interface/ideas/portrait_AST_john_lavarack_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_sydney_rowell_small"
+		texturefile = "gfx/interface/ideas/portrait_AST_sydney_rowell_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_vernon_sturdee_small"
+		texturefile = "gfx/interface/ideas/portrait_AST_vernon_sturdee_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_ragnar_colvin_small"
+		texturefile = "gfx/interface/ideas/portrait_AST_ragnar_colvin_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AST_richard_williams_small"
+		texturefile = "gfx/interface/ideas/portrait_AST_richard_williams_small.dds"
+	}
 
 	## Designer ##
 
@@ -12156,6 +12182,26 @@ spriteTypes = {
 		name = "GFX_portrait_SIA_phraya_phahon_small"
 		texturefile = "gfx/interface/ideas/portrait_SIA_phraya_phahon_small.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_SIA_thawan_thamrongnawasawat_small"
+		texturefile = "gfx/interface/ideas/portrait_SIA_thawan_thamrongnawasawat_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_thawi_bunyaket_small"
+		texturefile = "gfx/interface/ideas/portrait_SIA_thawi_bunyaket_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_khuang_aphaiwong_small"
+		texturefile = "gfx/interface/ideas/portrait_SIA_khuang_aphaiwong_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_pridi_banomyong_small"
+		texturefile = "gfx/interface/ideas/portrait_SIA_pridi_banomyong_small.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SIA_sindh_kamalanavin_small"
+		texturefile = "gfx/interface/ideas/portrait_SIA_sindh_kamalanavin_small.dds"
+	}
 
 
 
@@ -12219,6 +12265,10 @@ spriteTypes = {
 
 
 		## National Spirits ##
+	spriteType = {
+		name = "GFX_idea_SIA_army_of_siam"
+		texturefile = "gfx/interface/ideas/idea_SIA_army_of_siam.dds"
+	}
 	spriteType = {
 		name = "GFX_idea_SIA_bloodlusted_irredentism"
 		texturefile = "gfx/interface/ideas/idea_SIA_bloodlusted_irredentism.dds"

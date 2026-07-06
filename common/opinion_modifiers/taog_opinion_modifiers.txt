@@ -60,6 +60,11 @@ opinion_modifiers = {
 		months = 24
 	}
 
+	AST_platypus_modifier = {
+		value = 50
+		months = 24
+	}
+
 	### Siam ###
 
 	SIA_sent_bureaucrats_to_us = {

@@ -1717,6 +1717,7 @@
  SEA_PHI_political_events.64.t: "$PHI_manuel_luis_quezon$之死"
  SEA_PHI_political_events.64.desc_quezon: "患上肺结核后，$PHI_manuel_luis_quezon$的健康状况日益恶化，现已不幸病逝。在举国哀悼之际，副总统已暂时接管奎松的职责，但不久后，就需要确定一位继任者了。"
  SEA_PHI_political_events.64.desc_generic: "现任总统[ROOT.GetLeader]的任期已经结束，新一轮总统大选将决定我们的下一任总统。由于健康状况恶化，$PHI_manuel_luis_quezon$已宣布退出竞选。"
+ SEA_PHI_political_events.64.osmena: "$PHI_sergio_osmena$将稳住局面"
  SEA_PHI_political_events.65.t: "德怀特·D·艾森豪威尔留任[USA.GetName]"
  SEA_PHI_political_events.65.desc: "遗憾的是，我们要求加强[USA.GetAdjective]在[ROOT.GetNameDef]军事顾问团的请求已被拒绝。显然，[USA.GetNameDef]的其他军事计划需要他的专业知识。"
  SEA_PHI_political_events.65.a: "真是遗憾"

@@ -1717,6 +1717,7 @@
  SEA_PHI_political_events.64.t: "$PHI_manuel_luis_quezon$ погибает"
  SEA_PHI_political_events.64.desc_quezon: "К сожалению, $PHI_manuel_luis_quezon$ скончался от осложнений, вызванных туберкулезом. Его обязанности временно будет исполнять вице-президент. Сегодня наш народ скорбит, но уже совсем скоро ему предстоит выбрать нового президента."
  SEA_PHI_political_events.64.desc_generic: "Срок полномочий действующего президента подошел к концу, и теперь нам предстоит выбрать нового главу государства. В связи с тяжелой болезнью $PHI_manuel_luis_quezon$ решил не участвовать в президентской гонке."
+ SEA_PHI_political_events.64.osmena: "$PHI_sergio_osmena$ удержит корабль на плаву"
  SEA_PHI_political_events.65.t: "Дуайт Эйзенхауэр остается в [USA.GetNameRuPrep]"
  SEA_PHI_political_events.65.desc: "К сожалению, наша просьба расширить [USA.GetAdjRuLower]ое присутствие на территории [ROOT.GetNameRuGen] была отклонена. По всей видимости, в данный момент у [USA.GetNameRuGen] есть более важные военные планы."
  SEA_PHI_political_events.65.a: "Очень жаль."

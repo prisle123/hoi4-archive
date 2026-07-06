@@ -49,7 +49,7 @@
  MANPOWER_RAILWAY_GUN_DESC: "§Tこの§H列車砲§!は$AMOUNT|G$の従事人員を要求する。§!"
  MANPOWER_AIRWING: "航空隊の従事人員"
  MANPOWER_AIRWING_DESC: "§Tこの§H航空隊§!は$AMOUNT|G$の従事人員を要求する。§!"
- CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\n以下の要因により総人的資源に$VAL|+%0$の補正:\n"
+ CONSCRIPTION_TOTAL_FACTOR_EXTRA_DESC: "\n以下の要因により実効総人的資源が$VAL$に補正される:\n"
  EQUIPMENT_DIVISION: "師団装備充足率"
  EQUIPMENT_DIVISION_DESC: "師団が必要な装備をどれだけ受け取っているかを示す。"
  DIVISION_IN_TEMPLATE_TRANSFER: "師団は現在$OLD|H$から$NEW|H$の編制へと再編成中である。この再編成は必要な装備が届けられ、旧式の装備が備蓄へと戻されると完了する。"

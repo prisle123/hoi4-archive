@@ -2659,7 +2659,7 @@
  SIK_rejoin_the_central_government: "Podporządkowanie się rządowi centralnemu"
  SIK_rejoin_the_central_government_desc: "Sowieci nie są tak wiarygodni, jak nam się kiedyś wydawało. Najlepiej postawić na zwycięskiego konia i zmienić kurs, aby ponownie dołączyć do Kuomintangu i szybko zintegrować się z rządem centralnym."
  SIK_reestablish_the_guominjun: "Odnowienie Guominjunu"
- SIK_reestablish_the_guominjun_desc: "Guominjun był wojskową frakcją założoną przez Fenga Yuxianga w latach 20. XX wieku. Jako organizacja oddana nacjonalizmowi, antyimperializmowi i chrześcijańskiemu socjalizmowi wydaje się idealnym wyborem do reaktywacji, jeśli chcemy stać się trzecią stroną w wojnie domowej. Nie wspominając już o tym, że to właśnie do Guominjunu dołączył kiedyś [ROOT.GetLeader], który nigdy nie był lojalny wobec Kuomintangu."
+ SIK_reestablish_the_guominjun_desc: "Guominjun był wojskową frakcją założoną przez Fenga Yuxianga w latach 20. XX wieku. Jako organizacja oddana nacjonalizmowi, antyimperializmowi i chrześcijańskiemu socjalizmowi wydaje się idealnym wyborem do reaktywacji, jeśli chcemy stać się trzecią stroną w wojnie domowej. Nie wspominając już o tym, że to właśnie do Guominjunu dołączył kiedyś Sheng Shicai, który nigdy nie był lojalny wobec Kuomintangu."
  SIK_reaffirm_soviet_connections: "Potwierdzenie powiązań z Sowietami"
  SIK_reaffirm_soviet_connections_desc: "Rząd centralny zawiódł Chiny i z każdym dniem staje się to coraz bardziej oczywiste. Powinniśmy podjąć próbę całkowitego zerwania z nim stosunków i dołączyć do krucjaty przeciwko feudalizmowi, którą prowadzi [SOV.GetNameDef]."
  SIK_utilize_asperovs_contacts: "Wykorzystanie kontaktów Apresowa"

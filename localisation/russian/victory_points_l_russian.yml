@@ -283,7 +283,7 @@
  YUG_VICTORY_POINTS_6626: "Трст"
  VICTORY_POINTS_6780: "Турин"
  VICTORY_POINTS_6788: "Генуя"
- ITA_VICTORY_POINTS_6788: "Женева"
+ ITA_VICTORY_POINTS_6788: "Дженова"
  VICTORY_POINTS_6606: "Болонья"
  VICTORY_POINTS_10074: "Палермо"
  VICTORY_POINTS_11584: "Венеция"
@@ -531,6 +531,7 @@
  VICTORY_POINTS_12118: "Себу"
  VICTORY_POINTS_12213: "Апарри"
  VICTORY_POINTS_12371: "Голландия" #Later Kota Baru, Sukarnopura or Jayapura
+ VICTORY_POINTS_12371_indonesian: "Джаяпура"
  VICTORY_POINTS_4468: "Соронг"
  VICTORY_POINTS_10505: "Мерауке"
  VICTORY_POINTS_7859: "Канберра"

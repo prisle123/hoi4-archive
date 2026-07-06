@@ -33,3 +33,5 @@
  success_modifier_INS_naval_dominance_modifier: "§H§Y海上支配§!§!"
  success_modifier_INS_naval_dominance_modifier_counterplay: "- §Y海上支配§!を増加させる"
  success_modifier_INS_naval_dominance_modifier_improvement: "- §Y海上支配§!を増加させる"
+ success_modifier_INS_militia_unit_level_modifier: "§H§Yユニットの大隊数§!§!"
+ success_modifier_INS_militia_unit_level_modifier_improvement: "- §Yユニットの大隊数§!を増加させる"

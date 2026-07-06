@@ -86,6 +86,8 @@
  SM_MULTISAMPLE: "多重采样"
  SM_AMBIENT_OBJECTS: "环境对象"
  SM_VOICE_VOLUME: "语音音量"
+ SM_EVENT_SOUNDS: "事件音效"
+ SM_EVENT_SOUNDS_DESC: "允许通过脚本触发的音效和音乐。建议在使用模组进行游戏时开启。"
  SM_VSYNC: "垂直同步"
  SM_WEATHER: "天气效果"
  SM_WATER_REFL: "水面反射"

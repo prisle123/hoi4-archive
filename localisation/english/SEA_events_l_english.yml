@@ -2181,6 +2181,7 @@ SEA_PHI_political_events.63.laurel: "$PHI_jose_laurel$ would be a good leader in
 SEA_PHI_political_events.64.t: "Death of $PHI_manuel_luis_quezon$"
 SEA_PHI_political_events.64.desc_quezon: "After developing tuberculosis, the gradual decline of $PHI_manuel_luis_quezon$'s health has now sadly led to his death. The vice-president has temporarily taken over Quezon's former duties while the nation mourns, but soon it will be time to determine a successor."
 SEA_PHI_political_events.64.desc_generic: "The current term of [ROOT.GetLeader] has come to an end and a new presidential election now decides our next president. Because of his deteriorating health, $PHI_manuel_luis_quezon$ has withdrawn from the race."
+SEA_PHI_political_events.64.osmena: "$PHI_sergio_osmena$ will keep the ship steady"
 
 SEA_PHI_political_events.65.t: "Dwight D. Eisenhower Stays in [USA.GetName]"
 SEA_PHI_political_events.65.desc: "Sadly, our request to strengthen the [USA.GetAdjective] military mission in [ROOT.GetNameDef] has been denied. Other military plans of [USA.GetNameDef] apparently require his expertise."

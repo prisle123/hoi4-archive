@@ -72,7 +72,14 @@ on_actions = {
 				limit = {
 					TAG = INS
 				}
-				retire_country_leader = yes
+				if = {
+					limit = {
+						has_dlc = "Thunder at Our Gates"
+					}
+				}
+				else = {
+					retire_country_leader = yes
+				}
 			}
 			if = {
 				limit = {

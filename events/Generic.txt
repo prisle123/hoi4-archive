@@ -439,7 +439,10 @@ country_event = {
 				factor = 0
 				FROM = {
 					original_tag = SIA
-					has_completed_focus = SIA_join_the_allies
+					OR = {
+						has_completed_focus = SIA_join_the_allies
+						has_completed_focus = SIA_unseat_the_government
+					}
 				}
 			}
 

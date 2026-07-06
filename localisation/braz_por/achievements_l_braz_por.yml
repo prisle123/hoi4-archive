@@ -135,6 +135,7 @@
  hunt_for_the_desert_fox_tt: "Capture $GER_erwin_rommel$"
  right_side_up_tt: "Como [AST.GetNonIdeologyName], conquiste e controle [914.GetName]"
  maphilindia_tt: "Como [PHI.GetNonIdeologyName] ou [INS.GetNonIdeologyName], forme a Maphilindo e controle todos os estados iniciais da [RAJ.GetNonIdeologyName]"
+ maphilindia_formed_tt: "Formou a Maphilindo"
  old_zealand_tt: "Como [NZL.GetNonIdeologyName], conquiste e controle [35.GetName] e [37.GetName]"
  thaitanic_tt: "Afunde o Orgulho da Frota pertencente ao [SIA.GetNonIdeologyName]"
  thaifighters_tt: "Como [SIA.GetNonIdeologyName], produza 10 ases"
