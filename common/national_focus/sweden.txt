@@ -2960,7 +2960,8 @@ focus_tree = {
 				category = cat_anti_tank	# optional 
 				# tecnology  = technology_id # optional
 			}
-			custom_effect_tooltip = SWE_bofors_anti_tank_gun_tt
+			custom_effect_tooltip = tech_effect|SWE_bofors_antitank_gun
+			#custom_effect_tooltip = SWE_bofors_anti_tank_gun_tt
 			hidden_effect = {
 				set_technology = {
 					SWE_bofors_antitank_gun = 1

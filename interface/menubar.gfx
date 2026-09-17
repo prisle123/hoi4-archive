@@ -199,7 +199,23 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_settings_tab"
 		texturefile = "gfx//interface//tab_settings.tga"
+		noOfFrames = 2
 		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_settings_ingame_tab"
+		texturefile = "gfx/interface/tab_small_110.dds"
+		noOfFrames = 2
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_settings_tabs_bottom"
+		size = { x = 464 y = 150 }
+		textureFile = "gfx//interface//fullborder_tiled.dds"
+		borderSize = { x = 64 y = 64 }
+		tilingCenter = yes
+		alwaystransparent = yes
 	}
 
 	spriteType = {

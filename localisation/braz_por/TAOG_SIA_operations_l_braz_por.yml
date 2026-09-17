@@ -1,0 +1,6 @@
+﻿l_braz_por:
+ operation_SIA_sabotage_indochina_ports: "Sabotar os portos indochineses"
+ operation_SIA_sabotage_indochina_ports_desc: "Envie secretamente equipes de demolição para os grandes portos da Indochina Francesa e posicione antecipadamente explosivos nos embarcadouros, guindastes e depósitos de combustível. As equipes aguardarão até o dia que marcharmos, quando os portos desaparecerão com um único golpe antes que a frota inimiga possa alcançá-los."
+ operation_SIA_sabotage_indochina_ports_potential_tt: "§YSe bem-sucedido:§! posiciona explosivos ocultos nos portos indochineses (§YAnnam§!, §YTonquim§! e §YCamboja§!). Os explosivos serão detonados no momento que formos à guerra contra o país que os controlam, destruindo completamente todas as bases navais."
+ operation_SIA_sabotage_indochina_ports_failed_tt: "§RA operação fracassou:§! nossas equipes não conseguiram instalar os explosivos."
+ SIA_plant_indochina_port_charges_tt: "Cargas de demolição ocultas são posicionadas nos §Yportos indochineses§!. Elas serão detonadas quando entrarmos em guerra contra o país que os controlam."

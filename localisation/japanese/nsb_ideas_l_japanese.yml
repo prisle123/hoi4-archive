@@ -757,7 +757,7 @@
  SOV_for_the_common_good_subjects: "$SOV_for_the_common_good_allies$"
  SOV_for_the_common_good_subjects_desc: "我々とその同盟国が下す決断は全て共通の利益に対し前進する目的の下行われなければならない。我々はこの条件下で下された決断を全面的に支援するとともに、このために行われた彼らの要求を受諾すべきだ。もし、我々の犠牲が短期的な利益に見合わないものだとしても。"
  SOV_planned_economy_dynamic_modifier: "計画経済"
- SOV_grigory_semyonov_man_tt: "§Y[SOV.GetName]§!は国家方針§Y$SOV_approach_semyonov$§!を完了していない。\n§Y[GetSovietCivilWarName]§!は開始されていない。\n§Y$SOV_grigory_semyonov$§!は顧問として雇用された場合、§Y将軍§!として利用可能になる。"
+ SOV_grigory_semyonov_man_tt: "§Y[SOV.GetName]§!は国家方針「§Y$SOV_approach_semyonov$§!」を完了していない。\n§Y[GetSovietCivilWarName]§!は開始されていない。\n「§Y$SOV_grigory_semyonov$§!」は顧問として雇用された場合、§Y将軍§!として利用可能になる。"
  SOV_exiled_flag: "現在亡命中である（§G人物が亡命中に粛清されることはない§!）"
  SOV_imprisoned_flag: "投獄中である（§R人物は投獄中に粛清される可能性がある§!）"
  SOV_church_power_1: "大衆のアヘン"

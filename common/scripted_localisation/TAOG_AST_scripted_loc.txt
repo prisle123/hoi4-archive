@@ -983,3 +983,251 @@ defined_text = {
 		localization_key = "AST_nauru_pact_guarantee_tt"
 	}
 }
+
+defined_text = {
+	name = GET_AST_NG_INF_UNITS
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 49999 }
+			}
+		}
+		localization_key = "5"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 39999 }
+			}
+		}
+		localization_key = "4"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 29999 }
+			}
+		}
+		localization_key = "3"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 19999 }
+			}
+		}
+		localization_key = "2"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 9999 }
+			}
+		}
+		localization_key = "1"
+	}
+	text = {
+		localization_key = "0"
+	}
+}
+
+defined_text = {
+	name = GET_AST_NG_MIL_UNITS
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 49999 }
+			}
+		}
+		localization_key = "10"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 44999 }
+			}
+		}
+		localization_key = "9"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 39999 }
+			}
+		}
+		localization_key = "8"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 34999 }
+			}
+		}
+		localization_key = "7"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 29999 }
+			}
+		}
+		localization_key = "6"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 24999 }
+			}
+		}
+		localization_key = "5"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 19999 }
+			}
+		}
+		localization_key = "4"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 14999 }
+			}
+		}
+		localization_key = "3"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 9999 }
+			}
+		}
+		localization_key = "2"
+	}
+	text = {
+		trigger = {
+			AST = {
+				check_variable = { AST_ng_members_var > 4999 } 
+			}
+		}
+		localization_key = "1"
+	}
+	text = {
+		localization_key = "0"
+	}
+}
+
+defined_text = {
+	name = GET_AST_COUNCIL_PRESIDENT
+	text = {
+		trigger = {
+			AST = {
+				has_country_flag = AST_president_pankhurst_walsh_flag
+			}
+		}
+		localization_key = "AST_adela_walsh"
+	}
+	text = {
+		trigger = {
+			AST = {
+				has_country_flag = AST_president_hughes_flag
+			}
+		}
+		localization_key = "AST_billy_hughes"
+	}
+	text = {
+		trigger = {
+			AST = {
+				has_country_flag = AST_president_hore_ruthven_flag
+			}
+		}
+		localization_key = "AST_alexander_hore_ruthven"
+	}
+	text = {
+		localization_key = "AST_council_president_tbd_tt"
+	}
+}
+
+defined_text = {
+	name = GET_AST_THE_COUNCILS_ADVISE_DESC
+	text = {
+		trigger = {
+			AST = {
+				has_country_flag = AST_president_pankhurst_walsh_flag
+			}
+		}
+		localization_key = "AST_the_councils_advice_pankhurst_walsh_desc"
+	}
+	text = {
+		trigger = {
+			AST = {
+				has_country_flag = AST_president_hughes_flag
+			}
+		}
+		localization_key = "AST_the_councils_advice_hughes_desc"
+	}
+	text = {
+		trigger = {
+			AST = {
+				has_country_flag = AST_president_hore_ruthven_flag
+			}
+		}
+		localization_key = "AST_the_councils_advice_hore_ruthven_desc"
+	}
+	text = {
+		localization_key = ""
+	}
+}
+
+defined_text = {
+	name = GET_AST_MONARCHIST_INTERVENTION
+	text = {
+		trigger = {
+			AST_overlord_eng_is_non_monarchy_or_fascist = yes
+		}
+		localization_key = "AST_a_monarchist_appeal"
+	}
+	text = {
+		localization_key = "AST_the_crown_intervenes"
+	}
+}
+
+defined_text = {
+	name = GET_AST_MONARCHIST_INTERVENTION_DESC
+	text = {
+		trigger = {
+			AST_overlord_eng_is_non_monarchy_or_fascist = yes
+		}
+		localization_key = "AST_a_monarchist_appeal_desc"
+	}
+	text = {
+		localization_key = "AST_the_crown_intervenes_desc"
+	}
+}
+
+defined_text = {
+	name = GET_AST_MONARCHIST_INTERVENTION_SPIRIT
+	text = {
+		trigger = {
+			AST_overlord_eng_is_non_monarchy_or_fascist = yes
+		}
+		localization_key = "AST_a_monarchist_appeal_spirit"
+	}
+	text = {
+		localization_key = "AST_the_crown_intervenes_spirit"
+	}
+}
+
+defined_text = {
+	name = GET_AST_MONARCHIST_INTERVENTION_SPIRIT_DESC
+	text = {
+		trigger = {
+			AST_overlord_eng_is_non_monarchy_or_fascist = yes
+		}
+		localization_key = "AST_a_monarchist_appeal_spirit_desc"
+	}
+	text = {
+		localization_key = "AST_the_crown_intervenes_spirit_desc"
+	}
+}

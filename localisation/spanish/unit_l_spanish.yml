@@ -416,6 +416,8 @@
  hq_infantry_desc: "Un batallón de infantería más pequeño dedicado en exclusiva a proteger el CG."
  hq_motorized: "Protección motorizada del CG"
  hq_motorized_desc: "Infantería en vehículos motorizados, permitiendo la reubicación más rápida del CG."
+ hq_armored_car: "Protección de vehículos blindados del CG"
+ hq_armored_car_desc: "Vehículos blindados escoltan al CG, combinando la movilidad con la protección y un excelente reconocimiento."
  hq_paratrooper: "Protección de paracaidistas del CG"
  hq_paratrooper_desc: "Permite que un CG se una a una invasión aerotransportada directamente, además de proporcionar seguridad adicional."
  hq_light_armor: "Protección de blindados ligeros del CG"

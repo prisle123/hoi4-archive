@@ -390,7 +390,7 @@
  CHI_warlord_autonomy_drift_demcoratic_decision: "Esforços de integração de §Y[FROM.GetNameWithFlag]§!"
  CHI_warlord_democratic_drift_minquan_decision: "Exigir que §Y[FROM.GetLeader]§! aplique o princípio Mínquán"
  CHI_highlight_northwestern_road_fake_decision: "A Rodovia do Noroeste"
- CHI_highlight_the_hump_decision: "A rota da \"Corcunda\""
+ CHI_highlight_the_hump_decision: "Ponte aérea"
  CHI_highlight_the_hump_decision_tt: "Desde que nenhum inimigo esteja controlando\n§Y-[601.GetName]\n-[434.GetName]\n-[747.GetName]§!\na rota da \"Corcunda\" está segura"
  CHI_highlight_the_hanoi_decision_tt: "Desde que nenhum inimigo esteja controlando\n§Y-[325.GetName]\n-[671.GetName]§!\na rota de Hanói está segura"
  CHI_highlight_burma_road_decision_tt: "Desde que nenhum inimigo esteja controlando\n§Y-[995.GetName]\n-[640.GetName]\n-[998.GetName]\n-[434.GetName]\n-[990.GetName]\n-[432.GetName]\n-[288.GetName]\n-[997.GetName]\n-[996.GetName]§!\na rota da Birmânia está segura"

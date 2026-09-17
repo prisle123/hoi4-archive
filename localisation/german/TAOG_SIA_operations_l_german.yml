@@ -1,0 +1,6 @@
+﻿l_german:
+ operation_SIA_sabotage_indochina_ports: "Indochinesische Häfen sabotieren"
+ operation_SIA_sabotage_indochina_ports_desc: "Wir entsenden Sprengstoffexperten in die großen Häfen von Französisch-Indochina und bringen dort Sprengladungen an den Kais, Kränen und Treibstofflagern an. Bei unserem Einmarsch gehen diese mit einem einzigen Schlag in die Luft, noch bevor sich die feindliche Flotte zerstreuen kann."
+ operation_SIA_sabotage_indochina_ports_potential_tt: "§YBei Erfolg:§! Platziert versteckte Sprengladungen in indochinesischen Häfen (§YAnnam§!, §YTonkin§! und §YKambodscha§!). Die Sprengladungen detonieren in dem Moment, in dem wir ihrem Besitzer den Krieg erklären und zerstören jeden Marinestützpunkt vollständig."
+ operation_SIA_sabotage_indochina_ports_failed_tt: "§RDer Einsatz ist fehlgeschlagen:§! Unseren Teams ist es nicht gelungen, die Sprengsätze zu platzieren"
+ SIA_plant_indochina_port_charges_tt: "Versteckte Sprengladungen werden in §Yindochinesischen Häfen§! platziert. Wenn wir ihrem Besitzer den Krieg erklären, detonieren diese."

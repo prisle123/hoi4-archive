@@ -380,7 +380,7 @@
  GOE_RAJ.14.t: "[JAP.GetName]がアンダマン諸島を引き渡し"
  GOE_RAJ.14.desc: "[JAP.GetAdjective]がアンダマン諸島への侵攻に成功した。我々がそこに適切な政府を設置できるように、彼らはそこの支配権を我々に譲渡することを決めた。"
  GOE_RAJ.14.a: "素晴らしい"
- GOE_RAJ.14.tt: "§Y$RAJ_shaheed_and_swara$ｊ§!国家方針を完了すれば、アンダマン諸島に首都を移転することができる。"
+ GOE_RAJ.14.tt: "国家方針「§Y$RAJ_shaheed_and_swara$ｊ§!」を完了すれば、アンダマン諸島に首都を移転することができる。"
  GOE_RAJ.15.t: "[RAJ.GetNameDefCap]が[992.GetName]への支配権を維持"
  GOE_RAJ.15.desc: "[RAJ.GetNameDefCap]が、王室に引き渡す予定だったアデン港を継続支配する意向だと伝えてきた。\n当然、この件は議会の混乱を招いており、特にウィンストン・チャーチルは動揺しているが、現時点で制裁措置は予定されていない。"
  GOE_RAJ.15.a: "奴らは何を考えているんだ？"

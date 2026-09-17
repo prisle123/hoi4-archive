@@ -4499,7 +4499,6 @@ joint_focus = {
 
 	available = {
 		original_tag = INS
-		is_subject_of = HOL
 	}
 	prerequisite = { focus = INSHOL_reform_knil }
 	mutually_exclusive = { }
@@ -4556,7 +4555,6 @@ joint_focus = {
 
 	available = {
 		original_tag = INS
-		is_subject_of = HOL
 	}
 	prerequisite = { focus = INSHOL_east_indies_navy }
 	mutually_exclusive = { }
@@ -4611,7 +4609,6 @@ joint_focus = {
 
 	available = {
 		original_tag = INS
-		is_subject_of = HOL
 	}
 	prerequisite = { focus = INSHOL_east_indies_navy }
 	mutually_exclusive = { }
@@ -4694,7 +4691,15 @@ joint_focus = {
 	text_icon = INSHOL_INS_HOL_focus_style
 
 	available = {
-		OR = { original_tag = INS original_tag = HOL } INS = { is_subject_of = HOL }
+		OR = {
+			AND = {
+				original_tag = HOL
+				INS = {
+					is_subject_of = HOL
+				}
+			}
+			original_tag = INS
+		}
 	}
 	prerequisite = { focus = INSHOL_domestic_ship_production }
 	mutually_exclusive = { }
@@ -4797,7 +4802,15 @@ joint_focus = {
 	text_icon = INSHOL_INS_HOL_focus_style
 
 	available = {
-		OR = { original_tag = INS original_tag = HOL } INS = { is_subject_of = HOL }
+		OR = {
+			AND = {
+				original_tag = HOL
+				INS = {
+					is_subject_of = HOL
+				}
+			}
+			original_tag = INS
+		}
 	}
 	prerequisite = { focus = INSHOL_domestic_ship_production }
 	mutually_exclusive = { }
@@ -4900,7 +4913,15 @@ joint_focus = {
 	text_icon = INSHOL_INS_HOL_focus_style
 
 	available = {
-		OR = { original_tag = INS original_tag = HOL } INS = { is_subject_of = HOL }
+		OR = {
+			AND = {
+				original_tag = HOL
+				INS = {
+					is_subject_of = HOL
+				}
+			}
+			original_tag = INS
+		}
 	}
 	prerequisite = { focus = INSHOL_domestic_ship_production }
 	mutually_exclusive = { }
@@ -5004,7 +5025,6 @@ joint_focus = {
 
 	available = {
 		original_tag = INS
-		is_subject_of = HOL
 	}
 	prerequisite = { focus = INSHOL_destroyers focus = INSHOL_cruisers focus = INSHOL_submarines }
 	mutually_exclusive = { focus = INSHOL_divert_civilian_to_navy }
@@ -5050,7 +5070,6 @@ joint_focus = {
 
 	available = {
 		original_tag = INS
-		is_subject_of = HOL
 	}
 	prerequisite = { focus = INSHOL_destroyers focus = INSHOL_cruisers focus = INSHOL_submarines }
 	mutually_exclusive = { focus = INSHOL_outsourced_navy }
@@ -12669,16 +12688,16 @@ joint_focus = {
 	ai_will_do = {
 		base = 0.2
 		modifier = {
-			add = 0.5
-			num_of_controlled_states > 4
+			add = 1
+			controls_state = 1051
 		}
 		modifier = {
-			add = 2
-			num_of_controlled_states > 5
+			add = 1
+			controls_state = 1058
 		}
 		modifier = {
-			add = 2
-			num_of_controlled_states > 6
+			add = 1
+			controls_state = 335
 		}
 		modifier = {
 			add = 1

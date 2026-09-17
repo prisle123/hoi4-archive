@@ -1,0 +1,6 @@
+﻿l_korean:
+ operation_SIA_sabotage_indochina_ports: "인도차이나 항구 사보타주"
+ operation_SIA_sabotage_indochina_ports_desc: "프랑스령 인도차이나의 주요 항구에 폭파조를 침투시켜 부두와 크레인, 연료 저장고에 미리 폭약을 설치합니다. 폭약은 우리가 진군하는 날까지 잠들어 있다가, 적 함대가 흩어져 항구로 피신하기 전에 한꺼번에 항구를 날려 버릴 것입니다."
+ operation_SIA_sabotage_indochina_ports_potential_tt: "§Y성공 시:§! 인도차이나 항구(§Y안남§!, §Y통킹§!, §Y캄보디아§!)에 숨겨진 폭약을 설치합니다. 해당 지역의 소유국과 전쟁에 돌입하는 순간 폭약이 터져 각 해군기지를 완전히 파괴합니다."
+ operation_SIA_sabotage_indochina_ports_failed_tt: "§R작전 실패:§! 우리 팀이 폭약을 설치하지 못했습니다."
+ SIA_plant_indochina_port_charges_tt: "§Y인도차이나 항구§!에 숨겨진 폭약을 설치합니다. 해당 항구의 소유국과 전쟁에 돌입하면 폭발합니다."

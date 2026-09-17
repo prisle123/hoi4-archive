@@ -159,9 +159,11 @@ spriteTypes = {
 		textureFile = "gfx//interface//production_output_icon.dds"
 	}
 
-	spriteType = {
+	corneredTileSpriteType = {
 		name = "GFX_generic_bg2"
+		size = { x=356 y=35 }
 		textureFile = "gfx//interface//generic_bg2.dds"
+		borderSize = { x=8 y=8 }
 	}
 
 	spriteType = {

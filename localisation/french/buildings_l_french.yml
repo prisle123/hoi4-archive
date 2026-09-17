@@ -177,7 +177,7 @@
  BUILDING_SLOT_REMOVE_CONSTRUCTION_LEVEL: "Supprimez un niveau de construction du bâtiment."
  BUILDING_SLOT_REMOVE_CONVERSION_LEVEL: "Annulez la conversion du bâtiment."
  BUILDING_SLOT_REMOVE_COOLDOWN: "En temps de guerre, la suppression de bâtiments n'est possible que tous les $DAYS|Y$ jours. La prochaine suppression pourra être effectuée à la date suivante : $DATE|Y$."
- CLICK_TO_CONVERT: "§GCliquer§! pour convertir en $BUILDING|Y$"
+ CLICK_TO_CONVERT: "§GCliquer§! pour convertir en $BUILDING|Y$."
  INSERT_CONVERSION: "§GCtrl + clic§! pour convertir et placer en début de file d'attente.\n§GAlt + clic§! pour convertir et placer en fin de file d'attente."
  INSERT_CONSTRUCTION: "§GCtrl + clic§! pour construire et placer en début de file d'attente.\n§GAlt + clic§! pour construire et placer en fin de file d'attente."
  BUILDING_CURRENT_MAX_LEVEL: "Niveau max potentiel pour $BUILDING|Y$ : $MAXLEVEL|Y$"

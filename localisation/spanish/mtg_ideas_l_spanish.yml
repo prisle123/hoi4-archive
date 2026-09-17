@@ -19,7 +19,7 @@
  MEX_cedillo_tension_3_desc: "El general Saturnino Cedillo y los caudillos que lo apoyan están actuando al margen del gobierno. ¡Debemos asumir que se han puesto en contacto con enemigos tanto internos como externos de [Root.GetLeader] y el pueblo mexicano!"
  MEX_cedillo_tension_4: "Tensión con los caudillos muy alta"
  MEX_cedillo_tension_4_desc: "El general Saturnino Cedillo y los caudillos que lo apoyan están reuniendo tropas descaradamente para preparar su rebelión contra el legítimo gobierno de [Root.GetLeader]. ¡Debemos actuar rápido y acabar con esta amenaza a la unidad de México!"
- MEX_brown_water_navy: "Armada de aguas poco profundas"
+ MEX_brown_water_navy: "Armada fluvial"
  MEX_brown_water_navy_desc: "Tenemos una fuerza de defensa costera capaz de disuadir a los submarinos y a los invasores de superficie, pero una flota exclusivamente de superficie superaría nuestro bloqueo."
  MEX_blue_water_navy: "Armada de alta mar"
  MEX_blue_water_navy_desc: "Nuestro objetivo es conseguir una armada de superficie capaz de defenderse ante las flotas de las grandes potencias mundiales."

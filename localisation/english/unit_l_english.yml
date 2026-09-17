@@ -422,6 +422,8 @@
  hq_infantry_desc: "A smaller infantry battalion, dedicated towards HQ security."
  hq_motorized: "Motorized HQ Security"
  hq_motorized_desc: "Infantry in motorized vehicles, allowing more rapid relocation of the HQ."
+ hq_armored_car: "Armored Car HQ Security"
+ hq_armored_car_desc: "Armored cars escort the HQ, combining mobility with protection and excellent reconnaissance."
  hq_paratrooper: "Paratrooper HQ Security"
  hq_paratrooper_desc: "Allows an HQ to join an airborne invasion directly, along with providing additional security."
  hq_light_armor: "Light Armor HQ Security"

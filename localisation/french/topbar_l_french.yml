@@ -46,7 +46,7 @@
  THREAT_SOURCES_LATEST_HEADER: "§HDernier changement en date :§!"
  THREAT_GENERATED_BY_US: "Nous avons suscité : $VAL$"
  THREAT_LARGEST_DESC: "Le pays ayant suscité le plus de tension mondiale est $COUNTRY|H$ ($VAL$)."
- THREAT_OPEN_HISTORY: "§GCliquer§! pour ouvrir l'historique"
+ THREAT_OPEN_HISTORY: "§GCliquer§! pour ouvrir l'historique."
  THREAT_SOURCE: "\n     $LABEL$ ($DATE$) : $VAL$"
  THREAT_COUNTRY: "\n§H- §!$COUNTRY|H$"
  NO_THREAT_SOURCES: "§HActuellement aucune source de tension§!"

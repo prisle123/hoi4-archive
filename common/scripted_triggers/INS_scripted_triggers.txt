@@ -53,7 +53,7 @@ INS_only_militia_states_if_possible_and_needed = {
 
 INS_has_nationalized = {
 	OR = {
-		has_completed_focus = INS_political_stabilization
+		has_completed_focus = INS_nationalize
 		has_completed_focus = INSHOL_nationalize_dutch_companies
 	}
 }

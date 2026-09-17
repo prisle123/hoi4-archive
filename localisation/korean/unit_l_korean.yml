@@ -416,6 +416,8 @@
  hq_infantry_desc: "사령부 보안을 전담하는 소규모 보병 대대입니다."
  hq_motorized: "차량화 사령부 경비"
  hq_motorized_desc: "차량으로 이동하는 보병으로, 사령부의 신속한 이동을 가능하게 합니다."
+ hq_armored_car: "장갑차 사령부 경비"
+ hq_armored_car_desc: "장갑차가 기동성과 방어력, 그리고 뛰어난 수색 능력을 통해 사령부를 호위합니다."
  hq_paratrooper: "공수부대 사령부 경비"
  hq_paratrooper_desc: "사령부가 공중 침공에 직접 참여할 수 있도록 하며, 추가적인 보안을 제공합니다."
  hq_light_armor: "경기갑 사령부 경비"

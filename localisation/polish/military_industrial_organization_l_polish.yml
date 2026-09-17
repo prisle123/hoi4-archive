@@ -1526,6 +1526,8 @@
  SIA_army_ordnance_department_artillery_organzation: "Departament Artylerii i Uzbrojenia Armii"
  SIA_thai_rung_organization: "Thai Rung"
  SIA_directorate_of_aeronautical_engineering: "Dyrekcja ds. Inżynierii Lotniczej"
+ SIA_mio_trait_japanese_air_mission: "Japońska misja techniczna"
+ SIA_mio_trait_american_procurement: "Kanały amerykańskich zamówień"
  SIA_chaiseri_organization: "Chaiseri"
  SIA_bangkok_dock_organization: "Stocznia w Bangkoku"
  ########################################################################

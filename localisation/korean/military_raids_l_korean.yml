@@ -450,4 +450,8 @@
  raid_type_INS_militia_port_raid_desc: "우리는 어부로 위장한 민병대를 발각될 가능성이 적은 소형 보트에 태워 보낼 것입니다. 그들은 상륙 후 게릴라 조직을 구축하고, 기회가 된다면 현지 게릴라들과 협력하여 해군기지를 점령할 것입니다. 이는 매우 위험한 시도이며, 민병대가 발각될 경우 작전은 실패할 수밖에 없습니다.\n\n§Y효과:§!\n§R배치된 사단이 소모됨§!\n§Y성공:§!\n       §W해당 주의 소유자 및 지배자가 됩니다\n       악화가 §R1§! 증가§!.\n§Y제한적인 성공:§!\n       §W 민병대 활동이 §Y한 단계§! 추가되어, 이후 시도의 성공 확률이 증가§!\n§Y실패:§!\n       §W효과 없음§!."
  SIA_pacific_island_raid: "태평양 섬 습격"
  SIA_pacific_island_raid_desc: "우리는 태평양의 그 섬을 습격하여 그곳에 있는 그들의 해군 건물, 함선 및 군대에 심각한 피해를 주려 할 것입니다."
+ raid_type_SIA_pacific_island_raid: "$SIA_pacific_island_raid$"
+ raid_type_SIA_pacific_island_raid_desc: "$SIA_pacific_island_raid_desc$\n\n§Y효과:§!\n§Y대성공 / 성공 / 제한적 성공:§!\n       §W§Y해군기지§!와 §Y해군 시설§!에 §Y3§!/§Y2§!/§Y1§!레벨의 피해\n       해당 주의 적 §Y육군 및 함선§!에 §Y75%§!/§Y50%§!/§Y25%§!의 피해§!\n§Y실패:§!\n       §R배정된 사단이 파괴됨§!"
+ raid_type_SIA_indochina_port_raid: "인도차이나 항구 습격"
+ raid_type_SIA_indochina_port_raid_desc: "우리 폭격기들이 인도차이나의 적 해군기지를 타격해 부두를 파괴하고 정박 중인 포함을 모조리 침몰시킬 것입니다. 우리가 항구 하나를 파괴할 때마다 만 일대에서 적 함대가 이용할 수 있는 기지가 하나씩 줄어듭니다."
  raid_tooltip_trigger_title: "$TITLE|H$:"

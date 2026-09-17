@@ -210,6 +210,9 @@ AST_australia_first_movement_cat = {
 				NOT = { has_completed_focus = AST_stephensen }
 			}
 		}
+		NOT  = {
+			has_government = neutrality
+		}
 	}
 }
 
@@ -228,6 +231,39 @@ AST_vichy_out_of_africa_cat = {
 			has_completed_focus = AST_undeniably_ours
 		}
 	}
+}
+
+AST_naval_efforts_cat = {
+	priority = 90
+	icon = GFX_decision_category_generic_naval
+	picture = GFX_decision_cat_picture_generic_shipbuilding
+
+	visible_when_empty = no
+
+	allowed = {
+		original_tag = AST
+		has_dlc = "Thunder at Our Gates"
+	}
+
+	visible = { 
+		has_completed_focus = AST_royal_prestige
+	}
+}
+
+AST_kingdom_expansions_cat = {
+	priority = 100
+	icon = GFX_decision_category_NOR_monarchist_prep
+
+	visible_when_empty = no
+
+	allowed = {
+		original_tag = AST
+		has_dlc = "Thunder at Our Gates"
+	}
+
+	visible = { 
+		has_completed_focus = AST_heavy_is_the_head
+	}	
 }
 
 AST_big_business_pact_cat = {

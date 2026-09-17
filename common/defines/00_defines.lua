@@ -483,7 +483,7 @@ NCountry = {
 		60,
 		90,
 	},
-	GIE_EXILE_ARMY_LEADER_START_LEVEL = 3,	--Starting level for exile leader
+	GIE_EXILE_ARMY_LEADER_START_LEVEL = 1,	--Starting level for exile leader
 	GIE_ESCAPING_DIVISIONS_TRANSFER_DAYS = 30, -- days to transfer escaping divisions to host nation
 	GIE_ESCAPING_DIVISIONS_XP_BOOST = 0.4, -- Escaping divisions gain a boost to experience. Only the toughest motherbadasses will band together and survive to git me one hundred Nazi scalps ... Or die tryin'...
 	GIE_DIVISION_ATTACK_BONUS_AGAINST_OCCUPIER = 0.1, -- Attack bonus factor against whoever occupies your core territory.
@@ -813,6 +813,7 @@ NMilitary = {
 	VPS_FOR_HIGH_HISTORY_ENTRY = 8,				-- VPs required for high-level history entry
 	ENTRIES_TO_CHECK_FOR_DUPLICATE = 2,			-- Max number of history entries to check back to see if we're being awarded the same entry
 	COST_INCREASE_PER_ACTIVE_MEDAL = 0.25,		-- Additional cost factor per active medal
+	MEDAL_AWARD_CONFIRM_PP_THRESHOLD = 200.0,	-- Below this much political power, awarding a medal asks for confirmation; at or above it is granted directly
 	MAX_ENTRY_ELISION_COUNT = 4,				-- If we do the same type of thing consecutively, each entry will stack locations up to this number
 	GENERATE_AI_DIV_COMMAND_HISTORY_ENTRIES = true,	--Should we generate history entries for the AI (may cause savegame bloat)
 	GENERATE_AI_DIV_COMMAND_MEDALS = 0.10,		-- Chance for AI to award a medal when receiving a history entry that allows it. Also gives a chance for AI to gain history entries irrespective of the setting above
@@ -1213,8 +1214,8 @@ NMilitary = {
 	UNIT_LEADER_MODIFIER_COOLDOWN_ON_REDEPLOY = 15,		-- time in days for a unit leader to de redeployed to a new unit. Instantaneous if 0
 	UNIT_LEADER_MODIFIER_COOLDOWN_ON_WITHDRAW = 3,		-- base time in days for withdrawing a deployed unit leader. Instantaneous if 0. Scaled by HQ template manpower.
 	UNIT_LEADER_MODIFIER_COOLDOWN_ON_WITHDRAW_MIN = 1,		-- minimum cooldown in days for withdrawing a unit leader, even for very small HQ templates
-	UNIT_LEADER_MODIFIER_COOLDOWN_REFERENCE_MANPOWER = 9600,	-- reference manpower for deploy/withdraw cooldown scaling. At this value, delay equals the base.
-	UNIT_LEADER_MODIFIER_COOLDOWN_MANPOWER_EXPONENT = 1.5,		-- exponent for manpower scaling (>1 = big divisions punished harder)
+	UNIT_LEADER_MODIFIER_COOLDOWN_REFERENCE_MANPOWER = 2000,	-- reference manpower for deploy/withdraw cooldown scaling. At this value, delay equals the base.
+	UNIT_LEADER_MODIFIER_COOLDOWN_MANPOWER_EXPONENT = 1.4,		-- exponent for manpower scaling (>1 = big divisions punished harder)
 
 	BORDER_WAR_WIN_DAYS_AGAINST_EMPTY_OPPONENTS = 14,		-- border wars will be automatically won if no opponent shows up for this duration
 

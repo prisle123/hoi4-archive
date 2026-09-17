@@ -91,7 +91,6 @@ if = {
 set_variable = { INS_guns_from_seek_help_focus = 2500 } #Seek Foreign Help in the Joint Revolution Branch will give this amount of guns per country meeting criteria
 set_variable = { INS_realign_supply_chains_time = 120 } #Time decisions take when doing realign supply chains. Setting as a variable both so I can easily rebalance, but also since focuses can reduce it.
 
-
 # Great Depression
 set_variable = { INS_great_depression_min_export = -0.7 }
 set_variable = { INS_great_depression_production_speed_buildings_factor = 0 }
@@ -99,6 +98,7 @@ set_variable = { INS_great_depression_production_speed_infrastructure_factor = 0
 set_variable = { INS_great_depression_production_speed_industrial_complex_factor = 0 }
 set_variable = { INS_great_depression_global_building_slots_factor = 0 }
 set_variable = { INS_great_depression_stability_factor = 0 }
+set_variable = { INS_great_depression_local_resources_factor = 0}
 set_variable = { INS_great_depression_country_resource_cost_rubber = 0 }
 set_variable = { INS_great_depression_country_resource_cost_oil = 0 }
 
@@ -151,6 +151,7 @@ set_variable = { INS_royal_netherlands_east_indies_army_naval_damage_factor = 0}
 set_variable = { INS_royal_netherlands_east_indies_army_convoy_escort_efficiency = 0}
 set_variable = { INS_royal_netherlands_east_indies_army_production_speed_dockyard_factor = 0}
 set_variable = { INS_royal_netherlands_east_indies_air_force_experience_gain_air_factor = 0}
+set_variable = { INS_royal_netherlands_east_indies_air_force_experience_gain_air = 0 }
 set_variable = { INS_royal_netherlands_east_indies_army_army_core_defence_factor = 0 }
 set_variable = { INS_royal_netherlands_east_indies_army_conscription = 0 }
 set_variable = { INS_royal_netherlands_east_indies_army_production_factory_max_efficiency_factor = 0 }
@@ -243,6 +244,23 @@ set_variable = { var = INS_pemuda_raids_completed value = 0 }
 # Volksraad
 set_variable = { var = INS_volksraad_counter value = 0 }
 
+# Communist uprisings
+set_variable = { var = INS_communist_revolts_succeeded value = 0 }
+
+# Revolutionary Economic Cooperation
+set_variable = { var = INS_revolutionary_economic_cooperation_stability_factor value = 0 }
+set_variable = { var = INS_revolutionary_economic_cooperation_production_speed_buildings value = 0}
+set_variable = { var = INS_revolutionary_economic_cooperation_consumer_goods_factor value = 0 }
+set_variable = { var = INS_revolutionary_economic_cooperation_political_power_factor value = 0 }
+
+# Three Year Plan 
+set_variable = { var = INS_the_three_year_plan_modifier_production_speed_buildings_factor value = -0.1}
+
+# National Committee
+set_variable = { var = INS_national_committee_spirit_stability_factor value = 0 }
+set_variable = { var = INS_national_committee_spirit_political_power_factor value = -0.3 }
+set_variable = { var = INS_national_committee_spirit_war_support_factor value = 0.05 }
+
 # Arrays
 every_owned_state = {
 	ROOT = {
@@ -296,6 +314,25 @@ every_state = {
 
 	add_to_array = {
 		array = ROOT.malaya_states
+		value = THIS
+	}
+}
+
+every_state = {
+	limit = { #Only Borneo states
+		OR = {
+			state = 333
+			state = 1059
+			state = 1024
+			state = 334
+			state = 1022
+			state = 1055
+			state = 1023
+		}
+	}
+
+	add_to_array = {
+		array = ROOT.borneo_states
 		value = THIS
 	}
 }

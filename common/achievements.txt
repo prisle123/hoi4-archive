@@ -8030,26 +8030,26 @@ maphilindia = {
 				has_cosmetic_tag = INS_maphilindo
 			}
 		}
-		423 = { is_owned_and_controlled_by = ROOT }
-		424 = { is_owned_and_controlled_by = ROOT }
-		425 = { is_owned_and_controlled_by = ROOT }
-		426 = { is_owned_and_controlled_by = ROOT }
-		427 = { is_owned_and_controlled_by = ROOT }
-		428 = { is_owned_and_controlled_by = ROOT }
-		429 = { is_owned_and_controlled_by = ROOT }
-		430 = { is_owned_and_controlled_by = ROOT }
-		431 = { is_owned_and_controlled_by = ROOT }
-		432 = { is_owned_and_controlled_by = ROOT }
-		433 = { is_owned_and_controlled_by = ROOT }
-		434 = { is_owned_and_controlled_by = ROOT }
-		435 = { is_owned_and_controlled_by = ROOT }
-		436 = { is_owned_and_controlled_by = ROOT }
-		437 = { is_owned_and_controlled_by = ROOT }
-		438 = { is_owned_and_controlled_by = ROOT }
-		439 = { is_owned_and_controlled_by = ROOT }
-		989 = { is_owned_and_controlled_by = ROOT }
-		990 = { is_owned_and_controlled_by = ROOT }
-		991 = { is_owned_and_controlled_by = ROOT }
+		423 = { is_controlled_by = ROOT }
+		424 = { is_controlled_by = ROOT }
+		425 = { is_controlled_by = ROOT }
+		426 = { is_controlled_by = ROOT }
+		427 = { is_controlled_by = ROOT }
+		428 = { is_controlled_by = ROOT }
+		429 = { is_controlled_by = ROOT }
+		430 = { is_controlled_by = ROOT }
+		431 = { is_controlled_by = ROOT }
+		432 = { is_controlled_by = ROOT }
+		433 = { is_controlled_by = ROOT }
+		434 = { is_controlled_by = ROOT }
+		435 = { is_controlled_by = ROOT }
+		436 = { is_controlled_by = ROOT }
+		437 = { is_controlled_by = ROOT }
+		438 = { is_controlled_by = ROOT }
+		439 = { is_controlled_by = ROOT }
+		989 = { is_controlled_by = ROOT }
+		990 = { is_controlled_by = ROOT }
+		991 = { is_controlled_by = ROOT }
 	}
 }
 

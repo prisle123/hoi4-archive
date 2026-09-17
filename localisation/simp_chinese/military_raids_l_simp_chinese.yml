@@ -450,4 +450,8 @@
  raid_type_INS_militia_port_raid_desc: "我方将派遣民兵伪装成渔民，乘坐小型船只行动，力求不被当局发现。登陆后，他们将尝试建立游击队据点；若时机成熟，便会同当地游击队协同夺取该海军基地。此次行动风险极高，一旦民兵暴露行踪，行动必将失败。\n\n§Y效果：§!\n§R所分配的师将被消耗§!\n§Y成功：§!\n       §W成为该地区的所有者与控制者。§!\n       提升战局态势等级§R1§!级。\n§Y部分成功：§!\n       §W民兵活动等级提升§Y1级§!，提高后续行动的成功概率。§!\n§Y失败：§!\n       §W没有效果。§!"
  SIA_pacific_island_raid: "袭击太平洋岛屿"
  SIA_pacific_island_raid_desc: "我们将袭击太平洋岛屿，试图严重破坏岛上的海军建筑、船只和陆军。"
+ raid_type_SIA_pacific_island_raid: "$SIA_pacific_island_raid$"
+ raid_type_SIA_pacific_island_raid_desc: "$SIA_pacific_island_raid_desc$\n\n§Y效果：§!\n§Y大成功/成功/部分成功：§!\n       §W破坏§Y海军基地§!和§Y海上设施§!§Y3§!/§Y2§!/§Y1§!级\n       破坏地区内的敌方§Y陆军和船舰§!§Y75%§!/§Y50%§!/§Y25%§!§!\n§Y失败：§!\n       §R分配的师被消灭§!"
+ raid_type_SIA_indochina_port_raid: "袭击印度支那港口"
+ raid_type_SIA_indochina_port_raid_desc: "我们的轰炸机将袭击印度支那的敌方海军基地，炸毁其码头并击沉所有停泊的炮艇。我们每炸毁一个港口，敌方舰队在湾区就少一个基地。"
  raid_tooltip_trigger_title: "$TITLE|H$："

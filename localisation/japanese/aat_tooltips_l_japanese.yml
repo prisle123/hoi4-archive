@@ -164,9 +164,9 @@
  NORDIC_is_northern_sea_state: "§Y北海§!に海岸線を持っている"
  NORDIC_is_danish_belt_state: "§Yベルト海峡§!に海岸線を持っている"
  NORDIC_number_of_technologies_TT: "研究済みの技術: §Y[?num_researched_technologies]§!"
- NORDIC_unlocks_reaching_out_to_our_neighbors_TT: "共有国家方針§Y$NORDIC_reaching_out_to_our_neighbors$§!をアンロック"
- NORDIC_unlocks_the_nordic_march_TT: "共有国家方針§Y$NORDIC_the_nordic_march$§!をアンロック"
- NORDIC_unlocks_to_arms_against_tyranny_TT: "共有国家方針§Y$NORDIC_to_arms_against_tyranny$§!をアンロック"
+ NORDIC_unlocks_reaching_out_to_our_neighbors_TT: "共有国家方針「§Y$NORDIC_reaching_out_to_our_neighbors$§!」をアンロック"
+ NORDIC_unlocks_the_nordic_march_TT: "共有国家方針「§Y$NORDIC_the_nordic_march$§!」をアンロック"
+ NORDIC_unlocks_to_arms_against_tyranny_TT: "共有国家方針「§Y$NORDIC_to_arms_against_tyranny$§!」をアンロック"
  NORDIC_is_joint_focus_member_TT: "は§Y[NORDIC_get_alliance_name]§!の加盟国である"
  NORDIC_will_autocomplete_once_valid: "§Y条件が満たされるか特定の国家方針を通じて自動で完了します§!"
  ### DENMARK ###

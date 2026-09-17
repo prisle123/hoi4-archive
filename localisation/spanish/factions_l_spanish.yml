@@ -779,7 +779,7 @@
  SHORT_TERM: "Corto plazo"
  MEDIUM_TERM: "Medio plazo"
  LONG_TERM: "Largo plazo"
- ALL_FACTION_MEMBERS_INFLICTED_250K_CASUALTIES: "§YTodos los miembros de la facción§! que hayan infligido más de 250.000 bajas al enemigo:"
+ ALL_FACTION_MEMBERS_INFLICTED_250K_CASUALTIES: "§YTodos los miembros de la facción§! que hayan infligido más de 250 000 bajas al enemigo:"
  #SEA faction upgrades
  FACTION_UPGRADE_NAME_WITH_FACTION: "$FACTIONNAME|H$ $UPGRADENAME|$"
  FACTION_UPGRADE_RESEARCH_NAME: "Investigación compartida $INDEX|H$"

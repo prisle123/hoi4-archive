@@ -450,4 +450,8 @@
  raid_type_INS_militia_port_raid_desc: "Enviaremos milícias disfarçadas de pescadores em pequenos barcos, na esperança de não serem localizadas. Ao desembarcarem, tentarão estabelecer células de guerrilha e colaborar com guerrilheiros locais para ocupar a base naval, caso surja a oportunidade. Essa é uma empreitada extremamente arriscada. Se as milícias forem descobertas, a operação certamente fracassará.\n\n§YEfeitos:§!\n§RA divisão atribuída é usada§!\n§YSucesso:§!\n       §WTorna-se proprietário e controlador do estado\n       Aumenta a escalada em §R1§!§!.\n§YSucesso limitado:§!\n       §W Adiciona §Yum nível§! de atividade da milícia, aumentando a chance de sucesso em tentativas futuras.§!\n§YFracasso:§!\n       §WNenhum efeito.§!"
  SIA_pacific_island_raid: "Invadir a ilha do Pacífico"
  SIA_pacific_island_raid_desc: "Invadiremos a ilha do Pacífico e tentaremos causar dano severo a suas construções navais e a seus navios e tropas."
+ raid_type_SIA_pacific_island_raid: "$SIA_pacific_island_raid$"
+ raid_type_SIA_pacific_island_raid_desc: "$SIA_pacific_island_raid_desc$\n\n§YEfeitos:§!\n§YSucesso crítico / Sucesso / Sucesso limitado:§!\n       §WDanifica a §Ybase naval§! e a §Yinstalação naval§! em §Y3§!/§Y2§!/§Y1§! níveis\n       Danifica os §Yexércitos e navios§! inimigos no estado em §Y75%§!/§Y50%§!/§Y25%§!§!\n§YFracasso:§!\n       §RA divisão atribuída é destruída§!"
+ raid_type_SIA_indochina_port_raid: "Atacar o porto indochinês"
+ raid_type_SIA_indochina_port_raid_desc: "Nossos bombardeiros atacarão uma base naval inimiga na Indochina, destruindo seus embarcadouros e afundando todas as canhoneiras lá ancoradas. Cada porto que destruímos é uma base a menos para a frota inimiga no Golfo."
  raid_tooltip_trigger_title: "$TITLE|H$:"

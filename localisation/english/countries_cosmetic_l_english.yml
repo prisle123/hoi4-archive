@@ -1,4 +1,7 @@
 ﻿l_english:
+#  INS_rump_java: "Java"
+#  INS_rump_java_DEF: "Java"
+#  INS_rump_java_ADJ: "Javanese"
  INS_HOL: "Dutch East Indies"
  INS_HOL_DEF: "the Dutch East Indies"
  INS_HOL_autonomy_dominion: "Dominion of Indonesia"
@@ -3388,6 +3391,9 @@
  INS_maphilindo_fascism: "Malayan Empire"
  INS_maphilindo_fascism_DEF: "the Malayan Empire"
  INS_maphilindo_fascism_ADJ: "Malay"
+ INS_union_of_provinces: "Union of Indonesian Provinces"
+ INS_union_of_provinces_DEF: "The Union of Indonesian Provinces"
+ INS_union_of_provinces_ADJ: "Indonesian"
 
  PHI_asean_tag: "Association of South East Asian Nations"
  PHI_asean_tag_DEF: "the Association of South East Asian Nations"
@@ -3569,5 +3575,7 @@
  AST_percy_fascism: "$AST$"
  AST_percy_fascism_DEF: "$AST_DEF$"
  AST_percy_fascism_ADJ: "$AST_ADJ$"
-
-
+ AST_independent: "$AST$"
+ AST_independent_DEF: "$AST_DEF$"
+ AST_monarchy_neutrality: "Kingdom of Australia"
+ AST_monarchy_neutrality_DEF: "the Kingdom of Australia"

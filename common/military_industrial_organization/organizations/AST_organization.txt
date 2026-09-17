@@ -180,7 +180,7 @@ AST_new_south_wales_government_railways_organization = {
 		icon = GFX_generic_mio_department_icon_infantry_quality
 		special_trait_background = yes
 
-		position = { x=5 y=0 }  
+		position = { x=4 y=0 }  
 
 		available = {
 		    owner = {
@@ -571,7 +571,7 @@ AST_john_brown_and_company_organization = {
 		position = { x=4 y=3 }
 		all_parents = { generic_mio_trait_hardened_critical_components generic_mio_trait_secondary_fire_director_control }
 		production_bonus = {
-			production_efficiency_gain_factor = 0.05
+			production_capacity_factor = 0.05
 		}
 	}
 }

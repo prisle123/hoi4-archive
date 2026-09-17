@@ -1,0 +1,6 @@
+﻿l_spanish:
+ operation_SIA_sabotage_indochina_ports: "Sabotear los puertos de Indochina"
+ operation_SIA_sabotage_indochina_ports_desc: "Infiltrad equipos de demolición en los grandes puertos de la Indochina francesa y colocad de antemano cargas en los muelles, las grúas y los depósitos de combustible. Permanecerán inactivas hasta el día en que avancemos, y entonces, los puertos volarán por los aires de un solo golpe, antes de que la flota enemiga pueda dispersarse hacia ellos."
+ operation_SIA_sabotage_indochina_ports_potential_tt: "§YSi tiene éxito:§! coloca cargas ocultas en los puertos de Indochina (§YAnnam§!, §YTonkín§! y §YCamboya§!). Las cargas detonarán en el momento en que entremos en guerra con su dueño, destruyendo por completo cada base naval."
+ operation_SIA_sabotage_indochina_ports_failed_tt: "§RLa operación ha fracasado:§! nuestros equipos no han podido colocar las cargas."
+ SIA_plant_indochina_port_charges_tt: "Se colocan cargas de demolición ocultas en los §Ypuertos de Indochina§!. Detonarán cuando entremos en guerra con su dueño."

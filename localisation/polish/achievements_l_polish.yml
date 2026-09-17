@@ -122,7 +122,7 @@
  its_all_coming_together_tt: "Jako [CHI.GetNonIdeologyName] całkowicie kontroluj wszystkie regiony narodowe, same lub z ich poddanymi."
  the_coast_is_clear_tt: "Jako [CHI.GetNonIdeologyName] nigdy nie utrać regionu nadmorskiego przed 2 września 1945 r."
  paradisus_paradoxum_tt: "Jako [JAP.GetNonIdeologyName] ogłoś utworzenie Czystego Kraju Buddyjskiego."
- an_equivalent_exchange_tt: "Jako demokracja ([JAP.GetNonIdeologyName]) zrealizuj cel $JAP_democratic_foreign_exchange_allocation_policy$ i doprowadź do kapitulacji faszystowskiego państwa [GER.GetAjdective]"
+ an_equivalent_exchange_tt: "Jako demokracja ([JAP.GetNonIdeologyName]) zrealizuj cel $JAP_democratic_foreign_exchange_allocation_policy$ i doprowadź do kapitulacji faszystowskiego państwa [GER.GetAdjective]"
  the_juannines_tt: "Jako [PHI.GetNonIdeologyName] kontroluj i posiadaj prowincje we wszystkich [SPR.GetAdjective] regionach narodowych w Europie."
  declare_military_emergency_tt: "Jako [PHI.GetNonIdeologyName] posiadaj: $PHI_military_emergency_flag$"
  cobalt_sea_tt: "Jako [PHI.GetNonIdeologyName] wykorzystaj okręt podwodny do udanego uderzenia jądrowego lub termojądrowego."

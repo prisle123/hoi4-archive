@@ -101,7 +101,7 @@
  CREATE_GROUP_WITH_UNITS_SELECTED_TOOLTIP: "§GCliquer pour créer une nouvelle armée et y affecter les divisions sélectionnées.§!"
  CREATE_ARMY_GROUP_WITH_UNITS_SELECTED_TOOLTIP: "§GCliquer pour créer un nouveau groupe d'armées et y affecter les armées sélectionnées.§!"
  SELECT_GROUP_TOOLTIP: "§GCliquer§! pour sélectionner."
- SELECT_GROUP_TOOLTIP_WITH_HQ: "§GCliquer§! pour sélectionner toutes les divisions\n§GCtrl + clic§! pour sélectionner toutes les divisions qui n'appartiennent pas au QG"
+ SELECT_GROUP_TOOLTIP_WITH_HQ: "§GCliquer§! pour sélectionner toutes les divisions.\n§GCtrl + clic§! pour sélectionner toutes les divisions qui n'appartiennent pas au QG."
  ATTACH_AIRWING_TO_GROUP_TOOLTIP: "§GClic droit§! pour rattacher une escadrille à une armée."
  WING_CAN_NOT_ATTACH_ALREADY: "§RToutes les escadrilles sont déjà rattachées à une armée.§!"
  WING_CAN_NOT_ATTACH_ARMY_GROUP: "§RLes escadrilles ne peuvent être attachées qu'aux armées.§!"

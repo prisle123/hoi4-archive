@@ -1419,8 +1419,25 @@ GER_is_RAA_state = {
 		state = 1070 
 		state = 1071 
 		state = 1072 
+		state = 1047
+		state = 1048
+		state = 1049
+		state = 1050
+		state = 1051
+		state = 1052
+		state = 1053
+		state = 1054
+		state = 1055
+		state = 1056
+		state = 1057
+		state = 1058
+		state = 1079
+		state = 1080
+		state = 1081
 		### IMPASSABLE, INCLUDED BUT NOT REQURED ###
 		state = 674
+		state = 1074
+		state = 1075
 		state = 1022
 		state = 1073 
 	}

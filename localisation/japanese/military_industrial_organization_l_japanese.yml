@@ -1380,10 +1380,10 @@
  generic_mio_trait_simplified_hulls: "単純化された船体"
  generic_mio_trait_modular_construction: "モジュール式建造法"
  generic_mio_trait_increased_amount_of_bulkheads: "冗長な隔壁"
- CHI_local_bomber_production_tt: "国家方針§Y$CHI_local_bomber_production$§!を完了している"
- CHI_local_fighter_production_tt: "国家方針§Y$CHI_local_fighter_production$§!を完了している"
- CHI_camco_tt: "国家方針§Y$CHI_camco$§!を達成している"
- CHI_chinese_panzers_TT: "国家方針§Y$CHI_chinese_panzers$§!を達成している"
+ CHI_local_bomber_production_tt: "国家方針「§Y$CHI_local_bomber_production$§!」を完了している"
+ CHI_local_fighter_production_tt: "国家方針「§Y$CHI_local_fighter_production$§!」を完了している"
+ CHI_camco_tt: "国家方針「§Y$CHI_camco$§!」を達成している"
+ CHI_chinese_panzers_TT: "国家方針「§Y$CHI_chinese_panzers$§!」を達成している"
  ### PRC - Organizations
  PRC_factory_617_organization: "六一七廠"
  PRC_factory_617_early_mbt_trait: "初期の主力戦闘戦車"
@@ -1526,6 +1526,8 @@
  SIA_army_ordnance_department_artillery_organzation: "陸軍兵器局火砲部門"
  SIA_thai_rung_organization: "タイ・ルン"
  SIA_directorate_of_aeronautical_engineering: "航空工学局"
+ SIA_mio_trait_japanese_air_mission: "日本の技術使節団"
+ SIA_mio_trait_american_procurement: "アメリカの調達経路"
  SIA_chaiseri_organization: "チャイセリ"
  SIA_bangkok_dock_organization: "バンコク・ドック"
  ########################################################################

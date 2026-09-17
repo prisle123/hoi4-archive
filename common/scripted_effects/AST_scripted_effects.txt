@@ -147,6 +147,7 @@ AST_cabinet_trust_swap_idea = { #Will swap ideas that represent the correct Cabi
 					has_country_flag = AST_cabinet_trust_complete_1_flag
 					has_country_flag = AST_cabinet_trust_complete_2_flag
 					has_country_flag = AST_cabinet_trust_complete_3_flag
+					has_country_flag = AST_cabinet_trust_complete_4_flag
 				}
 			}
 		}
@@ -1519,6 +1520,18 @@ AST_bound_once_more_effect = {
 	}
 }
 
+AST_new_guard_spirit_modify_effect = {
+	custom_effect_tooltip = AST_new_guard_spirit_modify
+	add_to_variable = {
+		var = AST_ng_members_var
+		value = 2500 #Edit tt if changed
+	}
+	add_to_variable = {
+		var = AST_ng_daily_var
+		value = 10 #Edit tt if changed
+	}
+}
+
 ### National Spirit Checks ###
 
 AST_add_or_modify_war_is_coming_spirit = {
@@ -1618,25 +1631,6 @@ add_or_modify_AST_no_foreign_battlefields_spirit = {
 	}
 }
 
-add_or_modify_AST_imperial_pressure_spirit = {
-	IF = {
-		limit = {
-			NOT = {
-				has_dynamic_modifier = {
-					modifier = AST_imperial_pressure_spirit
-				}		
-			}
-		}
-		hidden_effect = {
-			country_event = { id = AST_political_events.7 days = 1 }
-		}
-	}
-
-	ELSE = {
-		custom_effect_tooltip = AST_imperial_pressure_spirit_tt
-	}
-}
-
 add_or_modify_AST_strength_in_numbers_spirit = {
 	IF = {
 		limit = {
@@ -1672,6 +1666,28 @@ add_or_modify_AST_pacific_fleet_hub_spirit = {
 
 	ELSE = {
 		custom_effect_tooltip = AST_pacific_fleet_hub_spirit_tt
+	}
+}
+
+rename_australia_first_spirit_effect = {
+	IF = {
+		limit = {
+			has_dynamic_modifier = AST_australia_first_spirit
+		}
+		custom_effect_tooltip = AST_australia_first_rename_tt
+		hidden_effect = {
+			set_variable = { AST_for_crown_and_country_neutrality_drift = AST_australia_first_neutrality_drift }
+			set_variable = { AST_for_crown_and_country_war_support_factor = AST_australia_first_war_support_factor }
+			set_variable = { AST_for_crown_and_country_operative_slot = AST_australia_first_operative_slot }
+			set_variable = { AST_for_crown_and_country_military_industrial_organization_funds_gain = AST_australia_first_military_industrial_organization_funds_gain }
+			set_variable = { AST_for_crown_and_country_military_industrial_organization_research_bonus = AST_australia_first_military_industrial_organization_research_bonus }
+			remove_dynamic_modifier = {
+				modifier = AST_australia_first_spirit
+			}
+			add_dynamic_modifier = {
+				modifier = AST_for_crown_and_country_spirit
+			}
+		}
 	}
 }
 

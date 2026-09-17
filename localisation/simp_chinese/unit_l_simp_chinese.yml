@@ -416,6 +416,8 @@
  hq_infantry_desc: "一个规模较小的步兵营，专门负责总部安保。"
  hq_motorized: "摩托化总部警卫"
  hq_motorized_desc: "乘坐机动车辆的步兵，使总部能够更快移动。"
+ hq_armored_car: "装甲车总部警卫"
+ hq_armored_car_desc: "装甲车护卫总部，兼具机动性、防护力与卓越的侦察能力。"
  hq_paratrooper: "空降兵总部警卫"
  hq_paratrooper_desc: "允许总部直接加入空降行动，并提供更多安全性。"
  hq_light_armor: "轻型装甲总部警卫"

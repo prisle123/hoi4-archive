@@ -1,0 +1,6 @@
+﻿l_french:
+ operation_SIA_sabotage_indochina_ports: "Saboter les ports indochinois"
+ operation_SIA_sabotage_indochina_ports_desc: "Envoyer discrètement des équipes de démolition dans les ports majeurs de l'Indochine française et placer des charges explosives sur les quais, dans les grues et les réservoirs de carburant. Inactives jusqu'à notre départ, elles rasent le port en une seule détonation. Impossible pour les flottes ennemies d'y échapper."
+ operation_SIA_sabotage_indochina_ports_potential_tt: "§YEn cas de succès :§! dissimule des charges dans les ports indochinois (§YAnnam§!, §YTonkin§! et §YCambodge§!). Les charges explosent avec leur détenteur dès notre départ en guerre, rasant entièrement chaque base navale."
+ operation_SIA_sabotage_indochina_ports_failed_tt: "§RÉchec de l'opération :§! nos équipes n'ont pas pu poser les charges."
+ SIA_plant_indochina_port_charges_tt: "Des charges de démolition cachées sont posées dans les §Yports indochinois§!. Elles explosent avec leur détenteur dès notre départ en guerre."

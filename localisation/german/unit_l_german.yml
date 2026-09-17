@@ -416,6 +416,8 @@
  hq_infantry_desc: "Ein kleineres Infanteriebataillon, das für die Sicherung des Hauptquartiers zuständig ist."
  hq_motorized: "Motorisierte HQ-Sicherung"
  hq_motorized_desc: "Infanterie in motorisierten Fahrzeugen, die eine schnellere Verlegung des Hauptquartiers ermöglichen."
+ hq_armored_car: "HQ-Sicherheit (Panzerwagen)"
+ hq_armored_car_desc: "Gepanzerte Fahrzeuge eskortieren das Hauptquartier und verbinden Mobilität mit Schutz und hervorragender Aufklärungsfähigkeit."
  hq_paratrooper: "Fallschirmjäger zur HQ-Sicherung"
  hq_paratrooper_desc: "Erlaubt es dem Hauptquartier, sich direkt an einer Luftlandelandung zu beteiligen, und sorgt zudem für zusätzliche Sicherheit."
  hq_light_armor: "Leichte Panzer zur HQ-Sicherung"

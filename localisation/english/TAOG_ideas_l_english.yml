@@ -27,6 +27,10 @@
   INS_plane_making: "Aircraft Industry Funding"
   INS_tin_infrastructure_state: "Modernized Tin Infrastructure"
 
+  INS_economic_boom_idea: "Post-Nationalization Construction Boom"
+  INS_national_committee_spirit: "The National Committee"
+  INS_national_committee_spirit_tt: "Modifies §Y$INS_national_committee_spirit$§! by:"
+
   INS_outsourced_navy_idea: "Outsourced Naval Production"
   INS_diverted_navy_funds_idea: "Naval Prioritization"
 
@@ -105,6 +109,8 @@
   INS_evacuate_state: "Evacuation Order"
   INS_stronghold_java_state: "Strongholding Batavia"
 
+  INS_diverted_funding: "Diverted Funding"
+
   idea_INS_nefis: "NEFIS"
   idea_INS_nefis_no_lar: "NEFIS"
 
@@ -154,6 +160,28 @@
   INS_anti_colonialist_sentiment_idea_desc: "Indonesian revolutionaries are active in our nation spreading propaganda throughout the public, leading to rising anti-colonialist sentiment."
   INS_revolutionaries_working_with_indonesians_idea: "Revolutionaries Working With Indonesians"
   INS_revolutionaries_working_with_indonesians_idea_desc: "[ROOT.GetAdjective] communists have been caught communicating with Indonesian leaders, and are suspected of plotting an armed revolution."
+
+
+  INS_the_minimum_program_idea: "The Minimum Program"
+
+  INS_diverted_education_funding_idea: "Diverted Education Funding"
+
+  INS_pan_asian_economic_area_subject: "The Pan-Asian Economic Area"
+  INS_pan_asian_economic_area_overlord: "$INS_pan_asian_economic_area_subject$"
+
+  INS_revolutionary_economic_cooperation_modifier: "Revolutionary Economic Cooperation"
+
+  INS_the_three_year_plan_modifier: "The Three Year Plan"
+
+  INS_strenghtened_ins_jap_trade: "Strengthened [INS.GetAdjective]-[JAP.GetAdjective] Trade"
+
+
+  INS_pancasila_achieved_idea: "$INS_pancasila_achieved$"
+
+  INS_all_toward_the_war_effort_idea: "$INS_all_toward_the_war_effort$"
+
+  INS_inter_province_trade_idea: "$INS_indonesian_inter_province_trade_agreement$"
+
 
   ############
   ### SIAM ###
@@ -265,6 +293,8 @@
   idea_SIA_a_constituional_monarchy: "A Constitutional Monarchy"
   idea_SIA_a_constituional_monarchy_desc: "A constitutional framework defines the limits of royal power and enshrines the rights of the people. With the crown as a unifying symbol rather than an absolute authority, the nation grows more stable, more open to new ideas, and more aligned with the democratic world."
   idea_SIA_restoring_order: "Restoring Order"
+  idea_SIA_japanese_fighter_instruction: "Japanese Fighter Instruction"
+  idea_SIA_japanese_fighter_instruction_desc: "Instructors from the Imperial Japanese Army Air Service are drilling our pilots and walking our engineers through their own fighter designs. What they leave behind in our notebooks will outlast their stay."
   idea_SIA_military_expansion_costs: "Military Expansion Costs" 
   idea_SIA_a_modern_economy: "A Modern Economy"
   idea_SIA_death_to_communists: "Death to the Communists"
@@ -365,11 +395,27 @@
   AST_toe_the_line_spirit: "Toe the Line"
   AST_toe_the_line_spirit_desc: "The state has called for sacrifice and the population has answered. Rationing, longer working hours, and the redirection of civilian production toward the national effort have freed up resources the government had no other means of obtaining. It is an austere arrangement, and not a universally popular one."
   AST_defying_american_interference_idea: "$AST_defying_american_interference$"
+  AST_new_guard_spirit: "The New Guard"
+  AST_new_guard_spirit_desc: "After several years of inactivity, the prominent paramilitary, the New Guard, has been forced back into the fray to challenge resurgent enemies.\n\nAlthough some splinter groups may harbor extremist agendas, the organization once again undertakes the task of maintaining public order by suppressing communism and upholding British monarchist ideals."
+  AST_new_guard_spirit_tt: "New Guard members: §Y[?AST_ng_members_var|0]§!\nDaily member increase: §Y[?AST_ng_daily_var|0]§!\n\nThe movement has a maximum capacity of §Y50,000§! members"
+  AST_add_ng_fascist_tt: "Reveal focus:\n§Y$AST_campbells_men$\n$AST_the_commander_returns$§!"
+  AST_new_guard_spirit_modify: "Modify §Y$AST_new_guard_spirit$§! by:\n New Guard members: §Y2500§!\n Daily member increase: §Y10§!"
+  AST_fascist_legion_spirit: "The Fascist Legion"
+  AST_fascist_legion_spirit_desc: "A splinter group of the New Guard has proven to share more of the government's views than the New Guard itself. Entrusted by Campbell with state resources, the Fascist Legion now undertakes the important task of protecting civilian unity by rooting out political dissent."
+  AST_monarchist_intervention_spirit: "[GET_AST_MONARCHIST_INTERVENTION_SPIRIT]"
+  AST_monarchist_intervention_spirit_desc: "[GET_AST_MONARCHIST_INTERVENTION_SPIRIT_DESC]"
+  AST_the_crown_intervenes_spirit: "The Crown Intervenes"
+  AST_the_crown_intervenes_spirit_desc: "$AST_the_crown_intervenes_desc$"
+  AST_a_monarchist_appeal_spirit: "A Monarchist Appeal"
+  AST_a_monarchist_appeal_spirit_desc: "$AST_a_monarchist_appeal_desc$"
   AST_investigation_branch: "Investigation Branch"
   AST_TAOG_central_bureau: "Central Bureau"
   AST_invasion_planning: "Invasion Planning"
   AST_invasion_planning_desc: "§YOn remove§!:\nAdd §YWar Plan Japan§!.\n"
   AST_war_plan_japan: "War Plan Japan"
+  AST_war_strategy: "War Strategy"
+  AST_australias_glorious_fleet: "Australia's Glorious Fleet"
+  AST_australias_glorious_fleet_desc: "Australia's navy has long prepared for the moment it would face another naval power, and as it seems, that power is us."
   AST_australian_culture_investments_idea: "Australian Culture Investments"
   AST_australian_culture_investments_idea_desc: "§W§YOn remove§!:\nAdd §YA Sense of Place§!, which grants\nStability: §G+10.00%§!\nWar Support: §G+10.00%§!.§!\n"
   AST_a_sense_of_place: "A Sense of Place"
@@ -382,7 +428,6 @@
   AST_nauru_pact_faction_tt: "§Y[AST.GetName]§! join §Y[GER.GetFactionName]§!"
   AST_poor_population_growth: "Poor Population Growth"
   AST_poor_population_growth_desc: "When the Great Depression struck in 1929, Australian birth rates fell drastically. Combined with a decline in immigration, population growth has struggled to recover ever since."
-  AST_british_intel_sharing: "British Intel Sharing"
   AST_the_pacific_garrison_1: "The Pacific Garrison"
   AST_the_pacific_garrison_2: "The Pacific Garrison"
   AST_the_pacific_garrison_eng: "The Pacific Garrison"
@@ -410,6 +455,10 @@
   AST_eminent_successors_spirit_desc: "By appointing a few eminent successors, we can stabilize the government and restore the trust of both the public and our ministers."
   AST_australia_first_spirit: "Australia First"
   AST_australia_first_spirit_tt: "Modify §Y$AST_australia_first_spirit$§! by:"
+  AST_for_crown_and_country_spirit: "For Crown and Country"
+  AST_for_crown_and_country_spirit_tt: "Modify §Y$AST_for_crown_and_country_spirit$§! by:"
+  AST_australia_first_rename_tt: "Rename §Y$AST_australia_first_spirit$§! to §Y$AST_for_crown_and_country_spirit$§!"
+  AST_crowns_council_spirit: "Crown's Council"
   AST_imperial_pressure_spirit: "Imperial Pressure"
   AST_imperial_pressure_spirit_desc: "Due to recent events, it can no longer be denied that Australian politics are shifting in a direction unsuitable for a nation under the British Commonwealth umbrella. [ENG.GetNameDefCap] will attempt to guide our nation back onto its predetermined path, but may not remain patient for long.\n\n§WWill be removed once §Y[AST.GetName]§! is not a subject of §Y[ENG.GetNameDef]§!§!"
   AST_imperial_pressure_spirit_tt: "Modify §Y$AST_imperial_pressure_spirit$§! by:"

@@ -2467,7 +2467,6 @@ characters = {
 						has_cosmetic_tag = INS_UNION
 					}
 				}
-				INS_character_republic_founded_check_VISIBLE = yes
 			}
 			available = {
 				if = {
@@ -3161,7 +3160,8 @@ characters = {
 						original_tag = INS
 					}
 					OR = {
-						has_completed_focus = INS_minimum_program
+						#has_completed_focus = INS_minimum_program
+						has_completed_focus = INS_musso_ascends
 						has_completed_focus = INS_concessions_to_communists
 					}
 				}

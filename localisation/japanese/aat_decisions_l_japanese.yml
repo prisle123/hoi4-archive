@@ -619,7 +619,7 @@
  FIN_prioritize_light_industry_dec_cost_tt: "軽工業を優先している間、§Y$FIN_prioritize_heavy_industry$§!ディシジョンにかかるコストにが§R2倍§!になります。\n"
  FIN_prioritize_heavy_industry_dec_cost_tt: "重工業を優先している間、§Y$FIN_prioritize_light_industry$§!ディシジョンにかかるコストにが§R2倍§!になります。\n"
  FIN_rebalance_industrial_focus_dec_cost_tt: "§Y$FIN_prioritize_light_industry$§!および§Y$FIN_prioritize_heavy_industry$§!ディシジョンにかかるコストが元の値に戻ります。\n"
- FIN_kullervo_manner_extradited_flag: "§Y1939年1月31日§!の死亡日以前に§Y$FIN_kullervo_manner$§!が[SOV.GetName]から送還された（国家方針§Y$FIN_approach_the_soviets$§!およびディシジョン§Y$FIN_request_extradition_of_kullervo_manner$§!を完了）"
+ FIN_kullervo_manner_extradited_flag: "§Y1939年1月31日§!の死亡日以前に§Y$FIN_kullervo_manner$§!が[SOV.GetName]から送還された（国家方針「§Y$FIN_approach_the_soviets$§!」およびディシジョン「§Y$FIN_request_extradition_of_kullervo_manner$§!」を完了）"
  FIN_coastal_garrisons: "沿岸駐屯部隊"
  FIN_coastal_garrisons_desc: "あらゆる強襲上陸から身を守ることを目的として、沿岸駐屯部隊を創設すべきだ。"
  FIN_coastal_garrisons_decision_cost_pp_xp_cp: "£pol_power  §Y[?FIN.FIN_coastal_garrisons_pp_xp_cost]§! £army_experience  §Y[?FIN.FIN_coastal_garrisons_pp_xp_cost]§! £command_power  §Y[?FIN.FIN_coastal_garrisons_cp_cost]§!"

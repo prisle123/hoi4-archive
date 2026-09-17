@@ -1130,7 +1130,7 @@
  ww_BEL_event_diplomatic.2.a: "Razem jesteśmy silniejsi."
  ww_BEL_event_diplomatic.2.b: "Luksemburg to dumny i niepodległy naród!"
  #Luxembourg Yields - to BEL
- ww_BEL_event_diplomatic.3.t: "Rząd [FROM.GetNAdjective] ustępuje"
+ ww_BEL_event_diplomatic.3.t: "Rząd [FROM.GetAdjective] ustępuje"
  ww_BEL_event_diplomatic.3.desc: "Otrzymaliśmy znakomite wieści! Obywatele państwa [FROM.GetNameDefCap] mądrze doszli do wniosku, że zjednoczeni jesteśmy silniejsi. Rozpoczęły się ustalenia dotyczące nowej administracji nad tym terytorium."
  ww_BEL_event_diplomatic.3.a: "Doskonale."
  #Luxembourg Resists - to BEL

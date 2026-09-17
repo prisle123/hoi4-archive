@@ -122,7 +122,7 @@
  its_all_coming_together_tt: "[CHI.GetNonIdeologyName]として、自国単独または属国とともに、すべての中核州を完全に支配する"
  the_coast_is_clear_tt: "[CHI.GetNonIdeologyName]として、1945年9月2日まで沿岸の初期州を1つも失わない"
  paradisus_paradoxum_tt: "[JAP.GetNonIdeologyName]として、浄仏国土の創設を宣言する"
- an_equivalent_exchange_tt: "民主主義[JAP.GetNonIdeologyName]として、国家方針$JAP_democratic_foreign_exchange_allocation_policy$を完了し、ファシスト[GER.GetNonIdeologyName]を降伏させる"
+ an_equivalent_exchange_tt: "民主主義[JAP.GetNonIdeologyName]として、国家方針「$JAP_democratic_foreign_exchange_allocation_policy$」を完了し、ファシスト[GER.GetNonIdeologyName]を降伏させる"
  the_juannines_tt: "[PHI.GetNonIdeologyName]として、ヨーロッパにおけるすべての[SPR.GetAdjective]の中核州を支配し、中核化する"
  declare_military_emergency_tt: "[PHI.GetNonIdeologyName]として、$PHI_military_emergency_flag$が発出される"
  cobalt_sea_tt: "[PHI.GetNonIdeologyName]として、潜水艦からの核攻撃または核融合爆弾攻撃を成功させる"

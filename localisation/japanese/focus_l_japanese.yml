@@ -2368,7 +2368,7 @@
  confirm_cancel_national_focus: "国家方針の中止"
  confirm_cancel_national_focus_progress_loss_singular: "§R$LOST_DAYS$§!日分の進行度を失います。"
  confirm_cancel_national_focus_progress_loss_plural: "§R$LOST_DAYS$§!日分の進行度を失います。"
- confirm_cancel_national_focus_desc: "本当に国家方針§H$FOCUS_NAME$§!を中止してもよろしいですか？"
+ confirm_cancel_national_focus_desc: "本当に国家方針「§H$FOCUS_NAME$§!」を中止してもよろしいですか？"
  SOV_THE_USSR_NAME_COMMUNIST: "ソ連"
  SOV_THE_USSR_NAME_EXILES: "ロシア"
  SOV_RUSSIANS_DEMONYM_SOVIETS: "ソビエト"

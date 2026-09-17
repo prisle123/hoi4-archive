@@ -416,6 +416,8 @@
  hq_infantry_desc: "Mniejszy batalion piechoty, którego zadaniem jest zapewnienie ochrony sztabowi."
  hq_motorized: "Zmotoryzowana ochrona sztabu"
  hq_motorized_desc: "Piechota w pojazdach silnikowych, która daje możliwość szybszego przemieszczenia sztabu."
+ hq_armored_car: "Ochrona sztabu samochodami pancernymi"
+ hq_armored_car_desc: "Sztab jest chroniony przez samochody pancerne, które łączą wysoką mobilność z dobrą ochroną i doskonałymi możliwościami zwiadowczymi."
  hq_paratrooper: "Spadochronowa ochrona sztabu"
  hq_paratrooper_desc: "Umożliwia sztabowi bezpośredni udział w inwazji powietrznej, zapewniając jednocześnie dodatkowe zabezpieczenie."
  hq_light_armor: "Lekko opancerzona ochrona sztabu"

@@ -32,7 +32,7 @@ mission_type_tactics = {
         always = yes
     }
     # EFFECTS
-    command_power_gain = 0.02
+    command_power_gain = 0.2
     category_all_infantry = {
         max_organisation = 15
     }
@@ -98,11 +98,21 @@ last_stand = {
                     original_tag = INS
                 }
             }
-            has_defensive_war = yes
+            OR = {
+                has_defensive_war = yes
+                AND = {
+                    surrender_progress > 0.1
+                    has_war_support > 0.5
+                }                
+            }            
         }
         else = {
             OR = {
                 has_defensive_war = yes
+                AND = {
+                    surrender_progress > 0.1
+                    has_war_support > 0.5
+                }
                 has_country_flag = INS_revolution_has_started
             }
         }
@@ -179,7 +189,7 @@ infiltration_tactics = {
 
     # EFFECTS
     enable_tactic = tactic_infantry_charge
-    max_planning = 0.05 
+    max_planning = 0.1 
 
     ai_will_do = { }
 
@@ -201,7 +211,7 @@ infiltration_tactics = {
         self_sustaining_infiltration_units = {
         #3
             supply_consumption_factor = -0.10
-            command_power_gain = 0.015
+            command_power_gain = 0.1
             category_tanks = {
                 max_organisation = 2
             }

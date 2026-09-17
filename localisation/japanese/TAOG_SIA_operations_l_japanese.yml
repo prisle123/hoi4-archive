@@ -1,0 +1,6 @@
+﻿l_japanese:
+ operation_SIA_sabotage_indochina_ports: "インドシナの港湾に対する破壊工作"
+ operation_SIA_sabotage_indochina_ports_desc: "仏領インドシナの主要な港湾に破壊工作チームを潜入させ、埠頭、クレーン、燃料貯蔵庫に爆薬を設置する。それらは我々が進軍するまで寝かせておき、時がくれば一斉に港湾を爆破する。敵の艦隊が各港湾に分散退避する隙を与えない。"
+ operation_SIA_sabotage_indochina_ports_potential_tt: "§Y成功時:§! インドシナの港湾（§Y安南§!、§Yトンキン§!、§Yカンボジア§!）に爆薬を隠して設置する。爆薬は当該港湾の所有国と開戦した瞬間に爆発し、各海軍基地を完全に破壊する。"
+ operation_SIA_sabotage_indochina_ports_failed_tt: "§R作戦は失敗した:§! 潜入チームは爆薬を設置できなかった。"
+ SIA_plant_indochina_port_charges_tt: "§Yインドシナの港湾§!に隠れた爆薬が設置された。爆薬は当該港湾の所有国と開戦した瞬間に爆発する。"

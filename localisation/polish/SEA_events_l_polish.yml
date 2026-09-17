@@ -703,6 +703,18 @@
  SEA_japan_popup_events.50.desc: "Wraz z utworzeniem Stowarzyszenia Wspierania Władzy Cesarskiej stało się jasne, że Genki Abe, przywódca Policji Myśli, wraz z różnymi przywódcami służby cywilnej, nie są szczególnie zadowoleni z działań, które podejmuje [ROOT.GetLeader]. Teraz domagają się oni jego ustąpienia na rzecz pronazistowskiego polityka Seigō Nakano. Czy powinniśmy poddać się tej presji?"
  SEA_japan_popup_events.50.a: "W porządku, skoro żądają wydania premiera..."
  SEA_japan_popup_events.50.b: "Nie spełnimy ich żądań!"
+ SEA_japan_popup_events.51.t: "Bitwa o Midway"
+ SEA_japan_popup_events.51.desc: "Dowództwo naszej marynarki wojennej chciało powiększyć nasz perymetr obronny na Pacyfiku o bardziej oddalone atole, więc flota otrzymała niedawno zadanie patrolowania rejonu Grzbietu Hawajskiego, gdzie natknęła się na flotę amerykańską. Po zaciętej bitwie, poniósłszy poważne straty, wróg utracił wolę walki i wycofał się. Nasi dowódcy otrzymali za to osiągnięcie zasłużone awanse."
+ SEA_japan_popup_events.51.a: "Za cesarza!"
+ SEA_japan_popup_events.52.t: "Bitwa o Midway"
+ SEA_japan_popup_events.52.desc: "Odkąd Japonia rozpoczęła próby powiększenia swojego perymetru obronnego na Pacyfiku o bardziej oddalone atole, jej floty zapuszczały się coraz bliżej Pearl Harbor. Wróg nie wiedział, że nasi kryptolodzy poznali datę oraz miejsce rozpoczęcia planowanego ataku na Midway, dzięki czemu mogliśmy przygotować zasadzkę. Przed przybyciem na miejsce Japończyków dowódca Floty Pacyfiku wysłał w rejon Midway duże siły dowodzone przez Franka Jacka Fletchera. Te skrupulatne przygotowania umożliwiły nam zadanie wrogowi miażdżącego ciosu, po którym szybko się nie podniesie."
+ SEA_japan_popup_events.52.a: "Pokazaliśmy im"
+ SEA_japan_popup_events.53.t: "Katastrofa pod Midway"
+ SEA_japan_popup_events.53.desc: "Dowództwo naszej marynarki wojennej chciało powiększyć nasz perymetr obronny na Pacyfiku, więc flota otrzymała niedawno zadanie opanowania atolu Midway. Jednak nasi dowódcy nie wiedzieli, że amerykańscy kryptolodzy poznali datę i miejsce rozpoczęcia planowanego przez nas ataku, dzięki czemu siły przeciwnika przygotowały własną zasadzkę. Doszło do bitwy, w której ponieśliśmy dotkliwą klęskę, media cenzurują wszelkie informacje o stratach przekazywane opinii publicznej, aby nie podkopywać morale społeczeństwa."
+ SEA_japan_popup_events.53.a: "Haniebne zachowanie"
+ SEA_japan_popup_events.54.t: "Katastrofalna bitwa o Midway"
+ SEA_japan_popup_events.54.desc: "Odkąd Japonia rozpoczęła próby powiększenia swojego perymetru obronnego na Pacyfiku o bardziej oddalone atole, jej floty zapuszczały się coraz bliżej Pearl Harbor. Wróg nie wiedział, że nasi kryptolodzy poznali datę oraz miejsce rozpoczęcia planowanego ataku na Midway, dzięki czemu mogliśmy przygotować zasadzkę. Przed przybyciem na miejsce Japończyków dowódca Floty Pacyfiku wysłał w rejon Midway duże siły dowodzone przez Franka Jacka Fletchera. Jednak pomimo podjętych starań nasza flota nie mogła równać się z siłami wroga. Losy starcia rozstrzygnęły się w ciągu jego pierwszych kilku godzin. Być może to punkt zwrotny, którego przeciwnik potrzebował, żeby zatrzymać naszą Flotę Pacyfiku."
+ SEA_japan_popup_events.54.a: "Bezprecedensowa porażka!"
  ### BORDER INCIDENT EVENTS ###
  # Event for MON
  SEA_border_incidents_events.1.t: "Nasze oddziały ruszyły na Tauran"

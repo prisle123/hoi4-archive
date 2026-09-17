@@ -416,6 +416,8 @@
  hq_infantry_desc: "Um batalhão de infantaria menor, dedicado à segurança do QG."
  hq_motorized: "Segurança do QG com veículos motorizados"
  hq_motorized_desc: "Infantaria em veículos motorizados, permitindo a realocação mais rápida do QG."
+ hq_armored_car: "Segurança do QG com carros blindados"
+ hq_armored_car_desc: "Carros blindados escoltam o QG, combinando mobilidade, proteção e excelente capacidade de reconhecimento."
  hq_paratrooper: "Segurança do QG com paraquedistas"
  hq_paratrooper_desc: "Permite que o QG participe diretamente de uma invasão aerotransportada, além de fornecer segurança adicional."
  hq_light_armor: "Segurança do QG com blindados leves"

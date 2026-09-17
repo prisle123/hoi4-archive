@@ -164,7 +164,7 @@
  CZE_skoda_ui_plane_focus_selected_tt: "§Y航空機重視§!\n\n[SkodaGetPlaneFocusIdeaEffects]"
  CZE_skoda_ui_tank_focus_selected_tt: "§Y戦車重視§!\n\n[SkodaGetTankFocusIdeaEffects]"
  CZE_skoda_ui_naval_focus_selected_tt: "§Y海軍重視§!\n\n[SkodaGetNavalFocusIdeaEffects]"
- CZE_skoda_ui_naval_focus_unavailable_tt: "§Y海軍重視§!\n\n£GFX_trigger_noは国家方針§Y艦載砲の生産再開§!を達成している"
+ CZE_skoda_ui_naval_focus_unavailable_tt: "§Y海軍重視§!\n\n£GFX_trigger_noは国家方針「§Y艦載砲の生産再開§!」を達成している"
  ### SKODA OPTIMIZATION TIER TOOLTIPS ###
  CZE_skoda_optimization_tier_tt: "£GFX_CZE_skoda_text_icon §Yシュコダの優先事項§!を切り替えると、 £GFX_prod_eff_cap §Y最適化レベル§!が§R1§!にリセットされる。一部の§Y国家方針§!は、 £GFX_CZE_skoda_text_icon §Yシュコダの優先事項§!を特定のものに設定することが完了の条件になっている。これらの国家方針には、必要な優先事項に対応したアイコンが付いている。" #do not swap 2 months to 60 days, for performance reasons its not actually always exactly 2 months
  CZE_skoda_optimization_tier_var_text: "§G[?skoda_optimization_tier]§!"

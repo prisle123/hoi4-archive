@@ -59,7 +59,7 @@ INS_aslia_cat = {
 	}
 
 	visible = {
-		has_completed_focus = INS_federation_of_aslia
+		has_completed_focus = INS_the_maphilindo_speech
 	}
 }
 
@@ -73,6 +73,20 @@ INS_limited_wars_cat = {
 	}
 
 	visible = {
+	}
+}
+
+INS_borneo_puppet_cat = {
+	priority = 45
+	icon = GFX_decision_category_generic_foreign_policy
+
+	allowed = {
+		original_tag = INS
+		has_dlc = "Thunder at Our Gates"
+	}
+
+	visible = {
+		has_country_flag = INS_can_release_borneo_puppets
 	}
 }
 
@@ -327,3 +341,18 @@ INS_national_revolution_dutch_cat = {
 #		}
 #	}
 #}
+
+INS_the_co_prosperity_sphere_cat = {
+	priority = 150
+	visible_when_empty = no
+
+	allowed = {
+		original_tag = INS
+		has_dlc = "Thunder at Our Gates"
+	}
+
+	visible = {
+		has_completed_focus = INS_the_co_prosperity_sphere
+	}
+
+}

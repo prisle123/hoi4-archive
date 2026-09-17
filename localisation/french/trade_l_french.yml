@@ -53,7 +53,7 @@
  CONVOYS_USAGE_UNDERWAY_REPLENISHMENT: " - pour le ravitaillement en mer : $CONVOY_USE|0H$/$CONVOY_NEED|0H$\n"
  CONVOYS: "Convois"
  NO_IMPORT_TO_CANCEL: "§RImpossible d'annuler les importations de $RESOURCE|H$ puisqu'il n'y en a pas.§!"
- CANCEL_RESOURCE_IMPORT: "§GCliquer§! pour annuler les importations de $RESOURCE|H$"
+ CANCEL_RESOURCE_IMPORT: "§GCliquer§! pour annuler les importations de $RESOURCE|H$."
  CONVOYS_USAGE_DELAYED: "Les convois sont utilisés lors de l'importation de ressources depuis l'étranger par voie maritime, lors du transport des ressources produites à l'intérieur du pays et pour le ravitaillement de nos forces terrestres dans les colonies."
  RESOURCE_DETAILS_NET_SURPLUS: "Nous avons un surplus net de $SURPLUS|G$ unités de $RESOURCE|H$."
  RESOURCE_DETAILS_NET_DEFICIT: "Nous avons un déficit net de $DEFICIT|R$ unités de $RESOURCE|H$."

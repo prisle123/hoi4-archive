@@ -1,6 +1,19 @@
 ideas = {
 	country = {
 
+		INS_economic_boom_idea = {
+			picture = SOV_third_five_year_plan_civilian
+			allowed = {
+				has_dlc = "Thunder at Our Gates"
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+
 		INS_outsourced_navy_idea = {
 			picture = generic_sea_focused_navy
 			allowed = {
@@ -817,7 +830,205 @@ ideas = {
 			}
 		}
 
+		INS_the_minimum_program_idea = {
+
+			allowed = { original_tag = INS }
+	
+			allowed_civil_war = { always = yes}
+	
+			removal_cost = -1
+	
+			picture = SOV_system_decentralization
+	
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				political_power_factor = -0.05
+				consumer_goods_factor = -0.15
+			}
+		}
+
+		INS_diverted_education_funding_idea = {
+			allowed = { original_tag = INS }
+
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			picture = SOV_system_decentralization
+
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+
+		INS_pan_asian_economic_area_subject = {
+			allowed = { #Only allowed in countries that can be invited/integrated via the decision in the branch
+				OR = {
+					tag = MAL
+					tag = SIA
+					tag = PHI
+					tag = AST
+					tag = NZL
+					tag = BRM
+					tag = VIN
+					tag = LAO
+					tag = CAM
+					tag = GDC
+					tag = GXC
+					tag = YUN
+					tag = PNG
+					tag = WPG
+					tag = SRL
+					tag = SAR
+					tag = BRN
+					tag = SAB
+					tag = SNG
+					tag = TML
+					tag = BOU
+					tag = CHM
+					tag = CPS
+				}
+			}
+
+			picture = SOV_stakhanovite_movement
+
+			cancel = {
+				NOT = {
+					any_other_country = {
+						original_tag = INS
+						is_in_faction_with = ROOT
+					}
+				}
+			}
+
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				cic_to_overlord_factor = 0.35
+				mic_to_overlord_factor = 0.35
+			}
+		}
+
+		INS_pan_asian_economic_area_overlord = {
+			allowed = {
+				original_tag = INS
+			}
+
+			picture = SOV_stakhanovite_movement
+
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		INS_strenghtened_ins_jap_trade = {
+			allowed = {
+				original_tag = JAP
+			}
+
+			picture = JAP_pro_japanese_sentiments
+
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = INS
+				trade_cost_for_target_factor = -0.25
+			}
+		}
+
+		INS_pancasila_achieved_idea = {
+			allowed = { original_tag = INS }
+
+			picture = generic_economic_increase
+
+			allowed_civil_war = { always = yes }
+
+
+			removal_cost = -1
+
+			modifier = {
+
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				political_power_factor = 0.05
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		INS_all_toward_the_war_effort_idea = {
+			allowed = { original_tag = INS }
+
+			picture = MEX_politicised_army_2
+
+			allowed_civil_war = { always = yes}
+
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+
+			targeted_modifier = {
+				tag = MAL
+				attack_bonus_against = 0.15
+			}
+
+			targeted_modifier = {
+				tag = AST
+				attack_bonus_against = 0.15
+			}
+
+			targeted_modifier = {
+				tag = ENG
+				attack_bonus_against = 0.15
+			}
+
+			targeted_modifier = {
+				tag = CHI
+				attack_bonus_against = 0.15
+			}
+		}
+
+		INS_inter_province_trade_idea = {
+		    allowed = {
+		        OR = {
+		            tag = INS
+		            tag = ATJ
+		            tag = BLI
+		            tag = SSI
+		            tag = TNE
+		            tag = GOW
+		            tag = POK
+		        }
+		    }
+
+		    picture = can_wartime_prices_and_trade_board
+
+		    allowed_civil_war = { always = yes }
+		    
+		    targeted_modifier = { tag = INS extra_trade_to_target_factor = 3 }
+		    targeted_modifier = { tag = ATJ extra_trade_to_target_factor = 3 }
+		    targeted_modifier = { tag = BLI extra_trade_to_target_factor = 3 }
+		    targeted_modifier = { tag = SSI extra_trade_to_target_factor = 3 }
+		    targeted_modifier = { tag = TNE extra_trade_to_target_factor = 3 }
+		    targeted_modifier = { tag = GOW extra_trade_to_target_factor = 3 }
+		    targeted_modifier = { tag = POK extra_trade_to_target_factor = 3 }
+		}
 	}
+
+	
 
 	tank_manufacturer = {
 		designer = yes

@@ -29,6 +29,21 @@ INS_dutch_east_indies = {
 	mic_to_overlord_factor = INS_dutch_east_indies_mic_to_overlord_factor
 }
 
+INS_national_committee_spirit = {
+	icon = GFX_idea_generic_democratic_drift_bonus
+	enable = {
+		has_dlc = "Thunder at Our Gates"
+		original_tag = INS
+	}
+	remove_trigger = {
+
+	}
+
+	stability_factor = INS_national_committee_spirit_stability_factor
+	war_support_factor = INS_national_committee_spirit_war_support_factor
+	political_power_factor = INS_national_committee_spirit_political_power_factor
+}
+
 INS_bangka_bauxite_export = {
 	icon = GFX_idea_INS_bangka_bauxite_export
 	enable = {
@@ -76,7 +91,7 @@ INS_great_depression = {
 	production_speed_industrial_complex_factor = INS_great_depression_production_speed_industrial_complex_factor
 	global_building_slots_factor = INS_great_depression_global_building_slots_factor
 	stability_factor = INS_great_depression_stability_factor
-
+	local_resources_factor = INS_great_depression_local_resources_factor
 	country_resource_cost_rubber = INS_great_depression_country_resource_cost_rubber
 	country_resource_cost_oil = INS_great_depression_country_resource_cost_oil
 }
@@ -116,7 +131,7 @@ INS_royal_netherlands_east_indies_army = {
 	air_cas_efficiency = INS_royal_netherlands_east_indies_army_air_cas_efficiency
 	air_superiority_efficiency = INS_royal_netherlands_east_indies_army_air_superiority_efficiency
 
-	experience_gain_air = INS_royal_netherlands_east_indies_army_experience_gain_air
+	experience_gain_air = INS_royal_netherlands_east_indies_air_force_experience_gain_air
 	experience_gain_army = INS_royal_netherlands_east_indies_army_experience_gain_army
 	experience_gain_navy = INS_royal_netherlands_east_indies_army_experience_gain_navy
 
@@ -216,6 +231,29 @@ INS_economic_stability_idea = {
 	production_speed_arms_factory_factor = INS_economic_stability_idea_production_speed_arms_factory_factor
 	political_power_gain = INS_economic_stability_idea_political_power_gain
 	autonomy_gain = INS_economic_stability_idea_autonomy_gain
+}
+
+INS_revolutionary_economic_cooperation_modifier = {
+	icon = GFX_idea_GER_wirtschaftswunder
+	enable = {
+		has_dlc = "Thunder at Our Gates"
+		original_tag = INS
+	}
+
+	stability_factor = INS_revolutionary_economic_cooperation_stability_factor
+	production_speed_buildings_factor = INS_revolutionary_economic_cooperation_production_speed_buildings
+	consumer_goods_factor = INS_revolutionary_economic_cooperation_consumer_goods_factor
+	political_power_factor = INS_revolutionary_economic_cooperation_political_power_factor
+}
+
+INS_the_three_year_plan_modifier = {
+	icon = GFX_idea_man_five_year_plan_industry
+	enable = {
+		has_dlc = "Thunder at Our Gates"
+		original_tag = INS
+	}
+
+	production_speed_buildings_factor = INS_the_three_year_plan_modifier_production_speed_buildings_factor
 }
 
 # States INS
@@ -440,6 +478,23 @@ INS_evacuate_state = {
 	local_org_regain = -0.2
 }
 
+INS_diverted_funding = {
+	icon = RAJ_debt_relief
+	enable = {
+		has_dlc = "Thunder at Our Gates"
+	}
+
+	remove_trigger = {
+		OWNER = {
+			NOT = {
+				has_government = communism
+			}
+		}
+	}
+
+	production_speed_buildings_factor = -0.1
+}
+
 # Netherlands
 HOL_east_indies_investments_mod = {
 	icon = GFX_idea_east_indies_investments
@@ -538,7 +593,6 @@ idea_SIA_agrarian_economical_policy = {
 	icon = GFX_idea_generic_agrarian_society
 
 	research_speed_factor = SIA_aep_research_speed_factor
-	production_factory_max_efficiency_factor = SIA_aep_production_factory_max_efficiency_factor
 	industrial_capacity_factory = SIA_aep_industrial_capacity_factory
 	industrial_capacity_dockyard = SIA_aep_industrial_capacity_dockyard
 	local_resources = SIA_aep_extraction
@@ -626,11 +680,14 @@ idea_SIA_asian_democratic_compact = {
 	#The Hammers that strike
 	industrial_capacity_dockyard = SIA_acd_industrial_capacity_dockyard
 	industrial_capacity_factory =  SIA_acd_industrial_capacity_factory
-	
+
 	#Pan-Asian weapon standardization
 	equipment_conversion_speed = SIA_adc_equipment_conversion_speed
 	production_lack_of_resource_penalty_factor = SIA_adc_production_lack_of_resource_penalty_factor
 	production_factory_max_efficiency_factor = SIA_adc_production_factory_max_efficiency_factor
+
+	political_power_gain = 0.1 #static
+
 }
 
 idea_SIA_seri_thai_contacts = {
@@ -640,6 +697,8 @@ idea_SIA_seri_thai_contacts = {
 	democratic_drift = seri_thai_contacts_democratic_drift
 	max_command_power_mult = seri_thai_contacts_max_command_power_mult
 	command_power_gain = seri_thai_contacts_command_power_gain
+	experience_gain_air_factor = seri_thai_contacts_experience_gain_air_factor
+	air_weather_penalty = seri_thai_contacts_air_weather_penalty
 
 
 }
@@ -652,12 +711,10 @@ idea_SIA_the_army_of_siam = {
 	production_speed_arms_factory_factor = SIA_army_of_siam_production_speed_arms_factory_factor
 	supply_consumption_factor = SIA_army_of_siam_supply_consumption_factor
 
-	industrial_capacity_factory = SIA_army_of_siam_industrial_capacity_factory
 	production_speed_industrial_complex_factor = SIA_army_of_siam_production_speed_industrial_complex_factor
 
 	line_change_production_efficiency_factor = SIA_army_of_siam_line_change_production_efficiency_factor
 	production_factory_max_efficiency_factor = SIA_army_of_siam_production_factory_max_efficiency_factor
-	research_speed_factor = SIA_army_of_siam_research_speed_factor
 	land_mastery_gain_factor = SIA_army_of_siam_land_mastery_gain_factor
 
 	production_speed_infrastructure_factor = SIA_army_of_siam_production_speed_infrastructure_factor
@@ -668,6 +725,34 @@ idea_SIA_the_army_of_siam = {
 
 	air_range_factor = SIA_army_of_siam_air_range_factor
 	air_agility_factor = SIA_army_of_siam_air_agility_factor
+	air_attack_factor = SIA_army_of_siam_air_attack_factor
+	air_training_xp_gain_factor = SIA_army_of_siam_air_training_xp_gain_factor
+	air_wing_xp_loss_when_killed_factor = SIA_army_of_siam_air_wing_xp_loss_when_killed_factor
+	experience_gain_air_factor = SIA_army_of_siam_experience_gain_air_factor
+	air_ace_generation_chance_factor = SIA_army_of_siam_air_ace_generation_chance_factor
+	cas_damage_reduction = SIA_army_of_siam_cas_damage_reduction
+	air_interception_detect_factor = SIA_army_of_siam_air_interception_detect_factor
+	air_mission_efficiency = SIA_army_of_siam_air_mission_efficiency
+	air_untrained_pilots_penalty_factor = SIA_army_of_siam_air_untrained_pilots_penalty_factor
+	naval_strike_attack_factor = SIA_army_of_siam_naval_strike_attack_factor
+	air_accidents_factor = SIA_army_of_siam_air_accidents_factor
+	static_anti_air_hit_chance_factor = SIA_army_of_siam_static_anti_air_hit_chance_factor
+	air_superiority_efficiency = SIA_army_of_siam_air_superiority_efficiency
+	air_cas_efficiency = SIA_army_of_siam_air_cas_efficiency
+	air_defence_factor = SIA_army_of_siam_air_defence_factor
+	air_superiority_detect_factor = SIA_army_of_siam_air_superiority_detect_factor
+	production_speed_anti_air_building_factor = SIA_army_of_siam_production_speed_anti_air_building_factor
+	industry_air_damage_factor = SIA_army_of_siam_industry_air_damage_factor
+	air_weather_penalty = SIA_army_of_siam_air_weather_penalty
+	ground_attack_factor = SIA_army_of_siam_ground_attack_factor
+	air_escort_efficiency = SIA_army_of_siam_air_escort_efficiency
+	air_fuel_consumption_factor = SIA_army_of_siam_air_fuel_consumption_factor
+	air_doctrine_cost_factor = SIA_army_of_siam_air_doctrine_cost_factor
+	air_bombing_targetting = SIA_army_of_siam_air_bombing_targetting
+	production_factory_efficiency_gain_factor = SIA_army_of_siam_production_factory_efficiency_gain_factor
+	production_factory_start_efficiency_factor = SIA_army_of_siam_production_factory_start_efficiency_factor
+	industrial_capacity_factory = SIA_army_of_siam_industrial_capacity_factory
+	research_speed_factor = SIA_army_of_siam_research_speed_factor
 }
 ###################
 #### AUSTRALIA ####
@@ -757,9 +842,49 @@ AST_australia_first_spirit = {
 	icon = GFX_idea_AST_australia_first	
 
 	fascism_drift = AST_australia_first_fascism_drift
+	neutrality_drift = AST_australia_first_neutrality_drift
 	war_support_factor = AST_australia_first_war_support_factor
 	operative_slot = AST_australia_first_operative_slot
+	military_industrial_organization_funds_gain = AST_australia_first_military_industrial_organization_funds_gain
+	military_industrial_organization_research_bonus = AST_australia_first_military_industrial_organization_research_bonus
 
+}
+
+AST_for_crown_and_country_spirit = {
+	enable = { always = yes }
+	icon = GFX_idea_ARG_growing_nationalism_modifier
+
+	#Adopted from AST_australia_first_spirit
+	neutrality_drift = AST_for_crown_and_country_neutrality_drift
+	war_support_factor = AST_for_crown_and_country_war_support_factor
+	operative_slot = AST_for_crown_and_country_operative_slot
+	military_industrial_organization_funds_gain = AST_for_crown_and_country_military_industrial_organization_funds_gain
+	military_industrial_organization_research_bonus = AST_for_crown_and_country_military_industrial_organization_research_bonus
+
+	war_stability_factor = AST_for_crown_and_country_war_stability_factor
+	training_time_factor = AST_for_crown_and_country_training_time_factor
+	mobilization_laws_cost_factor = AST_for_crown_and_country_mobilization_laws_cost_factor
+	economy_cost_factor = AST_for_crown_and_country_economy_cost_factor
+	trade_laws_cost_factor = AST_for_crown_and_country_trade_laws_cost_factor
+}
+
+AST_crowns_council_spirit = { 
+	enable = { always = yes }
+	icon = GFX_idea_BEL_fonderie_royale_de_canons_liege
+
+	stability_factor = AST_crowns_council_stability_factor
+	#Pankhurst
+	production_lack_of_resource_penalty_factor = AST_crowns_council_production_lack_of_resource_penalty_factor
+	consumer_goods_factor = AST_crowns_council_consumer_goods_factor
+	#Hughes
+	surrender_limit = AST_crowns_council_surrender_limit
+	annex_cost_factor = AST_crowns_council_annex_cost_factor
+	#Hore-Ruthven
+	compliance_gain = AST_crowns_council_compliance_gain
+	resistance_decay = AST_crowns_council_resistance_decay
+	drift_defence_factor = AST_crowns_council_drift_defence_factor
+	#President tooltip
+	custom_modifier_tooltip = AST_council_president_tt
 }
 
 AST_imperial_pressure_spirit = { 
@@ -827,7 +952,7 @@ AST_forging_australias_future_spirit = {
 	production_lack_of_resource_penalty_factor = AST_forging_australias_future_spirit_production_lack_of_resource_penalty_factor
 	industrial_capacity_factory = AST_forging_australias_future_spirit_industrial_capacity_factory
 	industrial_capacity_dockyard = AST_forging_australias_future_spirit_industrial_capacity_dockyard
-	political_power_cost = AST_forging_australias_future_spirit_political_power_cost
+	political_power_gain = AST_forging_australias_future_spirit_political_power_gain
 	cic_construction_boost_factor = AST_forging_australias_future_spirit_cic_construction_boost_factor
 	trade_opinion_factor = AST_forging_australias_future_spirit_trade_opinion_factor
 	overlord_trade_cost_factor = AST_forging_australias_future_spirit_overlord_trade_cost_factor
@@ -907,6 +1032,9 @@ AST_royal_australian_navy_spirit = {
 	airforce_intel_factor = AST_royal_australian_navy_spirit_airforce_intel_factor
 	navy_casualty_on_sink = AST_royal_australian_navy_spirit_navy_casualty_on_sink
 	air_wing_xp_loss_when_killed_factor = AST_royal_australian_navy_spirit_air_wing_xp_loss_when_killed_factor
+	naval_speed_factor = AST_royal_australian_navy_spirit_naval_speed_factor
+	naval_coordination = AST_royal_australian_navy_spirit_naval_coordination
+	naval_hit_chance = AST_royal_australian_navy_spirit_naval_hit_chance
 }
 
 AST_offshore_advancements_spirit = {

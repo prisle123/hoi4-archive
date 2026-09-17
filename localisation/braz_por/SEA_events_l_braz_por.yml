@@ -703,6 +703,18 @@
  SEA_japan_popup_events.50.desc: "Com a formação da Associação de Apoio ao Governo Imperial, ficou claro que Genki Abe, chefe da polícia do pensamento, junto com diversos líderes do serviço civil, não está nada satisfeito com as ações de [ROOT.GetLeader]. Agora, estão exigindo que ele renuncie em favor do político pró-nazista Seigō Nakano. Devemos ceder à pressão?"
  SEA_japan_popup_events.50.a: "Pois bem, se é esse o primeiro-ministro que desejam..."
  SEA_japan_popup_events.50.b: "Não cederemos às exigências deles!"
+ SEA_japan_popup_events.51.t: "A Batalha de Midway"
+ SEA_japan_popup_events.51.desc: "Devido ao desejo do Estado-Maior naval de expandir nosso perímetro defensivo no Pacífico até os atóis distantes, nossa frota foi enviada recentemente para patrulhar a porção ocidental da Cadeia de Montes Submarinos Imperador Ocidental, quando se deparou com uma frota americana. A batalha foi árdua, mas conseguimos rechaçar o inimigo, causando danos graves à sua Marinha e ao seu moral. Graças a essa vitória, nossos comandantes receberam as devidas promoções."
+ SEA_japan_popup_events.51.a: "Pelo imperador!"
+ SEA_japan_popup_events.52.t: "A Batalha de Midway"
+ SEA_japan_popup_events.52.desc: "Desde que os japoneses deram início às tentativas de expandir seu perímetro defensivo no Pacífico para os atóis distantes, suas frotas novamente começaram a aproximar-se de Pearl Harbor. Contudo, o inimigo desconhecia que nossos decifradores de códigos já haviam determinado a data e o local de seu ataque planejado em Midway, nos permitindo preparar uma emboscada. O comandante da frota do Pacífico enviou uma grande força sob o comando de Frank Jack Fletcher para o Atol Midway antes da chegada dos japoneses e graças a essa cuidadosa preparação, desferimos um golpe poderoso contra suas forças, do qual eles não se recuperarão tão rápido."
+ SEA_japan_popup_events.52.a: "Mostramos a eles."
+ SEA_japan_popup_events.53.t: "O desastre em Midway"
+ SEA_japan_popup_events.53.desc: "Devido ao desejo do Estado-Maior naval de expandir nosso perímetro defensivo no Pacífico até os atóis distantes, nossa frota foi enviada recentemente para capturar o Atol Midway. Contudo, nossos comandantes não imaginavam que os decifradores de códigos americanos já haviam determinado a data e o local de nosso ataque planejado em Midway e armaram uma emboscada. O resultado da batalha foi devastador, e a mídia está censurando para o público qualquer informação a respeito das baixas a fim de manter o moral elevado."
+ SEA_japan_popup_events.53.a: "Uma exibição vergonhosa."
+ SEA_japan_popup_events.54.t: "A devastadora Batalha de Midway"
+ SEA_japan_popup_events.54.desc: "Desde que os japoneses deram início às tentativas de expandir seu perímetro defensivo no Pacífico para os atóis distantes, suas frotas novamente começaram a aproximar-se de Pearl Harbor. Contudo, o inimigo desconhecia que nossos decifradores de códigos já haviam determinado a data e o local de seu ataque planejado em Midway, nos permitindo preparar uma emboscada. O comandante da frota do Pacífico enviou uma grande força sob o comando de Frank Jack Fletcher para o Atol Midway antes da chegada dos japoneses, porém nossa frota não era páreo para a rival e dentro de horas o resultado da batalha já estava anunciado. Talvez este seja o momento decisivo que o inimigo precisava para conquistar nossa frota do Pacífico."
+ SEA_japan_popup_events.54.a: "Esse é um desastre sem precedentes!"
  ### BORDER INCIDENT EVENTS ###
  # Event for MON
  SEA_border_incidents_events.1.t: "Nossas tropas avançam sobre Tauran"

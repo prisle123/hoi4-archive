@@ -361,6 +361,8 @@ ast_right_vs_left_campaign_inlay_window = {
             click_effect = {
                 custom_effect_tooltip = AST_natunity_desc
                 custom_effect_tooltip = effect_tt
+                custom_effect_tooltip = AST_has_natunity_flag
+                set_country_flag = AST_has_natunity_flag
                 add_political_power = -150
  
                 custom_effect_tooltip = AST_increased_focuses_become_available

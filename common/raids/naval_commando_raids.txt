@@ -933,6 +933,31 @@ types = {
 
 		command_power = 40
 
+		ai_will_do = {
+			base = 1 # 1 weight = 1% of success chance, but always keep it at base 1 so it tries to do any raid at all
+
+			# ships in port are the bulk of the payoff, an empty harbour is barely worth the marines
+			modifier = {
+				factor = 5
+				FROM = {
+					ships_in_state_ports = {
+						state = var:target_state
+						size > 0
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				FROM = {
+					ships_in_state_ports = {
+						type = capital_ship
+						state = var:target_state
+						size > 0
+					}
+				}
+			}
+		}
+
 		allowed = {
 			has_dlc = "Thunder at Our Gates"
 			tag = SIA
@@ -945,6 +970,7 @@ types = {
 		}
 
 		show_target = {
+			NOT = { is_in_faction_with = FROM }
 			var:target_state = {
 				impassable = no
 				is_coastal = yes
@@ -964,7 +990,7 @@ types = {
 		}
 
 		launchable = {
-			#TODO
+			has_war_with = FROM
 		}
 
 		starting_point = {
@@ -981,11 +1007,6 @@ types = {
 		unit_requirements = {
 			battalion_types = {
 				marine = { min = 3 }
-			}
-		}
-		unit_requirements = {
-			battalion_types = {
-				militia = { min = 3 }
 			}
 		}
 

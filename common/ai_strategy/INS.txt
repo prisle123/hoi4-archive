@@ -24,6 +24,50 @@ INS_focus_on_the_revolution = {
 	}
 }
 
+INS_jakarta_priority = {
+	allowed = {
+		tag = INS
+	}
+
+	enable = {
+		has_country_flag = INS_revolution_has_started
+		is_subject = no
+		owns_state = 1051
+		owns_state = 335
+		NOT = { owns_state = 1058 }
+	}
+
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			state = 1058
+		}
+		ratio = 0.9
+		ordertype = front
+		execute_order = yes
+		priority = 100
+		manual_attack = yes
+	}
+
+	ai_strategy = {
+		type = front_unit_request
+		state = 1058
+		value = 100
+	}
+
+	ai_strategy = {
+		type = garrison
+		value = -20
+	}
+
+	ai_strategy = {
+		type = force_concentration_factor
+		value = 40
+	}
+}
+
 INS_focus_on_the_revolution_flipped = {
 	allowed = {
 		original_tag = INS

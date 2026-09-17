@@ -2950,7 +2950,7 @@
  GER_unlocks_kremlin_raid_tt: "Donne accès au §Yraid aérien§! sur le §YKremlin§! si la guerre contre [SOV.GetLeLaLNP] §Y[SOV.GetNameWithFlag]§! est déclarée"
  GER_end_european_communism: "Éradiquer le communisme européen"
  GER_end_european_communism_desc: "Depuis que la plus grande menace pour notre nation a été détruite, nous avons tout loisir à rétablir les torts qu'elle a infligés à l'Europe. Le communisme est une menace fondamentale pour nos valeurs qu'il faut éradiquer pour de bon."
- GER_strike_eastward_eq_trigger_tt: "L'armée dispose de plus de §Y100 000§! unités de matériel d'infanterie."
+ GER_strike_eastward_eq_trigger_tt: "L'armée dispose de plus de §Y100.000§! unités de matériel d'infanterie."
  GER_second_vienna_award_eq_trigger_tt: "L'armée dispose de plus de §Y60 000§! unités de matériel d'infanterie."
  GER_sea_lion_eq_trigger_tt: "L'armée dispose de plus de §Y90 000§! unités de matériel d'infanterie."
  GER_puppet_finland: "S'assurer la loyauté des [FIN.GetHabitants]"

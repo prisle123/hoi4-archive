@@ -369,7 +369,7 @@
  CHL_political_events.55.b: "Combien de fois faudra-t-il leur répéter ?"
  CHL_political_events.56.t: "Les [FROM.GetHabitants]\ncèdent à nos demandes"
  CHL_political_events.56.desc: "\nLe gouvernement [ARG.GetAdjMS] s'est montré raisonnable et nous a remis ce que nous exigions en bonne et due forme. C'est le moment de persévérer et de faire valoir nos autres revendications jusqu'à ce que nous puissions créer l'État [CHL.GetAdjMS] idéal."
- CHL_political_events.56.a: "80 000 nouveaux Chiliens nous rejoignent"
+ CHL_political_events.56.a: "80000 nouveaux Chiliens nous rejoignent"
  CHL_political_events.57.t: "Les [From.GetHabitants]\nrejettent nos demandes"
  CHL_political_events.57.desc: "\n[ARG.GetLeader] du gouvernement [ARG.GetAdjMS] a cru se montrer malin en s'opposant à nous. Nous allons lui montrer qu'il n'aurait pas dû nous défier. Chiliens et Chiliennes, en avant !"
  CHL_political_events.57.a: "Nous allons nous servir nous-mêmes"

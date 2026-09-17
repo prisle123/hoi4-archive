@@ -145,6 +145,8 @@
  integrate_papua: "パプアの統合"
  integrate_the_northern_malays: "マレー北部の統合"
  integrate_the_philippines: "フィリピンの統合"
+ integrate_singapore: "シンガポールの統合"
+ integrate_penang: "ペナンの統合"
  form_rattanakosin_kingdom: "ラッタナコーシンの伝統の強化"
  form_hre: "神聖ローマ帝国の復活"
  form_scandinavia_category: "カルマル同盟の復興"
@@ -181,6 +183,9 @@
  form_majapahit_empire_category_desc: "何世紀も前、偉大な帝国がインドネシア列島に広がり、貿易を支配していた。我々はその偉大な帝国に劣らない領土の拡張に成功しており、それを新たな国民国家の基礎として利用すれば、この地域の団結の象徴となるだろう。"
  form_rattanakosin_kingdom_category: "ラッタナコーシンの伝統の強化"
  form_rattanakosin_kingdom_category_desc: "近年、我々は建国当初の伝統的価値観からかけ離れていた。我々が栄光の時代の領土に達した今、おそらく我々の歴史をよりしっかりと包容する時である。"
+ form_pan_tai_empire: "汎タイ帝国の形成"
+ form_pan_tai_empire_category: "汎タイ帝国の形成"
+ form_pan_tai_empire_category_desc: "大タイ帝国の下、我が国は全盛期の版図を取り戻した。しかし、タイ系諸民族の居住域はその国境をはるかに越えて広がっている。シャン高原から雲南のタイ族、広西のチワン族、そして遠くアッサムのアーホーム族に至るまで、我らの同胞はいまだ分断されている。祖先伝来の地に我らの旗が翻った今、すべてのタイ系諸民族を一つにする帝国の樹立を宣言しよう。"
  form_hre_category: "神聖ローマ帝国の復活"
  form_hre_category_desc: "[GetWhoIsFormingHre]"
  GER_is_forming_hre: "我らが女皇陛下の威光は留まるところを知らず、我々の国境もまた同様である。国境は現在、古の神聖ローマ帝国の最大版図を内包するようにして成長し、もはや途上にある国々は我々の方針に反対できる立場にはない。女皇陛下はこのチャンスをものとするように、また、この国が神聖ローマ帝国の精神的継承国となることを宣言すべきだと命じている。Aquila Elegit Iovis Omnia Vincit!（選ばれし鷲は全てに打ち勝つ！）"
@@ -1031,6 +1036,6 @@
  develop_eastern_desert_oil_fields: "ラス・ガリブ油田の開発"
  develop_qatar_oil_fields: "ドゥハーン油田の開発"
  develop_omani_oil_fields: "オマーン内陸の油田開発"
- burma_road_expansion_tt: "イギリスまたは中華民国の国家方針§Yビルマ公路§!のいずれかを完了しているか、もしくは陣営または従属国が領有している。" #NOTE: these are names of uk_burma_focus and CHI_burma_road
+ burma_road_expansion_tt: "イギリスまたは中華民国の国家方針「§Yビルマ公路§!」のいずれかを完了しているか、もしくは陣営または従属国が領有している。" #NOTE: these are names of uk_burma_focus and CHI_burma_road
  develop_transdanubia_aluminium_deposits: "ドナウ川流域におけるボーキサイト鉱床の開発"
  develop_derna_oilfield: "デルナ油田をタップ"

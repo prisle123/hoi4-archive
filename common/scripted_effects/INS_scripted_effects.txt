@@ -2418,6 +2418,30 @@ INS_refresh_malaya_controllers = {
 	}
 }
 
+INS_refresh_borneo_controllers = {
+	clear_array = INS.borneo_controllers
+
+	for_each_scope_loop = {
+		array = INS.borneo_states
+		if = {
+			limit = {
+				# Never target ourselves for the INS-owned Borneo states
+				controller = { NOT = { tag = ROOT } }
+				NOT = {
+					controller = {
+						is_in_array = { array = INS.borneo_controllers value = THIS}
+					}
+				}
+			}
+
+			controller = {
+				add_to_array = { array = INS.borneo_controllers value = THIS}
+			}
+			log = "[controller.GetName] was added"
+		}
+	}
+}
+
 #Reset all variables related to limited wars
 INS_clear_limited_war_variables = {
 	hidden_effect = {
@@ -2426,7 +2450,9 @@ INS_clear_limited_war_variables = {
 		clear_array = INS.limited_war_target_allies
 		clear_variable = INS.pre_limited_war_faction_leader 
 		clear_variable = INS.limited_war_target
+		clr_country_flag = INS_limited_war_is_borneo
 		INS_refresh_malaya_controllers = yes
+		INS_refresh_borneo_controllers = yes
 		set_rule = { can_join_factions = yes }
 	}
 }
@@ -2552,3 +2578,114 @@ INS_cancel_hol_ally_strategy_entirely_effect = {
 		}
 	}
 }
+
+INS_update_revolutionary_economic_cooperation = {
+	set_variable = {
+		INS_revolutionary_economic_cooperation_value = {
+			value = INS_communist_revolts_succeeded
+			multiply = 4
+			clamp = {
+				min = 4
+				max = 36
+			}
+			divide = 100
+		}
+	}
+
+	add_offsite_building = {
+		type = industrial_complex
+		level = INS_communist_revolts_succeeded
+	}
+
+	custom_effect_tooltip = generic_skip_one_line_tt
+
+	custom_override_tooltip = { #Resets the variables to their correct values
+		set_variable = { INS_revolutionary_economic_cooperation_stability_factor = INS_revolutionary_economic_cooperation_value }
+		set_variable = { INS_revolutionary_economic_cooperation_production_speed_buildings = INS_revolutionary_economic_cooperation_value }
+		set_variable = { INS_revolutionary_economic_cooperation_political_power_factor = INS_revolutionary_economic_cooperation_value }
+		set_variable = { #Resets to 0, and then subtracts intended value
+			INS_revolutionary_economic_cooperation_consumer_goods_factor = {
+				value = 0
+				subtract = INS_revolutionary_economic_cooperation_value
+			}
+		}
+
+		if = {
+			limit = {
+				NOT = {
+					has_dynamic_modifier = {
+						modifier = INS_revolutionary_economic_cooperation_modifier
+					}
+				}
+			}
+			log = "add block hit"
+			
+			add_dynamic_modifier = {
+				modifier = INS_revolutionary_economic_cooperation_modifier
+			}
+		}
+		
+		tooltip = INS_revolutionary_economic_cooperation_tt
+	}
+}
+
+# INS_play_as_neutral_releasable = {
+# 	change_tag_from = ROOT #This changes ROOT. ROOT is now the new tag!!
+
+# 	ROOT = {
+# 		set_politics = {
+# 			ruling_party = neutrality
+# 			elections_allowed = no
+# 			last_election = "1930.01.01"
+# 			election_frequency = 48
+# 		}
+# 	}
+
+# 	ROOT = { load_focus_tree = { tree = indonesia_focus keep_completed = yes } }
+# }
+
+# INS_create_rump_java = {
+# 	create_dynamic_country = {
+# 		original_tag = INS
+# 		reserve_dynamic_country = yes
+# 		set_cosmetic_tag = INS_rump_java
+# 		save_global_event_target_as = ins_rump_java
+# 	}
+# }
+
+# # "Stay as Java" path: free every breakaway state. POK before GOW so Pontianak keeps contested Interior Borneo (1022).
+# INS_dismantle_release_all_fragments = {
+# 	if = { limit = { ATJ = { exists = no } } release = ATJ }
+# 	set_autonomy = { target = ATJ autonomy_state = autonomy_free }
+# 	if = { limit = { BLI = { exists = no } } release = BLI }
+# 	set_autonomy = { target = BLI autonomy_state = autonomy_free }
+# 	if = { limit = { SSI = { exists = no } } release = SSI }
+# 	set_autonomy = { target = SSI autonomy_state = autonomy_free }
+# 	if = { limit = { TNE = { exists = no } } release = TNE }
+# 	set_autonomy = { target = TNE autonomy_state = autonomy_free }
+# 	if = { limit = { POK = { exists = no } } release = POK }
+# 	set_autonomy = { target = POK autonomy_state = autonomy_free }
+# 	if = { limit = { GOW = { exists = no } } release = GOW }
+# 	set_autonomy = { target = GOW autonomy_state = autonomy_free }
+# 	if = { limit = { TML = { exists = no } } release = TML }
+# 	set_autonomy = { target = TML autonomy_state = autonomy_free }
+# 	if = { limit = { PNG = { exists = no } } release = PNG }
+# 	set_autonomy = { target = PNG autonomy_state = autonomy_free }
+# }
+
+# # "Rule from X" path helper: the AI rump (event_target:ins_rump_java) frees every breakaway whose
+# # cores it still holds. The fragment the player kept is auto-skipped - its cores stayed with the player.
+# # POK before GOW so Pontianak keeps contested Interior Borneo (1022).
+# INS_free_rump_breakaways = {
+# 	event_target:ins_rump_java = {
+# 		if = { limit = { any_owned_state = { is_core_of = ATJ } } release = ATJ set_autonomy = { target = ATJ autonomy_state = autonomy_free } }
+# 		if = { limit = { any_owned_state = { is_core_of = BLI } } release = BLI set_autonomy = { target = BLI autonomy_state = autonomy_free } }
+# 		if = { limit = { any_owned_state = { is_core_of = SSI } } release = SSI set_autonomy = { target = SSI autonomy_state = autonomy_free } }
+# 		if = { limit = { any_owned_state = { is_core_of = TNE } } release = TNE set_autonomy = { target = TNE autonomy_state = autonomy_free } }
+# 		if = { limit = { any_owned_state = { is_core_of = POK } } release = POK set_autonomy = { target = POK autonomy_state = autonomy_free } }
+# 		if = { limit = { any_owned_state = { is_core_of = GOW } } release = GOW set_autonomy = { target = GOW autonomy_state = autonomy_free } }
+# 		if = { limit = { any_owned_state = { is_core_of = TML } } release = TML set_autonomy = { target = TML autonomy_state = autonomy_free } }
+# 		if = { limit = { any_owned_state = { is_core_of = PNG } } release = PNG set_autonomy = { target = PNG autonomy_state = autonomy_free } }
+# 	}
+# 	clear_global_event_target = ins_rump_java
+# }

@@ -703,6 +703,18 @@
  SEA_japan_popup_events.50.desc: "À l'issue de la formation de l'association pour le soutien du Trône, il apparaît désormais comme évident que Genki Abe, le chef de la police de la pensée, ainsi que plusieurs fonctionnaires hauts placés sont mécontents des actions de [ROOT.GetLeader]. Ils exigent sa démission immédiate afin de céder son poste à Seigō Nakano, un pronazi. Allons-nous céder à la pression ?"
  SEA_japan_popup_events.50.a: "Bon, si c'est ce qu'ils souhaitent..."
  SEA_japan_popup_events.50.b: "Nous ne nous laisserons pas faire !"
+ SEA_japan_popup_events.51.t: "La bataille de Midway"
+ SEA_japan_popup_events.51.desc: "Étant donné la volonté de notre état-major de la marine d'étendre notre périmètre de défense du Pacifique à des atolls plus reculés, notre flotte a récemment reçu l'ordre de patrouiller dans la Chaîne ouest de l'Empereur si elle croise une flotte américaine. Nous avons livré une bataille sans relâche et avons fini par en sortir victorieux : leur flotte et leur moral en ont pris un sacré coup. Les commandants ont reçu des promotions adéquates pour cet exploit."
+ SEA_japan_popup_events.51.a: "Au nom de l'Empereur !"
+ SEA_japan_popup_events.52.t: "La bataille de Midway"
+ SEA_japan_popup_events.52.desc: "Depuis que les Japonais ont tenté d'étendre leur périmètre de défense du Pacifique à des atolls plus reculés, leurs flottes se sont à nouveau rapprochées de Pearl Harbor. Nos déchiffreurs ont échappé à la vigilance de nos ennemis et ont déjà pu déterminer la date et le lieu de l'attaque prévue à Midway, ce qui nous a permis d'établir notre propre embuscade. Le commandant de la flotte Pacifique a envoyé de nombreuses forces sous les ordres de Frank Jack Fletcher dans la zone de Midway avant l'arrivée des Japonais. Grâce à cette préparation soigneuse, nous avons lancé une attaque importante qu'ils ne seront pas près d'oublier."
+ SEA_japan_popup_events.52.a: "Nous leur avons montré notre supériorité"
+ SEA_japan_popup_events.53.t: "Le désastre à Midway"
+ SEA_japan_popup_events.53.desc: "Étant donné la volonté de notre état-major de la marine d'étendre notre périmètre de défense du Pacifique à des atolls plus reculés, notre flotte a récemment reçu l'ordre de s'emparer des îles Midway. Les déchiffreurs américains ont échappé à la vigilance de nos commandants et ont déjà pu déterminer la date et le lieu de notre attaque prévue à Midway, ce qui leur a permis d'établir leur propre embuscade. Cette bataille fut un fiasco total. Pour ne pas se démoraliser, toute information relative à nos défaites est censurée par les médias."
+ SEA_japan_popup_events.53.a: "Pitoyable..."
+ SEA_japan_popup_events.54.t: "La bataille dévastatrice de Midway"
+ SEA_japan_popup_events.54.desc: "Depuis que les Japonais ont tenté d'étendre leur périmètre de défense du Pacifique à des atolls plus reculés, leurs flottes se sont à nouveau rapprochées de Pearl Harbor. Nos déchiffreurs ont échappé à la vigilance de nos ennemis et ont déjà pu déterminer la date et le lieu de l'attaque prévue à Midway, ce qui nous a permis d'établir notre propre embuscade. Le commandant de la flotte Pacifique a envoyé de nombreuses forces sous les ordres de Frank Jack Fletcher dans la zone de Midway avant l'arrivée des Japonais. Malgré tous nos efforts, notre flotte n'était pas de taille face à la leur. En quelques heures seulement, la bataille était déjà terminée. Il s'agit là peut-être du tournant dont nos ennemis avaient besoin pour dominer notre flotte Pacifique."
+ SEA_japan_popup_events.54.a: "C'est un désastre sans précédent !"
  ### BORDER INCIDENT EVENTS ###
  # Event for MON
  SEA_border_incidents_events.1.t: "Prise de Tauran"
@@ -909,7 +921,7 @@
  SEA_china.5.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] accept[FROM.GetEEntNP]\nde nous aider"
  SEA_china.5.desc: "\nNous avons enfin un retour sur notre demande de fonds : bonne nouvelle, nous les obtiendrons très bientôt ! C'est une aubaine formidable pour la croissance de notre industrie et de nos forces militaires. Nous pourrons d'ailleurs demander également dans un futur proche du matériel."
  SEA_china.5.a: "La voie vers la gloire nous tend les bras"
- SEA_china.5.tt: "Augmente la récompense de §Y$CIC_BANK_HEADER$§! sur l'option §YProuver notre détermination§! de §Y1 000§!"
+ SEA_china.5.tt: "Augmente la récompense de §Y$CIC_BANK_HEADER$§! sur l'option §YProuver notre détermination§! de §Y1000§!"
  SEA_china.6.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] rejett[FROM.GetEEntNP]\nnotre demande"
  SEA_china.6.desc: "\nLes [FROM.GetHabitants] ont décidé de ne pas nous soutenir, matériellement ou financièrement. Nous devrons faire face à l'adversité seuls, comme à notre habitude. La défaite n'est pas une option, car si nous échouons, notre histoire sombrera dans les limbes du passé."
  SEA_china.6.a: "Battons-nous, pour la survie du pays !"
@@ -2112,8 +2124,8 @@
  SIK_failed_campaign_tt: "[SIK.GetLeader] n'a pas réussi à chasser le Kuomintang de sa province"
  yulbars_khan_fled_tt: "$KUM_yulbars_khan$ a fui vers Khotan"
  TSR_recieve_pp_warlord: "Nous allons obtenir 100 points de poids politique une fois leur part du marché honorée"
- TSR_recieve_manpower_warlord: "Nous allons obtenir 5 000 effectifs une fois leur part du marché honorée"
- TSR_recieve_equipment_warlord: "Nous allons obtenir 1 000 matériels d'infanterie une fois leur part du marché honorée"
+ TSR_recieve_manpower_warlord: "Nous allons obtenir 5000 effectifs une fois leur part du marché honorée"
+ TSR_recieve_equipment_warlord: "Nous allons obtenir 1000 matériels d'infanterie une fois leur part du marché honorée"
  #############
  ##MANCHUKUO##
  #############

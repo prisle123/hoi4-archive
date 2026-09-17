@@ -1526,6 +1526,8 @@
  SIA_army_ordnance_department_artillery_organzation: "陆军军械火炮部"
  SIA_thai_rung_organization: "泰隆联合汽车"
  SIA_directorate_of_aeronautical_engineering: "航空工程局"
+ SIA_mio_trait_japanese_air_mission: "日本技术代表团"
+ SIA_mio_trait_american_procurement: "美国采购渠道"
  SIA_chaiseri_organization: "财生利公司"
  SIA_bangkok_dock_organization: "曼谷船坞公司"
  ########################################################################

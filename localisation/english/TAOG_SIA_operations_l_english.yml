@@ -1,0 +1,6 @@
+﻿l_english:
+ operation_SIA_sabotage_indochina_ports: "Sabotage the Indochinese Ports"
+ operation_SIA_sabotage_indochina_ports_desc: "Slip demolition teams into the great harbours of French Indochina and pre-place charges on the wharves, cranes and fuel stores. They lie dormant until the day we march, and then the ports go up in a single stroke, before the enemy fleet can scatter to them."
+ operation_SIA_sabotage_indochina_ports_potential_tt: "§YIf successful:§! Plants hidden charges on the Indochinese ports (§YAnnam§!, §YTonkin§! and §YCambodia§!). The charges detonate the moment we go to war with their holder, fully destroying each naval base."
+ operation_SIA_sabotage_indochina_ports_failed_tt: "§RThe operation failed:§! our teams were unable to place the charges."
+ SIA_plant_indochina_port_charges_tt: "Hidden demolition charges are placed on the §YIndochinese ports§!; they detonate when we go to war with their holder."

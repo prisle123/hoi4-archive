@@ -340,6 +340,8 @@
  AST_neutrality_party_long: "Australian Country Party"
  AST_colonial_administration: "CA"
  AST_colonial_administration_long: "The Colonial Administration"
+ AST_house_of_hore-ruthven: "House of Hore-Ruthven"
+ AST_house_of_hore-ruthven_long: "House of Hore-Ruthven"
  AST_democratic_party: "UAP"
  AST_democratic_party_long: "United Australia Party"
  AST_labor_party: "Labor"

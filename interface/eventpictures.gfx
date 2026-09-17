@@ -2089,6 +2089,21 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_hol_polderen.dds"
 	}
 
+	spriteType = {
+		name = "GFX_report_event_USA_loss_at_midway"
+		texturefile = "gfx/event_pictures/report_event_USA_loss_at_midway.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_JAP_loss_at_midway"
+		texturefile = "gfx/event_pictures/report_event_JAP_loss_at_midway.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_battle_of_midway"
+		texturefile = "gfx/event_pictures/report_event_battle_of_midway.dds"
+	}
+
 
 	spriteType = { # Public domain, from https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-50000/NH-50805.html
 		name = "GFX_report_event_panay_incident"

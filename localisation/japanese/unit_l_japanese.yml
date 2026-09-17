@@ -416,6 +416,8 @@
  hq_infantry_desc: "司令部の警備に特化した小規模な歩兵大隊。"
  hq_motorized: "自動車化司令部警備"
  hq_motorized_desc: "司令部の迅速な移動を可能とするため、自動車に搭乗した歩兵。"
+ hq_armored_car: "装甲車司令部警備"
+ hq_armored_car_desc: "装甲車が司令部を護衛し、機動力、防御力、優れた偵察能力を兼ね備える。"
  hq_paratrooper: "空挺司令部警備"
  hq_paratrooper_desc: "空挺侵攻に司令部が直接同行することを可能とし、追加の警備も提供する。"
  hq_light_armor: "軽装甲司令部警備"

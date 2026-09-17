@@ -1,0 +1,6 @@
+﻿l_polish:
+ operation_SIA_sabotage_indochina_ports: "Sabotaż portów w Indochinach"
+ operation_SIA_sabotage_indochina_ports_desc: "Niezauważenie wprowadź zespoły sabotażowe do dużych portów we francuskich Indochinach, aby podłożyć ładunki wybuchowe pod nabrzeża, żurawie i magazyny paliwa. Bomby pozostaną tam do dnia rozpoczęcia wojny, wtedy pozbędziemy się wszystkich portów równocześnie, zanim skryje się tam flota nieprzyjaciela."
+ operation_SIA_sabotage_indochina_ports_potential_tt: "§YW przypadku powodzenia:§! W portach Indochin zostaną podłożone ukryte ładunki wybuchowe (§YAnnam§!, §YTonkin§! i §YKambodża§!). Bomby wybuchną w chwili, gdy rozpoczniesz wojnę z właścicielami tych baz morskich. Wszystkie zostaną całkowicie zniszczone."
+ operation_SIA_sabotage_indochina_ports_failed_tt: "§ROperacja nieudana:§! naszym zespołom nie udało się podłożyć ładunków wybuchowych."
+ SIA_plant_indochina_port_charges_tt: "Ukryte ładunki wybuchowe znajdują się w §Yportach Indochin§!. Eksplodują, gdy rozpoczniemy wojnę z właścicielem tych baz."

@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ operation_SIA_sabotage_indochina_ports: "破坏印度支那港口"
+ operation_SIA_sabotage_indochina_ports_desc: "派破坏小队潜入法属印度支那的各大港口，在码头、起重机和燃料库预先布设炸药。他们将潜伏待命，直到我们进军之日；届时，在敌方舰队四散逃逸之前，所有港口将在同一瞬间被炸毁。"
+ operation_SIA_sabotage_indochina_ports_potential_tt: "§Y如果成功：§!在印度支那各港口（§Y安南§!、§Y东京§!与§Y柬埔寨§!）预埋炸药。一旦我们与港口持有者开战，炸药即会引爆，彻底摧毁每一处海军基地。"
+ operation_SIA_sabotage_indochina_ports_failed_tt: "§R行动失败了：§!我们的小队未能布设炸药。"
+ SIA_plant_indochina_port_charges_tt: "隐蔽爆破装置已安放于§Y印度支那各港口§!；当我们与港口持有者开战时，它们将被引爆。"
