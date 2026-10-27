@@ -1108,6 +1108,7 @@
  japan_border_conflict.4.t: "Pat nad jeziorem Chasan"
  japan_border_conflict.4.desc: "Walki pomiędzy siłami [SOV.GetAdjective] i Japonii nad jeziorem Chasan ustały po tym, jak obie strony wycofały się ze spornego regionu w celu uzupełnienia zapasów i przegrupowania. Zdawszy sobie sprawę z daremności dalszych ataków, Japończycy poprosili o zawieszenie broni i rozpoczęcie negocjacji w celu ustalenia granic."
  japan_border_conflict.4.a: "Zdobyliśmy cenne doświadczenie."
+ japan_border_conflict.4.b: "Granica jest tam, gdzie dotarliśmy."
  japan_border_conflict.5.t: "Eskalacja nad jeziorem Chasan"
  japan_border_conflict.5.desc: "Na jeziorem Chasan trwają walki między wojskami Japonii i [SOV.GetAdjective] Siły japońskie z innych rejonów, chcąc przerwać ten impas, uderzyły na oddziały [SOV.GetAdjective] w tym sektorze. Wywiad donosi, że Japończycy mogą wkrótce wzmocnić atak świeżymi oddziałami przeniesionymi z innych zakątków Cesarstwa."
  japan_border_conflict.5.a: "Musimy utrzymać nasze pozycje."

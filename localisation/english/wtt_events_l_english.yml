@@ -1112,6 +1112,7 @@
  japan_border_conflict.4.t: "Stalemate at Lake Khasan"
  japan_border_conflict.4.desc: "Fighting between Japanese and [SOV.GetAdjective] forces around Lake Khasan has died down after both sides withdrew from the contested region to regroup and resupply. Recognizing the futility of further offensives, the Japanese military has asked for a cease-fire and negotiations to fix the border."
  japan_border_conflict.4.a: "We gained valuable experience."
+ japan_border_conflict.4.b: "The frontier stands where it stood."
  japan_border_conflict.5.t: "Escalation at Lake Khasan"
  japan_border_conflict.5.desc: "Fighting continues between Japanese and [SOV.GetAdjective] forces around Lake Khasan. In an effort to break the deadlock, Japanese forces in other areas have also started to engage [SOV.GetAdjective] forces in that sector. Intelligence suggests that the Japanese may soon reinforce the attack with fresh troops transferred from other parts of their Empire."
  japan_border_conflict.5.a: "We must hold the line."

@@ -1275,6 +1275,9 @@
  ww_BEL_event_diplomatic.37.t: "Governo [FROM.GetAdjective] discorda"
  ww_BEL_event_diplomatic.37.desc: "Mesmo com as claras vantagens para ambos, o governo [FROM.GetAdjective] parece relutante em estreitar ainda mais nossos laços diplomáticos. Tínhamos grandes expectativas, mas parece que elas não foram correspondidas."
  ww_BEL_event_diplomatic.37.a: "Uma pena..."
+ ww_BEL_event_diplomatic.38.t: "Governo [FROM.GetAdjective] investe em nossa indústria"
+ ww_BEL_event_diplomatic.38.desc: "Uma delegação do Estado [FROM.GetAdjective] chegou com contratos já assinados e uma quantidade considerável de capital. Novas instalações serão construídas em nosso território central às custas da facção [FROM.GetFactionName], incluindo indústrias civis e um arsenal. Os homens que assinaram os cheques foram bastante claros sobre o que esperam receber em troca: uma recepção favorável quando o governo [FROM.GetAdjective] propor a criação de uma Europa federalista."
+ ww_BEL_event_diplomatic.38.a: "A União rende dividendos"
  ### War Events
  #Relocate Air Industries
  ww_BEL_event_war.1.t: "Indústrias aeronáuticas realocadas ativadas"

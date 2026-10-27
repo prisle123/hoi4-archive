@@ -48,7 +48,7 @@
  poland.20.d: "Nie ma wolności bez Solidarności!"
  poland.20.e: "Hervorragend!"
  poland.20.f: "Verdammich!"
- poland.21.t: "[DNZ.GetNameDef] strebt die Integration mit [Ger.GetNameDefCap] an"
+ poland.21.t: "[DNZ.GetNameDefCap] strebt die Integration unter [GER.GetName] an"
  poland.21.d: "Der Krieg tobt in den Straßen von [DNZ.GetNameDef]. [DNZ.GetLeader] stellt sich tapfer gegen die Truppen von [POL.GetLeader], doch eine einzige Stadt kann unmöglich dem Ansturm der gesamten Truppen von [POL.GetNameDef] trotzen. Als Mitglied der [Root.GetRulingParty] untersteht [DNZ.GetLeader] wie alle anderen [Root.GetLeader], und eine [DNZ.GetAdjective]e Niederlage wäre inakzeptabel. [GER.GetNameDefCap] könnte als Verteidiger von [DNZ.GetNameDef] in den Krieg eintreten, was die einzigartige Gelegenheit bieten würde, die Stadt zu erobern, gleichzeitig aber als ihr Verteidiger wahrgenommen zu werden ..."
  poland.21.a: "Gdansk wird Danzig bleiben!"
  poland.21.b: "Wir sollten uns nicht einmischen."

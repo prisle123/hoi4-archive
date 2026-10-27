@@ -53,7 +53,7 @@
  TUT_MOVE_CAMERA: "Ubicación de cámara cambiada a $STATE$"
  TUT_SELECTED_DIVS: "$NUMBERS$ divisiones seleccionadas en $STATE$"
  TUT_COMMAND_GROUP: "Hay un ejército"
- TUT_FRONTLINE: "Hay un frente entre $STATE$ y Etiopía"
+ TUT_FRONTLINE: "Existe una §Ylínea del frente§! entre $STATE$ y Etiopía"
  TUT_OFFENSIVE_ORDER: "Hay una orden ofensiva para capturar $ENEMY_CAPITAL$"
  TUT_AIRBASE: "Viendo base aérea en $STATE$"
  TUT_AIRWINGS_ASSIGNED: "$NUMBERS$ alas de la base aérea de $STATE$ asignadas a la región aérea de $REGION$"

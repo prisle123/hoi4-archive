@@ -638,6 +638,8 @@
  occupied_countries.1.desc: "在我们的占领军与地方民政当局为加强合作与人民顺从经过了长期的协力合作后，我们现在已准备好将[From.From.GetNameDef]的控制权交还给当地政府。这个新政府由我们的支持者组成，并已准备好与我们进行深层次合作。"
  occupied_countries.1.a: "祝福他们。"
  occupied_countries.1.b: "他们还没有准备好。"
+ occupied_countries.1.c: "别再给我递这些请愿书了"
+ occupied_countries.1.c_tt: "我们将不再收到被占领国已准备好组建§Y合作政府§!的通知。\n它们仍可随时通过§Y对外影响§!决议成立。"
  lar_news.1.t_franco: "国民军在西班牙内战中获胜"
  lar_news.1.t_falangist: "长枪党在西班牙内战中获胜"
  lar_news.1.t_carlists: "卡洛斯派在西班牙内战中获胜"

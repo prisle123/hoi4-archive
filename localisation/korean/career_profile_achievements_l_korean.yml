@@ -38,6 +38,8 @@
  PLAYTHROUGH_OV_NOT_ELIGIBLE: "모드나 콘솔 명령어를 사용했기 때문에 메달과 훈장을 받을 수 없습니다."
  PLAYTHROUGH_OV_MP: "멀티플레이는 통계가 기록되지 않습니다."
  PLAYTHROUGH_OV_MP_AWARDS: "멀티플레이는 메달과 훈장이 수여되지 않습니다."
+ PLAYTHROUGH_OV_CONTINUE: "게임 계속하기"
+ PLAYTHROUGH_OV_EXIT_TO_MENU: "메인 메뉴로 돌아가기\n§GShift+클릭§!하여 확인 없이 나가기"
  #Awards tab
  CAREER_PROFILE_AWARD_TAB_LABEL: "공적"
  CAREER_PROFILE_AWARD_NOT_ACHIEVED: "수여되지 않음"

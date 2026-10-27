@@ -53,7 +53,7 @@
  TUT_MOVE_CAMERA: "Przeniesiono kamerę: $STATE$."
  TUT_SELECTED_DIVS: "Liczba wybranych dywizji ($STATE$): $NUMBERS$."
  TUT_COMMAND_GROUP: "Armia istnieje"
- TUT_FRONTLINE: "Istnieje linia frontu Etiopia - $STATE$."
+ TUT_FRONTLINE: "Pomiędzy regionem $STATE$ a Etiopią znajduje się §Ylinia frontu§!"
  TUT_OFFENSIVE_ORDER: "Istnieje rozkaz natarcia i zdobycia: $ENEMY_CAPITAL$."
  TUT_AIRBASE: "Podgląd bazy lotniczej ($STATE$)."
  TUT_AIRWINGS_ASSIGNED: "$STATE$ - następująca liczba skrzydeł w bazie lotniczej jest przydzielona do rejonu powietrznego $REGION$: $NUMBERS$."

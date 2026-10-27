@@ -73,6 +73,7 @@
  STAT_ARMY_CASUALTY_TRICKLEBACK_DESC: "La proporción de bajas en combate que se pueden salvar y devolver a la reserva de mano de obra. Las bajas salvadas no influirán en la penalización de apoyo bélico asociada a las bajas y daños sufridos."
  STAT_ARMY_CASUALTY_TRICKLEBACK_VALUE: "$VALUE|H2%$"
  STAT_ARMY_CASUALTY_TRICKLEBACK_DIFF: " $VALUE|=+2%$"
+ CASUALTY_TRICKLEBACK_CAP_WARNING: "§RValor limitado a§! $MAX|H2%$"
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR: "Exp. perdida: "
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_DESC: "La experiencia que se pierde en una división cuando sufre bajas y tiene que sustituirlas."
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_VALUE: "$VALUE|H2%$"

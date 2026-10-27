@@ -398,7 +398,7 @@
  POL_baltic_security: "Baltische Sicherheit"
  POL_baltic_security_desc: "Wir haben uns zwar auf die Unterstützung des Westens verlassen, doch die ständigen Zusicherungen gegenüber den Deutschen lassen uns zweifeln, ob die Alliierten uns im Falle einer deutschen Invasion tatsächlich verteidigen würden. Vielleicht können wir ein wenig Frieden wahren, indem wir unsere Brüder in Osteuropa selbst beschützen."
  POL_protect_czechozlovakia: "Die Tschechoslowakei beschützen"
- POL_protect_czechozlovakia_desc: "Es ist inzwischen offensichtlich, dass [GER.GetLeader] [Ger.GetLeader.GetHerHis]e eigenen Pläne für die Tschechoslowakei hat. Und diese Pläne sehen keinerlei Unabhängigkeit für die Tschechoslowaken vor. Diese Sturmflut des Imperialismus muss aufgehalten werden."
+ POL_protect_czechozlovakia_desc: "Es ist inzwischen offensichtlich, dass [GER.GetLeader] [GER.GetLeader.GetHerHis]e eigenen Pläne für die Tschechoslowakei hat. Und diese Pläne sehen keinerlei Unabhängigkeit für die Tschechoslowaken vor. Diese Sturmflut des Imperialismus muss aufgehalten werden."
  POL_baltic_alliance_focus: "Die Baltische Allianz"
  POL_baltic_alliance_focus_desc: "Nach dem Fall Polens sind ohne Frage die Balten als nächstes die nächsten Opfer. Die drei Nationen täten also gut daran, ihren Abscheu gegen den polnischen Staat zu vergessen und sich gemeinsam mit uns gegen unsere gemeinsamen Feinde beiderseits unserer kollektiven Grenzen zu stellen."
  POL_romanian_alliance: "Rumänische Allianz"

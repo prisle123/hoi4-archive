@@ -55,7 +55,7 @@
  EVENT_AUTONOMY_EFFECTS: "§H对自治度的影响§!"
  ADD_AUTONOMY_SCORE_DESC: "增加£autonomy_texticon $VALUE|H2$"
  ADD_AUTONOMY_SCORE_DETAILED_DESC: "对$COUNTRY|H$增加£autonomy_texticon $VALUE|H2$"
- COLONIAL_FORCES_GENERAL_DESCRIPTION: "§G点击查看附属国和流亡政府的编制§!\n\n附属国的自治度越低，用附属国编制创建的部队就可以使用越多的附属国人力。"
+ COLONIAL_FORCES_GENERAL_DESCRIPTION: "§G点击§!查看附属国和流亡政府的编制\n\n附属国的自治度越低，用附属国编制创建的部队就可以使用越多的附属国人力。"
  COLONIAL_FORCES_NO_SUBJECTS: "§R我国当前没有可使用其编制的附属国或流亡政府§!"
  FOREIGN_TEMPLATE_DESC: "这是我们的附属国$COUNTRY_ADJ|H$的部队编制。我们可以复制该编制并以此为基础创建附属国部队。附属国部队会根据与该附属国自治等级对应的比例使用其人力。"
  COLONIAL_TEMPLATE_DESC: "这是$COUNTRY_DEF|H$的附属国部队编制。附属国部队会根据与该附属国自治等级对应的比例使用其人力。"

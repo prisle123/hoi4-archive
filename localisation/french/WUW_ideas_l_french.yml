@@ -738,6 +738,7 @@
  COG_transports_et_ports: "Société commerciale des transports et des ports"
  COG_force_publique: "Force publique"
  COG_force_publique_desc: "La Force publique est la force militaire congolaise établie en 1877 sous l'État libre du Congo. Ses officiers sont des Belges ou des mercenaires, tous d'origine européenne, tandis que les soldats sont pour la plupart originaires du Congo. Cette unité est très efficace pour agir quand il le faut, mais l'inégalité et la gestion chaotique lui attirent l'hostilité générale."
+ COG_force_publique_fake_idea_tt: "Accroissement de la puissance de commandement maximale : §R-50§!\nMultiplicateur de gain quotidien en puissance de commandement : §R-50%§!"
  COG_the_invisible_roof: "Le toit invisible"
  COG_the_invisible_roof_desc: "Bien qu'aucune loi n'impose cette situation, la plupart, voire la totalité des institutions et des entreprises [ROOT.GetAdjFP], empêchent les citoyens congolais d'atteindre certains postes ou encore d'accéder à l'enseignement supérieur."
  COG_belgian_congo_colonial_dynamic_modifier: "La colonie modèle"

@@ -48,7 +48,7 @@
  poland.20.d: "Nie ma wolności bez Solidarności!"
  poland.20.e: "Excelente!"
  poland.20.f: "Maldição!"
- poland.21.t: "[DNZ.GetNameDef] busca integração com [Ger.GetNameDefCap]"
+ poland.21.t: "Governo [DNZ.GetAdjective] busca integração com [GER.GetNameDef]"
  poland.21.d: "Conforme a guerra queima pelas ruas de [DNZ.GetNameDef], [DNZ.GetLeader] permanece forte contra as forças de [POL.GetLeader], mas claramente uma única cidade não é o suficiente para suportar o ataque violento de todas as forças da [POL.GetNameDef]. Como membro do partido [Root.GetRulingParty], [DNZ.GetLeader] responde a [Root.GetLeader] e uma derrota [DNZ.GetAdjective] seria inaceitável. [GER.GetNameDefCap] pode entrar na guerra como defensora de [DNZ.GetNameDef], apresentando uma oportunidade única de capturar a cidade enquanto se faz de defensora..."
  poland.21.a: "Gdansk continuará Danzigue!"
  poland.21.b: "Não devemos nos envolver."

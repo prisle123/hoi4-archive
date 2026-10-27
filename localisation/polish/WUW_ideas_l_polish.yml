@@ -738,6 +738,7 @@
  COG_transports_et_ports: "Société Commerciale des Transports et des Ports"
  COG_force_publique: "Force Publique"
  COG_force_publique_desc: "Force Publique to kongijska żandarmeria i siły zbrojne utworzone w 1877 roku w ramach Wolnego Państwa Kongo. Jej oficerowie to wyłącznie Europejczycy - Belgowie lub najemnicy, podczas gdy zwykli żołnierze są w większości rdzennymi mieszkańcami Konga. Siły te są bardzo skuteczne w walce, jednak nierówności i słabe zarządzanie stanowią powód wielkiego niezadowolenia."
+ COG_force_publique_fake_idea_tt: "Maksymalny wzrost siły dowodzenia: §R-50§!\nDzienny mnożnik wzrostu siły dowodzenia: §R-50%§!."
  COG_the_invisible_roof: "Niewidzialny dach"
  COG_the_invisible_roof_desc: "Chociaż nie istnieją żadne przepisy, które by to oficjalnie regulowały, większość, jeśli nie wszystkie [ROOT.GetAdjective] instytucje i korporacje blokują rodowitym Kongijczykom możliwość awansu powyżej pewnych stanowisk i nie są oni dopuszczani do szkolnictwa wyższego."
  COG_belgian_congo_colonial_dynamic_modifier: "Wzorcowa kolonia"

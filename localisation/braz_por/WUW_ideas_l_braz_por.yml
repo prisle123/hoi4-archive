@@ -738,6 +738,7 @@
  COG_transports_et_ports: "Société Commerciale des Transports et des Ports"
  COG_force_publique: "Force Publique"
  COG_force_publique_desc: "A Force Publique é a guarda nacional e a força militar do Congo, estabelecida em 1877 sob o Estado Livre do Congo. Todos os seus oficiais são europeus, sejam belgas ou mercenários, enquanto os soldados rasos são, em sua maioria, nativos do Congo. A força é muito eficaz na luta quando necessário, no entanto, a desigualdade e a má administração são pontos de descontentamento."
+ COG_force_publique_fake_idea_tt: "Aumento máximo de poder de comando: §R-50§!\nGanho de multiplicador de poder de comando diário: §R-50%§!"
  COG_the_invisible_roof: "O telhado invisível"
  COG_the_invisible_roof_desc: "Embora não existam leis que oficializem isso, a maioria das instituições e corporações n[ROOT.GetNameDef] impedem que cidadãos congoleses sejam promovidos acima de determinados postos, além de proibir acesso ao ensino superior."
  COG_belgian_congo_colonial_dynamic_modifier: "A colônia modelo"

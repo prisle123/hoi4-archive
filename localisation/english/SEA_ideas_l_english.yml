@@ -253,7 +253,11 @@
 
  JAP_boeitai_idea: "Boeitai"
 
+ JAP_ketsugo_field_expedients: "Ketsu-Go Field Expedients"
+ JAP_ketsugo_field_expedients_tt: "The requisitions will be wound up once the war is over, and this spirit will be removed"
+
  JAP_is_home_islands_state_tt: "Any §YHome Islands§! state"
+ JAP_is_main_home_islands_state_tt: "Any state on the four main §YHome Islands§!"
 
  JAP_collapsing_government_idea: "Collapsing Cabinet"
 
@@ -691,6 +695,7 @@
  #### TOOLTIPS ###
  CHI_modify_corruption_in_the_administration_tt: "Modify §Y$CHI_corruption_in_the_administration$§! by:" 
  CHI_modify_reorganized_administration_tt: "Modify §Y$CHI_reorganized_administration$§! by:" 
+ CHI_corruption_recruitable_fake_tt: "Recruitable Population Factor: §R-78%§!"
  CHI_modify_illicit_trade_tt: "Modify §Y$CHI_illicit_trade$§! by:" 
  CHI_modify_inefficient_economy_tt: "Modify §Y$CHI_inefficient_economy$§! by:"
  CHI_modify_neglected_countryside_tt: "Modify §Y$CHI_neglected_countryside$§! by:" 

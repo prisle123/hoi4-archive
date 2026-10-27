@@ -2730,7 +2730,7 @@
  KUR_ahmed_barzani: "Ahmed Barzani"
  KUR_ihsan_nuri: "Ihsan Nuri"
  NEP_royal_army: "Royal Nepalese Army"
- SPIRIT_ADD_IDEA: "§GClick to add $GROUP|H$§!"
+ SPIRIT_ADD_IDEA: "§GClick§! to add $GROUP|H$"
  tactic_elastic_defense_preferred_weight_factor: "Additional §YElastic Defense§! Tactic Chance if it is Preferred tactic"
  tactic_overwhelming_fire_preferred_weight_factor: "Additional §YOverwhelming Fire§! Tactic Chance if it is Preferred tactic"
  tactic_seize_bridge_preferred_weight_factor: "Additional §YSeize Bridge§! Tactic Chance if it is Preferred tactic"

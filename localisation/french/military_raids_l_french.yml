@@ -98,6 +98,8 @@
  raid_type_JAP_pearl_harbor_strike_desc: "Envoyer des bombardiers sur le quartier général naval de l'ennemi ainsi que sur ses flottes de l'océan Pacifique est le meilleur moyen de redonner le moral à nos citoyens tout en démoralisant nos adversaires. Cette opération permettra à nos navires de naviguer paisiblement pendant 6 mois."
  success_modifier_completed_kido_butai_focus: "la priorité §Y$JAP_form_the_kido_butai$§! a été adoptée"
  success_modifier_completed_kido_butai_focus_improvement: "- Adopter la priorité §Y$JAP_form_the_kido_butai$§!"
+ success_modifier_completed_midget_submarine_project: "le projet §Y$sp_naval_midget_submarine$§! a été achevé"
+ success_modifier_completed_midget_submarine_project_improvement: "- Achever le projet §Y$sp_naval_midget_submarine$§!"
  raid_type_CZE_sokolov_raid_pfot: "Attaque de Falknov"
  raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
  RAID_TARGET_NAME: "$WHAT|H$ à $LOCATION|H$"
@@ -343,7 +345,7 @@
  tooltip_raid_warning_description: "$COUNTRY$ : $RAID$"
  tooltip_raid_result: "Le raid ($RAID_DESC|H$) s'est terminé en $OUTCOME_TYPE|H$."
  tooltip_raid_view_details_prompt: "§GCliquer§! pour afficher les détails."
- tooltip_raid_close_report_prompt: "§GClic droit§! pour passer le rapport."
+ tooltip_raid_close_report_prompt: "§GClic droit§! pour passer le rapport"
  cancel_raid_popup_title: "Confirmer l'annulation"
  cancel_raid_popup_desc: "Voulez-vous vraiment §Rannuler§! le $RAID|H$ ?"
  raid_intel_level: "Renseignements sur la cible : $AMOUNT|H0$"
@@ -427,6 +429,7 @@
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
  raid_target_name_state: "$LOCATION|H$"
+ early_nuclear_raid_unlock: "Prototype de bombe prêt au déploiement"
  #Custom Raid Names
  ### PRC
  #Land

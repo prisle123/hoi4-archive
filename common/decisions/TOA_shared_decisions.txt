@@ -327,8 +327,8 @@ improving_our_army_category = {
 	
 		available = {
 			has_completed_focus = SMB_foreign_advisors
-			any_country = {
-				original_tag = JAP
+			any_country_with_original_tag = {
+				original_tag_to_check = JAP
 				exists = yes
 				NOT = {
 					has_war_with = ROOT
@@ -460,11 +460,6 @@ improving_our_army_category = {
 				track = infantry
 			}
 
-
-
-
-			
-
 			hidden_effect = {
 				set_country_flag = JUNO_already_invited_japanese_advisors_removed
 			}
@@ -495,8 +490,8 @@ improving_our_army_category = {
 	
 		available = {
 			has_completed_focus = SMB_foreign_advisors
-			any_country = {
-				original_tag = USA
+			any_country_with_original_tag = {
+				original_tag_to_check = USA
 				exists = yes
 				NOT = {
 					has_war_with = ROOT
@@ -665,8 +660,8 @@ improving_our_army_category = {
 	
 		available = {
 			has_completed_focus = SMB_foreign_advisors
-			any_country = {
-				original_tag = SOV
+			any_country_with_original_tag = {
+				original_tag_to_check = SOV
 				exists = yes
 				NOT = {
 					has_war_with = ROOT
@@ -832,8 +827,8 @@ improving_our_army_category = {
 	
 		available = {
 			has_completed_focus = SMB_foreign_advisors
-			any_country = {
-				original_tag = GER
+			any_country_with_original_tag = {
+				original_tag_to_check = GER
 				exists = yes
 				NOT = {
 					has_war_with = ROOT
@@ -995,8 +990,8 @@ improving_our_army_category = {
 	
 		available = {
 			has_completed_focus = SMB_foreign_advisors
-			any_country = {
-				original_tag = ITA
+			any_country_with_original_tag = {
+				original_tag_to_check = ITA
 				exists = yes
 				NOT = {
 					has_war_with = ROOT
@@ -1158,8 +1153,8 @@ improving_our_army_category = {
 	
 		available = {
 			has_completed_focus = SMB_foreign_advisors
-			any_country = {
-				original_tag = ENG
+			any_country_with_original_tag = {
+				original_tag_to_check = ENG
 				exists = yes
 				NOT = {
 					has_war_with = ROOT
@@ -1323,8 +1318,8 @@ improving_our_army_category = {
 	
 		available = {
 			has_completed_focus = SMB_foreign_advisors
-			any_country = {
-				original_tag = FRA
+			any_country_with_original_tag = {
+				original_tag_to_check = FRA
 				exists = yes
 				NOT = {
 					has_war_with = ROOT
@@ -1491,24 +1486,22 @@ improving_our_army_category = {
 		} 
 
 		available = {
-			any_country = {
+			any_collection_element = {
+				collection = game:all_majors
 				has_opinion = {
 					target = ROOT
 					value > 0
 				}
-				is_major = yes
 				OR = { 
 					has_tech = early_fighter 
 					has_tech = iw_small_airframe 
 				}
-
 				NOT = {
-					OR = {
-						has_war_with = ROOT
-						is_justifying_wargoal_against = ROOT
-					}
+					tag = ROOT
+					has_war_with = ROOT
+					is_justifying_wargoal_against = ROOT
 				}
-			}
+		    }
 
 			NOT = { has_country_flag = JUNO_purchasing_aircraft_flag }
 
@@ -1517,24 +1510,22 @@ improving_our_army_category = {
 		}
 
 		visible = {
-			any_country = {
+			any_collection_element = {
+				collection = game:all_majors
 				has_opinion = {
 					target = ROOT
 					value > 0
 				}
-				is_major = yes
 				OR = { 
 					has_tech = early_fighter 
 					has_tech = iw_small_airframe 
 				}
-
 				NOT = {
-					OR = {
-						has_war_with = ROOT
-						is_justifying_wargoal_against = ROOT
-					}
+					tag = ROOT
+					has_war_with = ROOT
+					is_justifying_wargoal_against = ROOT
 				}
-			}
+		    }
 			OR = {
 				has_completed_focus = SMB_purchase_aircraft
 				has_completed_focus = AFG_purchase_aircraft
@@ -1676,10 +1667,10 @@ improving_our_army_category = {
 						type = medium_plane_airframe_0
 						allow_without_tech = yes #For tooltip purposes, doesn't affect anything really
 						modules = {
-							fixed_main_weapon_slot = bomb_locks
+							fixed_main_weapon_slot = medium_bomb_bay
 							fixed_auxiliary_weapon_slot_1 = bomb_locks
-							engine_type_slot = engine_3_1x
-							special_type_slot_1 = drop_tanks
+							engine_type_slot = engine_2_2x
+							special_type_slot_1 = lmg_defense_turret
 						}
 					}
 					add_equipment_to_stockpile = {
@@ -1951,8 +1942,8 @@ south_american_naval_arms_race_category = {
 	
 		available = {
 			has_completed_focus = SMB_naval_foreign_advisors
-			any_country = {
-				original_tag = JAP
+			any_country_with_original_tag = {
+				original_tag_to_check = JAP
 				exists = yes
 				NOT = {
 					has_war_with = ROOT
@@ -2108,8 +2099,8 @@ south_american_naval_arms_race_category = {
 		
 			available = {
 				has_completed_focus = SMB_naval_foreign_advisors
-				any_country = {
-					original_tag = USA
+				any_country_with_original_tag = {
+					original_tag_to_check = USA
 					exists = yes
 					NOT = {
 						has_war_with = ROOT
@@ -2274,8 +2265,8 @@ south_american_naval_arms_race_category = {
 		
 			available = {
 				has_completed_focus = SMB_naval_foreign_advisors
-				any_country = {
-					original_tag = SOV
+				any_country_with_original_tag = {
+					original_tag_to_check = SOV
 					exists = yes
 					NOT = {
 						has_war_with = ROOT
@@ -2434,8 +2425,8 @@ south_american_naval_arms_race_category = {
 		
 			available = {
 				has_completed_focus = SMB_naval_foreign_advisors
-				any_country = {
-					original_tag = GER
+				any_country_with_original_tag = {
+					original_tag_to_check = GER
 					exists = yes
 					NOT = {
 						has_war_with = ROOT
@@ -2592,8 +2583,8 @@ south_american_naval_arms_race_category = {
 		
 			available = {
 				has_completed_focus = SMB_naval_foreign_advisors
-				any_country = {
-					original_tag = ITA
+				any_country_with_original_tag = {
+					original_tag_to_check = ITA
 					exists = yes
 					NOT = {
 						has_war_with = ROOT
@@ -2718,7 +2709,6 @@ south_american_naval_arms_race_category = {
 					track = capital_ships
 				}
 			
-#
 				hidden_effect = {
 					set_country_flag = JUNO_already_invited_italian_naval_advisors_removed
 				}
@@ -2749,8 +2739,8 @@ south_american_naval_arms_race_category = {
 		
 			available = {
 				has_completed_focus = SMB_naval_foreign_advisors
-				any_country = {
-					original_tag = ENG
+				any_country_with_original_tag = {
+					original_tag_to_check = ENG
 					exists = yes
 					NOT = {
 						has_war_with = ROOT
@@ -2907,8 +2897,8 @@ south_american_naval_arms_race_category = {
 		
 			available = {
 				has_completed_focus = SMB_naval_foreign_advisors
-				any_country = {
-					original_tag = FRA
+				any_country_with_original_tag = {
+					original_tag_to_check = FRA
 					exists = yes
 					NOT = {
 						has_war_with = ROOT
@@ -3083,6 +3073,11 @@ JUNO_promote_immigration_cat = {
 			NOT = {
 				has_country_flag = JUNO_ITA_immigration_completed
 			}
+			FROM = {
+				NOT = {
+					has_state_flag = JUNO_promote_immigration_complete
+				}
+			}
 		}
 
 		on_map_mode = decision_view_only
@@ -3098,9 +3093,6 @@ JUNO_promote_immigration_cat = {
 		target_trigger = {
 			FROM = {
 				is_owned_and_controlled_by = ROOT
-				NOT = {
-					has_state_flag = JUNO_promote_immigration_complete
-				}
 				if = {
 					limit = {
 						ROOT = {
@@ -3203,6 +3195,11 @@ JUNO_promote_immigration_cat = {
 			NOT = {
 				has_country_flag = JUNO_JAP_immigration_completed
 			}
+			FROM = {
+				NOT = {
+					has_state_flag = JUNO_promote_immigration_complete
+				}
+			}
 		}
 
 		on_map_mode = decision_view_only
@@ -3213,14 +3210,6 @@ JUNO_promote_immigration_cat = {
 		target_trigger = {
 			FROM = {
 				is_owned_and_controlled_by = ROOT
-				NOT = {
-					has_state_flag = JUNO_promote_immigration_complete
-				}
-				OR = {
-					state = 500
-					state = 501
-					state = 499
-				}
 			}
 		}
 
@@ -3285,6 +3274,12 @@ JUNO_promote_immigration_cat = {
 			NOT = {
 				has_country_flag = JUNO_POR_immigration_completed
 			}
+
+			FROM = {
+				NOT = {
+					has_state_flag = JUNO_promote_immigration_complete
+				}
+			}
 		}
 
 		on_map_mode = decision_view_only
@@ -3295,14 +3290,6 @@ JUNO_promote_immigration_cat = {
 		target_trigger = {
 			FROM = {
 				is_owned_and_controlled_by = ROOT
-				NOT = {
-					has_state_flag = JUNO_promote_immigration_complete
-				}
-				OR = {
-					state = 500
-					state = 501
-					state = 499
-				}
 			}
 		}
 
@@ -3375,6 +3362,12 @@ JUNO_promote_immigration_cat = {
 			NOT = {
 				has_country_flag = JUNO_GER_immigration_completed
 			}
+
+			FROM = {
+				NOT = {
+					has_state_flag = JUNO_promote_immigration_complete
+				}
+			}
 		}
 
 		on_map_mode = decision_view_only
@@ -3389,9 +3382,6 @@ JUNO_promote_immigration_cat = {
 		target_trigger = {
 			FROM = {
 				is_owned_and_controlled_by = ROOT
-				NOT = {
-					has_state_flag = JUNO_promote_immigration_complete
-				}
 
 				if = {
 					limit = {
@@ -3482,6 +3472,12 @@ JUNO_promote_immigration_cat = {
 			NOT = {
 				has_country_flag = JUNO_SPR_immigration_completed
 			}
+
+			FROM = {
+				NOT = {
+					has_state_flag = JUNO_promote_immigration_complete
+				}
+			}
 		}
 
 		on_map_mode = decision_view_only
@@ -3492,9 +3488,6 @@ JUNO_promote_immigration_cat = {
 		target_trigger = {
 			FROM = {
 				is_owned_and_controlled_by = ROOT
-				NOT = {
-					has_state_flag = JUNO_promote_immigration_complete
-				}
 			}
 		}
 
@@ -3559,6 +3552,12 @@ JUNO_promote_immigration_cat = {
 			NOT = {
 				has_country_flag = JUNO_ENG_immigration_completed
 			}
+
+			FROM = {
+				NOT = {
+					has_state_flag = JUNO_promote_immigration_complete
+				}
+			}
 		}
 
 		on_map_mode = decision_view_only
@@ -3569,9 +3568,6 @@ JUNO_promote_immigration_cat = {
 		target_trigger = {
 			FROM = {
 				is_owned_and_controlled_by = ROOT
-				NOT = {
-					has_state_flag = JUNO_promote_immigration_complete
-				}
 			}
 		}
 

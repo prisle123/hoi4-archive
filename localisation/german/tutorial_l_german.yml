@@ -53,7 +53,7 @@
  TUT_MOVE_CAMERA: "Kamerastandort geändert auf $STATE$"
  TUT_SELECTED_DIVS: "$NUMBERS$ Divisionen in $STATE$ sind ausgewählt"
  TUT_COMMAND_GROUP: "Armee existiert"
- TUT_FRONTLINE: "Es existiert eine Frontlinie zwischen $STATE$ und Äthiopien"
+ TUT_FRONTLINE: "Es existiert eine §YFrontlinie§! zwischen $STATE$ und Äthiopien"
  TUT_OFFENSIVE_ORDER: "Es existiert ein Angriffsbefehl zur Eroberung von $ENEMY_CAPITAL$"
  TUT_AIRBASE: "Betrachte Luftstützpunkt in $STATE$"
  TUT_AIRWINGS_ASSIGNED: "$NUMBERS$ Luftgeschwader auf dem Luftstützpunkt $STATE$ sind der Luftregion $REGION$ zugewiesen"

@@ -1583,7 +1583,7 @@
  BEL_lambert_chardome_tt: "§YLambert Chardome§! pasa a ser §Ygeneral§!"
  BEL_eddy_blondeel_tt: "§YEddy Blondeel§! pasa a ser §Ygeneral§!"
  BEL_scars_of_ww1_ns_fake_tt: "Organización de división: §R-15%§! \nFactor de población reclutable: §R-15%§! \nApoyo bélico: §R-30%§! \n§YVelocidad de construcción de§! fábrica militar: §R-20%§!"
- BEL_corruption_ns_fake_tt: "Ganancia de poder político diaria: §R-0,25%§! \nEstabilidad: §R-20%§! \nVelocidad de construcción: §R-20%§! \nApoyo al fascismo diario: §G+0,10%§!"
+ BEL_corruption_ns_fake_tt: "Ganancia de poder político diaria: §R-0,25§! \nEstabilidad: §R-20%§! \nVelocidad de construcción: §R-20%§! \nApoyo al fascismo diario: §G+0,10%§!"
  ### CONGO SHARED FOCUS TREE ###
  CONGO_belgian_congo: "Congo Belga"
  CONGO_belgian_congo_desc: "La colonia se estableció en 1908, cuando el Estado Libre del Congo se anexionó al gobierno belga, lejos de la explotación por parte de la corona belga. El Congo Belga sigue siendo la joya central de la política colonial belga."

@@ -38,6 +38,8 @@
  PLAYTHROUGH_OV_NOT_ELIGIBLE: "Sua partida não concede medalhas e barretas devido ao uso de mods de jogo ou comandos de console"
  PLAYTHROUGH_OV_MP: "As estatísticas não são acompanhadas no modo multijogador"
  PLAYTHROUGH_OV_MP_AWARDS: "Partidas no modo multijogador não concedem medalhas ou barretas"
+ PLAYTHROUGH_OV_CONTINUE: "Continuar jogo"
+ PLAYTHROUGH_OV_EXIT_TO_MENU: "Retornar ao menu principal\n§GShift+clique§! para sair sem confirmação"
  #Awards tab
  CAREER_PROFILE_AWARD_TAB_LABEL: "Condecorações"
  CAREER_PROFILE_AWARD_NOT_ACHIEVED: "Não concedida"

@@ -225,7 +225,7 @@
  RULE_OPTION_INDEPENDENCE_COM: "Golpe de Estado de Zhao Shangzhi"
  RULE_OPTION_RANDOM: "Aleatorio"
  RULE_OPTION_DEFAULT: "Por defecto"
- RULE_OPTION_DEFAULT_AI_DESC: "La IA tomará decisiones en función de otros ajustes del juego, como la opción de forzar enfoques históricos y otros escenarios de juego. Este comportamiento es el mismo de las versiones 1.5 y posteriores."
+ RULE_OPTION_DEFAULT_AI_DESC: "La IA se ceñirá a sus enfoques históricos si se le permite. Si no, ejecutará un plan de juego al azar con cierto criterio."
  RULE_OPTION_RANDOM_AI_DESC: "La IA decidirá de forma aleatoria su plan de juego al inicio de la partida e intentará ejecutarlo."
  RULE_OPTION_FASCIST_GER_AI_DESC: "La IA alemana seguirá siendo fascista y seguirá la rama pertinente del árbol de enfoques nacionales para intentar tomar Europa."
  RULE_FASCIST_JAP_AI_DESC: "La IA japonesa seguirá su camino histórico y la rama pertinente del árbol de enfoques nacionales para intentar atacar a los aliados occidentales del sur."

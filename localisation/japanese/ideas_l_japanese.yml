@@ -2730,7 +2730,7 @@
  KUR_ahmed_barzani: "アフメド・バルザニイ"
  KUR_ihsan_nuri: "イフサン・ヌリ"
  NEP_royal_army: "王立ネパール陸軍"
- SPIRIT_ADD_IDEA: "§Gクリックで$GROUP|H$§!を追加"
+ SPIRIT_ADD_IDEA: "§Gクリック§!で$GROUP|H$を追加"
  tactic_elastic_defense_preferred_weight_factor: "優先戦術の場合、§Y弾性防御§!戦術追加の機会"
  tactic_overwhelming_fire_preferred_weight_factor: "優先戦術の場合、§Y圧倒的火力§!戦術追加の機会"
  tactic_seize_bridge_preferred_weight_factor: "優先戦術の場合、§Y橋を包囲§!戦術追加の機会"

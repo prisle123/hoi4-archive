@@ -1108,6 +1108,7 @@
  japan_border_conflict.4.t: "하산호에서의 교착 상태"
  japan_border_conflict.4.desc: "하산호 주변에서 벌어진 일본군과 [SOV.GetAdjective]군 간의 전투는 양측이 재정비와 보급을 위하여 철수하면서 잦아들었습니다. 추가적인 공세가 무의미하다는 것을 깨달은 일본군은 정전과 국경 고정을 위한 협상을 요청하였습니다."
  japan_border_conflict.4.a: "우리는 값진 경험을 했다."
+ japan_border_conflict.4.b: "국경선은 이전 그대로다."
  japan_border_conflict.5.t: "하산호에서의 확전"
  japan_border_conflict.5.desc: "하산호 주변에서 일본군과 [SOV.GetAdjective]군 간의 전투가 계속되고 있습니다. 교착 상태를 타개하고자 다른 지역의 일본군도 해당 전선에서 [SOV.GetAdjective]군과 교전을 시작하였습니다. 정보에 따르면 일본군은 곧 제국의 다른 지역에서 병력을 파견해 공격을 강화할 것이라고 합니다."
  japan_border_conflict.5.a: "우리는 그 전선을 유지해야 한다."

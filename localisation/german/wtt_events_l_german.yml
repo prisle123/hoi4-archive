@@ -1108,6 +1108,7 @@
  japan_border_conflict.4.t: "Patt am Chassansee"
  japan_border_conflict.4.desc: "Die Kämpfe zwischen japanischen und [SOV.GetAdjective]en Truppen am Chassansee sind zum Erliegen gekommen, nachdem beide Seiten sich aus der umkämpften Region zurückgezogen haben, um sich neu zu sammeln und mit Nachschub zu versorgen. Das japanische Militär hat die Aussichtslosigkeit weiterer Offensiven erkannt und um einen Waffenstillstand und Verhandlungen über den Verlauf der Grenze gebeten."
  japan_border_conflict.4.a: "Wir haben wertvolle Erfahrung gesammelt."
+ japan_border_conflict.4.b: "Die Grenze verläuft noch immer dort, wo sie einst verlief."
  japan_border_conflict.5.t: "Eskalation am Chassansee"
  japan_border_conflict.5.desc: "Die Kämpfe zwischen japanischen und [SOV.GetAdjective]en Truppen am Chassansee dauern an. In dem Versuch, die Pattsituation zu brechen, haben japanische Truppen in anderen Gebieten des Sektors ebenfalls begonnen, [SOV.GetAdjective]e Truppen anzugreifen. Dem Geheimdienst zufolge könnten die Japaner den Angriff bald mit frischen Truppen verstärken, die aus anderen Gegenden ihres Reichs abgezogen werden."
  japan_border_conflict.5.a: "Wir müssen die Linie halten."

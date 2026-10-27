@@ -61,7 +61,7 @@ bookmarks = {
 			history = GER_BLITZKRIEG_DESC
 			ideology = fascism
 			version = base_game
-			ideas = { #TODO_Danne Make sure these spirits display the proper numbers!
+			ideas = {
 				GER_mefo_bills_1939_fake_ns
 				GER_army_1939_fake_ns
 				GER_wehrwirtschaft_fake_ns
@@ -584,12 +584,14 @@ bookmarks = {
 			ideology = neutrality
 			version = base_game
 			ideas = {
-				deterrence
+				uncontrolled_exports
+				POL_april_constitution_4
+				POL_militarism_focus
 			}
 			focuses = {
-				POL_the_baltic_alliance
-				POL_draw_closer_to_britain
-				POL_seek_accommodation_with_germany
+				POL_prepare_for_the_inevitable
+				POL_camp_of_national_unity
+				POL_complete_plan_west
 			}
 		}
 		"SWI"={
@@ -840,8 +842,8 @@ bookmarks = {
 			required_dlc = { "Gotterdammerung" }
 			version = gotterdammerung
 			ideas = {
+				BEL_language_barriers_ns
 				BEL_chasseurs_ardennais_ns
-				BEL_scars_of_ww1_ns_fake
 				BEL_corruption_ns_fake
 			}
 			focuses = {
@@ -857,9 +859,9 @@ bookmarks = {
 			required_dlc = { "Gotterdammerung" "No Compromise, No Surrender" }
 			version = no_compromise_no_surrender
 			ideas = {
+				BEL_language_barriers_ns
 				BEL_chasseurs_ardennais_ns_ncns
-				BEL_scars_of_ww1_ns_fake
-				BEL_corruption_ns_fake
+				BEL_corruption_ns_fake_2
 			}
 			focuses = {
 				BEL_v_for_victory
@@ -925,9 +927,9 @@ bookmarks = {
 			required_dlc = { "No Compromise, No Surrender" }
 			version = no_compromise_no_surrender
 			ideas = {
-				PHI_island_nation_ns_fake
-				PHI_the_great_depression_ns_fake
-				PHI_philippine_army_ns_fake
+				PHI_island_nation_ns_fake_2
+				PHI_the_great_depression_ns_fake_2
+				PHI_philippine_army_ns_fake_2
 			}
 			focuses = {
 				PHI_appoint_macarthur
@@ -959,7 +961,7 @@ bookmarks = {
 			required_dlc = { "No Compromise, No Surrender" }
 			ideology = communism
 			version = no_compromise_no_surrender
-			ideas = { #TODO_DANNE Needs to be fixed when we have settled all the modifiers
+			ideas = {
 				PRC_central_committee_1939_fake
 				PRC_the_chinese_red_army_1939_fake
 				PRC_agrarian_society_1939_fake

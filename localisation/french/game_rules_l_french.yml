@@ -225,7 +225,7 @@
  RULE_OPTION_INDEPENDENCE_COM: "Le coup d'État de Zhao Shangzhi"
  RULE_OPTION_RANDOM: "Aléatoire"
  RULE_OPTION_DEFAULT: "Par défaut"
- RULE_OPTION_DEFAULT_AI_DESC: "L'I.A. va prendre toutes ses décisions en fonction des règles définies pour la partie, telles que l'obligation d'utiliser les priorités historiques ou d'autres scénarios. Cela correspondra donc à un comportement identique à celui des versions 1.5 et antérieures."
+ RULE_OPTION_DEFAULT_AI_DESC: "L'I.A. va suivre le cours historique si cette option est sélectionnée, sinon elle élaborera un plan d'action aléatoire."
  RULE_OPTION_RANDOM_AI_DESC: "L'I.A. va choisir un plan de façon aléatoire au lancement de la partie et tentera de le mener à bien."
  RULE_OPTION_FASCIST_GER_AI_DESC: "L'I.A. allemande va rester fasciste et tenter de conquérir l'Europe en suivant le chemin approprié dans l'arbre des priorités."
  RULE_FASCIST_JAP_AI_DESC: "L'I.A. japonaise va poursuivre son cheminement historique et tenter d'attaquer les alliés occidentaux, au sud, en suivant le chemin approprié dans l'arbre des priorités."

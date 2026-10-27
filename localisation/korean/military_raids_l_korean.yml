@@ -98,6 +98,8 @@
  raid_type_JAP_pearl_harbor_strike_desc: "태평양에 있는 적의 주요 해군 사령부와 함대에 폭격기 편대를 보내 공격하면, 국민의 사기를 높이는 동시에 적의 사기와 해군 전력에 큰 타격을 가할 수 있습니다. 이렇게 되면 우리 해군은 6개월 동안 자유롭게 항해할 수 있을 겁니다!"
  success_modifier_completed_kido_butai_focus: "§Y$JAP_form_the_kido_butai$§! 중점 완료함"
  success_modifier_completed_kido_butai_focus_improvement: "- §Y$JAP_form_the_kido_butai$§! 중점 완료"
+ success_modifier_completed_midget_submarine_project: "§Y$sp_naval_midget_submarine$§! 프로젝트를 완료함"
+ success_modifier_completed_midget_submarine_project_improvement: "- §Y$sp_naval_midget_submarine$§! 프로젝트 완료"
  raid_type_CZE_sokolov_raid_pfot: "팔크노프 습격"
  raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
  RAID_TARGET_NAME: "$LOCATION|H$의 $WHAT|H$"
@@ -427,6 +429,7 @@
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
  raid_target_name_state: "$LOCATION|H$"
+ early_nuclear_raid_unlock: "시제품 폭탄 배치 준비됨"
  #Custom Raid Names
  ### PRC
  #Land

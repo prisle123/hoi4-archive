@@ -8,6 +8,8 @@
  SYSTEM_PLAYER_KICKED: "§G§Y$NAME$§! 님이 게임에서 추방되었습니다.§!"
  SYSTEM_PLAYER_BANNED: "§G§Y$NAME$§! 님이 게임에서 차단되었습니다.§!"
  SYSTEM_PLAYER_ARRIVED: "§G§Y$NAME$§! 님이 게임에 참여했습니다.§!"
+ MODIFIED_CLIENT_DETECTED: "변조된 클라이언트 감지: $NAME$"
+ MODIFIED_CLIENT_BADGE_TOOLTIP: "호스트가 이 플레이어의 게임 클라이언트가 변조된 것을 감지했습니다."
  CONNECTED: "§G연결되었습니다.§!"
  NAME_TAKEN: "이미 사용중인 이름입니다. 나가서 다른 이름으로 설정하십시오."
  CONNECTING: "접속 중..."

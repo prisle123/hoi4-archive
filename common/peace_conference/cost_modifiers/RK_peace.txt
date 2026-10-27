@@ -7,7 +7,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKU # RK Ukraine will have a cost reduciton for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -22,7 +22,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKO # RK Ostland will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -37,7 +37,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKG # RK Norwegen will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -52,7 +52,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKN # RK Netherlands will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -67,7 +67,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKB # RK Belgium will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -82,7 +82,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKK # RK Kaukasien will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -97,7 +97,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKT # RK Turkestan will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -116,7 +116,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKM # RK Moscow will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -139,7 +139,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKL # RK Ural will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -154,7 +154,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKH # RK Bohemia Moravia will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -169,7 +169,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = GEN # Generalgouvernment will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -187,7 +187,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKI # RK Iberien will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -202,7 +202,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKC # RK Balkan will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -222,7 +222,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RGB # RK Britain will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -240,7 +240,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RNA # RK North Africa will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -255,7 +255,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKA # RK Mittelafrica will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -273,7 +273,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RKV # RK Klein-Venedig will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -288,7 +288,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RAN # RK Anden will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -303,7 +303,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RCO # RK Kolumbus will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -321,7 +321,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RUS # RK North America will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -339,7 +339,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RAR # RK Arabia will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -358,7 +358,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RHD # RK Hindustan will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -373,7 +373,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = ROA # RK East Asia will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }
@@ -388,7 +388,7 @@ peace_action_modifiers = {
         category = events_or_focuses
         peace_action_type = { take_states }
         enable = {
-            ROOT = {
+            FROM = {
                 original_tag = RAA # RK Sotuh Asia will have a cost reduction for taking states "assigned as theirs by their overlord"
             }
             GER = { has_completed_focus = GER_uplift_the_rosenberg_office }

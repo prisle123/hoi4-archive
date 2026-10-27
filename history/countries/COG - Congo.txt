@@ -171,8 +171,21 @@ set_popularities = {
 	democratic = 20
 }
 
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	add_ideas = COG_force_publique_fake_idea
+}
+
 ### The 1939 Scenario ###
 1939.1.1 = {
+	IF = {
+		limit = {
+			has_dlc = "Gotterdammerung"
+		}
+		remove_ideas = COG_force_publique_fake_idea
+	}
 	
 	## Without the DLC (They won't exist but for if they are released) ###
 	IF = {

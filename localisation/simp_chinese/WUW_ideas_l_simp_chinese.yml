@@ -540,7 +540,7 @@
  GER_modify_military_intelligence_service_modifier_tt: "§Y$GER_military_intelligence_service_modifier$§!追加效果："
  #FAKE NATIONAL SPIRITS:
  GER_mefo_bills_1936_fake_ns_tt: "$GER_increasing_cg_tt$$GER_CG_penalties_may_apply$\n\n $MODIFIER_CONSUMER_GOODS_FACTOR$：§Y10.0%§!\n $MODIFIER_CIVILIAN_INTEL_TO_OTHERS$：§G-25.0%§! \n $MODIFIER_ARMY_INTEL_TO_OTHERS$：§G-25.0%§!\n $MODIFIER_NAVY_INTEL_TO_OTHERS$：§G-25.0%§!\n $MODIFIER_AIRFORCE_INTEL_TO_OTHERS_FACTOR$：§G-25.0%§!\n $modifier_production_speed_arms_factory_factor$：§G+10.00%§!\n $modifier_production_speed_dockyard_factor$：§G+10.00%§!"
- GER_mefo_bills_1939_fake_ns_tt: "$GER_increasing_cg_tt$$GER_CG_penalties_warning$\n\n $MODIFIER_CONSUMER_GOODS_FACTOR$：§Y71.0%§!\n $MODIFIER_CIVILIAN_INTEL_TO_OTHERS$：§G-25.0%§! \n $MODIFIER_ARMY_INTEL_TO_OTHERS$：§G-25.0%§!\n $MODIFIER_NAVY_INTEL_TO_OTHERS$：§G-25.0%§!\n $MODIFIER_AIRFORCE_INTEL_TO_OTHERS_FACTOR$：§G-25.0%§!\n $modifier_production_speed_arms_factory_factor$：§G+15.00%%§!\n $modifier_production_speed_dockyard_factor$：§G+15.00%§!"
+ GER_mefo_bills_1939_fake_ns_tt: "$GER_increasing_cg_tt$$GER_CG_penalties_warning$\n\n $MODIFIER_CONSUMER_GOODS_FACTOR$: §Y71.0%§!\n $MODIFIER_CIVILIAN_INTEL_TO_OTHERS$: §G-25.0%§! \n $MODIFIER_ARMY_INTEL_TO_OTHERS$: §G-25.0%§!\n $MODIFIER_NAVY_INTEL_TO_OTHERS$: §G-25.0%§!\n $MODIFIER_AIRFORCE_INTEL_TO_OTHERS_FACTOR$: §G-25.0%§!\n $modifier_production_speed_arms_factory_factor$: §G+15.00%%§!\n $modifier_production_speed_dockyard_factor$: §G+15.00%§!"
  #OPINION MODIFIERS
  GER_german_trade_opinion: "德意志贸易关系"
  GER_autarky_trade_opinion: "自给自足贸易关系"
@@ -738,6 +738,7 @@
  COG_transports_et_ports: "运输和港口贸易公司"
  COG_force_publique: "公安军"
  COG_force_publique_desc: "公安军是刚果自由邦的军事和警察力量，成立于1877年。这支部队的指挥层全部由欧洲人担任，包括比利时军官和雇佣军，而基层士兵则主要由刚果本地人组成。尽管公安军在战斗中展现出了卓越的战斗力，但由于军队内部存在严重的种族不平等现象以及管理混乱等问题，导致军中积怨日深。"
+ COG_force_publique_fake_idea_tt: "指挥点数上限增加：§R-50§!\n每日指挥点数获取倍率：§R-50%§!"
  COG_the_invisible_roof: "隐形天花板"
  COG_the_invisible_roof_desc: "虽然没有法律明文规定，但[ROOT.GetNameDef]的大多数机构和公司都阻止刚果土著公民晋升到某些职位，并且他们无权接受高等教育。"
  COG_belgian_congo_colonial_dynamic_modifier: "模范殖民地"

@@ -20,6 +20,7 @@ mio_cat_eq_all_medium_tank = { #Includes Modern Tank Chassis
 	equipment_type = {
 		medium_tank_chassis
 		modern_tank_chassis
+		armored_support_vehicle
 	}
 }
 
@@ -48,6 +49,7 @@ mio_cat_eq_all_tanks = { #Includes All Tank Chassis
 		#Medium
 		medium_tank_chassis
 		modern_tank_chassis
+		armored_support_vehicle
 		#Heavy
 		heavy_tank_chassis
 		super_heavy_tank_chassis

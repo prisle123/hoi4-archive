@@ -501,7 +501,7 @@
  AUS_political_events.113.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] refus[FROM.GetEEntNP]\nle pacte de non-agression"
  AUS_political_events.113.desc: "\nLa proposition envoyée au gouvernement [FROM.GetAdjMS] n'a pas fait l'unanimité. Peut-être y ont-ils lu une manœuvre stratégique, ou nous réservent-ils eux-mêmes de sinistres desseins ? Quelle que soit la raison, il faut s'y préparer. Il faudra peut-être même recourir à des actes plus hostiles si nous voulons mener à bien notre plan."
  AUS_political_events.113.a: "C'est regrettable"
- AUS_political_events.114.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] propos[FROM.GetEEntNP]\nun soutien industriel"
+ AUS_political_events.114.t: "[FROM.GetLeLaLNPCap] [FROM.GetName]\noffr[FROM.GetEEntNP] une aide industrielle"
  AUS_political_events.114.desc: "\nÀ la suite du traité de paix signé entre nos deux nations, les [FROM.GetHabitants] nous ont offert leur soutien industriel. Notre secteur industriel n'est pas en reste, mais il est toujours bon de pouvoir compter sur un peu d'aide. Certains de nos conseillers nous mettent en garde, cependant, affirmant que [FROM.GetLeLaLNP] [FROM.GetName] espère forcément quelque chose en retour."
  AUS_political_events.114.a: "Transmettons-leur notre gratitude"
  AUS_political_events.115.t: "Proposition de manœuvres militaires\nentre [FROM.GetLeLaLNP] [FROM.GetName] et [ROOT.GetLeLaLNP] [ROOT.GetName]"
@@ -1275,6 +1275,9 @@
  ww_BEL_event_diplomatic.37.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] refus[FROM.GetEEntNP]\n"
  ww_BEL_event_diplomatic.37.desc: "Le gouvernement [FROM.GetAdjMS] ne semble pas avoir saisi tous les avantages de renforcer nos relations diplomatiques, car ils ont simplement refusé. Nous espérions qu'il advienne de grandes choses d'un tel accord, mais de toute évidence, ce n'était pas réciproque."
  ww_BEL_event_diplomatic.37.a: "C'est dommage..."
+ ww_BEL_event_diplomatic.38.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] investi[FROM.GetTSsentNP]\ndans notre industrie"
+ ww_BEL_event_diplomatic.38.desc: "Une délégation [FROM.GetAdjFS] s'est présentée à nous, des contrats et des capitaux pleins les poches : les [FROM.GetHabitants] souhaitent dynamiser notre territoire en bâtissant une industrie civile et un arsenal. La délégation s'est montrée très franche quant à ce que ces investisseurs espèrent en retour : que nous réfléchissions sérieusement à l'idée d'une fédération européenne."
+ ww_BEL_event_diplomatic.38.a: "L'union porte ses fruits"
  ### War Events
  #Relocate Air Industries
  ww_BEL_event_war.1.t: "Industries aéronautiques délocalisées"
@@ -1642,7 +1645,7 @@
  congo_independence_struggle.2.b: "Oui, mais uniquement contre une compensation conséquente"
  congo_independence_struggle.2.c: "Nous ne les laisserons jamais partir"
  congo_independence_struggle.3.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] nous accord[FROM.GetEEntNP]\nl'indépendance si nous rejoignons [FROM.GetSaLeurNP] faction"
- congo_independence_struggle.3.d: "\nNous avons reçu des nouvelles [BEL.GetDuDelaDelNP] [BEL.GetName] : [BEL.GetIlElleNP] [BEL.GetAOntNP] reconnu que l'époque des empires coloniaux touche à sa fin. [BEL.GetIlElleNPCap] nous [BEL.GetAOntNP] donc proposé de rejoindre le Commonwealth [Bel.GetAdjMS] en tant que nation libre et indépendante, sous-entendu partenaire égal. Nous serions tenus de respecter les mêmes conditions que tout autre allié militaire, et donc censés participer à toutes les guerres.\n\nC'est sans nul doute l'issue la plus diplomatique que nous puissions espérer, et elle nous permettrait d'éviter un bain de sang avec nos amis européens tout en préservant la fierté et l'indépendance de l'Afrique."
+ congo_independence_struggle.3.d: "\nNous avons reçu des nouvelles [BEL.GetDuDelaDelNP] [BEL.GetName] : [BEL.GetIlElleNP] [BEL.GetAOntNP] reconnu que l'époque des empires coloniaux touche à sa fin. [BEL.GetIlElleNPCap] nous [BEL.GetAOntNP] donc proposé de rejoindre le Commonwealth [BEL.GetAdjMS] en tant que nation libre et indépendante, sous-entendu partenaire égal. Nous serions tenus de respecter les mêmes conditions que tout autre allié militaire, et donc censés participer à toutes les guerres.\n\nC'est sans nul doute l'issue la plus diplomatique que nous puissions espérer, et elle nous permettrait d'éviter un bain de sang avec nos amis européens tout en préservant la fierté et l'indépendance de l'Afrique."
  congo_independence_struggle.3.a: "Cela nous paraît très raisonnable, nous acceptons !"
  congo_independence_struggle.3.b: "Ces conditions sont inacceptables..."
  congo_independence_struggle.4.t: "[FROM.GetLeLaLNPCap] [FROM.GetName] nous accord[FROM.GetEEntNP]\nl'indépendance si nous [FROM.GetLuiLeurNP] versons une compensation"

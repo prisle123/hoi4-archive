@@ -1510,7 +1510,7 @@
  ITA_european_democracies_tt: "§Y유럽 국가들§!은 이탈리아의 외교 요청을 더욱 쉽게 수락할 것입니다."
  ITA_european_democracies_bonus_per_ally_tt: "[ROOT.GetName]의 세력에 속해 있고 독립 상태를 유지하고 있는 민주주의 국가 하나당 \n§G+2.00%§!의 안정도를 얻고 §G+25§!의 정치력을 얻습니다.(최대 §Y+10.00%§!의 안정도와 §Y+125§! 정치력).\n\n"
  ITA_peace_preservation_guarantees_tt: "독립 상태거나 §Y[ROOT.GetNameWithFlag]§! 측과 동맹한 모든 §Y민주주의§! 유럽 국가의 독립 보장:"
- ITA_peace_preservation_ns_tt: "\n(독립을 보장하는 국가 하나당 소비재 공장: §Y-2.0%§! (최대 §Y-10.00%§!), 독립을 보장하는 국가 하나당 전쟁 지지도: §G+1.00%§! (최대 §Y+10.00%§!), 독독립을 보장하는 국가 하나당 주간 인력: §G+100§!(최대 §Y+1000§!))을 제공하는 §Y$ITA_peace_keepers_of_europe$§! 국민정신 획득"
+ ITA_peace_preservation_ns_tt: "\n(독립을 보장하는 국가 하나당 소비재 공장: §Y-2.0%§! (최대 §Y-20.00%§!), 독립을 보장하는 국가 하나당 전쟁 지지도: §G+1.00%§! (최대 §Y+10.00%§!), 독독립을 보장하는 국가 하나당 주간 인력: §G+100§!(최대 §Y+1000§!))을 제공하는 §Y$ITA_peace_keepers_of_europe$§! 국민정신 획득"
  ITA_scientific_cooperation_allies_ns_tt: "§Y[ROOT.GetNameDef]§! 및 §Y[ROOT.GetAdjective]의 모든 동맹국§!에 §Y$ITA_scientific_cooperation$§! 국민정신 추가."
  ITA_secure_the_borders_forts_tt: "비우호적인 국가와 인접한 모든 지역에 §Y$bunker$ 2개§! 추가.\n현재 효과:"
  ITA_scientific_cooperation_research_sharing_group_tt: "모든 동맹국의 §Y$ITA_program_for_scientific_cooperation_name$§! 합류."

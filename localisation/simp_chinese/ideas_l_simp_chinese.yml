@@ -2730,7 +2730,7 @@
  KUR_ahmed_barzani: "艾哈迈德·巴尔扎尼"
  KUR_ihsan_nuri: "伊赫桑·努里"
  NEP_royal_army: "尼泊尔皇家陆军"
- SPIRIT_ADD_IDEA: "§G点击添加$GROUP|H$§!"
+ SPIRIT_ADD_IDEA: "§G点击§!添加$GROUP|H$"
  tactic_elastic_defense_preferred_weight_factor: "若为偏好战术，则额外发动§Y弹性防御§!的概率"
  tactic_overwhelming_fire_preferred_weight_factor: "若为偏好战术，则额外发动§Y压倒性火力§!的概率"
  tactic_seize_bridge_preferred_weight_factor: "若为偏好战术，则额外发动§Y夺取桥梁§!的概率"

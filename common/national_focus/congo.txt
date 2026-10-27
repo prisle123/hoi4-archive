@@ -2230,8 +2230,8 @@ focus_tree = {
 		}
 	
 		available = {
-			any_country = {
-				original_tag = BEL
+			any_country_with_original_tag = {
+				original_tag_to_check = BEL
 				has_subject = ROOT
 			}
 		}
@@ -2794,8 +2794,8 @@ focus_tree = {
 		}
 	
 		available = {
-			any_country = {
-				original_tag = BEL
+			any_country_with_original_tag = {
+				original_tag_to_check = BEL
 				has_subject = ROOT
 			}
 		}
@@ -2839,8 +2839,8 @@ focus_tree = {
 		}
 	
 		available = {
-			any_country = {
-				original_tag = BEL
+			any_country_with_original_tag = {
+				original_tag_to_check = BEL
 				has_subject = ROOT
 			}
 		}
@@ -2886,8 +2886,8 @@ focus_tree = {
 		}
 	
 		available = {
-			any_country = {
-				original_tag = BEL
+			any_country_with_original_tag = {
+				original_tag_to_check = BEL
 				has_subject = ROOT
 			}
 		}
@@ -2965,8 +2965,8 @@ focus_tree = {
 		}
 	
 		available = {
-			any_country = {
-				original_tag = BEL
+			any_country_with_original_tag = {
+				original_tag_to_check = BEL
 				has_subject = ROOT
 			}
 			any_country_with_original_tag = {
@@ -3072,8 +3072,8 @@ focus_tree = {
 		}
 	
 		available = {
-			any_country = {
-				original_tag = BEL
+			any_country_with_original_tag = {
+				original_tag_to_check = BEL
 				has_subject = ROOT
 			}
 			any_country_with_original_tag = {
@@ -3165,8 +3165,8 @@ focus_tree = {
 		}
 	
 		available = {
-			any_country = {
-				original_tag = BEL
+			any_country_with_original_tag = {
+				original_tag_to_check = BEL
 				has_subject = ROOT
 			}
 		}
@@ -3205,8 +3205,8 @@ focus_tree = {
 		}
 	
 		available = {
-			any_country = {
-				original_tag = BEL
+			any_country_with_original_tag = {
+				original_tag_to_check = BEL
 				has_subject = ROOT
 			}
 		}
@@ -3239,8 +3239,8 @@ focus_tree = {
 		}
 	
 		available = {
-			any_country = {
-				original_tag = BEL
+			any_country_with_original_tag = {
+				original_tag_to_check = BEL
 				has_subject = ROOT
 			}
 			has_civil_war = no
@@ -5713,8 +5713,8 @@ focus_tree = {
 			has_government = communism
 			is_in_faction = no
 			is_subject = no
-			any_country = {
-				original_tag = SOV
+			any_country_with_original_tag = {
+				original_tag_to_check = SOV
 				has_government = communism
 				is_faction_leader = yes
 			}

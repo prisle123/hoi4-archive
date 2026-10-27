@@ -735,7 +735,7 @@ TUR_owns_state_in_black_sea = {
 		341
 		211
 		77
-		46
+		971
 		766
 		192
 		197

@@ -638,6 +638,8 @@
  occupied_countries.1.desc: "Tras un esfuerzo largo y concertado para mejorar la cooperación y la conformidad entre nuestras fuerzas de ocupación y las autoridades civiles locales, ya podemos devolver el control de [From.From.GetNameDef] a un gobierno local. Este nuevo gobierno está formado por civiles afines y está preparado para coordinarse estrechamente con nosotros."
  occupied_countries.1.a: "Tienen nuestra bendición."
  occupied_countries.1.b: "Aún no están listos."
+ occupied_countries.1.c: "Que no me vuelva a llegar una petición de esta índole."
+ occupied_countries.1.c_tt: "No se nos notificará cuando una nación ocupada esté dispuesta a formar un §Ygobierno de coalición§!.\nPodrán formarse igualmente en cualquier momento mediante las decisiones de §Yinfluencia extranjera§!."
  lar_news.1.t_franco: "Victoria nacionalista en la Guerra Civil Española"
  lar_news.1.t_falangist: "Victoria falangista en la Guerra Civil Española"
  lar_news.1.t_carlists: "Victoria carlista en la Guerra Civil Española"

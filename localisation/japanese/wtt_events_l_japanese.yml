@@ -1108,6 +1108,7 @@
  japan_border_conflict.4.t: "ハサン湖での膠着"
  japan_border_conflict.4.desc: "ハサン湖周辺の日本軍と[SOV.GetAdjective]軍団との戦闘は次第に静まり、両軍が戦闘地域から撤退して再編と再補給を行った。日本軍はさらなる攻撃は無駄と認識し、国境を修正するための停戦交渉を求めている。"
  japan_border_conflict.4.a: "貴重な経験をした"
+ japan_border_conflict.4.b: "国境は以前のままだ。"
  japan_border_conflict.5.t: "ハサン湖での戦闘拡大"
  japan_border_conflict.5.desc: "ハサン湖周辺で日本と[SOV.GetAdjective]軍の戦闘が続いている。膠着状態を脱するため、他の地域の日本軍も[SOV.GetAdjective]軍と戦闘を開始した。それは日本が直ちに他の地域から新手の部隊を派遣して攻撃を強化する可能性を示唆している。"
  japan_border_conflict.5.a: "前線を守らねば"

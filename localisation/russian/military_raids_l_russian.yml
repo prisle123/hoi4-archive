@@ -98,6 +98,8 @@
  raid_type_JAP_pearl_harbor_strike_desc: "Отправив группу бомбардировщиков для атаки на главный морской штаб противника и его флот в Тихом океане, мы можем вселить уверенность в сердца наших людей и заодно подорвать боевой дух врага и его способность сражаться на море. Благодаря этому наш флот сможет действовать без ограничений в течение 6 месяцев!"
  success_modifier_completed_kido_butai_focus: "выполнен фокус §Y«$JAP_form_the_kido_butai$»§!"
  success_modifier_completed_kido_butai_focus_improvement: "– Выполнить фокус §Y«$JAP_form_the_kido_butai$»§!"
+ success_modifier_completed_midget_submarine_project: "выполнен проект §Y«$sp_naval_midget_submarine$»§!"
+ success_modifier_completed_midget_submarine_project_improvement: "– Выполнить проект §Y«$sp_naval_midget_submarine$»§!"
  raid_type_CZE_sokolov_raid_pfot: "Налет на Фалкноф"
  raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
  RAID_TARGET_NAME: "$WHAT|H$ в регионе $LOCATION|H$"
@@ -427,6 +429,7 @@
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
  raid_target_name_state: "$LOCATION|H$"
+ early_nuclear_raid_unlock: "Прототип бомбы подготовлен к применению"
  #Custom Raid Names
  ### PRC
  #Land

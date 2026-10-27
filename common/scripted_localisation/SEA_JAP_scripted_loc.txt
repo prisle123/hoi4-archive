@@ -904,3 +904,19 @@ defined_text = {
 		localization_key = JAP_the_imperial_defense_plan_national
 	}
 }
+
+defined_text = {
+	name = JAP_midget_submarine_pearl_harbor_key
+	text = {
+		trigger = {
+			OR = {
+				has_government = neutrality
+				has_government = fascism
+			}
+		}
+		localization_key = JAP_sp_naval_midget_submarine_pearl_harbor_hint
+	}
+	text = {
+		localization_key = empty_key
+	}
+}

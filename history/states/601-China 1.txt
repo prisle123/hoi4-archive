@@ -1,38 +1,46 @@
-state={
-	id=601
-	name="STATE_601"
-	resources={
-		oil=2.000
+state = {
+	id = 601
+	name = "STATE_601"
+
+	resources = {
+		oil = 2.000
 	}
 
-	history={
+	history = {
 		owner = TIB
 		add_core_of = TIB
-		add_core_of = PRC
-		add_core_of = CHI
+		add_claim_by = PRC
+		add_claim_by = CHI
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				add_claim_by = SIC
+			}
+		}
+
 		buildings = {
 			infrastructure = 1
-
 		}
 		victory_points = {
-			10856 1
+			10856 1 # Chamdo 
 		}
 		1939.1.1 = {
 			buildings = {
 				infrastructure = 1
 
 			}
-
 		}
-
 	}
 
-	provinces={
+	provinces = {
 		4407 5018 5080 5102 8041 8059 10741 10856 
 	}
-	manpower=368200
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	manpower = 368200
+	buildings_max_level_factor = 1.000
+	state_category = wasteland
 
-	local_supplies=1.0 
+	local_supplies = 1.0 
 }

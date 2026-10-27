@@ -21,7 +21,7 @@
  tooltip_launch_all_button_second: "$NUM|H$ raids are ready to launch"
  tooltip_launch_button_enabled: "§GClick§! to launch the raid"
  tooltip_launch_button_disabled: "§RThe raid is not ready for launch§!"
- tooltip_launch_button_right_click: "§GRight-click§! to find §Y$NAME$§!"
+ tooltip_launch_button_right_click: "§GRight-Click§! to find §Y$NAME$§!"
  tooltip_for_expand_button: "§GClick§! to expand"
  tooltip_for_collapse_button: "§GClick§! to collapse"
  tooltip_for_no_items: "§RNo items§!"
@@ -105,6 +105,8 @@
  raid_type_JAP_pearl_harbor_strike_desc: "By sending a group of bombers to attack the enemy's main naval headquarter and fleet in the Pacific Ocean, we can boost our people's morale, while inflicting a blow to our enemy's morale and naval capabilities at the same time. Through this, our navies will be able to roam freely for 6 months!"
  success_modifier_completed_kido_butai_focus: "has completed the focus §Y$JAP_form_the_kido_butai$§!" 
  success_modifier_completed_kido_butai_focus_improvement: "- Complete the focus §Y$JAP_form_the_kido_butai$§!"
+ success_modifier_completed_midget_submarine_project: "has completed the §Y$sp_naval_midget_submarine$§! project"
+ success_modifier_completed_midget_submarine_project_improvement: "- Complete the §Y$sp_naval_midget_submarine$§! project"
 
  raid_type_CZE_sokolov_raid_pfot: "Falknov Raid"
  raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
@@ -369,7 +371,7 @@
  tooltip_raid_warning_description: "$COUNTRY$: $RAID$"
  tooltip_raid_result: "The $RAID_DESC|H$ ended in $OUTCOME_TYPE|H$."
  tooltip_raid_view_details_prompt: "§GClick§! to view details"
- tooltip_raid_close_report_prompt: "§GRight Click§! to dismiss the report"
+ tooltip_raid_close_report_prompt: "§GRight-Click§! to dismiss the report"
 
  cancel_raid_popup_title: "Confirm Cancellation"
  cancel_raid_popup_desc: "Are you sure you want to §Rabort§! the $RAID|H$?"
@@ -474,6 +476,8 @@
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
  raid_target_name_state: "$LOCATION|H$"
+
+ early_nuclear_raid_unlock: "Prepared prototype bomb for deployment"
 
  #Custom Raid Names
 

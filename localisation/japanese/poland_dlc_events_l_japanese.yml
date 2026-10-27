@@ -48,7 +48,7 @@
  poland.20.d: "連帯無き自由はない！"
  poland.20.e: "素晴らしい！"
  poland.20.f: "地獄に落ちろ！"
- poland.21.t: "[DNZ.GetNameDef]は[Ger.GetNameDefCap]との統合を模索"
+ poland.21.t: "[DNZ.GetNameDef]が[GER.GetNameDef]との統合を要請"
  poland.21.d: "[DNZ.GetNameDef]の市街地で戦火が上がる中、[DNZ.GetLeader]は[POL.GetLeader]軍に立ち向かうが、明らかに一つの都市だけでは[POL.GetNameDef]軍の全ての猛攻撃に耐えるのに不十分である。[Root.GetRulingParty]党の一員として、[DNZ.GetLeader]は[Root.GetLeader]に答える義務があり、[DNZ.GetAdjective]の敗北は受け入れざるものなのだ。[GER.GetNameDefCap]は[DNZ.GetNameDef]の守護者として参戦し、守護者のように見せかけて都市を占領するという独自の機会を得ることが可能となる……"
  poland.21.a: "グダニスクはダンツィヒのまま残るのだ！"
  poland.21.b: "巻き込まれてはいけない"

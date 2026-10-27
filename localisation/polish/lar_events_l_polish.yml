@@ -638,6 +638,8 @@
  occupied_countries.1.desc: "[From.From.GetNameDef]: Po długich wysiłkach mających na celu poprawę współpracy i komunikacji między naszymi siłami okupacyjnymi a miejscowymi władzami cywilnymi możemy już przekazać kontrolę nad krajem na powrót w ręce lokalnego rządu. Nowy rząd składa się ze sprzyjających nam cywili i jest gotowy na bliską współpracę z nami."
  occupied_countries.1.a: "Mają nasze błogosławieństwo."
  occupied_countries.1.b: "Jeszcze nie są gotowi."
+ occupied_countries.1.c: "Przestańcie przychodzić do mnie z tymi wnioskami."
+ occupied_countries.1.c_tt: "Nie będziemy dłużej powiadamiani, gdy jakiś okupowany kraj stanie się gotowy na utworzenie §Yrządu kolaboracyjnego§!.\nNadal można go w każdej chwili stworzyć dzięki decyzjom §Yzagranicznych wpływów§!."
  lar_news.1.t_franco: "Zwycięstwo nacjonalistów w hiszpańskiej wojnie domowej"
  lar_news.1.t_falangist: "Zwycięstwo falangistów w hiszpańskiej wojnie domowej"
  lar_news.1.t_carlists: "Zwycięstwo karlistów w hiszpańskiej wojnie domowej"

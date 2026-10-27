@@ -951,7 +951,7 @@ ideas = {
 			removal_cost = -1			
 
 			modifier = {
-				specialization_nuclear_speed_factor = 0.05
+				specialization_nuclear_speed_factor = 0.1
 			}
 		}
 

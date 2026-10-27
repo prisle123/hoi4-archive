@@ -55,7 +55,7 @@
  EVENT_AUTONOMY_EFFECTS: "§H自治度への影響§!"
  ADD_AUTONOMY_SCORE_DESC: "£autonomy_texticon $VALUE|H2$を追加"
  ADD_AUTONOMY_SCORE_DETAILED_DESC: "$COUNTRY|H$で£autonomy_texticon $VALUE|H2$を追加"
- COLONIAL_FORCES_GENERAL_DESCRIPTION: "§Gクリックして従属国・亡命政府の師団編制を見る§!\n\n植民地師団編制で作成された師団は、植民地の自治度が低い程、植民地からの人的資源をより多く含めることができる。"
+ COLONIAL_FORCES_GENERAL_DESCRIPTION: "§Gクリック§!で従属国・亡命政府の師団編制が表示される\n\n植民地師団編制で作成された師団は、植民地の自治度が低いほど、植民地からの人的資源をより多く含めることができる。"
  COLONIAL_FORCES_NO_SUBJECTS: "§R使用可能な従属国・亡命政府の師団編制なし§!"
  FOREIGN_TEMPLATE_DESC: "従属国$COUNTRY|H$の師団編制。編制を複製し、それを基に植民地軍を作成できる。植民地の師団編制には自治度に応じて、従属国の人員が供出される。"
  COLONIAL_TEMPLATE_DESC: "$COUNTRY|H$の植民地師団編制。植民地師団編制には自治度に応じて、従属国の人員が供出される。"

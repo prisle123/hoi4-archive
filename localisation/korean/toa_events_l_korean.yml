@@ -1213,7 +1213,7 @@
  TOA_ven_blockade.1.a: "[FROM.GetName]에게 맞설 순 없다."
  TOA_ven_blockade.1.b: "이건 선전포고다!"
  TOA_ven_blockade.2.t: "$TOA_ven_blockade.1.t$"
- TOA_ven_blockade.2.desc: "[FROM.GetName](은)는 [Ven.GetName](을)를 완전히 봉쇄하기 위해 대담하고 폭력적인 조치를 취했습니다. 카라카스 외곽에서 수 척의 주력함이 목격되었으며 [VEN.GetAdjective] 정부는 국가 간의 석유 거래를 중단하기 위해 전면 봉쇄가 실시했다는 통보를 받은 것으로 추정됩니다."
+ TOA_ven_blockade.2.desc: "[FROM.GetName](은)는 [VEN.GetNameDef](을)를 완전히 봉쇄하기 위해 대담하고 폭력적인 조치를 취했습니다. 카라카스 외곽에서 수 척의 주력함이 목격되었으며 [VEN.GetAdjective] 정부는 국가 간의 석유 거래를 중단하기 위해 전면 봉쇄가 실시했다는 통보를 받은 것으로 추정됩니다."
  TOA_ven_blockade.2.a: "명백한 중립 위반이다!"
  paraguay.1.t: "요새화 지출 증액 기회"
  paraguay.1.desc: "후마이타를 재건함으로써 우리는 국방 지출을 늘리고 수도의 강 입구를 더욱 방어하기 위한 작은 요새를 포함하여 주변 지역에 추가 요새를 건설할 기회를 얻었습니다."

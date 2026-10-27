@@ -38,6 +38,8 @@
  PLAYTHROUGH_OV_NOT_ELIGIBLE: "Из-за использования консольных команд или модификаций получать медали и орденские ленты в этой игре будет нельзя"
  PLAYTHROUGH_OV_MP: "В сетевых играх статистика не ведется"
  PLAYTHROUGH_OV_MP_AWARDS: "В сетевых играх медали и орденские ленты не вручаются"
+ PLAYTHROUGH_OV_CONTINUE: "Продолжить игру"
+ PLAYTHROUGH_OV_EXIT_TO_MENU: "Вернуться в главное меню\n§GShift+ЛКМ§!, чтобы выйти без подтверждения"
  #Awards tab
  CAREER_PROFILE_AWARD_TAB_LABEL: "Награды"
  CAREER_PROFILE_AWARD_NOT_ACHIEVED: "Не вручена"

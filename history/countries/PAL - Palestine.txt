@@ -30,6 +30,8 @@ set_convoys = 5
 
 1939.1.1 = {
 
+	set_global_flag = the_1936_PAL_revolt_has_happened
+
 	add_political_power = 1198
 	add_command_power = 100
 	

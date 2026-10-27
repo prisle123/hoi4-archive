@@ -201,7 +201,10 @@
  SHX_suiyuan_campaign_idea: "Verteidigung gegen den Suiyuan-Feldzug"
  JAP_sufu_materials: "Sufu-Material"
  JAP_boeitai_idea: "Boeitai"
+ JAP_ketsugo_field_expedients: "Operation Ketsu-Go"
+ JAP_ketsugo_field_expedients_tt: "Die Beschlagnahmungen werden nach Kriegsende aufgehoben, und dieser Nationalgeist verschwindet."
  JAP_is_home_islands_state_tt: "Beliebiger Staat auf den §YHeimatinseln§!"
+ JAP_is_main_home_islands_state_tt: "Beliebiger Staat auf den vier §YHaupt-Heimatinseln§!"
  JAP_collapsing_government_idea: "Zusammenbruch des Kabinetts"
  JAP_advance_one_hundred_million_fireballs_idea: "Vorwärts, 100 Millionen Feuerbälle"
  JAP_the_eternal_kingdom_idea: "Das Ewige Reich"
@@ -513,6 +516,7 @@
  #### TOOLTIPS ###
  CHI_modify_corruption_in_the_administration_tt: "Modifiziert „§Y$CHI_corruption_in_the_administration$§!“ um:"
  CHI_modify_reorganized_administration_tt: "Modifiziert „§Y$CHI_reorganized_administration$§!“ um:"
+ CHI_corruption_recruitable_fake_tt: "Rekrutierbare-Bevölkerung-Faktor: §R-78%§!"
  CHI_modify_illicit_trade_tt: "Modifiziert „§Y$CHI_illicit_trade$§!“ um:"
  CHI_modify_inefficient_economy_tt: "Modifiziert „§Y$CHI_inefficient_economy$§!“ um:"
  CHI_modify_neglected_countryside_tt: "Modifiziert „§Y$CHI_neglected_countryside$§!“ um:"

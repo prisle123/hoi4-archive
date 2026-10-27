@@ -469,6 +469,8 @@
  TUR_saadabad_pact_faction_tt: "Wir werden alle Unterzeichner des §YSaadabad-Pakts§! in ein formelles Bündnis einladen."
  TUR_no_faction_members_tt: "Der Saadabad-Pakt hat keine Unterzeichner"
  TUR_no_faction_alliance_members_tt: "Die Unterzeichner des Saadabad-Pakts haben das Konkordat von Saadabad nicht ratifiziert."
+ TUR_third_expedition_to_aceh: "Dritte osmanische Expedition nach Aceh"
+ TUR_third_expedition_to_aceh_desc: "Nachdem das Reich wieder zu alter Stärke fand, ist es an der Zeit, unseren Anspruch auf die einst unter osmanischer Kontrolle stehenden Protektorate und Besitztümer in Übersee erneut geltend zu machen. Dafür müssen wir zunächst sicherstellen, dass unsere Flotte dieser Aufgabe gewachsen ist. Unser erstes Ziel wird die Wiedererrichtung des Protektorats über Aceh sein."
  TUR_the_damascus_diktat: "Das Damaskus-Diktat"
  TUR_the_damascus_diktat_desc: "[677.Controller.GetNameDefCap] ist schwach. Wir müssen nur mit der Möglichkeit eines Krieges drohen, falls sie Syrien nicht aufgeben, dann werden sie auf die Knie fallen, um Frieden betteln und uns anflehen, ihnen Syrien abzunehmen."
  TUR_supporting_the_east: "Unterstützung für den Osten"

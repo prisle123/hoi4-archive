@@ -201,7 +201,10 @@
  SHX_suiyuan_campaign_idea: "수원사변 방어"
  JAP_sufu_materials: "레이온 스프 직물"
  JAP_boeitai_idea: "방위대"
+ JAP_ketsugo_field_expedients: "결호 작전의 야전 임시 조치"
+ JAP_ketsugo_field_expedients_tt: "전쟁이 끝나면 징발 조치를 종료하고 이 국민정신을 제거합니다."
  JAP_is_home_islands_state_tt: "아무 §Y일본 열도§! 주"
+ JAP_is_main_home_islands_state_tt: "§Y일본 열도§!의 4대 주요 섬 중 하나에 속한 주"
  JAP_collapsing_government_idea: "내각의 붕괴"
  JAP_advance_one_hundred_million_fireballs_idea: "전진하라, 1억 개의 불덩어리여!"
  JAP_the_eternal_kingdom_idea: "영원불멸의 제국"
@@ -513,6 +516,7 @@
  #### TOOLTIPS ###
  CHI_modify_corruption_in_the_administration_tt: "§Y$CHI_corruption_in_the_administration$§! 변동치:"
  CHI_modify_reorganized_administration_tt: "§Y$CHI_reorganized_administration$§! 변동치:"
+ CHI_corruption_recruitable_fake_tt: "모병 가능 인구 변동치: §R-78%§!"
  CHI_modify_illicit_trade_tt: "§Y$CHI_illicit_trade$§! 변동치:"
  CHI_modify_inefficient_economy_tt: "§Y$CHI_inefficient_economy$§! 변동치:"
  CHI_modify_neglected_countryside_tt: "§Y$CHI_neglected_countryside$§! 변동치:"

@@ -370,7 +370,7 @@ GER = {
 		23 = { #italy
 			o_eiche
 			o_achse
-			o_alaric
+			o_alarich
 			o_scwartz
 			o_siegfried
 			o_konstantin
@@ -4770,7 +4770,7 @@ TAJ = {
 		names = {
 			Abdullo Abdullohi Abdurahman Abdusalom Ahmadjon Alisher Anvan Bahodur Bakhriddin Daler Darvesh Daryo Davlatali Farkhod Farrukh Firuz Habibullo Hoji Homid Ibrohim Ilhom Ismoil Jahongir Jamshed Janob Jurabek Khakim Khon
 			Mamadsho Mamur Mashhadi Mirali Mirzo Muhammad Muhammadjon Mukhammad Mullo Murod Nosir Nuriddin Odil Pulod Rahmatillo Rahmatullo Raimkul Ramazon Ravshan Ravshanbek Rustam Sadullo Samandar Shuhrat Sobir Suhrob Tohir
-			Ulugbek Ustoz Yoqub Zokir
+			Ulugbek Ustoz Yoqub Zokir Abbas Abdolazim Abdolhossein Abdolsamad Abolghasem Afshin Ahmad Ali Amir Ammar Arash Ardashir Aria Arman Armand Arshad Arvin Atash Aziz Babak Bahram Bardia Basir Bijan Dalir Dariush Derafsh Ebrahim Ehsan Ervin Esmail Farbod Farhad Farrokh Farshid Fazlollah Hamid Hamzeh Hasan Hassan Hormuzd Hossein Iman Izad Jamshid Kamran Karim Kasra Khashayar Khosrow Kourosh Mahmoud Manuchehr Marzban Massoud Mazdak Mazdan Maziar Mehdi Mehran Mehrdad Milad Mir Mohammad Muhsin Murad Nosret Omid Papak Parsa Parviz Payam Pedram Piruz Pouria Ramin Rexa Reza Rostam Sadegh Sassan Sepehr Shahin Shahryar Shams Shapour Shervin Sohrab Soroush Turan Vahid Vandad Yousef Zand Zartosh Zurvan
 		}
 	}
 	female = {
@@ -4781,7 +4781,7 @@ TAJ = {
 	surnames = {
 		Abdulayev Abdullaev Abdulloev Abdulov Abdurakhmanov Abdurashidov Akbarov Akhmadov Aliev Alimov Amirov Azizov Babaev Boqiev Burkhanov Choriev Dzamshedov Ergashev Hamidov Haydarov Ibragimov Idrisov Isaev Islamov Ismailov
 		Isoev Jalilov Juraev Kadyrov Karimov Kasymov Khasanov Kurbanov Kurbonov Majidov Mamurov Mirzoev Murodov Musaev Nabiyev Niyazov Niyozov Nuraliev Qurbonov Rakhimov Ramazonov Rasulov Ravshanov Sadykov Saidov Salimov Sharifov
-		Sharipov Sheraliev Sultanov Sultonov Umarov Usmanov Yuldashev Yuldosvhev Yunusov Yusufi Yusufov Yusupov
+		Sharipov Sheraliev Sultanov Sultonov Umarov Usmanov Yuldashev Yuldosvhev Yunusov Yusufi Yusufov Yusupov Abed Ahura Airom Ansari Ayrum Buzarjomehri Davallu Ebrahimi Esfahani Esfandiari Faghihinejad Farahmand Farhani Farrokhzad Ghademi Ghorbani Homayoun Hooshang Jahanbani Jahandar Jahandideh Jahangir Jahanshah Jamshidi Jorjani Kashani Kavoosi Khadem Khiabni Khorasani Khorram-din Khuzai Lajani Madani Mazandarani Mazdaki Mazdani Mehregan Meshhedi Mohsen Mokri Nakhchevani Paria Parsi Pesyan Pouran Rahbar Rajavi Rezaei Rokni Rostamian Sassani Shafaei Shahbakhti Shamshiri Shir-Del Shirazi Tabrizi Tahmasebi Tehrani Turani Zahedi
 	}
 }
 
@@ -7103,7 +7103,7 @@ TOG = {
 }
 
 #Ghana
-GAH = {
+GHA = {
 	male = {
 		names = {
 			Abdul Ablade Akwasi Albert Alex Aliu Anthony Ataa Austin Ave Awal Ben Bernard Cephas Clement Daniel Ebenezer Eddie Edward El Elom Emmanuel Ephraim Eric Francis Frank Fred George Gloria Godfried Gyearbuor Hilla

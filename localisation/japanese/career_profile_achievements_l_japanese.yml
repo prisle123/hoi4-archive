@@ -38,6 +38,8 @@
  PLAYTHROUGH_OV_NOT_ELIGIBLE: "MODやコンソールコマンドを使用しているため、勲章やリボンを獲得することはできません"
  PLAYTHROUGH_OV_MP: "統計データはマルチプレイでは記録されません"
  PLAYTHROUGH_OV_MP_AWARDS: "勲章やリボンはマルチプレイでは獲得できません"
+ PLAYTHROUGH_OV_CONTINUE: "ゲームを続ける"
+ PLAYTHROUGH_OV_EXIT_TO_MENU: "メインメニューに戻る\n§GShift+クリック§!で確認せずに戻る"
  #Awards tab
  CAREER_PROFILE_AWARD_TAB_LABEL: "褒章"
  CAREER_PROFILE_AWARD_NOT_ACHIEVED: "未獲得"

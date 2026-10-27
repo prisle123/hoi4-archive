@@ -259,8 +259,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "endgame_dialog"
-		position = { x = 0 y = 0 }
-		size = { width = 1156 height = 703 }
+		position = { x = 0 y =0 }
+		size = { width = 1156 height = 641 }
 		clipping = no
 		Orientation = center
 		origo = center
@@ -491,19 +491,15 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "countries_info"
-			position = { x = 0 y = 245 }
-			size = { width = 1156 height = 452 }
+			position = { x = 0 y = 235 }
+			size = { width = 1156 height = 390 }
 			Orientation = center_up
 			origo = center_up
 			clipping = no
 
-			iconType = {
+			background = {
 				name = "ladder_background"
 				quadTextureSprite = "GFX_ladder_background"
-				position = { x = 0 y = 0 }
-				scale = 0.9
-				Orientation = center
-				centerposition = yes
 			}
 
 			ButtonType = {
@@ -579,9 +575,9 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "countries_info_list"
-				position = { x=0 y =85 }
+				position = { x = 0 y = 78 }
 				#clipping = no
-				size = { width = 1156 height=367 }
+				size = { width = 1156 height = 315 }
 				margin = { top = 8 bottom = 8 }
 				verticalScrollbar = "career_profile_vertical_slider"
 				scroll_wheel_factor = 40

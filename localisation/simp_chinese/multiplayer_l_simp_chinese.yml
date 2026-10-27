@@ -8,6 +8,8 @@
  SYSTEM_PLAYER_KICKED: "§G§Y$NAME$§!被踢出了游戏。§!"
  SYSTEM_PLAYER_BANNED: "§G§Y$NAME$§!被禁止加入游戏。§!"
  SYSTEM_PLAYER_ARRIVED: "§G§Y$NAME$§!加入了游戏。§!"
+ MODIFIED_CLIENT_DETECTED: "检测到有修改的客户端：$NAME$"
+ MODIFIED_CLIENT_BADGE_TOOLTIP: "主机检测到该玩家的游戏客户端已被修改。"
  CONNECTED: "§G已连接§!"
  NAME_TAKEN: "你的名字已经有人使用，请离开并选择其他名字。"
  CONNECTING: "连接中……"

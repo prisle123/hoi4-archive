@@ -140,6 +140,7 @@ BEL_expansionist_fascist_plan = {
 		#1938
 		BEL_support_the_vnv
 		BEL_revitalize_nederlands
+		BEL_abandon_neutrality	#inserted later, prerequisite for focus below
 		BEL_flanders_ascendant
 		BEL_dietsland
 		BEL_demand_calais

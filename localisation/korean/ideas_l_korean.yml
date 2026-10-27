@@ -2730,7 +2730,7 @@
  KUR_ahmed_barzani: "에흐메데 바르자니"
  KUR_ihsan_nuri: "으흐산 누리"
  NEP_royal_army: "네팔 왕립군"
- SPIRIT_ADD_IDEA: "§G클릭하여 $GROUP|H$ 추가§!"
+ SPIRIT_ADD_IDEA: "§G클릭§!하여 $GROUP|H$ 추가"
  tactic_elastic_defense_preferred_weight_factor: "§Y탄력적 방어§! 전술이 선호 전술일 경우, 해당 전술이 발동될 확률이 높아짐"
  tactic_overwhelming_fire_preferred_weight_factor: "§Y압도적 화력§! 전술이 선호 전술일 경우, 해당 전술이 발동될 확률이 높아짐"
  tactic_seize_bridge_preferred_weight_factor: "§Y교량 점거§! 전술이 선호 전술일 경우, 해당 전술이 발동될 확률이 높아짐"

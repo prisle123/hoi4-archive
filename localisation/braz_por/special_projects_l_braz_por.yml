@@ -790,6 +790,8 @@
  sp_naval_modern_battleship_free_design: "Encouraçado moderno"
  sp_naval_midget_submarine: "Minissubmarino"
  sp_naval_midget_submarine_desc: "Existe um nicho em nossas capacidades navais para um submarino leve, barato e versátil, que poderia ser usado para qualquer coisa, desde sabotagem de portos até incursões contra comboios."
+ JAP_sp_naval_midget_submarine_desc: "$sp_naval_midget_submarine_desc$[JAP_midget_submarine_pearl_harbor_key]"
+ JAP_sp_naval_midget_submarine_pearl_harbor_hint: "\n\nTransportadas por nossos submarinos de frota, essas embarcações poderiam entrar furtivamente no porto antes do $raid_type_JAP_pearl_harbor_strike$, aumentando a chance de um §Gsucesso crítico§!."
  sp_naval_midget_submarine_free_design: "Minissubmarino"
  JAP_sp_naval_midget_submarine: "Submarino classe Kō-hyōteki"
  sp_naval_nuclear_torpedo: "Torpedo nuclear"

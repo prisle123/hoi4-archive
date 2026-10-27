@@ -638,6 +638,8 @@
  occupied_countries.1.desc: "Après avoir longuement œuvré à assurer la coopération et la compréhension mutuelle entre nos forces d'occupation et les autorités civiles locales, nous pouvons enfin confier le contrôle [From.From.GetDuDelaDelNP] [From.From.GetName] à un gouvernement local. Celui-ci sera composé de civils bien disposés envers notre cause, et s'est déjà dit prêt à travailler en étroite collaboration avec les autorités [Root.GetAdjFP]."
  occupied_countries.1.a: "Tant mieux"
  occupied_countries.1.b: "Ils ne sont pas encore prêts"
+ occupied_countries.1.c: "Assez de ces demandes grotesques !"
+ occupied_countries.1.c_tt: "Nous ne serons plus prévenus lorsqu'une nation occupée souhaitera former un §Ygouvernement de collaboration§!.\nIls pourront toutefois être formés à tout moment depuis les décisions d'§YInfluence à l'étranger§!."
  lar_news.1.t_franco: "Victoire des nationalistes\ndans la guerre civile espagnole"
  lar_news.1.t_falangist: "Victoire des phalangistes\ndans la guerre civile espagnole"
  lar_news.1.t_carlists: "Victoire des carlistes\ndans la guerre civile espagnole"

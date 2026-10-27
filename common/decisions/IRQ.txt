@@ -88,10 +88,10 @@ IRQ_arab_free_legion_cat = {
 
 		custom_cost_trigger = {
 			command_power > 24.9
-			has_equipment = { infantry_equipment > 1999 }
+			has_equipment = { infantry_equipment > 999 }
 		}
 
-		custom_cost_text = decision_cost_cp_25_ie_2000
+		custom_cost_text = decision_cost_cp_25_ie_1000
 		
 		fire_only_once = yes
 		days_remove = 30
@@ -100,7 +100,7 @@ IRQ_arab_free_legion_cat = {
 			add_command_power = -25
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = -2000
+				amount = -1000
 			}
 			hidden_effect = {
 				set_country_flag = IRQ_recruiting_arab_legion

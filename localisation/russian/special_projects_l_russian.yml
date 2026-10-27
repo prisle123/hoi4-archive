@@ -790,6 +790,8 @@
  sp_naval_modern_battleship_free_design: "Современный линкор"
  sp_naval_midget_submarine: "Сверхмалая подводная лодка"
  sp_naval_midget_submarine_desc: "В нашем флоте есть незаполненная ниша. Закрыть ее мы планируем с помощью легкой, дешевой и универсальной подводной лодки, которая сможет выполнять множество задач — от диверсий в портах до нападений на конвои."
+ JAP_sp_naval_midget_submarine_desc: "$sp_naval_midget_submarine_desc$[JAP_midget_submarine_pearl_harbor_key]"
+ JAP_sp_naval_midget_submarine_pearl_harbor_hint: "\n\nЗапускаемые с подлодок-носителей, эти подводные суда могут легко проникнуть в гавань перед ударом по Перл-Харбору и повысить вероятность §Gогромного успеха§!."
  sp_naval_midget_submarine_free_design: "Сверхмалая подводная лодка"
  JAP_sp_naval_midget_submarine: "Сверхмалая подводная лодка типа А"
  sp_naval_nuclear_torpedo: "Атомная торпеда"

@@ -1244,26 +1244,26 @@ DEFAULT_midlate_template_design = {
 	}
 }
 
-save_admiral_pp_for_later = {
-	enable = {
-		has_war = no
-		threat < 0.3
-		has_political_power < 200
-	}
-	abort = {
-		OR = {
-			has_war = yes
-			threat > 0.3
-			has_political_power > 200
-		}
-	}
+# save_admiral_pp_for_later = {	#Obsolete
+# 	enable = {
+# 		has_war = no
+# 		threat < 0.3
+# 		has_political_power < 200
+# 	}
+# 	abort = {
+# 		OR = {
+# 			has_war = yes
+# 			threat > 0.3
+# 			has_political_power > 200
+# 		}
+# 	}
 
-	ai_strategy = { # dont burn PP on admirals (can still get free ones)
-		type = pp_spend_priority
-		id = admiral
-		value = -100
-	}
-}
+# 	ai_strategy = { # dont burn PP on admirals (can still get free ones)
+# 		type = pp_spend_priority
+# 		id = admiral
+# 		value = -100
+# 	}
+# }
 
 do_not_waste_pp_if_saving_for_manpower_laws = {
 

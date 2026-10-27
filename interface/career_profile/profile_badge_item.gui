@@ -53,5 +53,13 @@ guiTypes = {
 			multiline = no
 			alwaystransparent = yes
 		}
+
+		iconType = {
+			name = "modified_client_warning"
+			spriteType = "GFX_warning_icon"
+			position = { x = 360 y = 6 }
+			alwaystransparent = yes
+			pdx_tooltip = "MODIFIED_CLIENT_BADGE_TOOLTIP"
+		}
 	}
 }

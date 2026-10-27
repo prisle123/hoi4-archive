@@ -1510,7 +1510,7 @@
  ITA_european_democracies_tt: "§Yヨーロッパの国々§!は、イタリアからの外交的要請を受け入れやすい傾向にある。"
  ITA_european_democracies_bonus_per_ally_tt: "\n[ROOT.GetName]の派閥に所属する、独立した民主主義国家の数だけ、安定度§G+2.00%§!、政治力§G+25§!を獲得（安定度は最大§Y+10.00%§!、政治力は最大§Y+125§!まで）\n\n"
  ITA_peace_preservation_guarantees_tt: "ヨーロッパにおける全ての独立した§Y民主主義§!国家、あるいは§Y[ROOT.GetNameWithFlag]§!の同盟国に以下を保障:"
- ITA_peace_preservation_ns_tt: "\n（消費財工場: 保障の対象となっている全ての国に対し、§Y2.0%§!（最大§Y-10.0%§!）、戦争協力度: 保障の対象となっている全ての国に対し、§G+1.00%§!（最大§Y+10.00%§!まで）、一週間の人的資源: 保障の対象となっている全ての国に対し、§G+100§!（最大§Y+1000§!まで）を与える、国民精神§Y$ITA_peace_keepers_of_europe$§!を獲得。"
+ ITA_peace_preservation_ns_tt: "\n（消費財工場: 保障の対象となっている全ての国に対し、§Y2.0%§!（最大§Y-20.0%§!）、戦争協力度: 保障の対象となっている全ての国に対し、§G+1.00%§!（最大§Y+10.00%§!まで）、一週間の人的資源: 保障の対象となっている全ての国に対し、§G+100§!（最大§Y+1000§!まで）を与える、国民精神§Y$ITA_peace_keepers_of_europe$§!を獲得。"
  ITA_scientific_cooperation_allies_ns_tt: "§Y[ROOT.GetNameDef]§!と§Y[ROOT.GetAdjective]の全て同盟国§!が、国民精神§Y$ITA_scientific_cooperation$§!を獲得。"
  ITA_secure_the_borders_forts_tt: "非友好国と国境が接している全てのプロヴィンスに、§Y$bunker$を2つ§!追加。\n現在の効果:"
  ITA_scientific_cooperation_research_sharing_group_tt: "全ての同盟国が、§Y$ITA_program_for_scientific_cooperation_name$§!に参加。"

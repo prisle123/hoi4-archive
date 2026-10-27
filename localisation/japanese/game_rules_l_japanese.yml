@@ -225,7 +225,7 @@
  RULE_OPTION_INDEPENDENCE_COM: "趙尚志のクーデター"
  RULE_OPTION_RANDOM: "ランダム"
  RULE_OPTION_DEFAULT: "デフォルト"
- RULE_OPTION_DEFAULT_AI_DESC: "AIは、史実方針や他のゲームシナリオへの設定のようなゲーム設定に基づいた決定をするでしょう。これはバージョン1.5以前と同様の行動です。"
+ RULE_OPTION_DEFAULT_AI_DESC: "史実AI方針が有効な場合、AIはそれに従う。それ以外の場合は、実行するゲームプランを重み付きでランダムに選択する。"
  RULE_OPTION_RANDOM_AI_DESC: "AIはゲーム開始時にゲームプランをランダムに決定し、実行しようとするでしょう。"
  RULE_OPTION_FASCIST_GER_AI_DESC: "AIドイツは関連の国家方針を進めることで、ファシズムを存続させ、ヨーロッパを支配しようとするでしょう。"
  RULE_FASCIST_JAP_AI_DESC: "AI日本は史実ルートをたどり、関連の国家方針を進めることで、西側の連合国に対して南進しようとするでしょう。"

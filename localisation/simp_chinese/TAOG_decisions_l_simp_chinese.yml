@@ -426,7 +426,7 @@
  SIA_poster_left_days_remaining_text: "剩余§Y[?SIA_propaganda_left_days_remaining_flag:days_left|Y0]§!日"
  SIA_poster_center_days_remaining_text: "剩余§Y[?SIA_propaganda_center_days_remaining_flag:days_left|Y0]§!日"
  SIA_poster_right_days_remaining_text: "剩余§Y[?SIA_propaganda_right_days_remaining_flag:days_left|Y0]§!日"
- SIA_propaganda_campaign_cooldown_tt: "该宣传活动将在被移除§Y[?constant:propaganda.SIA.default_propaganda_campaign_cooldown]日§!后再次可用。"
+ SIA_propaganda_campaign_cooldown_tt: "该宣传活动将在被移除，§Y[?constant:propaganda.SIA.default_propaganda_campaign_cooldown]日§!后再次可用。"
  SIA_public_credit_repayment: "公共信贷偿还"
  SIA_public_credit_repayment_tt: "我们将一次性偿还全部公共信贷，以承受巨大的临时§Y消费品§!惩罚为代价，消除所有债务。"
  idea_SIA_deficit_spending: "赤字财政"
@@ -767,7 +767,7 @@
  # Formables
  AST_australasia_flag: "§Y澳大拉西亚§!已成立"
  AST_australia_formables_category: "澳大拉西亚"
- AST_australia_formables_category_desc: "尽管我们的根脉深植于遥远的南方，但我们的臂膀已然伸展得漫长而辽阔，令世人再也无法忽视我们对世界事务的洞见与主张。我们已然壮大，或许还将继续拓展疆域，而赋予这片土地一个崭新的名号，将使这一事实愈发昭然若揭。我们自茧中破壳而出，振翅高飞，令整个世界瞩目并认同，将我们的斑斓色彩与独特纹理，铭刻为一个崭新的国名——澳大拉西亚。"
+ AST_australia_formables_category_desc: "尽管我们的根脉深植于遥远的南方，但我们的臂膀已经伸展得漫长而辽阔，令他人再也无法忽视我们对世界事务的洞见与主张。我们已经壮大，或许还将继续拓展疆域，而赋予这片土地一个崭新的名号，将使这一事实愈发昭然若揭。我们自茧中破壳而出，振翅高飞，令整个世界瞩目并认同，将我们的斑斓色彩与独特纹理，铭刻为一个崭新的国名——澳大拉西亚。"
  AST_form_australasia: "成立澳大拉西亚"
  AST_form_australasia_australia_required_states_tt: "控制所有§Y[AST.GetNonIdeologyName]§!地区。"
  AST_form_australasia_melanesia_required_states_tt: "控制所有§Y美拉尼西亚§!地区。"

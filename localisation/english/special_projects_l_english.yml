@@ -202,7 +202,7 @@
  NOT_CAN_CONSTRUCT_BUILDING_IN_STATE: "Can't construct a $BUILDING|Y$ in $STATE|Y$"
  CONSTRUCT_BUILDING_IN_STATE: "Construct a $BUILDING|Y$ in $STATE|Y$"
 
- DISMANTLE_FACILITY_DESC_TT: "§GClick§! to dismantle the facility building.\n\nIt will take $DAYS|Y$ days"
+ DISMANTLE_FACILITY_DESC_TT: "§GClick§! to dismantle the facility building\n\nIt will take $DAYS|Y$ days"
  ABORT_DISMANTLE_FACILITY_DESC_TT: "§GClick§! to abort the dismantling of the facility building"
  ABORT_DISMANTLE_PROJECT_POPUP_DESC: "Abort dismantling of the facility building?"
  DISMANTLE_FACILITY_TT: "Dismantled in $DAYS|Y$ days"
@@ -900,6 +900,8 @@
 
  sp_naval_midget_submarine: "Midget Submarine"
  sp_naval_midget_submarine_desc: "There exists a niche in our naval capabilities for a lightweight, cheap, and versatile submarine, that could be used for anything from harbor sabotage to convoy raiding."
+ JAP_sp_naval_midget_submarine_desc: "$sp_naval_midget_submarine_desc$[JAP_midget_submarine_pearl_harbor_key]"
+ JAP_sp_naval_midget_submarine_pearl_harbor_hint: "\n\nCarried by our fleet submarines, these craft could slip into the harbor ahead of the $raid_type_JAP_pearl_harbor_strike$, raising the chance of a §Gcritical success§!."
  sp_naval_midget_submarine_free_design: "Midget Submarine"
  JAP_sp_naval_midget_submarine: "Kō-hyōteki-Class Submarine"
 

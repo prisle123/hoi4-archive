@@ -48,7 +48,7 @@
  poland.20.d: "Nie ma wolności bez Solidarności!"
  poland.20.e: "Doskonale!"
  poland.20.f: "Niech to szlag!"
- poland.21.t: "[DNZ.GetNameDef] dąży do integracji z: [Ger.GetNameDefCap]"
+ poland.21.t: "Państwo [DNZ.GetNameDef] dąży do integracji z: [GER.GetNameDef]"
  poland.21.d: "[DNZ.GetNameDef]: na ulicach trwa wojna, [DNZ.GetLeader] nie zamierza ugiąć się pod naporem sił, którymi dowodzi [POL.GetLeader], ale jedno miasto z pewnością nie może wytrzymać naporu wojsk [POL.GetAdjective] [DNZ.GetLeader] jest członkiem partii [Root.GetRulingParty], więc [Root.GetLeader] jest jego zwierzchnikiem, a [DNZ.GetAdjective] porażka jest niedopuszczalna. [GER.GetNameDefCap] może przystąpić do tej wojny po stronie obrońców, co dałoby doskonałą okazję do przejęcia miasta [DNZ.GetNameDef] pod pozorem jego obrony..."
  poland.21.a: "Gdańsk nadal będzie nazywał się Danzig!"
  poland.21.b: "Nie będziemy się wtrącać."

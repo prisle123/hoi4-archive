@@ -169,7 +169,7 @@
  DOD_hungary.61.b: "Wir können jetzt nicht einfach klein beigeben."
  DOD_hungary.61.c: "Bitten wir um eine Mediation."
  DOD_hungary.62.t: "Balkankrise – [From.GetNameDef] unterstützt Rumänien"
- DOD_hungary.62.desc: "Unser Botschafter in [From.GetNameDef] wurde einbestellt und darüber informiert, dass die territoriale Integrität von Rumänien für [From.GetNameDef] von nationalem Interesse sei. Insbesondere die Ölquellen von Ploesti sind für [From.GetNameDef] sehr wichtig. Sollte Siebenbürgen an uns fallen oder sollten wir versuchen, Rumänien als Ganzes zu besetzen, wäre die Ölversorgung stark gefährdet. Die [From.GetAdjective]e Regierung ist offenbar nicht bereit, dieses Risiko einzugehen. Sie geht sogar so weit, eine militärische Intervention auf Seiten Rumäniens anzudrohen, sollte es zum Krieg kommen."
+ DOD_hungary.62.desc: "Unser Botschafter in [From.GetNameDef] wurde einbestellt und darüber informiert, dass die territoriale Integrität von Rumänien für [From.GetNameDef] von nationalem Interesse sei. Insbesondere die Ölquellen von Ploiesti sind für [From.GetNameDef] sehr wichtig. Sollte Siebenbürgen an uns fallen oder sollten wir versuchen, Rumänien als Ganzes zu besetzen, wäre die Ölversorgung stark gefährdet. Die [From.GetAdjective]e Regierung ist offenbar nicht bereit, dieses Risiko einzugehen. Sie geht sogar so weit, eine militärische Intervention auf Seiten Rumäniens anzudrohen, sollte es zum Krieg kommen."
  DOD_hungary.62.a: "Wir müssen nachgeben."
  DOD_hungary.62.b: "Dieser Krieg wird beendet sein, bevor sie überhaupt eintreffen."
  DOD_hungary.62.c: "Bitten wir um eine Mediation."

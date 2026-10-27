@@ -1213,7 +1213,7 @@
  TOA_ven_blockade.1.a: "Não podemos enfrentar [FROM.GetNameDef]."
  TOA_ven_blockade.1.b: "Isso é uma declaração de guerra!"
  TOA_ven_blockade.2.t: "$TOA_ven_blockade.1.t$"
- TOA_ven_blockade.2.desc: "O governo [FROM.GetAdjective] tomou a decisão ousada e ultrajante de isolar completamente [Ven.GetNameDef]. Grandes navios de guerra foram avistados perto de Caracas, e parece que o governo [VEN.GetAdjective] foi informado de que um bloqueio total foi decretado para interromper o comércio de petróleo entre nossos países."
+ TOA_ven_blockade.2.desc: "O governo [FROM.GetAdjective] tomou a decisão ousada e ultrajante de isolar completamente [VEN.GetNameDef]. Grandes navios de guerra foram avistados perto de Caracas, e parece que o governo [VEN.GetAdjective] foi informado de que um bloqueio total foi decretado para interromper o comércio de petróleo entre nossos países."
  TOA_ven_blockade.2.a: "Uma clara violação da neutralidade!"
  paraguay.1.t: "Oportunidade para aumentar os gastos com defesa"
  paraguay.1.desc: "A reconstrução de Humaitá nos dá a oportunidade de aumentar os gastos com defesa e construir mais fortificações nas áreas próximas, incluindo um pequeno forte para proteger ainda mais a enseada da capital."

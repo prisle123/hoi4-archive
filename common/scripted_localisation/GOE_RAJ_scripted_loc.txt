@@ -138,6 +138,118 @@ defined_text = {
 		localization_key = RAJ_hidden_pressure_PAK_BAN_does_not_exist
 	}
 
+	text = { #I am BAN and havent revealed pressure
+		trigger = {
+			ROOT = {
+				original_tag = BAN
+				NOT = { has_country_flag = reveal_pressure }
+			}
+		}
+		localization_key = RAJ_hidden_pressure_BAN
+	}
+
+}
+
+# Vie for Princely States gain line, ROOT is the country and FROM the targeted state
+defined_text = {
+	name = GetVieForPrincesGainText
+
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					ROOT = { original_tag = RAJ }
+					FROM = { has_state_flag = prefers_raj }
+				}
+				AND = {
+					ROOT = { original_tag = PAK }
+					FROM = { has_state_flag = prefers_pak }
+				}
+				AND = {
+					ROOT = { original_tag = BAN }
+					FROM = { has_state_flag = prefers_ban }
+				}
+			}
+		}
+		localization_key = RAJ_GOE_vie_for_princes_gain_lean_tt
+	}
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = RAJ_GOE_vie_for_princes_gain_tt
+	}
+}
+
+# Partition panel row picker, THIS is the state and ROOT the viewing player, an empty name drops the row
+defined_text = {
+	name = GetRAJPartitionStateEntry
+
+	text = {
+		trigger = {
+			OR = {
+				has_global_flag = RAJ_GOE_partition_is_over
+				is_controlled_by = RAJ
+				is_controlled_by = PAK
+				is_controlled_by = BAN
+			}
+		}
+		localization_key = ""
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					ROOT = { original_tag = RAJ }
+					has_state_flag = prefers_raj
+				}
+				AND = {
+					ROOT = { original_tag = PAK }
+					has_state_flag = prefers_pak
+				}
+				AND = {
+					ROOT = { original_tag = BAN }
+					has_state_flag = prefers_ban
+				}
+			}
+		}
+		localization_key = "raj_goe_partition_state_entry_lean"
+	}
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "raj_goe_partition_state_entry"
+	}
+}
+
+# Viewing player's own pressure on the row's state, rival pressure stays hidden
+defined_text = {
+	name = GetRAJPartitionOwnPressure
+
+	text = {
+		trigger = {
+			ROOT = { original_tag = PAK }
+		}
+		localization_key = RAJ_GOE_partition_gui_own_pressure_PAK
+	}
+
+	text = {
+		trigger = {
+			ROOT = { original_tag = BAN }
+		}
+		localization_key = RAJ_GOE_partition_gui_own_pressure_BAN
+	}
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = RAJ_GOE_partition_gui_own_pressure_RAJ
+	}
 }
 
 

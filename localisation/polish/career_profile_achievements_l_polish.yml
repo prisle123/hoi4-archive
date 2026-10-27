@@ -38,6 +38,8 @@
  PLAYTHROUGH_OV_NOT_ELIGIBLE: "W twojej rozgrywce nie będzie medali i odznaczeń, ponieważ używasz modyfikacji albo poleceń konsoli"
  PLAYTHROUGH_OV_MP: "W grze wieloosobowej statystyki nie są śledzone"
  PLAYTHROUGH_OV_MP_AWARDS: "Medale i odznaczenia nie będą przyznawane w grach wieloosobowych"
+ PLAYTHROUGH_OV_CONTINUE: "Kontynuuj grę"
+ PLAYTHROUGH_OV_EXIT_TO_MENU: "Powrót do menu głównego\n§GShift+kliknięcie§!, by wyjść bez potwierdzania"
  #Awards tab
  CAREER_PROFILE_AWARD_TAB_LABEL: "Nagrody"
  CAREER_PROFILE_AWARD_NOT_ACHIEVED: "Nie przyznano"

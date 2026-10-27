@@ -8,6 +8,8 @@
  SYSTEM_PLAYER_KICKED: "Se ha expulsado a §G§Y$NAME$§! de la partida.§!"
  SYSTEM_PLAYER_BANNED: "Se ha baneado a §G§Y$NAME$§! de la partida.§!"
  SYSTEM_PLAYER_ARRIVED: "§G§Y$NAME$§! se ha unido a la partida.§!"
+ MODIFIED_CLIENT_DETECTED: "Cambio de cliente detectado: $NAME$"
+ MODIFIED_CLIENT_BADGE_TOOLTIP: "El anfitrión ha detectado que este jugador ha cambiado de cliente de juego."
  CONNECTED: "§GConectado.§!"
  NAME_TAKEN: "Tu nombre ya está en uso. Sal y selecciona otro."
  CONNECTING: "Conectando..."

@@ -319,7 +319,7 @@ guiTypes = {
 			position = { x = 122 y = 469 }
 			quadTextureSprite ="GFX_toggle_navalbattle_details" # <- TODO: Make art
 			Orientation = UPPER_LEFT
-			pdx_tooltip = "CLICK_DETAILS"
+			pdx_tooltip = "CLICK_DETAILS_CLICK"
 		}
 
 		containerWindowType = {

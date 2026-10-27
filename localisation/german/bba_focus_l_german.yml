@@ -1510,7 +1510,7 @@
  ITA_european_democracies_tt: "§YEuropäische Länder§! werden eher dazu geneigt sein, diplomatische Anfragen von Italien anzunehmen."
  ITA_european_democracies_bonus_per_ally_tt: "\nErhält §G+2.00%§! Stabilität und §G+25§! Politische Macht pro unabhängigem demokratischen Land in der Fraktion von [ROOT.GetName] (max. §Y+10.00%§! Stabilität und §Y+125§! Politische Macht).\n\n"
  ITA_peace_preservation_guarantees_tt: "Garantie für alle unabhängigen §Ydemokratischen§! europäischen Länder, die mit §Y[ROOT.GetNameWithFlag]§! verbündet sind:"
- ITA_peace_preservation_ns_tt: "\nErhält den Nationalgeist §Y$ITA_peace_keepers_of_europe$§! (Konsumgüterfabriken: §Y-2.0%§! für jedes garantierte Land (max. §Y-10.0%§!), Kriegsunterstützung: §G+1.00%§! für jedes garantierte Land (max. §Y+10.00%§!), Wöchentliche Mannstärke: §G+100§! für jedes garantierte Land (max. §Y+1000§!))."
+ ITA_peace_preservation_ns_tt: "\nErhält den Nationalgeist §Y$ITA_peace_keepers_of_europe$§! (Konsumgüterfabriken: §Y-2.0%§! für jedes garantierte Land (max. §Y-20.0%§!), Kriegsunterstützung: §G+1.00%§! für jedes garantierte Land (max. §Y+10.00%§!), Wöchentliche Mannstärke: §G+100§! für jedes garantierte Land (max. §Y+1000§!))."
  ITA_scientific_cooperation_allies_ns_tt: "§Y[ROOT.GetNameDefCap]§! und §Yjeder [ROOT.GetAdjective]e Untertan§! erhält den Nationalgeist §Y$ITA_scientific_cooperation$§!."
  ITA_secure_the_borders_forts_tt: "Fügt jeder Provinz, die an ein feindliches Land angrenzt §Y2 $bunker$§! hinzu.\nDerzeitige Auswirkung:"
  ITA_scientific_cooperation_research_sharing_group_tt: "Jedes verbündete Land tritt dem §Y$ITA_program_for_scientific_cooperation_name$§! bei."

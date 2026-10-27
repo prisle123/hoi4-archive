@@ -468,7 +468,7 @@
  SWE_narvik_crisis: "La crise de Narvik"
  SWE_narvik_crisis_desc: "Narvik est un port absolument stratégique pour garantir l'exportation du minerai de fer au cours de l'hiver. Pour assurer la sécurité du pays en ces temps troublés, la région devrait donc être placée sous notre autorité. Et si les [NOR.GetHabitants] s'en trouvent affaiblis, qui s'en plaindra ?"
  SWE_bornholm_crisis: "La crise de Bornholm"
- SWE_bornholm_crisis_desc: "Bornholm est passée aux [DEN.GetHabitants] à l'issue d'une révolte, au XVIIe s., mais elle ne leur a jamais été cédée de manière légale. Or, c'est une île stratégique, contrôlant la basse Baltique. Pourtant, il est évident que [DEN.Capital.GetCapitalVictoryPointName] ne peut la protéger. Pour assurer notre sécurité, nous devons la reprendre."
+ SWE_bornholm_crisis_desc: "Bornholm est passée aux [DEN.GetHabitants] à l'issue d'une révolte, au XVIIe s., mais elle ne leur a jamais été cédée de manière légale. Or, c'est une île stratégique, contrôlant la basse Baltique. Pourtant, il est évident que [DEN.GetLeLaLNP] [DEN.GetName] ne peut la protéger. Pour assurer notre sécurité, nous devons la reprendre."
  SWE_the_aland_issue: "La question d'Åland"
  SWE_the_aland_issue_desc: "Les habitants d'Åland parlent suédois, s'identifient comme suédois et, sans l'ingérence de la Société des Nations, seraient aujourd'hui toujours suédois. Comment peut-on donc penser qu'ils ne sont pas suédois ? Il est temps de corriger cette injustice."
  SWE_join_the_anti_soviet_pact: "Ratifier le pacte anti-Komintern"

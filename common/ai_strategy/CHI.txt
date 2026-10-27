@@ -708,22 +708,56 @@ CHI_bog_them_down_and_war_zones_concentrations = {
 		original_tag = CHI
 	}
 	enable = {
-		OR = {
-			has_completed_focus = CHI_bog_them_down_in_the_centre
-			has_completed_focus = CHI_prepare_the_war_zones
-		}
+		# The flag only exists while a CHI_demonstrate_our_resolve hold mission is running, so the
+		# bog down / war zone focuses are not required on top of it.
 		any_core_state = {
 			has_state_flag = CHI_holding_state_mission_flag
 		}
 	}
 	abort_when_not_enabled = yes
-	
+
+	# state_trigger is evaluated on the ENEMY state across the front, so match the states next to
+	# the one we pledged to hold, plus the state itself in case it has already been overrun.
 	ai_strategy = {
 		type = front_unit_request
 		state_trigger = {
-			has_state_flag = CHI_holding_state_mission_flag
+			OR = {
+				has_state_flag = CHI_holding_state_mission_flag
+				any_neighbor_state = {
+					has_state_flag = CHI_holding_state_mission_flag
+				}
+			}
 		}
 		value = 50
+	}
+
+	# Dig in around the state instead of trading it away in attacks. Skipped once this enemy holds
+	# the state, so CHI_declare_war_zone can still be used to take it back.
+	ai_strategy = {
+		type = front_control
+		state_trigger = {
+			any_neighbor_state = {
+				has_state_flag = CHI_holding_state_mission_flag
+				NOT = { is_controlled_by = FROM }
+			}
+		}
+		priority = 150 # Above CHI_hunker_down_now
+		ordertype = front
+		execution_type = careful
+		execute_order = no
+		manual_attack = no
+	}
+
+	# Keep that part of the line intact rather than pulling units out for concentrated pushes.
+	ai_strategy = {
+		type = force_concentration_front_factor
+		state_trigger = {
+			any_neighbor_state = {
+				has_state_flag = CHI_holding_state_mission_flag
+				NOT = { is_controlled_by = FROM }
+			}
+		}
+		value = -50
 	}
 }
 

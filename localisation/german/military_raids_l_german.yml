@@ -98,6 +98,8 @@
  raid_type_JAP_pearl_harbor_strike_desc: "Indem wir eine Bomberstaffel entsenden, um das Hauptquartier der feindlichen Marine und die Flotte im Pazifik anzugreifen, stärken wir zum einen die Moral unseres Volkes und zum anderen versetzen wir der Moral und den Seestreitkräften des Feindes einen Schlag. Dies wird es unserer eigenen Marine erlauben, sechs Monate lang frei zu operieren!"
  success_modifier_completed_kido_butai_focus: "Hat den Schwerpunkt §Y$JAP_form_the_kido_butai$§! abgeschlossen"
  success_modifier_completed_kido_butai_focus_improvement: "- Schließt den Schwerpunkt §Y$JAP_form_the_kido_butai$§! ab"
+ success_modifier_completed_midget_submarine_project: "Hat das Projekt §Y$sp_naval_midget_submarine$§! abgeschlossen"
+ success_modifier_completed_midget_submarine_project_improvement: "- Schließt das Projekt §Y$sp_naval_midget_submarine$§! ab"
  raid_type_CZE_sokolov_raid_pfot: "Falkenau-Überfall"
  raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
  RAID_TARGET_NAME: "$WHAT|H$ in $LOCATION|H$"
@@ -427,6 +429,7 @@
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
  raid_target_name_state: "$LOCATION|H$"
+ early_nuclear_raid_unlock: "Bereitete die Prototypbombe auf den Abwurf vor"
  #Custom Raid Names
  ### PRC
  #Land

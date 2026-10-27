@@ -1213,7 +1213,7 @@
  TOA_ven_blockade.1.a: "Nie możemy przeciwstawić się [FROM.GetAdjective] potędze"
  TOA_ven_blockade.1.b: "To jest wypowiedzenie wojny!"
  TOA_ven_blockade.2.t: "$TOA_ven_blockade.1.t$"
- TOA_ven_blockade.2.desc: "[FROM.GetName] podejmuje śmiały i oburzający krok w celu całkowitego zablokowania [Ven.GetAdjective] terytorium. Okręty wojenne zostały zauważone u wybrzeży Caracas, a rząd [VEN.GetAdjective] został podobno poinformowany, że pełna blokada została wprowadzona w celu zatrzymania handlu ropą między naszymi krajami."
+ TOA_ven_blockade.2.desc: "[FROM.GetName] podejmuje śmiały i oburzający krok w celu całkowitego zablokowania [VEN.GetAdjective] terytorium. Okręty wojenne zostały zauważone u wybrzeży Caracas, a rząd [VEN.GetAdjective] został podobno poinformowany, że pełna blokada została wprowadzona w celu zatrzymania handlu ropą między naszymi krajami."
  TOA_ven_blockade.2.a: "To oczywiste naruszenie neutralności!"
  paraguay.1.t: "Okazja na zwiększenie wydatków na fortyfikacje"
  paraguay.1.desc: "Odbudowa Humaitá dała nam możliwość zwiększenia wydatków na obronność i budowę dodatkowych fortyfikacji w pobliżu, w tym niewielkiego fortu wzmacniającego obronę odnogi rzeki dochodzącej do stolicy."

@@ -1274,3 +1274,20 @@ RAJ_congress_demands_increase_decision_cost = { #Max value is 200
 RAJ_congress_demands_decrease_decision_cost = { #Min value is 20
     
 }
+
+# Patel brings two extra princely state pressure, once, whether hired before or after the partition begins
+RAJ_GOE_patel_partition_pressure_effect = {
+	if = {
+		limit = {
+			has_global_flag = RAJ_GOE_partition_has_happened
+			has_country_flag = RAJ_GOE_patel_in_cabinet
+			NOT = { has_country_flag = RAJ_GOE_patel_pressure_granted }
+		}
+		custom_effect_tooltip = RAJ_GOE_patel_pressure_gain_tt
+		hidden_effect = {
+			add_to_variable = { pressure_left = 2 }
+			set_variable = { default_pressure = pressure_left }
+			set_country_flag = RAJ_GOE_patel_pressure_granted
+		}
+	}
+}

@@ -94,7 +94,7 @@
  JAP_the_co_prosperity_sphere_decisions: "The Co-Prosperity Sphere"
  JAP_the_co_prosperity_sphere_decisions_desc: "Our ultimate goal of controlling Asia is coming ever closer, and through forming a pan-Asian union we can strengthen the ties between the different nations we seek to bring under our wings. We must do all in our power to make this dream a reality."
  JAP_hand_mongol_states_to_mengkukuo_decision: "Hand Mongol States over to the [MEN.GetAdjective] Administration"
- JAP_hand_chinese_states_to_the_reorganized_government_decision: "Hand Kuomintang States over to the [RNG.GetAdjective] Administration"
+ JAP_hand_chinese_states_to_the_reorganized_government_decision: "Hand Kuomintang States over to the [RNG.GetAdjective] Administration" 
 
  JAP_spiritual_mobilization_decisions: "Spiritual Mobilization"
  JAP_spiritual_mobilization_decisions_desc: "The [ROOT.GetAdjective] people are steadfast and ready to support our government in its every decision, as long as sufficient motivation is given. We should mobilize the population, both spiritually and physically, so that they may do their part in the war effort."
@@ -413,6 +413,9 @@
  JAP_government_faction_demands_limited_army_influence: "$JAP_government_faction$ Demands Limited Army Influence"
  JAP_government_faction_demands_limited_navy_influence: "$JAP_government_faction$ Demands Limited Navy Influence"
  JAP_government_faction_demands_limited_zaibatsu_influence: "$JAP_government_faction$ Demands Limited Zaibatsu Influence"
+ JAP_ai_curtail_the_army_faction_decision: "Curtail the Army Faction"
+ JAP_ai_curtail_the_navy_faction_decision: "Curtail the Navy Faction"
+ JAP_ai_curtail_the_zaibatsu_faction_decision: "Curtail the Zaibatsu Faction"
 
 
 
@@ -468,6 +471,9 @@
  CHI_counter_infiltration_measures_flag: "Countering Infiltration Attempt"
  CHI_counter_fascist_infiltration_measures: "Counter [CHI.GetRulingIdeology] Infiltration Measures"
  CHI_counter_fascist_infiltration_measures_level_3: "$CHI_counter_fascist_infiltration_measures$"
+ CHI_vet_the_officer_corps: "Vet the Officer Corps"
+ CHI_vet_the_officer_corps_desc: "Loyalty cannot be assumed, it has to be established. Combing the officer corps for men whose sympathies lie with the communists will cost us time and political capital, but that is cheaper than losing them mid-campaign."
+ CHI_vet_the_officer_corps_tt: "Removes §Y$CHI_dubious_loyalty$§! from our commanders, so they cannot defect to [PRC.GetNameDef] if war breaks out."
  CHI_improve_opium_modifiers_output: "Anti-Smuggling Operations"
  CHI_improve_opium_modifiers_output_trigger: "Illicit Trade industrial output is negative"
  CHI_improve_opium_modifiers_cg: "Government Anti-Corruption Campaign"
@@ -545,7 +551,35 @@
  CHI_move_mios_tt_no_aat: "Will move factories from §Y[?var:selected_mio.GetName]§! to §Y[FROM.GetName]§!"
  is_moving_mios: "Is moving Factories"
  CHI_deselect_mios: " Deselect Moving Factories"
- 
+
+ CHI_relocate_mio_tt: "The organization will stay available to us even if we lose control of its home state."
+ CHI_relocate_mio_shanghai_arsenal: "Relocate the §Y$CHI_shanghai_arsenal$§!"
+ CHI_relocate_mio_kiangnan_shipyard: "Relocate the §Y$CHI_kiangnan_shipyard_group_organization_sea$§!"
+ CHI_relocate_mio_dagu_shipyard: "Relocate the §Y$CHI_dagu_shipyard_organization_sea$§!"
+ CHI_relocate_mio_camco: "Relocate §Y$CHI_camco_organization_sea$§!"
+ CHI_relocate_mio_sinaw: "Relocate §Y$CHI_sinaw_organization_sea$§!"
+ CHI_relocate_mio_mukden_arsenal: "Relocate the §Y$CHI_mukden_arsenal_organization$§!"
+ CHI_relocate_mio_taiyuan_arsenal: "Relocate the §Y$CHI_taiyuan_arsenal_organization_sea$§!"
+ CHI_relocate_mio_liaoning_arsenal: "Relocate the §Y$CHI_liaoning_arsenal_organization_sea$§!"
+ CHI_relocate_mio_hanyan_arsenal: "Relocate the §Y$CHI_hanyan_arsenal_organization_sea$§!"
+ CHI_relocate_mio_china_automobile_corporation: "Relocate the §Y$CHI_china_automobile_corporation_organization$§!"
+ CHI_relocate_mio_jinling_arsenal: "Relocate the §Y$CHI_jinling_arsenal_organization$§!"
+ CHI_relocate_mio_beining_railway_tangshan: "Relocate the §Y$CHI_beining_railway_tangshan_manufacturing_plant$§!"
+
+ # Flag names double as the trigger tooltip text shown in MIO/designer availability.
+ CHI_relocated_shanghai_arsenal: "Has relocated the §Y$CHI_shanghai_arsenal$§!"
+ CHI_relocated_kiangnan_shipyard: "Has relocated the §Y$CHI_kiangnan_shipyard_group_organization_sea$§!"
+ CHI_relocated_dagu_shipyard: "Has relocated the §Y$CHI_dagu_shipyard_organization_sea$§!"
+ CHI_relocated_camco: "Has relocated the §Y$CHI_camco_organization_sea$§!"
+ CHI_relocated_sinaw: "Has relocated the §Y$CHI_sinaw_organization_sea$§!"
+ CHI_relocated_mukden_arsenal: "Has relocated the §Y$CHI_mukden_arsenal_organization$§!"
+ CHI_relocated_taiyuan_arsenal: "Has relocated the §Y$CHI_taiyuan_arsenal_organization_sea$§!"
+ CHI_relocated_liaoning_arsenal: "Has relocated the §Y$CHI_liaoning_arsenal_organization_sea$§!"
+ CHI_relocated_hanyan_arsenal: "Has relocated the §Y$CHI_hanyan_arsenal_organization_sea$§!"
+ CHI_relocated_china_automobile_corporation: "Has relocated the §Y$CHI_china_automobile_corporation_organization$§!"
+ CHI_relocated_jinling_arsenal: "Has relocated the §Y$CHI_jinling_arsenal_organization$§!"
+ CHI_relocated_beining_railway_tangshan: "Has relocated the §Y$CHI_beining_railway_tangshan_manufacturing_plant$§!"
+
  CHI_avoid_another_crisis_cat: "Another Crisis in the Making"
  CHI_avoid_another_crisis_cat_desc: "Since the Mukden incident the Kwantung army has been preparing themselves to invade us yet again. We can now see them posturing more and more for each day and it is only a matter of time until they strike. Maybe [JAP.GetNameDef] can be appeased to keep the peace to allow us to prepare just a bit more."
  CHI_kwantung_army_impatience_dummy: "The Looming Crisis"
@@ -572,7 +606,7 @@
 
  CHI_invite_demo_asian_nation_to_faction_decison: "Invite §Y[FROM.GetNameDef]§! into our Alliance"
  CHI_stir_democratic_sentiments_in_asia_decison: "Stir Republican Sentiments in §Y[FROM.GetNameDef]§!"
- CHI_oust_the_empires_decision: "Demand [FROM.OWNER.GetNameDef] be released by §Y[FROM.Capital.OWNER.GetNameDef]§!"
+ CHI_oust_the_empires_decision: "Demand [FROM.GetNameDef] be released by §Y[FROM.Capital.OWNER.GetNameDef]§!"
 
  ####################################
  #### PEOPLE'S REPUBLIC OF CHINA ####
@@ -998,6 +1032,8 @@ PHI_sugar_excise_divisions: "Fund Training Exercise with Sugar Fund"
  expand_transvaal_coal_mines: "Expand [275.GetName] Coal Mines"
  expand_bihar_coal_mines: "Expand [435.GetName] Coal Mines"
 
+ establish_jaykaynagar_aliminium_smelters: "Establish Jaykaynagar Aluminum Smelters"
+
  BRM_burmah_oils_oil_fields: "The Burmah Oil Company's Oil Fields"
  BRM_blow_up_the_oil_fields: "Blow up the Burmese Oil Fields"
  BRM_blown_up_oil_fields: "Destroyed Oil Fields and Mines"
@@ -1005,3 +1041,6 @@ PHI_sugar_excise_divisions: "Fund Training Exercise with Sugar Fund"
 
  develop_guapore_casserite_deposits: "Develop [942.GetName] Cassiterite Deposits"
  rename_guapore_to_rondonia_decision: "Establish the Federal Territory of Rondônia"
+
+ TIB_integrate_the_bhutia: "Integrate the Bhutias"
+ TIB_integrate_the_ngalop: "Integrate the Ngalop"

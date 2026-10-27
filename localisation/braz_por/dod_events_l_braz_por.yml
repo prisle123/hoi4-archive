@@ -169,7 +169,7 @@
  DOD_hungary.61.b: "Não podemos recuar agora."
  DOD_hungary.61.c: "Pedir por mediação."
  DOD_hungary.62.t: "Crise das Bálcãs - [From.GetNameDef] apoia a Romênia"
- DOD_hungary.62.desc: "Nosso embaixador em [From.GetNameDef] foi chamado para consulta. Durante a reunião ele foi informado de que [From.GetNameDef] considera a integridade territorial da Romênia de seu interesse nacional. Em especial os poços de petróleo de Ploesti são muito importantes para [From.GetNameDef]. Caso a Transilvânia venha para nós, ou se tentarmos ocupar a Romênia como um todo, o suprimento de petróleo ficaria em perigo. O governo [From.GetAdjective] está evidentemente resistente em aceitar o risco e está até mesmo ameaçando uma intervenção militar em favor da Romênia caso a guerra se alastre."
+ DOD_hungary.62.desc: "Nosso embaixador em [From.GetNameDef] foi chamado para consulta. Durante a reunião ele foi informado de que [From.GetNameDef] considera a integridade territorial da Romênia de seu interesse nacional. Em especial os poços de petróleo de Ploiesti são muito importantes para [From.GetNameDef]. Caso a Transilvânia venha para nós, ou se tentarmos ocupar a Romênia como um todo, o suprimento de petróleo ficaria em perigo. O governo [From.GetAdjective] está evidentemente resistente em aceitar o risco e está até mesmo ameaçando uma intervenção militar em favor da Romênia caso a guerra se alastre."
  DOD_hungary.62.a: "Precisamos ceder."
  DOD_hungary.62.b: "Essa guerra acabará antes mesmo que eles cheguem aqui."
  DOD_hungary.62.c: "Pedir por mediação."

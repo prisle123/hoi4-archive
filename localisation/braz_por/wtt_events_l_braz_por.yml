@@ -1108,6 +1108,7 @@
  japan_border_conflict.4.t: "Impasse no Lago Khasan"
  japan_border_conflict.4.desc: "Conflitos entre os japoneses e o grupo [SOV.GetAdjective] sobre o Lago Khasan se encerraram com ambos os lados se retirando da região contestada para se reagruparem e reabastecerem Reconhecendo a futilidade de maiores ofensivas o exército japonês pediu um cessar armas e negociações para consertar a fronteira."
  japan_border_conflict.4.a: "Nós ganhamos experiências valiosas."
+ japan_border_conflict.4.b: "A fronteira continua inalterada."
  japan_border_conflict.5.t: "Conflitos no Lago Khasan"
  japan_border_conflict.5.desc: "Os conflitos entre os japoneses e o grupo [SOV.GetAdjective] sobre o Lago Khasan continuam.  Para acabar com o impasse, as forças japonesas na área também começaram a atacar forças do exército [SOV.GetAdjective] na região. A inteligência sugere que os japoneses podem em breve reforçar o ataque com mais tropas transferidas de outras partes de seu império."
  japan_border_conflict.5.a: "Precisamos segurar nossa linha."

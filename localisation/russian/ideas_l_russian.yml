@@ -2730,7 +2730,7 @@
  KUR_ahmed_barzani: "Ахмед Барзани"
  KUR_ihsan_nuri: "Исхан Нури"
  NEP_royal_army: "Королевская Армия Непала"
- SPIRIT_ADD_IDEA: "§GЩелкните, и добавится $GROUP|H$§!"
+ SPIRIT_ADD_IDEA: "§GЩёлкните§!, чтобы добавить: $GROUP|H$."
  tactic_elastic_defense_preferred_weight_factor: "Дополнительный шанс тактики §Y«Гибкая оборона»§!, если эта тактика — предпочитаемая"
  tactic_overwhelming_fire_preferred_weight_factor: "Дополнительный шанс тактики §Y«Огонь на подавление»§!, если эта тактика — предпочитаемая"
  tactic_seize_bridge_preferred_weight_factor: "Дополнительный шанс тактики §Y«Захватить мост»§!, если эта тактика — предпочитаемая"

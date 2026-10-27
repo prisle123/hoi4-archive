@@ -501,7 +501,7 @@
  AUS_political_events.113.t: "[FROM.GetNameDefCap] lehnt den Nichtangriffspakt ab"
  AUS_political_events.113.desc: "Scheinbar ist unser Angebot bei der [FROM.GetAdjective]en Führung auf taube Ohren gestoßen. Wir wissen nicht, ob sie unseren Plan durchschaut oder einfach nur selbst Pläne in Bezug auf uns hat. Wir sollten uns auf diese Möglichkeit vorbereiten, und wenn wir an unseren Plänen festhalten wollen, könnten feindseligere Aktionen erforderlich werden."
  AUS_political_events.113.a: "Das ist bedauerlich ..."
- AUS_political_events.114.t: "[FROM.GetNameDef] bietet industrielle Unterstützung"
+ AUS_political_events.114.t: "[FROM.GetNameDefCap] bietet industrielle Unterstützung an"
  AUS_political_events.114.desc: "Aufgrund des jüngsten Friedensabkommens zwischen unseren Ländern hat uns die [FROM.GetAdjective]e Regierung nun industrielle Unterstützung angeboten. Obwohl unser Industriesektor größtenteils unseren Standards gerecht wird, ist ihre Hilfe natürlich willkommen. Einige vorsichtigere Stimmen sind jedoch auch der Meinung, dass [FROM.GetNameDef] dies sicherlich aus einem bestimmten Grund tut."
  AUS_political_events.114.a: "Richtet ihnen unseren Dank aus."
  AUS_political_events.115.t: "Vorschlag eines [FROM.GetAdjective]-[ROOT.GetAdjective]en Militärmanövers"
@@ -1275,6 +1275,9 @@
  ww_BEL_event_diplomatic.37.t: "[FROM.GetNameDefCap] lehnt diplomatische Beziehungen ab"
  ww_BEL_event_diplomatic.37.desc: "Trotzt der offensichtlichen Vorteile scheint die [FROM.GetAdjective]e Führung nicht gewillt zu sein, die diplomatischen Beziehungen zu uns über die bereits bestehenden hinaus zu vertiefen. Wir hatten große Hoffnungen, doch es scheint, dass man unsere Ansichten nicht teilt ..."
  ww_BEL_event_diplomatic.37.a: "Ein Jammer."
+ ww_BEL_event_diplomatic.38.t: "[FROM.GetNameDefCap] investiert in unsere Industrie"
+ ww_BEL_event_diplomatic.38.desc: "Heute traf eine [FROM.GetAdjective]e Delegation mit unterzeichneten Verträgen und einer beachtlichen Menge Geld ein. In unserem Kernland sollen auf Kosten des Bündnisses „[FROM.GetFactionName]“ neue Fabriken entstehen: zivile Industriebetriebe und ein Rüstungswerk. Die Männer, die die Schecks unterzeichneten, machen keinen Hehl draus, was sie sich damit zu erkaufen hoffen: ein offenes Ohr, wenn [FROM.GetNameDef] das nächste Mal die Frage eines föderalen Europas aufwirft."
+ ww_BEL_event_diplomatic.38.a: "Die Gewerkschaft zahlt die Dividenden aus."
  ### War Events
  #Relocate Air Industries
  ww_BEL_event_war.1.t: "Verlagerung der Flugzeugproduktion"
@@ -1642,7 +1645,7 @@
  congo_independence_struggle.2.b: "Nun gut, aber nur, wenn man uns dafür entschädigt."
  congo_independence_struggle.2.c: "Wir werden sie niemals freiwillig gehen lassen."
  congo_independence_struggle.3.t: "[FROM.GetNameDefCap] gewährt uns unsere Freiheit bei Bündniseintritt"
- congo_independence_struggle.3.d: "Wir haben eine Antwort aus [BEL.GetName] erhalten. Man hat scheinbar erkannt, dass sich das Zeitalter der Kolonialreiche dem Ende zuneigt, und uns das Angebot unterbreitet, dem [Bel.GetAdjective]en Staatenbund als freie und unabhängige Nation und somit als gleichberechtigter Partner beizutreten. Für uns würden damit die gleichen Bedingungen gelten wie für jeden anderen militärischen Verbündeten und man würde von uns erwarten, uns an allen Kriegen zu beteiligen.\n\nDieses Ergebnis ist vermutlich das diplomatischste, worauf wir hoffen konnten, und es würde es uns erlauben, ein Blutvergießen mit unseren europäischen Freunden gänzlich zu vermeiden. Gleichzeitig würde es auch unseren afrikanischen Stolz und unsere Unabhängigkeit bewahren."
+ congo_independence_struggle.3.d: "Wir haben eine Antwort aus [BEL.GetName] erhalten. Man hat scheinbar erkannt, dass sich das Zeitalter der Kolonialreiche dem Ende zuneigt, und uns das Angebot unterbreitet, dem [BEL.GetAdjective]en Staatenbund als freie und unabhängige Nation und somit als gleichberechtigter Partner beizutreten. Für uns würden damit die gleichen Bedingungen gelten wie für jeden anderen militärischen Verbündeten und man würde von uns erwarten, uns an allen Kriegen zu beteiligen.\n\nDieses Ergebnis ist vermutlich das diplomatischste, worauf wir hoffen konnten, und es würde es uns erlauben, ein Blutvergießen mit unseren europäischen Freunden gänzlich zu vermeiden. Gleichzeitig würde es auch unseren afrikanischen Stolz und unsere Unabhängigkeit bewahren."
  congo_independence_struggle.3.a: "Das klingt sehr vernünftig. Wir akzeptieren!"
  congo_independence_struggle.3.b: "Wir können diesen Bedingungen nicht zustimmen ..."
  congo_independence_struggle.4.t: "[FROM.GetNameDefCap] lässt uns frei, wenn wir Entschädigungen leisten"

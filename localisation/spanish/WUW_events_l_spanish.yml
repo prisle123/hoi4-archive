@@ -501,7 +501,7 @@
  AUS_political_events.113.t: "[FROM.GetNameDefCap] rechaza el pacto de no agresión"
  AUS_political_events.113.desc: "Parece que nuestra oferta no era lo bastante buena para los dirigentes [FROM.GetAdjective]. O bien se han percatado de nuestros planes para el futuro, o bien ellos mismos tienen malas intenciones. Debemos prepararnos para esa eventualidad y, si deseamos seguir adelante con nuestros planes, puede que sean necesarias más acciones hostiles."
  AUS_political_events.113.a: "Es una lástima."
- AUS_political_events.114.t: "[FROM.GetNameDef] ofrece apoyo industrial"
+ AUS_political_events.114.t: "[FROM.GetNameDefCap] ofrece apoyo industrial"
  AUS_political_events.114.desc: "Gracias al reciente acuerdo de paz entre nuestros países, el gobierno [FROM.GetAdjective] nos ha ofrecido apoyo industrial. Nuestro sector industrial suele estar a la altura de nuestras necesidades, pero, por supuesto, su ayuda es muy de agradecer. Sin embargo, hay voces que advierten de que [FROM.GetNameDefCap] debe esconder alguna razón para realizar esta oferta."
  AUS_political_events.114.a: "Se lo agradecemos."
  AUS_political_events.115.t: "Maniobras conjuntas entre el ejército [FROM.GetAdjective] y el [ROOT.GetAdjective]"
@@ -1275,6 +1275,9 @@
  ww_BEL_event_diplomatic.37.t: "El gobierno [FROM.GetAdjective] no está de acuerdo"
  ww_BEL_event_diplomatic.37.desc: "Pese a los beneficios que reportaría a ambas naciones, el gobierno [FROM.GetAdjective] no está dispuesto a estrechar más nuestras actuales relaciones diplomáticas. Teníamos grandes esperanzas, pero parece que no eran compartidas."
  ww_BEL_event_diplomatic.37.a: "Qué pena."
+ ww_BEL_event_diplomatic.38.t: "[FROM.GetNameDefCap] invierte en nuestra industria"
+ ww_BEL_event_diplomatic.38.desc: "Hemos recibido a una delegación [FROM.GetAdjective] pertrechada de contratos ya firmados y un capital ingente. Se van a poner en marcha grandes obras en nuestra tierra, de industrias civiles y también un arsenal, todo ello a cuenta de su [FROM.GetFactionName]. Quienes firman los cheques no se han cohibido en recalcar lo que esperan recibir a cambio: que se les escuche la próxima vez que [FROM.GetNameDef] plantee la fundación de una Europa federal."
+ ww_BEL_event_diplomatic.38.a: "La Unión paga sus dividendos."
  ### War Events
  #Relocate Air Industries
  ww_BEL_event_war.1.t: "Se activan las industrias aeronáuticas trasladadas"
@@ -1642,7 +1645,7 @@
  congo_independence_struggle.2.b: "Muy bien, pero solo si nos pagan una gran compensación."
  congo_independence_struggle.2.c: "¡Jamás los dejaremos ir voluntariamente!"
  congo_independence_struggle.3.t: "[FROM.GetNameDefCap] nos concederá la libertad si nos sumamos a su facción"
- congo_independence_struggle.3.d: "Ya hemos recibido contestación de [BEL.GetName], que reconoce que los tiempos de los imperios coloniales están llegando a un pronto fin. Así pues, nos proponen que nos unamos a la Mancomunidad [Bel.GetAdjective] como nación libre e independiente, es decir, como un socio en igualdad de derechos. Estaríamos sujetos a los términos que ofrecerían a cualquier otro aliado militar y, por lo tanto, se esperaría de nosotros que los apoyemos en caso de guerra. \n\nProbablemente sea el resultado más diplomático al que podemos aspirar. Nos permitiría evitar por completo el derramamiento de sangre entre nuestro pueblo y nuestros amigos europeos y, al mismo tiempo, defender el orgullo y la independencia africanos."
+ congo_independence_struggle.3.d: "Ya hemos recibido contestación de [BEL.GetName], que reconoce que los tiempos de los imperios coloniales están llegando a un pronto fin. Así pues, nos proponen que nos unamos a la Mancomunidad [BEL.GetAdjective] como nación libre e independiente, es decir, como un socio en igualdad de derechos. Estaríamos sujetos a los términos que ofrecerían a cualquier otro aliado militar y, por lo tanto, se esperaría de nosotros que los apoyemos en caso de guerra. \n\nProbablemente sea el resultado más diplomático al que podemos aspirar. Nos permitiría evitar por completo el derramamiento de sangre entre nuestro pueblo y nuestros amigos europeos y, al mismo tiempo, defender el orgullo y la independencia africanos."
  congo_independence_struggle.3.a: "Una propuesta de lo más razonable. ¡Aceptamos!"
  congo_independence_struggle.3.b: "No podemos aceptar esas condiciones..."
  congo_independence_struggle.4.t: "[FROM.GetNameDefCap] nos dejará libres si pagamos una compensación"

@@ -998,6 +998,13 @@
  bftb_turkey.141.t: "[FROM.GetNameDefCap] Removes Us from [FROM.GetFactionName]!"
  bftb_turkey.141.desc: "Our new foreign policy has proven impossible to accommodate for [FROM.GetNameDef], and they have decided we can be considered an ally no longer. From this day forward, we are no longer a part of [FROM.GetFactionName]."
  bftb_turkey.141.a: "So be it."
+ bftb_turkey.144.t: "[FROM.GetName] Seeks Protection"
+ bftb_turkey.144.desc: "Representatives from [FROM.GetNameDef] have arrived, requesting that we sign a treaty that would have us back them against any invading nation. As their alignment with our enemies would seriously interfere with our efforts in the Middle East, this promise of protection may be a strategic risk worth taking."
+ bftb_turkey.145.t: "[FROM.GetName] Promises Protection"
+ bftb_turkey.145.desc: "[FROM.GetAdjective] representatives arrived earlier today to sign a treaty that officially binds [FROM.GetNameDef] to protect us in case our nation comes under attack. This may pave the way for further cooperation with [FROM.GetNameDef]."
+ bftb_turkey.145.a: "We can all sleep a little better"
+ bftb_turkey.146.t: "[FROM.GetName] Refuses to Protect Us"
+ bftb_turkey.146.desc: "After a gathering of the [FROM.GetAdjective] government, it was decided that it would not commit itself to the protection of [ROOT.GetNameDef]. Perhaps they hold an unfavorable view of our government, or they think the promise is too risky."
 
  TUR_downgrade_fundamentalist_defiance_effect_tt: "The £faction_tur_traditionalist §YTraditionalists§! will cooperate more with the government in §Y[TUR_fundamentalist_state.GetName]§!."
  TUR_upgrade_fundamentalist_defiance_effect_tt: "The £faction_tur_traditionalist §YTraditionalists§! will increase the intensity of their resistance towards the government in §Y[TUR_fundamentalist_state.GetName]§!."
@@ -1433,7 +1440,7 @@
  bftb_bulgaria_balkan_federation.4.t: "[BUL.GetNameDefCap] is Destabilizing [ROOT.GetNameDef]"
  bftb_bulgaria_balkan_federation.4.desc: "[BUL.GetAdjective] activists have crossed the border into our country with the aim of arming supporters of the Balkan Federation in [ROOT.GetNameDef] and causing unrest in the country. \nPolice officers strive day and night to catch and imprison these subversive elements, but so far their efforts have not been too fruitful and many [ROOT.GetAdjective] citizens, especially from the working class, have joined the ranks of people who support the [BUL.GetAdjective] project of the Balkan Federation."
  bftb_bulgaria_balkan_federation.5.t: "The Unification of the Balkans"
- bftb_bulgaria_balkan_federation.5.desc: "The [BUL.GetAdjective] government has sent us a proposal to carry out the unification of the Balkans under a centralized government, with the aim of improving the understanding and cooperation between the different peoples of the Balkans. According to [BUL.GetLeader], this is the last great step of the Balkan Federation that will allow us to leave behind the conflicts of the past and guarantee unity and peace between our nations permanently. \n[BUL.GetNameDef] awaits the response of the [ROOT.GetAdjective] government to proceed with the consequent unification of our nations."
+ bftb_bulgaria_balkan_federation.5.desc: "The [BUL.GetAdjective] government has sent us a proposal to carry out the unification of the Balkans under a centralized government, with the aim of improving the understanding and cooperation between the different peoples of the Balkans. According to [BUL.GetLeader], this is the last great step of the Balkan Federation that will allow us to leave behind the conflicts of the past and guarantee unity and peace between our nations permanently. \n[BUL.GetNameDefCap] awaits the response of the [ROOT.GetAdjective] government to proceed with the consequent unification of our nations."
  bftb_bulgaria_balkan_federation.5.a: "Let us join our Balkan brothers!"
  bftb_bulgaria_balkan_federation.5.b: "Request help before agreeing to unification."
  bftb_bulgaria_balkan_federation.5.c: "Demand limited self-government."
@@ -1733,8 +1740,8 @@
  bftb_news.206.d: "Another competitor enters the fray."
  bftb_news.206.e: "What does this mean for Europe?"
 
- bftb_news.207.t: "[TUR.GetNameDefCap] Commits to Balkan Security"
- bftb_news.207.desc: "[TUR.GetLeader] addressed the world today when he declared that [TUR.GetNameDef] would be looking to expand on its Balkan-centric foreign policy by guaranteeing the independence of all cooperative nations therein. To international observers, it would appear that [TUR.GetNameDef] has taken a more decisive stance in choosing to minimize dealings with great powers so that it can focus on regional security. \n\nAlthough the [TUR.GetAdjective] decision has been praised by some, it is the source of considerable consternation for others. [ITA.GetAdjective] officials in particular has reacted with some alarm, begging the [TUR.GetAdjective] government to recant their position if they wish to minimize the chance of conflict breaking out in the region. The [TUR.GetAdjective] government in reply labeled [ITA.GetNameDef] a ‘regional antagonist.’"
+ bftb_news.207.t: "[TUR.GetNonIdeologyName] Commits to Balkan Security"
+ bftb_news.207.desc: "[TUR.GetLeader] addressed the world today when he declared that [TUR.GetNameDef] would be looking to expand on its Balkan-centric foreign policy by guaranteeing the independence of all cooperative nations therein. To international observers, it would appear that [TUR.GetNonIdeologyName] has taken a more decisive stance in choosing to minimize dealings with great powers so that it can focus on regional security. \nAlthough the [TUR.GetAdjective] decision has been praised by some, it is the source of considerable consternation for others. [ITA.GetAdjective] officials in particular has reacted with some alarm, begging the [TUR.GetAdjective] government to recant their position if they wish to minimize the chance of conflict breaking out in the region. The [TUR.GetAdjective] government in reply labeled [ITA.GetNameDef] a ‘regional antagonist.’"
  bftb_news.207.a: "Our destiny awaits."
  bftb_news.207.b: "Thank goodness."
  bftb_news.207.c: "This is going to be problematic."
@@ -1749,7 +1756,7 @@
  bftb_news.208.e: "They are only worsening things!"
 
  bftb_news.209.t: "The Advent of Turan"
- bftb_news.209.desc: "Turkish conquests have progressed to the point that the Turkish government has felt it justifiable to proclaim themselves as [TUR.GetNameDef]. The debut of this new empire has sparked shock across the world, as there were very few observers who believed that Turkey would even be capable of fully recovering from its War of Independence in the following decades - let alone establishing an entirely new empire that spanned continents. \n\nIf reports are to be believed, the newly formed [TUR.GetAdjective] may still not be finished with its rapid expansion, with [TUR.GetLeader] stating that shall never cease their conquests until every Turk in the world has been liberated. The world can only continue to watch with bated breath."
+ bftb_news.209.desc: "[FROM.GetAdjective] conquests have progressed to the point that the [FROM.GetAdjective] government has felt it justifiable to proclaim themselves as [FROM.GetNameDef]. The debut of this new empire has sparked shock across the world, as there were very few observers who believed that Turkey would even be capable of fully recovering from its War of Independence in the following decades - let alone establishing an entirely new empire that spanned continents. \n\nIf reports are to be believed, the newly formed [FROM.GetAdjective] may still not be finished with its rapid expansion, with [FROM.GetLeader] stating that shall never cease their conquests until every Turk in the world has been liberated. The world can only continue to watch with bated breath."
  bftb_news.209.a: "We are unstoppable."
  bftb_news.209.b: "How...?"
 

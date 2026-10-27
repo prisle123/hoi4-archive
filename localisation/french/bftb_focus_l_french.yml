@@ -469,6 +469,8 @@
  TUR_saadabad_pact_faction_tt: "Nous allons inviter tous les pays signataires du §Ypacte de Sa'dabad§! à intégrer une alliance officielle."
  TUR_no_faction_members_tt: "Le pacte de Sa'dabad n'a aucun signataire"
  TUR_no_faction_alliance_members_tt: "Les signataires du pacte de Sa'dabad n'ont pas ratifié l'Alliance de Sa'dabad."
+ TUR_third_expedition_to_aceh: "Une troisième expédition ottomane à Aceh"
+ TUR_third_expedition_to_aceh_desc: "L'Empire enfin de nouveau sur pied, le temps est venu de reprendre le contrôle des protectorats et des dominions d'outre-mer dont nous étions jadis les dirigeants. Pour cela, nous devons nous assurer que notre marine satisfait nos attentes. La première mission de notre opération sera de restaurer le protectorat à Aceh."
  TUR_the_damascus_diktat: "Le diktat de Damas"
  TUR_the_damascus_diktat_desc: "[677.Controller.GetLeLaLNPCap] [677.Controller.GetName] [677.Controller.GetEstSontNP] faible[677.Controller.GetXSNP]. Tout ce qu'il nous suffirait de faire serait de menacer de guerre si la Syrie ne nous est pas rendue, et les [677.Controller.GetHabitants] tomberont à genoux pour demander la paix et nous prier de bien vouloir prendre la région."
  TUR_supporting_the_east: "Développer l'Est"

@@ -27,7 +27,7 @@
  ORDER_PROV_TOOLTIP_FALLBACK_LINE_CANT: "§R이곳에 후퇴선을 설정할 수 없습니다.§!\n강조된 영역 중 하나로 마우스를 옮기십시오."
  ORDER_PROV_TOOLTIP_THIS_LINE_EDIT: "\n§G우클릭§! 후 드래그하여 이 §Y선§!을 수정"
  ORDER_PROV_TOOLTIP_DEFENSIVE_LINE_WRONG_LINE_ERR: "§R이곳에서 선을 확장할 수 없습니다.§!\n해당 지역을 보호하려면 분리된 §Y방어 명령§!을 설정하십시오."
- ORDER_PROV_TOOLTIP_OFFENSIVE_LINE: "§G해당 영토에 §Y공세선§!을 설정하려면 우클릭 후 드래그§!"
+ ORDER_PROV_TOOLTIP_OFFENSIVE_LINE: "해당 영토에 §Y공세선§!을 설정하려면 §G우클릭 후 드래그§!"
  ORDER_PROV_TOOLTIP_OFFENSIVE_LINE_CANT: "§R이곳에 공세선을 설정할 수 없습니다.§!\n강조된 영역으로 마우스를 옮기십시오."
  ORDER_PROV_TOOLTIP_OFFENSIVE_LINE_EDIT: "§G우클릭 후 드래그§!하여 이 §Y공세선§!을 수정"
  ORDER_PROV_TOOLTIP_INVASION_INVALID_PROV: "§R상륙하기에 적합하지 않은 지역입니다.§!\n마우스 커서를 표시된 지역이나 §Y상륙 작전 계획§!이 이미 존재하는 지역으로 옮기십시오."

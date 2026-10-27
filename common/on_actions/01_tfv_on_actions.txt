@@ -57,14 +57,23 @@ on_actions = {
 				#abandon_colony_tag = yes
 			}
 			if = {
-				limit = { 
-					NOT = { 
-						AND = { 
-							TAG = SAF 
-							has_government = communism #communist SAF gets cosmetic tag to allow recruitment of black generals. If they go communist before breaking free, they would lose the cosmetic tag.
-							} 
-						} 
-					} 
+				limit = {
+					NOT = {
+						#communist SAF gets cosmetic tag to allow recruitment of black generals. If they go communist before breaking free, they would lose the cosmetic tag.
+						AND = {
+							tag = SAF
+							has_government = communism
+						}
+						#restored Chinese Empire and the Manchurian Empire are not tied to subject status
+						AND = {
+							original_tag = MAN
+							OR = {
+								has_cosmetic_tag = MAN_restored
+								has_cosmetic_tag = MAN_empire_of_manchukuo
+							}
+						}
+					}
+				}
 				drop_cosmetic_tag = yes
 			}
 
@@ -224,6 +233,17 @@ on_actions = {
 	#used when puppeting in a peace conference
 	#ROOT = nation being puppeted, FROM = overlord
 	on_puppet = {
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_tag = SYR
+						original_tag = LEB
+					}
+				}
+				FRA_sync_levant_cosmetic_tag_effect = yes
+			}
+		}
 		effect = {
 			if = {
 				limit = {

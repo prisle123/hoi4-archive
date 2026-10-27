@@ -73,6 +73,7 @@
  STAT_ARMY_CASUALTY_TRICKLEBACK_DESC: "Gibt an, wie viele Kampfverluste gerettet und zurück in den Mannstärke-Pool verschoben werden. Gerettete Verluste haben keinen Einfluss auf die Kriegsunterstützung durch Verluste und Schaden."
  STAT_ARMY_CASUALTY_TRICKLEBACK_VALUE: "$VALUE|H2%$"
  STAT_ARMY_CASUALTY_TRICKLEBACK_DIFF: " $VALUE|=+2%$"
+ CASUALTY_TRICKLEBACK_CAP_WARNING: "§RDer Wert ist bei $MAX|H2%$ gedeckelt§!"
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR: "Erf.-Verlust: "
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_DESC: "Gibt die Erfahrung an, die eine Division verliert, wenn sie Verluste erleidet und ersetzen muss."
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_VALUE: "$VALUE|H2%$"

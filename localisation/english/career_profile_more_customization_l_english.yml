@@ -50,12 +50,12 @@
 
 # Award Display
  CAREER_PROFILE_EMPTY_MEDAL_SLOT_TOOLTIP: "No medal assigned."
- CAREER_PROFILE_EMPTY_MEDAL_SLOT_BUTTON_TOOLTIP: "No medal assigned.\n\nClick to select a medal to display here."
+ CAREER_PROFILE_EMPTY_MEDAL_SLOT_BUTTON_TOOLTIP: "No medal assigned.\n\nClick to select a medal to display here"
  CAREER_PROFILE_EMPTY_MEDAL_PICKER_ITEM_TITLE: "No medal"
  CAREER_PROFILE_EMPTY_MEDAL_PICKER_ITEM_DESCRIPTION: "Select to clear the slot."
 
  CAREER_PROFILE_EMPTY_RIBBON_SLOT_TOOLTIP: "No ribbon assigned."
- CAREER_PROFILE_EMPTY_RIBBON_SLOT_BUTTON_TOOLTIP: "No ribbon assigned.\n\nClick to select a ribbon to display here."
+ CAREER_PROFILE_EMPTY_RIBBON_SLOT_BUTTON_TOOLTIP: "No ribbon assigned.\n\nClick to select a ribbon to display here"
  CAREER_PROFILE_EMPTY_RIBBON_PICKER_ITEM_TITLE: "No ribbon"
  CAREER_PROFILE_EMPTY_RIBBON_PICKER_ITEM_DESCRIPTION: "Select to clear the slot."
 

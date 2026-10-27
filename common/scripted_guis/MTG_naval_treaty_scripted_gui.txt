@@ -1,0 +1,33 @@
+scripted_gui = {
+
+	MTG_naval_treaties_ui = {
+		context_type = decision_category
+		window_name = "mtg_naval_treaty_decision_ui_window"
+
+		# Membership only moves when someone joins, withdraws or the treaty collapses, so refresh off a counter instead of every tick.
+		dirty = global.MTG_naval_treaty_ui_version
+
+		dynamic_lists = {
+			mtg_naval_treaty_members_grid = {
+				array = global.MTG_naval_treaty_members
+				change_scope = yes
+				# An empty container name drops the entry, which is what filters out lapsed signatories and annexed tags at draw time.
+				country_scope_entry_container = "[GetMTGNavalTreatyMemberEntry]"
+			}
+		}
+
+		properties = {
+			member_flag = {
+				image = "[This.GetFlag]"
+			}
+		}
+
+		# Hides the header when the treaty has collapsed, majors keep seeing the category either way.
+		triggers = {
+			mtg_naval_treaty_members_label_visible = {
+				check_variable = { global.MTG_naval_treaty_members^num > 0 }
+			}
+		}
+	}
+
+}

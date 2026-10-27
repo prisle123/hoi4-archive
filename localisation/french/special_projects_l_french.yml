@@ -790,6 +790,8 @@
  sp_naval_modern_battleship_free_design: "Cuirassé moderne"
  sp_naval_midget_submarine: "Sous-marin de poche"
  sp_naval_midget_submarine_desc: "Notre effectif naval aurait grandement besoin d'un sous-marin léger, polyvalent et bon marché qui servirait aussi bien au sabotage de port qu'à l'attaque de convoi."
+ JAP_sp_naval_midget_submarine_desc: "$sp_naval_midget_submarine_desc$[JAP_midget_submarine_pearl_harbor_key]"
+ JAP_sp_naval_midget_submarine_pearl_harbor_hint: "\n\nCes appareils, escortés par nos flottes de sous-marins, se posteront furtivement dans le port avant $raid_type_JAP_pearl_harbor_strike$, augmentant les chances de §Gsuccès retentissant§!."
  sp_naval_midget_submarine_free_design: "Sous-marin de poche"
  JAP_sp_naval_midget_submarine: "Sous-marin de classe Kō-hyōteki"
  sp_naval_nuclear_torpedo: "Torpille nucléaire"

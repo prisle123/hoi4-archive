@@ -1,0 +1,53 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+
+	### Gated on the taker rather than the negotiator, so the UK and the USA will also bid Indochina back to France
+	FRA_reclaim_indochina = {
+		peace_action_type = take_states
+		enable = {
+			FROM = {
+				original_tag = FRA
+				NOT = { is_vichy_france = yes }
+			}
+			FROM.FROM.FROM = {
+				FRA_is_indochina_state = yes
+			}
+		}
+		ai_desire = 200
+	}
+
+	### Stacks with the above - having promised independence is what legitimises taking the colony back first
+	FRA_reclaim_indochina_promised_independence = {
+		peace_action_type = take_states
+		enable = {
+			FROM = {
+				original_tag = FRA
+				has_country_flag = FRA_indochina_promised_independence
+				NOT = { is_vichy_france = yes }
+			}
+			FROM.FROM.FROM = {
+				FRA_is_indochina_state = yes
+			}
+		}
+		ai_desire = 100
+	}
+
+	### Liberating beats annexing by default and the first liberation locks France out, but do not restrain her enemies or block anyone when she cannot pay
+	allies_dont_liberate_french_indochina = {
+		peace_action_type = { liberate puppet }
+		enable = {
+			FROM.FROM.FROM = {
+				FRA_is_indochina_state = yes
+			}
+			FRA = {
+				pc_is_winner = yes
+				NOT = { has_war_with = ROOT }
+				pc_total_score > 200
+			}
+		}
+		ai_desire = -200
+	}
+
+}

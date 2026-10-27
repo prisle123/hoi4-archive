@@ -1077,8 +1077,8 @@ USA_strategic_bomber = {
 				special_type_slot_1 = cannon_defense_turret_2x
 				special_type_slot_2 = hmg_defense_turret_2x
 				special_type_slot_3 = fuel_tanks_large
-				special_type_slot_4 = fuel_tanks_large
-				special_type_slot_5 = {
+				#special_type_slot_4 = fuel_tanks_large	#overweight
+				special_type_slot_4 = {
 					any_of = {
 						air_ground_radar_2
 						air_ground_radar_1

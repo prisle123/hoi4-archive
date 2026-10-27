@@ -398,7 +398,7 @@
  POL_baltic_security: "Seguridad del Báltico"
  POL_baltic_security_desc: "Aunque hemos confiado en el apoyo del oeste, las concesiones constantes a los alemanes nos hacen dudar de si los Aliados nos defenderían en caso de invasión. Si protegemos a nuestros compañeros de Europa Oriental, puede que logremos conservar la paz."
  POL_protect_czechozlovakia: "Proteger a Checoslovaquia"
- POL_protect_czechozlovakia_desc: "Parece que [GER.GetLeader] tiene [Ger.GetLeader.GetHerHis] propio plan con respecto al destino de Checoslovaquia, uno que despojaría a los checoslovacos de su independencia. Hay que poner fin a esta corriente de imperialismo."
+ POL_protect_czechozlovakia_desc: "Parece que [GER.GetLeader] tiene [GER.GetLeader.GetHerHis] propio plan con respecto al destino de Checoslovaquia, uno que despojaría a los checoslovacos de su independencia. Hay que poner fin a esta corriente de imperialismo."
  POL_baltic_alliance_focus: "La alianza del Báltico"
  POL_baltic_alliance_focus_desc: "Los bálticos son los siguientes en la guillotina cuando haya caído Polonia, así que sería prudente que las tres naciones dejasen a un lado su desdén por el Estado polaco y se uniesen a nosotros contra nuestros enemigos comunes a ambos lados de nuestras fronteras colectivas."
  POL_romanian_alliance: "Alianza rumana"

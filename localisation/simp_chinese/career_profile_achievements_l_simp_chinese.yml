@@ -38,6 +38,8 @@
  PLAYTHROUGH_OV_NOT_ELIGIBLE: "因为使用了MOD或者控制台命令，本次游戏无法获得勋章和勋表"
  PLAYTHROUGH_OV_MP: "多人游戏中不会跟踪统计数据"
  PLAYTHROUGH_OV_MP_AWARDS: "多人游戏无法获得勋章和勋表"
+ PLAYTHROUGH_OV_CONTINUE: "继续游戏"
+ PLAYTHROUGH_OV_EXIT_TO_MENU: "返回主菜单\n§GShift+点击§!直接退出，无需确认"
  #Awards tab
  CAREER_PROFILE_AWARD_TAB_LABEL: "荣誉记录"
  CAREER_PROFILE_AWARD_NOT_ACHIEVED: "尚未获得"

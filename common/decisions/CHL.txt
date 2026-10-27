@@ -156,17 +156,17 @@ CHL_industrial_decisions = {
 	
 		available = {
 			has_completed_focus = CHL_international_loans
-			any_country = {
-				is_major = yes
+			any_collection_element = {
+				collection = game:all_majors
 				exists = yes
-				NOT = { 
+				NOT = {
 					tag = ROOT
 				}
 				has_opinion = {
 					target = ROOT
 					value > 74
 				} 
-			}
+		    }
 			
 		}
 
@@ -229,17 +229,17 @@ CHL_industrial_decisions = {
 	
 		available = {
 			has_completed_focus = CHL_international_loans
-			any_country = {
-				is_major = yes
+			any_collection_element = {
+				collection = game:all_majors
 				exists = yes
-				NOT = { 
+				NOT = {
 					tag = ROOT
 				}
 				has_opinion = {
 					target = ROOT
 					value > 74
 				} 
-			}
+		    }
 		}
 
 		visible = { 
@@ -292,17 +292,17 @@ CHL_industrial_decisions = {
 	
 		available = {
 			has_completed_focus = CHL_international_loans
-			any_country = {
-				is_major = yes
+			any_collection_element = {
+				collection = game:all_majors
 				exists = yes
-				NOT = { 
+				NOT = {
 					tag = ROOT
 				}
 				has_opinion = {
 					target = ROOT
 					value > 74
 				} 
-			}
+		    }
 		}
 
 		visible = { 
@@ -2662,19 +2662,14 @@ CHL_nacista_decisions = {
 					owns_state = 685
 				}
 			}
-			any_country = {
-				owns_state = 685
-				NOT = {
-					has_war_with = ROOT
-				}
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-				NOT = {
-					is_subject_of = ROOT
-				}
-				NOT = {
-					has_non_aggression_pact_with = ROOT
+			685 = {
+				owner = {
+					NOT = {
+						has_war_with = ROOT
+						is_in_faction_with = ROOT
+						is_subject_of = ROOT
+						has_non_aggression_pact_with = ROOT
+					}
 				}
 			}
 		}
@@ -2759,22 +2754,15 @@ CHL_nacista_decisions = {
 					owns_state = 311
 				}
 			}
-			any_country = {
-				owns_state = 311
-				NOT = {
-					has_war_with = ROOT
-				}
-				NOT = {
-					is_in_faction_with = ROOT
-				}
-				NOT = {
-					is_subject_of = ROOT
-				}
-				NOT = {
-					has_non_aggression_pact_with = ROOT
-				}
-				NOT = {
-					original_tag = BLZ
+			311 = {
+				owner = {
+					NOT = {
+						original_tag = BLZ
+						has_war_with = ROOT
+						is_in_faction_with = ROOT
+						is_subject_of = ROOT
+						has_non_aggression_pact_with = ROOT
+					}
 				}
 			}
 		}
@@ -4268,9 +4256,8 @@ CHL_mapuche_nationalism_decisions = {
 					RAP = {
 						exists = no
 					}
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 948
+					controller = {
+						is_subject_of = ROOT	
 					}
 				}
 			}
@@ -4292,11 +4279,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					948 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -4320,11 +4306,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					270 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -4443,9 +4428,10 @@ CHL_mapuche_nationalism_decisions = {
 					TAH = {
 						exists = no
 					}
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 641
+					641 = {
+						controller = {
+							is_subject_of = ROOT
+						}
 					}
 				}
 			}
@@ -4467,11 +4453,10 @@ CHL_mapuche_nationalism_decisions = {
 			every_state = {
 				limit = {
 					is_core_of = TAH
-					OR = {
-						is_controlled_by = ROOT
-						any_country = {
+					controller = {
+						OR = {
+							tag = ROOT
 							is_subject_of = ROOT
-							controls_state = PREV
 						}
 					}
 				}
@@ -4594,9 +4579,10 @@ CHL_mapuche_nationalism_decisions = {
 					SAM = {
 						exists = no
 					}
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 726
+					726 = {
+						controller = {
+							is_subject_of = ROOT
+						}
 					}
 				}
 			}
@@ -4731,9 +4717,10 @@ CHL_mapuche_nationalism_decisions = {
 					HAW = {
 						exists = no
 					}
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 629 
+					629 = {
+						controller = {
+							is_subject_of = ROOT
+						}
 					}
 				}
 			}
@@ -4755,14 +4742,13 @@ CHL_mapuche_nationalism_decisions = {
 
 			every_state = {
 				limit = {
-					OR = {
-						is_controlled_by = ROOT
-						any_country = {
+					is_core_of = HAW
+					controller = {
+						OR = {
+							tag = ROOT
 							is_subject_of = ROOT
-							controls_state = PREV
 						}
 					}
-					is_core_of = HAW
 				}
 				transfer_state_to = HAW
 			} 
@@ -4876,76 +4862,76 @@ CHL_mapuche_nationalism_decisions = {
 			GAR = {
 				exists = no
 			}
-			
-			OR = {
-				controls_state = 301 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 301 
+
+			301 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 688 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 688 
+			688 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 957 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 957 
+			957 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 510 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 510 
+			510 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 504 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 504 
+			504 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 944 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 944 
+			944 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 503 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 503 
+			503 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 502 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 502 
+			502 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 				
@@ -4967,13 +4953,6 @@ CHL_mapuche_nationalism_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 301
 						state = 688
 						state = 957
@@ -4982,6 +4961,12 @@ CHL_mapuche_nationalism_decisions = {
 						state = 944
 						state = 503
 						state = 502
+					}
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				add_core_of = GAR
@@ -5126,48 +5111,48 @@ CHL_mapuche_nationalism_decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = release_inca_required_peruvian_states
-				OR = {
-					controls_state = 494 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 494 
+				494 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 492 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 492 
+				492 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 947 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 947 
+				947 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 303 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 303 
+				303 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 491 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 491 
+				491 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 			}
@@ -5175,50 +5160,50 @@ CHL_mapuche_nationalism_decisions = {
 			custom_trigger_tooltip = {
 				tooltip = release_inca_required_ecuadorian_states
 
-				OR = {
-					controls_state = 490 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 490 
+				490 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 305 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 305 
+				305 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 			}
 			
 
-			OR = {
-				controls_state = 951 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 951 
+			951 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 506 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 506 
+			506 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 940 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 940 
+			940 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 				
@@ -5240,13 +5225,6 @@ CHL_mapuche_nationalism_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 494
 						state = 492
 						state = 947
@@ -5258,6 +5236,12 @@ CHL_mapuche_nationalism_decisions = {
 						state = 305
 						state = 940
 					}
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
+					}
 				}
 				add_core_of = INC
 				transfer_state_to = INC
@@ -5266,11 +5250,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					649 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -5411,22 +5394,22 @@ CHL_mapuche_nationalism_decisions = {
 			MIS = {
 				exists = no
 			}
-			
-			OR = {
-				controls_state = 312 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 312 
+
+			312 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 317 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 317 
+			317 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 				
@@ -5455,16 +5438,16 @@ CHL_mapuche_nationalism_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 312
 						state = 317
 					}
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
+					}
+					
 				}
 				add_core_of = MIS
 				transfer_state_to = MIS
@@ -5585,40 +5568,40 @@ CHL_mapuche_nationalism_decisions = {
 			MAY = {
 				exists = no
 			}
-			
-			OR = {
-				controls_state = 313 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 313 
+
+			313 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 475 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 475 
+			475 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 476 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 476 
+			476 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 474 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 474 
+			474 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 				
@@ -5640,17 +5623,16 @@ CHL_mapuche_nationalism_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 313
 						state = 475
 						state = 476
 						state = 474
+					}
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				add_core_of = MAY
@@ -5780,76 +5762,76 @@ CHL_mapuche_nationalism_decisions = {
 			INU = {
 				exists = no
 			}
-			
-			OR = {
-				controls_state = 463 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 463 
+
+			463 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 864 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 864 
+			864 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 472 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 472 
+			472 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 683 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 683 
+			683 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 466 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 466 
+			466 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 332 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 332 
+			332 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 101 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 101 
+			101 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 861 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 861 
+			861 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 				
@@ -5871,13 +5853,6 @@ CHL_mapuche_nationalism_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 463
 						state = 864
 						state = 472
@@ -5887,6 +5862,13 @@ CHL_mapuche_nationalism_decisions = {
 						state = 101
 						state = 861
 					}
+
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
+					}
 				}
 				add_core_of = INU
 				transfer_state_to = INU
@@ -5895,11 +5877,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					875 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -5916,11 +5897,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					650 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -6056,31 +6036,30 @@ CHL_mapuche_nationalism_decisions = {
 			CHR = {
 				exists = no
 			}
-			
-			OR = {
-				controls_state = 300 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 300 
+			300 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 945 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 945 
+			945 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 946 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 946 
+			946 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 				
@@ -6102,16 +6081,16 @@ CHL_mapuche_nationalism_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 300
 						state = 945
 						state = 946
+					}
+					
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				add_core_of = CHR
@@ -6231,12 +6210,12 @@ CHL_mapuche_nationalism_decisions = {
 				exists = no
 			}
 			
-			OR = {
-				controls_state = 311 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 311 
+			311 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 				
@@ -6266,21 +6245,21 @@ CHL_mapuche_nationalism_decisions = {
 				}
 			}
 
-			every_state = {
+			IF = {
 				limit = {
-					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
+					311 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
-					
-					state = 311
-					
 				}
-				add_core_of = ITZ
-				transfer_state_to = ITZ
+				311 = {
+					add_core_of = ITZ
+					transfer_state_to = ITZ
+				}
 			} 
 
 			IF = {
@@ -6382,15 +6361,14 @@ CHL_mapuche_nationalism_decisions = {
 				exists = no
 			}
 			
-			OR = {
-				controls_state = 314 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 314 
+			314 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
-			}
-				
+			}	
 		}
 
 		visible = { 
@@ -6408,16 +6386,14 @@ CHL_mapuche_nationalism_decisions = {
 
 			every_state = {
 				limit = {
-					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					
 					state = 314
 					
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
+					}		
 				}
 				add_core_of = NAH
 				transfer_state_to = NAH
@@ -6533,67 +6509,67 @@ CHL_mapuche_nationalism_decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = release_inca_required_colombian_states
-				OR = {
-					controls_state = 493 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 493 
+				493 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 306 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 306 
+				306 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 486 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 486 
+				486 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 			}
 
-			OR = {
-				controls_state = 307 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 307 
+			307 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 489 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 489 
+			489 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 304 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 304 
+			304 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 316 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 316 
+			316 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 				
@@ -6615,13 +6591,6 @@ CHL_mapuche_nationalism_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 316
 						state = 304
 						state = 493
@@ -6629,6 +6598,14 @@ CHL_mapuche_nationalism_decisions = {
 						state = 486
 						state = 307
 						state = 489
+					}
+					OR = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
 					}
 				}
 				add_core_of = IAS
@@ -6649,11 +6626,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					685 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -6666,11 +6642,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					695 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -6683,11 +6658,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					691 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -6832,20 +6806,20 @@ CHL_mapuche_nationalism_decisions = {
 					BOL = {
 						exists = no
 					}
-					OR = {
-						controls_state = 487 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 487 
+					487 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
-					OR = {
-						controls_state = 302 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 302 
+					302 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 				}
@@ -6869,15 +6843,14 @@ CHL_mapuche_nationalism_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 487
 						state = 302
+					}
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				add_core_of = BOL
@@ -6891,11 +6864,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					942 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -7093,138 +7065,139 @@ CHL_mapuche_nationalism_decisions = {
 					}
 					custom_trigger_tooltip = {
 						tooltip = CHL_requires_bra_states_tt
-						OR = {
-							controls_state = 495 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 495 
+						495 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 938 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 938 
+
+						938 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 280 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 280 
+						280 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 497 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 497 
+						497 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 941 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 941 
+						941 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 937 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 937 
+						937 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 935 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 935 
+						935 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 498 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 498 
+						498 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 936 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 936 
+						936 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 499 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 499 
+						499 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 505 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 505 
+						505 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 496 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 496 
+						496 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 943 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 943 
+						943 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 500 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 500 
+						500 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 501 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 501 
+						501 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 					}
@@ -7251,13 +7224,6 @@ CHL_mapuche_nationalism_decisions = {
 				every_state = {
 					limit = {
 						OR = {
-							is_controlled_by = ROOT
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = PREV
-							}
-						}
-						OR = {
 							state = 495
 							state = 938
 							state = 280
@@ -7281,6 +7247,12 @@ CHL_mapuche_nationalism_decisions = {
 							state = 966
 							state = 967
 							state = 968
+						}
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 					add_core_of = BRA
@@ -7463,93 +7435,93 @@ CHL_mapuche_nationalism_decisions = {
 					}
 					custom_trigger_tooltip = {
 						tooltip = CHL_requires_mex_states_tt
-						OR = {
-							controls_state = 477 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 477 
+						477 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 485 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 485 
+						485 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 277 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 277 
+						277 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 478 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 478 
+						478 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 479 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 479 
+						479 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 480 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 480 
+						480 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 481 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 481 
+						481 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 482 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 482 
+						482 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 483 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 483 
+						483 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 484 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 484 
+						484 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 					}
@@ -7575,13 +7547,7 @@ CHL_mapuche_nationalism_decisions = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = PREV
-							}
-						}
+						
 						OR = {
 							state = 477
 							state = 485
@@ -7593,6 +7559,12 @@ CHL_mapuche_nationalism_decisions = {
 							state = 482
 							state = 483
 							state = 484
+						}
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 					add_core_of = MEX
@@ -7773,58 +7745,58 @@ CHL_mapuche_nationalism_decisions = {
 					SUR = {
 						exists = no
 					}
-					
-					OR = {
-						controls_state = 310 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 310 
+
+					310 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 309 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 309 
+					309 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 687 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 687 
+					687 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 488 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 488 
+					488 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 939 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 939 
+					939 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 969
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 939 
+					969 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 					
@@ -8055,156 +8027,157 @@ CHL_mapuche_nationalism_decisions = {
 					}
 					custom_trigger_tooltip = {
 						tooltip = CHL_requires_can_states_tt
-						OR = {
-							controls_state = 860 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 860 
+
+						860 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 863 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 863 
+						863 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 862 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 862 
+						862 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 468 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 468 
+						468 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 465 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 465 
+						465 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 464 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 464 
+						464 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 276 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 276 
+						276 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 682 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 682 
+						682 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 866 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 866 
+						866 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 867 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 867 
+						867 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 467 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 467 
+						467 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 865 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 865 
+						865 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 469 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 469 
+						469 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 470 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 470 
+						470 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 473 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 473 
+						473 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 471 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 471 
+						471 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 740 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 740 
+						740 = {
+							controller = {
+								OR = {
+									tag = ROOT
+									is_subject_of = ROOT
+								}
 							}
 						}
 					}
@@ -8231,13 +8204,6 @@ CHL_mapuche_nationalism_decisions = {
 				every_state = {
 					limit = {
 						OR = {
-							is_controlled_by = ROOT
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = PREV
-							}
-						}
-						OR = {
 							state = 860
 							state = 863
 							state = 862
@@ -8256,22 +8222,32 @@ CHL_mapuche_nationalism_decisions = {
 							state = 471
 							state = 740
 						}
+						
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
+						
 					}
 					add_core_of = CAN
 					transfer_state_to = CAN
 				} 
 			}
 
+			
+
 			IF = {
 				limit = {
 					739 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
+						
 					}
 				}
 				739 = {
@@ -8282,11 +8258,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					331 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -8299,11 +8274,10 @@ CHL_mapuche_nationalism_decisions = {
 			IF = {
 				limit = {
 					730 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -8528,381 +8502,381 @@ CHL_mapuche_nationalism_decisions = {
 					}
 					custom_trigger_tooltip = {
 						tooltip = CHL_requires_usa_states_tt
-						OR = {
-							controls_state = 386 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 386 
+						386 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 385 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 385 
+						385 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 378 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 378 
+						378 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 379 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 379 
+						379 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 387 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 387 
+						387 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 388 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 388 
+						388 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 381 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 381 
+						381 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 380 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 380 
+						380 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 382 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 382 
+						382 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 377 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 377 
+						377 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 376 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 376 
+						376 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 389 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 389 
+						389 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 390 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 390 
+						390 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 384 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 384 
+						384 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 383 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 383 
+						383 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 374 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 374 
+						374 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 375 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 375 
+						375 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 391 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 391 
+						391 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 392 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 392 
+						392 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 373 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 373 
+						373 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 372 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 372 
+						372 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 371 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 371 
+						371 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 394 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 394 
+						394 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 395 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 395 
+						395 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 393 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 393 
+						393 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 396 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 396 
+						396 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 261 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 261 
+						261 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 369 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 369 
+						369 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 368 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 368 
+						368 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 370 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 370 
+						370 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 367 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 367 
+						367 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 365 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 365 
+						365 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 366 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 366 
+						366 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 364 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 364 
+						364 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 363 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 363 
+						363 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 362 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 362 
+						362 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 816 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 816 
+						816 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 361 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 361 
+						361 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 360 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 360 
+						360 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 359 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 359 
+						359 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 358 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 358 
+						358 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 
-						OR = {
-							controls_state = 357 
-								
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = 357 
+						357 = {
+							controller = {
+								OR = {
+									is_subject_of = ROOT
+									tag = ROOT
+								}
 							}
 						}
 					}
@@ -8928,13 +8902,6 @@ CHL_mapuche_nationalism_decisions = {
 			hidden_effect = {
 				every_state = {
 					limit = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
-								is_subject_of = ROOT
-								controls_state = PREV
-							}
-						}
 						OR = {
 							state = 386
 							state = 385
@@ -8979,10 +8946,16 @@ CHL_mapuche_nationalism_decisions = {
 							state = 358
 							state = 357
 						}
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
+						}
 					}
 					add_core_of = USA
 					transfer_state_to = USA
-				} 
+				}
 			}
 
 			IF = {
@@ -9990,48 +9963,48 @@ CHL_monarchist_decisions = {
 			
 			custom_trigger_tooltip = {
 				tooltip = release_inca_required_peruvian_states
-				OR = {
-					controls_state = 494 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 494 
+				494 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 492 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 492 
+				492 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 947 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 947 
+				947 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 303 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 303 
+				303 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 491 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 491 
+				491 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 			}
@@ -10039,41 +10012,41 @@ CHL_monarchist_decisions = {
 			custom_trigger_tooltip = {
 				tooltip = release_inca_required_ecuadorian_states
 
-				OR = {
-					controls_state = 490 
-						
-					any_country = {
-						is_subject_of = ROOT
-						controls_state = 490 
+				490 = {
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 
-				OR = {
-					controls_state = 305 
-						
-					any_country = {
+				305 = {
+					controller = {
+						OR = {
+						tag = ROOT
 						is_subject_of = ROOT
-						controls_state = 305 
+					}
 					}
 				}
 			}
 			
 
-			OR = {
-				controls_state = 951 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 951 
+			951 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
-			OR = {
-				controls_state = 506 
-					
-				any_country = {
-					is_subject_of = ROOT
-					controls_state = 506 
+			506 = {
+				controller = {
+					OR = {
+						tag = ROOT
+						is_subject_of = ROOT
+					}
 				}
 			}
 
@@ -10104,13 +10077,6 @@ CHL_monarchist_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 494
 						state = 492
 						state = 947
@@ -10122,6 +10088,14 @@ CHL_monarchist_decisions = {
 						state = 305
 						#state = 940
 					}
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
+						
+					}
+					
 				}
 				add_core_of = INC
 				transfer_state_to = INC
@@ -10130,11 +10104,10 @@ CHL_monarchist_decisions = {
 			IF = {
 				limit = {
 					649 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -10147,11 +10120,10 @@ CHL_monarchist_decisions = {
 			IF = {
 				limit = {
 					940 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -10436,57 +10408,57 @@ CHL_monarchist_decisions = {
 						exists = no
 					}
 					
-					OR = {
-						controls_state = 310 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 310 
+					310 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 309 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 309 
+					309 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 687 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 687 
+					687 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 488 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 488 
+					488 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 939 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 939 
+					939 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 969 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 939 
+					969 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 					
@@ -10511,19 +10483,19 @@ CHL_monarchist_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 310
 						state = 309
 						state = 687
 						state = 488
 						state = 939
 						state = 969
+					}
+
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				add_core_of = SUR
@@ -10656,21 +10628,21 @@ CHL_monarchist_decisions = {
 						exists = no
 					}
 					
-					OR = {
-						controls_state = 318 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 318 
+					318 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 
-					OR = {
-						controls_state = 319 
-							
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = 319 
+					319 = {
+						controller = {
+							OR = {
+								tag = ROOT
+								is_subject_of = ROOT
+							}
 						}
 					}
 					
@@ -10695,15 +10667,14 @@ CHL_monarchist_decisions = {
 			every_state = {
 				limit = {
 					OR = {
-						is_controlled_by = ROOT
-						any_country = {
-							is_subject_of = ROOT
-							controls_state = PREV
-						}
-					}
-					OR = {
 						state = 318
 						state = 319
+					}
+					controller = {
+						OR = {
+							tag = ROOT
+							is_subject_of = ROOT
+						}
 					}
 				}
 				add_core_of = HAI
@@ -10726,11 +10697,10 @@ CHL_monarchist_decisions = {
 			IF = {
 				limit = {
 					315 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -10742,12 +10712,11 @@ CHL_monarchist_decisions = {
 
 			IF = {
 				limit = {
-					689 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+					389 = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -10760,11 +10729,10 @@ CHL_monarchist_decisions = {
 			IF = {
 				limit = {
 					693 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -10777,11 +10745,10 @@ CHL_monarchist_decisions = {
 			IF = {
 				limit = {
 					690 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}
@@ -10794,11 +10761,10 @@ CHL_monarchist_decisions = {
 			IF = {
 				limit = {
 					686 = {
-						OR = {
-							is_controlled_by = ROOT
-							any_country = {
+						controller = {
+							OR = {
+								tag = ROOT
 								is_subject_of = ROOT
-								controls_state = PREV
 							}
 						}
 					}

@@ -225,7 +225,7 @@
  RULE_OPTION_INDEPENDENCE_COM: "Zhao Shangzhis Staatsstreich"
  RULE_OPTION_RANDOM: "Zufall"
  RULE_OPTION_DEFAULT: "Standard"
- RULE_OPTION_DEFAULT_AI_DESC: "Die KI trifft Entscheidungen basierend auf anderen Gameplay-Einstellungen, beispielsweise der Option, historische Schwerpunkte und andere Gameplay-Szenarien zu erzwingen. Dieses Verhalten entspricht dem in Version 1.5 und früher."
+ RULE_OPTION_DEFAULT_AI_DESC: "Wenn aktiviert, folgt die KI dem historischen KI-Schwerpunkt. Wenn deaktiviert, wählt sie einen zufälligen Plan aus."
  RULE_OPTION_RANDOM_AI_DESC: "Die KI entscheidet zu Beginn des Spiels zufällig über eine Strategie und versucht, diese umzusetzen."
  RULE_OPTION_FASCIST_GER_AI_DESC: "Die deutsche KI bleibt faschistisch und versucht, Europa einzunehmen, indem sie den entsprechenden Pfad im Nationalen Schwerpunktbaum einschlägt."
  RULE_FASCIST_JAP_AI_DESC: "Die japanische KI versucht, den historischen Weg zu verfolgen und nach Süden gegen die westlichen Alliierten vorzugehen, indem sie den entsprechenden Pfad im Nationalen Schwerpunktbaum einschlägt."

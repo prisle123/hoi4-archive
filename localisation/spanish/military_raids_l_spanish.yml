@@ -98,6 +98,8 @@
  raid_type_JAP_pearl_harbor_strike_desc: "Si enviamos a un grupo de bombarderos a atacar el cuartel general del enemigo y la flota del Pacífico, aumentaremos la moral de nuestro pueblo a la vez que minamos la del enemigo y sus capacidades navales. De esta forma, ¡nuestras armadas podrán navegar libremente durante 6 meses!"
  success_modifier_completed_kido_butai_focus: "ha completado el enfoque §Y$JAP_form_the_kido_butai$§!"
  success_modifier_completed_kido_butai_focus_improvement: "- Completa el enfoque §Y$JAP_form_the_kido_butai$§!"
+ success_modifier_completed_midget_submarine_project: "ha completado el proyecto §Y$sp_naval_midget_submarine$§!"
+ success_modifier_completed_midget_submarine_project_improvement: "- Completa el proyecto §Y$sp_naval_midget_submarine$§!"
  raid_type_CZE_sokolov_raid_pfot: "Asalto a Falknov"
  raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
  RAID_TARGET_NAME: "$WHAT|H$ en $LOCATION|H$"
@@ -427,6 +429,7 @@
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
  raid_target_name_state: "$LOCATION|H$"
+ early_nuclear_raid_unlock: "Se ha preparado un prototipo de bomba para su despliegue"
  #Custom Raid Names
  ### PRC
  #Land

@@ -1108,6 +1108,7 @@
  japan_border_conflict.4.t: "Tablas en el lago Jasán"
  japan_border_conflict.4.desc: "La lucha entre las fuerzas [SOV.GetAdjective] y las japonesas alrededor del lago Jasán ha amainado después de que ambos bandos se retiraran de la zona en litigio para reagruparse y reabastecerse. El ejército japonés ha admitido que es inútil realizar más ofensivas y ha pedido un alto el fuego y que se abran negociaciones para zanjar el asunto de la frontera."
  japan_border_conflict.4.a: "Hemos obtenido una experiencia muy valiosa."
+ japan_border_conflict.4.b: "La frontera permanece intacta."
  japan_border_conflict.5.t: "Se recrudece la lucha en el lago Jasán"
  japan_border_conflict.5.desc: "Continúa el combate entre las fuerzas [SOV.GetAdjective] y las japonesas alrededor del lago Jasán. En un esfuerzo por acabar con el estancamiento, las fuerzas japonesas de otras zonas han empezado a unirse a la refriega contra las fuerzas [SOV.GetAdjective] en ese sector. El servicio de información sugiere que es posible que los japoneses refuercen pronto el ataque con soldados renovados traídos de otras partes del imperio."
  japan_border_conflict.5.a: "Debemos mantener la posición."

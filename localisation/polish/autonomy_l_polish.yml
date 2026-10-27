@@ -55,7 +55,7 @@
  EVENT_AUTONOMY_EFFECTS: "§HWpływ na autonomię§!"
  ADD_AUTONOMY_SCORE_DESC: "Dodaj £autonomy_texticon $VALUE|H2$ do wyniku autonomii."
  ADD_AUTONOMY_SCORE_DETAILED_DESC: "Dodaj £autonomy_texticon $VALUE|H2$ do wyniku autonomii państwa: $COUNTRY|H$."
- COLONIAL_FORCES_GENERAL_DESCRIPTION: "§GKliknij, żeby zobaczyć szablony krajów podległych i rządów na uchodźstwie§!\n\nDywizje stworzone za pomocą szablonów kolonialnych mogą zawierać więcej zasobów ludzkich, jeżeli autonomia kolonii zostanie obniżona."
+ COLONIAL_FORCES_GENERAL_DESCRIPTION: "§GKliknij§!, żeby zobaczyć szablony krajów podległych i rządów na uchodźstwie\n\nDywizje stworzone za pomocą szablonów kolonialnych mogą zawierać więcej zasobów ludzkich, jeżeli autonomia kolonii zostanie obniżona."
  COLONIAL_FORCES_NO_SUBJECTS: "§RNie mamy poddanych ani rządów na uchodźstwie, z których moglibyśmy rekrutować szablony.§!"
  FOREIGN_TEMPLATE_DESC: "To szablon $COUNTRY_ADJ|H$, a to nasz poddany. Możemy skopiować ten szablon i na jego podstawie utworzyć siły kolonialne. Ich członków werbuje się od poddanego w tempie określonym przez jego poziom autonomii."
  COLONIAL_TEMPLATE_DESC: "To $COUNTRY_ADJ|H$ szablon kolonialny. Członków sił kolonialnych werbuje się od poddanego w tempie określonym przez jego poziom autonomii."

@@ -1538,7 +1538,7 @@ TOA_ven_blockade.1.a: "We cannot stand against [FROM.GetName]"
 TOA_ven_blockade.1.b: "This is a declaration of war!"
 
 TOA_ven_blockade.2.t: "$TOA_ven_blockade.1.t$"
-TOA_ven_blockade.2.desc: "[FROM.GetName] has taken the bold and outrageous step to completely blockade [Ven.GetName]. Capital Warships have been sighted outside of Caracas and the [VEN.GetAdjective] government has supposedly been informed that a full blockade has been enacted to stop oil trade between our countries."
+TOA_ven_blockade.2.desc: "[FROM.GetName] has taken the bold and outrageous step to completely blockade [VEN.GetNameDef]. Capital Warships have been sighted outside of Caracas and the [VEN.GetAdjective] government has supposedly been informed that a full blockade has been enacted to stop oil trade between our countries."
 TOA_ven_blockade.2.a: "A clear violation of neutrality!"
 
 paraguay.1.t: "Opportunity for Increased Fort Spending"

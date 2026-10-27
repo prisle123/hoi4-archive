@@ -1583,7 +1583,7 @@
  BEL_lambert_chardome_tt: "§Yランベール・シャルドーム§!が§Y将軍§!に就任した"
  BEL_eddy_blondeel_tt: "§Yエディ・ブロンディール§!が§Y将軍§!に就任した"
  BEL_scars_of_ww1_ns_fake_tt: "師団指揮統制率: §R-15%§! \n徴兵可能人口補正: §R-15%§! \n戦争協力度: §R-30%§! \n§Y軍需工場§!建設速度: §R-20%§!"
- BEL_corruption_ns_fake_tt: "日毎の政治力獲得: §R-0.25%§! \n安定度: §R-20%§! \n建設速度: §R-20%§! \n日毎のファシズムへの支援: §G+0.10%§!"
+ BEL_corruption_ns_fake_tt: "日毎の政治力獲得: §R-0.25§! \n安定度: §R-20%§! \n建設速度: §R-20%§! \n日毎のファシズムへの支援: §G+0.10%§!"
  ### CONGO SHARED FOCUS TREE ###
  CONGO_belgian_congo: "ベルギー領コンゴ"
  CONGO_belgian_congo_desc: "1908年、コンゴ自由国がベルギー政府に併合された後、ベルギー王室による搾取から離れた形で植民地が設立された。ベルギー領コンゴは同地域の植民地政策の中心で輝く宝石であり続けている。 "

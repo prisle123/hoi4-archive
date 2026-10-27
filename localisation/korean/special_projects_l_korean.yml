@@ -790,6 +790,8 @@
  sp_naval_modern_battleship_free_design: "현대식 전함"
  sp_naval_midget_submarine: "잠수정"
  sp_naval_midget_submarine_desc: "우리 해군에는 항만 파괴부터 수송선 습격까지 다양한 임무에 투입할 수 있는 경량형이고, 저렴하며, 다재다능한 잠수함이 필요합니다."
+ JAP_sp_naval_midget_submarine_desc: "$sp_naval_midget_submarine_desc$[JAP_midget_submarine_pearl_harbor_key]"
+ JAP_sp_naval_midget_submarine_pearl_harbor_hint: "\n\n함대 잠수함에 탑재된 잠수정들은 $raid_type_JAP_pearl_harbor_strike$에 앞서 항구에 잠입하여 §G대성공§! 확률을 높일 수 있습니다."
  sp_naval_midget_submarine_free_design: "잠수정"
  JAP_sp_naval_midget_submarine: "갑표적급 잠수함"
  sp_naval_nuclear_torpedo: "핵어뢰"

@@ -738,6 +738,7 @@
  COG_transports_et_ports: "オナトラ"
  COG_force_publique: "公安軍"
  COG_force_publique_desc: "公安軍はコンゴ自由国の下で1877年に設立された、コンゴの憲兵隊兼軍隊である。将校はベルギー人や傭兵などヨーロッパ人ばかりで、一般兵士はコンゴ出身者が多い。ここぞというときの戦いでは大活躍するものの、不平等と劣悪な管理体制が大きな不満を生んでいる。"
+ COG_force_publique_fake_idea_tt: "最大指揮力獲得: §R-50§!\n日毎の指揮力獲得倍率: §R-50%§!"
  COG_the_invisible_roof: "見えない屋根"
  COG_the_invisible_roof_desc: "これを公的に認める法律は存在しないが、[ROOT.GetNameDef]のすべての機関や企業とは言わないまでも、たいていコンゴ出身者が一定の地位以上になることはできず、高等教育への進学も認められていない。"
  COG_belgian_congo_colonial_dynamic_modifier: "模範植民地"

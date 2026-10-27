@@ -3144,7 +3144,6 @@ Christoffer Ring
 Maciej Kozlowski
 
 #COMMUNITY MANAGEMENT
-Community Management
 Benjamin Magnus Kajfasz
 Björn Blomberg
 

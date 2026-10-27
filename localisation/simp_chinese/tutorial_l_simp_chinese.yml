@@ -53,7 +53,7 @@
  TUT_MOVE_CAMERA: "将镜头转到$STATE$"
  TUT_SELECTED_DIVS: "选中部署在$STATE$的$NUMBERS$个师"
  TUT_COMMAND_GROUP: "拥有一个集团军"
- TUT_FRONTLINE: "$STATE$和埃塞俄比亚之间有一条前线"
+ TUT_FRONTLINE: "$STATE$和埃塞俄比亚之间有一条§Y前线§!"
  TUT_OFFENSIVE_ORDER: "有一条占领$ENEMY_CAPITAL$的进攻指令"
  TUT_AIRBASE: "查看位于$STATE$的空军基地"
  TUT_AIRWINGS_ASSIGNED: "$STATE$空军基地的$NUMBERS$支空军联队被分配到$REGION$空域"

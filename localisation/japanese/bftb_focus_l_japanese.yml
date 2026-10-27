@@ -469,6 +469,8 @@
  TUR_saadabad_pact_faction_tt: "§Yサーダーバード条約§!の全調印国を正式に同盟に招待する。"
  TUR_no_faction_members_tt: "サーダーバード条約の調印国がいない"
  TUR_no_faction_alliance_members_tt: "サーダーバード条約の調印国がサーダーバード協約を批准していない"
+ TUR_third_expedition_to_aceh: "オスマン帝国の第三次アチェ遠征"
+ TUR_third_expedition_to_aceh_desc: "帝国が再び軌道に乗ったことで、かつて我々の支配下にあった海外の保護国や自治領に対する支配を再び確立する時が来た。これを成し遂げるためには、まず海軍を十分に整える必要がある。我々の最初の目標は、アチェを再び保護国にすることだ。"
  TUR_the_damascus_diktat: "ダマスカス命令"
  TUR_the_damascus_diktat_desc: "[677.Controller.GetNameDefCap]は虚弱だ。シリアを引き渡さなければ戦争になるだろう、と脅迫するだけで彼らはたちまち和平を求め泣き崩れ、シリアを持って行ってくれと我々に懇願するだろう。"
  TUR_supporting_the_east: "東部への支援"

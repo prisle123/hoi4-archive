@@ -201,7 +201,10 @@
  SHX_suiyuan_campaign_idea: "綏遠作戦に対する防衛"
  JAP_sufu_materials: "スフ素材"
  JAP_boeitai_idea: "防衛隊"
+ JAP_ketsugo_field_expedients: "決号作戦の現地応急措置"
+ JAP_ketsugo_field_expedients_tt: "戦争が終われば徴発は終了し、この国民精神は取り除かれる"
  JAP_is_home_islands_state_tt: "いずれかの§Y日本本土§!の州"
+ JAP_is_main_home_islands_state_tt: "§Y日本本土§!の主要4島にあるいずれかの州"
  JAP_collapsing_government_idea: "崩壊する内閣"
  JAP_advance_one_hundred_million_fireballs_idea: "進め一億火の玉だ！"
  JAP_the_eternal_kingdom_idea: "不滅の帝国"
@@ -513,6 +516,7 @@
  #### TOOLTIPS ###
  CHI_modify_corruption_in_the_administration_tt: "§Y$CHI_corruption_in_the_administration$§!に以下の修正: "
  CHI_modify_reorganized_administration_tt: "§Y$CHI_reorganized_administration$§!に以下の修正:"
+ CHI_corruption_recruitable_fake_tt: "徴兵可能人口補正: §R-78%§!"
  CHI_modify_illicit_trade_tt: "§Y$CHI_illicit_trade$§!に以下の修正: "
  CHI_modify_inefficient_economy_tt: "§Y$CHI_inefficient_economy$§!に以下の修正: "
  CHI_modify_neglected_countryside_tt: "§Y$CHI_neglected_countryside$§!に以下の修正: "

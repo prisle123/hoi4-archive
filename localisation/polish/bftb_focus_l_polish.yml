@@ -469,6 +469,8 @@
  TUR_saadabad_pact_faction_tt: "Zaprosimy wszystkich sygnatariuszy §Ypaktu z Saadabad§! do zawarcia formalnego sojuszu."
  TUR_no_faction_members_tt: "Pakt z Saadabad nie ma sygnatariuszy"
  TUR_no_faction_alliance_members_tt: "Sygnatariusze paktu z Saadabad nie ratyfikowali konkordatu z Saadabad"
+ TUR_third_expedition_to_aceh: "Trzecia osmańska ekspedycja prowincji Aceh"
+ TUR_third_expedition_to_aceh_desc: "Imperium stanęło z powrotem na nogi, czas więc objąć kontrolą zamorskie protektoraty i królestwa, które niegdyś do nas należały. Aby to zrobić, musimy mieć odpowiedną flotę, a jako pierwszy cel obierzemy przywrócenie protektoratu nad prowincją Aceh."
  TUR_the_damascus_diktat: "Dyktat damasceński"
  TUR_the_damascus_diktat_desc: "[677.Controller.GetNameDefCap] to słabeusz. Wystarczy zagrozić wypowiedzeniem wojny, jeśli nie odda nam Syrii, a na pewno padnie na kolana, błagając o pokój i uwolnienie ich od syryjskiego ciężaru."
  TUR_supporting_the_east: "Wsparcie dla wschodu"

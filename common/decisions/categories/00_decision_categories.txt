@@ -34,6 +34,7 @@ MTG_naval_treaties = {
 		}
 	}
 	priority = 10
+	scripted_gui = MTG_naval_treaties_ui
 }
 SAF_anti_colonialist_crusade = {
 	allowed = {

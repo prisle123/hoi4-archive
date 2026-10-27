@@ -637,9 +637,9 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				any_country = {
+				any_collection_element = {
+					collection = game:all_majors
 					has_war_with = ROOT
-					is_major = yes
 				}
 			}
 		}
@@ -699,9 +699,9 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				any_country = {
+				any_collection_element = {
+					collection = game:all_majors
 					has_war_with = ROOT
-					is_major = yes
 				}
 			}
 		}

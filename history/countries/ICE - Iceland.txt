@@ -123,12 +123,18 @@ IF = {
 	recruit_character = ICE_bjorn_sveinsson_bjornsson
 	recruit_character = ICE_king_knud	
 	recruit_character = ICE_werner_gerlach
+
+	add_ideas = ICE_the_icelandic_economy_modifier_fake_idea
 }
+
 1939.1.1 = {
 	IF = {
 		limit = {
 			has_dlc = "Arms Against Tyranny"
 		}
+
+		remove_ideas = ICE_the_icelandic_economy_modifier_fake_idea
+
 		#drop_cosmetic_tag = yes
 		add_political_power = 1198
 		add_command_power = 100

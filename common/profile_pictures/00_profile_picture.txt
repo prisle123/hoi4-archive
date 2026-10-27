@@ -202,6 +202,9 @@ profile_pictures = {
 		icon = GFX_profile_picture_focus_SOV_rebuild_the_savior_cathedral
 		tag = SOV
 	}
+	72 = {
+		icon = GFX_profile_picture_focus_generic_air_carrier
+	}
 	# unlocked at 9000 CP
 	48 = {
 		icon = GFX_profile_picture_focus_spa_save_the_alcazar
@@ -211,10 +214,22 @@ profile_pictures = {
 		icon = GFX_profile_picture_focus_usa_build_the_pentagon
 		tag = USA
 	}
+	# unlocked at 9500 CP
+	73 = {
+		icon = GFX_profile_picture_focus_generic_sheep
+	}
 	# unlocked at 10000 CP
 	50 = {
 		icon = GFX_profile_picture_focus_SOV_my_brothers_keeper
 		tag = SOV
+	}
+	74 = {
+		icon = GFX_profile_picture_focus_HABSBURG_for_the_glory_of_the_empire
+	}
+	# unlocked at 10500 CP
+	75 = {
+		icon = GFX_profile_picture_focus_IRQ_royal_iraqi_army
+		tag = IRQ
 	}
 	# unlocked at 11000 CP
 	51 = {
@@ -225,6 +240,11 @@ profile_pictures = {
 		icon = GFX_profile_picture_focus_ITA_bersaglieri
 		tag = ITA
 	}
+	# unlocked at 11500 CP
+	76 = {
+		icon = GFX_profile_picture_focus_DEN_danish_freedom
+		tag = DEN
+	}
 	# unlocked at 12000 CP
 	52 = {
 		icon = GFX_profile_picture_focus_eng_god_save_the_king
@@ -234,55 +254,206 @@ profile_pictures = {
 		icon = GFX_profile_picture_focus_ITA_ferrea_mole_ferreo_cuore
 		tag = ITA
 	}
+	# unlocked at 12500 CP
+	77 = {
+		icon = GFX_profile_picture_focus_SWE_exchange_of_holdings
+		tag = SWE
+	}
 	# unlocked at 13000 CP
 	62 = {
 		icon = GFX_profile_picture_focus_SWI_embrace_rote_drei
 		tag = SWI
+	}
+	78 = {
+		icon = GFX_profile_picture_focus_JAP_sea_the_showa_restoration
+		tag = JAP
+	}
+	# unlocked at 13500 CP
+	79 = {
+		icon = GFX_profile_picture_focus_NOR_broken_gun_policies
+		tag = NOR
 	}
 	# unlocked at 14000 CP
 	63 = {
 		icon = GFX_profile_picture_focus_ETH_continuous_strengthen_the_black_lions
 		tag = ETH
 	}
+	80 = {
+		icon = GFX_profile_picture_focus_CHI_a_new_middle_kingdom
+		tag = CHI
+	}
+	# unlocked at 14500 CP
+	81 = {
+		icon = GFX_profile_picture_focus_FIN_the_lone_wolf
+		tag = FIN
+	}
 	# unlocked at 15000 CP
 	64 = {
 		icon = GFX_profile_picture_focus_SWI_helvetic_junta
 		tag = SWI
+	}
+	82 = {
+		icon = GFX_profile_picture_focus_PRC_burn_the_paper_tigers
+		tag = PRC
+	}
+	# unlocked at 15500 CP
+	83 = {
+		icon = GFX_profile_picture_focus_ICE_the_viking_spirit
+		tag = ICE
 	}
 	# unlocked at 16000 CP
 	65 = {
 		icon = GFX_profile_picture_focus_ETH_the_abuna
 		tag = ETH
 	}
+	84 = {
+		icon = GFX_profile_picture_focus_PHI_pearl_of_the_orient_seas
+		tag = PHI
+	}
+	# unlocked at 16500 CP
+	85 = {
+		icon = GFX_profile_picture_focus_CHL_protect_the_easter_island
+		tag = CHL
+	}
 	# unlocked at 17000 CP
 	66 = {
 		icon = GFX_profile_picture_focus_ITA_albanian_fascist_militia
 		tag = ITA
+	}
+	86 = {
+		icon = GFX_profile_picture_focus_CZE_slovak_arrow
+		tag = CZE
+	}
+	# unlocked at 17500 CP
+	87 = {
+		icon = GFX_profile_picture_focus_ARG_our_own_path
+		tag = ARG
 	}
 	# unlocked at 18000 CP
 	67 = {
 		icon = GFX_profile_picture_focus_ITA_mare_nostrum
 		tag = ITA
 	}
+	88 = {
+		icon = GFX_profile_picture_focus_AST_off_leash
+		tag = AST
+	}
+	# unlocked at 18500 CP
+	89 = {
+		icon = GFX_profile_picture_focus_BRA_jaguar_diplomacy
+		tag = BRA
+	}
 	# unlocked at 19000 CP
 	68 = {
 		icon = GFX_profile_picture_focus_SWI_establish_pro_helvetia
 		tag = SWI
+	}
+	90 = {
+		icon = GFX_profile_picture_focus_AST_call_that_a_knife
+		tag = AST
+	}
+	# unlocked at 19500 CP
+	91 = {
+		icon = GFX_profile_picture_focus_HUN_elect_a_democratic_king
+		tag = HUN
 	}
 	# unlocked at 20000 CP
 	69 = {
 		icon = GFX_profile_picture_focus_ETH_negusa_nagast
 		tag = ETH
 	}
+	92 = {
+		icon = GFX_profile_picture_focus_INS_the_peoples_security_army
+		tag = INS
+	}
+	# unlocked at 20500 CP
+	93 = {
+		icon = GFX_profile_picture_focus_AUS_bring_phonix_insurance_from_the_ashes
+		tag = AUS
+	}
 	# unlocked at 21000 CP
 	70 = {
 		icon = GFX_profile_picture_focus_ETH_the_italo_ethiopian_empire
 		tag = ETH
 	}
+	94 = {
+		icon = GFX_profile_picture_focus_SIA_boon_rawd_brewery
+		tag = SIA
+	}
+	# unlocked at 21500 CP
+	95 = {
+		icon = GFX_profile_picture_focus_GER_the_proud_eagle_and_the_rising_dragon
+		tag = GER
+	}
 	# unlocked at 22000 CP
 	71 = {
 		icon = GFX_profile_picture_focus_SWI_spirit_of_saint_bernard
 		tag = SWI
+	}
+	96 = {
+		icon = GFX_profile_picture_focus_SIA_the_king_of_the_white_elephant
+		tag = SIA
+	}
+	# unlocked at 22500 CP
+	97 = {
+		icon = GFX_profile_picture_focus_COG_the_mwami_of_burundi
+		tag = COG
+	}
+	# unlocked at 23000 CP
+	98 = {
+		icon = GFX_profile_picture_focus_CZE_czechoslovak_legion
+		tag = CZE
+	}
+	99 = {
+		icon = GFX_profile_picture_focus_SIA_pad_thai
+		tag = SIA
+	}
+	# unlocked at 23500 CP
+	100 = {
+		icon = GFX_profile_picture_focus_AFG_contact_amanullah_loyalists_alt
+		tag = AFG
+	}
+	# unlocked at 24000 CP
+	101 = {
+		icon = GFX_profile_picture_focus_RAJ_thunder_elephants
+		tag = RAJ
+	}
+	102 = {
+		icon = GFX_profile_picture_focus_PER_glory_of_cyrus
+		tag = PER
+	}
+	# unlocked at 24500 CP
+	103 = {
+		icon = GFX_profile_picture_focus_BEL_stk
+		tag = BEL
+	}
+	# unlocked at 25000 CP
+	104 = {
+		icon = GFX_profile_picture_focus_AFG_retire_the_uncles
+		tag = AFG
+	}
+	# unlocked at 26000 CP
+	105 = {
+		icon = GFX_profile_picture_focus_GER_wunderwaffe
+		tag = GER
+	}
+	# unlocked at 27000 CP
+	106 = {
+		icon = GFX_profile_picture_focus_generic_nuclear_development
+	}
+	# unlocked at 28000 CP
+	107 = {
+		icon = GFX_profile_picture_focus_generic_phoenix
+	}
+	# unlocked at 29000 CP
+	108 = {
+		icon = GFX_profile_picture_focus_JAP_an_integrated_union
+		tag = JAP
+	}
+	# unlocked at 30000 CP
+	109 = {
+		icon = GFX_profile_picture_focus_RAJ_i_am_death
+		tag = RAJ
 	}
 	# unlocked by awards
 	53 = {

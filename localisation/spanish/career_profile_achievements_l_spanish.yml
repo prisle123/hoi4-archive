@@ -38,6 +38,8 @@
  PLAYTHROUGH_OV_NOT_ELIGIBLE: "Tu partida no tiene acceso a medallas o galones debido al uso de mods o de comandos de consola."
  PLAYTHROUGH_OV_MP: "Las estadísticas no se actualizan en multijugador"
  PLAYTHROUGH_OV_MP_AWARDS: "No se conceden medallas ni galones en multijugador"
+ PLAYTHROUGH_OV_CONTINUE: "Continuar partida"
+ PLAYTHROUGH_OV_EXIT_TO_MENU: "Vuelve al menú principal.\n§GMayús + clic§! para salir sin confirmar."
  #Awards tab
  CAREER_PROFILE_AWARD_TAB_LABEL: "Premios"
  CAREER_PROFILE_AWARD_NOT_ACHIEVED: "No obtenido"

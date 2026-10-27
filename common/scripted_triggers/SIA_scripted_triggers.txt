@@ -29,3 +29,18 @@ SIA_should_add_national_savings_bond = {
 	original_tag = SIA
 	has_completed_focus = SIA_national_savings_bond
 }
+
+SIA_aligned_with_japan = {
+	custom_trigger_tooltip = {
+		tooltip = SIA_aligned_with_japan_tt
+		# A var holding a tag scopes fine even for an annexed country, so existence has to be asserted separately.
+		JAP = { exists = yes }
+		OR = {
+			is_ally_with = JAP
+			AND = {
+				has_variable = SIA_first_major_attacking_country
+				var:SIA_first_major_attacking_country = { original_tag = JAP }
+			}
+		}
+	}
+}

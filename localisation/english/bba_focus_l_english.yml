@@ -973,7 +973,7 @@
  ITA_masters_of_the_mediterranean_desc: "A state's power is proportional to its maritime position. It is time to claim total control of the Mediterranean, as it is the right of the Italian people to dominate the ancient sea that was the cradle of our civilization."
 
  ITA_convene_the_grand_council: "Convene the Grand Council"
- ITA_convene_the_grand_council_desc: "We must convene the Grand Council of Fascism to discuss what to do about Mussolini. His latest foray into Ethiopia and unwillingness to share power or responsibility has left many questioning his capabilities as a leader. He has served his country well and is the very face of fascism, but it might be time for new leadership…"
+ ITA_convene_the_grand_council_desc: "We must convene the Grand Council of Fascism to discuss what to do about Mussolini. His latest foray into Ethiopia and unwillingness to share power or responsibility has left many questioning his capabilities as a leader. He has served his country well and is the very face of fascism, but it might be time for new leadership..."
 
  ITA_foreign_affairs: "Foreign Affairs"
  ITA_foreign_affairs_desc: "Every great power needs to set clear foreign policy goals, as well as having talented people trained to conduct diplomacy in such a way as to achieve those goals."
@@ -1558,7 +1558,7 @@
  ITA_european_democracies_tt: "§YEuropean countries§! will be more inclined to accept diplomatic requests from Italy."
  ITA_european_democracies_bonus_per_ally_tt: "\nGains §G+2.00%§! Stability and §G+25§! Political Power per independent democratic country in [ROOT.GetName]'s faction (max of §Y+10.00%§! Stability and §Y+125§! Political Power).\n\n"
  ITA_peace_preservation_guarantees_tt: "Guarantee every §YDemocratic§! European country independent or allied to §Y[ROOT.GetNameWithFlag]§!:"
- ITA_peace_preservation_ns_tt: "\nGains National Spirit §Y$ITA_peace_keepers_of_europe$§!, which grants (Consumer Goods Factories: §Y-2.0%§! for each country guaranteed (max §Y-10.0%§!), War Support: §G+1.00%§! for each country guaranteed (max §Y+10.00%§!), Weekly Manpower: §G+100§! for each country guaranteed (max §Y+1000§!))."
+ ITA_peace_preservation_ns_tt: "\nGains National Spirit §Y$ITA_peace_keepers_of_europe$§!, which grants (Consumer Goods Factories: §Y-2.0%§! for each country guaranteed (max §Y-20.0%§!), War Support: §G+1.00%§! for each country guaranteed (max §Y+10.00%§!), Weekly Manpower: §G+100§! for each country guaranteed (max §Y+1000§!))."
  ITA_scientific_cooperation_allies_ns_tt: "Add National Spirit §Y$ITA_scientific_cooperation$§! to §Y[ROOT.GetNameDef]§! and §Yevery [ROOT.GetAdjective] ally§!."
  ITA_secure_the_borders_forts_tt: "Adds §Y2 $bunker$§! in every province bordering a non-friendly country. \nCurrent effects:"
  ITA_scientific_cooperation_research_sharing_group_tt: "Every allied country joins §Y$ITA_program_for_scientific_cooperation_name$§!."

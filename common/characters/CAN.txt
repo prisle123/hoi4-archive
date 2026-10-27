@@ -700,11 +700,22 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = fascism 
+					has_government = fascism
 				}
 			}
 			ai_will_do = {
 				factor = 0.000
+				modifier = {
+					add = 10
+					NOT = { has_government = fascism }
+					OR = {
+						has_country_flag = CAN_AI_RANDOM_FASCIST
+						has_game_rule = {
+							rule = CAN_ai_behavior
+							option = FASCIST
+						}
+					}
+				}
 			}
 		}
 	}
@@ -789,11 +800,22 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = communism 
+					has_government = communism
 				}
 			}
 			ai_will_do = {
 				factor = 0.000
+				modifier = {
+					add = 10
+					NOT = { has_government = communism }
+					OR = {
+						has_country_flag = CAN_AI_RANDOM_COMMUNIST
+						has_game_rule = {
+							rule = CAN_ai_behavior
+							option = COMMUNIST
+						}
+					}
+				}
 			}
 		}
 	}

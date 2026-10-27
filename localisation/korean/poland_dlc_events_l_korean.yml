@@ -48,7 +48,7 @@
  poland.20.d: "연대 없이는 자유도 없다!"
  poland.20.e: "훌륭하군!"
  poland.20.f: "지옥에나 떨어져라!"
- poland.21.t: "[Ger.GetNameDefCap] 측과의 통합을 모색하는 [DNZ.GetNameDef]"
+ poland.21.t: "[DNZ.GetNameDef], [GER.GetNameDef] 편입 요청"
  poland.21.d: "[DNZ.GetNameDef]의 거리에서 전쟁이 벌어지고 있습니다. [DNZ.GetLeader](은)는 [POL.GetLeader]의 군대에 강하게 맞서고 있지만, 도시 하나가 [POL.GetNameDef] 군대의 모든 공격을 견뎌낼 수는 없습니다. [Root.GetRulingParty] 당원인 [DNZ.GetLeader](은)는 책임이 [Root.GetLeader]에 있으며 [DNZ.GetAdjective]의 패배는 용납될 수 없다고 말합니다. [GER.GetNameDefCap] 측은 [DNZ.GetNameDef]의 방어를 위해 참전할 수 있으며, '방어'라는 명분 아래 도시를 점령할 수 있는 절호의 기회입니다."
  poland.21.a: "그단스크는 단치히로 남아있을 것이다!"
  poland.21.b: "관여하지 말자."

@@ -745,6 +745,7 @@
  HOL_unity_through_democracy: "\"Unidade pela democracia\""
  HOL_unity_through_democracy_desc: "O \"Movimento Holandês por Unidade pela Democracia\" (\"Eenheid door Democratie\") foi formado em 1935 e desde então tem sido uma voz ousada fora do parlamento contra demagogos de todas as ideologias. Apoiar o movimento pode compensar com a defesa da democracia e fortalecendo nosso governo."
  HOL_go_with_britain: "Ir com os ingleses"
+ HOL_go_with_britain_event_tt: "Envia um evento ao líder da facção da qual §Y[ENG.GetNameDef][ENG.GetFlag]§! faz parte solicitando a entrada na facção."
  HOL_go_with_britain_desc: "Os ingleses tem defendido ideais democráticos na crise atual e eles tem o mesmo interesse na integridade de nossos impérios coloniais. Nada mais natural que apoiemos sua causa."
  HOL_de_vaarplicht: "De Vaarplicht"
  HOL_de_vaarplicht_desc: "Após 150 anos de neutralidade e décadas de pacifismo, precisamos mostrar a nossos novos aliados nossa vontade de lutar. Ao invés de dependermos da marinha mercantil à base voluntários, nós transformaremos o Vaarplicht, (Obrigação de navegar) em lei. Todos os cidadãos holandeses que não tiverem sido alistados serão obrigados a realizar serviços para a marinha mercantil ou seu benefício."

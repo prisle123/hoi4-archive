@@ -398,7 +398,7 @@
  POL_baltic_security: "波罗的海安保"
  POL_baltic_security_desc: "虽然依赖着西方的支持，但其对德国不断的绥靖也我们怀疑，一旦遭到入侵，协约国是否真的会冲出战壕来保护我们。也许通过担保在东欧的友国，我们可以维持些许和平。"
  POL_protect_czechozlovakia: "保护捷克斯洛伐克"
- POL_protect_czechozlovakia_desc: "显然[GER.GetLeader]对捷克斯洛伐克的命运有[Ger.GetLeader.GetHerHis]自己的一套算盘，定是个迫害捷克斯洛伐克民族独立自主的勾当。这股帝国主义式的浪潮必须被遏止住。"
+ POL_protect_czechozlovakia_desc: "显然[GER.GetLeader]对捷克斯洛伐克的命运有[GER.GetLeader.GetHerHis]自己的一套算盘，定是个迫害捷克斯洛伐克民族独立自主的勾当。这股帝国主义式的浪潮必须被遏止住。"
  POL_baltic_alliance_focus: "联合波罗的海国家"
  POL_baltic_alliance_focus_desc: "波罗的海国家无疑会在波兰沦亡后紧接着遭殃。因此，三国应该放下对波兰国家的偏见，与我国站在一起，在共同边界的两侧携手抗敌。"
  POL_romanian_alliance: "联合罗马尼亚"

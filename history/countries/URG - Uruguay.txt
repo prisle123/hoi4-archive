@@ -265,14 +265,8 @@ set_popularities = {
 		}
 		recruit_character = URG_alfredo_baldomir_ferrari
 		promote_character = URG_alfredo_baldomir_ferrari
-		retire_character = URG_gabriel_terra
-		ELSE_IF = {
-			limit = {
-				has_dlc = "Arms Against Tyranny"
-			}
-			retire_character = URG_gabriel_terra
-		}
 	}
+	retire_character = URG_gabriel_terra
 
 	IF = {
 		limit = {

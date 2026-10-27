@@ -738,6 +738,7 @@
  COG_transports_et_ports: "Société Commerciale des Transports et des Ports"
  COG_force_publique: "Force Publique"
  COG_force_publique_desc: "La Force Publique es la gendarmería y fuerza militar congoleña, establecida en 1877 bajo el Estado Libre del Congo. Sus oficiales son todos europeos, ya sean belgas o mercenarios, mientras que los soldados rasos son en su mayoría originarios del Congo. La fuerza es muy eficaz a la hora de luchar cuando hace falta, pero la desigualdad y la mala gestión crean gran descontento."
+ COG_force_publique_fake_idea_tt: "Aumento de poder de mando máximo: §R-50§!\nMultiplicador de ganancia diaria de poder de mando: §R-50%§!"
  COG_the_invisible_roof: "El techo de cristal"
  COG_the_invisible_roof_desc: "Aunque no existen leyes que lo oficialicen, la mayoría, si no todas, las instituciones y empresas de [ROOT.GetNameDef] impiden a los ciudadanos congoleños nativos ascender por encima de ciertos puestos, y no se les permite acceder a la educación superior."
  COG_belgian_congo_colonial_dynamic_modifier: "La colonia modelo"

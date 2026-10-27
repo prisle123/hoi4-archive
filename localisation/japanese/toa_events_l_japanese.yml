@@ -1213,7 +1213,7 @@
  TOA_ven_blockade.1.a: "[FROM.GetName]には歯向かえない"
  TOA_ven_blockade.1.b: "これは宣戦布告だ！"
  TOA_ven_blockade.2.t: "$TOA_ven_blockade.1.t$"
- TOA_ven_blockade.2.desc: "[FROM.GetName]は[Ven.GetName]を完全に封鎖するという大胆かつ非道な措置をとった。カラカス郊外では主力艦が目撃されており、[VEN.GetAdjective]政府には両国間の石油貿易を停止するために完全封鎖が実施されたという情報が入っていると思われる。"
+ TOA_ven_blockade.2.desc: "[FROM.GetName]は[VEN.GetNameDef]を完全に封鎖するという大胆かつ非道な措置をとった。カラカス郊外では主力艦が目撃されており、[VEN.GetAdjective]政府には両国間の石油貿易を停止するために完全封鎖が実施されたという情報が入っていると思われる。"
  TOA_ven_blockade.2.a: "明らかに中道主義に反する！"
  paraguay.1.t: "要塞費用拡大の機会"
  paraguay.1.desc: "ウマイタを再建したことで、防衛費を増やし、首都に流れ込む河川の防衛力を高める小型の砦を含め、周辺地域にさらなる要塞を追加する機会を得た。"

@@ -290,7 +290,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "server_id"
-			position = { x = -335 y = -35 }
+			position = { x = -330 y = -35 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 4}
@@ -307,23 +307,31 @@ guiTypes = {
 			position = { x = -270 y = -37 }
 			Orientation = "CENTER_DOWN"
 		}
-		
+
+		checkboxType = {
+			name ="server_id_reveal_button"
+			quadTextureSprite = "GFX_privacy_reveal_eye"
+			position = { x = -64 y = -39 }
+			Orientation = "CENTER_DOWN"
+			clicksound = click_checkbox
+		}
+
 		iconType ={
 			name ="checksum_bg"
-			spriteType = "GFX_generic_text_bg_258"
-			position = { x= -275 y = -37 }
+			spriteType = "GFX_generic_text_bg_325"
+			position = { x= -342 y = -37 }
 			Orientation = "LOWER_RIGHT"
 			alwaystransparent = yes				
 		}
 		
 		instantTextBoxType = {
 			name = "checksum"
-			position = { x = -274 y = -35 }
+			position = { x = -341 y = -35 }
 			textureFile = ""
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 4}
 			text = ""	
-			maxWidth = 250
+			maxWidth = 317
 			maxHeight = 24	
 			format = center
 			Orientation = "LOWER_RIGHT"

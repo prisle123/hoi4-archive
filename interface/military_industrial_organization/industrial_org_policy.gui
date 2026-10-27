@@ -165,14 +165,25 @@ guiTypes = {
 			}
 
 			instantTextboxType = {
-				name = "instruction"
+				name = "description"
 				position = { x = 10 y = 50 }
+				font = "hoi_16mbs"
+				text = "INDUSTRIAL_ORG_QUEUE_WINDOW_DESCRIPTION"
+				maxWidth = 470
+				maxHeight = 40
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "instruction"
+				position = { x = 10 y = 92 }
 				font = "hoi_16mbs"
 				text = "INDUSTRIAL_ORG_QUEUE_WINDOW_INSTRUCTION"
 				maxWidth = 470
-				maxHeight = 150
+				maxHeight = 60
 				fixedsize = yes
-				format = center
+				format = left
 				alwaystransparent = yes
 			}
 		}

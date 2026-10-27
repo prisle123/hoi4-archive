@@ -227,6 +227,10 @@ ideas = {
 				always = yes
 			}
 
+			available = {
+				always = no
+			}
+
 			removal_cost = -1
 
 			modifier = {
@@ -245,6 +249,10 @@ ideas = {
 
 			allowed_civil_war = {
 				always = yes
+			}
+
+			available = {
+				always = no
 			}
 
 			removal_cost = -1
@@ -266,6 +274,10 @@ ideas = {
 
 			allowed_civil_war = {
 				always = yes
+			}
+
+			available = {
+				always = no
 			}
 
 			removal_cost = -1
@@ -290,6 +302,10 @@ ideas = {
 
 			allowed_civil_war = {
 				always = yes
+			}
+
+			available = {
+				always = no
 			}
 
 			removal_cost = -1
@@ -895,8 +911,8 @@ ideas = {
 
 			cancel = {
 				NOT = {
-					any_other_country = {
-						original_tag = INS
+					any_other_country_with_original_tag_of = {
+						target = {INS}
 						is_in_faction_with = ROOT
 					}
 				}

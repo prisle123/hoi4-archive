@@ -398,7 +398,7 @@
  POL_baltic_security: "Protéger les Baltes"
  POL_baltic_security_desc: "Si nous nous sommes nous-mêmes appuyés sur le soutien des Occidentaux, les concessions permanentes qu'ils font aux [GER.GetHabitants] n'incitent pas à penser que les Alliés nous défendraient en cas d'invasion. En assurant la protection de l'Europe de l'Est nous-mêmes, alors peut-être pourrons-nous maintenir la paix dans la région."
  POL_protect_czechozlovakia: "Protéger les [CZE.GetHabitants]"
- POL_protect_czechozlovakia_desc: "Il est évident désormais que [GER.GetLeader] a arrêté ses plans concernant [CZE.GetLeLaLNP] [CZE.GetName], qui privera assurément le pays de sa souveraineté. Nous devons arrêter cet impérialisme."
+ POL_protect_czechozlovakia_desc: "Il est évident désormais que [GER.GetLeader] a arrêté ses plans concernant la Tchécoslovaquie, qui privera assurément le pays de sa souveraineté. Nous devons arrêter cet impérialisme."
  POL_baltic_alliance_focus: "S'allier aux Baltes"
  POL_baltic_alliance_focus_desc: "Si [POL.GetLeLaLNP] [POL.GetName] venai[POL.GetTEntNP] à tomber, les Baltes seraient inévitablement les prochains sur la liste. Il serait donc prudent qu'ils cessent de nous dénigrer et s'allient à nous contre nos ennemis communs, à l'est comme à l'ouest de nos territoires respectifs."
  POL_romanian_alliance: "S'allier aux [ROM.GetHabitants]"

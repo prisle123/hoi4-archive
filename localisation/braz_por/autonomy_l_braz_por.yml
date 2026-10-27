@@ -55,7 +55,7 @@
  EVENT_AUTONOMY_EFFECTS: "§HEfeitos na autonomia§!"
  ADD_AUTONOMY_SCORE_DESC: "Adicione £autonomy_texticon $VALUE|H2$ à pontuação de autonomia"
  ADD_AUTONOMY_SCORE_DETAILED_DESC: "Adicione £autonomy_texticon $VALUE|H2$ à pontuação de autonomia de $COUNTRY|H$"
- COLONIAL_FORCES_GENERAL_DESCRIPTION: "§GClique para ver modelos de súditos e governos em exílio§!\n\nDivisões criadas com modelos coloniais podem incluir mais mão de obra da colônia se a autonomia da colônia for reduzida."
+ COLONIAL_FORCES_GENERAL_DESCRIPTION: "§GClique§! para ver modelos de súditos e governos em exílio\n\nDivisões criadas com modelos coloniais poderão incluir mais mão de obra da colônia se a autonomia da colônia for reduzida."
  COLONIAL_FORCES_NO_SUBJECTS: "§RNão temos súditos ou governos em exílio para recrutar modelos§!"
  FOREIGN_TEMPLATE_DESC: "Esse molde é $COUNTRY_ADJ|H$ e eles são nossos súditos. Podemos copiar esse molde e criar forças coloniais em sua base. Forças coloniais usam mão de obra do súdito de acordo com seu nível de autonomia."
  COLONIAL_TEMPLATE_DESC: "Esse é um molde colonial de $COUNTRY_DEF|H$. Forças coloniais usam mão de obra do súdito de acordo com seu nível de autonomia."

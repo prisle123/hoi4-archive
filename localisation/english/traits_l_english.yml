@@ -760,6 +760,7 @@
  divided_interests: "Divided Interests"
  our_right_to_survive: "Our Right to Survive"
  anarchist_zeal: "Anarchist Zeal"
+ protector_of_the_people: "Protector of the People"
  militant_socialist: "Militant Socialist"
  education_reformer: "Education Reformer"
  voice_of_restraint: "Voice of Restraint"
@@ -1006,6 +1007,8 @@
  trait_SOV_trotskyist_desc: "This character is loyal to the Trotskyist cause and will side with the Trotskyists in the event of a civil war."
  trait_SOV_bukharinist: "Bukharinist"
  trait_SOV_bukharinist_desc: "This character is loyal to Bukharin and his followers and will side with them in the event of a civil war."
+ communist_sympathizer: "$JAP_communist_sympathizer$"
+ communist_sympathizer_desc: "$JAP_communist_sympathizer_desc$"
 
  tank_refurbishment_plant: "Tank Refurbishment Plant"
  repair_and_refurbishment_plant: "Repair-Refurbishment Plant"
@@ -1739,6 +1742,7 @@
  cossack_ataman: "Cossack Ataman"
  GER_iron_maiden: "The Iron Maiden"
  HUN_revolutionary_internationalist_trait: "Revolutionary Internationalist"
+ HUN_democracy_advocate: "Democracy Advocate"
 
 
  ### BELGIUM ###
@@ -2133,6 +2137,7 @@
  RAJ_heir_of_the_empire: "Heir to the Empire"
  RAJ_khudai_khidmatgar_leader: "Khudai Khidmatgar Leader"
 
+ KAL_hier_to_the_oirat_realm: "Heir to the Oirat Realm"
 
  inspirational_bagpiper: "Inspirational Bagpiper"
  inspirational_bagpiper_desc: "This commander insists that carrying a bagpipe, a bow and a broadsword into battle is the way to wage war. Truly an inspiration."
@@ -2177,6 +2182,9 @@
  authoritarian: "Authoritarian"
  under_democratic_guise: "Under the Guise of Democracy"
  the_people_have_risen_up: "The people Have Risen Up"
+ RAJ_historian_of_the_congress: "Historian of the Congress"
+ RAJ_gandhian_old_guard: "Gandhian Old Guard"
+ RAJ_founder_of_andhra_bank: "Founder of Andhra Bank"
 
  IRQ_golden_square_member: "Golden Square Member"
  IRQ_golden_square_member_desc: "The Golden Square are a clique of high ranking military officials who desire a new path for Iraq, leaning into the Pan-Arab ideology and willing to work with anyone in order to achieve their goals."
@@ -2430,6 +2438,8 @@
  XSM_dubious_loyalty_desc: "$CHI_dubious_loyalty_desc$"
  YUN_dubious_loyalty: "$CHI_dubious_loyalty$"
  YUN_dubious_loyalty_desc: "$CHI_dubious_loyalty_desc$"
+ CHI_watched_officer: "Watched Officer"
+ CHI_watched_officer_desc: "This character once abandoned their post for the communists and has been allowed back into the officer corps regardless. They are watched closely, trusted with little, and advanced slowly."
  CHI_judicial_yuan_president: "Judicial Yuan President"
  CHI_vice_premier_trait: "Vice Premier"
  CHI_kuomintang_liberal: "Kuomintang Liberal"
@@ -2603,7 +2613,8 @@
  INS_the_indonesian_general: "The Indonesian General"
  INS_longstanding_nationalist: "Longstanding Nationalist"
  INS_the_steady_hand: "The Steady Hand"
-
+ 
+ RAJ_viceroy_of_india_trait: "Viceroy of India"
 
  SIA_minister_of_interior: "Minister of the Interior"
  SIA_leader_of_the_senior_officers: "Leader of the Senior Officers"
@@ -2737,6 +2748,9 @@
  NZL_pro_american_nationalist_trait: "Pro-American Nationalist"
  NZL_new_zealand_legionare_trait: "New Zealand Legionnaire"
  NZL_reserve_bank_governor: "Reserve Bank Governor"
+ NZL_reserve_bank_governor_tt: "Improved while the Reserve Bank of New Zealand is hired as an industrial concern."
+ NZL_reserve_bank_governor_empowered: "Empowered Governor"
+ NZL_reserve_bank_governor_empowered_tt: "Reverts if the Reserve Bank of New Zealand is dismissed as an industrial concern."
  NZL_hydro_electricity_professor: "Hydro-Electricity Professor"
  NZL_treasury_secretary: "New Zealand Treasury Secretary"
 
@@ -2753,3 +2767,6 @@
  carrier_officer_desc: "§LServed as a captain of a carrier.§!"
 
 
+ ARG_anti_unionist_pure_anarchist: "$anti_unionist_pure_anarchist$"
+ URG_minister_of_defense: "$SWE_minister_of_defense$"
+ ETH_minister_of_the_interior_abate: "$minister_of_the_interior_abate$"

@@ -48,7 +48,7 @@
  poland.20.d: "Pas de liberté sans Solidarité !"
  poland.20.e: "$poland.20.b$"
  poland.20.f: "$poland.20.a$"
- poland.21.t: "[DNZ.GetLeLaLNPCap] [DNZ.GetName] demand[DNZ.GetEEntNP]\nà intégrer [GER.GetLeLaLNP] [GER.GetName]"
+ poland.21.t: "[DNZ.GetLeLaLNPCap] [DNZ.GetName] demand[DNZ.GetEEntNP] à intégrer [GER.GetLeLaLNP] [GER.GetName]"
  poland.21.d: "\nLa guerre est désormais livrée jusque dans les rues de Dantzig, et [DNZ.GetLeader] reste ferme face aux forces [POL.GetAdjFP], mais une seule ville ne peut évidemment repousser indéfiniment le massacre attendu. En tant que membre du parti [Root.GetRulingParty], [DNZ.GetLeader] doit rendre des comptes à [Root.GetLeader], et une défaite [DNZ.GetAdjFS] serait évidemment inacceptable. [GER.GetLeLaLNPCap] [GER.GetName] pourrai[GER.GetTEntNP] donc entrer en guerre contre [POL.GetLeLaLNP] [POL.GetName], ce qui serait une parfaite occasion de prendre la ville tout en jouant le rôle de défenseurs..."
  poland.21.a: "Dantzig ne redeviendra pas Gdańsk !"
  poland.21.b: "Mieux vaut éviter\nde nous mêler de tout ça..."

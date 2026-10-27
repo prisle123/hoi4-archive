@@ -44,6 +44,8 @@
  PLAYTHROUGH_OV_NOT_ELIGIBLE: "Your playthrough is not eligible for medals and ribbons due to using mods or console commands"
  PLAYTHROUGH_OV_MP: "Statistics are not tracked in multiplayer"
  PLAYTHROUGH_OV_MP_AWARDS: "Medals and ribbons will not be awarded in multiplayer games"
+ PLAYTHROUGH_OV_CONTINUE: "Continue Game"
+ PLAYTHROUGH_OV_EXIT_TO_MENU: "Return to the main menu\n§GShift+Click§! to exit without confirmation"
 
 # Awards tab
  CAREER_PROFILE_AWARD_TAB_LABEL: "Awards"
@@ -261,5 +263,5 @@
  
  REQUIRES_DLC_TEXT: "Requires DLC $DLC|Y$"
  DLC_OWNED_TEXT: "§GYou own this content!§!"
- DLC_NOT_OWNED_TEXT: "§HClick to visit the store page for this content.§!"
+ DLC_NOT_OWNED_TEXT: "§HClick to visit the store page for this content§!"
  

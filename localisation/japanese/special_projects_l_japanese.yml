@@ -790,6 +790,8 @@
  sp_naval_modern_battleship_free_design: "現代型戦艦"
  sp_naval_midget_submarine: "小型潜水艦"
  sp_naval_midget_submarine_desc: "我が国の海軍力には、軽量で安価、かつ多用途の潜水艦を港湾破壊から護衛船団襲撃まで、さまざまな用途で活用するために導入する余地がある。"
+ JAP_sp_naval_midget_submarine_desc: "$sp_naval_midget_submarine_desc$[JAP_midget_submarine_pearl_harbor_key]"
+ JAP_sp_naval_midget_submarine_pearl_harbor_hint: "\n\n我が軍の艦隊潜水艦に搭載して運べば、これらの艇を$raid_type_JAP_pearl_harbor_strike$に先立って港内に潜入させ、§G大成功§!の確率を高められるだろう。"
  sp_naval_midget_submarine_free_design: "小型潜水艦"
  JAP_sp_naval_midget_submarine: "甲標的型潜水艦"
  sp_naval_nuclear_torpedo: "核魚雷"

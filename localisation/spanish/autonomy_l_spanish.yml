@@ -55,7 +55,7 @@
  EVENT_AUTONOMY_EFFECTS: "§HEfectos en autonomía§!"
  ADD_AUTONOMY_SCORE_DESC: "Añade £autonomy_texticon $VALUE|H2$ a la puntuación de autonomía"
  ADD_AUTONOMY_SCORE_DETAILED_DESC: "Añade £autonomy_texticon $VALUE|H2$ a la puntuación de autonomía de $COUNTRY|H$"
- COLONIAL_FORCES_GENERAL_DESCRIPTION: "§GHaz clic para ver plantillas de súbditos y gobiernos en el exilio§!\n\nLas divisiones creadas con plantillas coloniales pueden incluir más mano de obra de la colonia si se reduce su autonomía."
+ COLONIAL_FORCES_GENERAL_DESCRIPTION: "§GHaz clic§! para ver plantillas de súbditos y gobiernos en el exilio.\n\nLas divisiones creadas con plantillas coloniales pueden incluir más mano de obra de la colonia si se reduce su autonomía."
  COLONIAL_FORCES_NO_SUBJECTS: "§RNo tenemos súbditos ni gobiernos en el exilio que podamos reclutar de las plantillas§!"
  FOREIGN_TEMPLATE_DESC: "Esta plantilla es $COUNTRY_ADJ|H$, nuestros súbditos. Podemos copiarla y crear fuerzas coloniales en su base. Las fuerzas coloniales obtienen mano de obra del súbdito con cierta frecuencia, determinada por su nivel de autonomía."
  COLONIAL_TEMPLATE_DESC: "Esta es una plantilla colonial de $COUNTRY_DEF|H$. Las fuerzas coloniales obtienen mano de obra del súbdito con cierta frecuencia, determinada por su nivel de autonomía."

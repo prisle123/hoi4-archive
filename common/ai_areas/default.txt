@@ -143,6 +143,12 @@ areas = {
         }
     }
 
+	benelux = {
+		strategic_regions = {
+			5 # Benelux
+		}
+	}
+
 	north_america = {
 
 		continents = {

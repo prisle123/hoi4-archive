@@ -57,6 +57,7 @@ country_groups = {
 		KHM
 		KUM
 		RNG
+        HBC
     }
     
     chinese_warlords = {

@@ -2151,8 +2151,8 @@
  SUR: "수리남"
  SUR_DEF: "수리남"
  SUR_ADJ: "수리남"
- TAJ_fascism: "마트차 백국"
- TAJ_fascism_DEF: "마트차 백국"
+ TAJ_fascism: "다르바즈 왕국" #was Bekstvo of Matcha
+ TAJ_fascism_DEF: "다르바즈 왕국"
  TAJ_democratic: "타지키스탄 공화국"
  TAJ_democratic_DEF: "타지키스탄 공화국"
  TAJ_neutrality: "타지키스탄"

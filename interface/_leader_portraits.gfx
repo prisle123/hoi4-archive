@@ -665,12 +665,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_RAJ_pattabhi_sitaramayya"
+		name = "GFX_RAJ_political_leader_generic_2"
 		texturefile = "gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
 	}
 
 	spriteType = {
-		name = "GFX_RAJ_pattabhi_sitaramayya_small"
+		name = "GFX_RAJ_political_leader_generic_2_small"
 		texturefile = "gfx/interface/ideas/idea_RAJ_political_leader_generic_2.dds"
 	}
 
@@ -1575,6 +1575,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_LIT_antanas_gustaitis.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_portrait_LIT_antanas_snieskus"
+		texturefile = "gfx/leaders/LIT/portrait_LIT_antanas_snieskus.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_portrait_LIT_augustinas_voldemaras"
+		texturefile = "gfx/leaders/LIT/portrait_LIT_augustinas_voldemaras.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_LIT_kazys_grinius"
+		texturefile = "gfx/leaders/LIT/portrait_LIT_kazys_grinius.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_LIT_karl_gero_von_urach"
+		texturefile = "gfx/leaders/LIT/portrait_LIT_karl_gero_von_urach.dds"
+	}
+
 	spriteType = {
 		name = "GFX_portrait_holland_hendrikus_colijn"
 		texturefile = "gfx/leaders/HOL/portrait_hol_hendrikus_colijn.dds"
@@ -1625,6 +1645,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_LAT_fricis_menders.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_portrait_LAT_augusts_kirhensteins"
+		texturefile = "gfx/leaders/LAT/portrait_LAT_augusts_kirhensteins.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_LAT_gustavs_celmins"
+		texturefile = "gfx/leaders/LAT/portrait_LAT_gustavs_celmins.dds"
+	}
+
 	spriteType = {
 		name = "GFX_Portrait_estonia_konstantin_pats"
 		texturefile = "gfx/leaders/EST/portrait_est_konstantin_pats.dds"
@@ -1633,6 +1663,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_estonia_konstantin_pats_small"
 		texturefile = "gfx/interface/ideas/idea_EST_konstantin_pats.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_EST_artur_sirk"
+		texturefile = "gfx/leaders/EST/portrait_EST_artur_sirk.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_EST_johannes_kabin"
+		texturefile = "gfx/leaders/EST/portrait_EST_johannes_kabin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_portrait_EST_jaan_tonisson"
+		texturefile = "gfx/leaders/EST/portrait_EST_jaan_tonisson.dds"
 	}
 
 	spriteType = {

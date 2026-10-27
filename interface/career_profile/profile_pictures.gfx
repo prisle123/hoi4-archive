@@ -354,6 +354,196 @@ spriteTypes = {
 		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_SWI_spirit_of_saint_bernard.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_profile_picture_focus_generic_air_carrier"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_generic_air_carrier.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_generic_sheep"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_generic_sheep.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_HABSBURG_for_the_glory_of_the_empire"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_HABSBURG_for_the_glory_of_the_empire.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_IRQ_royal_iraqi_army"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_IRQ_royal_iraqi_army.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_DEN_danish_freedom"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_DEN_danish_freedom.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_SWE_exchange_of_holdings"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_SWE_exchange_of_holdings.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_JAP_sea_the_showa_restoration"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_JAP_sea_the_showa_restoration.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_NOR_broken_gun_policies"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_NOR_broken_gun_policies.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_CHI_a_new_middle_kingdom"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_CHI_a_new_middle_kingdom.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_FIN_the_lone_wolf"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_FIN_the_lone_wolf.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_PRC_burn_the_paper_tigers"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_PRC_burn_the_paper_tigers.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_ICE_the_viking_spirit"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_ICE_the_viking_spirit.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_PHI_pearl_of_the_orient_seas"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_PHI_pearl_of_the_orient_seas.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_CHL_protect_the_easter_island"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_CHL_protect_the_easter_island.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_CZE_slovak_arrow"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_CZE_slovak_arrow.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_ARG_our_own_path"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_ARG_our_own_path.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_AST_off_leash"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_AST_off_leash.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_BRA_jaguar_diplomacy"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_BRA_jaguar_diplomacy.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_AST_call_that_a_knife"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_AST_call_that_a_knife.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_HUN_elect_a_democratic_king"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_HUN_elect_a_democratic_king.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_INS_the_peoples_security_army"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_INS_the_peoples_security_army.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_AUS_bring_phonix_insurance_from_the_ashes"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_AUS_bring_phonix_insurance_from_the_ashes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_SIA_boon_rawd_brewery"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_SIA_boon_rawd_brewery.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_GER_the_proud_eagle_and_the_rising_dragon"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_GER_the_proud_eagle_and_the_rising_dragon.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_SIA_the_king_of_the_white_elephant"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_SIA_the_king_of_the_white_elephant.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_COG_the_mwami_of_burundi"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_COG_the_mwami_of_burundi.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_CZE_czechoslovak_legion"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_CZE_czechoslovak_legion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_SIA_pad_thai"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_SIA_pad_thai.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_AFG_contact_amanullah_loyalists_alt"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_AFG_contact_amanullah_loyalists_alt.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_RAJ_thunder_elephants"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_RAJ_thunder_elephants.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_PER_glory_of_cyrus"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_PER_glory_of_cyrus.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_BEL_stk"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_BEL_stk.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_AFG_retire_the_uncles"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_AFG_retire_the_uncles.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_GER_wunderwaffe"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_GER_wunderwaffe.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_generic_nuclear_development"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_generic_nuclear_development.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_generic_phoenix"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_generic_phoenix.dds"
+	}
+		
+	SpriteType = {
+		name = "GFX_profile_picture_focus_JAP_an_integrated_union"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_JAP_an_integrated_union.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_profile_picture_focus_RAJ_i_am_death"
+		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_RAJ_i_am_death.dds"
+	}
+
 	spriteType = {
 		name = "GFX_profile_picture_bg_default"
 		texturefile = "gfx/interface/career_profile/profile_picture_bg_default.dds"

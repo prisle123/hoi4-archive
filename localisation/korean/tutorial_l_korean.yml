@@ -53,7 +53,7 @@
  TUT_MOVE_CAMERA: "$STATE$로 카메라가 이동됨"
  TUT_SELECTED_DIVS: "$STATE$에서 $NUMBERS$개 사단 선택됨"
  TUT_COMMAND_GROUP: "군이 존재함"
- TUT_FRONTLINE: "$STATE$와 에티오피아 사이에 전선이 있음"
+ TUT_FRONTLINE: "$STATE$(와)과 에티오피아 사이에 §Y전선§!이 있음"
  TUT_OFFENSIVE_ORDER: "$ENEMY_CAPITAL$ 점령을 위한 공세 명령이 있음"
  TUT_AIRBASE: "$STATE$에 있는 공군기지 보기"
  TUT_AIRWINGS_ASSIGNED: "$STATE$ 공군기지에 있는 $NUMBERS$개의 비행단이 $REGION$ 공역에 배치됨"

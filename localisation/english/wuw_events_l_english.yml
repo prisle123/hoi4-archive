@@ -622,7 +622,7 @@
  AUS_political_events.113.desc: "It appears our offer towards the [FROM.GetAdjective] leadership was not good enough for them. Either they have seen through our plans for the future or they, themselves have malicious plans regarding us. We must prepare for that eventuality, and, should we wish to proceed with our plans, more hostile actions may be required."
  AUS_political_events.113.a: "That is unfortunate"
 
- AUS_political_events.114.t: "[FROM.GetNameDef] Offers Industrial Support"
+ AUS_political_events.114.t: "[FROM.GetNameDefCap] Offers Industrial Support"
  AUS_political_events.114.desc: "In light of our recent agreement towards peace between our countries the [FROM.GetAdjective]s have offered us some industrial support. While our industrial sector usually lives up to our standards their help is of course welcome. A few voices of caution have been raised, claiming that surely [FROM.GetNameDefCap] does this for a reason."
  AUS_political_events.114.a: "Pass on our thanks."
 
@@ -1612,6 +1612,10 @@
  ww_BEL_event_diplomatic.37.desc: "Despite the obvious benefits to the both of us, it seems that the [FROM.GetAdjective] are not willing to entertain diplomatic relations with us, beyond what they already do. We had high hopes for this, but it seems they were not shared."
  ww_BEL_event_diplomatic.37.a: "Shame..."
 
+ ww_BEL_event_diplomatic.38.t: "[FROM.GetNameDefCap] Invests in Our Industry"
+ ww_BEL_event_diplomatic.38.desc: "A [FROM.GetAdjective] delegation has arrived bearing signed contracts and a considerable amount of capital. New works are to be raised in our heartland at the [FROM.GetFactionName]'s expense, civilian industry alongside an arsenal. The men who signed the cheques were quite open about what they hope it buys: a fair hearing, the next time [FROM.GetNameDef] raises the question of a federal Europe."
+ ww_BEL_event_diplomatic.38.a: "The Union pays its dividends"
+
 
  ### War Events
 
@@ -2085,7 +2089,7 @@
  congo_independence_struggle.2.c: "We will never let them go willingly!"
 
  congo_independence_struggle.3.t: "[FROM.GetNameDefCap] will Grant us our Freedom if we Join their Faction"
- congo_independence_struggle.3.d: "We have received word from [BEL.GetName], and they have acknowledged that the day of colonial empires is fast coming to a close. They have therefore extended an offer to us to join the [Bel.GetAdjective] Commonwealth as free and independent nation, and therefore as an equal partner. We would still be beholden to the same terms offered to any other military ally, and therefore would be expected to join any wars together. \n\nThis is probably the most diplomatic outcome we could hope for, and this would allow us to entirely avoid bloodshed with our European friends while upholding African pride and independence."
+ congo_independence_struggle.3.d: "We have received word from [BEL.GetName], and they have acknowledged that the day of colonial empires is fast coming to a close. They have therefore extended an offer to us to join the [BEL.GetAdjective] Commonwealth as free and independent nation, and therefore as an equal partner. We would still be beholden to the same terms offered to any other military ally, and therefore would be expected to join any wars together. \n\nThis is probably the most diplomatic outcome we could hope for, and this would allow us to entirely avoid bloodshed with our European friends while upholding African pride and independence."
  congo_independence_struggle.3.a: "This sounds very reasonable. We accept!"
  congo_independence_struggle.3.b: "We can not agree to those conditions..."
 
@@ -2876,7 +2880,7 @@
  wuw_GER_weltpolitik.7.b: "We can not accept this, to arms!"
 
  wuw_GER_weltpolitik.8.t: "[BEL.GetNameDefCap] will give up the Congo"
- wuw_GER_weltpolitik.8.desc: "[BEL.GetLeader] of [BEL.GetNameDef] has caved to our demands and states that the Congo will be signed over to us effective immediately. It is still not certain that the people and governors in the Congo will accept this, but at least the [BEl.GetAdjective]s caved."
+ wuw_GER_weltpolitik.8.desc: "[BEL.GetLeader] of [BEL.GetNameDef] has caved to our demands and states that the Congo will be signed over to us effective immediately. It is still not certain that the people and governors in the Congo will accept this, but at least the [BEL.GetAdjective]s caved."
  wuw_GER_weltpolitik.8.a: "Perfect"
 
  wuw_GER_weltpolitik.9.t: "[BEL.GetNameDefCap] Refuses to give up the Congo"

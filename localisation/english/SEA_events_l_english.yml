@@ -17,6 +17,15 @@
  SEA_japan.1.d: "The Military must be reigned in!" # Intentional
  SEA_japan.1.e: "The People must realize they are being subverted from all sides!"
 
+ SEA_japan.2.t: "The Takasago Volunteers"
+ SEA_japan.2.desc: "The Governor-General reports the enemy ashore, and reports also that the recruiting tables in the mountain districts are crowded. Whether the Takasago come forward out of loyalty to the Emperor, out of the years of schooling that taught them to, or simply because this is their island and an invader is standing on it, he does not venture to say. He notes only that they arrive with their own knives, that they move through country our own troops call impassable, and that there are more of them than we have rifles to issue."
+ SEA_japan.2.a: "Let the highlanders hold the heights"
+ JAP_takasago_volunteers_raised_tt: "Raises §Y3§! divisions of §YTakasago Giyutai§! in §YTaiwan§!, clear of the provinces the enemy already controls."
+
+ SEA_japan.3.t: "Ketsu-Go"
+ SEA_japan.3.desc: "The enemy is ashore on the Home Islands. The plan for this has existed since April, and within hours of the first report the staff begin to execute it: divisions ordered to the coast, reserves released, and every prefecture instructed to place its trucks, its timber and its rice at the army's disposal. The Governors protest that there will be nothing left for the towns. They are told, politely, that there will be no towns if the beaches are not held."
+ SEA_japan.3.a: "Every ridge, every beach, every village!"
+
  SEA_japan_foreign_policy.1.t: "[FROM.GetNameDefCap] Demands our Submission"
  SEA_japan_foreign_policy.1.desc: "The leadership of [FROM.GetNameDef]'s Kwantung Army have demanded our submission. They have however come with an offer. Should we join them, they will aid us in reclaiming the Mongol lands of old for us, and will allow us to establish a new Mongol Empire under their control. What say we?"
  SEA_japan_foreign_policy.1.a: "This is an Opportunity for us"
@@ -1133,6 +1142,15 @@
  SEA_japan_air_accidents_events.02.desc: "Admiral Isoroku Yamamoto came under fire from the enemy while flying in transit earlier today. Managing to contact the naval air force in the region and staying clear from the barrage, Yamamoto managed to slip away and land his airplane successfully. The Admiral has been hailed for his bravery and for staying calm in such a hot situation."
  SEA_japan_air_accidents_events.02.a: "His honor has been upheld"
 
+ SEA_japan_air_accidents_events.03.t: "Operation Vengeance Succeeds"
+ SEA_japan_air_accidents_events.03.desc: "For weeks our cryptanalysts have read the enemy's naval traffic as easily as a morning paper, and this week it handed us an itinerary: departure, escort and arrival, timed to the minute. The [JAP.GetAdjective] navy is nothing if not punctual.\n\nA flight of long range fighters left before dawn and flew the entire leg at wave top height in complete radio silence, a wide arc out over open water so as to come at the rendezvous from the seaward side. They arrived within a minute of the appointed hour. The escort was brushed aside, and the aircraft carrying $JAP_isoroku_yamamoto$ went down burning into the jungle. Two of our pilots claim the kill and neither will yield it; that argument looks likely to outlast the war itself.\n\nThe architect of Pearl Harbor has been paid in full. Now comes the harder task: [JAP.GetNameDef] must never suspect how we knew. Let the credit fall to coastwatchers and good fortune, and let their codes stay exactly as they are."
+ SEA_japan_air_accidents_events.03.a: "A message has been sent."
+ SEA_japan_air_accidents_events.04.t: "Operation Vengeance Fails"
+ SEA_japan_air_accidents_events.04.desc: "The itinerary was perfect. The timing was perfect. Everything was perfect except the shooting.\n\nOur fighters made the rendezvous exactly as planned, but the escort was quicker off the mark than we had allowed for, and in the confusion the aircraft carrying $JAP_isoroku_yamamoto$ slipped away south and put down safely. Our pilots came home with holes in their wings and nothing whatever to show for the longest fighter interception ever attempted.\n\nThe loss of one admiral we could have borne. What troubles the Department far more is what the enemy will make of this. An ambush so precise, hundreds of miles out over empty ocean, does not happen by accident, and [JAP.GetNameDef] can count as well as we can. Should they conclude that their signals are being read and change their codes accordingly, we shall have traded the finest intelligence of this war for a burst of gunfire that missed."
+ SEA_japan_air_accidents_events.04.a: "He slipped through our fingers."
+ JAP_yamamoto_removed_from_high_command_tt: "$JAP_isoroku_yamamoto$ is lost to the [JAP.GetAdjective] high command"
+ JAP_yamamoto_survives_tt: "$JAP_isoroku_yamamoto$ remains in command, and is the wiser for the ordeal"
+
  ## NEWS EVENTS 
 
  SEA_japan_news_events.01.t: "[JAP.GetLeader] Speaks out Against Military Interference"
@@ -1878,11 +1896,11 @@
  SEA_PRC_political_events.13.b: "We will bide our time..."
 
  SEA_PRC_political_events.19.t: "Some of Our Generals Have Switched Sides!" 
- SEA_PRC_political_events.19.desc: "The conflict between [PRC.GetNameDef] and [CHI.GetNameDef] has undermined our army as some of our commanders have defected to the communists. Whether they truly align with [PRC.GetNameDef], or are simply following the way the wind seems to be blowing, remains to be seen."
+ SEA_PRC_political_events.19.desc: "The renewed fighting with the communists has undermined our army as some of our commanders have defected to them. Whether they truly align with [PRC.GetNameDef], or are simply following the way the wind seems to be blowing, remains to be seen."
  SEA_PRC_political_events.19.a: "Traitors, the lot of them"
 
  SEA_PRC_political_events.20.t: "Generals Across China Flock to Our Cause"
- SEA_PRC_political_events.20.desc: "The resumption of hostilities between [CHI.GetNameDef] and [PRC.GetNameDef] has caused uncertainty among the enemy officers, causing some of them to defect to our side."
+ SEA_PRC_political_events.20.desc: "The resumption of hostilities across China has caused uncertainty among the enemy officers, causing some of them to defect to our side."
  SEA_PRC_political_events.20.a: "A hopeful sign!"
 
  SEA_PRC_political_events.21.t: "[FROM.GetName] Wants $SOV_vasily_chuykov$ and $SOV_aleksandr_cherepanov$ to Advise Them"
@@ -1919,6 +1937,17 @@
  SEA_PRC_political_events.41.t: "The Unwilling Diarchy"
  SEA_PRC_political_events.41.desc: "Political rivals for years, $PRC_mao_zedong$ and $PRC_zhang_guotao$ have met in [ROOT.Capital.GetName] to put aside their differences in face of our perilous situation. Though neither fully trust the other, the enemy of our enemy is a friend indeed."
  SEA_PRC_political_events.41.a: "An uneasy alliance"
+
+ SEA_PRC_political_events.42.t: "The Prodigal Officers"
+ SEA_PRC_political_events.42.desc: "With [PRC.GetNameDef] broken, the officers who abandoned us for them have nowhere left to go. Some send word through intermediaries, pleading that they were only bending to the wind and that their loyalty was never truly given away. Others say nothing at all, and simply wait to learn what we intend to do with them."
+ SEA_PRC_political_events.42.a: "Welcome them back into the fold"
+ SEA_PRC_political_events.42.b: "Reinstate them, but watch them closely"
+ SEA_PRC_political_events.42.c: "Traitors once, traitors always"
+
+ SEA_PRC_political_events.43.t: "Officers Without a Master"
+ SEA_PRC_political_events.43.desc: "A handful of the officers who went over to the communists have no home left to return to, the cliques they once served swept away while they were gone. As the government of all China, the question of what becomes of them now falls to us."
+ SEA_PRC_political_events.43.a: "Put them back to work"
+ SEA_PRC_political_events.43.b: "They will answer for their treason"
 
 
 

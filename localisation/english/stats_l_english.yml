@@ -73,6 +73,7 @@
  STAT_ARMY_CASUALTY_TRICKLEBACK_DESC: "The proportion of losses in combat that can be saved and returned to the manpower pool. Saved Casualties will not impact the war support penalty from casualties and damage."
  STAT_ARMY_CASUALTY_TRICKLEBACK_VALUE: "$VALUE|H2%$"
  STAT_ARMY_CASUALTY_TRICKLEBACK_DIFF: " $VALUE|=+2%$"
+ CASUALTY_TRICKLEBACK_CAP_WARNING: "§RValue capped at§! $MAX|H2%$"
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR: "Exp. Loss: "
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_DESC: "How much experience is lost in a division when they take casualties and have to replace them."
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_VALUE: "$VALUE|H2%$"

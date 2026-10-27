@@ -1,0 +1,66 @@
+guiTypes = {
+
+	# Height is reserved statically, so it is sized for the largest partition
+	containerWindowType = {
+		name = "raj_goe_partition_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 190 }
+
+		instantTextBoxType = {
+			name = "raj_goe_partition_pressure_label"
+			position = { x = 14 y = 2 }
+			font = "hoi_16mbs"
+			text = "RAJ_GOE_partition_gui_header"
+			format = left
+			maxwidth = 470
+			maxHeight = 20
+			pdx_tooltip = "RAJ_GOE_partition_gui_header_tt"
+		}
+
+		# Name must match the dynamic list in RAJ_GOE_partition_scripted_ui, the binding is by name
+		gridboxtype = {
+			name = "raj_goe_partition_states_grid"
+			position = { x = 14 y = 24 }
+			size = { width = 480 height = 160 }
+			slotsize = { width = 240 height = 20 }
+			max_slots_horizontal = 2
+			format = "UPPER_LEFT"
+		}
+	}
+
+	containerWindowType = {
+		name = "raj_goe_partition_state_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 236 height = 20 }
+
+		instantTextBoxType = {
+			name = "raj_goe_partition_state_text"
+			position = { x = 0 y = 1 }
+			font = "hoi_16mbs"
+			text = "RAJ_GOE_partition_gui_state_row"
+			format = left
+			maxwidth = 232
+			maxHeight = 18
+			pdx_tooltip = "RAJ_GOE_partition_gui_state_row_tt"
+		}
+	}
+
+	# Picked by GetRAJPartitionStateEntry when the state leans towards the viewing player
+	containerWindowType = {
+		name = "raj_goe_partition_state_entry_lean"
+		position = { x = 0 y = 0 }
+		size = { width = 236 height = 20 }
+
+		instantTextBoxType = {
+			name = "raj_goe_partition_state_text"
+			position = { x = 0 y = 1 }
+			font = "hoi_16mbs"
+			text = "RAJ_GOE_partition_gui_state_row_lean"
+			format = left
+			maxwidth = 232
+			maxHeight = 18
+			pdx_tooltip = "RAJ_GOE_partition_gui_state_row_lean_tt"
+		}
+	}
+
+}

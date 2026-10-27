@@ -1471,6 +1471,10 @@ indonesia_declare_war_is_over_effect = { #always use this instead of directly cl
 			    division_template = "Freedom Fighter Militia"
 			    is_locked = no
 			}
+			delete_unit_template_and_units = {
+			    division_template = "Freedom Fighter Militia"
+			    disband = no
+			}
 		}
 	}
 
@@ -2591,14 +2595,11 @@ INS_update_revolutionary_economic_cooperation = {
 			divide = 100
 		}
 	}
-
 	add_offsite_building = {
 		type = industrial_complex
 		level = INS_communist_revolts_succeeded
 	}
-
 	custom_effect_tooltip = generic_skip_one_line_tt
-
 	custom_override_tooltip = { #Resets the variables to their correct values
 		set_variable = { INS_revolutionary_economic_cooperation_stability_factor = INS_revolutionary_economic_cooperation_value }
 		set_variable = { INS_revolutionary_economic_cooperation_production_speed_buildings = INS_revolutionary_economic_cooperation_value }

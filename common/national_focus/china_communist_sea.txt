@@ -3281,11 +3281,11 @@ focus_tree = {
 			PRC_modify_industrial_modifier = yes
 
 			add_to_variable = {
-				production_speed_buildings_factor = 0.1
+				PRC_industry_production_speed_buildings_factor = 0.1
 				tooltip = production_speed_buildings_factor_tt
 			}
 			add_to_variable = {
-				production_factory_start_efficiency_factor = -0.05
+				PRC_industry_production_factory_start_efficiency_factor = -0.05
 				tooltip = production_factory_start_efficiency_factor_tt 
 			}
 			
@@ -6423,14 +6423,18 @@ focus = {
 		}
 
 		available = {
-			any_other_country = {
+			any_collection_element = {
+				collection = game:all_majors
+				has_opinion = {
+					target = ROOT
+					value > 49
+				}
 				capital_scope = {
 					OR = {
 						is_on_continent = europe
 						is_on_continent = north_america
 					}
 				}
-				is_major = yes
 				is_subject = no
 				has_civil_war = no
 				has_capitulated = no
@@ -6443,10 +6447,6 @@ focus = {
 					any_enemy_country = {
 						is_in_faction_with = ROOT
 					}
-				}
-				has_opinion = {
-					target = ROOT
-					value > 49
 				}
 			}
 		}
@@ -6522,8 +6522,8 @@ focus = {
 			
 			if = {
 				limit = {
-					any_other_country = {
-						is_major = yes
+					any_collection_element = {
+						collection = game:all_majors
 						capital_scope = {
 							OR = {
 								is_on_continent = europe
@@ -7680,6 +7680,22 @@ focus = {
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
+			IF = {
+				limit = {
+					613 = {
+						has_dynamic_modifier = {
+							modifier = CHI_shanghai_international_settlement
+						}	
+					}
+				}
+				613 = {
+					remove_dynamic_modifier = {
+						modifier = CHI_shanghai_international_settlement
+					}	
+				}
+				custom_effect_tooltip = generic_skip_one_line_tt
+			}
+
 			custom_effect_tooltip = PRC_modify_central_committee_modifier
 			add_to_variable = { PRC_central_committee_justify_war_goal_time = -0.5 tooltip = justify_war_goal_time_tt }
 			if = {
@@ -7726,8 +7742,9 @@ focus = {
 		available = {
 			is_subject = no
 			NOT = {
-				any_other_country = {
-					is_literally_china_tooltip = yes
+				any_other_country_with_original_tag_of = {
+					target = constant:country_groups.literally_china
+					tooltip = is_literally_china_tt
 					NOT = {
 						is_subject_of = ROOT
 					}
@@ -7847,8 +7864,9 @@ focus = {
 		available = {
 			is_subject = no
 			NOT = {
-				any_other_country = {
-					is_literally_china_tooltip = yes
+				any_other_country_with_original_tag_of = {
+					target = constant:country_groups.literally_china
+					tooltip = is_literally_china_tt
 					NOT = {
 						is_subject_of = ROOT
 					}
@@ -12769,18 +12787,9 @@ focus = {
 
 			custom_effect_tooltip = generic_skip_one_line_tt
 
-			effect_tooltip = {
-				add_ideas = {
-					PRC_pla_air_force_fake_idea
-				}
-			}
-
-			hidden_effect = {
-				add_dynamic_modifier = {
-					modifier = PRC_pla_air_force
-				}
-			}
-			
+			add_dynamic_modifier = {
+				modifier = PRC_pla_air_force
+			}			
 		}
 	}
 

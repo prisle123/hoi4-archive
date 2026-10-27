@@ -1433,30 +1433,25 @@ ENG_the_channel_is_dangerous = {
 	}
 }
 
+### Approaches are mutually exclusive so only one raid target is ever live - convoy_raiding_target values sum per naval base and the objective asserts past 150.
 ENG_raid_the_channel = {
 	allowed = { original_tag = ENG }
 	enable = {
 		has_war = yes
-		OR = {
-			127 = { NOT = { is_fully_controlled_by = ENG } }
-			123 = { NOT = { is_fully_controlled_by = ENG } }
-			126 = { NOT = { is_fully_controlled_by = ENG } }
-			125 = { NOT = { is_fully_controlled_by = ENG } }
-		}
-
+		ENG_channel_approach_breached = yes
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 18 #english channel
-		value = 250
+		type = convoy_raiding_target
+		id = 18 # english channel
+		value = 150
 	}
 
 	ai_strategy = {
-    	type = strike_force_home_base
-    	id = 18
-    	value = 120
+		type = naval_dominance
+		id = 18
+		value = 100
 	}
 }
 
@@ -1464,58 +1459,48 @@ ENG_raid_the_north_sea = {
 	allowed = { original_tag = ENG }
 	enable = {
 		has_war = yes
-		OR = {
-			130 = { NOT = { is_fully_controlled_by = ENG } }
-			131 = { NOT = { is_fully_controlled_by = ENG } }
-			121 = { NOT = { is_fully_controlled_by = ENG } }
-			136 = { NOT = { is_fully_controlled_by = ENG } }
-			120 = { NOT = { is_fully_controlled_by = ENG } }
+		ENG_north_sea_approach_breached = yes
+		NOT = {
+			ENG_channel_approach_breached = yes
 		}
-
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 16 #english channel
-		value = 250
+		type = convoy_raiding_target
+		id = 16 # north sea
+		value = 150
 	}
 
 	ai_strategy = {
-    	type = strike_force_home_base
-    	id = 16
-    	value = 120
+		type = naval_dominance
+		id = 16
+		value = 100
 	}
 }
 
-ENG_raid_the_western_appproaches = {
+ENG_raid_the_western_approaches = {
 	allowed = { original_tag = ENG }
 	enable = {
 		has_war = yes
-
-		OR = {
-			120 = { NOT = { is_fully_controlled_by = ENG } }
-			133 = { NOT = { is_fully_controlled_by = ENG } }
-			131 = { NOT = { is_fully_controlled_by = ENG } }
-			132 = { NOT = { is_fully_controlled_by = ENG } }
-			122 = { NOT = { is_fully_controlled_by = ENG } }
-			338 = { NOT = { is_fully_controlled_by = ENG } }
-			131 = { NOT = { is_fully_controlled_by = ENG } }
+		ENG_western_approach_breached = yes
+		NOT = {
+			ENG_channel_approach_breached = yes
+			ENG_north_sea_approach_breached = yes
 		}
-
 	}
 	abort_when_not_enabled = yes
 
 	ai_strategy = {
-		type = naval_convoy_raid_region
-		id = 16 #english channel
-		value = 250
+		type = convoy_raiding_target
+		id = 43 # western approaches
+		value = 150
 	}
 
 	ai_strategy = {
-    	type = strike_force_home_base
-    	id = 16
-    	value = 120
+		type = naval_dominance
+		id = 43
+		value = 100
 	}
 }
 
@@ -3121,30 +3106,42 @@ ENG_upgrade_matrouh_naval_base = {
 	}
 }
 
+ENG_supply_for_tobruk_push_sidi_barrani = {
+	allowed = { original_tag = ENG }
+	enable = {
+		is_historical_focus_on = yes
+		date > 1940.9.1
+		date < 1943.6.1
+		451 = { is_controlled_by = ITA }
+		ITA = { is_ai = yes }
+
+		452 = {  # Matrouh
+			any_province_building_level = {
+				province = {
+					id = 9989  # Sidi Barrani
+				}
+				building = naval_base
+				level < 1
+			}
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = build_building
+		id = naval_base
+		target = 9989  # Sidi Barrani
+		value = 500
+	}
+}
+
 ENG_avoid_balkans_until_africa_is_secure = {
 	allowed = { original_tag = ENG }
 	enable = {
 		is_historical_focus_on = yes
 		date > 1939.6.6
 		date < 1943.6.6
-
-		# The check below should really be a scripted trigger or something
-		OR = { # Check whole north-african coast
-			448 = { CONTROLLER = { has_war_with = ROOT } } # tripoli
-			450 = { CONTROLLER = { has_war_with = ROOT } } # benghazi
-			458 = { CONTROLLER = { has_war_with = ROOT } } # tunisia
-			461 = { CONTROLLER = { has_war_with = ROOT } } # casablanca
-			462 = { CONTROLLER = { has_war_with = ROOT } } # marrakech
-			459 = { CONTROLLER = { has_war_with = ROOT } } # algiers
-			460 = { CONTROLLER = { has_war_with = ROOT } } # constantine
-			665 = { CONTROLLER = { has_war_with = ROOT } } # gabès
-			449 = { CONTROLLER = { has_war_with = ROOT } } # el agheila
-			451 = { CONTROLLER = { has_war_with = ROOT } } # derna
-			452 = { CONTROLLER = { has_war_with = ROOT } } # matrouh
-			447 = { CONTROLLER = { has_war_with = ROOT } } # alexandria
-			446 = { CONTROLLER = { has_war_with = ROOT } } # cairo
-			290 = { CONTROLLER = { has_war_with = ROOT } } # spanish africa
-		}
+		ENG_enemy_in_north_africa = yes
 	}
 	abort_when_not_enabled = yes
 
@@ -3422,5 +3419,22 @@ ENG_synthetic_industry_pacific_war = {
 		type = building_target
 		id = synthetic_refinery
 		value = 12
+	}
+}
+
+ENG_switch_to_licensed_sherman = {
+	allowed = { original_tag = ENG }
+	enable = {
+		has_license = {
+			from = USA
+			archetype = medium_tank_chassis
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = production_upgrade_desire_offset
+		id = medium_tank_chassis_2
+		value = 100
 	}
 }

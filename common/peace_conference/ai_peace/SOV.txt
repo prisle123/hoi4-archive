@@ -25,7 +25,7 @@ peace_ai_desires = {
             FROM.FROM.FROM = { state = 188 }  # Memel
         }
 
-        ai_desire = 75  # 75 percent higher desire
+        ai_desire = 250  # 250 percent higher desire, 75 wasn't enough
     }
 
     # If Lithuania is a Soviet Puppet, the Soviets want Memel for it
@@ -47,6 +47,17 @@ peace_ai_desires = {
             is_historical_focus_on = yes
             ROOT.FROM = { tag = CZE }
             ROOT.FROM.FROM.FROM = { is_core_of = CZE }
+            tag = SOV
+        }
+        ai_desire = 150
+    }
+
+    SOV_hungarian_puppet_histo = {
+        peace_action_type = { puppet }
+        enable = {
+            is_historical_focus_on = yes
+            ROOT.FROM = { tag = HUN }
+            ROOT.FROM.FROM.FROM = { is_core_of = HUN }
             tag = SOV
         }
         ai_desire = 150
@@ -83,8 +94,10 @@ peace_ai_desires = {
         peace_action_type = { puppet }
         enable = {
             FROM.FROM.FROM = {
-                state = 527
-                state = 1028
+                OR = {
+                    state = 527
+                    state = 1028
+                }
             }
             FROM = {
                 original_tag = KOR
@@ -111,10 +124,12 @@ peace_ai_desires = {
                 }
             }
             FROM.FROM.FROM = {
-                state = 525
-                state = 1029
-                state = 1031
-                state = 1030
+                OR = {
+                    state = 525
+                    state = 1029
+                    state = 1031
+                    state = 1030
+                }
             }
             FROM = {
                 original_tag = KOR

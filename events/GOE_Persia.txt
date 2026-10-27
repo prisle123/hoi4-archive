@@ -1125,6 +1125,20 @@ country_event = { #REBELLION
 		name = PER_imperial_events.140.a
 		ai_chance = {
 			base = 90
+			# Once the world war is won the occupiers leave Iran peacefully
+			modifier = {
+				factor = 0
+				is_post_ww2_era = yes
+				OR = {
+					is_historical_focus_on = yes
+					has_global_flag = brussels_to_fired
+				}
+			}
+			modifier = {
+				factor = 0.25
+				is_post_ww2_era = yes
+				has_war = no
+			}
 		}
 		PER = {
 			country_event = {
@@ -1140,6 +1154,11 @@ country_event = { #REBELLION
 		name = BBA_ethiopia_fascist_events.20.b
 		ai_chance = {
 			base = 5
+			modifier = {
+				add = 45
+				is_post_ww2_era = yes
+				has_war = no
+			}
 		}
 		PER = {
 			country_event = {

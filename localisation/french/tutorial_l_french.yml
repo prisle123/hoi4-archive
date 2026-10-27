@@ -53,7 +53,7 @@
  TUT_MOVE_CAMERA: "Caméra sur l'$STATE$"
  TUT_SELECTED_DIVS: "Divisions sélect. en $STATE$ : $NUMBERS$"
  TUT_COMMAND_GROUP: "Une armée a été créée"
- TUT_FRONTLINE: "Ligne de front tracée entre $STATE$ et l'Éthiopie"
+ TUT_FRONTLINE: "§YLigne de front§! tracée entre $STATE$ et l'Éthiopie"
  TUT_OFFENSIVE_ORDER: "Ordre offensif de capture d'$ENEMY_CAPITAL$ tracé"
  TUT_AIRBASE: "Affichage de la base aérienne en $STATE$"
  TUT_AIRWINGS_ASSIGNED: "Escadrilles de $STATE$ affectées à la région aérienne $REGION$ : $NUMBERS$"

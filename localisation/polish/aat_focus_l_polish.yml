@@ -468,7 +468,7 @@
  SWE_narvik_crisis: "Kryzys narwicki"
  SWE_narvik_crisis_desc: "Zimą Narwik staje się strategicznie istotnym elementem sieci eksportu rudy żelaza. Aby nasze państwo mogło cieszyć się bezpieczeństwem w tych burzliwych czasach, region ten powinien znaleźć się pod naszą jurysdykcją. A jeśli [NOR.GetName] ulegnie przy tym osłabieniu - tym lepiej."
  SWE_bornholm_crisis: "Kryzys bornholmski"
- SWE_bornholm_crisis_desc: "Wyspę Bornholm straciliśmy wieki temu wskutek rewolucji, choć [Den.GetName] nigdy legalnie jej nie przejęła. Jest ona strategicznie istotna pod kątem kontroli dolnej części Morza Bałtyckiego, a nie ulega wątpliwości, że [Den.GetName] nie jest w stanie jej obronić. Dla własnego bezpieczeństwa możemy i musimy ją przejąć."
+ SWE_bornholm_crisis_desc: "Wyspę Bornholm straciliśmy wieki temu wskutek rewolucji, choć [DEN.GetName] nigdy legalnie jej nie przejęła. Jest ona strategicznie istotna pod kątem kontroli dolnej części Morza Bałtyckiego, a nie ulega wątpliwości, że [DEN.GetName] nie jest w stanie jej obronić. Dla własnego bezpieczeństwa możemy i musimy ją przejąć."
  SWE_the_aland_issue: "Kwestia Wysp Alandzkich"
  SWE_the_aland_issue_desc: "Alandczycy mówią po szwedzku, uważają się za Szwedów i byliby Szwedami, gdyby nie wtrącanie się Ligi Narodów. Jak można było w ogóle dojść do wniosku, że to nie Szwedzi? Czas naprawić tę historyczną niesprawiedliwość."
  SWE_join_the_anti_soviet_pact: "Dołączenie do paktu antysowieckiego"

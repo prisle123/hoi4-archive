@@ -738,6 +738,7 @@
  COG_transports_et_ports: "운송항만산업회사"
  COG_force_publique: "공안군"
  COG_force_publique_desc: "공안군은 콩고 독립국 시절 1877년에 설립된 헌병대이자 군대입니다. 장교들은 모두 유럽 출신으로 벨기에인이나 용병이며, 일반 병사들은 대부분 콩고 현지인입니다. 이들은 전투 능력이 매우 뛰어나지만, 차별과 부실한 관리로 인해 큰 불만이 발생하고 있습니다."
+ COG_force_publique_fake_idea_tt: "최대 지휘력 증가: §R-50§!\n일일 지휘력 획득 배율: §R-50%§!"
  COG_the_invisible_roof: "유리천장"
  COG_the_invisible_roof_desc: "공식적인 법률은 없지만, [ROOT.GetNameDef]의 대다수 기관과 기업은 콩고 원주민들이 특정 지위 이상으로 올라가지 못하게 막고 있으며, 고등 교육을 허가하지 않습니다."
  COG_belgian_congo_colonial_dynamic_modifier: "모범적인 식민지"

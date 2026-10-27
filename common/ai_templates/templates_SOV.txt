@@ -577,7 +577,7 @@ infantry_SOV = {
 			}
 
 			regimental_support = {
-				field_guns = 1
+				field_guns = 2
 			}
 
 			regiments = {

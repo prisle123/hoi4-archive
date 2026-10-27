@@ -1583,7 +1583,7 @@
  BEL_lambert_chardome_tt: "§Y랑베르 샤르동§!이 §Y장군§!이 됩니다."
  BEL_eddy_blondeel_tt: "§Y에디 블론데일§!이 §Y장군§!이 됩니다."
  BEL_scars_of_ww1_ns_fake_tt: "사단 조직력: §R-15%§! \n모병 가능 인구 변동치: §R-15%§! \n전쟁 지지도: §R-30%§! \n§Y군수공장§! 건설 속도: §R-20%§!"
- BEL_corruption_ns_fake_tt: "매일 정치력 획득: §R-0.25%§! \n안정도: §R-20%§! \n건설 속도: §R-20%§! \n매일 파시즘 지지도: §G+0.10%§!"
+ BEL_corruption_ns_fake_tt: "매일 정치력 획득: §R-0.25§! \n안정도: §R-20%§! \n건설 속도: §R-20%§! \n매일 파시즘 지지도: §G+0.10%§!"
  ### CONGO SHARED FOCUS TREE ###
  CONGO_belgian_congo: "벨기에령 콩고"
  CONGO_belgian_congo_desc: "이 식민지는 1908년 콩고 독립국이 벨기에 왕실의 착취에서 벗어나 벨기에 정부에 합병된 후 설립되었습니다. 벨기에령 콩고는 벨기에 식민 정책의 핵심이자 상징으로 남아 있습니다."

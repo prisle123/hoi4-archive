@@ -745,6 +745,7 @@
  HOL_unity_through_democracy: "L'unité par la démocratie"
  HOL_unity_through_democracy_desc: "Le Mouvement néerlandais pour l'unité par la démocratie (« Eenheid door Democratie ») a été formé en 1935, et se fait entendre depuis – même s'il n'est pas représenté au parlement – en s'élevant contre les populistes de toutes idéologies. Soutenir le mouvement pourrait être à notre avantage, car cela permettrait de défendre la démocratie et de renforcer le gouvernement."
  HOL_go_with_britain: "Se rapprocher des Britanniques"
+ HOL_go_with_britain_event_tt: "Une demande va être envoyée au meneur de la faction afin de rejoindre la faction à laquelle [ENG.GetLeLaLNP] [ENG.GetFlag]§Y[ENG.GetName]§! appartient."
  HOL_go_with_britain_desc: "Les Britanniques ont défendu les valeurs démocratiques dans la crise actuelle, et ils partagent notre désir que l'empire colonial néerlandais soit préservé. Il paraît donc naturel que nous rejoignions leur cause."
  HOL_de_vaarplicht: "De Vaarplicht"
  HOL_de_vaarplicht_desc: "Après 150 ans de neutralité et des décennies d'un pacifisme croissant, nous devons prouver à nos alliés notre résolution à mener le combat. Plutôt que nous contenter d'une flotte marchande volontaire comme c'est le cas pour les autres pays, promulguons le Vaarplicht, « l'obligation de navigation » : tout citoyen néerlandais n'ayant pas encore effectué son service devra le faire dans la flotte marchande."

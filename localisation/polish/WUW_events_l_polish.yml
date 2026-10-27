@@ -501,7 +501,7 @@
  AUS_political_events.113.t: "[FROM.GetNameDefCap] odmawia podpisania paktu o nieagresji"
  AUS_political_events.113.desc: "Wygląda na to, że oferta, którą złożyliśmy władzom [FROM.GetAdjective], została uznana przez nie za niewystarczającą. Albo przejrzeli nasze plany na przyszłość albo sami mają wobec nas niecne plany. Musimy się przygotować na taką ewentualność, a jeżeli zechcemy dalej realizować nasze zamiary, być może będzie trzeba robić to bardziej agresywnie."
  AUS_political_events.113.a: "To przykre."
- AUS_political_events.114.t: "[FROM.GetNameDef] proponuje wsparcie przemysłowe"
+ AUS_political_events.114.t: "[FROM.GetNameDefCap] proponuje wsparcie przemysłowe"
  AUS_political_events.114.desc: "W ramach porozumienia pokojowego zawartego niedawno przez nasze kraje, rząd [FROM.GetAdjective] zaproponował wsparcie dla naszego przemysłu. Nasz sektor przemysłowy w dużej mierze spełnia nasze oczekiwania, ale i tak przyjmiemy pomoc naszego partnera. Pojawiły się jednak ostrzeżenia, według nich [FROM.GetNameDefCap] nie robi tego bezinteresownie."
  AUS_political_events.114.a: "Przekażmy im podziękowania."
  AUS_political_events.115.t: "Sugestia [FROM.GetAdjective]-[ROOT.GetAdjective] manewrów wojskowych"
@@ -1275,6 +1275,9 @@
  ww_BEL_event_diplomatic.37.t: "Rząd [FROM.GetAdjective] nie zgadza się."
  ww_BEL_event_diplomatic.37.desc: "Mimo oczywistych obustronnych korzyści, wygląda na to, że władze [FROM.GetAdjective] nie zamierzają rozszerzać stosunków dyplomatycznych między naszymi krajami. Wiązaliśmy z tym wielkie nadzieje, ale druga strona chyba ich nie podzielała."
  ww_BEL_event_diplomatic.37.a: "To przykre..."
+ ww_BEL_event_diplomatic.38.t: "Państwo [FROM.GetAdjective] inwestuje w nasz przemysł"
+ ww_BEL_event_diplomatic.38.desc: "Delegacja [FROM.GetAdjective] przybyła z podpisanymi umowami oraz znacznym kapitałem. W centrum naszego kraju ruszą nowe prace, za które zapłaci frakcja [FROM.GetFactionName], przemysł cywilny będzie rozwijał się wraz z arsenałem. Ludzie, którzy podpisali czeki, mówili otwarcie, co chcą za to kupić: bezstronne wysłuchanie ich racji, kiedy [FROM.GetAdjective] rząd znowu podniesie kwestię federalizacji Europy."
+ ww_BEL_event_diplomatic.38.a: "Unia spłaca swoje należności"
  ### War Events
  #Relocate Air Industries
  ww_BEL_event_war.1.t: "Uruchomiono przeniesioną produkcję lotniczą"
@@ -1642,7 +1645,7 @@
  congo_independence_struggle.2.b: "Dobrze, ale tylko jeśli wypłacą nam duże odszkodowanie."
  congo_independence_struggle.2.c: "Nigdy dobrowolnie nie pozwolimy im odejść!"
  congo_independence_struggle.3.t: "[FROM.GetNameDefCap] da nam wolność, jeśli dołączymy do ich frakcji."
- congo_independence_struggle.3.d: "Otrzymaliśmy wiadomość od rządu [BEL.GetAdjective], że czas imperiów kolonialnych szybko dobiega końca. W związku z tym złożyli nam ofertę dołączenia do wspólnoty [Bel.GetAdjective] jako wolny i niezależny kraj, a zatem jako równorzędny partner. Nadal bylibyśmy zobowiązani do przestrzegania warunków proponowanych innym sojusznikom wojskowym, a zatem oczekuje się, że będziemy włączać się do wojen. \n\nJest to prawdopodobnie najbardziej dyplomatyczne rozwiązanie, na jakie moglibyśmy liczyć, które pozwoli nam całkowicie uniknąć rozlewu krwi w walce z naszymi europejskimi przyjaciółmi, jednocześnie zachowując afrykańską dumę i niezależność."
+ congo_independence_struggle.3.d: "Otrzymaliśmy wiadomość od rządu [BEL.GetAdjective], że czas imperiów kolonialnych szybko dobiega końca. W związku z tym złożyli nam ofertę dołączenia do wspólnoty [BEL.GetAdjective] jako wolny i niezależny kraj, a zatem jako równorzędny partner. Nadal bylibyśmy zobowiązani do przestrzegania warunków proponowanych innym sojusznikom wojskowym, a zatem oczekuje się, że będziemy włączać się do wojen. \n\nJest to prawdopodobnie najbardziej dyplomatyczne rozwiązanie, na jakie moglibyśmy liczyć, które pozwoli nam całkowicie uniknąć rozlewu krwi w walce z naszymi europejskimi przyjaciółmi, jednocześnie zachowując afrykańską dumę i niezależność."
  congo_independence_struggle.3.a: "To brzmi bardzo rozsądnie. Zgadzamy się!"
  congo_independence_struggle.3.b: "Nie możemy przyjąć tych warunków..."
  congo_independence_struggle.4.t: "[FROM.GetNameDefCap] da nam wolność, jeśli wypłacimy im odszkodowanie."

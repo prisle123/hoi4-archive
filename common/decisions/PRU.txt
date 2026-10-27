@@ -36,18 +36,12 @@ PRU_pastaza_conflict = {
 		available = {
 			is_subject = no
 			NOT = {
-				OR = {
-					owns_state = 490
-					any_country = {
-						AND = {
+				490 = {
+					owner = {
+						OR = {
+							tag = ROOT
 							is_ally_with = ROOT
-							owns_state = 490
-						}
-					}
-					any_country = {
-						AND = {
 							is_subject_of = ROOT
-							owns_state = 490
 						}
 					}
 				}

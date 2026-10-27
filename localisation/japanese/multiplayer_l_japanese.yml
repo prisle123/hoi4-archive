@@ -8,6 +8,8 @@
  SYSTEM_PLAYER_KICKED: "§G§Y$NAME$§! はゲームからキックされました。§!"
  SYSTEM_PLAYER_BANNED: "§G§Y$NAME$§! はゲームからBANされました§!"
  SYSTEM_PLAYER_ARRIVED: "§G§Y$NAME$§! がゲームに参加しました。§!"
+ MODIFIED_CLIENT_DETECTED: "改変されたクライアントを検出: $NAME$"
+ MODIFIED_CLIENT_BADGE_TOOLTIP: "このプレイヤーのゲームクライアントが改変されていることを、ホストが検出しました。"
  CONNECTED: "§G接続しました。§!"
  NAME_TAKEN: "あなたの名前はもう使われています。他の名前にしてください。"
  CONNECTING: "接続中……"

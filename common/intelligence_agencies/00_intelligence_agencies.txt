@@ -770,12 +770,22 @@ intelligence_agency = {
 
 intelligence_agency = {
 
-	picture = GFX_intelligence_agency_logo_RAJ_RAW
-	names = { "Research and Analysis Wing" } 
+	picture = GFX_intelligence_agency_logo_RAJ_IB
+	names = { "Intelligence Bureau" }
 	
 	default = { 
 		tag = RAJ 
 	} 
+	available = {
+		original_tag = RAJ
+	}
+}
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_RAJ_RAW
+	names = { "Research and Analysis Wing" }
+
 	available = { 
 		original_tag = RAJ 
 	}

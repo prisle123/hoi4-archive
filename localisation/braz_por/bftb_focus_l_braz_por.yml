@@ -469,6 +469,8 @@
  TUR_saadabad_pact_faction_tt: "Convidaremos todos os signatários do §YPacto de Saadabad§! para uma aliança formal."
  TUR_no_faction_members_tt: "Ninguém assinou o Pacto de Saadabad"
  TUR_no_faction_alliance_members_tt: "Os signatários do Pacto de Saadabad não ratificaram a Concordata de Saadabad"
+ TUR_third_expedition_to_aceh: "Uma terceira expedição otomana a Achém"
+ TUR_third_expedition_to_aceh_desc: "Agora que o Império se estabilizou novamente, chegou a hora de reafirmarmos nosso controle sobre os protetorados e domínios ultramarinos que outrora estiveram sob nosso jugo. Para isso devemos garantir que nossa Marinha esteja à altura da tarefa, e nosso primeiro objetivo será restaurar o protetorado sobre Achém."
  TUR_the_damascus_diktat: "O Diktat de Damasco"
  TUR_the_damascus_diktat_desc: "A [677.Controller.GetNameDefCap] é fraca. Tudo o que precisamos fazer é ameaçar a possibilidade de guerra caso não entreguem a Síria e eles cairão de joelhos chorando pela paz e nos implorando para tirar a Síria de suas mãos."
  TUR_supporting_the_east: "Apoiando o oriente"

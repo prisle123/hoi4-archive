@@ -638,6 +638,8 @@
  occupied_countries.1.desc: "Após um longo e combinado esforço para melhorar a cooperação e complacência entre nossas forças de ocupação e autoridades civis locais, estamos prontos para colocar o controle de [From.From.GetNameDef] de volta nas mãos do governo local. Esse novo governo é composto por civis compreensivos e está pronto para ser coordenado de perto conosco."
  occupied_countries.1.a: "Eles têm nossa benção."
  occupied_countries.1.b: "Eles ainda não estão prontos."
+ occupied_countries.1.c: "Não me tragam mais essas petições."
+ occupied_countries.1.c_tt: "Não seremos mais notificados quando uma nação ocupada estiver pronta para formar um §Ygoverno colaborativo§!.\nAinda será possível formá-los a qualquer momento por meio das decisões de §Yinfluência estrangeira§!."
  lar_news.1.t_franco: "Vitória Nacionalista na Guerra Civil Espanhola"
  lar_news.1.t_falangist: "Vitória Falangista na Guerra Civil Espanhola"
  lar_news.1.t_carlists: "Vitória Carlista na Guerra Civil Espanhola"

@@ -638,6 +638,8 @@
  occupied_countries.1.desc: "우리 점령군과 지역 민간 당국 사이의 협력과 준수를 개선하기 위한 오랜 협력 끝에 이제 [From.From.GetNameDef]에 대한 통제권을 지방 정부의 손에 맡길 준비가 되었습니다. 이 신정부는 협조적인 민간인들로 구성되어 있으며 긴밀히 협력할 준비가 되어 있습니다."
  occupied_countries.1.a: "그들에게 축복을."
  occupied_countries.1.b: "그들은 아직 준비되지 않았다."
+ occupied_countries.1.c: "이런 청원은 이제 그만 가져와."
+ occupied_countries.1.c_tt: "점령된 국가가 §Y협력 정부§!를 수립할 준비가 되어도 더 이상 알림을 받지 않습니다.\n§Y대외 영향력§! 결정에서 언제든 협력 정부를 수립할 수 있습니다."
  lar_news.1.t_franco: "국민파의 스페인 내전 승리"
  lar_news.1.t_falangist: "팔랑헤주의자의 스페인 내전 승리"
  lar_news.1.t_carlists: "카를로스파의 스페인 내전 승리"

@@ -638,6 +638,8 @@
  occupied_countries.1.desc: "占領軍と地域権力との間で長く続けられてきた協力と順守改善の努力を経て、[From.From.GetNameDef]の支配を地域政府の手へと戻す準備が整った。この新たな政府は協力的な民間人によって構成されており、我々と緊密に連携する下地が出来ている。"
  occupied_countries.1.a: "彼らに祝福あれ"
  occupied_countries.1.b: "彼らはまだ準備ができていない"
+ occupied_countries.1.c: "こうした請願を持ち込むのはもうやめろ。"
+ occupied_countries.1.c_tt: "占領下の国で§Y協力政府§!を樹立する準備が整っても、通知されなくなる。\n引き続き、ディシジョン「§Y外国の影響§!」からいつでも樹立できる。"
  lar_news.1.t_franco: "国粋派がスペイン内戦に勝利"
  lar_news.1.t_falangist: "ファランヘ主義者がスペイン内戦に勝利"
  lar_news.1.t_carlists: "カルリスタがスペイン内戦に勝利"

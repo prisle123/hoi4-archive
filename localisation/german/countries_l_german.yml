@@ -2151,8 +2151,8 @@
  SUR: "Suriname"
  SUR_DEF: "Suriname"
  SUR_ADJ: "Surinamesisch"
- TAJ_fascism: "Bekstvo Matcha"
- TAJ_fascism_DEF: "das Bekstvo Matcha"
+ TAJ_fascism: "Darvaz-Schahtum" #was Bekstvo of Matcha
+ TAJ_fascism_DEF: "Darvaz-Schahtum"
  TAJ_democratic: "Republik Tadschikistan"
  TAJ_democratic_DEF: "die Republik Tadschikistan"
  TAJ_neutrality: "Tadschikistan"

@@ -3,7 +3,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "playthrough_overview_window"
 		position = { x = 0 y = 0 }
-		size = { width = 1170 height = 782 }
+		size = { width = 1170 height = 720 }
 		orientation = CENTER
 		origo = center
 		moveable = no
@@ -70,23 +70,24 @@ guiTypes = {
 			name = "close_button"
 			position = { x = -40 y = 8 }
 			quadTextureSprite = "GFX_profile_button_close"
-			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "CLOSE"
+		}
+
+		buttonType = {
+			name = "escape_anchor"
+			spriteType = "GFX_tiled_window_transparent_transparent"
+			position = { x = -100 y = -100 }
+			shortcut = "ESCAPE"
 		}
 
 		#------------------------- TAB PANELS ----------------------------
 		containerWindowType = {
 			name = "tab_panels"
 			position = { x = 0 y = 49 }
-			size = { width = 1154 height = 726 }
+			size = { width = 1154 height = 634 }
 			orientation = center_up
 			origo = center_up
-
-			positionType = {
-				name = "end_game_screen_size"
-				position = { x = 1154 y = 696 }
-			}
 
 			containerWindowType = {
 				name = "message_overlay"
@@ -121,19 +122,25 @@ guiTypes = {
 			}
 		} 
 
-		#--------------------- END GAME VIEW BUTTONS ---------------------
-		
+		#------------------------- BOTTOM BUTTONS -------------------------
+
 		ButtonType = {
 			name = "continue_button"
 			position = { x = 260 y = -40 }
 			orientation = center_down
-			quadTextureSprite ="GFX_button_148x34"
-
-
-
+			quadTextureSprite = "GFX_button_148x34"
 			buttonText = "CONTINUE"
 			buttonFont = "hoi_18mbs"
-			pdx_tooltip = "ENDGAME_CONTINUE"
+		}
+
+		ButtonType = {
+			name = "exit_to_menu_button"
+			position = { x = 420 y = -40 }
+			orientation = center_down
+			quadTextureSprite = "GFX_button_148x34_light"
+			buttonText = "MENU_BAR_GAME_RESIGN"
+			buttonFont = "hoi_18mbs"
+			pdx_tooltip = "PLAYTHROUGH_OV_EXIT_TO_MENU"
 		}
 
 		ButtonType = {
@@ -141,7 +148,7 @@ guiTypes = {
 			position = { x = 420 y = -40 }
 			orientation = center_down
 			quadTextureSprite = "GFX_button_148x34_light"
-			buttonText = "QUIT"
+			buttonText = "MENU_BAR_GAME_RESIGN"
 			buttonFont = "hoi_18mbs"
 		}
 	}

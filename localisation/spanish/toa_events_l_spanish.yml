@@ -1213,7 +1213,7 @@
  TOA_ven_blockade.1.a: "No podemos hacer frente a [FROM.GetName]."
  TOA_ven_blockade.1.b: "¡Es una declaración de guerra en toda regla!"
  TOA_ven_blockade.2.t: "$TOA_ven_blockade.1.t$"
- TOA_ven_blockade.2.desc: "[FROM.GetName] ha tenido la inaceptable osadía de bloquear por completo [VEN.GetName]. Se han avistado buques de guerra a las afueras de Caracas, y en teoría el gobierno [VEN.GetAdjective] está al tanto del bloqueo, cuyo objetivo es detener el comercio de petróleo entre nuestros países."
+ TOA_ven_blockade.2.desc: "[FROM.GetName] ha tenido la inaceptable osadía de bloquear por completo [VEN.GetNameDef]. Se han avistado buques de guerra a las afueras de Caracas, y en teoría el gobierno [VEN.GetAdjective] está al tanto del bloqueo, cuyo objetivo es detener el comercio de petróleo entre nuestros países."
  TOA_ven_blockade.2.a: "¡Una clara violación de la neutralidad!"
  paraguay.1.t: "Oportunidad para aumentar el gasto en el fuerte"
  paraguay.1.desc: "La reconstrucción de Humaitá nos ha brindado la oportunidad de aumentar el gasto en defensa y añadir una mayor fortificación en las zonas circundantes, incluido un fuerte más pequeño para defender mejor la entrada fluvial a la capital."

@@ -320,9 +320,33 @@ IF = {
 
 
 
-
+if = {
+	limit = {
+		has_dlc = "No Compromise, No Surrender"
+	}
+	add_ideas = {
+		PHI_island_nation_ns_fake
+		PHI_the_great_depression_ns_fake
+		PHI_philippine_army_ns_fake
+	}
+}
 
 1939.1.1 = {
+	if = {
+		limit = {
+			has_dlc = "No Compromise, No Surrender"
+		}
+		remove_ideas = {
+			PHI_island_nation_ns_fake
+			PHI_the_great_depression_ns_fake
+			PHI_philippine_army_ns_fake
+		}
+		add_ideas = {
+			PHI_island_nation_ns_fake_2
+			PHI_the_great_depression_ns_fake_2
+			PHI_philippine_army_ns_fake_2
+		}
+	}
 
 	add_political_power = 1056
 	add_command_power = 100

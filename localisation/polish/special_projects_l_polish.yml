@@ -790,6 +790,8 @@
  sp_naval_modern_battleship_free_design: "Nowoczesny pancernik"
  sp_naval_midget_submarine: "Miniaturowy okręt podwodny"
  sp_naval_midget_submarine_desc: "W potencjale naszej marynarki wojennej istnieje nisza dla lekkich, tanich i uniwersalnych okrętów podwodnych, które mogą służyć do rozmaitych działań, od sabotowania portów po ataki na konwoje."
+ JAP_sp_naval_midget_submarine_desc: "$sp_naval_midget_submarine_desc$[JAP_midget_submarine_pearl_harbor_key]"
+ JAP_sp_naval_midget_submarine_pearl_harbor_hint: "\n\nTe transportowane przez nasze okręty podwodne jednostki mogą przedostać się na teren portu, nim rozpocznie się $raid_type_JAP_pearl_harbor_strike$, co zwiększy szansę na §Gkrytyczny sukces§!."
  sp_naval_midget_submarine_free_design: "Miniaturowy okręt podwodny"
  JAP_sp_naval_midget_submarine: "Okręt podwodny klasy Kō-hyōteki"
  sp_naval_nuclear_torpedo: "Torpeda jądrowa"

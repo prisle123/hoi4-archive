@@ -98,6 +98,8 @@
  raid_type_JAP_pearl_harbor_strike_desc: "爆撃機部隊を送り込み、敵の重要な海軍司令部と主力の太平洋艦隊に攻撃を仕掛けることによって、我が国民の士気を上げるとともに、敵の士気と海軍戦力に対して同時に打撃を与えることができる。これにより、我が国の海軍は6か月間自由に航行することができるだろう！"
  success_modifier_completed_kido_butai_focus: "国家方針「§Y$JAP_form_the_kido_butai$§!」を完了している"
  success_modifier_completed_kido_butai_focus_improvement: "- 国家方針「§Y$JAP_form_the_kido_butai$§!」を完了する"
+ success_modifier_completed_midget_submarine_project: "計画「§Y$sp_naval_midget_submarine$§!」を完了している"
+ success_modifier_completed_midget_submarine_project_improvement: "- 計画「§Y$sp_naval_midget_submarine$§!」を完了する"
  raid_type_CZE_sokolov_raid_pfot: "ファルクノフ襲撃"
  raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
  RAID_TARGET_NAME: "$LOCATION|H$にある$WHAT|H$"
@@ -427,6 +429,7 @@
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
  raid_target_name_state: "$LOCATION|H$"
+ early_nuclear_raid_unlock: "試作爆弾の実戦配備準備が完了している"
  #Custom Raid Names
  ### PRC
  #Land

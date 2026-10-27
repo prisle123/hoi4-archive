@@ -1108,6 +1108,7 @@
  japan_border_conflict.4.t: "Impasse au lac Khassan"
  japan_border_conflict.4.desc: "Les combats entre les forces [JAP.GetAdjFP] et [SOV.GetAdjFP] autour du lac Khassan se sont terminés après que les deux armées ont préféré se retirer de la région disputée pour se regrouper et recevoir du ravitaillement. Bien consciente de la futilité qu'il y aurait à lancer de nouvelles offensives, l'armée [JAP.GetAdjFS] a demandé un cessez-le-feu et des négociations pour fixer la frontière."
  japan_border_conflict.4.a: "Nous y avons au moins gagné\nune expérience non négligeable"
+ japan_border_conflict.4.b: "Les frontières ne bougent donc pas..."
  japan_border_conflict.5.t: "Aggravation de la situation au lac Khassan"
  japan_border_conflict.5.desc: "Les combats entre les forces [JAP.GetAdjFP] et [SOV.GetAdjFP] continuent. Cherchant à déverrouiller la situation, l'armée [JAP.GetAdjFS] a fait intervenir des troupes d'autres régions pour attaquer les [SOV.GetHabitants] du secteur. Les services de renseignements suggèrent que [JAP.GetLeLaLNP] [JAP.GetName] pourrai[JAP.GetTEntNP] même bientôt lancer une attaque d'envergure avec des troupes fraîches venues d'autres régions de l'Empire."
  japan_border_conflict.5.a: "Nous devons tenir le front"

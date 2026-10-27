@@ -201,7 +201,10 @@
  SHX_suiyuan_campaign_idea: "Оборона против Суйюаньской кампании"
  JAP_sufu_materials: "Материалы суфу"
  JAP_boeitai_idea: "Боэйтай"
+ JAP_ketsugo_field_expedients: "Реквизиция для «Кэцуго»"
+ JAP_ketsugo_field_expedients_tt: "С окончанием войны реквизиция будет свёрнута, и этот дух будет убран."
  JAP_is_home_islands_state_tt: "Любой регион во §YВнутренних территориях§!"
+ JAP_is_main_home_islands_state_tt: "Любой регион на четырёх основных §Yяпонских островах§!"
  JAP_collapsing_government_idea: "Разваливающийся кабинет"
  JAP_advance_one_hundred_million_fireballs_idea: "«Вперёд, сто миллионов огненных шаров!»"
  JAP_the_eternal_kingdom_idea: "Вечная империя"
@@ -513,6 +516,7 @@
  #### TOOLTIPS ###
  CHI_modify_corruption_in_the_administration_tt: "§Y$CHI_corruption_in_the_administration$§! изменится на:"
  CHI_modify_reorganized_administration_tt: "Изменить §Y«$CHI_reorganized_administration$»§! на:"
+ CHI_corruption_recruitable_fake_tt: "Фактор военнообязанного населения: §R-78%§!"
  CHI_modify_illicit_trade_tt: "§Y$CHI_illicit_trade$§! изменится на:"
  CHI_modify_inefficient_economy_tt: "§Y$CHI_inefficient_economy$§! изменится на:"
  CHI_modify_neglected_countryside_tt: "§Y$CHI_neglected_countryside$§! изменится на:"

@@ -48,7 +48,7 @@
  poland.20.d: "Нет свободы без солидарности!"
  poland.20.e: "Отлично!"
  poland.20.f: "Проклятье!"
- poland.21.t: "[DNZ.GetNameDef] ищет примирения с государством [Ger.GetNameDefCap]"
+ poland.21.t: "[DNZ.GetNameDef] ищ[DNZ.GetNameEndRuPresentEtUt] интеграции с [GER.GetNameRuInst]"
  poland.21.d: "Пока на улицах города [DNZ.GetNameDef] бушует война, [DNZ.GetLeader] упорно противостоит войскам, которыми командует [POL.GetLeader]. Но одного города, очевидно, недостаточно, чтобы выстоять против армии [POL.GetNameRuGen]. Как член партии [Root.GetRulingParty], [DNZ.GetLeader] признает, что [Root.GetLeader] выше по иерархии и [DNZ.GetAdjective]ое поражение здесь неприемлемо. [GER.GetNameDefCap] может вступить в войну, защищая город [DNZ.GetNameDef], — это даст уникальную возможность захватить его, играя роль защитника."
  poland.21.a: "Гданьск останется Данцигом!"
  poland.21.b: "Мы не станем вмешиваться."

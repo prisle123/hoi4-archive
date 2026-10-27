@@ -1,0 +1,89 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "mtg_naval_treaty_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height = 48 }
+		# Unclipped so the hover box below can reach up over the category description, the flag row is clipped by its own container instead.
+		clipping = no
+
+		# Invisible hover region sitting on the last lines of the category description, the strength sentence lives there.
+		instantTextBoxType = {
+			name = "mtg_naval_treaty_strength_tooltip_fake"
+			position = { x = 14 y = -36 }
+			# Carries no text, but a textbox without a font makes the engine complain at load
+			font = "hoi_16mbs"
+			maxwidth = 470
+			maxHeight = 36
+			pdx_tooltip = "MTG_NAVAL_TREATY_STRENGTH_TT"
+		}
+
+		instantTextBoxType = {
+			name = "mtg_naval_treaty_members_label"
+			position = { x = 14 y = 2 }
+			font = "hoi_16mbs"
+			text = "MTG_NAVAL_TREATY_MEMBERS_LABEL"
+			format = left
+			maxHeight = 18
+			maxwidth = 470
+		}
+
+		# Clips the flag row on its own so a seventeenth signatory cannot draw over the decisions below.
+		containerWindowType = {
+			name = "mtg_naval_treaty_members_clip"
+			position = { x = 0 y = 22 }
+			size = { width = 100% height = 24 }
+			clipping = yes
+
+			# Name must match the dynamic list in MTG_naval_treaties_ui, the binding is by name and a mismatch silently draws nothing.
+			gridboxtype = {
+				name = "mtg_naval_treaty_members_grid"
+				position = { x = 14 y = 0 }
+				size = { width = 480 height = 24 }
+				slotsize = { width = 30 height = 24 }
+				max_slots_horizontal = 16
+				format = "UPPER_LEFT"
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "mtg_naval_treaty_member_entry"
+		position = { x = 0 y = 0 }
+		size = { width = 26 height = 21 }
+
+		iconType = {
+			name = "member_flag"
+			quadTextureSprite = "GFX_flag_small"
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			# Must be a plain loc key, the engine localises this before testing it for promotes and only then binds it to the entry scope.
+			pdx_tooltip = "MTG_NAVAL_TREATY_MEMBER_TT"
+		}
+	}
+
+	# Picked by GetMTGNavalTreatyMemberEntry for a signatory past the benchmark fleet, the badge is the red 10x24 mark vanilla uses for equipment warnings.
+	containerWindowType = {
+		name = "mtg_naval_treaty_member_entry_over"
+		position = { x = 0 y = 0 }
+		size = { width = 26 height = 21 }
+
+		iconType = {
+			name = "member_flag"
+			quadTextureSprite = "GFX_flag_small"
+			position = { x = 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "MTG_NAVAL_TREATY_MEMBER_TT"
+		}
+
+		iconType = {
+			name = "member_over_allowance"
+			spriteType = "GFX_warning_icon_l"
+			position = { x = 20 y = 3 }
+			scale = 0.6
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "MTG_NAVAL_TREATY_OVER_ALLOWANCE_TT"
+		}
+	}
+
+}

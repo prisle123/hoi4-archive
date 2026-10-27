@@ -38,6 +38,8 @@
  PLAYTHROUGH_OV_NOT_ELIGIBLE: "In dieser Spielpartie können keine Orden oder Bandschnallen gewonnen werden, weil Sie Mods oder Konsolenbefehle benutzt haben"
  PLAYTHROUGH_OV_MP: "Statistiken werden im Mehrspielermodus nicht aufgezeichnet"
  PLAYTHROUGH_OV_MP_AWARDS: "In Mehrspielerspielen werden keine Orden und Bandschnallen verliehen"
+ PLAYTHROUGH_OV_CONTINUE: "Spiel fortsetzen"
+ PLAYTHROUGH_OV_EXIT_TO_MENU: "Zum Hauptmenü zurückkehren\n§GUmschalt+Klick§!, um das Spiel ohne Bestätigung zu verlassen"
  #Awards tab
  CAREER_PROFILE_AWARD_TAB_LABEL: "Auszeichnungen"
  CAREER_PROFILE_AWARD_NOT_ACHIEVED: "Nicht verliehen"

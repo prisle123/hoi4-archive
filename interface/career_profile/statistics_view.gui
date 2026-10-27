@@ -253,69 +253,76 @@ guiTypes = {
 		### Country ###
 
 		containerWindowType = {
-			name = "country_header"
+			name = "country_header_clip"
 			position = { x = 0 y = -3 }
-			size = { width = 1160 height = 256 }
+			size = { width = 1160 height = 183 }
 			Orientation = center_up
 			Origo = center_up
-			clipping = no
-
-			background = {
-				name = "Background"
-				quadTextureSprite = "GFX_playthrough_stats_bg_default"
-			}
-
-			buttonType = {
-				name = "icon"
-				position = { x = 60 y = 70 }
-				spriteType = "GFX_flag_large"
-				clicksound = decisions_ui_tab
-			}
-
-			instantTextboxType = {
-				name = "name"
-				position = { x = 180 y = 74 }
-				font = "hoi_30"
-				borderSize = { x = 0 y = 0 }
-				text = "COUNTRY"
-				maxWidth = 920
-				maxHeight = 40
-				format = left
-				multiline = no
-			}
-
-			instantTextboxType = {
-				name = "starting_date"
-				position = { x = 180 y = 118 }
-				font = "hoi_20b"
-				borderSize = { x = 0 y = 0 }
-				text = "This could be the starting year."
-				maxWidth = 365
-				maxHeight = 40
-				format = left
-			}
+			clipping = yes
 
 			containerWindowType = {
-				name = "information_text_container"
-				position = { x = 60 y = 160 }
-				size = { width = 350 height = 80 }
+				name = "country_header"
+				position = { x = 0 y = 0 }
+				size = { width = 1160 height = 256 }
+				clipping = no
+
+				background = {
+					name = "Background"
+					quadTextureSprite = "GFX_playthrough_stats_bg_default"
+				}
+
+				buttonType = {
+					name = "icon"
+					position = { x = 60 y = 24 }
+					spriteType = "GFX_flag_large"
+					clicksound = decisions_ui_tab
+				}
 
 				instantTextboxType = {
-					name = "information_text"
-					position = { x = 0 y = 0 }
-					maxWidth = 350
-					maxHeight = 80
-					text = "CAREER_PROFILE_HEADER_DISCLAIMER"
-					font = "hoi_18"
+					name = "name"
+					position = { x = 180 y = 28 }
+					font = "hoi_30"
+					borderSize = { x = 0 y = 0 }
+					text = "COUNTRY"
+					maxWidth = 920
+					maxHeight = 40
 					format = left
-					text_color_code = L
+					multiline = no
+				}
+
+				instantTextboxType = {
+					name = "starting_date"
+					position = { x = 180 y = 72 }
+					font = "hoi_20b"
+					borderSize = { x = 0 y = 0 }
+					text = "This could be the starting year."
+					maxWidth = 365
+					maxHeight = 40
+					format = left
+				}
+
+				containerWindowType = {
+					name = "information_text_container"
+					position = { x = 60 y = 100 }
+					size = { width = 350 height = 80 }
+
+					instantTextboxType = {
+						name = "information_text"
+						position = { x = 0 y = 0 }
+						maxWidth = 350
+						maxHeight = 80
+						text = "CAREER_PROFILE_HEADER_DISCLAIMER"
+						font = "hoi_18"
+						format = left
+						text_color_code = L
+					}
 				}
 			}
 		}
 
 		containerWindowType = {
 			name = "statistics_window"
-			position = { x = 0 y = 242 }
+			position = { x = 0 y = 180 }
 			size = { width = 1154 height = 484 }
 			orientation = center_up
 			origo = center_up

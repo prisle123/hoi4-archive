@@ -234,7 +234,7 @@
  INTERNATIONAL_MARKET_CIV_AND_CONVOY_ALLOCATION_DELAYED_TOOLTIP: "Ce sont les §Yusines civiles§! et §Yconvois§! actuellement affectés et utilisés pour les contrats en cours."
  INTERNATIONAL_MARKET_CIC_BANK: "$CIC_BANK_HEADER$ : $VALUE|0Y$£civ_factory_output£"
  INTERNATIONAL_MARKET_ADD_TO_STOCKPILE_BUTTON_TOOLTIP: "Ajouter du matériel de nos §Yréserves§! sur le marché, de manière à ce que les pays ayant §Yaccès au marché§! puissent l'acheter contre de la £civ_factory_output£§Ycapacité économique§!."
- INTERNATIONAL_MARKET_OPTIONS: "Options du marché"
+ INTERNATIONAL_MARKET_OPTIONS: "Requêtes automatiques"
  INTERNATIONAL_MARKET_NO_TRADE_ROUTE_FOR_CONTRACT: "Nous n'avons aucune §Rliaison commerciale valide§! avec ce pays. Nous ne pouvons donc avoir de contrat avec lui."
  INTERNATIONAL_MARKET_REQUEST_AUTOMATION_WINDOW_INFO: "§GSélectionner§! quelles options automatisées activer."
  INTERNATIONAL_MARKET_REQUEST_AUTOMATION_AUTO_ACCEPT_MARKET_ACCESS_DESC: "Accepter automatiquement l'§Yaccès au marché§!"

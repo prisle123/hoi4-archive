@@ -90,6 +90,7 @@
 
  #RAJ
  RAJ_GOE_partition_cat: "Partition"
+ RAJ_GOE_partition_cat_desc: "With the Raj divided, the princely states that once answered to the Crown must now choose between us and our neighbors. Each prince weighs the promises and pressure of the successor states, and when the time comes they will join whoever has courted them most. We must spend our influence wisely, for every state won now is one we will not have to take by force later."
  RAJ_GOE_independence_movement: "Independence Movement"
  RAJ_GOE_urge_non_violence: "Urge Non-Violence in [FROM.GetName]"
  RAJ_GOE_tea_exports_cat: "Tea Exports"
@@ -126,6 +127,8 @@
  RAJ_GOE_azad_hind_radio_fascism: "Change to Fascist Aligned Propaganda" 
  RAJ_GOE_azad_hind_radio_unaligned: "Change to Unaligned Propaganda"
  RAJ_GOE_azad_hind_radio_communism: "Change to Communist Aligned Propaganda"
+ RAJ_GOE_ayer_broadcast_to_the_indian_army: "Broadcast to the Indian Army"
+ RAJ_GOE_ayer_in_cabinet_tt: "Has §YSubbier Appadurai Ayer§! as a political advisor"
  RAJ_GOE_urge_violence: "Urge Violence in [FROM.GetName]"
  RAJ_GOE_foment_independence_tension: "Foment Independence Tension in [FROM.GetName]"
  RAJ_GOE_foment_independence_tension_tt: "Cores will be regained upon completing §Y$RAJ_give_me_blood_and_i_will_grant_you_freedom$§!"
@@ -139,7 +142,9 @@
  RAJ_GOE_vie_for_princes: "Vie for Princely States"
  
 
- RAJ_GOE_vie_for_princes_tt: "\nAdds §Y1§! Pressure to [THIS.GetName], pressuring them to join us. Reduces our available capability to pressure states by §Y1§! (Currently [?ROOT.pressure_left]/[?ROOT.default_pressure]) \n\n§YCurrent Pressure towards state:§![GetPressureTextRAJ]"
+ RAJ_GOE_vie_for_princes_tt: "[GetVieForPrincesGainText]\nSpends §Y1§! of our Princely State pressure, §Y[?pressure_left|0]§! of §Y[?default_pressure|0]§! left.\n\n§YCurrent pressure on [FROM.GetName]:§![GetPressureTextRAJ]"
+ RAJ_GOE_vie_for_princes_gain_tt: "Adds §Y1§! of our pressure on [FROM.GetName], pulling it towards joining us."
+ RAJ_GOE_vie_for_princes_gain_lean_tt: "Adds §Y[?FROM.preference|2]§! of our pressure on [FROM.GetName], which already leans towards us."
  RAJ_core_states: "Core [FROM.GetName]"
  RAJ_core_states_eic: "Core [FROM.GetName]"
  RAJ_GOE_india_indivisible_cat: "India Indivisible"
@@ -147,23 +152,34 @@
  RAJ_GOE_vie_for_princes_pressure_known_RAJ: "[RAJ.GetName] Pressure: [?THIS.RAJ_pressure]"
 
  RAJ_GOE_princely_state_timeout: "Princely states deciding their fate"
- RAJ_GOE_princely_state_timeout_tt: "By pressuring them we can diplomatically annex their territory. Should we have a clear pressure advantage [FROM.GetName] will surely join us.\n\nAt the end of the mission each state will decide of who to join. If a country has more than 25% pressure than any other country in a state that state will join [ROOT.GetName] willingly.\n\n"
- pressure_left_tt: "Pressure left to play against Princely States is more than §Y0§!\nCurrently: §Y[?pressure_left]§!"
+ RAJ_GOE_princely_state_timeout_tt: "By pressuring the Princely States we can diplomatically annex their territory. Should we hold a clear pressure advantage in a state, it will surely join us.\n\nWhen the mission ends each state decides whom to join. A state joins [ROOT.GetName] willingly if our pressure on it is more than 25% higher than every other country's.\n\n"
+ pressure_left_tt: "Has Princely State pressure left to spend (§Y[?pressure_left|0]§! of §Y[?default_pressure|0]§!)"
+ RAJ_GOE_patel_pressure_gain_tt: "Gain §G2§! extra Princely State pressure."
  
  RAJ_pressure_text: "[GetPressureTextRAJ]"
  RAJ_reveal_pressure: ""
 
- RAJ_hidden_pressure_RAJ_BAN_does_not_exist: "\nOur Pressure Against [THIS.GetName]: §O[?THIS.RAJ_pressure]§!\n[PAK.GetAdjective] Pressure Against [THIS.GetName]: §YUnknown§!"
+ RAJ_hidden_pressure_RAJ_BAN_does_not_exist: "\nOur Pressure Against [FROM.GetName]: §G[?FROM.RAJ_pressure|2]§!\n[PAK.GetAdjective] Pressure Against [FROM.GetName]: §YUnknown§!"
  RAJ_hidden_pressure_RAJ_BAN_exists: "$RAJ_hidden_pressure_RAJ_BAN_does_not_exist$\n$RAJ_hidden_pressure_ban_exists$"
 
- RAJ_hidden_pressure_PAK_BAN_does_not_exist: "\nOur Pressure Against [THIS.GetName]: §G[?THIS.PAK_pressure]§!\n[RAJ.GetAdjective] Pressure Against [THIS.GetName]: §YUnknown§!"
+ RAJ_hidden_pressure_PAK_BAN_does_not_exist: "\nOur Pressure Against [FROM.GetName]: §G[?FROM.PAK_pressure|2]§!\n[RAJ.GetAdjective] Pressure Against [FROM.GetName]: §YUnknown§!"
  RAJ_hidden_pressure_PAK_BAN_exists: "$RAJ_hidden_pressure_PAK_BAN_does_not_exist$\n$RAJ_hidden_pressure_ban_exists$"
 
  RAJ_hidden_pressure_PAK: ""
- RAJ_hidden_pressure_BAN: ""
+ RAJ_hidden_pressure_BAN: "\nOur Pressure Against [FROM.GetName]: §G[?FROM.BAN_pressure|2]§!\n[RAJ.GetAdjective] Pressure Against [FROM.GetName]: §YUnknown§!\n[PAK.GetAdjective] Pressure Against [FROM.GetName]: §YUnknown§!"
  RAJ_GOE_partition_is_over: "Partition is over"
 
- RAJ_hidden_pressure_ban_exists: "[BAN.GetAdjective] Pressure Against [THIS.GetName]: §YUnknown§!"
+ RAJ_hidden_pressure_ban_exists: "[BAN.GetAdjective] Pressure Against [FROM.GetName]: §YUnknown§!"
+
+ RAJ_GOE_partition_gui_header: "Pressure to spend: §Y[?pressure_left|0]§! of §Y[?default_pressure|0]§!"
+ RAJ_GOE_partition_gui_header_tt: "Each use of §YVie for Princely States§! spends §Y1§! pressure on one state.\n£GFX_trigger_yes marks a state that leans towards us, our pressure there counts for more.\nRival pressure on each state is §YUnknown§!."
+ RAJ_GOE_partition_gui_state_row: "[THIS.Owner.GetFlag] [THIS.GetName]: [GetRAJPartitionOwnPressure]"
+ RAJ_GOE_partition_gui_state_row_lean: "[THIS.Owner.GetFlag] [THIS.GetName]: [GetRAJPartitionOwnPressure] £trigger_yes"
+ RAJ_GOE_partition_gui_state_row_lean_tt: "Our pressure on §Y[THIS.GetName]§!. When the princely states decide their fate, a state joins whoever has more than 25% more pressure on it than each rival.\n\n£trigger_yes §Y[THIS.GetName]§! leans towards us, each push adds §Y[?THIS.preference|2]§! pressure instead of §Y1§!."
+ RAJ_GOE_partition_gui_state_row_tt: "Our pressure on §Y[THIS.GetName]§!. When the princely states decide their fate, a state joins whoever has more than 25% more pressure on it than each rival."
+ RAJ_GOE_partition_gui_own_pressure_RAJ: "§G[?THIS.RAJ_pressure|2]§!"
+ RAJ_GOE_partition_gui_own_pressure_PAK: "§G[?THIS.PAK_pressure|2]§!"
+ RAJ_GOE_partition_gui_own_pressure_BAN: "§G[?THIS.BAN_pressure|2]§!"
  RAJ_akhand_bharat_cat: "Akhand Bharat Formation"
  RAJ_akhand_bharat_claim_nep: "Claim [NEP.GetAdjective] States"
  RAJ_akhand_bharat_claim_tib: "Claim [TIB.GetAdjective] States"

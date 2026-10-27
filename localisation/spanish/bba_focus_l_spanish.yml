@@ -1510,7 +1510,7 @@
  ITA_european_democracies_tt: "Los §Ypaíses europeos§! estarán más dispuestos a aceptar propuestas diplomáticas de Italia."
  ITA_european_democracies_bonus_per_ally_tt: "\nGana §G+2,00%§! de estabilidad y §G+25§! de poder político por cada país democrático independiente de la facción de [ROOT.GetName] (máx.: §Y+10,00%§! de estabilidad y §Y+125§! de poder político).\n\n"
  ITA_peace_preservation_guarantees_tt: "Garantía para todos los países europeos §Ydemocráticos§! independientes o aliados de §Y[ROOT.GetNameWithFlag]§!:"
- ITA_peace_preservation_ns_tt: "\nObtiene el espíritu nacional §Y$ITA_peace_keepers_of_europe$§!, que otorga §Y-2,0%§! de fábricas de bienes de consumo por cada país en garantía (máx.: §Y-10,0%§!), §G+1.00%§! de apoyo bélico por cada país en garantía (máx.: §Y+10,00%§!), §G+100§! de mano de obra semanal por cada país en garantía (máx.: §Y+1000§!)."
+ ITA_peace_preservation_ns_tt: "\nObtiene el espíritu nacional §Y$ITA_peace_keepers_of_europe$§!, que otorga §Y-2,0%§! de fábricas de bienes de consumo por cada país en garantía (máx.: §Y-20,0%§!), §G+1.00%§! de apoyo bélico por cada país en garantía (máx.: §Y+10,00%§!), §G+100§! de mano de obra semanal por cada país en garantía (máx.: §Y+1000§!)."
  ITA_scientific_cooperation_allies_ns_tt: "Añade el espíritu nacional §Y$ITA_scientific_cooperation$§! a §Y[ROOT.GetNameDef]§! y §Ytodos los aliados [ROOT.GetAdjective]§!."
  ITA_secure_the_borders_forts_tt: "Añade §Y2 $bunker$§! en cada provincia que linde con un país no amistoso. \nEfectos actuales:"
  ITA_scientific_cooperation_research_sharing_group_tt: "Todos los países aliados se unen a §Y$ITA_program_for_scientific_cooperation_name$§!."

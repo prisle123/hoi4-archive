@@ -2151,8 +2151,8 @@
  SUR: "Суринам"
  SUR_DEF: "Суринам"
  SUR_ADJ: "Суринамск"
- TAJ_fascism: "Матчинское бекство"
- TAJ_fascism_DEF: "Матчинское бекство"
+ TAJ_fascism: "Дарвазское шахство" #was Bekstvo of Matcha
+ TAJ_fascism_DEF: "Дарвазское шахство"
  TAJ_democratic: "Республика Таджикистан"
  TAJ_democratic_DEF: "Республика Таджикистан"
  TAJ_neutrality: "Таджикистан"

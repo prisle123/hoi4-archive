@@ -8,6 +8,8 @@
  SYSTEM_PLAYER_KICKED: "§GGracz §Y$NAME$§! został wyrzucony z gry.§!"
  SYSTEM_PLAYER_BANNED: "§GGracz §Y$NAME$§! został wykluczony z gry.§!"
  SYSTEM_PLAYER_ARRIVED: "§G§Y$NAME$§! dołącza do gry.§!"
+ MODIFIED_CLIENT_DETECTED: "Wykryto zmodyfikowanego klienta: $NAME$"
+ MODIFIED_CLIENT_BADGE_TOOLTIP: "Host wykrył, że klient gry tego gracza został zmodyfikowany."
  CONNECTED: "§GPołączono.§!"
  NAME_TAKEN: "Nazwa jest już zajęta. Wybierz inną."
  CONNECTING: "Trwa łączenie..."

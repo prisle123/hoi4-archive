@@ -73,6 +73,7 @@
  STAT_ARMY_CASUALTY_TRICKLEBACK_DESC: "전투로 인한 사상자 가운데 구조되어 가용 인력으로 복귀하는 비율입니다. 구조된 사상자는 사상자 및 피해로 인해 발생하는 전쟁 지지도 불이익에 영향을 주지 않습니다."
  STAT_ARMY_CASUALTY_TRICKLEBACK_VALUE: "$VALUE|H2%$"
  STAT_ARMY_CASUALTY_TRICKLEBACK_DIFF: " $VALUE|=+2%$"
+ CASUALTY_TRICKLEBACK_CAP_WARNING: "§R값 상한:§! $MAX|H2%$"
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR: "경험치 손실: "
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_DESC: "사단에 발생한 사상자를 새로운 병력으로 대체하면서 손실되는 경험치의 양을 나타냅니다."
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_VALUE: "$VALUE|H2%$"

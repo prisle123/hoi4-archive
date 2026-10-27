@@ -1,0 +1,23 @@
+scripted_gui = {
+
+	RAJ_GOE_partition_scripted_ui = {
+		context_type = decision_category
+		window_name = "raj_goe_partition_ui_window"
+
+		dynamic_lists = {
+			raj_goe_partition_states_grid = {
+				array = RAJ.states_in_play_partition
+				change_scope = yes
+				# Decided states return an empty container name, which drops the row
+				state_scope_entry_container = "[GetRAJPartitionStateEntry]"
+			}
+		}
+
+		triggers = {
+			raj_goe_partition_pressure_label_visible = {
+				NOT = { has_global_flag = RAJ_GOE_partition_is_over }
+			}
+		}
+	}
+
+}

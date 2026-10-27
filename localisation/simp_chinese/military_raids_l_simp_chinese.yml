@@ -98,6 +98,8 @@
  raid_type_JAP_pearl_harbor_strike_desc: "派遣轰炸机编队突袭敌军在太平洋的主要海军总部及舰队，此举不仅能重创敌方海军实力、挫败其士气，更能极大提振我国民众信心。如此一来，我军将至少掌控大洋制海权长达半年之久！"
  success_modifier_completed_kido_butai_focus: "已完成国策：§Y$JAP_form_the_kido_butai$§!"
  success_modifier_completed_kido_butai_focus_improvement: "-完成国策§Y$JAP_form_the_kido_butai$§!"
+ success_modifier_completed_midget_submarine_project: "已完成§Y$sp_naval_midget_submarine$§!项目"
+ success_modifier_completed_midget_submarine_project_improvement: "-完成§Y$sp_naval_midget_submarine$§!项目"
  raid_type_CZE_sokolov_raid_pfot: "法尔克诺夫突袭"
  raid_type_CZE_sokolov_raid_pfot_desc: "$raid_type_GER_eben_emael_raid_desc$"
  RAID_TARGET_NAME: "$LOCATION|H$的$WHAT|H$"
@@ -427,6 +429,7 @@
  raid_target_name_supply_hub: "§H$supply_node$§!"
  raid_target_name_great_wall: "§H$the_great_wall$§!"
  raid_target_name_state: "$LOCATION|H$"
+ early_nuclear_raid_unlock: "已准备好部署用原型炸弹"
  #Custom Raid Names
  ### PRC
  #Land

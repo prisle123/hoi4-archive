@@ -738,6 +738,7 @@
  COG_transports_et_ports: "Société Commerciale des Transports et des Ports"
  COG_force_publique: "Force Publique"
  COG_force_publique_desc: "Die Force Publique ist die Gendarmerie und das Militär des Kongo, die 1877 unter dem Freistaat Kongo gegründet wurde. Ihre Offiziere sind ausschließlich Europäer, entweder Belgier oder Söldner, wohingegen die Soldaten hauptsächlich Einheimische aus dem Kongo sind. Die Truppe kämpft zwar sehr effektiv, wenn es darauf ankommt, aber Ungleichheit und mangelhafte Verwaltung sorgen für großen Unfrieden."
+ COG_force_publique_fake_idea_tt: "Maximale Erhöhung der Befehlsmacht: §R-50§!\nTäglicher Befehlsmachtzuwachs: §R-50%§!"
  COG_the_invisible_roof: "Die gläserne Decke"
  COG_the_invisible_roof_desc: "Obwohl es keine offiziellen Gesetze dazu gibt, verhindern die allermeisten Einrichtungen und Organisationen in [ROOT.GetName], dass einheimische Kongolesen über einen bestimmten Status hinauskommen, und höhere Bildung wird ihnen verwehrt."
  COG_belgian_congo_colonial_dynamic_modifier: "Die Modellkolonie"

@@ -185,6 +185,13 @@ guiTypes = {
 		}
 
 		iconType = {
+			name = "operative_target_flag"
+			quadTextureSprite = "GFX_flag_small"
+			position = { x=43 y=115 }
+			scale = 0.7
+		}
+
+		iconType = {
 			name = "portrait_frame"
 			position = { x = -3 y = 40 }
 			spriteType = "GFX_operative_frame"
@@ -234,7 +241,7 @@ guiTypes = {
 		buttonType = {
 			name = "portrait_btn"
 			position = { x=3 y=5 }
-			spriteType = "GFX_leader_unknown"
+			spriteType = "GFX_operative_unknown"
 			alwaystransparent = no
 			scale = 0.33
 			clicksound = click_default
@@ -279,7 +286,7 @@ guiTypes = {
 		buttonType = {
 			name = "portrait_btn"
 			position = { x=3 y=5 }
-			spriteType = "GFX_leader_unknown"
+			spriteType = "GFX_operative_unknown"
 			alwaystransparent = no
 			scale = 0.42
 			clicksound = click_default
@@ -493,7 +500,7 @@ guiTypes = {
 			clicksound = click_default
 			position = { x=350 y=@btn_mission_y }
 			frame = 1
-			shortcut = "d"
+			keybind = "operative_mission_diplomatic_pressure"
 		}
 		iconType = {
 			name = "icn_mission_7"

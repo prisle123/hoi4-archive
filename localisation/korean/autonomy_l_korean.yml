@@ -55,7 +55,7 @@
  EVENT_AUTONOMY_EFFECTS: "§H자치도에 대한 영향§!"
  ADD_AUTONOMY_SCORE_DESC: "£autonomy_texticon $VALUE|H2$ 추가"
  ADD_AUTONOMY_SCORE_DETAILED_DESC: "$COUNTRY|H$에 £autonomy_texticon $VALUE|H2$ 추가"
- COLONIAL_FORCES_GENERAL_DESCRIPTION: "§G종속국과 망명 정부의 편제를 보려면 클릭하세요§!\n\n식민지 편제로 창설된 사단은 식민지의 자치도가 낮을수록 더 많은 인력을 넣을 수 있습니다."
+ COLONIAL_FORCES_GENERAL_DESCRIPTION: "종속국과 망명 정부의 편제를 보려면 §G클릭§!하세요\n\n식민지 편제로 창설된 사단은 식민지의 자치도가 낮을수록 더 많은 식민지 인력을 사용할 수 있습니다."
  COLONIAL_FORCES_NO_SUBJECTS: "§R징병할 수 있는 종속국 또는 망명 정부의 편제가 없음§!"
  FOREIGN_TEMPLATE_DESC: "이 편제는 종속국인 $COUNTRY_ADJ|H$의 것입니다. 해당 편제를 복사하여 해당 국가에서 식민군을 창설할 수 있습니다. 식민군의 인력 차출 비율은 종속국의 자치도 수준에 따라 결정됩니다."
  COLONIAL_TEMPLATE_DESC: "$COUNTRY_DEF|H$의 식민 편제입니다. 식민군이 종속국에서 인력을 차출하는 비율은 자치도 수준에 따라 결정됩니다."

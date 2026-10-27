@@ -39,7 +39,7 @@ leader_traits = {
 	}
 
 	feminist_minister = {
-		sprite = 5
+		sprite = 13
 		compliance_gain = 0.02
 		democratic_drift = 0.05
 
@@ -150,7 +150,7 @@ leader_traits = {
 	}
 
 	PER_deposed_shah_trait = {
-		sprite = 5
+		sprite = 13
 		autonomy_gain = 0.1
 		stability_factor = 0.1
 
@@ -202,7 +202,7 @@ leader_traits = {
 	}
 
 	governor_of_the_andaman_islands ={
-		sprite = 13
+		sprite = 3
 		naval_invasion_prep_speed = 0.2
 		production_speed_naval_base_factor = 0.15
 		equipment_bonus = {
@@ -308,7 +308,7 @@ leader_traits = {
 	}
 
 	special_operations_specialist = {
-		sprite = 3
+		sprite = 6
 		paradrop_organization_factor = 0.1
 		paratrooper_aa_defense = 0.25
 		no_supply_grace = 72
@@ -486,7 +486,7 @@ leader_traits = {
 
 	RAJ_GOE_wealthy_philantrophist = {
 		consumer_goods_factor = -0.1
-		sprite = 13
+		sprite = 10
 	}
 
 	RAJ_GOE_the_reformer_maharaja = {
@@ -553,7 +553,7 @@ leader_traits = {
 
 	RAJ_GOE_cautious_strategist = {
 		army_core_defence_factor = 0.12
-		sprite = 5
+		sprite = 9
 	}
 
 	RAJ_GOE_financial_strategist = {
@@ -629,6 +629,23 @@ leader_traits = {
 		communism_drift = 0.03
 	}
 
+	RAJ_GOE_iron_man_of_india = {
+		sprite = 13
+		random = no
+		compliance_growth = 0.02
+		political_power_factor = 0.05
+		custom_modifier_tooltip = RAJ_GOE_iron_man_of_india_tt
+	}
+
+	RAJ_GOE_minister_of_publicity_and_propaganda = {
+		sprite = 13
+		random = no
+		war_stability_factor = 0.05
+		weekly_casualties_war_support = 0.006
+		boost_ideology_mission_factor = 0.15
+		custom_modifier_tooltip = RAJ_GOE_minister_of_publicity_and_propaganda_tt
+	}
+
 	RAJ_heir_of_the_empire = {
 		stability_factor = 0.1
 		army_core_defence_factor = 0.1
@@ -637,7 +654,7 @@ leader_traits = {
 	}
 
 	motor_tycoon = {
-		sprite = 13
+		sprite = 5
 		production_speed_arms_factory_factor = 0.04
 		equipment_bonus = {
 			motorized = {
@@ -686,7 +703,7 @@ leader_traits = {
 	}
 
 	banking_mogul = {
-		sprite = 13
+		sprite = 10
 		industrial_capacity_factory = 0.05
 		industrial_capacity_dockyard = 0.05
 		production_factory_efficiency_gain_factor = 0.05
@@ -721,5 +738,29 @@ leader_traits = {
 		communism_drift = 0.02
 	}
 	#RAJ
+
+	RAJ_historian_of_the_congress = {
+		sprite = 13
+		random = no
+		political_power_factor = 0.05
+		party_popularity_stability_factor = 0.1
+		democratic_drift = 0.03
+	}
+
+	RAJ_gandhian_old_guard = {
+		sprite = 13
+		random = no
+		stability_factor = 0.05
+		democratic_drift = 0.05
+		war_support_factor = -0.05
+	}
+
+	RAJ_founder_of_andhra_bank = {
+		sprite = 13
+		random = no
+		consumer_goods_factor = -0.05
+		production_speed_industrial_complex_factor = 0.05
+		trade_opinion_factor = 0.1
+	}
 
 }

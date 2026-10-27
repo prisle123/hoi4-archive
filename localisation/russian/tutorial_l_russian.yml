@@ -53,7 +53,7 @@
  TUT_MOVE_CAMERA: "Перемещена камера в регион $STATE$"
  TUT_SELECTED_DIVS: "$NUMBERS$ дивизий выделено в регионе $STATE$"
  TUT_COMMAND_GROUP: "Создана армия"
- TUT_FRONTLINE: "Между регионом $STATE$ и Эфиопией проведена линия фронта"
+ TUT_FRONTLINE: "Между регионом §Y$STATE$§! и Эфиопией проведена линия фронта"
  TUT_OFFENSIVE_ORDER: "Разработан наступательный приказ по захвату города $ENEMY_CAPITAL$"
  TUT_AIRBASE: "Рассмотрена авиабаза в регионе $STATE$"
  TUT_AIRWINGS_ASSIGNED: "$NUMBERS$ авиакрыла с базы $STATE$ назначены в воздушный регион $REGION$"

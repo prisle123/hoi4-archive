@@ -73,6 +73,7 @@
  STAT_ARMY_CASUALTY_TRICKLEBACK_DESC: "Proportion de pertes au combat pouvant être restituée dans la réserve d'effectifs. Les pertes évitées n'impactent pas la pénalité en soutien à la guerre causée par les pertes et dommages."
  STAT_ARMY_CASUALTY_TRICKLEBACK_VALUE: "$VALUE|H2%$"
  STAT_ARMY_CASUALTY_TRICKLEBACK_DIFF: " $VALUE|=+2%$"
+ CASUALTY_TRICKLEBACK_CAP_WARNING: "§RValeur limitée à§! $MAX|H2%$"
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR: "Perte d'exp. : "
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_DESC: "Expérience perdue par une division lorsqu'elle subit des pertes qu'elle doit remplacer."
  STAT_ARMY_EXPERIENCE_LOSS_FACTOR_VALUE: "$VALUE|H2%$"

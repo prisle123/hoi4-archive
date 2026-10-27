@@ -638,6 +638,8 @@
  occupied_countries.1.desc: "Nach langen und konzertierten Bemühungen, die Kooperation und den Gehorsam zwischen unseren Besatzungstruppen und den lokalen Zivilbehörden zu verbessern, sind wir nun bereit, die Kontrolle über [From.From.GetNameDef] wieder in die Hände einer lokalen Regierung zu legen. Diese neue Regierung besteht aus Zivilisten, die uns wohlgesonnen sind, und ist bereit, sich eng mit uns abzustimmen."
  occupied_countries.1.a: "Sie haben unseren Segen."
  occupied_countries.1.b: "Sie sind noch nicht so weit."
+ occupied_countries.1.c: "Hört auf, derartige Petitionen vorzulegen."
+ occupied_countries.1.c_tt: "Wir werden nicht länger darüber informiert, wenn eine besetze Nation zu einer §YKollaborationsregierung§! bereit ist.\nDiese können ungeachtet dessen aber weiterhin über die Entscheidungen für §YFremdeinfluss§! geschaffen werden."
  lar_news.1.t_franco: "Nationalisten gewinnen den Spanischen Bürgerkrieg"
  lar_news.1.t_falangist: "Falangisten gewinnen den Spanischen Bürgerkrieg"
  lar_news.1.t_carlists: "Carlisten gewinnen den Spanischen Bürgerkrieg"

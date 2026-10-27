@@ -504,11 +504,8 @@ BRA_good_neighbor_decisions = {
 				USA = {
 					has_war = no
 				}
-				any_country = {
-					AND = {
-						has_war_with = USA
-						has_war_with = BRA
-					}
+				any_enemy_country = {
+					has_war_with = USA
 				}
 			}
 		}
@@ -1319,7 +1316,8 @@ political_actions = {
 			base = 50
 		}
 	
-		allowed = {  
+		allowed = {
+			has_dlc = "Trial of Allegiance"
 		}
 
 		visible = { 
